@@ -1,0 +1,29 @@
+{
+  "jurisdiction_info": {
+    "jurisdiction_code": "CO",
+    "jurisdiction_name": "Colorado",
+    "jurisdiction_type": "state"
+  },
+  "statute_info": {
+    "primary_law": "Colorado Open Records Act (CORA)",
+    "statute_citation": "C.R.S. §§ 24-72-201 to 24-72-206",
+    "key_provisions": {
+      "response_time": "3 working days (7 additional days if extenuating circumstances)",
+      "fees": "$0.25 per page after first 25 pages, hourly rate after first hour",
+      "exemptions": "See C.R.S. §§ 24-72-201 to 24-72-206 for exemptions",
+      "enforcement": "District court action, discretionary attorney fees"
+    }
+  },
+  "validation_metadata": {
+    "verification_date": "2025-01-23",
+    "source_verified": true,
+    "primary_sources": [
+      "https://leg.colorado.gov/colorado-revised-statutes/title-24"
+    ],
+    "cross_references": [
+      "2024 fee structure updates"
+    ],
+    "confidence_level": "high",
+    "validator_notes": "Fee waivers available for public purpose use"
+  }
+}

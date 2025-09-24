@@ -1,0 +1,29 @@
+{
+  "jurisdiction_info": {
+    "jurisdiction_code": "IA",
+    "jurisdiction_name": "Iowa",
+    "jurisdiction_type": "state"
+  },
+  "statute_info": {
+    "primary_law": "Iowa Open Records Law",
+    "statute_citation": "Iowa Code Chapter 22",
+    "key_provisions": {
+      "response_time": "10 business days",
+      "fees": "Reasonable expenses, 30-minute rule for fee assessment",
+      "exemptions": "See Iowa Code Chapter 22 for exemptions",
+      "enforcement": "Iowa Public Information Board"
+    }
+  },
+  "validation_metadata": {
+    "verification_date": "2025-01-23",
+    "source_verified": true,
+    "primary_sources": [
+      "https://www.legis.iowa.gov/docs/ico/chapter/22.pdf"
+    ],
+    "cross_references": [
+      "2022 amendments limiting fees for requests under 30 minutes"
+    ],
+    "confidence_level": "high",
+    "validator_notes": "Recent changes limit fee assessment for simple requests"
+  }
+}

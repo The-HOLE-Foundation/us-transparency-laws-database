@@ -1,0 +1,29 @@
+{
+  "jurisdiction_info": {
+    "jurisdiction_code": "LA",
+    "jurisdiction_name": "Louisiana",
+    "jurisdiction_type": "state"
+  },
+  "statute_info": {
+    "primary_law": "Louisiana Public Records Act",
+    "statute_citation": "LSA-R.S. §§ 44:1 to 44:41",
+    "key_provisions": {
+      "response_time": "Immediately if available, 3 business days if not immediately available",
+      "fees": "Reasonable copying fees, advance payment allowed, fee waivers for indigent",
+      "exemptions": "See LSA-R.S. §§ 44:1 to 44:41 for exemptions",
+      "enforcement": "District court action, attorney fees for prevailing party"
+    }
+  },
+  "validation_metadata": {
+    "verification_date": "2025-01-23",
+    "source_verified": true,
+    "primary_sources": [
+      "https://www.legis.la.gov/legis/Law.aspx?d=99632"
+    ],
+    "cross_references": [
+      "$100/day civil penalty for arbitrary refusal"
+    ],
+    "confidence_level": "high",
+    "validator_notes": "$100 per day penalty for custodians who arbitrarily refuse requests"
+  }
+}

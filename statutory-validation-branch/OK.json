@@ -1,0 +1,29 @@
+{
+  "jurisdiction_info": {
+    "jurisdiction_code": "OK",
+    "jurisdiction_name": "Oklahoma",
+    "jurisdiction_type": "state"
+  },
+  "statute_info": {
+    "primary_law": "Oklahoma Open Records Act",
+    "statute_citation": "51 O.S. §§ 24A.1 to 24A.29",
+    "key_provisions": {
+      "response_time": "No specific timeframe specified",
+      "fees": "Max $0.25/page copying, $25/hour search fee (commercial/disruptive only)",
+      "exemptions": "See 51 O.S. §§ 24A.1 to 24A.29 for exemptions",
+      "enforcement": "District court action"
+    }
+  },
+  "validation_metadata": {
+    "verification_date": "2025-01-23",
+    "source_verified": true,
+    "primary_sources": [
+      "https://oksenate.gov/sites/default/files/2022-05/os51.pdf"
+    ],
+    "cross_references": [
+      "No recent amendments noted"
+    ],
+    "confidence_level": "high",
+    "validator_notes": "Search fees waived for news media, scholars, authors, and taxpayers"
+  }
+}

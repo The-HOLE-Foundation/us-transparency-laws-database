@@ -1,0 +1,97 @@
+{
+  "jurisdiction_info": {
+    "jurisdiction_code": "OH",
+    "jurisdiction_name": "Ohio",
+    "jurisdiction_type": "state"
+  },
+  "statute_details": {
+    "official_name": "Ohio Public Records Act", 
+    "statute_citation": "Ohio Revised Code Section 149.43",
+    "chapter_section": "Title 1, Chapter 149",
+    "effective_date": "1963",
+    "last_amended": "2025 (including HB 33, SB 29, HB 265, HB 315, HB 96)"
+  },
+  "response_requirements": {
+    "initial_response_days": null,
+    "initial_response_description": "Must make records 'promptly' available for inspection during regular business hours",
+    "maximum_response_days": null,
+    "extension_allowed": false,
+    "extension_max_days": null,
+    "extension_conditions": [
+      "Copies provided 'within a reasonable period of time'",
+      "Video records: 5 business days for cost estimate"
+    ]
+  },
+  "appeal_process": {
+    "administrative_appeal_required": false,
+    "appeal_deadline_days": null,
+    "appeal_authority": "Direct judicial review",
+    "judicial_review_available": true,
+    "court_jurisdiction": "Common Pleas Court via mandamus action"
+  },
+  "fee_structure": {
+    "standard_copy_fee": "Actual cost of duplication",
+    "electronic_fee": "Actual cost of duplication",
+    "search_time_fee": "Not generally permitted",
+    "certification_fee": "Video records: up to $75/hour, $750 total cap",
+    "waiver_available": false,
+    "waiver_criteria": [
+      "No statutory fee waiver provision"
+    ]
+  },
+  "exemptions": [
+    "Medical records",
+    "Records required to be kept confidential by federal law",
+    "Records pertaining to adoption proceedings",
+    "Information that would endanger life or safety",
+    "Records of designated public service workers (residential/familial information)",
+    "Trial preparation records",
+    "Confidential law enforcement investigatory records",
+    "Security records"
+  ],
+  "requester_requirements": {
+    "identification_required": false,
+    "purpose_statement_required": false,
+    "residency_requirement": false,
+    "specific_format": "No specific form required"
+  },
+  "agency_obligations": {
+    "records_officer_required": false,
+    "business_hours_access": true,
+    "electronic_submission_accepted": true,
+    "response_format_options": [
+      "Inspection during business hours",
+      "Copies provided",
+      "Electronic transmission when available"
+    ]
+  },
+  "oversight_body": {
+    "name": "No centralized oversight body",
+    "role": "Direct court enforcement via mandamus",
+    "contact_info": "Local courts"
+  },
+  "official_resources": {
+    "primary_statute_url": "https://codes.ohio.gov/ohio-revised-code/section-149.43",
+    "agency_handbook_url": "https://www.ohioattorneygeneral.gov/sunshine",
+    "request_portal_url": "Varies by agency",
+    "oversight_url": "https://www.ohioattorneygeneral.gov/sunshine"
+  },
+  "validation_metadata": {
+    "verification_date": "2024-09-23",
+    "source_verified": true,
+    "primary_sources": [
+      "Ohio Revised Code (codes.ohio.gov)",
+      "Ohio Revised Code Section 149.43",
+      "Ohio Attorney General guidance"
+    ],
+    "recent_legislative_updates": [
+      "HB 33 (2023): General amendments (October 3, 2023)",
+      "SB 29 (2024): Significant amendments (October 24, 2024)",
+      "HB 265 (2025): Pre-litigation requirements, worker protections (April 9, 2025)",
+      "HB 315 (2025): Video record fee provisions (April 9, 2025)",
+      "HB 96 (2025): Recent amendments (September 30, 2025)"
+    ],
+    "verification_notes": "Core 'promptly' and 'reasonable time' standards preserved despite extensive recent amendments",
+    "confidence_level": "high"
+  }
+}

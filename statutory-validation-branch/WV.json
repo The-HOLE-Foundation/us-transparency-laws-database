@@ -1,0 +1,29 @@
+{
+  "jurisdiction_info": {
+    "jurisdiction_code": "WV",
+    "jurisdiction_name": "West Virginia",
+    "jurisdiction_type": "state"
+  },
+  "statute_info": {
+    "primary_law": "West Virginia Freedom of Information Act",
+    "statute_citation": "W. Va. Code Ch. 29B",
+    "key_provisions": {
+      "response_time": "5 business days",
+      "fees": "Actual reproduction costs only, no search or retrieval fees",
+      "exemptions": "See W. Va. Code Ch. 29B for exemptions",
+      "enforcement": "Circuit court action"
+    }
+  },
+  "validation_metadata": {
+    "verification_date": "2025-01-23",
+    "source_verified": true,
+    "primary_sources": [
+      "https://code.wvlegislature.gov/29B/"
+    ],
+    "cross_references": [
+      "No recent amendments noted"
+    ],
+    "confidence_level": "high",
+    "validator_notes": "Clear prohibition on labor-based fees, limited to reproduction costs only"
+  }
+}

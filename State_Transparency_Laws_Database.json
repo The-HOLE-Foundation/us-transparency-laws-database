@@ -1,0 +1,1741 @@
+{
+  "database_metadata": {
+    "title": "State Transparency Laws Database - 32 States Complete",
+    "version": "3.0",
+    "creation_date": "2025-01-23",
+    "last_updated": "2025-09-23",
+    "purpose": "Verified ground truth database for AI model training on state freedom of information laws",
+    "coverage": "32 US states with comprehensive transparency law information",
+    "sources": "Official government websites and statutory citations only",
+    "verification_status": "All information verified against official sources as of September 2025",
+    "states_completed": [
+      "Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware",
+      "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Louisiana", "Maryland",
+      "Massachusetts", "Michigan", "Minnesota", "Missouri", "New Jersey", "New York", "North Carolina",
+      "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Tennessee", "Texas", "Virginia", "Washington", "Wisconsin"
+    ],
+    "states_remaining": [
+      "Iowa", "Kansas", "Kentucky", "Maine", "Mississippi", "Montana", "Nebraska", "Nevada",
+      "New Hampshire", "New Mexico", "North Dakota", "Rhode Island", "South Carolina", "South Dakota",
+      "Utah", "Vermont", "West Virginia", "Wyoming"
+    ]
+  },
+  "states": {
+    "california": {
+      "state_name": "California",
+      "law_name": "California Public Records Act",
+      "acronym": "CPRA",
+      "official_citation": "California Government Code Sections 7920.000-7930.215",
+      "effective_date": "January 1, 2023 (recodified from Gov. Code §§6250-6276.48)",
+      "response_timeframes": {
+        "initial_response": "10 business days",
+        "initial_response_details": "Agency must respond within 10 business days with determination of whether it has records and if they will be disclosed",
+        "extension_allowed": "14 additional business days",
+        "extension_conditions": [
+          "Need to search and collect records from separate facilities",
+          "Need to search for voluminous records", 
+          "Need to consult with another interested agency or department",
+          "Need to compile electronic records"
+        ],
+        "production_timeframe": "Promptly available (no specific deadline)",
+        "production_details": "Records must be made 'promptly available' but no precise deadline specified"
+      },
+      "fee_structure": {
+        "inspection_fee": "Free",
+        "standard_copies": "$0.35 per page",
+        "electronic_records": "Actual cost of duplication or statutory fee",
+        "electronic_compilation": "Cost sufficient to recover all costs if resources/systems available",
+        "advance_payment": "May be required for electronic compilations, extracts, or summaries"
+      },
+      "appeal_process": {
+        "type": "Judicial only",
+        "administrative_appeal": false,
+        "court_venue": "Any court of competent jurisdiction",
+        "legal_basis": "Government Code Section 7923.000",
+        "remedies": ["Injunctive relief", "Declaratory relief", "Writ of mandate"],
+        "attorney_fees": "Mandatory for prevailing plaintiff (Section 7923.115(a))",
+        "immediate_review": "Emergency petition for extraordinary writ available"
+      },
+      "key_exemptions": [
+        {
+          "citation": "Government Code Section 7922.000", 
+          "description": "General catch-all exemption where public interest in non-disclosure clearly outweighs public interest in disclosure"
+        },
+        {
+          "citation": "Government Code Sections 7923.600-7929.610",
+          "description": "Categorical exemptions including law enforcement records, attorney-client privilege, and other specific categories"
+        },
+        {
+          "citation": "Government Code Section 7927.705",
+          "description": "Records protected by Evidence Code privileges and other statutes"
+        }
+      ],
+      "official_resources": [
+        {
+          "name": "California Attorney General's Office",
+          "url": "oag.ca.gov/consumers/general/pra",
+          "description": "Public Records guidance and information"
+        },
+        {
+          "name": "California Legislature Official Site", 
+          "url": "leginfo.legislature.ca.gov",
+          "description": "Official statute text Government Code Division 10"
+        }
+      ],
+      "burden_of_proof": "Agency claiming exemption",
+      "presumption": "Disclosure favored",
+      "courts_coverage": "Courts and judicial bodies not subject to CPRA"
+    },
+    "new_york": {
+      "state_name": "New York",
+      "law_name": "Freedom of Information Law",
+      "acronym": "FOIL", 
+      "official_citation": "New York Public Officers Law Article 6, Sections 84-90",
+      "effective_date": "Original enactment with amendments through present",
+      "response_timeframes": {
+        "initial_response": "5 business days",
+        "initial_response_details": "Must respond within 5 business days by providing records, denying request, or acknowledging receipt",
+        "acknowledgment_timeframe": "If cannot provide immediately, must give timeframe for production",
+        "typical_production": "20 business days for most records",
+        "extension_conditions": "Reasonable time based on complexity and volume"
+      },
+      "fee_structure": {
+        "inspection_fee": "Free",
+        "standard_copies": "$0.25 per page (records up to 9\"x14\")",
+        "larger_copies": "Actual cost of reproduction",
+        "payment_required": "Before records released",
+        "payment_methods": "Check or money order",
+        "postage": "Additional charge if mailed"
+      },
+      "appeal_process": {
+        "type": "Administrative then judicial",
+        "administrative_appeal": true,
+        "administrative_timeline": "7 business days to file appeal after denial",
+        "administrative_decision": "10 business days for agency decision on appeal",
+        "appeal_authority": "Head of agency, chief executive officer, governing body, or designated representative",
+        "judicial_review": "Available after administrative appeal or directly for certain violations"
+      },
+      "key_exemptions": [
+        {
+          "citation": "Public Officers Law Section 87(2)",
+          "description": "Eight specific narrowly constructed exemptions including law enforcement records, personal privacy, trade secrets"
+        },
+        {
+          "citation": "Public Officers Law Section 87(2)(e)",
+          "description": "Law enforcement records that would interfere with investigations, judicial proceedings, or identify confidential sources"
+        }
+      ],
+      "official_resources": [
+        {
+          "name": "New York Committee on Open Government",
+          "url": "dos.ny.gov/coog/foil2.html", 
+          "description": "Official guidance and full statute text"
+        },
+        {
+          "name": "New York Department of State",
+          "url": "dos.ny.gov/foil",
+          "description": "FOIL request procedures and guidance"
+        }
+      ],
+      "burden_of_proof": "Agency resisting disclosure",
+      "presumption": "Maximum access with exemptions narrowly construed",
+      "special_provisions": "Committee on Open Government provides ongoing guidance and advisory opinions"
+    },
+    "texas": {
+      "state_name": "Texas",
+      "law_name": "Public Information Act",
+      "acronym": "PIA",
+      "official_citation": "Texas Government Code Chapter 552",
+      "effective_date": "Ongoing amendments to original statute",
+      "response_timeframes": {
+        "initial_response": "Promptly",
+        "initial_response_details": "Must produce information 'promptly' meaning as soon as possible without delay",
+        "notification_requirement": "If cannot produce within 10 business days, must certify in writing and set reasonable completion date",
+        "attorney_general_ruling": "Must request AG ruling within 10 business days if withholding records",
+        "ruling_notification": "Must notify requester of AG ruling request within 10 business days"
+      },
+      "fee_structure": {
+        "general_principle": "Reasonable amount including all costs of reproduction (materials, labor, overhead)",
+        "estimates_over_40": "Detailed itemized statement required if costs exceed $40",
+        "estimates_over_100": "Bond, prepayment or deposit required if over $100 ($50 for agencies with <16 employees)",
+        "waiver_available": "If in public interest and benefits general public",
+        "response_deadline": "10 business days to respond to estimate or request deemed withdrawn"
+      },
+      "appeal_process": {
+        "type": "Attorney General ruling system",
+        "administrative_appeal": "Attorney General ruling required before withholding",
+        "ag_timeline": "Agency must request ruling within 10 business days",
+        "judicial_review": "Available after AG ruling",
+        "enforcement": "County/district attorney for local agencies, AG for state agencies",
+        "complaint_venue": "County/district attorney of county where agency located"
+      },
+      "key_exemptions": [
+        {
+          "citation": "Government Code Section 552.101",
+          "description": "Information confidential by constitutional, statutory, or judicial law"
+        },
+        {
+          "citation": "Government Code Section 552.108",
+          "description": "Law enforcement, corrections, and prosecutorial information that would interfere with detection, investigation, or prosecution"
+        }
+      ],
+      "official_resources": [
+        {
+          "name": "Texas Attorney General's Office",
+          "url": "texasattorneygeneral.gov/open-government",
+          "description": "Comprehensive guidance, rulings, and 2024 Public Information Act Handbook"
+        },
+        {
+          "name": "Texas Legislature", 
+          "url": "statutes.capitol.texas.gov/Docs/GV/htm/GV.552.htm",
+          "description": "Official statute text Chapter 552"
+        }
+      ],
+      "burden_of_proof": "Agency seeking to withhold records",
+      "presumption": "All government information presumed available to public",
+      "unique_features": "Attorney General ruling system for disputed exemptions; strong presumption of openness"
+    },
+    "florida": {
+      "state_name": "Florida", 
+      "law_name": "Sunshine Law (Public Records)",
+      "acronym": "Chapter 119",
+      "official_citation": "Florida Statutes Chapter 119",
+      "effective_date": "Original 1909 law with ongoing amendments",
+      "response_timeframes": {
+        "initial_response": "Prompt acknowledgment required",
+        "initial_response_details": "Must acknowledge requests promptly and respond in good faith",
+        "reasonable_time": "Records available at any reasonable time under reasonable conditions",
+        "good_faith_standard": "Must make reasonable efforts to determine if records exist and location",
+        "no_specific_deadline": "No specific day deadline, emphasis on reasonable access"
+      },
+      "fee_structure": {
+        "inspection_fee": "Free",
+        "standard_copies": "Up to $0.15 per one-sided copy (14\" x 8.5\" or smaller)",
+        "two_sided_copies": "Additional $0.05 per two-sided copy",
+        "other_copies": "Actual cost of duplication",
+        "certified_copies": "Up to $1.00 per copy",
+        "county_maps": "Reasonable charge for labor and overhead",
+        "electronic_access": "Direct and indirect costs for remote electronic access"
+      },
+      "appeal_process": {
+        "type": "Judicial",
+        "administrative_appeal": false,
+        "court_venue": "Circuit court",
+        "enforcement_mechanism": "Mandamus or other judicial relief",
+        "attorney_fees": "Available if records improperly withheld",
+        "disposal_restriction": "Records cannot be disposed of for 30 days after request"
+      },
+      "key_exemptions": [
+        {
+          "citation": "Florida Statute 119.071",
+          "description": "General exemptions including personal information of judges, prosecutors, law enforcement"
+        },
+        {
+          "citation": "Various Florida Statutes",
+          "description": "Numerous specific exemptions throughout Florida law"
+        }
+      ],
+      "official_resources": [
+        {
+          "name": "Florida Attorney General's Office",
+          "url": "myfloridalegal.com/open-government",
+          "description": "Sunshine Manual and comprehensive guidance"
+        },
+        {
+          "name": "Florida Legislature",
+          "url": "leg.state.fl.us/statutes",
+          "description": "Official statute text Chapter 119"
+        }
+      ],
+      "burden_of_proof": "Agency claiming exemption",
+      "presumption": "Strong presumption of access since 1909",
+      "unique_features": "Oldest public records law tradition in US; photography of records allowed under supervision"
+    },
+    "illinois": {
+      "state_name": "Illinois",
+      "law_name": "Freedom of Information Act",
+      "acronym": "FOIA",
+      "official_citation": "5 ILCS 140",
+      "effective_date": "Ongoing amendments to base statute",
+      "response_timeframes": {
+        "initial_response": "5 business days",
+        "initial_response_details": "Must comply with or deny written request within 5 business days",
+        "extension_allowed": "5 additional business days under certain circumstances",
+        "extension_conditions": [
+          "Staffing limitations",
+          "Need for legal review", 
+          "Nature of request precludes timely response"
+        ],
+        "maximum_delay": "7 working days beyond initial period",
+        "commercial_requests": "21 business days for commercial purpose requests",
+        "failure_deemed_denial": "Failure to respond within timeframes considered denial"
+      },
+      "fee_structure": {
+        "up_to_50_pages": "Free",
+        "over_50_pages": "$0.15 per page",
+        "no_fee_if_late": "No fees allowed if agency responds late",
+        "waiver_available": "When determined to be in public interest",
+        "actual_cost_basis": "Fees reasonably calculated to reimburse actual reproduction and certification costs"
+      },
+      "appeal_process": {
+        "type": "Administrative then judicial",
+        "administrative_appeal": "Public Access Counselor (Attorney General's Office)",
+        "appeal_timeline": "60 days from denial to file with Public Access Counselor",
+        "judicial_review": "Circuit Court for Sangamon County or requester's county of residence",
+        "enforcement_mechanism": "Public Access Bureau enforces compliance"
+      },
+      "key_exemptions": [
+        {
+          "citation": "5 ILCS 140/7",
+          "description": "Comprehensive list of exemptions including personal information, law enforcement, deliberative process"
+        },
+        {
+          "citation": "Federal FOIA exemptions",
+          "description": "Illinois adopts federal FOIA exemptions by reference"
+        }
+      ],
+      "official_resources": [
+        {
+          "name": "Illinois Attorney General Public Access Bureau",
+          "url": "illinoisattorneygeneral.gov/government/FOIA_PAC",
+          "description": "Public Access Counselor services, guidance, and training"
+        },
+        {
+          "name": "Illinois General Assembly",
+          "url": "ilga.gov/legislation/ilcs/ilcs3.asp?ActID=85",
+          "description": "Official statute text 5 ILCS 140"
+        }
+      ],
+      "burden_of_proof": "Agency claiming exemption",
+      "presumption": "Public access presumed",
+      "penalties": "$2,500-$5,000 for willful violations; attorney fees for bad faith denials",
+      "unique_features": "Among harshest FOIA penalties in nation; Public Access Counselor system"
+    },
+    "pennsylvania": {
+      "state_name": "Pennsylvania",
+      "law_name": "Right-to-Know Law", 
+      "acronym": "RTKL",
+      "official_citation": "65 Pa.C.S. §67.101 et seq.",
+      "effective_date": "January 1, 2009 (Act 3 of 2008)",
+      "response_timeframes": {
+        "initial_response": "5 business days",
+        "initial_response_details": "Must respond within 5 business days or request deemed denied",
+        "extension_allowed": "Yes, under certain conditions",
+        "extension_conditions": [
+          "Bona fide staffing limitations",
+          "Need for legal review",
+          "Nature of request precludes response within required time"
+        ],
+        "record_retention": "60 days for requester to retrieve prepared copies",
+        "appeal_deadline": "15 business days from mailing date of denial or deemed denial"
+      },
+      "fee_structure": {
+        "duplication_max": "$0.25 per page (Commonwealth agencies)",
+        "reduced_rate": "$0.15 per page (at agency discretion for on-site)",
+        "waiver_threshold": "50 pages or less (agencies may waive)",
+        "certified_copies": "$1.00 per copy when requested",
+        "postage_fax": "Actual cost",
+        "prepayment_threshold": "$100 estimated costs ($50 for agencies with <16 employees)",
+        "specialized_media": "Actual cost for microfiche, specialized documents"
+      },
+      "appeal_process": {
+        "type": "Administrative then judicial",
+        "administrative_appeal": "Office of Open Records",
+        "appeal_timeline": "15 business days to file appeal",
+        "oor_decision": "Binding Final Determination",
+        "judicial_review": "Commonwealth Court or Common Pleas Court",
+        "judicial_timeline": "30 calendar days from Final Determination",
+        "penalties": "Up to $1,500 for bad faith denial; $500/day for non-compliance with court order"
+      },
+      "key_exemptions": [
+        {
+          "citation": "65 Pa.C.S. § 708",
+          "description": "30 specific exemptions including personal identification, internal deliberations, trade secrets"
+        },
+        {
+          "citation": "65 Pa.C.S. § 708(b)(6)",
+          "description": "Personal identification information including SSN, driver's license, financial info"
+        },
+        {
+          "citation": "65 Pa.C.S. § 708(b)(10)", 
+          "description": "Internal predecisional deliberations"
+        },
+        {
+          "citation": "65 Pa.C.S. § 708(b)(17)",
+          "description": "Criminal investigation records"
+        }
+      ],
+      "official_resources": [
+        {
+          "name": "Pennsylvania Office of Open Records",
+          "url": "openrecords.pa.gov",
+          "description": "Appeals processing, training, advisory opinions, Citizens' Guide"
+        },
+        {
+          "name": "Pennsylvania General Assembly",
+          "url": "legis.state.pa.us",
+          "description": "Official statute text Act 3 of 2008"
+        }
+      ],
+      "burden_of_proof": "Agency claiming exemption (by preponderance of evidence)",
+      "presumption": "Public access presumed",
+      "unique_features": "Office of Open Records provides structured administrative appeals; comprehensive fee structure with prepayment thresholds"
+    },
+    "alabama": {
+      "state_name": "Alabama",
+      "law_name": "Alabama Open Records Law",
+      "acronym": "Open Records Law",
+      "official_citation": "Alabama Code § 36-12-40 through § 36-12-41",
+      "effective_date": "Original enactment 1923 with subsequent amendments",
+      "response_timeframes": {
+        "initial_response": "No mandated response time",
+        "initial_response_details": "No specific timeframe required; agencies process when appropriate fees received",
+        "extension_allowed": "N/A",
+        "production_timeframe": "When reasonably possible after fees paid",
+        "special_provisions": "Executive Order 734 (2023) requires state agencies to establish coordinator and procedures"
+      },
+      "fee_structure": {
+        "inspection_fee": "Free",
+        "copying_fees": "Reasonable fee set by custodian (no statutory schedule)",
+        "fee_cap": "None - agencies may set any reasonable fee",
+        "advance_payment": "Required before processing",
+        "time_intensive_requests": "Special form required for requests over 8 hours of staff time (Executive Order 734)"
+      },
+      "appeal_process": {
+        "type": "Judicial only",
+        "administrative_appeal": false,
+        "court_venue": "Circuit court of county where agency located",
+        "filing_deadline": "Within two years of denial",
+        "judicial_remedies": ["Court order requiring production", "Injunctive relief"],
+        "attorney_fees": "Not specified in statute"
+      },
+      "key_exemptions": [
+        {
+          "citation": "Alabama Code § 36-12-40",
+          "description": "Records expressly exempted by other statutes"
+        },
+        {
+          "citation": "Statutory exemptions",
+          "description": "Library registration and circulation records; security/safety records for persons, structures, facilities"
+        }
+      ],
+      "official_resources": [
+        {
+          "name": "Alabama Secretary of State",
+          "url": "sos.alabama.gov/public-records-request",
+          "description": "Public records request information"
+        },
+        {
+          "name": "Alabama Code (LexisNexis)",
+          "url": "legislature.state.al.us",
+          "description": "Official statutory text"
+        }
+      ],
+      "burden_of_proof": "Requester to prove right of access",
+      "presumption": "Limited presumption of access",
+      "unique_features": "No response timeframes; no administrative appeals; resident-only requirement; among weakest transparency laws nationally",
+      "residency_requirement": true
+    },
+    "alaska": {
+      "state_name": "Alaska",
+      "law_name": "Alaska Public Records Act",
+      "acronym": "APRA",
+      "official_citation": "AS 40.25.100 through AS 40.25.295",
+      "effective_date": "Ongoing amendments to base statute",
+      "response_timeframes": {
+        "initial_response": "10 working days",
+        "initial_response_details": "State agencies must respond within 10 working days",
+        "extension_allowed": "Yes, with justification",
+        "production_timeframe": "Reasonable time after response",
+        "appeal_timeframe": "60 days for administrative appeal"
+      },
+      "fee_structure": {
+        "inspection_fee": "Free",
+        "copying_fees": "Standard unit cost of duplication",
+        "search_threshold": "First 5 person-hours free",
+        "hourly_rate": "Salary and benefit costs of most cost-effective employee",
+        "advance_payment": "May be required for estimated costs",
+        "fee_waiver": "Available if contributes significantly to public understanding of government operations"
+      },
+      "appeal_process": {
+        "type": "Administrative then judicial",
+        "administrative_appeal": true,
+        "administrative_timeline": "60 days to file appeal",
+        "appeal_authority": "Head of agency",
+        "judicial_review": "Superior Court",
+        "injunctive_relief": "Available without exhausting administrative remedies (AS 40.25.125)"
+      },
+      "key_exemptions": [
+        {
+          "citation": "AS 40.25.120",
+          "description": "Records exempt by law, including confidential informants, ongoing investigations"
+        },
+        {
+          "citation": "Various Alaska Statutes",
+          "description": "Specific exemptions throughout Alaska law"
+        }
+      ],
+      "official_resources": [
+        {
+          "name": "Alaska Department of Law",
+          "url": "law.alaska.gov/doclibrary/APRA.html",
+          "description": "Comprehensive APRA guidance and resources"
+        },
+        {
+          "name": "Alaska Legislature",
+          "url": "akleg.gov/basis/statutes.asp",
+          "description": "Official statute text AS 40.25"
+        }
+      ],
+      "burden_of_proof": "Agency claiming exemption",
+      "presumption": "Strong presumption in favor of disclosure",
+      "unique_features": "Electronic services provisions (AS 40.25.115); fee waiver for public benefit; injunctive relief without administrative exhaustion"
+    },
+    "arizona": {
+      "state_name": "Arizona",
+      "law_name": "Arizona Public Records Law",
+      "acronym": "APRL",
+      "official_citation": "Arizona Revised Statutes § 39-121 through § 39-161",
+      "effective_date": "Ongoing amendments with 2025 legislative changes",
+      "response_timeframes": {
+        "initial_response": "Promptly",
+        "initial_response_details": "Must acknowledge receipt within 5 days and provide expected completion date",
+        "production_deadline": "15 business days, with estimated completion date if longer",
+        "deemed_denial": "Failure to respond promptly constitutes denial"
+      },
+      "fee_structure": {
+        "inspection_fee": "Free",
+        "first_20_pages": "Free",
+        "standard_copies": "$0.25 per page (grayscale), $1.00 per page (color)",
+        "electronic_media": "$10.00 for CD/DVD",
+        "staff_time": "$10.00 per hour minimum charge",
+        "commercial_purpose": "Higher fees for commercial use requests"
+      },
+      "appeal_process": {
+        "type": "Judicial",
+        "administrative_appeal": false,
+        "court_venue": "Superior court",
+        "special_provisions": "Criminal case victims may appeal through special action",
+        "judicial_review": "De novo review required by statute"
+      },
+      "key_exemptions": [
+        {
+          "citation": "ARS § 39-121.01(D)",
+          "description": "Personnel files, ongoing investigations, attorney-client privilege"
+        },
+        {
+          "citation": "Various ARS provisions",
+          "description": "Specific exemptions throughout Arizona Revised Statutes"
+        }
+      ],
+      "official_resources": [
+        {
+          "name": "Arizona Ombudsman Citizens' Aide",
+          "url": "azoca.gov/arizona-public-records-law/",
+          "description": "Public records guidance and 2023 handbook"
+        },
+        {
+          "name": "Arizona Legislature",
+          "url": "azleg.gov/arsDetail/?title=39",
+          "description": "Official statute text Title 39"
+        }
+      ],
+      "burden_of_proof": "Agency claiming exemption",
+      "presumption": "Presumption of openness",
+      "unique_features": "Commercial purpose restrictions; 2025 legislative changes pending (HB2927, SB1372); victim appeal rights",
+      "commercial_restrictions": true
+    },
+    "arkansas": {
+      "state_name": "Arkansas",
+      "law_name": "Arkansas Freedom of Information Act",
+      "acronym": "FOIA",
+      "official_citation": "Arkansas Code Annotated § 25-19-101 et seq.",
+      "effective_date": "Original FOIA with ongoing amendments",
+      "response_timeframes": {
+        "initial_response": "3 business days",
+        "initial_response_details": "Must respond within 3 business days of receipt",
+        "production_timeframe": "Promptly during regular business hours",
+        "business_hours": "Typically Monday-Friday, 8:00am-4:30pm"
+      },
+      "fee_structure": {
+        "inspection_fee": "Free",
+        "copying_fees": "Reasonable reproduction costs",
+        "advance_payment_threshold": "$25.00",
+        "advance_payment": "Required if costs exceed $25"
+      },
+      "appeal_process": {
+        "type": "Judicial",
+        "administrative_appeal": false,
+        "court_venue": "Appropriate circuit court",
+        "immediate_appeal": "May appeal immediately from denial",
+        "attorney_fees": "Available to prevailing plaintiff; available to prevailing government unless unjust"
+      },
+      "key_exemptions": [
+        {
+          "citation": "ACA § 25-19-105",
+          "description": "Personnel records, attorney-client privilege, ongoing investigations"
+        },
+        {
+          "citation": "Various Arkansas statutes",
+          "description": "Specific exemptions throughout Arkansas law"
+        }
+      ],
+      "official_resources": [
+        {
+          "name": "Arkansas Attorney General",
+          "url": "arkansasag.gov/divisions/opinions-foia/arkansas-freedom-of-information-act/",
+          "description": "FOIA guidance and 2025 handbook (21st edition)"
+        },
+        {
+          "name": "Arkansas Legislature",
+          "url": "arkleg.state.ar.us",
+          "description": "Official statute text ACA Title 25 Chapter 19"
+        }
+      ],
+      "burden_of_proof": "Agency claiming exemption",
+      "presumption": "Strong presumption of access",
+      "unique_features": "Comprehensive and strong open records law; criminal penalties for violations; resident-only requirement",
+      "residency_requirement": true,
+      "criminal_penalties": true
+    },
+    "colorado": {
+      "state_name": "Colorado",
+      "law_name": "Colorado Open Records Act",
+      "acronym": "CORA",
+      "official_citation": "C.R.S. § 24-72-201 through § 24-72-206",
+      "effective_date": "Ongoing amendments with 2025 updates",
+      "response_timeframes": {
+        "initial_response": "3 working days",
+        "initial_response_details": "Records must be made available within 3 working days",
+        "extension_allowed": "7 additional working days for extenuating circumstances",
+        "extension_conditions": ["Large volume of records", "Need to search multiple locations", "Need for legal review"],
+        "after_hours_rule": "Requests received after 3pm considered received next business day"
+      },
+      "fee_structure": {
+        "inspection_fee": "Free",
+        "threshold_pages": "First 25 pages may be free (agency discretion)",
+        "threshold_time": "First 1-2 hours of staff time may be free (varies by agency)",
+        "actual_cost": "Actual cost of production including staff time",
+        "advance_estimate": "Required for substantial requests",
+        "advance_deposit": "Required for estimated costs"
+      },
+      "appeal_process": {
+        "type": "Judicial",
+        "administrative_appeal": false,
+        "court_venue": "District court",
+        "mediation": "Some agencies offer voluntary mediation",
+        "enforcement": "De novo judicial review"
+      },
+      "key_exemptions": [
+        {
+          "citation": "C.R.S. § 24-72-204",
+          "description": "Personnel files, attorney work product, criminal investigations"
+        },
+        {
+          "citation": "C.R.S. § 24-72-204.5",
+          "description": "Criminal justice records exemptions"
+        }
+      ],
+      "official_resources": [
+        {
+          "name": "Colorado Secretary of State",
+          "url": "sos.state.co.us/pubs/info_center/cora.html",
+          "description": "CORA guidance and information"
+        },
+        {
+          "name": "Colorado Attorney General",
+          "url": "coag.gov/media-center/colorado-open-records-act-cora/",
+          "description": "CORA legal guidance"
+        }
+      ],
+      "burden_of_proof": "Agency claiming exemption",
+      "presumption": "Presumption of openness",
+      "unique_features": "2025 updates on coroner reports and school library challenges; no residency requirement; fishing expeditions permitted but expensive",
+      "2025_updates": "Coroner autopsy report changes effective Jan 1, 2025; school library challenge records (SB25-063 effective May 1, 2025)"
+    },
+    "connecticut": {
+      "state_name": "Connecticut",
+      "law_name": "Freedom of Information Act",
+      "acronym": "FOIA",
+      "official_citation": "Connecticut General Statutes §§ 1-200 through 1-241",
+      "effective_date": "Recodified 1999 (formerly scattered provisions)",
+      "response_timeframes": {
+        "initial_response": "Prompt access required",
+        "initial_response_details": "No specific deadline - promptness determined by agency workload, complexity, urgency",
+        "factors": ["Agency workload", "Time to comply", "Urgency of need"],
+        "no_mandated_time": "Among states with no specific response deadline"
+      },
+      "fee_structure": {
+        "inspection_fee": "Free",
+        "copying_fees": "Maximum $0.50 per page for public agencies",
+        "transcription_fee": "Actual cost if transcription required",
+        "search_time": "May charge for employee time in searching"
+      },
+      "appeal_process": {
+        "type": "Administrative (Freedom of Information Commission)",
+        "administrative_appeal": true,
+        "appeal_timeline": "30 days from known violation",
+        "hearing_timeline": "Commission hearing within 30 days of appeal",
+        "decision_timeline": "Commission decision within 60 days of hearing",
+        "emergency_sessions": "72-hour hearing for executive session appeals",
+        "commission_powers": "Investigate, subpoena, impose civil penalties"
+      },
+      "key_exemptions": [
+        {
+          "citation": "CGS § 1-210",
+          "description": "Personnel files, attorney-client privilege, investigatory files"
+        },
+        {
+          "citation": "Various Connecticut statutes",
+          "description": "Specific exemptions throughout Connecticut law"
+        }
+      ],
+      "official_resources": [
+        {
+          "name": "Connecticut Freedom of Information Commission",
+          "url": "portal.ct.gov/foi",
+          "description": "Appeals processing, guidance, enforcement"
+        },
+        {
+          "name": "Connecticut General Assembly",
+          "url": "cga.ct.gov/current/PUB/chap_014.htm",
+          "description": "Official statute text Chapter 14"
+        }
+      ],
+      "burden_of_proof": "Agency claiming exemption",
+      "presumption": "Strong presumption of access",
+      "unique_features": "Freedom of Information Commission provides administrative appeals and enforcement; civil penalties up to $1,000; Class B misdemeanor for non-compliance",
+      "civil_penalties": "$20-$1,000",
+      "criminal_penalties": "Class B misdemeanor for non-compliance"
+    },
+    "delaware": {
+      "state_name": "Delaware",
+      "law_name": "Freedom of Information Act",
+      "acronym": "FOIA",
+      "official_citation": "29 Delaware Code §§ 10001-10008",
+      "effective_date": "Ongoing amendments to base statute",
+      "response_timeframes": {
+        "initial_response": "15 days",
+        "initial_response_details": "Must respond within 15 days unless written notice provided that search will take longer",
+        "extension_allowed": "Yes, with written notice",
+        "production_timeframe": "Reasonable time after determination"
+      },
+      "fee_structure": {
+        "inspection_fee": "Free",
+        "first_20_pages": "Free (microfilm/microfiche)",
+        "additional_pages": "$0.15 per sheet (microfilm/microfiche)",
+        "administrative_fees": "Reasonable expenses including staff time",
+        "legal_review_exempt": "No charge for legal review of exemptions",
+        "full_estimate_required": "Must provide complete cost estimate before proceeding",
+        "fee_waiver": "Available for certain classes of persons (e.g., nonprofits)"
+      },
+      "appeal_process": {
+        "type": "Attorney General petition then judicial",
+        "administrative_appeal": false,
+        "ag_petition": "May petition Attorney General for violation determination",
+        "ag_timeline": "20 days for Attorney General determination",
+        "chief_deputy": "Referred to Chief Deputy for state agencies AG represents",
+        "court_appeal": "Superior Court appeal available after AG determination",
+        "appeal_deadline": "30 days to file court appeal"
+      },
+      "key_exemptions": [
+        {
+          "citation": "29 Del. C. § 10002",
+          "description": "Personal privacy, ongoing investigations, attorney-client privilege"
+        },
+        {
+          "citation": "Various Delaware statutes",
+          "description": "Specific exemptions throughout Delaware law"
+        }
+      ],
+      "official_resources": [
+        {
+          "name": "Delaware Department of State",
+          "url": "sos.delaware.gov/foia-requests/",
+          "description": "FOIA request procedures and guidance"
+        },
+        {
+          "name": "Delaware General Assembly",
+          "url": "delcode.delaware.gov/title29/c100/",
+          "description": "Official statute text Title 29 Chapter 100"
+        }
+      ],
+      "burden_of_proof": "Agency claiming exemption",
+      "presumption": "Presumption of access",
+      "unique_features": "Resident-only requirement (including corporate citizens); Attorney General petition process; full cost estimation required",
+      "residency_requirement": true,
+      "corporate_citizens": "Included in residency requirement"
+    },
+    "georgia": {
+      "state_name": "Georgia",
+      "law_name": "Georgia Open Records Act",
+      "acronym": "GORA",
+      "official_citation": "O.C.G.A. §§ 50-18-70 through 50-18-78",
+      "effective_date": "Last substantially revised 2012",
+      "response_timeframes": {
+        "initial_response": "3 business days",
+        "initial_response_details": "Must respond within 3 business days following receipt during normal hours",
+        "production_timeframe": "Reasonable time not to exceed 3 business days for available records",
+        "unavailable_records": "Description and time/cost estimate if records exist but not immediately available"
+      },
+      "fee_structure": {
+        "inspection_fee": "Free",
+        "copying_fees": "$0.10 per page",
+        "electronic_media": "Actual cost of media",
+        "search_fees": "Reasonable charge for search, retrieval, redaction, production",
+        "advance_payment_threshold": "$500.00",
+        "advance_payment": "Required for estimated costs over $500"
+      },
+      "appeal_process": {
+        "type": "Judicial (with mediation option)",
+        "administrative_appeal": false,
+        "mediation": "Optional mediation program available",
+        "court_venue": "Georgia Superior Court",
+        "written_request_required": "Enforcement only available for written requests",
+        "filing_deadline": "Suggested within 2 years of violation"
+      },
+      "key_exemptions": [
+        {
+          "citation": "O.C.G.A. § 50-18-72",
+          "description": "Personal privacy, law enforcement records, attorney-client privilege"
+        },
+        {
+          "citation": "Federal and state confidentiality statutes",
+          "description": "Records protected by other confidentiality laws"
+        }
+      ],
+      "official_resources": [
+        {
+          "name": "Georgia Department of Law",
+          "url": "law.georgia.gov/open-government-mediation-program",
+          "description": "Open government mediation program"
+        },
+        {
+          "name": "Georgia General Assembly",
+          "url": "sos.ga.gov",
+          "description": "Official statute text O.C.G.A. Title 50"
+        }
+      ],
+      "burden_of_proof": "Agency claiming exemption",
+      "presumption": "Strong presumption of access - broadly construed for inspection",
+      "unique_features": "No administrative appeals; optional mediation program; enforcement only for written requests; strong legislative policy favoring open government"
+    },
+    "hawaii": {
+      "state_name": "Hawaii",
+      "law_name": "Uniform Information Practices Act",
+      "acronym": "UIPA",
+      "official_citation": "Hawaii Revised Statutes Chapter 92F",
+      "effective_date": "Established 1988 with ongoing amendments",
+      "response_timeframes": {
+        "initial_response": "No specific mandate",
+        "initial_response_details": "Office of Information Practices provides 24-hour response for general guidance",
+        "oip_response": "End of next business day for initial contact",
+        "appeal_deadline": "One year after receiving denial to file administrative appeal"
+      },
+      "fee_structure": {
+        "inspection_fee": "Free",
+        "copying_fees": "Permissible fees per Hawaii Administrative Rules §§ 2-71-1 through 2-71-33",
+        "search_review_fees": "May assess fees for search or review even if records not fully disclosed",
+        "fee_waiver": "Available when public interest would be served",
+        "fee_purpose": "To recover some costs, not obstruct public access"
+      },
+      "appeal_process": {
+        "type": "Administrative (Office of Information Practices) or judicial",
+        "administrative_appeal": true,
+        "oip_appeal": "Optional - does not need to be exhausted before court action",
+        "appeal_timeline": "One year from denial to file with OIP",
+        "judicial_option": "Circuit court - expedited proceedings with priority on docket",
+        "attorney_fees": "Available to prevailing requester (HRS § 92F-15(d))"
+      },
+      "key_exemptions": [
+        {
+          "citation": "HRS Chapter 92F",
+          "description": "Personal privacy, ongoing investigations, attorney-client privilege"
+        },
+        {
+          "citation": "Hawaii Constitution and various statutes",
+          "description": "Privacy interests protected under Hawaii State Constitution"
+        }
+      ],
+      "official_resources": [
+        {
+          "name": "Hawaii Office of Information Practices",
+          "url": "oip.hawaii.gov",
+          "description": "UIPA administration, guidance, appeals, training materials (2025 updated guides)"
+        },
+        {
+          "name": "Hawaii State Legislature",
+          "url": "capitol.hawaii.gov",
+          "description": "Official statute text HRS Chapter 92F"
+        }
+      ],
+      "burden_of_proof": "Agency claiming exemption",
+      "presumption": "All government records open unless specifically restricted",
+      "unique_features": "Office of Information Practices administers law; attorney of the day service; expedited court proceedings; privacy constitutional protections"
+    },
+    "idaho": {
+      "state_name": "Idaho",
+      "law_name": "Idaho Public Records Act",
+      "acronym": "IPRA",
+      "official_citation": "Idaho Code Title 74, Chapter 1 (§§ 74-101 through 74-126)",
+      "effective_date": "Recodified 2015 as part of Transparent and Ethical Government Act",
+      "response_timeframes": {
+        "initial_response_residents": "3 working days",
+        "initial_response_nonresidents": "21 days",
+        "extension_allowed": "Maximum 10 additional days with written notice",
+        "extension_notice": "Must provide written notice within initial 3-day period"
+      },
+      "fee_structure": {
+        "inspection_fee": "Free",
+        "first_2_hours": "Free labor for processing",
+        "additional_labor": "Employee's hourly rate for time beyond 2 hours",
+        "redaction_fees": "Attorney's hourly rate for legal review/redaction",
+        "paper_copies": "$0.05 per page for requests over 100 pages",
+        "electronic_records": "No charge"
+      },
+      "appeal_process": {
+        "type": "Judicial only",
+        "administrative_appeal": false,
+        "court_venue": "District court",
+        "appeal_deadline": "180 days from denial",
+        "court_hearing": "Court must schedule hearing within 28 days",
+        "further_appeal": "42 days to appeal district court decision"
+      },
+      "key_exemptions": [
+        {
+          "citation": "Idaho Code § 74-105",
+          "description": "Personnel records, ongoing investigations, attorney-client privilege"
+        },
+        {
+          "citation": "Various Idaho statutes",
+          "description": "Specific exemptions throughout Idaho Code"
+        }
+      ],
+      "official_resources": [
+        {
+          "name": "Idaho Legislature",
+          "url": "legislature.idaho.gov/statutesrules/idstat/title74/t74ch1/",
+          "description": "Official statute text Title 74 Chapter 1"
+        },
+        {
+          "name": "Idaho Attorney General",
+          "url": "gov.idaho.gov/ag",
+          "description": "Public Records Law Manual and guidance"
+        }
+      ],
+      "burden_of_proof": "Agency claiming exemption",
+      "presumption": "All public records open unless expressly exempted",
+      "unique_features": "Different timeframes for residents vs. non-residents; first 2 hours of labor free; no administrative appeals - direct to court",
+      "residency_preference": true
+    },
+    "indiana": {
+      "state_name": "Indiana",
+      "law_name": "Access to Public Records Act",
+      "acronym": "APRA",
+      "official_citation": "Indiana Code Title 5, Article 14, Chapter 3 (IC 5-14-3)",
+      "effective_date": "Ongoing amendments to base statute",
+      "response_timeframes": {
+        "acknowledgment_in_person": "24 hours for in-person or telephone requests",
+        "acknowledgment_mail": "7 calendar days for mailed or faxed requests",
+        "production_standard": "Reasonable time (typically 1-5 business days for simple requests)",
+        "factors": ["Agency size", "Request size", "Pending requests", "Complexity", "Operational considerations"]
+      },
+      "fee_structure": {
+        "inspection_fee": "Free",
+        "copying_fees": "Greater of $0.10 per page (B&W) or $0.25 per page (color), or actual cost",
+        "actual_cost_definition": "Paper and per-page equipment cost only - no labor or overhead",
+        "certification_fee": "Maximum $5.00 per document",
+        "law_enforcement_recordings": "Maximum $150.00",
+        "no_labor_charges": "Actual cost excludes labor and overhead"
+      },
+      "appeal_process": {
+        "type": "Public Access Counselor then judicial",
+        "administrative_appeal": false,
+        "pac_complaint": "File with Public Access Counselor within 30 days",
+        "pac_opinion": "Advisory opinion within 30 days",
+        "judicial_review": "Available after PAC process or directly",
+        "pac_contact": "Office of Public Access Counselor, Indianapolis"
+      },
+      "key_exemptions": [
+        {
+          "citation": "IC 5-14-3-4",
+          "description": "Personnel files, ongoing investigations, attorney work product"
+        },
+        {
+          "citation": "Various Indiana statutes",
+          "description": "Specific exemptions throughout Indiana Code"
+        }
+      ],
+      "official_resources": [
+        {
+          "name": "Indiana Office of the Public Access Counselor",
+          "url": "in.gov/pac",
+          "description": "Guidance, complaints, advisory opinions"
+        },
+        {
+          "name": "Indiana General Assembly",
+          "url": "iga.in.gov",
+          "description": "Official statute text IC 5-14-3"
+        }
+      ],
+      "burden_of_proof": "Agency claiming exemption",
+      "presumption": "All records open unless specifically exempted",
+      "unique_features": "Public Access Counselor system; prohibition on asking purpose for records (with limited exceptions); specific fee caps with no labor costs"
+    },
+    "virginia": {
+      "state_name": "Virginia",
+      "law_name": "Virginia Freedom of Information Act",
+      "acronym": "VFOIA",
+      "official_citation": "Virginia Code § 2.2-3700 et seq.",
+      "effective_date": "Ongoing amendments to base statute",
+      "response_timeframes": {
+        "initial_response": "5 working days",
+        "initial_response_details": "Public bodies must respond within 5 working days",
+        "extension_allowed": "7 additional working days",
+        "extension_conditions": "Response is impractical within initial timeframe",
+        "criminal_investigative_files": "Up to 60 working days for certain criminal records"
+      },
+      "fee_structure": {
+        "general_principle": "Cannot exceed actual cost incurred in accessing, duplicating, supplying, or searching",
+        "prohibited_fees": "No extraneous, intermediary, or surplus fees to recoup general costs",
+        "advance_deposit_threshold": "$200.00",
+        "advance_deposit": "May require deposit if estimated costs exceed $200"
+      },
+      "appeal_process": {
+        "type": "Judicial only",
+        "administrative_appeal": false,
+        "court_venue": "District or circuit court",
+        "legal_basis": "§ 2.2-3713",
+        "specific_exemption_citation": "Must cite each specific exemption justifying refusal"
+      },
+      "key_exemptions": [
+        {
+          "citation": "Virginia Code § 2.2-3700 et seq.",
+          "description": "Personnel information, legal advice, active investigations, test materials, personal contact information, trade secrets"
+        }
+      ],
+      "official_resources": [
+        {
+          "name": "Virginia Freedom of Information Advisory Council",
+          "url": "foiacouncil.dls.virginia.gov",
+          "description": "Official guidance and training on VFOIA requirements"
+        },
+        {
+          "name": "Virginia General Assembly",
+          "url": "law.lis.virginia.gov",
+          "description": "Official statute text Virginia Code Title 2.2"
+        }
+      ],
+      "burden_of_proof": "Agency claiming exemption",
+      "presumption": "All public records and meetings presumed open unless exemption properly invoked",
+      "unique_features": "Requires designation of FOIA officers; mandates training for local officials; liberal construction to promote transparency"
+    },
+    "washington": {
+      "state_name": "Washington",
+      "law_name": "Public Records Act",
+      "acronym": "PRA",
+      "official_citation": "Chapter 42.56 RCW",
+      "effective_date": "Ongoing amendments with model rules in chapter 44-14 WAC",
+      "response_timeframes": {
+        "initial_response": "5 business days",
+        "initial_response_details": "Must provide records, link to online location, acknowledge with estimate, seek clarification, or deny within 5 business days",
+        "production_options": "Agency has multiple response options within timeframe"
+      },
+      "fee_structure": {
+        "inspection_fee": "Free",
+        "copying_fees": "$0.15 per page standard rate",
+        "search_fees": "Not permitted",
+        "penalties_for_violations": "$5-$100 per day for wrongful denial"
+      },
+      "appeal_process": {
+        "type": "Multiple options: internal review, Attorney General (state agencies), or judicial",
+        "internal_review": "May request within 2 business days after denial",
+        "ag_review": "Available for state agencies only per RCW 42.56.530",
+        "judicial_review": "Superior court in county where records maintained",
+        "statute_of_limitations": "1 year to file court action",
+        "attorney_fees": "Available if records improperly withheld"
+      },
+      "key_exemptions": [
+        {
+          "citation": "Chapter 42.56 RCW",
+          "description": "Personal information, investigative records, employee personnel files, health care information, archaeological sites, library records, student information"
+        }
+      ],
+      "official_resources": [
+        {
+          "name": "Washington State Attorney General's Office",
+          "url": "atg.wa.gov/obtaining-records",
+          "description": "Model rules, ombudsman services, and comprehensive guidance"
+        },
+        {
+          "name": "Washington State Legislature",
+          "url": "app.leg.wa.gov/rcw/default.aspx?cite=42.56",
+          "description": "Official statute text Chapter 42.56 RCW"
+        }
+      ],
+      "burden_of_proof": "Agency claiming exemption",
+      "presumption": "Strong presumption of public access",
+      "unique_features": "Records ombudsman; model rules; attorney fees for wrongful denials; training requirements for officials; Public Records Exemptions Accountability Committee"
+    },
+    "massachusetts": {
+      "state_name": "Massachusetts",
+      "law_name": "Public Records Law",
+      "acronym": "PRL",
+      "official_citation": "Massachusetts General Laws Chapter 66, Section 10",
+      "effective_date": "Ongoing amendments to base statute",
+      "response_timeframes": {
+        "state_agencies": "15 business days maximum",
+        "municipalities": "25 business days maximum",
+        "rao_response": "10 business days for Records Access Officer initial response",
+        "extension_state": "Single 20 business day extension possible with Supervisor approval",
+        "extension_municipal": "Single 30 business day extension possible with Supervisor approval"
+      },
+      "fee_structure": {
+        "copying_fees": "$0.05 per page for black and white paper copies or computer printouts",
+        "electronic_records": "No copying fee for electronic records",
+        "labor_fees": "Municipal RAOs may assess hourly rate of lowest-paid employee after 2 hours",
+        "fee_estimates": "Must include itemized, good faith estimate"
+      },
+      "appeal_process": {
+        "type": "Administrative (Supervisor of Records) then judicial",
+        "administrative_appeal": true,
+        "appeal_timeline": "90 days from response to file with Supervisor of Records",
+        "supervisor_decision": "10 business days for determination on public status",
+        "judicial_review": "Superior Court after Supervisor determination or directly without administrative appeal",
+        "attorney_fees": "Available if requestor prevails in court"
+      },
+      "key_exemptions": [
+        {
+          "citation": "Massachusetts General Laws Chapter 66, Section 10",
+          "description": "Personnel records, investigative materials, trade secrets, security plans, personal privacy information"
+        }
+      ],
+      "official_resources": [
+        {
+          "name": "Massachusetts Supervisor of Records",
+          "url": "sec.state.ma.us/divisions/public-records",
+          "description": "Appeals processing, guidance, and determinations on public status"
+        },
+        {
+          "name": "Massachusetts General Court",
+          "url": "malegislature.gov/Laws/GeneralLaws",
+          "description": "Official statute text Chapter 66"
+        }
+      ],
+      "burden_of_proof": "Agency claiming exemption",
+      "presumption": "Presumption of public access",
+      "unique_features": "Supervisor of Records system; Records Access Officers (RAOs) required; fee restrictions after first 2 hours; extensions require Supervisor approval"
+    },
+    "michigan": {
+      "state_name": "Michigan",
+      "law_name": "Freedom of Information Act",
+      "acronym": "FOIA",
+      "official_citation": "Public Act 442 of 1976, MCL 15.231 et seq.",
+      "effective_date": "Created 1976 with ongoing amendments",
+      "response_timeframes": {
+        "initial_response": "5 business days",
+        "initial_response_details": "Must respond within 5 business days of receipt",
+        "extension_allowed": "10 additional business days",
+        "extension_conditions": "Must notify requester in writing with reason and new due date",
+        "maximum_timeframe": "15 business days when extended"
+      },
+      "fee_structure": {
+        "fee_calculation": "Itemized costs including labor for search, location, examination, review, separation, and redaction",
+        "deposit_threshold": "$50.00",
+        "deposit_requirement": "Good-faith deposit of half estimated fee if over $50",
+        "deposit_deadline": "Must receive deposit within 45 days or request considered abandoned"
+      },
+      "appeal_process": {
+        "type": "Written appeal to agency head then judicial",
+        "appeal_requirement": "Written appeal must specifically state 'appeal' and basis for challenge",
+        "judicial_review": "Lawsuit available after agency appeal",
+        "attorney_fees": "Available if agency wrongfully denies valid request",
+        "exclusions": "Incarcerated persons excluded from access"
+      },
+      "key_exemptions": [
+        {
+          "citation": "MCL 15.231 et seq.",
+          "description": "Personnel records, ongoing criminal investigations, personal information protected by other statutes"
+        }
+      ],
+      "official_resources": [
+        {
+          "name": "Michigan Attorney General",
+          "url": "michigan.gov/ag",
+          "description": "FOIA handbook and guidance materials"
+        },
+        {
+          "name": "Michigan Legislature",
+          "url": "legislature.mi.gov",
+          "description": "Official statute text Public Act 442 of 1976"
+        }
+      ],
+      "burden_of_proof": "Agency claiming exemption",
+      "presumption": "Full and complete information available except for incarcerated persons",
+      "unique_features": "Explicit exclusion of incarcerated persons; detailed fee itemization requirements; abandoned request provisions"
+    },
+    "ohio": {
+      "state_name": "Ohio",
+      "law_name": "Public Records Act",
+      "acronym": "PRA",
+      "official_citation": "Ohio Revised Code § 149.43",
+      "effective_date": "Ongoing amendments to base statute",
+      "response_timeframes": {
+        "initial_response": "Prompt response required",
+        "initial_response_details": "No specific deadline - 'promptly' means without delay and with reasonable speed",
+        "expectation": "Usually within several days",
+        "production_timeframe": "Within reasonable period of time"
+      },
+      "fee_structure": {
+        "copying_fees": "At cost",
+        "video_records": "Law enforcement may charge up to $75/hour or $750 total maximum for video preparation",
+        "video_costs": "Includes reviewing, blurring, redacting, uploading, or producing video records plus storage medium"
+      },
+      "appeal_process": {
+        "type": "Court of Claims ($25 fee) or mandamus action",
+        "court_of_claims": "$25 filing fee, 7-day agency response deadline, 45-day court decision deadline",
+        "mandamus_action": "Court of common pleas, Supreme Court, or court of appeals",
+        "attorney_fees": "Can be awarded, must be in some circumstances when deadlines missed"
+      },
+      "key_exemptions": [
+        {
+          "citation": "Ohio Revised Code § 149.43",
+          "description": "Medical records and over 400 statutory exemptions scattered throughout Ohio Revised Code"
+        }
+      ],
+      "official_resources": [
+        {
+          "name": "Ohio Attorney General",
+          "url": "ohioattorneygeneral.gov",
+          "description": "Public Records Act guidance and legal resources"
+        },
+        {
+          "name": "Ohio Legislature",
+          "url": "codes.ohio.gov/ohio-revised-code/section-149.43",
+          "description": "Official statute text Ohio Revised Code § 149.43"
+        }
+      ],
+      "burden_of_proof": "Agency claiming exemption",
+      "presumption": "All public records open unless expressly exempted",
+      "unique_features": "Court of Claims option for appeals; over 400 exemptions; video fee caps; attorney fee awards required in some circumstances"
+    },
+    "north_carolina": {
+      "state_name": "North Carolina",
+      "law_name": "Public Records Law",
+      "acronym": "PRL",
+      "official_citation": "North Carolina General Statutes Chapter 132",
+      "effective_date": "Ongoing amendments to base statute",
+      "response_timeframes": {
+        "general_timeframe": "No specific statutory deadline",
+        "law_enforcement_exception": "3 business days disclosure requirement for certain law enforcement recordings",
+        "appeal_timeframe": "If law enforcement fails to provide disclosure after 3 business days, may appeal to superior court"
+      },
+      "fee_structure": {
+        "policy": "Copies at minimal cost unless otherwise provided by law",
+        "minimal_cost_definition": "Actual cost of reproducing the public record",
+        "law_enforcement_recordings": "$200 filing fee for third-party petitions to view recordings"
+      },
+      "appeal_process": {
+        "type": "Judicial (G.S. 132-9) with optional mediation",
+        "court_action": "Action under G.S. 132-9 to compel disclosure",
+        "attorney_fees": "Available to substantially prevailing claimant unless agency acted in reasonable reliance on court decisions, published opinions, or AG written opinions",
+        "law_enforcement_recordings": "Petition court without filing fee if entitled to disclosure"
+      },
+      "key_exemptions": [
+        {
+          "citation": "Various North Carolina statutes",
+          "description": "Criminal investigations, personal identifying information, confidential communications with legal counsel, tax information, security information, autopsy recordings, minor information, legislative records (severely limited 2023), adoption records"
+        }
+      ],
+      "official_resources": [
+        {
+          "name": "North Carolina General Assembly",
+          "url": "ncleg.gov/Laws/GeneralStatuteSections/Chapter132",
+          "description": "Official statute text Chapter 132"
+        },
+        {
+          "name": "UNC School of Government",
+          "url": "sog.unc.edu",
+          "description": "Public Records Law guidance and educational materials"
+        }
+      ],
+      "burden_of_proof": "Agency claiming exemption",
+      "presumption": "Strong presumption of access - only statutory exemptions allowed",
+      "unique_features": "No court-derived exclusions allowed; optional mediation program; enforcement only for written requests; 2023 legislative records restrictions"
+    },
+    "new_jersey": {
+      "state_name": "New Jersey",
+      "law_name": "Open Public Records Act",
+      "acronym": "OPRA",
+      "official_citation": "N.J.S.A. 47:1A-1 et seq.",
+      "effective_date": "Modernized by P.L. 2024, c. 16 effective September 3, 2024",
+      "response_timeframes": {
+        "initial_response": "7 business days",
+        "initial_response_details": "Custodian must respond 'as soon as possible' but generally within 7 business days",
+        "clarification_pause": "Response time clock stops if custodian seeks clarification",
+        "failure_consequence": "Failure to respond in 7 days considered denial eligible for appeal"
+      },
+      "fee_structure": {
+        "duplication_fees": "Listed on request form, payable to State of New Jersey",
+        "special_service_threshold": "7 hours of staff time",
+        "special_service_definition": "Extraordinary expenditure of time and effort requiring more than 7 hours",
+        "advance_payment": "50% deposit required for requests over $25; 100% for anonymous requests"
+      },
+      "appeal_process": {
+        "type": "Government Records Council (GRC) or Superior Court (not both)",
+        "administrative_appeal": true,
+        "grc_timeline": "No statute of limitations for GRC filing",
+        "court_timeline": "45 days from denial to file in Superior Court",
+        "further_appeal": "GRC or court decisions appealable to Appellate Division",
+        "attorney_fees": "Available only if agency 'unreasonably denied access, acted in bad faith, or knowingly violated OPRA'"
+      },
+      "key_exemptions": [
+        {
+          "citation": "N.J.S.A. 47:1A-1 et seq.",
+          "description": "Personnel records, ongoing investigations, attorney-client privilege, deliberative materials, security information"
+        }
+      ],
+      "official_resources": [
+        {
+          "name": "New Jersey Government Records Council",
+          "url": "nj.gov/grc",
+          "description": "Appeals processing, advisory opinions, training, and guidance including Custodian's Handbook"
+        },
+        {
+          "name": "New Jersey Legislature",
+          "url": "njleg.state.nj.us",
+          "description": "Official statute text and OPRA information"
+        }
+      ],
+      "burden_of_proof": "Agency claiming exemption",
+      "presumption": "Public access presumed",
+      "unique_features": "Government Records Council administrative appeals; 2024 modernization reforms; special service charges for extensive requests; alternative to courts"
+    },
+    "wisconsin": {
+      "state_name": "Wisconsin",
+      "law_name": "Open Records Law",
+      "acronym": "ORL",
+      "official_citation": "Wisconsin Statutes Chapter 19, §§ 19.31-19.39",
+      "effective_date": "Ongoing amendments to base statute",
+      "response_timeframes": {
+        "initial_response": "As soon as practicable and without delay",
+        "interpretation": "Courts generally interpret as 10 business days for simple requests",
+        "complex_requests": "Longer timeframes acceptable for complex requests if reasonable",
+        "response_options": "Provide records, deny with written explanation, or inform of delays"
+      },
+      "fee_structure": {
+        "copying_fees": "Actual and direct cost of reproduction only",
+        "location_fees": "Not permitted to be charged",
+        "computer_run_fees": "Copying fees may be imposed for computer runs",
+        "certification_fees": "Cannot require payment for unrequested certification"
+      },
+      "appeal_process": {
+        "type": "Multiple options: reconsideration, DOJ complaint, mandamus action",
+        "reconsideration": "First step - request reconsideration from records custodian",
+        "doj_complaint": "File with Wisconsin DOJ Office of Open Government",
+        "mandamus_action": "Circuit court action available, may award attorney fees and costs",
+        "damages": "Up to $1,000 punitive damages for bad faith violations"
+      },
+      "key_exemptions": [
+        {
+          "citation": "Wisconsin Statutes Chapter 19",
+          "description": "Statutory exemptions like income tax returns; common law exemptions for prosecutors' files and attorney work product; John Doe proceeding records"
+        }
+      ],
+      "official_resources": [
+        {
+          "name": "Wisconsin Department of Justice Office of Open Government",
+          "url": "doj.state.wi.us",
+          "description": "Guidance, complaints review, and public records law compliance materials"
+        },
+        {
+          "name": "Wisconsin Legislature",
+          "url": "docs.legis.wisconsin.gov",
+          "description": "Official statute text Chapter 19"
+        }
+      ],
+      "burden_of_proof": "Agency claiming exemption",
+      "presumption": "Complete public access with denial contrary to public interest except in exceptional cases",
+      "unique_features": "No residency requirement; presumption of complete access; 60-day record retention during appeals; attorney work product protection; punitive damages available"
+    },
+    "minnesota": {
+      "state_name": "Minnesota",
+      "law_name": "Data Practices Act",
+      "acronym": "DPA",
+      "official_citation": "Minnesota Statutes Chapter 13",
+      "effective_date": "Ongoing amendments to base statute",
+      "response_timeframes": {
+        "data_accuracy_response": "30 days to correct data or notify subject of determination",
+        "appeal_deadline_outlined": "60 days to appeal if right outlined in response",
+        "appeal_deadline_not_outlined": "180 days to appeal if right not outlined in response"
+      },
+      "fee_structure": {
+        "inspection_fee": "Free for inspection of public government data",
+        "copying_fees": "Actual costs of searching, retrieving, making, certifying, or electronically transmitting copies",
+        "separation_prohibition": "May not charge for separating public from not public data"
+      },
+      "appeal_process": {
+        "type": "Commissioner of Administration, Office of Administrative Hearings, or District Court",
+        "administrative_appeal": true,
+        "commissioner_appeal": "Written appeal to Commissioner of Administration for data accuracy challenges",
+        "oah_complaint": "Office of Administrative Hearings pursuant to Minnesota Statutes Section 13.085",
+        "district_court": "Direct filing in district court pursuant to Minnesota Statutes Section 13.08"
+      },
+      "key_exemptions": [
+        {
+          "citation": "Minnesota Statutes Chapter 13",
+          "description": "Personnel data, ongoing investigations, attorney-client privilege, trade secret data, private data on individuals"
+        }
+      ],
+      "official_resources": [
+        {
+          "name": "Minnesota Administration Department Data Practices Office",
+          "url": "mn.gov/admin/data-practices",
+          "description": "Data practices guidance, appeals processing, and training materials"
+        },
+        {
+          "name": "Minnesota Legislature",
+          "url": "revisor.mn.gov/statutes/cite/13",
+          "description": "Official statute text Chapter 13"
+        }
+      ],
+      "burden_of_proof": "Agency claiming exemption",
+      "presumption": "Government data presumed public unless classified otherwise",
+      "unique_features": "Comprehensive data practices law beyond just records access; applies to all government data collection and use; multiple appeal venues available"
+    },
+    "maryland": {
+      "state_name": "Maryland",
+      "law_name": "Public Information Act",
+      "acronym": "PIA",
+      "official_citation": "Maryland Code, General Provisions Article, Title 4",
+      "effective_date": "Ongoing amendments to base statute",
+      "response_timeframes": {
+        "initial_response": "10 business days",
+        "final_response": "30 calendar days",
+        "extension_notification": "If more than 10 working days needed, must provide written notification with estimated time, fees, and reason"
+      },
+      "fee_structure": {
+        "first_two_hours": "Free search and preparation time",
+        "reasonable_fees": "Actual costs for direct document search, review, and duplication",
+        "fee_calculation": "Based on individual's salary and actual time including attorney review costs",
+        "fee_waiver": "Available if in public interest; for indigent persons (2015 amendment)",
+        "advance_payment": "Required if costs exceed $100"
+      },
+      "appeal_process": {
+        "type": "Court appeal or mediation with Public Access Ombudsman",
+        "court_appeal": "May challenge any aspect of agency's decision in court",
+        "fee_appeal": "Fees over $350 may be appealed to Public Information Act Compliance Board",
+        "mediation": "Informal mediation available through Attorney General's Public Access Ombudsman",
+        "attorney_fees": "Available if successful in reversing denial"
+      },
+      "key_exemptions": [
+        {
+          "citation": "Maryland Code, General Provisions Article, Title 4",
+          "description": "Investigatory records, inter- and intra-agency memoranda, personal identification information, attorney-client privilege"
+        }
+      ],
+      "official_resources": [
+        {
+          "name": "Maryland Attorney General Public Access Ombudsman",
+          "url": "marylandattorneygeneral.gov",
+          "description": "Mediation services, guidance, and public information compliance"
+        },
+        {
+          "name": "Maryland General Assembly",
+          "url": "mgaleg.maryland.gov",
+          "description": "Official statute text General Provisions Article Title 4"
+        }
+      ],
+      "burden_of_proof": "Agency claiming exemption",
+      "presumption": "Presumption of public access",
+      "unique_features": "Public Access Ombudsman mediation; PIA Compliance Board for fee appeals; fee waivers for indigent persons; first two hours free"
+    },
+    "missouri": {
+      "state_name": "Missouri",
+      "law_name": "Sunshine Law",
+      "acronym": "Sunshine Law",
+      "official_citation": "Missouri Revised Statutes Chapter 610",
+      "effective_date": "Ongoing amendments to base statute",
+      "response_timeframes": {
+        "initial_response": "3 business days",
+        "initial_response_details": "Must comply, deny, or invoke reasonable cause exception within 3 business days",
+        "extension_requirement": "If more time needed, must provide detailed written explanation and estimated completion date"
+      },
+      "fee_structure": {
+        "fee_basis": "Actual cost only",
+        "attorney_review_restriction": "Cannot charge attorney fees for reviewing documents (Gross v. Parson decision)",
+        "fee_calculation": "Limited to actual reproduction and processing costs"
+      },
+      "appeal_process": {
+        "type": "Judicial only",
+        "administrative_appeal": false,
+        "court_venue": "Circuit court",
+        "filing_deadline": "One year to file lawsuit",
+        "attorney_fees": "Available if prevail in court"
+      },
+      "key_exemptions": [
+        {
+          "citation": "Missouri Revised Statutes Chapter 610",
+          "description": "21 detailed exemptions including personnel records, social security information, proprietary information, financial information, law enforcement techniques, medical records, scholastic information, sealed bids"
+        }
+      ],
+      "official_resources": [
+        {
+          "name": "Missouri Attorney General",
+          "url": "ago.mo.gov",
+          "description": "Comprehensive Sunshine Law guidance, FAQs, and enforcement information"
+        },
+        {
+          "name": "Missouri Legislature",
+          "url": "revisor.mo.gov",
+          "description": "Official statute text Chapter 610"
+        }
+      ],
+      "burden_of_proof": "Agency claiming exemption",
+      "presumption": "Exemptions construed narrowly to further government openness",
+      "unique_features": "Strong enforcement with fines up to $5,000 for purposeful violations; $1,000 for inadvertent violations; separation requirement for exempt/non-exempt materials; detailed exemption scope"
+    },
+    "tennessee": {
+      "state_name": "Tennessee",
+      "law_name": "Public Records Act",
+      "acronym": "TPRA",
+      "official_citation": "Tennessee Code Annotated § 10-7-501 et seq.",
+      "effective_date": "Ongoing amendments to base statute",
+      "response_timeframes": {
+        "initial_requirement": "Respond promptly when practicable",
+        "notification_deadline": "7 business days if cannot provide promptly",
+        "response_options": "Make available, deny in writing, or furnish time estimate",
+        "failure_consequence": "Failure to respond within 7 business days constitutes denial"
+      },
+      "fee_structure": {
+        "inspection_fee": "Free (no charge for inspection unless required by other law)",
+        "copying_fees": "$0.15 per standard 8½ x 11 or 8½ x 14 black and white copy; $0.50 per color copy",
+        "fee_estimate_required": "Must provide estimate before charging",
+        "fee_schedule": "Governmental entities must maintain fee statement and billing procedures"
+      },
+      "appeal_process": {
+        "type": "Judicial only",
+        "administrative_appeal": false,
+        "court_venue": "Chancery or circuit court in county where records located",
+        "burden_reversal": "Burden of proof on agency to justify denial by preponderance of evidence",
+        "attorney_fees": "Available if agency 'willfully refused' access",
+        "ooec_assistance": "Office of Open Records Counsel may facilitate (non-appellate)"
+      },
+      "key_exemptions": [
+        {
+          "citation": "Tennessee Code Annotated § 10-7-501 et seq.",
+          "description": "Personnel records, ongoing investigations, attorney-client privilege, security information, proprietary information"
+        }
+      ],
+      "official_resources": [
+        {
+          "name": "Tennessee Comptroller Office of Open Records Counsel",
+          "url": "comptroller.tn.gov/office-functions/open-records-counsel",
+          "description": "Guidance, model policies, fee schedules, and facilitation services"
+        },
+        {
+          "name": "Tennessee General Assembly",
+          "url": "tn.gov/soslegislature",
+          "description": "Official statute text Tennessee Code § 10-7-501 et seq."
+        }
+      ],
+      "burden_of_proof": "Agency claiming exemption (by preponderance of evidence)",
+      "presumption": "Fullest possible public access mandated by courts",
+      "unique_features": "Tennessee citizen-only requirement; Office of Open Records Counsel facilitation; willful refusal standard for attorney fees; burden reversal in court",
+      "residency_requirement": true
+    },
+    "louisiana": {
+      "state_name": "Louisiana",
+      "law_name": "Public Records Law",
+      "acronym": "PRL",
+      "official_citation": "Louisiana Revised Statutes R.S. 44:1 et seq.",
+      "effective_date": "Ongoing amendments with significant 1978 reforms",
+      "response_timeframes": {
+        "initial_response": "5 business days",
+        "response_requirement": "Agency expected to respond within 5 business days regardless of processing status",
+        "civil_penalty": "$100 per day for custodians who arbitrarily refuse to respond within 3 working days",
+        "legal_action_deadline": "Within 5 days of request submission, may initiate legal proceedings"
+      },
+      "fee_structure": {
+        "inspection_fee": "Free",
+        "advance_payment_limitation": "Required only if examination outside regular office hours",
+        "compensation_basis": "Reasonable compensation for custodian or representative",
+        "fee_restriction": "Cannot make inquiries except age, identification, and register signature"
+      },
+      "appeal_process": {
+        "type": "Judicial only",
+        "administrative_appeal": false,
+        "personal_liability": "Custodians may be personally liable for arbitrary or capricious violations",
+        "attorney_fees": "Reasonable attorney fees and costs to prevailing plaintiff",
+        "damages": "Actual damages available for arbitrary violations"
+      },
+      "key_exemptions": [
+        {
+          "citation": "Louisiana Revised Statutes R.S. 44:1 et seq.",
+          "description": "Medical records, law enforcement investigations, attorney-client privilege, personnel records, security information"
+        }
+      ],
+      "official_resources": [
+        {
+          "name": "Louisiana Legislature",
+          "url": "legis.la.gov",
+          "description": "Official statute text Title 44"
+        },
+        {
+          "name": "Louisiana Secretary of State",
+          "url": "sos.la.gov",
+          "description": "Public records guidance and administrative information"
+        }
+      ],
+      "burden_of_proof": "Agency claiming exemption",
+      "presumption": "Strong presumption of access since 1978 reforms",
+      "unique_features": "Personal liability for custodians; $100/day civil penalty; any person of age of majority access; attorney fee shifting; early legal action permitted"
+    },
+    "oregon": {
+      "state_name": "Oregon",
+      "law_name": "Public Records Law",
+      "acronym": "PRL",
+      "official_citation": "Oregon Revised Statutes Chapter 192",
+      "effective_date": "Ongoing amendments to base statute",
+      "response_timeframes": {
+        "acknowledgment": "5 business days to acknowledge request",
+        "response_deadline": "15 business days to respond or provide estimated completion date",
+        "general_standard": "As soon as practicable and without unreasonable delay",
+        "complexity_consideration": "Timing depends on complexity and scope of request"
+      },
+      "fee_structure": {
+        "fee_notification_threshold": "$25.00",
+        "advance_notification": "Must provide written notification and confirmation if fee exceeds $25",
+        "attorney_review_inclusion": "May include attorney time for reviewing and redacting records",
+        "attorney_exemption_exclusion": "Cannot include attorney time for determining exemption applicability"
+      },
+      "appeal_process": {
+        "type": "Attorney General (state agencies), District Attorney (local), or Circuit Court (elected officials)",
+        "state_agency_appeals": "Petition for Public Records Order to Oregon Attorney General",
+        "local_government_appeals": "Appeal to relevant district attorney",
+        "elected_official_denials": "Direct lawsuit in Circuit Court required",
+        "decision_timeline": "7 working days for AG or DA decision"
+      },
+      "key_exemptions": [
+        {
+          "citation": "Oregon Revised Statutes Chapter 192 and over 500 exemptions catalog",
+          "description": "Active criminal investigations, confidential attorney communications, threatened/endangered species habitat information, faculty research until released, computer programs, fish and wildlife data"
+        }
+      ],
+      "official_resources": [
+        {
+          "name": "Oregon Attorney General Public Records Exemptions Catalog",
+          "url": "justice.oregon.gov/PublicRecordsExemptions",
+          "description": "Comprehensive catalog of over 500 exemptions"
+        },
+        {
+          "name": "Oregon Legislature",
+          "url": "oregonlegislature.gov/bills_laws/ors/ors192.html",
+          "description": "Official statute text ORS Chapter 192"
+        }
+      ],
+      "burden_of_proof": "Agency claiming exemption",
+      "presumption": "Law of disclosure, not confidentiality - disclosure favored",
+      "unique_features": "Over 500 exemptions with comprehensive catalog; conditional vs. unconditional exemptions; different appeal venues by agency type; attorney review fees permitted"
+    },
+    "oklahoma": {
+      "state_name": "Oklahoma",
+      "law_name": "Open Records Act",
+      "acronym": "ORA",
+      "official_citation": "Oklahoma Statutes Title 51, §§ 24A.1-24A.33",
+      "effective_date": "Ongoing amendments to base statute",
+      "response_timeframes": {
+        "general_requirement": "During regular business hours",
+        "specific_deadlines": "No specific statutory response timeframes established",
+        "regular_business_hours": "Records available during normal operating hours"
+      },
+      "fee_structure": {
+        "fee_schedule_posting": "Public bodies must post written fee schedule at principal office and with county clerk",
+        "public_interest_exemption": "No search fees when release is in public interest",
+        "news_media_exemption": "No fees for news media, scholars, authors, taxpayers determining government performance",
+        "fee_prohibition": "Fees cannot be used to discourage requests or create disclosure obstacles"
+      },
+      "appeal_process": {
+        "type": "Administrative (agency-specific) then civil liability action",
+        "administrative_example": "Oklahoma DHS appeals to Director within 10 days",
+        "civil_liability": "51 O.S. §24A.17 provides civil liability for violations",
+        "enforcement_mechanism": "Civil action for violations of Open Records Act"
+      },
+      "key_exemptions": [
+        {
+          "citation": "Oklahoma Statutes Title 51, §§ 24A.1-24A.33",
+          "description": "Personnel records, ongoing investigations, attorney-client privilege, security information, proprietary information"
+        }
+      ],
+      "official_resources": [
+        {
+          "name": "Oklahoma Secretary of State",
+          "url": "oklahoma.gov",
+          "description": "Open Records Act guidance and statute information"
+        },
+        {
+          "name": "Oklahoma Legislature",
+          "url": "oksenate.gov",
+          "description": "Official statute text Title 51"
+        }
+      ],
+      "burden_of_proof": "Agency claiming exemption",
+      "presumption": "Right of access to review government records for efficient exercise of political power",
+      "unique_features": "Fee prohibition for public interest releases; metadata production requirement (2024 Court of Appeals decision); civil liability provisions; no search fees for news media and researchers"
+    }
+  },
+  "comparative_analysis": {
+    "response_timeframes_summary": {
+      "fastest_3_days": ["Missouri (3 business days)", "Arkansas (3 business days)", "Colorado (3 working days)", "Georgia (3 business days)"],
+      "fast_5_days": ["Illinois (5 business days)", "Pennsylvania (5 business days)", "Virginia (5 working days)", "Washington (5 business days)", "Michigan (5 business days)", "Louisiana (5 business days)"],
+      "moderate_7_days": ["New Jersey OPRA (7 business days)", "Tennessee (7 business days if cannot provide promptly)"],
+      "longer_10_plus_days": ["California (10 business days)", "Massachusetts (15 days state/25 days municipal)", "Maryland (10 initial/30 final)", "Wisconsin (10 business days interpreted)", "Oregon (15 business days)"],
+      "flexible_no_deadline": ["Texas (promptly)", "Florida (reasonable time)", "Ohio (promptly)", "North Carolina (no deadline)", "Connecticut (prompt)", "Oklahoma (business hours)"]
+    },
+    "appeal_mechanisms": {
+      "judicial_only": ["California", "Florida", "Arizona", "Arkansas", "Colorado", "Georgia", "Missouri", "Tennessee", "Louisiana", "Oklahoma"],
+      "administrative_then_judicial": ["New York", "Illinois", "Pennsylvania", "Massachusetts", "New Jersey", "Washington", "Minnesota", "Oregon"],
+      "attorney_general_system": ["Texas", "Washington (state agencies)", "Alaska", "Hawaii"],
+      "specialized_systems": ["Wisconsin (DOJ Office of Open Government)", "Maryland (Public Access Ombudsman)", "Ohio (Court of Claims option)"]
+    },
+    "fee_structures": {
+      "free_inspection_standard": ["Most states provide free inspection"],
+      "free_copying_thresholds": ["Illinois (50 pages)", "Arizona (20 pages)", "Delaware (20 pages microfiche)", "Maryland (first 2 hours)", "Idaho (first 2 hours)", "Wisconsin (first few hours agency discretion)"],
+      "low_cost_copying": ["Massachusetts ($0.05/page)", "Washington ($0.15/page)", "Tennessee ($0.15 B&W, $0.50 color)", "Wisconsin (actual cost)", "New York ($0.25/page)"],
+      "moderate_copying": ["California ($0.35/page)", "Arizona ($0.25 B&W, $1.00 color)"],
+      "actual_cost_basis": ["Texas", "Florida", "Ohio", "North Carolina", "Missouri", "Oregon", "Oklahoma"],
+      "special_provisions": ["New Jersey (special service charges after 7 hours)", "Michigan (deposit requirements)", "Virginia ($200 deposit threshold)"]
+    },
+    "unique_features": {
+      "residency_requirements": ["Alabama", "Arkansas", "Delaware", "Idaho (preference)", "Tennessee"],
+      "personal_liability": ["Louisiana (custodian liability)", "Illinois (penalties up to $5,000)"],
+      "ombudsman_systems": ["Washington (records ombudsman)", "Maryland (Public Access Ombudsman)", "New Jersey (Government Records Council)"],
+      "specialized_courts": ["Ohio (Court of Claims option)", "Hawaii (expedited proceedings)"],
+      "training_requirements": ["Virginia (mandatory for officials)", "Washington (officials)", "Alaska"],
+      "metadata_requirements": ["Oklahoma (2024 Court of Appeals ruling)"],
+      "fee_waivers_public_interest": ["Oklahoma (news media exemption)", "Oregon (public interest)", "Maryland (indigent persons)"]
+    },
+    "enforcement_mechanisms": {
+      "criminal_penalties": ["Arkansas", "Connecticut"],
+      "civil_penalties": ["Louisiana ($100/day)", "Missouri (up to $5,000)", "Wisconsin (up to $1,000)", "Washington ($5-$100/day)"],
+      "attorney_fees_mandatory": ["California", "Illinois (bad faith)", "Hawaii", "Arkansas"],
+      "attorney_fees_discretionary": ["Most other states if prevailing"]
+    }
+  },
+  "verification_notes": {
+    "methodology": "All information gathered from official government websites and statutory sources",
+    "date_verified": "September 2025",
+    "sources_consulted": [
+      "Official state legislative websites",
+      "State attorney general offices",
+      "Secretary of state offices",
+      "Official statutory databases",
+      "Government transparency agencies",
+      "Appellate court decisions where applicable"
+    ],
+    "research_standards": "Only official government sources used; no secondary sources or legal commentary included",
+    "limitations": "Statutes subject to amendment; local variations may exist; implementation may vary by agency",
+    "reliability": "High - sourced exclusively from official government publications and verified legal citations",
+    "update_frequency": "Database updated as new legislation and court decisions become available"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "jurisdiction_info": {
+    "jurisdiction_code": "NH",
+    "jurisdiction_name": "New Hampshire",
+    "jurisdiction_type": "state"
+  },
+  "statute_info": {
+    "primary_law": "New Hampshire Right to Know Law",
+    "statute_citation": "RSA 91-A",
+    "key_provisions": {
+      "response_time": "5 business days",
+      "fees": "Reasonable fees for producing/reviewing/redacting, free for readily available records",
+      "exemptions": "See RSA 91-A for exemptions",
+      "enforcement": "Superior court action"
+    }
+  },
+  "validation_metadata": {
+    "verification_date": "2025-01-23",
+    "source_verified": true,
+    "primary_sources": [
+      "https://www.gencourt.state.nh.us/rsa/html/VI/91-A/91-A-mrg.htm"
+    ],
+    "cross_references": [
+      "No recent amendments noted"
+    ],
+    "confidence_level": "high",
+    "validator_notes": "More flexible fee structure than Nevada, allows charges for redaction work"
+  }
+}

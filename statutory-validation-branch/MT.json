@@ -1,0 +1,29 @@
+{
+  "jurisdiction_info": {
+    "jurisdiction_code": "MT",
+    "jurisdiction_name": "Montana",
+    "jurisdiction_type": "state"
+  },
+  "statute_info": {
+    "primary_law": "Montana Right to Know Act",
+    "statute_citation": "Mont. Code Ann. §§ 2-6-1001 to 2-6-1019",
+    "key_provisions": {
+      "response_time": "20 business days",
+      "fees": "$0.10/page, 30 minutes free search time, then $8.50/hour",
+      "exemptions": "See Mont. Code Ann. §§ 2-6-1001 to 2-6-1019 for exemptions",
+      "enforcement": "District court action"
+    }
+  },
+  "validation_metadata": {
+    "verification_date": "2025-01-23",
+    "source_verified": true,
+    "primary_sources": [
+      "https://archive.legmt.gov/bills/mca/title_0020/chapter_0060/part_0100/"
+    ],
+    "cross_references": [
+      "No recent amendments noted"
+    ],
+    "confidence_level": "high",
+    "validator_notes": "Longer response time allowed, specific fee structure with free search time"
+  }
+}

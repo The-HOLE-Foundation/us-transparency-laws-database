@@ -1,0 +1,29 @@
+{
+  "jurisdiction_info": {
+    "jurisdiction_code": "WY",
+    "jurisdiction_name": "Wyoming",
+    "jurisdiction_type": "state"
+  },
+  "statute_info": {
+    "primary_law": "Wyoming Public Records Act",
+    "statute_citation": "Wyo. Stat. §§ 16-4-201 to 16-4-205",
+    "key_provisions": {
+      "response_time": "30 calendar days",
+      "fees": "Reasonable production costs, $180 threshold, hourly staff rates",
+      "exemptions": "See Wyo. Stat. §§ 16-4-201 to 16-4-205 for exemptions",
+      "enforcement": "District court action"
+    }
+  },
+  "validation_metadata": {
+    "verification_date": "2025-01-23",
+    "source_verified": true,
+    "primary_sources": [
+      "https://law.justia.com/codes/wyoming/title-16/chapter-4/article-2/"
+    ],
+    "cross_references": [
+      "Court concerns about variable fee structures"
+    ],
+    "confidence_level": "high",
+    "validator_notes": "Longest standard response time, significant fee threshold before charges apply"
+  }
+}

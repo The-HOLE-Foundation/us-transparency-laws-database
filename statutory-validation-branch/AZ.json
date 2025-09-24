@@ -1,0 +1,29 @@
+{
+  "jurisdiction_info": {
+    "jurisdiction_code": "AZ",
+    "jurisdiction_name": "Arizona",
+    "jurisdiction_type": "state"
+  },
+  "statute_info": {
+    "primary_law": "Arizona Public Records Law",
+    "statute_citation": "A.R.S. §§ 39-121 to 39-121.04",
+    "key_provisions": {
+      "response_time": "Promptly (proposed 5 business days in pending legislation)",
+      "fees": "Copying costs, postage, hourly rate for searches over 1 hour",
+      "exemptions": "See A.R.S. §§ 39-121 to 39-121.04 for exemptions",
+      "enforcement": "Superior court action, attorney fees available"
+    }
+  },
+  "validation_metadata": {
+    "verification_date": "2025-01-23",
+    "source_verified": true,
+    "primary_sources": [
+      "https://www.azleg.gov/ars/39/00121.htm"
+    ],
+    "cross_references": [
+      "2024 amendments proposed for 5-day response requirement"
+    ],
+    "confidence_level": "high",
+    "validator_notes": "Response time requirements under legislative review"
+  }
+}

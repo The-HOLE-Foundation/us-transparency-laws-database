@@ -1,0 +1,29 @@
+{
+  "jurisdiction_info": {
+    "jurisdiction_code": "RI",
+    "jurisdiction_name": "Rhode Island",
+    "jurisdiction_type": "state"
+  },
+  "statute_info": {
+    "primary_law": "Access to Public Records Act (APRA)",
+    "statute_citation": "R.I. Gen. Laws Ch. 38-2",
+    "key_provisions": {
+      "response_time": "10 business days (20-day extension possible)",
+      "fees": "$0.15/page, first hour search free, then $15/hour max",
+      "exemptions": "See R.I. Gen. Laws Ch. 38-2 for exemptions",
+      "enforcement": "Superior court action"
+    }
+  },
+  "validation_metadata": {
+    "verification_date": "2025-01-23",
+    "source_verified": true,
+    "primary_sources": [
+      "http://webserver.rilin.state.ri.us/Statutes/title38/38-2/INDEX.HTM"
+    ],
+    "cross_references": [
+      "No recent amendments noted"
+    ],
+    "confidence_level": "high",
+    "validator_notes": "Clear fee structure with first hour free, automatic denial if no response"
+  }
+}

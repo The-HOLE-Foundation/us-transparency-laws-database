@@ -1,0 +1,29 @@
+{
+  "jurisdiction_info": {
+    "jurisdiction_code": "HI",
+    "jurisdiction_name": "Hawaii",
+    "jurisdiction_type": "state"
+  },
+  "statute_info": {
+    "primary_law": "Uniform Information Practices Act",
+    "statute_citation": "HRS Chapter 92F",
+    "key_provisions": {
+      "response_time": "8 business days average",
+      "fees": "First page $0.50, additional pages $0.25, search fees allowed",
+      "exemptions": "See HRS Chapter 92F for exemptions",
+      "enforcement": "Office of Information Practices"
+    }
+  },
+  "validation_metadata": {
+    "verification_date": "2025-01-23",
+    "source_verified": true,
+    "primary_sources": [
+      "https://oip.hawaii.gov/laws-rules-opinions/uipa/"
+    ],
+    "cross_references": [
+      "2023 fee waiver clarifications"
+    ],
+    "confidence_level": "high",
+    "validator_notes": "88% of state requests result in no fees charged"
+  }
+}

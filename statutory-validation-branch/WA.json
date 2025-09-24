@@ -1,0 +1,29 @@
+{
+  "jurisdiction_info": {
+    "jurisdiction_code": "WA",
+    "jurisdiction_name": "Washington",
+    "jurisdiction_type": "state"
+  },
+  "statute_info": {
+    "primary_law": "Washington Public Records Act",
+    "statute_citation": "RCW 42.56",
+    "key_provisions": {
+      "response_time": "5 business days (typical practice, not mandated)",
+      "fees": "Copying costs only: $0.15/page photocopy, $0.10/page scan, no search fees",
+      "exemptions": "See RCW 42.56 for exemptions",
+      "enforcement": "Superior court action"
+    }
+  },
+  "validation_metadata": {
+    "verification_date": "2025-01-23",
+    "source_verified": true,
+    "primary_sources": [
+      "https://app.leg.wa.gov/RCW/default.aspx?cite=42.56"
+    ],
+    "cross_references": [
+      "2024 fee structure updates"
+    ],
+    "confidence_level": "high",
+    "validator_notes": "Prohibits all search and retrieval fees, specific copying fee limits"
+  }
+}

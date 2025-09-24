@@ -1,0 +1,29 @@
+{
+  "jurisdiction_info": {
+    "jurisdiction_code": "TN",
+    "jurisdiction_name": "Tennessee",
+    "jurisdiction_type": "state"
+  },
+  "statute_info": {
+    "primary_law": "Tennessee Public Records Act",
+    "statute_citation": "Tenn. Code Ann. §§ 10-7-503 to 10-7-506",
+    "key_provisions": {
+      "response_time": "7 business days (acknowledgment)",
+      "fees": "Reasonable costs for production, OORC fee schedule guidelines",
+      "exemptions": "See Tenn. Code Ann. §§ 10-7-503 to 10-7-506 for exemptions",
+      "enforcement": "Office of Open Records Counsel, then court"
+    }
+  },
+  "validation_metadata": {
+    "verification_date": "2025-01-23",
+    "source_verified": true,
+    "primary_sources": [
+      "https://www.tn.gov/content/tn/comptroller/legal-compliance/open-meetings-act.html"
+    ],
+    "cross_references": [
+      "No recent amendments noted"
+    ],
+    "confidence_level": "high",
+    "validator_notes": "Specialized oversight office provides guidance and dispute resolution"
+  }
+}

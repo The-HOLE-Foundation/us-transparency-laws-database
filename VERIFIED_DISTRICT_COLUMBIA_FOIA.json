@@ -1,0 +1,94 @@
+{
+  "jurisdiction_info": {
+    "jurisdiction_code": "DC",
+    "jurisdiction_name": "District of Columbia",
+    "jurisdiction_type": "district"
+  },
+  "statute_details": {
+    "official_name": "District of Columbia Freedom of Information Act",
+    "statute_citation": "DC Code §§ 2-531 through 2-539",
+    "chapter_section": "Title 2, Chapter 5, Subchapter II",
+    "effective_date": "March 1977",
+    "last_amended": "2024 (includes body-worn camera provisions)"
+  },
+  "response_requirements": {
+    "initial_response_days": 15,
+    "initial_response_description": "Public body must respond within 15 business days (excluding Saturdays, Sundays, and legal holidays)",
+    "maximum_response_days": 25,
+    "extension_allowed": true,
+    "extension_max_days": 10,
+    "extension_conditions": [
+      "Unusual circumstances as defined by DC Code § 2-532(d)",
+      "Body-worn camera video requests may take up to 25 days total"
+    ]
+  },
+  "appeal_process": {
+    "administrative_appeal_required": false,
+    "appeal_deadline_days": 60,
+    "appeal_authority": "Mayor's Office of Legal Counsel",
+    "judicial_review_available": true,
+    "court_jurisdiction": "DC Superior Court"
+  },
+  "fee_structure": {
+    "standard_copy_fee": "Reasonable standard charges for document duplication",
+    "electronic_fee": "Format costs paid by requester",
+    "search_time_fee": "Reasonable standard charges for search time",
+    "certification_fee": "Not specified in statute",
+    "waiver_available": true,
+    "waiver_criteria": [
+      "Fee reduction or waiver is in the public interest",
+      "Furnishing records primarily benefits the general public",
+      "Educational or non-commercial scientific institution for scholarly research",
+      "Representative of news media"
+    ]
+  },
+  "exemptions": [
+    "Records relating to law enforcement activities",
+    "Documents subject to recognized legal privileges (attorney-client, work product)",
+    "Documents required to be withheld by federal or District law",
+    "Documents reflecting internal deliberative processes of government",
+    "Documents that would result in clearly unwarranted intrusion on personal privacy",
+    "Trade secrets and commercial or financial information that is privileged or confidential",
+    "Inter-agency or intra-agency memoranda",
+    "Records of investigations by Office of Police Complaints",
+    "Records that would endanger life or physical safety of law enforcement personnel"
+  ],
+  "requester_requirements": {
+    "identification_required": false,
+    "purpose_statement_required": false,
+    "residency_requirement": false,
+    "specific_format": "Written request preferred; must reasonably describe records sought"
+  },
+  "agency_obligations": {
+    "records_officer_required": true,
+    "business_hours_access": true,
+    "electronic_submission_accepted": true,
+    "response_format_options": [
+      "Inspection of original records",
+      "Paper copies",
+      "Electronic format as requested by requester"
+    ]
+  },
+  "oversight_body": {
+    "name": "DC Office of Open Government",
+    "role": "Independent agency that investigates FOIA compliance complaints and can issue advisory opinions",
+    "contact_info": "http://www.open-dc.gov"
+  },
+  "official_resources": {
+    "primary_statute_url": "https://code.dccouncil.gov/us/dc/council/code/titles/2/chapters/5/subchapters/II/",
+    "agency_handbook_url": "https://dc.gov/page/freedom-information-act-foia",
+    "request_portal_url": "https://foia-dc.gov/",
+    "oversight_url": "https://www.open-dc.gov/"
+  },
+  "validation_metadata": {
+    "verification_date": "2024-09-23",
+    "source_verified": true,
+    "primary_sources": [
+      "DC Code Council official website",
+      "DC.gov official FOIA page",
+      "DC Office of Open Government"
+    ],
+    "verification_notes": "Verified current text including 2024 body-worn camera provisions",
+    "confidence_level": "high"
+  }
+}

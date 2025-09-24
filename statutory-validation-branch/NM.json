@@ -1,0 +1,29 @@
+{
+  "jurisdiction_info": {
+    "jurisdiction_code": "NM",
+    "jurisdiction_name": "New Mexico",
+    "jurisdiction_type": "state"
+  },
+  "statute_info": {
+    "primary_law": "Inspection of Public Records Act (IPRA)",
+    "statute_citation": "NMSA 1978, §§ 14-2-1 to 14-2-12",
+    "key_provisions": {
+      "response_time": "3 business days notification, 15 days maximum for production",
+      "fees": "Reasonable fees up to $1/page, no search fees allowed",
+      "exemptions": "See NMSA 1978, §§ 14-2-1 to 14-2-12 for exemptions",
+      "enforcement": "District court action"
+    }
+  },
+  "validation_metadata": {
+    "verification_date": "2025-01-23",
+    "source_verified": true,
+    "primary_sources": [
+      "https://law.justia.com/codes/new-mexico/chapter-14/article-2/"
+    ],
+    "cross_references": [
+      "No recent amendments noted"
+    ],
+    "confidence_level": "high",
+    "validator_notes": "Prohibits search fees, maximum $1 per page for copying"
+  }
+}

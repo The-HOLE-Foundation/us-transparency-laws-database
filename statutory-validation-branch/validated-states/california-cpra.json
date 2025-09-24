@@ -1,0 +1,98 @@
+{
+  "jurisdiction_info": {
+    "jurisdiction_code": "CA",
+    "jurisdiction_name": "California",
+    "jurisdiction_type": "state"
+  },
+  "statute_details": {
+    "official_name": "California Public Records Act",
+    "statute_citation": "California Government Code Sections 7920.000-7930.215",
+    "chapter_section": "Title 1, Division 10",
+    "effective_date": "January 1, 2023 (recodified from Gov. Code §§6250-6276.48)",
+    "last_amended": "2024 (including SB 1034, AB 1785)"
+  },
+  "response_requirements": {
+    "initial_response_days": 10,
+    "initial_response_description": "Agency must determine whether it has records and if they will be disclosed within 10 business days",
+    "maximum_response_days": 24,
+    "extension_allowed": true,
+    "extension_max_days": 14,
+    "extension_conditions": [
+      "Need to search separate facilities",
+      "Need to review voluminous records", 
+      "Need to consult with other agencies",
+      "Need to compile electronic records"
+    ]
+  },
+  "appeal_process": {
+    "administrative_appeal_required": false,
+    "appeal_deadline_days": null,
+    "appeal_authority": "Direct judicial review",
+    "judicial_review_available": true,
+    "court_jurisdiction": "Superior Court"
+  },
+  "fee_structure": {
+    "standard_copy_fee": "$0.35 per page",
+    "electronic_fee": "Cost of duplication in requested format",
+    "search_time_fee": "Not permitted",
+    "certification_fee": "Additional fees may apply",
+    "waiver_available": true,
+    "waiver_criteria": [
+      "Public interest served",
+      "Benefits general public",
+      "Not primarily commercial interest"
+    ]
+  },
+  "exemptions": [
+    "Records exempt by state or federal law",
+    "Preliminary drafts and notes",
+    "Personnel, medical, and similar files",
+    "Records of ongoing litigation",
+    "Trade secrets and confidential commercial information",
+    "Records endangering safety of personnel or public",
+    "Computer software",
+    "Investigatory files for law enforcement"
+  ],
+  "requester_requirements": {
+    "identification_required": false,
+    "purpose_statement_required": false,
+    "residency_requirement": false,
+    "specific_format": "Must reasonably describe identifiable records"
+  },
+  "agency_obligations": {
+    "records_officer_required": false,
+    "business_hours_access": true,
+    "electronic_submission_accepted": true,
+    "response_format_options": [
+      "Inspection of original records",
+      "Paper copies",
+      "Electronic format as requested"
+    ]
+  },
+  "oversight_body": {
+    "name": "No centralized oversight body",
+    "role": "Direct court enforcement",
+    "contact_info": "Local superior courts"
+  },
+  "official_resources": {
+    "primary_statute_url": "https://leginfo.legislature.ca.gov/faces/codes_displayexpandedbranch.xhtml?tocCode=GOV&division=10.",
+    "agency_handbook_url": "https://oag.ca.gov/government/cpra",
+    "request_portal_url": "Varies by agency",
+    "oversight_url": "N/A"
+  },
+  "validation_metadata": {
+    "verification_date": "2024-09-23",
+    "source_verified": true,
+    "primary_sources": [
+      "California Legislative Information (leginfo.legislature.ca.gov)",
+      "California Government Code Section 7922.535"
+    ],
+    "recent_legislative_updates": [
+      "SB 1034 (2024): Expands unusual circumstances during state emergencies",
+      "AB 1785 (2024): Addresses elected officials' personal information posting",
+      "2023 Recodification: Non-substantive reorganization from §6250 to §7920 series"
+    ],
+    "verification_notes": "Core 10-day determination requirement unchanged despite recent amendments",
+    "confidence_level": "high"
+  }
+}

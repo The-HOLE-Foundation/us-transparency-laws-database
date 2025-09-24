@@ -1,0 +1,29 @@
+{
+  "jurisdiction_info": {
+    "jurisdiction_code": "AK",
+    "jurisdiction_name": "Alaska",
+    "jurisdiction_type": "state"
+  },
+  "statute_info": {
+    "primary_law": "Alaska Public Records Act",
+    "statute_citation": "AS 40.25.110 et seq.",
+    "key_provisions": {
+      "response_time": "Reasonable rules during regular office hours",
+      "fees": "Nominal cost, standard unit cost of duplication, hourly rate for searches exceeding 5 hours",
+      "exemptions": "See AS 40.25.110 et seq. for exemptions",
+      "enforcement": "60 days to appeal to agency head or superior court"
+    }
+  },
+  "validation_metadata": {
+    "verification_date": "2025-01-23",
+    "source_verified": true,
+    "primary_sources": [
+      "https://touchngo.com/lglcntr/akstats/Statutes/Title40/Chapter25/Section110.htm"
+    ],
+    "cross_references": [
+      "2020 amendments to electronic records provisions"
+    ],
+    "confidence_level": "high",
+    "validator_notes": "Strong presumption of access, liberal construction required"
+  }
+}

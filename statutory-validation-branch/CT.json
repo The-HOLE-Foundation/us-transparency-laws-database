@@ -1,0 +1,29 @@
+{
+  "jurisdiction_info": {
+    "jurisdiction_code": "CT",
+    "jurisdiction_name": "Connecticut",
+    "jurisdiction_type": "state"
+  },
+  "statute_info": {
+    "primary_law": "Connecticut Freedom of Information Act",
+    "statute_citation": "Conn. Gen. Stat. §§ 1-200 to 1-242",
+    "key_provisions": {
+      "response_time": "4 business days",
+      "fees": "$0.50 per page, $20 scanning fee, electronic delivery costs",
+      "exemptions": "See Conn. Gen. Stat. §§ 1-200 to 1-242 for exemptions",
+      "enforcement": "Freedom of Information Commission, court review available"
+    }
+  },
+  "validation_metadata": {
+    "verification_date": "2025-01-23",
+    "source_verified": true,
+    "primary_sources": [
+      "https://www.cga.ct.gov/current/pub/chap_014.htm"
+    ],
+    "cross_references": [
+      "2023 electronic records updates"
+    ],
+    "confidence_level": "high",
+    "validator_notes": "Fee waivers for first $5 and indigent requesters"
+  }
+}

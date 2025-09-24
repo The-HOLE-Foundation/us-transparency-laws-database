@@ -1,0 +1,29 @@
+{
+  "jurisdiction_info": {
+    "jurisdiction_code": "NJ",
+    "jurisdiction_name": "New Jersey",
+    "jurisdiction_type": "state"
+  },
+  "statute_info": {
+    "primary_law": "Open Public Records Act (OPRA)",
+    "statute_citation": "N.J.S.A. 47:1A-1 et seq.",
+    "key_provisions": {
+      "response_time": "7 business days (14 days for commercial requests)",
+      "fees": "Standard copying fees, special service charges for extraordinary requests (>7 hours)",
+      "exemptions": "See N.J.S.A. 47:1A-1 et seq. for exemptions",
+      "enforcement": "Government Records Council or Superior Court"
+    }
+  },
+  "validation_metadata": {
+    "verification_date": "2025-01-23",
+    "source_verified": true,
+    "primary_sources": [
+      "https://lis.njleg.state.nj.us/nxt/gateway.dll?f=templates&fn=default.htm&vid=Publish:10.1048/Enu"
+    ],
+    "cross_references": [
+      "September 2024 commercial request timelines and fee changes"
+    ],
+    "confidence_level": "high",
+    "validator_notes": "Recent 2024 amendments created different timelines for commercial vs non-commercial"
+  }
+}

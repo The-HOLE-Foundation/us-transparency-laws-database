@@ -1,0 +1,29 @@
+{
+  "jurisdiction_info": {
+    "jurisdiction_code": "NV",
+    "jurisdiction_name": "Nevada",
+    "jurisdiction_type": "state"
+  },
+  "statute_info": {
+    "primary_law": "Nevada Public Records Act",
+    "statute_citation": "NRS Chapter 239",
+    "key_provisions": {
+      "response_time": "5 business days",
+      "fees": "Actual costs only (ink, toner, paper, media, postage), max $0.50/page",
+      "exemptions": "See NRS Chapter 239 for exemptions",
+      "enforcement": "District court action"
+    }
+  },
+  "validation_metadata": {
+    "verification_date": "2025-01-23",
+    "source_verified": true,
+    "primary_sources": [
+      "https://www.leg.state.nv.us/nrs/nrs-239.html"
+    ],
+    "cross_references": [
+      "No staff time charges allowed"
+    ],
+    "confidence_level": "high",
+    "validator_notes": "Strict limitation on allowable fees, no staff time charges permitted"
+  }
+}

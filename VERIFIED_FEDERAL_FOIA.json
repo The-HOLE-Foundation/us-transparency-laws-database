@@ -1,0 +1,95 @@
+{
+  "jurisdiction_info": {
+    "jurisdiction_code": "US",
+    "jurisdiction_name": "United States Federal Government",
+    "jurisdiction_type": "federal"
+  },
+  "statute_details": {
+    "official_name": "Freedom of Information Act",
+    "statute_citation": "5 U.S.C. § 552",
+    "chapter_section": "Title 5, Chapter 5, Subchapter II, Section 552",
+    "effective_date": "July 4, 1966",
+    "last_amended": "June 30, 2016 (FOIA Improvement Act of 2016)"
+  },
+  "response_requirements": {
+    "initial_response_days": 20,
+    "initial_response_description": "Agency must determine whether to grant or deny request within 20 working days (excluding weekends and legal holidays)",
+    "maximum_response_days": 30,
+    "extension_allowed": true,
+    "extension_max_days": 10,
+    "extension_conditions": [
+      "Need to search multiple separate and distinct facilities",
+      "Need to review voluminous records",
+      "Need for consultation with other agencies",
+      "Other unusual circumstances"
+    ]
+  },
+  "appeal_process": {
+    "administrative_appeal_required": true,
+    "appeal_deadline_days": 90,
+    "appeal_authority": "Agency head or designee",
+    "judicial_review_available": true,
+    "court_jurisdiction": "U.S. District Court"
+  },
+  "fee_structure": {
+    "standard_copy_fee": "Reasonable standard charges for document duplication",
+    "electronic_fee": "Cost of duplication in requested format",
+    "search_time_fee": "Reasonable standard charges for search time beyond 2 hours",
+    "certification_fee": "Not specified in statute",
+    "waiver_available": true,
+    "waiver_criteria": [
+      "Disclosure is in the public interest",
+      "Disclosure contributes significantly to public understanding of government operations",
+      "Disclosure is not primarily in the commercial interest of requester"
+    ]
+  },
+  "exemptions": [
+    "Information specifically authorized under Executive Order to be kept secret in the interest of national defense or foreign policy",
+    "Information related solely to internal personnel rules and practices",
+    "Information specifically exempted from disclosure by statute",
+    "Trade secrets and commercial or financial information obtained from person and privileged or confidential",
+    "Inter-agency or intra-agency memorandums or letters which would not be available by law to party other than agency in litigation",
+    "Personnel and medical files and similar files the disclosure of which would constitute clearly unwarranted invasion of personal privacy",
+    "Records or information compiled for law enforcement purposes",
+    "Information contained in or related to examination, operating, or condition reports prepared by agencies responsible for regulation or supervision of financial institutions",
+    "Geological and geophysical information and data, including maps, concerning wells"
+  ],
+  "requester_requirements": {
+    "identification_required": false,
+    "purpose_statement_required": false,
+    "residency_requirement": false,
+    "specific_format": "Must reasonably describe records sought; written request preferred but not required"
+  },
+  "agency_obligations": {
+    "records_officer_required": true,
+    "business_hours_access": true,
+    "electronic_submission_accepted": true,
+    "response_format_options": [
+      "Paper copies",
+      "Electronic format",
+      "Inspection of original records"
+    ]
+  },
+  "oversight_body": {
+    "name": "Office of Government Information Services (OGIS)",
+    "role": "Provides mediation services for FOIA disputes and reviews agency compliance",
+    "contact_info": "National Archives and Records Administration"
+  },
+  "official_resources": {
+    "primary_statute_url": "https://www.law.cornell.edu/uscode/text/5/552",
+    "agency_handbook_url": "https://www.justice.gov/oip/freedom-information-act-5-usc-552",
+    "request_portal_url": "https://www.foia.gov/",
+    "oversight_url": "https://www.archives.gov/ogis"
+  },
+  "validation_metadata": {
+    "verification_date": "2024-09-23",
+    "source_verified": true,
+    "primary_sources": [
+      "Cornell Law School Legal Information Institute",
+      "U.S. Department of Justice Office of Information Policy",
+      "5 U.S.C. § 552 official text"
+    ],
+    "verification_notes": "Verified current text including 2016 FOIA Improvement Act amendments",
+    "confidence_level": "high"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "jurisdiction_info": {
+    "jurisdiction_code": "MS",
+    "jurisdiction_name": "Mississippi",
+    "jurisdiction_type": "state"
+  },
+  "statute_info": {
+    "primary_law": "Mississippi Public Records Act",
+    "statute_citation": "Miss. Code §§ 25-61-1 to 25-61-19",
+    "key_provisions": {
+      "response_time": "1 working day (up to 7 working days with procedures)",
+      "fees": "Actual costs including search/review/duplication, lowest-level employee rate",
+      "exemptions": "See Miss. Code §§ 25-61-1 to 25-61-19 for exemptions",
+      "enforcement": "Mississippi Ethics Commission, then court"
+    }
+  },
+  "validation_metadata": {
+    "verification_date": "2025-01-23",
+    "source_verified": true,
+    "primary_sources": [
+      "https://law.justia.com/codes/mississippi/title-25/chapter-61/"
+    ],
+    "cross_references": [
+      "No recent amendments noted"
+    ],
+    "confidence_level": "high",
+    "validator_notes": "Very fast response time, Ethics Commission oversight"
+  }
+}
