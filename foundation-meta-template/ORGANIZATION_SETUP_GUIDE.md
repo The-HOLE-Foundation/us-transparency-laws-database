@@ -1,4 +1,4 @@
-# The Hole Foundation - GitHub Organization Setup Guide
+ # The Hole Foundation - GitHub Organization Setup Guide
 
 ## 🎯 Organization Creation Checklist
 
