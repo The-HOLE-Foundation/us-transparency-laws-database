@@ -1,7 +1,19 @@
+## Central Project Coordination
+
+This repository is part of The HOLE Foundation’s transparency initiatives. All project-wide planning, documentation, and coordination are centralized in [The-HOLE-Foundation/foundation-meta](https://github.com/The-HOLE-Foundation/foundation-meta).
+
+**Please consult the [foundation-meta repository](https://github.com/The-HOLE-Foundation/foundation-meta) for:**
+- Master project plan and phase definitions
+- Milestone tracking and complete documentation
+- Organization-wide coordination and issue management
+
+Work in this repository should reference, align with, and contribute to the master project plan in foundation-meta.  
+For questions or contributions spanning multiple repositories, always check the meta repo for authoritative guidance.
+
 # State and Federal Transparency Law Statute Project
 
 ## Project Objective
-Create a comprehensive, verified database of current transparency laws (FOIA/public records acts) for all 50 states, DC, and federal jurisdictions. This database will serve as ground truth for AI model training and power the transparency database/map via Supabase.
+Create a comprehensive, verified database of current transparency laws (FOIA/public records acts) for all 50 states, DC, and federal jurisdictions. This database will serve as ground truth for AI models, researchers, and transparency advocates nationwide.
 
 ## Critical Requirements
 - **100% Accuracy**: Every statute must be current, verified, and accurate
