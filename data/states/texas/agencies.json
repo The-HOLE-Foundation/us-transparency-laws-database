@@ -1,0 +1,139 @@
+{
+  "jurisdiction": "texas",
+  "statute": "Texas Government Code Chapter 552",
+  "last_updated": "2025-09-05",
+  "total_agencies": "150+",
+  "major_agencies": [
+    {
+      "agency_name": "Texas Department of State Health Services",
+      "abbreviation": "DSHS",
+      "public_information_contact": {
+        "media_relations": {
+          "email": "pressofficer@dshs.texas.gov",
+          "phone": "512-776-7119"
+        },
+        "general_contact": {
+          "website": "https://www.dshs.texas.gov/contact-us"
+        }
+      },
+      "submission_methods": ["Email", "Mail", "Online"],
+      "website": "https://www.dshs.texas.gov/",
+      "special_notes": "News releases available on News & Alerts page"
+    },
+    {
+      "agency_name": "Texas Education Agency",
+      "abbreviation": "TEA",
+      "public_information_contact": {
+        "media_relations": {
+          "email": "MediaRelations@tea.texas.gov",
+          "phone": "512-463-9000"
+        },
+        "public_information_requests": {
+          "website": "https://tea.texas.gov/about-tea/contact-us/public-information-requests"
+        },
+        "address": "William B. Travis Building, 1701 N. Congress Avenue, Austin, Texas 78701"
+      },
+      "submission_methods": ["Email", "Mail", "Online"],
+      "website": "https://tea.texas.gov/"
+    },
+    {
+      "agency_name": "Texas Department of Public Safety",
+      "abbreviation": "DPS",
+      "public_information_contact": {
+        "main_address": "5805 North Lamar Blvd, Austin, TX 78752-4431",
+        "media_communications": {
+          "website": "https://www.dps.texas.gov/section/media-and-communications-office/contact-us"
+        }
+      },
+      "submission_methods": ["Email", "Mail", "Online"],
+      "website": "https://www.dps.texas.gov/"
+    },
+    {
+      "agency_name": "Texas Department of Transportation",
+      "abbreviation": "TxDOT",
+      "public_information_contact": {
+        "media_contacts": {
+          "website": "https://www.txdot.gov/about/newsroom/media-contacts.html"
+        },
+        "general_contact": {
+          "website": "https://www.txdot.gov/about/contact-us.html"
+        }
+      },
+      "submission_methods": ["Email", "Mail", "Online"],
+      "website": "https://www.txdot.gov/"
+    },
+    {
+      "agency_name": "Texas Comptroller of Public Accounts",
+      "abbreviation": "Comptroller",
+      "public_information_contact": {
+        "main_address": "P.O. Box 13528, Austin, Texas 78711",
+        "phone": "800-531-5441",
+        "hours": "8 a.m. - 5 p.m., CST, Mon.-Fri.",
+        "media_center": {
+          "website": "https://comptroller.texas.gov/about/media-center/"
+        }
+      },
+      "submission_methods": ["Email", "Mail", "Phone", "Online"],
+      "website": "https://comptroller.texas.gov/"
+    },
+    {
+      "agency_name": "Texas Secretary of State",
+      "abbreviation": "SOS",
+      "public_information_contact": {
+        "general_hours": "Monday through Friday 8:00 a.m. to 5:00 p.m.",
+        "contact_page": "https://www.sos.state.tx.us/contact.shtml"
+      },
+      "submission_methods": ["Email", "Mail", "Online"],
+      "website": "https://www.sos.state.tx.us/"
+    },
+    {
+      "agency_name": "Texas Department of Criminal Justice",
+      "abbreviation": "TDCJ",
+      "submission_methods": ["Email", "Mail", "Online"],
+      "website": "https://www.tdcj.texas.gov/"
+    },
+    {
+      "agency_name": "Texas Department of Agriculture",
+      "abbreviation": "TDA",
+      "submission_methods": ["Email", "Mail", "Online"],
+      "website": "https://www.texasagriculture.gov/"
+    },
+    {
+      "agency_name": "Texas Department of Motor Vehicles",
+      "abbreviation": "TxDMV",
+      "public_information_contact": {
+        "contact_page": "https://www.txdmv.gov/contact-us"
+      },
+      "submission_methods": ["Email", "Mail", "Online"],
+      "website": "https://www.txdmv.gov/"
+    },
+    {
+      "agency_name": "Texas Health and Human Services",
+      "abbreviation": "HHS",
+      "submission_methods": ["Email", "Mail", "Online"],
+      "website": "https://www.hhs.texas.gov/"
+    }
+  ],
+  "additional_resources": {
+    "state_agencies_directory": "https://www.texas.gov/texas-state-agencies-departments/",
+    "agency_numbers_list": "https://fmx.cpa.texas.gov/fm/contacts/agynum/index.php",
+    "state_library_assistance": {
+      "email": "ref@tsl.texas.gov",
+      "phone": "512-463-5455"
+    },
+    "professional_networks": [
+      {
+        "name": "North Texas Public Information Officers Group",
+        "website": "https://northtxpio.com/",
+        "description": "501(c)6 working group of professional PIOs in North Texas area"
+      }
+    ]
+  },
+  "legal_requirements": {
+    "statute_citation": "Texas Government Code Chapter 552",
+    "response_standard": "Promptly (reasonable time)",
+    "withholding_deadline": "10 business days to request Attorney General opinion",
+    "attorney_general_review": "45 working days (may extend additional 10 days)",
+    "presumption": "All government information is public unless specifically excepted"
+  }
+}

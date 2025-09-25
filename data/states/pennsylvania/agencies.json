@@ -1,0 +1,249 @@
+{
+  "state": "Pennsylvania",
+  "state_abbreviation": "PA",
+  "transparency_law": "Pennsylvania Right-to-Know Law - 65 P.S. §§ 67.101-67.3104",
+  "official_source": "https://www.legis.state.pa.us/WU01/LI/LI/US/HTM/2008/0/0003..HTM",
+  "state_portal": "https://www.pa.gov/",
+  "oversight_agency": "Office of Open Records",
+  "last_updated": "2025-01-09",
+  "agencies": [
+    {
+      "name": "Office of the Governor",
+      "description": "Chief executive office of Pennsylvania",
+      "website": "https://www.pa.gov/governor/",
+      "public_records_contact": {
+        "office": "Governor's Office Right-to-Know Officer",
+        "phone": "717-787-2500",
+        "email": "RA-GOVRTKL@pa.gov",
+        "mailing_address": "Office of the Governor, 225 Main Capitol Building, Harrisburg, PA 17120"
+      },
+      "notes": "Handles gubernatorial records, executive orders, appointments, and official correspondence"
+    },
+    {
+      "name": "Pennsylvania Department of Health",
+      "description": "State's primary health protection and promotion agency",
+      "website": "https://www.pa.gov/agencies/health/",
+      "public_records_contact": {
+        "office": "Department of Health Right-to-Know Officer",
+        "phone": "717-787-6436",
+        "email": "RA-DHRTK@pa.gov",
+        "mailing_address": "Pennsylvania Department of Health, Health and Human Services Building, 8th Floor West, 625 Forster Street, Harrisburg, PA 17120"
+      },
+      "notes": "Handles health records, vital records, public health data, and health facility information. Emergency line: 877-PA-HEALTH (24/7)"
+    },
+    {
+      "name": "Pennsylvania Department of Transportation (PennDOT)",
+      "description": "Manages state transportation infrastructure and services",
+      "website": "https://www.pa.gov/agencies/penndot/",
+      "public_records_contact": {
+        "office": "PennDOT Open Records Officer",
+        "phone": "717-412-5300",
+        "email": "PENNDOT-RightToKnow@pa.gov",
+        "fax": "717-787-8779",
+        "mailing_address": "PennDOT Open Records Officer, Bureau of Office Services, 400 North St., PO Box 3451, Harrisburg, PA 17105-3451"
+      },
+      "notes": "Handles transportation records, highway projects, traffic data, and infrastructure planning documents. Customer Service: Monday-Friday 8am-5pm ET"
+    },
+    {
+      "name": "Pennsylvania Department of Education",
+      "description": "Oversees K-12 and higher education in Pennsylvania",
+      "website": "https://www.pa.gov/agencies/education/",
+      "public_records_contact": {
+        "office": "Department of Education Agency Open Records Officer",
+        "officer_name": "Angela Riegel",
+        "phone": "717-783-9810",
+        "email": "RA-RTK-Education@pa.gov",
+        "mailing_address": "Pennsylvania Department of Education, 607 South Drive, Harrisburg, PA 17120-1600"
+      },
+      "notes": "Handles education records, curriculum documents, and school district information (student records protected). General phone: 717-783-2193"
+    },
+    {
+      "name": "Office of the Attorney General",
+      "description": "State's chief legal officer and law enforcement coordination",
+      "website": "https://www.attorneygeneral.gov/",
+      "public_records_contact": {
+        "office": "Attorney General Right-to-Know Officer",
+        "phone": "717-787-3391",
+        "email": "RA-AGRTK@pa.gov",
+        "mailing_address": "Office of Attorney General, Strawberry Square, 4th Floor, Harrisburg, PA 17120"
+      },
+      "notes": "Handles legal opinions, consumer protection records, criminal investigation oversight, and public records guidance"
+    },
+    {
+      "name": "Pennsylvania State Police",
+      "description": "Provides statewide law enforcement services",
+      "website": "https://www.psp.pa.gov/",
+      "public_records_contact": {
+        "office": "State Police Right-to-Know Officer",
+        "phone": "717-783-5599",
+        "email": "RA-PSPRTK@pa.gov",
+        "mailing_address": "Pennsylvania State Police, 1800 Elmerton Avenue, Harrisburg, PA 17110"
+      },
+      "notes": "Handles law enforcement records, incident reports, and public safety information (ongoing investigations protected)"
+    },
+    {
+      "name": "Pennsylvania Treasury Department",
+      "description": "Manages state investments and financial operations",
+      "website": "https://www.patreasury.gov/",
+      "public_records_contact": {
+        "office": "Treasury Right-to-Know Officer",
+        "phone": "717-787-2465",
+        "email": "RA-TREASRTK@pa.gov",
+        "mailing_address": "Pennsylvania Treasury Department, 129 Finance Building, Harrisburg, PA 17120"
+      },
+      "notes": "Handles investment records, bond information, and state financial management documents"
+    },
+    {
+      "name": "Pennsylvania Department of Human Services",
+      "description": "Provides social services and benefits programs",
+      "website": "https://www.pa.gov/agencies/dhs/",
+      "public_records_contact": {
+        "office": "DHS Right-to-Know Officer",
+        "phone": "717-787-2600",
+        "email": "RA-DHSRTK@pa.gov",
+        "mailing_address": "Pennsylvania Department of Human Services, 625 Forster Street, Harrisburg, PA 17120"
+      },
+      "notes": "Handles social services records, benefit program information, and child welfare data (personal info protected)"
+    },
+    {
+      "name": "Pennsylvania Department of Revenue",
+      "description": "Administers state tax laws and collects revenues",
+      "website": "https://www.revenue.pa.gov/",
+      "public_records_contact": {
+        "office": "Revenue Right-to-Know Officer",
+        "phone": "717-787-8201",
+        "email": "RA-REVRTKL@pa.gov",
+        "mailing_address": "Pennsylvania Department of Revenue, Strawberry Square, 4th Floor, Harrisburg, PA 17128"
+      },
+      "notes": "Handles non-confidential tax records and revenue administration documents (confidential tax info protected)"
+    },
+    {
+      "name": "Pennsylvania Department of Environmental Protection",
+      "description": "Protects and improves Pennsylvania's environment",
+      "website": "https://www.pa.gov/agencies/dep/",
+      "public_records_contact": {
+        "office": "DEP Right-to-Know Officer",
+        "phone": "717-787-2814",
+        "email": "RA-EPRTK@pa.gov",
+        "mailing_address": "Pennsylvania Department of Environmental Protection, Rachel Carson State Office Building, 400 Market Street, Harrisburg, PA 17101"
+      },
+      "notes": "Handles environmental monitoring data, permit information, and compliance records"
+    },
+    {
+      "name": "Pennsylvania Department of Labor & Industry",
+      "description": "Oversees workforce development and labor standards",
+      "website": "https://www.pa.gov/agencies/dli/",
+      "public_records_contact": {
+        "office": "L&I Right-to-Know Officer",
+        "phone": "717-787-5279",
+        "email": "RA-LIRTK@pa.gov",
+        "mailing_address": "Pennsylvania Department of Labor & Industry, 651 Boas Street, Harrisburg, PA 17121"
+      },
+      "notes": "Handles employment statistics, workforce development records, and unemployment insurance data"
+    },
+    {
+      "name": "Pennsylvania Department of Agriculture",
+      "description": "Regulates agriculture and promotes agricultural development",
+      "website": "https://www.agriculture.pa.gov/",
+      "public_records_contact": {
+        "office": "Agriculture Right-to-Know Officer",
+        "phone": "717-787-4737",
+        "email": "RA-AGRTK@pa.gov",
+        "mailing_address": "Pennsylvania Department of Agriculture, 2301 North Cameron Street, Harrisburg, PA 17110"
+      },
+      "notes": "Handles agricultural regulation records, inspection reports, and farming industry documentation"
+    },
+    {
+      "name": "Pennsylvania Gaming Control Board",
+      "description": "Regulates casino gaming in Pennsylvania",
+      "website": "https://www.gamingcontrolboard.pa.gov/",
+      "public_records_contact": {
+        "office": "Gaming Control Board Right-to-Know Officer",
+        "phone": "717-346-8300",
+        "email": "RA-PGCBRTK@pa.gov",
+        "mailing_address": "Pennsylvania Gaming Control Board, Strawberry Square, 4th Floor, Harrisburg, PA 17106"
+      },
+      "notes": "Handles gaming regulation records, licensee information, and casino oversight documents"
+    },
+    {
+      "name": "Pennsylvania Emergency Management Agency",
+      "description": "Coordinates emergency preparedness and disaster response",
+      "website": "https://www.pa.gov/agencies/pema/",
+      "public_records_contact": {
+        "office": "PEMA Right-to-Know Officer",
+        "phone": "717-651-2001",
+        "email": "RA-PEMA-RTK@pa.gov",
+        "mailing_address": "Pennsylvania Emergency Management Agency, 2605 Interstate Drive, Harrisburg, PA 17110"
+      },
+      "notes": "Handles emergency planning records, disaster response documents, and preparedness information"
+    },
+    {
+      "name": "Pennsylvania Department of General Services",
+      "description": "Provides administrative services to state government",
+      "website": "https://www.pa.gov/agencies/dgs/",
+      "public_records_contact": {
+        "office": "DGS Right-to-Know Officer",
+        "phone": "717-787-5996",
+        "email": "RA-DGSRTK@pa.gov",
+        "mailing_address": "Pennsylvania Department of General Services, 515 North Office Building, Harrisburg, PA 17125"
+      },
+      "notes": "Handles procurement records, state property documents, and administrative services information"
+    },
+    {
+      "name": "Pennsylvania Public Utility Commission",
+      "description": "Regulates public utilities and transportation services",
+      "website": "https://www.puc.pa.gov/",
+      "public_records_contact": {
+        "office": "PUC Right-to-Know Officer",
+        "phone": "717-787-1827",
+        "email": "RA-PCRTK@pa.gov",
+        "mailing_address": "Pennsylvania Public Utility Commission, Commonwealth Keystone Building, 400 North Street, Harrisburg, PA 17120"
+      },
+      "notes": "Handles utility regulation records, rate proceedings, and public utility oversight documents"
+    }
+  ],
+  "request_process": {
+    "legal_authority": "Pennsylvania Right-to-Know Law - 65 P.S. §§ 67.101-67.3104",
+    "who_can_request": "Any person (must be U.S. legal resident)",
+    "how_to_request": "Written request to agency's designated open-records officer",
+    "required_information": [
+      "Identification or description of requested records",
+      "Medium in which record is requested",
+      "Name and address of person requesting access",
+      "Statement that request is made pursuant to Right-to-Know Law"
+    ],
+    "agency_response_time": {
+      "initial_response": "5 business days (deemed denied if no response)",
+      "fulfill_request": "30 days from response date unless scope requires extension"
+    },
+    "fees": {
+      "inspection": "Free",
+      "duplication": "Fees established by Office of Open Records",
+      "enhanced_electronic_access": "User fees subject to Office of Open Records approval"
+    },
+    "appeals_process": "15 business days to appeal to Office of Open Records; 30 days for appeals officer determination; 30 days to petition court of common pleas"
+  },
+  "key_exemptions": [
+    "Trade secrets and confidential proprietary information",
+    "Personal financial information not publicly accessible",
+    "Records identifying children 17 years or younger",
+    "Employee personal information (home addresses, phone numbers, etc.)",
+    "Law enforcement officer and family member personal information",
+    "Criminal investigation records and complaints",
+    "Predecisional deliberations and consultative materials",
+    "Attorney-client privilege and work product",
+    "Adoption and custody proceedings involving minors",
+    "Medical records and psychological reports",
+    "Records sealed by court order or protected by federal/state law"
+  ],
+  "notable_features": [
+    "Presumption that all agency records are public",
+    "Office of Open Records provides centralized appeals process",
+    "Required designation of open-records officer for each agency",
+    "Deemed denial after 5 business days of no response",
+    "Civil penalties for bad faith denials",
+    "Attorney fees available for successful requesters",
+    "Training and advisory opinion services provided by oversight office",
+    "Comprehensive exemption list with 33 categories"
+  ]
+}

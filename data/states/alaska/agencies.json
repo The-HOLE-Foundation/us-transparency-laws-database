@@ -1,0 +1,368 @@
+{
+  "jurisdiction": "Alaska",
+  "transparency_law": "Alaska Public Records Act (APRA)",
+  "legal_citation": "Alaska Statutes Title 40, Chapter 25, Sections 40.25.110-40.25.125; 2 AAC 96.100-96.900",
+  "effective_date": "1960 (amended 1990)",
+  "research_date": "2025-09-05",
+  
+  "law_summary": {
+    "official_name": "Alaska Public Records Act (APRA)",
+    "response_deadline_days": {
+      "initial_response": "10 working days",
+      "extension_allowed": "10 additional working days with notice",
+      "electronic_records": "As promptly as possible upon payment",
+      "further_extensions": "By mutual agreement only"
+    },
+    "appeal_process": "Administrative appeal (varies by agency), then superior court within 30 days",
+    "appeal_deadline": "30 days from final administrative order",
+    "judicial_enforcement": "180 days from denial",
+    "fee_structure": "Free first 2 hours per month, then actual personnel costs; $0.25 per page",
+    "requester_requirements": "No residency requirement - open to all persons",
+    "key_exemptions": [
+      "Medical and health records",
+      "Law enforcement records (with conditions)",
+      "Confidential financial information",
+      "Student academic records",
+      "Library user records",
+      "Emergency response plans",
+      "Critical infrastructure information",
+      "Archaeological site locations"
+    ]
+  },
+
+  "agencies": [
+    {
+      "id": "AK-001",
+      "name": "Office of the Governor",
+      "category": "Executive",
+      "description": "Chief executive office of Alaska state government",
+      "website": "https://gov.alaska.gov",
+      "contact_info": {
+        "address": "P.O. Box 110001, Juneau, AK 99811-0001",
+        "phone": "(907) 465-3500",
+        "fax": "(907) 465-3532",
+        "public_records_contact": "Office of the Governor"
+      },
+      "records_commonly_requested": [
+        "Executive orders and administrative orders",
+        "Correspondence with federal agencies",
+        "Meeting calendars and travel records",
+        "Policy briefing materials",
+        "Budget recommendations and proposals"
+      ]
+    },
+    
+    {
+      "id": "AK-002", 
+      "name": "Alaska Department of Law",
+      "category": "Legal/Law Enforcement",
+      "description": "Attorney General's office providing legal services to state government",
+      "website": "https://law.alaska.gov",
+      "contact_info": {
+        "address": "1031 West 4th Avenue, Suite 200, Anchorage, AK 99501",
+        "phone": "(907) 269-5100",
+        "public_records_contact": "APRA Coordinator"
+      },
+      "records_commonly_requested": [
+        "Legal opinions and interpretations",
+        "Consumer protection case files",
+        "Environmental enforcement actions",
+        "Public advocacy matters",
+        "Civil rights investigations"
+      ]
+    },
+
+    {
+      "id": "AK-003",
+      "name": "Alaska Department of Public Safety", 
+      "category": "Law Enforcement",
+      "description": "State law enforcement including Alaska State Troopers and investigations",
+      "website": "https://dps.alaska.gov",
+      "contact_info": {
+        "address": "5700 East Tudor Road, Anchorage, AK 99507-1225",
+        "phone": "(907) 269-5511",
+        "public_records_contact": "Records Section"
+      },
+      "records_commonly_requested": [
+        "Traffic accident reports",
+        "Crime statistics and UCR data",
+        "Alaska State Trooper policies",
+        "Search and rescue operations",
+        "Equipment and training records"
+      ]
+    },
+
+    {
+      "id": "AK-004",
+      "name": "Alaska Department of Health", 
+      "category": "Health",
+      "description": "State health agency responsible for public health programs and services",
+      "website": "https://health.alaska.gov",
+      "contact_info": {
+        "address": "P.O. Box 110400, Juneau, AK 99811-0400",
+        "phone": "(907) 465-3030",
+        "public_records_contact": "Administrative Services"
+      },
+      "records_commonly_requested": [
+        "Healthcare facility inspection reports",
+        "Environmental health assessments",
+        "Public health emergency plans",
+        "Vital statistics policies",
+        "Healthcare professional licensing"
+      ]
+    },
+
+    {
+      "id": "AK-005",
+      "name": "Alaska Department of Education and Early Development",
+      "category": "Education", 
+      "description": "State education agency overseeing K-12 education and early childhood programs",
+      "website": "https://education.alaska.gov",
+      "contact_info": {
+        "address": "801 West 10th Street, Suite 200, Juneau, AK 99801-1894",
+        "phone": "(907) 465-2800", 
+        "public_records_contact": "Administrative Services"
+      },
+      "records_commonly_requested": [
+        "School district funding formulas",
+        "Student achievement data",
+        "Teacher certification records",
+        "School construction projects",
+        "Educational standards and curriculum"
+      ]
+    },
+
+    {
+      "id": "AK-006",
+      "name": "Alaska Department of Transportation and Public Facilities",
+      "category": "Transportation",
+      "description": "State agency managing transportation infrastructure and public facilities", 
+      "website": "https://dot.alaska.gov",
+      "contact_info": {
+        "address": "3132 Channel Drive, Juneau, AK 99801-7898",
+        "phone": "(907) 465-3900",
+        "public_records_contact": "Administrative Services"
+      },
+      "records_commonly_requested": [
+        "Highway construction contracts",
+        "Airport operations and safety records", 
+        "Ferry system operations",
+        "Bridge inspection reports",
+        "Environmental impact studies"
+      ]
+    },
+
+    {
+      "id": "AK-007",
+      "name": "Alaska Department of Corrections",
+      "category": "Corrections",
+      "description": "State corrections system managing prisons and community corrections",
+      "website": "https://www.correct.state.ak.us", 
+      "contact_info": {
+        "address": "802 3rd Street, Douglas, AK 99824",
+        "phone": "(907) 465-4652",
+        "public_records_contact": "Administrative Office"
+      },
+      "records_commonly_requested": [
+        "Prison population statistics",
+        "Correctional facility policies",
+        "Inmate program information",
+        "Staff training records",
+        "Facility inspection reports"
+      ]
+    },
+
+    {
+      "id": "AK-008", 
+      "name": "Alaska Department of Family and Community Services",
+      "category": "Social Services",
+      "description": "State agency providing child welfare, public assistance, and social services",
+      "website": "https://dhss.alaska.gov/dfcs",
+      "contact_info": {
+        "address": "P.O. Box 110630, Juneau, AK 99811-0630",
+        "phone": "(907) 465-3170",
+        "public_records_contact": "Administrative Services"
+      },
+      "records_commonly_requested": [
+        "Child protection policies and procedures",
+        "Foster care licensing information",
+        "Public assistance program guidelines",
+        "Social services contracts",
+        "Program outcome statistics"
+      ]
+    },
+
+    {
+      "id": "AK-009",
+      "name": "Alaska Department of Revenue",
+      "category": "Revenue/Taxation",
+      "description": "State revenue collection and tax administration",
+      "website": "https://tax.alaska.gov",
+      "contact_info": {
+        "address": "P.O. Box 110400, Juneau, AK 99811-0400", 
+        "phone": "(907) 465-2320",
+        "public_records_contact": "Administrative Services"
+      },
+      "records_commonly_requested": [
+        "Tax policy documents and regulations",
+        "Oil and gas tax assessments",
+        "Revenue forecasting reports",
+        "Permanent Fund Dividend information",
+        "Business license data"
+      ]
+    },
+
+    {
+      "id": "AK-010",
+      "name": "Alaska Department of Labor and Workforce Development",
+      "category": "Labor/Employment",
+      "description": "State agency overseeing labor standards, workforce development, and employment services",
+      "website": "https://labor.alaska.gov",
+      "contact_info": {
+        "address": "P.O. Box 111149, Juneau, AK 99811-1149",
+        "phone": "(907) 465-2700",
+        "public_records_contact": "Administrative Services"
+      },
+      "records_commonly_requested": [
+        "Workplace safety inspection reports",
+        "Employment and wage statistics", 
+        "Workers' compensation data",
+        "Job training program information",
+        "Labor standards enforcement cases"
+      ]
+    },
+
+    {
+      "id": "AK-011",
+      "name": "Alaska Division of Elections (Lieutenant Governor)",
+      "category": "Elections",
+      "description": "State elections administration and campaign finance oversight",
+      "website": "https://www.elections.alaska.gov",
+      "contact_info": {
+        "address": "2525 Gambell Street, Suite 100, Anchorage, AK 99503",
+        "phone": "(907) 270-2700",
+        "public_records_contact": "Director of Elections"
+      },
+      "records_commonly_requested": [
+        "Election results and voting data",
+        "Campaign finance reports",
+        "Voter registration statistics",
+        "Ballot initiative filings",
+        "Candidate filing information"
+      ]
+    },
+
+    {
+      "id": "AK-012",
+      "name": "Alaska Department of Natural Resources", 
+      "category": "Natural Resources",
+      "description": "State agency managing natural resources, mining, forestry, and land use",
+      "website": "https://dnr.alaska.gov",
+      "contact_info": {
+        "address": "550 West 7th Avenue, Suite 1400, Anchorage, AK 99501",
+        "phone": "(907) 269-8400",
+        "public_records_contact": "Administrative Services"
+      },
+      "records_commonly_requested": [
+        "Oil and gas lease information",
+        "Mining permits and applications",
+        "State land use plans",
+        "Water rights and permits",
+        "Forestry management plans"
+      ]
+    },
+
+    {
+      "id": "AK-013",
+      "name": "Alaska Department of Environmental Conservation",
+      "category": "Environment", 
+      "description": "State environmental protection and conservation agency",
+      "website": "https://dec.alaska.gov",
+      "contact_info": {
+        "address": "410 Willoughby Avenue, Suite 303, Juneau, AK 99801-1795",
+        "phone": "(907) 465-5066",
+        "public_records_contact": "Administrative Services"
+      },
+      "records_commonly_requested": [
+        "Environmental permit applications",
+        "Air and water quality monitoring",
+        "Hazardous waste facility inspections",
+        "Oil spill response plans",
+        "Environmental impact assessments"
+      ]
+    },
+
+    {
+      "id": "AK-014",
+      "name": "Alaska Department of Fish and Game",
+      "category": "Natural Resources",
+      "description": "State agency managing fish and wildlife resources, hunting and fishing",
+      "website": "https://www.adfg.alaska.gov", 
+      "contact_info": {
+        "address": "1255 West 8th Street, Juneau, AK 99811-5526",
+        "phone": "(907) 465-6136",
+        "public_records_contact": "Administrative Services"
+      },
+      "records_commonly_requested": [
+        "Wildlife population surveys",
+        "Fish stock assessments",
+        "Hunting and fishing regulations",
+        "Commercial fishing permits",
+        "Habitat restoration projects"
+      ]
+    },
+
+    {
+      "id": "AK-015",
+      "name": "Alaska Department of Military and Veterans Affairs",
+      "category": "Military/Veterans",
+      "description": "State agency providing military coordination and veterans services",
+      "website": "https://veterans.alaska.gov",
+      "contact_info": {
+        "address": "P.O. Box 5800, Joint Base Elmendorf-Richardson, AK 99505-5800",
+        "phone": "(907) 428-6016",
+        "public_records_contact": "Administrative Office"
+      },
+      "records_commonly_requested": [
+        "Veterans benefits program information",
+        "Alaska National Guard operations",
+        "Veterans cemetery records",
+        "Emergency response coordination",
+        "Military facilities management"
+      ]
+    }
+  ],
+
+  "request_templates": [
+    {
+      "template_id": "AK-STANDARD",
+      "name": "Alaska Standard Records Request",
+      "description": "General purpose records request for Alaska state agencies",
+      "template_text": "Dear Records Custodian:\n\nPursuant to the Alaska Public Records Act, Alaska Statutes 40.25.110 through 40.25.125, I respectfully request access to and copies of the following public records:\n\n[SPECIFY RECORDS REQUESTED]\n\nPlease describe the records sought in sufficient detail to enable the agency to locate the records. I request both examination of the records and copies.\n\nPer 2 AAC 96.325, please respond to this request within 10 working days. If you cannot respond completely within 10 working days, you may extend the response time by up to 10 additional working days by sending written notice explaining the reason for the extension.\n\nI understand that there is no charge for the first two person-hours of search time per calendar month. If additional time is required, please notify me of the estimated costs before proceeding.\n\nIf you determine that some portions of these records are exempt from disclosure under AS 40.25.120, please segregate the confidential information and make available any parts that are not confidential. Please cite the specific statutory authority for any withholdings.\n\nIf you deny any portion of this request, please advise me of my right to administrative appeal and the procedures for filing such an appeal.\n\nThank you for your prompt attention to this matter.\n\nSincerely,\n[REQUESTER NAME]\n[ADDRESS]\n[CITY, STATE ZIP]\n[PHONE NUMBER]\n[EMAIL ADDRESS]\n[DATE]"
+    },
+    
+    {
+      "template_id": "AK-ELECTRONIC",
+      "name": "Alaska Electronic Records Request",
+      "description": "Specific template for requesting electronic records and services under AS 40.25.115",
+      "template_text": "Dear Records Custodian:\n\nPursuant to Alaska Statutes 40.25.115 and the Alaska Public Records Act, I respectfully request the following public records in electronic format:\n\n[SPECIFY ELECTRONIC RECORDS REQUESTED]\n\nI request that the agency provide these records in [SPECIFY FORMAT - e.g., Excel, CSV, PDF] format if possible. If the records cannot be provided in the requested format, please provide them in the electronic format in which they are maintained.\n\nPer AS 40.25.115, I understand that:\n1. Records must exist in electronic format\n2. The agency must be able to retrieve them with reasonable effort\n3. Providing records electronically must not violate licensing agreements or intellectual property rights\n\nPlease complete this response as promptly as possible upon receiving any required payment as specified in AS 40.25.115(e). If you anticipate charging fees, please notify me of the estimated actual costs before proceeding.\n\nIf electronic format is not available and records exist only in paper format, please process this request under AS 40.25.110 with the standard 10 working day response timeline.\n\nIf you determine that some portions of these records are exempt from disclosure, please provide the non-exempt portions and cite specific statutory authority for any withholdings.\n\nThank you for your assistance with this electronic records request.\n\nSincerely,\n[REQUESTER NAME]\n[ADDRESS]\n[CITY, STATE ZIP]\n[PHONE NUMBER]\n[EMAIL ADDRESS]\n[DATE]"
+    },
+
+    {
+      "template_id": "AK-APPEAL",
+      "name": "Alaska Administrative Appeal",
+      "description": "Template for filing administrative appeal of denied records request",
+      "template_text": "Dear [AGENCY APPEAL AUTHORITY]:\n\nI hereby file this administrative appeal of the denial of my public records request submitted to your agency on [REQUEST DATE] and denied on [DENIAL DATE].\n\nMy original request sought the following records:\n[DESCRIBE ORIGINAL REQUEST]\n\nYour agency denied this request based on [CITE AGENCY'S STATED REASONS]. I believe this denial is incorrect for the following reasons:\n\n1. [EXPLAIN WHY EXEMPTION DOESN'T APPLY]\n2. [CITE RELEVANT APRA PROVISIONS]\n3. [REFERENCE ALASKA PRESUMPTION IN FAVOR OF DISCLOSURE]\n\nThe Alaska Public Records Act creates a presumption in favor of disclosure, and exemptions must be narrowly construed. Per AS 40.25.122, any determination of confidentiality must balance the need for confidentiality against the public interest in disclosure.\n\nI request that you:\n1. Reverse the denial decision\n2. Provide the requested records\n3. If partial withholding is maintained, segregate confidential portions and release non-exempt information\n\nI understand that if this administrative appeal is unsuccessful, I may file an appeal in superior court within 30 days of your final administrative order per AS 40.25.124.\n\nPlease provide your agency's specific procedures and timeline for processing this administrative appeal.\n\nThank you for your reconsideration of this matter.\n\nSincerely,\n[REQUESTER NAME]\n[ADDRESS]\n[CITY, STATE ZIP]\n[PHONE NUMBER]\n[EMAIL ADDRESS]\n[DATE]\n\nEnclosures: Copy of original request and denial letter"
+    }
+  ],
+
+  "research_sources": [
+    "Alaska Statutes Title 40, Chapter 25, Sections 40.25.110 through 40.25.125",
+    "Alaska Administrative Code Title 2, Chapter 96, Sections 96.100 through 96.900",
+    "Alaska Department of Law APRA guidance materials",
+    "Reporters Committee for Freedom of the Press - Alaska Open Government Guide",
+    "Ballotpedia - Alaska Public Records Act",
+    "National Freedom of Information Coalition - Alaska FOIA Laws",
+    "Alaska state government agency websites and directories"
+  ]
+}

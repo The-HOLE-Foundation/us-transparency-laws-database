@@ -1,0 +1,86 @@
+{
+  "jurisdiction": "federal",
+  "statute": "5 U.S.C. § 552",
+  "templates": [
+    {
+      "template_name": "Standard Federal FOIA Request",
+      "template_type": "general",
+      "subject_line": "Freedom of Information Act Request - [BRIEF_DESCRIPTION]",
+      "template_body": "To the FOIA Officer:\n\nThis is a request under the Freedom of Information Act, 5 U.S.C. § 552.\n\nI am requesting access to and copies of [DETAILED_DESCRIPTION_OF_RECORDS]. [OPTIONAL: These records pertain to [TIME_PERIOD] and may be found in [SPECIFIC_OFFICE_OR_PROGRAM]].\n\nTo help you locate these records, I am providing the following additional information: [ADDITIONAL_DETAILS_OR_CONTEXT].\n\nI request that you provide the records in [electronic format/paper copies] [PREFERRED_FORMAT].\n\nI am [a representative of the news media/an educational institution/a non-commercial scientific institution/other] and this request is made for [news gathering/educational/scientific research/other] purposes. [IF_APPLICABLE: I request a waiver of all fees associated with this request as disclosure is in the public interest and will contribute significantly to public understanding of government operations.]  [ALTERNATIVE: I am willing to pay fees up to $[AMOUNT]. Please notify me before incurring costs exceeding this amount.]\n\nI request expedited processing of this request because [JUSTIFICATION_FOR_EXPEDITED_PROCESSING, if applicable].\n\nIf you deny all or part of this request, please cite the specific exemption(s) justifying your denial and provide the required segregability analysis. I reserve the right to administratively appeal any denial.\n\nPlease confirm receipt of this request and provide an estimated completion date. The FOIA requires a response within 20 business days.\n\nI look forward to your prompt response.\n\nSincerely,\n[REQUESTER_NAME]\n[REQUESTER_ADDRESS]\n[REQUESTER_PHONE]\n[REQUESTER_EMAIL]",
+      "required_variables": [
+        "DETAILED_DESCRIPTION_OF_RECORDS",
+        "REQUESTER_NAME",
+        "REQUESTER_ADDRESS",
+        "REQUESTER_PHONE",
+        "REQUESTER_EMAIL"
+      ],
+      "optional_variables": [
+        "BRIEF_DESCRIPTION",
+        "TIME_PERIOD",
+        "SPECIFIC_OFFICE_OR_PROGRAM",
+        "ADDITIONAL_DETAILS_OR_CONTEXT",
+        "PREFERRED_FORMAT",
+        "AMOUNT",
+        "JUSTIFICATION_FOR_EXPEDITED_PROCESSING"
+      ]
+    },
+    {
+      "template_name": "Federal FOIA Request with Fee Waiver",
+      "template_type": "fee_waiver",
+      "subject_line": "FOIA Request with Fee Waiver - [BRIEF_DESCRIPTION]",
+      "template_body": "To the FOIA Officer:\n\nThis is a request under the Freedom of Information Act, 5 U.S.C. § 552.\n\nI am requesting access to and copies of [DETAILED_DESCRIPTION_OF_RECORDS].\n\nFEE WAIVER REQUEST:\nI request a waiver of all fees associated with this request pursuant to 5 U.S.C. § 552(a)(4)(A)(iii) and your agency's FOIA regulations because disclosure of the requested information is in the public interest and will contribute significantly to public understanding of the operations or activities of the government.\n\nSpecifically:\n1. The subject of the request concerns the operations or activities of the government: [EXPLAIN_GOVERNMENT_OPERATIONS_CONNECTION]\n2. The disclosure is likely to contribute to an understanding of government operations: [EXPLAIN_HOW_DISCLOSURE_CONTRIBUTES_TO_UNDERSTANDING]\n3. The disclosure will contribute to public understanding: [EXPLAIN_PUBLIC_BENEFIT]\n4. The disclosure will significantly contribute to public understanding: [EXPLAIN_SIGNIFICANCE]\n5. I have no commercial interest in the disclosure: [EXPLAIN_NON_COMMERCIAL_PURPOSE]\n\n[OPTIONAL: I am affiliated with [ORGANIZATION_NAME], a [non-profit organization/educational institution/news organization] whose mission is [MISSION_DESCRIPTION].]\n\nTo help you locate these records, I am providing the following additional information: [ADDITIONAL_DETAILS].\n\nI request that you provide the records in electronic format if available.\n\nIf you deny all or part of this request, please cite the specific exemption(s) and provide segregability analysis. I reserve the right to appeal any denial.\n\nPlease respond within the statutory 20 business days.\n\nSincerely,\n[REQUESTER_NAME]\n[REQUESTER_TITLE]\n[REQUESTER_ORGANIZATION]\n[REQUESTER_ADDRESS]\n[REQUESTER_PHONE]\n[REQUESTER_EMAIL]",
+      "required_variables": [
+        "DETAILED_DESCRIPTION_OF_RECORDS",
+        "EXPLAIN_GOVERNMENT_OPERATIONS_CONNECTION",
+        "EXPLAIN_HOW_DISCLOSURE_CONTRIBUTES_TO_UNDERSTANDING",
+        "EXPLAIN_PUBLIC_BENEFIT",
+        "EXPLAIN_SIGNIFICANCE",
+        "EXPLAIN_NON_COMMERCIAL_PURPOSE",
+        "REQUESTER_NAME",
+        "REQUESTER_ADDRESS",
+        "REQUESTER_PHONE",
+        "REQUESTER_EMAIL"
+      ],
+      "optional_variables": [
+        "BRIEF_DESCRIPTION",
+        "ORGANIZATION_NAME",
+        "MISSION_DESCRIPTION",
+        "REQUESTER_TITLE",
+        "REQUESTER_ORGANIZATION",
+        "ADDITIONAL_DETAILS"
+      ]
+    },
+    {
+      "template_name": "Federal FOIA Request for Expedited Processing",
+      "template_type": "expedited",
+      "subject_line": "URGENT: Expedited FOIA Request - [BRIEF_DESCRIPTION]",
+      "template_body": "To the FOIA Officer:\n\nThis is a request under the Freedom of Information Act, 5 U.S.C. § 552.\n\nEXPEDITED PROCESSING REQUEST:\nI request expedited processing of this FOIA request pursuant to 5 U.S.C. § 552(a)(6)(E) and your agency's FOIA regulations because:\n\n[CHECK_ONE_OR_MORE:]\n☐ Failure to obtain requested records on an expedited basis could reasonably be expected to pose an imminent threat to the life or physical safety of an individual.\n☐ There is an urgency to inform the public about an actual or alleged federal government activity, if made by a person primarily engaged in disseminating information.\n☐ [OTHER_COMPELLING_NEED_AS_DEFINED_BY_AGENCY]\n\nSpecific justification: [DETAILED_JUSTIFICATION_FOR_EXPEDITED_PROCESSING]\n\nRECORDS REQUESTED:\nI am requesting access to and copies of [DETAILED_DESCRIPTION_OF_RECORDS].\n\n[DETAILED_EXPLANATION_OF_URGENCY_AND_PUBLIC_INTEREST]\n\nI certify that the foregoing is true and correct to the best of my knowledge and belief.\n\nTo help you locate these records: [ADDITIONAL_DETAILS].\n\nI am willing to pay reasonable fees up to $[AMOUNT] for this request.\n\nGiven the urgent nature of this request, please confirm receipt immediately and provide expedited processing.\n\nIf you deny all or part of this request, please cite specific exemptions and provide segregability analysis.\n\nSincerely,\n[REQUESTER_NAME]\n[REQUESTER_TITLE]\n[REQUESTER_ORGANIZATION]\n[REQUESTER_ADDRESS]\n[REQUESTER_PHONE]\n[REQUESTER_EMAIL]\n\nCERTIFICATION:\nI hereby certify that the statements made in this expedited processing request are true and correct to the best of my knowledge and belief.\n\nSignature: _________________________ Date: _____________\n[REQUESTER_NAME]",
+      "required_variables": [
+        "DETAILED_DESCRIPTION_OF_RECORDS",
+        "DETAILED_JUSTIFICATION_FOR_EXPEDITED_PROCESSING",
+        "DETAILED_EXPLANATION_OF_URGENCY_AND_PUBLIC_INTEREST",
+        "REQUESTER_NAME",
+        "REQUESTER_ADDRESS",
+        "REQUESTER_PHONE",
+        "REQUESTER_EMAIL"
+      ],
+      "optional_variables": [
+        "BRIEF_DESCRIPTION",
+        "AMOUNT",
+        "REQUESTER_TITLE",
+        "REQUESTER_ORGANIZATION",
+        "ADDITIONAL_DETAILS"
+      ]
+    }
+  ],
+  "legal_requirements": {
+    "statute_citation": "5 U.S.C. § 552",
+    "response_deadline": "20 business days",
+    "fee_waiver_standard": "Public interest and no commercial interest",
+    "expedited_processing_criteria": [
+      "Threat to life or safety",
+      "Urgency to inform public (media requesters)",
+      "Other compelling need (agency-specific)"
+    ],
+    "appeal_rights": "Administrative appeal to agency head, then federal court"
+  }

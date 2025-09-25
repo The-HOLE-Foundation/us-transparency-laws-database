@@ -1,0 +1,116 @@
+{
+  "jurisdiction": "new_york",
+  "statute": "Public Officers Law, Article 6, §§84-90",
+  "last_updated": "2025-09-05",
+  "total_executive_agencies": 55,
+  "major_agencies": [
+    {
+      "agency_name": "New York State Education Department",
+      "abbreviation": "NYSED",
+      "records_access_officer": {
+        "title": "Records Access Officer",
+        "address": "89 Washington Ave, Room 124 EB, Albany, NY 12234",
+        "email": "foil@nysed.gov",
+        "fax": "518-473-2827"
+      },
+      "submission_methods": ["Email", "Mail", "Fax"],
+      "website": "https://www.nysed.gov/",
+      "special_notes": "Sample FOIL request form available"
+    },
+    {
+      "agency_name": "New York State Department of Health",
+      "abbreviation": "DOH",
+      "records_access_officer": {
+        "title": "Records Access Appeals Officer",
+        "address": "Corning Tower, Floor 26, Albany, New York 12237-0044",
+        "email": "foil@health.ny.gov",
+        "fax": "518-486-9144"
+      },
+      "submission_methods": ["Email", "Mail", "Fax"],
+      "website": "https://www.health.ny.gov/"
+    },
+    {
+      "agency_name": "New York State Department of Labor",
+      "abbreviation": "DOL",
+      "records_access_officer": {
+        "phone": "518-485-2191",
+        "appeals_address": "Commissioner of Labor, Harriman State Office Campus Building 12, Room 500, Albany, NY 12226"
+      },
+      "submission_methods": ["Phone", "Email", "GovQA portal"],
+      "website": "https://dol.ny.gov/",
+      "special_notes": "Uses GovQA for FOIL processing"
+    },
+    {
+      "agency_name": "New York State Department of Transportation",
+      "abbreviation": "NYSDOT",
+      "records_access_officer": {
+        "website": "https://www.dot.ny.gov/divisions/legal-services-division/recordsaccess"
+      },
+      "submission_methods": ["Mail", "Email"],
+      "website": "https://www.dot.ny.gov/"
+    },
+    {
+      "agency_name": "New York State Department of State",
+      "abbreviation": "DOS",
+      "records_access_officer": {
+        "title": "Records Access Officer",
+        "address": "One Commerce Plaza, 99 Washington Avenue, Albany, NY 12231"
+      },
+      "submission_methods": ["Mail", "Email"],
+      "website": "https://dos.ny.gov/"
+    },
+    {
+      "agency_name": "New York State Police",
+      "abbreviation": "NYSP",
+      "records_access_officer": {
+        "website": "https://troopers.ny.gov/foil-requests"
+      },
+      "submission_methods": ["Online", "Mail"],
+      "website": "https://troopers.ny.gov/"
+    },
+    {
+      "agency_name": "Department of Corrections and Community Supervision",
+      "abbreviation": "DOCCS",
+      "records_access_officer": {
+        "title": "Records Access Officer",
+        "address": "Harriman State Campus, 1220 Washington Avenue, Albany, New York 12226-2050"
+      },
+      "submission_methods": ["Mail", "Email"],
+      "website": "https://doccs.ny.gov/"
+    },
+    {
+      "agency_name": "Dormitory Authority of the State of New York",
+      "abbreviation": "DASNY",
+      "records_access_officer": {
+        "website": "https://www.dasny.org/foil"
+      },
+      "submission_methods": ["Online", "Mail"],
+      "website": "https://www.dasny.org/"
+    }
+  ],
+  "processing_systems": {
+    "open_foil_ny": {
+      "description": "Central portal for 55 NY State Executive Agencies",
+      "website": "https://www.ny.gov/programs/open-foil-ny",
+      "transition_note": "Agencies transitioning to GovQA system"
+    },
+    "govqa": {
+      "description": "Improved FOIL processing application",
+      "note": "Replacing Open FOIL form system"
+    }
+  },
+  "oversight": {
+    "committee_on_open_government": {
+      "role": "Oversees FOIL implementation and provides guidance",
+      "appeal_function": "Handles certain appeals and provides advisory opinions"
+    }
+  },
+  "legal_requirements": {
+    "statute_citation": "Public Officers Law, Article 6, §§84-90",
+    "initial_response": "5 business days",
+    "extended_response": "20 business days after acknowledgment",
+    "appeal_deadline": "30 days from denial",
+    "fee_structure": "$0.25 per page (up to 9x14 inches)",
+    "electronic_requirement": "Must accept electronic requests if capable"
+  }
+}

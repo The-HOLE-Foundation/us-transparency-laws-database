@@ -1,0 +1,313 @@
+{
+  "state": "Utah",
+  "law_name": "Government Records Access and Management Act (GRAMA)",
+  "statute_citation": "Utah Code § 63G-2-101 et seq.",
+  "last_updated": "2025-01-15",
+  "oversight_agency": {
+    "name": "Utah Division of Archives and Records Service",
+    "role": "Administers GRAMA, maintains Open Records Portal, houses State Records Committee",
+    "contact": {
+      "website": "https://archives.utah.gov/opengovernment/",
+      "portal": "Utah Open Records Portal",
+      "hotline": "1-800-574-4546 (Utah Freedom of Information Hotline)",
+      "address": "Utah State Archives, Salt Lake City, UT"
+    }
+  },
+  "state_records_committee": {
+    "name": "State Records Committee",
+    "role": "Hears appeals from agency denials, issues binding orders",
+    "appeal_timeframe": "Hearing scheduled within 5 days of request",
+    "decision_timeframe": "Issues order after hearing, parties must comply within 30 days"
+  },
+  "government_records_ombudsman": {
+    "role": "Mediates disputes, provides guidance, independent oversight",
+    "authority": "Non-binding mediation and consultation"
+  },
+  "agencies": [
+    {
+      "name": "Utah Department of Transportation (UDOT)",
+      "description": "State transportation department responsible for highways, public transit, and transportation infrastructure",
+      "public_records_contact": {
+        "coordinator_title": "GRAMA Coordinator",
+        "coordinator_name": "Mandy Archuleta",
+        "email": "mandyknowlden@utah.gov",
+        "phone": "(801) 965-4715",
+        "mailing_address": {
+          "street": "Attn: GRAMA Coordinator",
+          "street2": "Utah Department of Transportation",
+          "street3": "P.O. Box 148430",
+          "city": "Salt Lake City",
+          "state": "UT",
+          "zip": "84114-8430"
+        },
+        "online_portal": "https://udot.justfoia.com/Forms/Launch/d705cbd6-1396-49b7-939e-8d86c5a87deb",
+        "website": "https://www.udot.utah.gov/connect/public/records-requests/"
+      },
+      "subject_areas": ["Highway construction", "Transportation planning", "Public transit", "Road maintenance", "Traffic data", "Bridge safety"]
+    },
+    {
+      "name": "Utah Department of Environmental Quality (DEQ)",
+      "description": "Environmental protection and regulatory agency",
+      "public_records_contact": {
+        "coordinator_title": "Department GRAMA Coordinator",
+        "coordinator_name": "Brenda Johnson",
+        "email": "brenda.johnson@utah.gov",
+        "department_email": "deqrecords@utah.gov",
+        "phone": "(801) 536-0095",
+        "mailing_address": {
+          "street": "195 North 1950 West",
+          "city": "Salt Lake City",
+          "state": "UT",
+          "zip": "84116"
+        },
+        "website": "https://deq.utah.gov/general/records-request-government-records-access-and-management-act-grama"
+      },
+      "subject_areas": ["Environmental permits", "Air quality", "Water quality", "Waste management", "Drinking water safety"],
+      "division_contacts": [
+        {
+          "division": "Air Quality",
+          "contacts": ["Tanner Lemer", "Melissa Yazhe"],
+          "phone": "(801) 536-4067"
+        },
+        {
+          "division": "Drinking Water",
+          "phone": "(801) 536-4205"
+        },
+        {
+          "division": "Environmental Response & Remediation",
+          "phone": "(801) 536-4157"
+        },
+        {
+          "division": "Waste Management & Radiation Control",
+          "phone": "(801) 536-0200"
+        },
+        {
+          "division": "Water Quality",
+          "phone": "(801) 536-4300"
+        }
+      ]
+    },
+    {
+      "name": "Utah Department of Health and Human Services",
+      "description": "State health department and human services agency",
+      "public_records_contact": {
+        "coordinator_title": "GRAMA Records Officer",
+        "website": "https://dhhs.utah.gov/",
+        "mailing_address": {
+          "street": "Utah Department of Health and Human Services",
+          "city": "Salt Lake City",
+          "state": "UT",
+          "zip": "84114"
+        }
+      },
+      "subject_areas": ["Public health", "Vital records", "Health regulations", "Human services", "Medicaid", "Mental health services"]
+    },
+    {
+      "name": "Utah State Office of Education",
+      "description": "Oversees public education policy and administration",
+      "public_records_contact": {
+        "coordinator_title": "GRAMA Records Officer",
+        "mailing_address": {
+          "street": "Utah State Office of Education",
+          "city": "Salt Lake City",
+          "state": "UT",
+          "zip": "84114"
+        }
+      },
+      "subject_areas": ["Education policy", "School performance", "Teacher certification", "School funding", "Academic standards"]
+    },
+    {
+      "name": "Utah Office of the State Auditor",
+      "description": "Independent oversight and auditing of state and local government",
+      "public_records_contact": {
+        "coordinator_title": "GRAMA Records Officer",
+        "website": "https://auditor.utah.gov/news/grama/",
+        "mailing_address": {
+          "street": "Utah Office of the State Auditor",
+          "city": "Salt Lake City",
+          "state": "UT",
+          "zip": "84114"
+        }
+      },
+      "subject_areas": ["Government audits", "Financial oversight", "Performance audits", "Fraud investigation", "Compliance reviews"]
+    },
+    {
+      "name": "Utah State Treasurer's Office",
+      "description": "State financial management and investment oversight",
+      "public_records_contact": {
+        "coordinator_title": "GRAMA Records Officer",
+        "website": "https://treasurer.utah.gov/about/grama/",
+        "mailing_address": {
+          "street": "Utah State Treasurer's Office",
+          "city": "Salt Lake City",
+          "state": "UT",
+          "zip": "84114"
+        }
+      },
+      "subject_areas": ["State investments", "Financial management", "Bond issuance", "Cash management", "Banking services"]
+    },
+    {
+      "name": "Utah Department of Agriculture and Food",
+      "description": "Agricultural regulation and food safety oversight",
+      "public_records_contact": {
+        "coordinator_title": "GRAMA Records Officer",
+        "mailing_address": {
+          "street": "Utah Department of Agriculture and Food",
+          "city": "Salt Lake City",
+          "state": "UT",
+          "zip": "84114"
+        }
+      },
+      "subject_areas": ["Agricultural regulation", "Food safety", "Weights and measures", "Animal health", "Plant protection"]
+    },
+    {
+      "name": "Utah Department of Commerce",
+      "description": "Business regulation and professional licensing",
+      "public_records_contact": {
+        "coordinator_title": "GRAMA Records Officer",
+        "mailing_address": {
+          "street": "Utah Department of Commerce",
+          "city": "Salt Lake City",
+          "state": "UT",
+          "zip": "84114"
+        }
+      },
+      "subject_areas": ["Professional licensing", "Business regulation", "Consumer protection", "Insurance regulation", "Securities oversight"]
+    },
+    {
+      "name": "Utah Department of Corrections",
+      "description": "State prison system and correctional facilities",
+      "public_records_contact": {
+        "coordinator_title": "GRAMA Records Officer",
+        "mailing_address": {
+          "street": "Utah Department of Corrections",
+          "city": "Salt Lake City",
+          "state": "UT",
+          "zip": "84114"
+        }
+      },
+      "subject_areas": ["Prison operations", "Inmate records", "Correctional facilities", "Probation and parole", "Rehabilitation programs"]
+    },
+    {
+      "name": "Utah Department of Public Safety",
+      "description": "Law enforcement and public safety services",
+      "public_records_contact": {
+        "coordinator_title": "GRAMA Records Officer",
+        "mailing_address": {
+          "street": "Utah Department of Public Safety",
+          "city": "Salt Lake City",
+          "state": "UT",
+          "zip": "84114"
+        }
+      },
+      "subject_areas": ["Highway patrol", "Criminal investigations", "Driver licensing", "Emergency management", "Crime statistics"]
+    },
+    {
+      "name": "Utah Department of Workforce Services",
+      "description": "Employment services and workforce development",
+      "public_records_contact": {
+        "coordinator_title": "GRAMA Records Officer",
+        "mailing_address": {
+          "street": "Utah Department of Workforce Services",
+          "city": "Salt Lake City",
+          "state": "UT",
+          "zip": "84114"
+        }
+      },
+      "subject_areas": ["Employment services", "Unemployment benefits", "Workforce development", "Job training", "Labor market data"]
+    },
+    {
+      "name": "Utah Division of Archives and Records Service",
+      "description": "State archives and records management, GRAMA administration",
+      "public_records_contact": {
+        "coordinator_title": "GRAMA Records Officer",
+        "website": "https://archives.utah.gov/transparency-services/government-records-access/faq/",
+        "portal": "https://archives.utah.gov/opengovernment/",
+        "mailing_address": {
+          "street": "Utah Division of Archives and Records Service",
+          "city": "Salt Lake City",
+          "state": "UT",
+          "zip": "84114"
+        }
+      },
+      "subject_areas": ["State archives", "Records management", "GRAMA administration", "Historical records", "Government transparency"]
+    },
+    {
+      "name": "Utah Department of Natural Resources",
+      "description": "Natural resource management and conservation",
+      "public_records_contact": {
+        "coordinator_title": "GRAMA Records Officer",
+        "mailing_address": {
+          "street": "Utah Department of Natural Resources",
+          "city": "Salt Lake City",
+          "state": "UT",
+          "zip": "84114"
+        }
+      },
+      "subject_areas": ["Water resources", "State parks", "Wildlife management", "Geological surveys", "Oil and gas regulation"]
+    },
+    {
+      "name": "Utah Department of Technology Services",
+      "description": "Information technology services for state government",
+      "public_records_contact": {
+        "coordinator_title": "GRAMA Records Officer",
+        "mailing_address": {
+          "street": "Utah Department of Technology Services",
+          "city": "Salt Lake City",
+          "state": "UT",
+          "zip": "84114"
+        }
+      },
+      "subject_areas": ["Information technology", "Cybersecurity", "Data management", "Government websites", "Electronic records"]
+    },
+    {
+      "name": "Utah Tax Commission",
+      "description": "Tax collection and administration",
+      "public_records_contact": {
+        "coordinator_title": "GRAMA Records Officer",
+        "mailing_address": {
+          "street": "Utah Tax Commission",
+          "city": "Salt Lake City",
+          "state": "UT",
+          "zip": "84114"
+        }
+      },
+      "subject_areas": ["Tax collection", "Property assessment", "Business taxes", "Motor vehicle registration", "Tax compliance"]
+    },
+    {
+      "name": "Utah Attorney General's Office",
+      "description": "Legal representation for state government",
+      "public_records_contact": {
+        "coordinator_title": "GRAMA Records Officer",
+        "mailing_address": {
+          "street": "Utah Attorney General's Office",
+          "city": "Salt Lake City",
+          "state": "UT",
+          "zip": "84114"
+        }
+      },
+      "subject_areas": ["Legal opinions", "Criminal prosecution", "Consumer protection", "Civil litigation", "Legal advice to agencies"]
+    }
+  ],
+  "request_process": {
+    "eligibility": "Any person may request records",
+    "identification_required": "Name, mailing address, and telephone number required",
+    "response_timeframe": "10 business days maximum (5 for expedited requests)",
+    "appeal_process": "Three-tier: CAO → State Records Committee → District Court",
+    "fees": {
+      "request_processing": "Free",
+      "first_10_copies": "Free",
+      "searches_under_15_minutes": "Free",
+      "additional_copying": "Reasonable actual cost",
+      "staff_time": "Hourly rate for extensive searches"
+    }
+  },
+  "key_features": {
+    "open_records_portal": "Centralized online submission system",
+    "government_records_ombudsman": "Independent mediation and guidance",
+    "state_records_committee": "Administrative appeals body with binding authority",
+    "written_policies_required": true,
+    "record_classifications": ["Public", "Private", "Controlled", "Protected"],
+    "constitutional_basis": "Utah Constitution Article I, Section 27"
+  }
+}

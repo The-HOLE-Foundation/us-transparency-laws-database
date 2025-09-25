@@ -1,0 +1,214 @@
+{
+  "state": "Kentucky",
+  "law_name": "Kentucky Open Records Act",
+  "statute_citation": "KRS 61.870 through 61.884",
+  "last_updated": "2025-01-09",
+  "response_deadline": "3 days (excluding weekends/holidays)",
+  "attorney_general_enforcement": true,
+  "central_foia_office": false,
+  "notes": "Resident-only enforcement. Non-residents may request but cannot enforce rights through AG appeal or court action.",
+  
+  "key_provisions": {
+    "response_time": "3 days maximum (excluding weekends/holidays)",
+    "inspection_scheduling": "5 days maximum if records not immediately available",
+    "fee_structure": "Actual reproduction costs only (no staff time)",
+    "appeals_process": "Attorney General review (20 days) then Circuit Court (30 days)",
+    "damages": "$10-100/day if arbitrary and capricious withholding",
+    "enforcement": "Kentucky Attorney General administrative review available",
+    "liberal_construction": "Exemptions strictly construed in favor of disclosure"
+  },
+  
+  "oversight_agency": {
+    "name": "Kentucky Attorney General's Office",
+    "address": "1024 Capital Center Drive, Frankfort, KY 40601",
+    "phone": "(502) 696-5300",
+    "website": "https://www.ag.ky.gov",
+    "open_records_contact": "Contact main office for open records appeals",
+    "foia_appeals": true,
+    "role": "Reviews agency denials, issues binding decisions if not appealed to court"
+  },
+  
+  "major_agencies": [
+    {
+      "name": "Kentucky Cabinet for Economic Development",
+      "address": "300 W. Broadway, Frankfort, KY 40601",
+      "phone": "(502) 564-7670",
+      "toll_free": "(800) 626-2930",
+      "website": "https://newkentuckyhome.ky.gov",
+      "foia_contact": "Contact main office for records requests",
+      "services": "Economic development, business recruitment, international trade"
+    },
+    {
+      "name": "Kentucky Cabinet for Health and Family Services",
+      "address": "275 East Main Street, Frankfort, KY 40621",
+      "phone": "(502) 564-7042",
+      "website": "https://www.chfs.ky.gov",
+      "foia_contact": "Contact main office for records requests",
+      "services": "Public health, social services, family support, Medicaid"
+    },
+    {
+      "name": "Kentucky Transportation Cabinet",
+      "address": "200 Mero Street, Frankfort, KY 40622",
+      "phone": "(502) 564-4890",
+      "website": "https://transportation.ky.gov",
+      "foia_contact": "Contact main office for records requests",
+      "services": "Highway construction/maintenance, vehicle licensing, public transit"
+    },
+    {
+      "name": "Kentucky Tourism, Arts & Heritage Cabinet",
+      "address": "300 Mero Street, 5th Floor, Frankfort, KY 40601",
+      "phone": "(502) 564-4270",
+      "website": "https://tah.ky.gov",
+      "foia_contact": "Contact main office for records requests",
+      "services": "Tourism promotion, arts development, historic preservation"
+    },
+    {
+      "name": "Kentucky Finance and Administration Cabinet",
+      "address": "383 Capitol Annex, Frankfort, KY 40601",
+      "phone": "(502) 564-4240",
+      "website": "https://finance.ky.gov",
+      "foia_contact": "Contact main office for records requests",
+      "services": "State budget, procurement, human resources, facilities management"
+    },
+    {
+      "name": "Kentucky Justice and Public Safety Cabinet",
+      "address": "125 Holmes Street, Frankfort, KY 40601",
+      "phone": "(502) 564-7554",
+      "website": "https://www.justice.ky.gov",
+      "foia_contact": "Contact main office for records requests",
+      "services": "State police, corrections, emergency management, homeland security"
+    },
+    {
+      "name": "Kentucky Education and Labor Cabinet", 
+      "address": "300 Sower Boulevard, Frankfort, KY 40601",
+      "phone": "(502) 564-0372",
+      "website": "https://educationcabinet.ky.gov",
+      "foia_contact": "Contact main office for records requests",
+      "services": "Workforce development, adult education, career services"
+    },
+    {
+      "name": "Kentucky Energy and Environment Cabinet",
+      "address": "300 Sower Boulevard, Frankfort, KY 40601", 
+      "phone": "(502) 564-2150",
+      "website": "https://eec.ky.gov",
+      "foia_contact": "Contact main office for records requests",
+      "services": "Environmental protection, natural resources, energy policy"
+    },
+    {
+      "name": "Kentucky Personnel Cabinet",
+      "address": "501 High Street, Frankfort, KY 40601",
+      "phone": "(502) 564-8030",
+      "website": "https://personnel.ky.gov",
+      "foia_contact": "Contact main office for records requests",
+      "services": "State employee benefits, personnel management, training"
+    },
+    {
+      "name": "Kentucky Department of Agriculture",
+      "address": "111 Corporate Drive, Frankfort, KY 40601",
+      "phone": "(502) 573-0282",
+      "website": "https://www.kyagr.com",
+      "foia_contact": "Contact main office for records requests",
+      "services": "Agricultural regulation, food safety, consumer protection"
+    },
+    {
+      "name": "Kentucky Secretary of State",
+      "address": "700 Capital Avenue, Suite 152, Frankfort, KY 40601",
+      "phone": "(502) 564-3490",
+      "website": "https://www.sos.ky.gov",
+      "foia_contact": "Contact main office for records requests",
+      "services": "Elections, business filings, notary services, land records"
+    },
+    {
+      "name": "Kentucky State Treasurer",
+      "address": "1050 US Highway 127 South, Suite 100, Frankfort, KY 40601",
+      "phone": "(502) 564-4722",
+      "website": "https://www.kytreasury.gov",
+      "foia_contact": "Contact main office for records requests",
+      "services": "State investments, unclaimed property, local government services"
+    },
+    {
+      "name": "Kentucky Auditor of Public Accounts",
+      "address": "209 St. Clair Street, Frankfort, KY 40601",
+      "phone": "(502) 564-5841",
+      "website": "https://www.auditor.ky.gov",
+      "foia_contact": "Contact main office for records requests",
+      "services": "Government audits, fraud investigations, transparency oversight"
+    },
+    {
+      "name": "Kentucky Department of Insurance",
+      "address": "500 Mero Street, 2SE-A, Frankfort, KY 40601",
+      "phone": "(502) 564-6027",
+      "website": "https://insurance.ky.gov",
+      "foia_contact": "Contact main office for records requests", 
+      "services": "Insurance regulation, consumer protection, licensing"
+    },
+    {
+      "name": "Kentucky Public Service Commission",
+      "address": "211 Sower Boulevard, Frankfort, KY 40602",
+      "phone": "(502) 564-3940",
+      "website": "https://psc.ky.gov",
+      "foia_contact": "Contact main office for records requests",
+      "services": "Utility regulation, rate setting, consumer complaints"
+    }
+  ],
+  
+  "request_process": {
+    "step_1": "Submit written application describing records to official custodian",
+    "step_2": "Agency has 3 days (excluding weekends/holidays) to respond", 
+    "step_3": "If not immediately available, agency schedules inspection within 5 days",
+    "step_4": "If denied, agency must cite specific exemption and explain application",
+    "step_5": "Appeal to Attorney General within reasonable time (no specific deadline)",
+    "step_6": "AG has 20 days to review and issue written decision",
+    "step_7": "Either party may appeal AG decision to Circuit Court within 30 days"
+  },
+  
+  "fees": {
+    "inspection": "Free",
+    "copying": "Actual reproduction costs only (media + mechanical processing)",
+    "staff_time": "Cannot charge for staff time to locate/review records",
+    "electronic_records": "Available in useable electronic format if technically feasible",
+    "payment": "May require payment in advance of copying"
+  },
+  
+  "exemptions_summary": [
+    "Records specifically prohibited by federal/state law",
+    "Preliminary drafts, notes, correspondence with private individuals",
+    "Personnel records (except basic employment info)",
+    "Medical records and personal privacy information", 
+    "Attorney-client privileged communications",
+    "Criminal investigation records (ongoing cases)",
+    "Security information that could endanger life/safety",
+    "Trade secrets and proprietary information",
+    "Real estate appraisals prior to acquisition",
+    "Test questions and academic evaluations"
+  ],
+  
+  "special_provisions": {
+    "resident_only_enforcement": "Only Kentucky residents can enforce rights through AG appeals or court action",
+    "taxpayer_definition": "Resident includes any person, business, or entity paying or required to pay Kentucky taxes",
+    "liberal_construction": "Exemptions must be strictly construed in favor of disclosure",
+    "burden_of_proof": "Agency must prove exemption applies - strict burden",
+    "damages_available": "Court may award $10-100/day for arbitrary and capricious denials",
+    "attorney_fees": "Court costs and reasonable attorney fees if requester prevails"
+  },
+  
+  "templates": {
+    "basic_request": {
+      "subject": "Kentucky Open Records Act Request",
+      "greeting": "Dear Official Custodian:",
+      "body": "Pursuant to the Kentucky Open Records Act (KRS 61.870 et seq.), I hereby request to inspect and obtain copies of the following public records:\n\n[Describe records with specificity]\n\nAs a Kentucky resident, I have the right to inspect public records under KRS 61.872. Please respond within three (3) days as required by KRS 61.880(1). If access is denied in whole or part, please provide a written statement of the specific exception authorizing withholding and explanation of how the exception applies.\n\nPlease contact me to discuss any reproduction fees.\n\nThank you for your prompt attention to this matter.",
+      "closing": "Sincerely,\n[Your name]\n[Your address]\n[Your phone]\n[Your email]"
+    },
+    "attorney_general_appeal": {
+      "recipient": "Kentucky Attorney General's Office",
+      "address": "1024 Capital Center Drive, Frankfort, KY 40601",
+      "subject": "Appeal Under Kentucky Open Records Act - KRS 61.880",
+      "body": "I am appealing the denial of my open records request by [Agency Name]. On [Date], I requested [Description of Records]. On [Date], the agency denied my request citing [Exemption Claimed]. I believe this denial violates the Kentucky Open Records Act because [Reasons]. Per KRS 61.880, I request your review of this denial. All relevant correspondence is attached."
+    },
+    "circuit_court_appeal": {
+      "note": "Must be filed within 30 days of Attorney General's decision",
+      "jurisdiction": "Circuit Court where agency is located or where records are maintained",
+      "standard": "De novo review - fresh determination of all issues"
+    }
+  }
+}

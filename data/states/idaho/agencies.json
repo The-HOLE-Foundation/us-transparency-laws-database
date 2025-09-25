@@ -1,0 +1,213 @@
+{
+  "state": "Idaho",
+  "transparency_law": "Idaho Public Records Act",
+  "statute_citation": "Idaho Code Title 74, Chapter 1 (§§ 74-101 through 74-126)",
+  "central_authority": {
+    "name": "No centralized authority",
+    "role": "Requests handled by individual agency custodians",
+    "website": "https://idaho.gov/agencies/",
+    "notes": "No ombudsman or oversight body - enforcement through courts"
+  },
+  "request_requirements": {
+    "must_be_written": true,
+    "identification_required": true,
+    "purpose_required": false,
+    "idaho_resident_preferred": true,
+    "fees_may_apply": true
+  },
+  "response_deadlines": {
+    "residents_standard": "3 working days to grant/deny, 10 working days maximum for production",
+    "non_residents": "up to 35 days",
+    "appeals_timeframe": "File in district court - no specific deadline",
+    "penalties": "Up to $1,000 for deliberate improper refusal"
+  },
+  "agencies": [
+    {
+      "name": "Governor's Office",
+      "department": "Office of the Governor",
+      "address": "700 West Jefferson Street, 2nd Floor, Boise, ID 83720",
+      "phone": "(208) 334-2100",
+      "fax": "(208) 334-3454",
+      "email": "info@gov.idaho.gov",
+      "records_custodian": "Ann DeAngeli",
+      "records_email": "records@gov.idaho.gov",
+      "website": "https://gov.idaho.gov/",
+      "submission_methods": ["Email", "Mail", "Online Form"],
+      "online_portal": "https://gov.idaho.gov/contact/submit-public-records-request/",
+      "notes": "Executive branch policy and administration"
+    },
+    {
+      "name": "Department of Health and Welfare",
+      "department": "DHW",
+      "address": "P.O. Box 83720, 450 W. State Street, 10th Floor, Boise, ID 83720-0036",
+      "phone": "(208) 334-5564",
+      "fax": "(208) 639-5742",
+      "email": "prr@dhw.idaho.gov",
+      "records_contact": "Transparency Team",
+      "website": "https://healthandwelfare.idaho.gov/",
+      "submission_methods": ["Email", "Mail", "Fax", "Online Form"],
+      "online_portal": "https://healthandwelfare.idaho.gov/online-public-record-request-form",
+      "hours": "8 a.m. to 5 p.m., Monday through Friday",
+      "notes": "Health services, welfare programs, Medicaid"
+    },
+    {
+      "name": "Attorney General",
+      "department": "Office of the Attorney General",
+      "address": "700 W. Jefferson Street, Suite 210, Boise, ID 83720-0010",
+      "phone": "(208) 334-2400",
+      "fax": "(208) 854-8071",
+      "email": "info@ag.idaho.gov",
+      "records_custodian": "Kami Reeve",
+      "records_email": "kamala.reeve@ag.idaho.gov",
+      "website": "https://www.ag.idaho.gov/",
+      "submission_methods": ["Email", "Mail", "Fax"],
+      "notes": "Legal counsel for state agencies, consumer protection"
+    },
+    {
+      "name": "Department of Administration",
+      "department": "DOA",
+      "address": "650 W. State Street, Room 100, Boise, ID 83720-0003",
+      "phone": "(208) 332-1824",
+      "email": "info@adm.idaho.gov",
+      "website": "https://adm.idaho.gov/",
+      "submission_methods": ["Email", "Mail", "Online Form"],
+      "online_portal": "https://adm.idaho.gov/public-record-request/",
+      "notes": "Administrative services, human resources, purchasing"
+    },
+    {
+      "name": "Department of Lands",
+      "department": "IDL",
+      "address": "300 N. 6th Street, Suite 103, Boise, ID 83720-0050",
+      "phone": "(208) 334-0200",
+      "fax": "(208) 334-3698",
+      "email": "info@idl.idaho.gov",
+      "website": "https://www.idl.idaho.gov/",
+      "submission_methods": ["Email", "Mail", "Online Form"],
+      "online_portal": "https://www.idl.idaho.gov/public-records-request/",
+      "notes": "State lands management, forestry, fire protection"
+    },
+    {
+      "name": "Department of Transportation",
+      "department": "ITD",
+      "address": "3311 W. State Street, Boise, ID 83703",
+      "phone": "(208) 334-8000",
+      "email": "ITDInfo@itd.idaho.gov",
+      "website": "https://itd.idaho.gov/",
+      "submission_methods": ["Email", "Mail"],
+      "notes": "Highways, bridges, public transportation"
+    },
+    {
+      "name": "Department of Education",
+      "department": "SDE",
+      "address": "650 W. State Street, Boise, ID 83720-0027",
+      "phone": "(208) 332-6800",
+      "fax": "(208) 334-2228",
+      "email": "info@sde.idaho.gov",
+      "website": "https://www.sde.idaho.gov/",
+      "submission_methods": ["Email", "Mail", "Fax"],
+      "notes": "K-12 education policy and administration"
+    },
+    {
+      "name": "Department of Labor",
+      "department": "IDOL",
+      "address": "317 W. Main Street, Boise, ID 83735",
+      "phone": "(208) 332-3570",
+      "fax": "(208) 334-6430",
+      "email": "info@labor.idaho.gov",
+      "website": "https://www.labor.idaho.gov/",
+      "submission_methods": ["Email", "Mail", "Fax"],
+      "notes": "Unemployment insurance, workforce development, safety"
+    },
+    {
+      "name": "Department of Fish and Game",
+      "department": "IDFG",
+      "address": "600 S. Walnut Street, Boise, ID 83707",
+      "phone": "(208) 334-3700",
+      "fax": "(208) 334-2114",
+      "email": "idfginfo@idfg.idaho.gov",
+      "website": "https://idfg.idaho.gov/",
+      "submission_methods": ["Email", "Mail", "Fax"],
+      "notes": "Wildlife management, hunting and fishing licenses"
+    },
+    {
+      "name": "Department of Environmental Quality",
+      "department": "DEQ",
+      "address": "1410 N. Hilton Street, Boise, ID 83706",
+      "phone": "(208) 373-0502",
+      "fax": "(208) 373-0417",
+      "email": "deqinfo@deq.idaho.gov",
+      "website": "https://www.deq.idaho.gov/",
+      "submission_methods": ["Email", "Mail", "Fax"],
+      "notes": "Environmental protection, air and water quality"
+    },
+    {
+      "name": "Department of Agriculture",
+      "department": "ISDA",
+      "address": "2270 Old Penitentiary Road, Boise, ID 83712",
+      "phone": "(208) 332-8500",
+      "fax": "(208) 334-2170",
+      "email": "info@agri.idaho.gov",
+      "website": "https://agri.idaho.gov/",
+      "submission_methods": ["Email", "Mail", "Fax"],
+      "notes": "Agricultural regulation, food safety, weights and measures"
+    },
+    {
+      "name": "Tax Commission",
+      "department": "STC",
+      "address": "800 Park Boulevard, Plaza IV, Boise, ID 83712-7742",
+      "phone": "(208) 334-7660",
+      "fax": "(208) 334-7844",
+      "email": "taxinfo@tax.idaho.gov",
+      "website": "https://tax.idaho.gov/",
+      "submission_methods": ["Email", "Mail", "Fax"],
+      "notes": "State tax administration and collection"
+    },
+    {
+      "name": "Department of Commerce",
+      "department": "ICOM",
+      "address": "700 W. State Street, Boise, ID 83720",
+      "phone": "(208) 334-2470",
+      "email": "info@commerce.idaho.gov",
+      "website": "https://commerce.idaho.gov/",
+      "submission_methods": ["Email", "Mail"],
+      "notes": "Economic development, tourism, business promotion"
+    },
+    {
+      "name": "Department of Correction",
+      "department": "IDOC",
+      "address": "1299 N. Orchard Street, Suite 110, Boise, ID 83706",
+      "phone": "(208) 658-2000",
+      "fax": "(208) 327-7404",
+      "email": "info@idoc.idaho.gov",
+      "website": "https://www.idoc.idaho.gov/",
+      "submission_methods": ["Email", "Mail", "Fax"],
+      "notes": "Adult corrections, probation and parole"
+    },
+    {
+      "name": "Department of Parks and Recreation",
+      "department": "IDPR",
+      "address": "5657 Warm Springs Avenue, Boise, ID 83716",
+      "phone": "(208) 334-4199",
+      "fax": "(208) 334-5232",
+      "email": "info@idpr.idaho.gov",
+      "website": "https://parksandrecreation.idaho.gov/",
+      "submission_methods": ["Email", "Mail", "Fax"],
+      "notes": "State parks, recreation programs, historic preservation"
+    },
+    {
+      "name": "Public Utilities Commission",
+      "department": "IPUC",
+      "address": "11331 W. Chinden Blvd, Building 8, Suite 201-A, Boise, ID 83714",
+      "phone": "(208) 334-0300",
+      "fax": "(208) 334-3762",
+      "email": "info@puc.idaho.gov",
+      "website": "https://puc.idaho.gov/",
+      "submission_methods": ["Email", "Mail", "Fax"],
+      "notes": "Public utilities regulation, rates and service"
+    }
+  ],
+  "template": {
+    "subject": "Public Records Request - [SPECIFIC DESCRIPTION]",
+    "body": "To the Public Records Custodian:\n\nPursuant to the Idaho Public Records Act, Idaho Code § 74-101 et seq., I respectfully request access to the following public records:\n\n[DETAILED DESCRIPTION OF RECORDS REQUESTED]\n\nThis request is made under Idaho Code § 74-102, which provides that every person has a right to examine and take a copy of any public record of this state.\n\nPlease provide the records in the following format: [SPECIFY: copies, electronic format, inspection, etc.]\n\nRequired Contact Information:\nName: [YOUR FULL NAME]\nAddress: [YOUR COMPLETE ADDRESS]\nPhone: [YOUR PHONE NUMBER]\nEmail: [YOUR EMAIL ADDRESS]\nPreferred delivery method: [EMAIL/MAIL/PICKUP]\n\nI am an Idaho resident and understand this request should receive a response within three (3) working days per Idaho Code § 74-103.\n\nIf any portion of this request is exempt from disclosure, please identify the specific statutory exemption and provide any segregable portions that can be released per Idaho Code § 74-112.\n\nIf you determine that fees will be charged, please provide an estimate before proceeding and consider whether this request contributes significantly to public understanding of government operations, which may warrant a fee waiver under Idaho Code § 74-102(9)(b).\n\nPlease acknowledge receipt of this request and provide the responsive records within the timeframe required by Idaho law.\n\nThank you for your prompt attention to this matter.\n\nSincerely,\n[YOUR NAME]\n[DATE]"
+  }
+}

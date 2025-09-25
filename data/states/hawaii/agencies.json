@@ -1,0 +1,228 @@
+{
+  "state": "Hawaii",
+  "transparency_law": "Uniform Information Practices Act (UIPA)",
+  "statute_citation": "Hawaii Revised Statutes Chapter 92F",
+  "central_authority": {
+    "name": "Office of Information Practices (OIP)",
+    "role": "Administers UIPA, provides guidance, handles appeals",
+    "address": "No. 1 Capitol District Building, 250 South Hotel Street, Suite 107, Honolulu, HI 96813",
+    "phone": "(808) 586-1400",
+    "fax": "(808) 586-1412",
+    "email": "oip@hawaii.gov",
+    "website": "https://oip.hawaii.gov/"
+  },
+  "request_requirements": {
+    "must_be_written": true,
+    "identification_required": false,
+    "purpose_required": false,
+    "hawaii_resident_required": false,
+    "fees_may_apply": true
+  },
+  "response_deadlines": {
+    "standard_response": "10 business days",
+    "partial_records_notice": "10 business days for notice, then 5 business days for disclosure",
+    "personal_records": "10 working days (extendable to 30 days with explanation)",
+    "appeals_timeframe": "Contact OIP for guidance"
+  },
+  "agencies": [
+    {
+      "name": "Governor's Office",
+      "department": "Executive Office of the Governor",
+      "address": "Executive Chambers, State Capitol, 415 S. Beretania Street, Honolulu, HI 96813",
+      "phone": "(808) 586-0034",
+      "fax": "(808) 586-0006",
+      "email": "govoffice.uipa@hawaii.gov",
+      "general_email": "info@gov.hawaii.gov",
+      "website": "https://governor.hawaii.gov/",
+      "records_contact": "UIPA Coordinator",
+      "submission_methods": ["Email", "Mail", "Fax"],
+      "online_portal": "https://governor.hawaii.gov/contact-us/uipa-request/",
+      "notes": "Handles executive branch policy and administration"
+    },
+    {
+      "name": "Lieutenant Governor",
+      "department": "Office of the Lieutenant Governor",
+      "address": "State Capitol, 415 South Beretania Street, 5th Floor, Honolulu, HI 96813",
+      "phone": "(808) 586-0255",
+      "fax": "(808) 586-0231",
+      "email": "ltgov@hawaii.gov",
+      "website": "https://ltgov.hawaii.gov/",
+      "records_contact": "Administrative Officer",
+      "submission_methods": ["Email", "Mail", "Fax"],
+      "notes": "Elections administration, notary services"
+    },
+    {
+      "name": "Department of Health",
+      "department": "DOH",
+      "address": "1250 Punchbowl Street, Room 325, Honolulu, HI 96813",
+      "phone": "(808) 586-4400",
+      "fax": "(808) 586-4368",
+      "email": "DOH.Health@hawaii.gov",
+      "website": "https://health.hawaii.gov/",
+      "records_contact": "UIPA Coordinator",
+      "submission_methods": ["Email", "Mail", "Fax"],
+      "online_portal": "https://health.hawaii.gov/about/contact/uipa-request/",
+      "notes": "Public health, environmental health, vital records"
+    },
+    {
+      "name": "Department of Human Services",
+      "department": "DHS",
+      "address": "P.O. Box 339, Honolulu, HI 96809-0339",
+      "phone": "(808) 586-4997",
+      "email": "DHS.UIPA@dhs.hawaii.gov",
+      "website": "https://humanservices.hawaii.gov/",
+      "records_contact": "UIPA Coordinator",
+      "submission_methods": ["Email", "Mail"],
+      "online_portal": "https://humanservices.hawaii.gov/uipa-request/",
+      "notes": "Social services, child welfare, benefits administration"
+    },
+    {
+      "name": "Department of Education",
+      "department": "DOE",
+      "address": "1390 Miller Street, Honolulu, HI 96813",
+      "phone": "(808) 784-6200",
+      "email": "doe_info@notes.k12.hi.us",
+      "website": "https://www.hawaiipublicschools.org/",
+      "records_contact": "Information Practices Coordinator",
+      "submission_methods": ["Email", "Mail", "Fax"],
+      "notes": "K-12 public education, school administration"
+    },
+    {
+      "name": "Department of Transportation",
+      "department": "DOT",
+      "address": "Aliiaimoku Building, 869 Punchbowl Street, Honolulu, HI 96813",
+      "phone": "(808) 587-2150",
+      "fax": "(808) 587-2167",
+      "email": "DOT.PIO@hawaii.gov",
+      "website": "https://hidot.hawaii.gov/",
+      "records_contact": "Public Information Officer",
+      "submission_methods": ["Email", "Mail", "Fax"],
+      "notes": "Highways, airports, harbors, public transportation"
+    },
+    {
+      "name": "Department of Land and Natural Resources",
+      "department": "DLNR",
+      "address": "Kalanimoku Building, 1151 Punchbowl Street, Honolulu, HI 96813",
+      "phone": "(808) 587-0400",
+      "fax": "(808) 587-0390",
+      "email": "dlnr@hawaii.gov",
+      "website": "https://dlnr.hawaii.gov/",
+      "records_contact": "Information and Education Specialist",
+      "submission_methods": ["Email", "Mail", "Fax"],
+      "notes": "State lands, natural resources, conservation, state parks"
+    },
+    {
+      "name": "Department of Labor and Industrial Relations",
+      "department": "DLIR",
+      "address": "830 Punchbowl Street, Honolulu, HI 96813",
+      "phone": "(808) 586-8842",
+      "fax": "(808) 586-9099",
+      "email": "dlir.director@hawaii.gov",
+      "website": "https://labor.hawaii.gov/",
+      "records_contact": "Administrative Officer",
+      "submission_methods": ["Email", "Mail", "Fax"],
+      "notes": "Workers' compensation, unemployment insurance, workplace safety"
+    },
+    {
+      "name": "Department of Taxation",
+      "department": "DOTAX",
+      "address": "Princess Ruth Keelikolani Building, 830 Punchbowl Street, Honolulu, HI 96813",
+      "phone": "(808) 587-4242",
+      "fax": "(808) 587-1488",
+      "email": "Taxpayer.Services@hawaii.gov",
+      "website": "https://tax.hawaii.gov/",
+      "records_contact": "Administrative Services Officer",
+      "submission_methods": ["Email", "Mail", "Fax"],
+      "notes": "State tax administration and collection"
+    },
+    {
+      "name": "Department of Budget and Finance",
+      "department": "B&F",
+      "address": "250 South Hotel Street, Honolulu, HI 96813",
+      "phone": "(808) 586-1518",
+      "fax": "(808) 586-1976",
+      "email": "budgetandfinance@hawaii.gov",
+      "website": "https://budget.hawaii.gov/",
+      "records_contact": "Fiscal Administration",
+      "submission_methods": ["Email", "Mail", "Fax"],
+      "notes": "State budget, purchasing, financial management"
+    },
+    {
+      "name": "Department of Business, Economic Development & Tourism",
+      "department": "DBEDT",
+      "address": "250 South Hotel Street, Honolulu, HI 96813",
+      "phone": "(808) 586-2355",
+      "fax": "(808) 586-2377",
+      "email": "director@dbedt.hawaii.gov",
+      "website": "https://dbedt.hawaii.gov/",
+      "records_contact": "Administrative Services Officer",
+      "submission_methods": ["Email", "Mail", "Fax"],
+      "notes": "Economic development, energy, tourism, housing"
+    },
+    {
+      "name": "Department of Commerce and Consumer Affairs",
+      "department": "DCCA",
+      "address": "335 Merchant Street, Honolulu, HI 96813",
+      "phone": "(808) 586-2850",
+      "fax": "(808) 586-2856",
+      "email": "dcca@dcca.hawaii.gov",
+      "website": "https://cca.hawaii.gov/",
+      "records_contact": "Administrative Services Officer",
+      "submission_methods": ["Email", "Mail", "Fax"],
+      "online_portal": "https://cca.hawaii.gov/open-records/",
+      "notes": "Professional licensing, consumer protection, business regulation"
+    },
+    {
+      "name": "Department of Accounting and General Services",
+      "department": "DAGS",
+      "address": "1151 Punchbowl Street, Honolulu, HI 96813",
+      "phone": "(808) 586-0400",
+      "fax": "(808) 586-0185",
+      "email": "dags@hawaii.gov",
+      "website": "https://ags.hawaii.gov/",
+      "records_contact": "Administrative Services Officer",
+      "submission_methods": ["Email", "Mail", "Fax"],
+      "notes": "Public works, building maintenance, vehicle fleet management"
+    },
+    {
+      "name": "Attorney General",
+      "department": "Department of the Attorney General",
+      "address": "425 Queen Street, Honolulu, HI 96813",
+      "phone": "(808) 586-1500",
+      "fax": "(808) 586-1508",
+      "email": "hawaiiag@hawaii.gov",
+      "website": "https://ag.hawaii.gov/",
+      "records_contact": "Legal Documents Branch",
+      "submission_methods": ["Email", "Mail", "Fax"],
+      "notes": "Legal counsel for state agencies, consumer protection"
+    },
+    {
+      "name": "Office of Hawaiian Affairs",
+      "department": "OHA",
+      "address": "560 N. Nimitz Highway, Suite 200, Honolulu, HI 96817",
+      "phone": "(808) 594-1888",
+      "fax": "(808) 594-1865",
+      "email": "oha.uipa@oha.org",
+      "website": "https://www.oha.org/",
+      "records_contact": "UIPA Coordinator",
+      "submission_methods": ["Email", "Mail", "Fax"],
+      "online_portal": "https://www.oha.org/uipa-request/",
+      "notes": "Native Hawaiian programs and advocacy"
+    },
+    {
+      "name": "University of Hawaii System",
+      "department": "UH",
+      "address": "2444 Dole Street, Bachman Hall, Honolulu, HI 96822",
+      "phone": "(808) 956-8111",
+      "email": "uhinfo@hawaii.edu",
+      "website": "https://www.hawaii.edu/",
+      "records_contact": "System Records Manager",
+      "submission_methods": ["Email", "Mail"],
+      "notes": "Higher education system, research institutions"
+    }
+  ],
+  "template": {
+    "subject": "UIPA Request - [SPECIFIC DESCRIPTION]",
+    "body": "To Whom It May Concern:\n\nPursuant to the Hawaii Uniform Information Practices Act (UIPA), Hawaii Revised Statutes Chapter 92F, I respectfully request access to the following government records:\n\n[DETAILED DESCRIPTION OF RECORDS REQUESTED]\n\nThis request is made under the UIPA, which provides that \"[a]ll government records are open to public inspection unless access is restricted or closed by law.\" HRS § 92F-11(b).\n\nPlease provide the records in the following format: [SPECIFY: copies, electronic format, inspection, etc.]\n\nIf any portion of this request is exempt from disclosure, please identify the specific exemption and provide any segregable portions that can be released.\n\nPlease acknowledge receipt of this request within 10 business days and provide the responsive records within the time frame required by UIPA and administrative rules.\n\nIf you have any questions about this request, please contact me at:\n[YOUR CONTACT INFORMATION]\n\nThank you for your prompt attention to this matter.\n\nSincerely,\n[YOUR NAME]"
+  }
+}

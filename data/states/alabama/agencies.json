@@ -1,0 +1,365 @@
+{
+  "jurisdiction": "Alabama",
+  "transparency_law": "Alabama Open Records Act",
+  "legal_citation": "Alabama Code Title 36, Chapter 12, Sections 36-12-40 through 36-12-46",
+  "effective_date": "2024-10-01",
+  "research_date": "2025-09-05",
+  
+  "law_summary": {
+    "official_name": "Alabama Open Records Act",
+    "response_deadline_days": {
+      "acknowledgment": "3 business days (executive agencies)",
+      "standard_requests": "15 business days",
+      "time_intensive_requests": "45 business days (extendable to 180 business days or 270 calendar days)"
+    },
+    "appeal_process": "Circuit court lawsuit only - no administrative appeals",
+    "appeal_deadline": "2 years from denial date",
+    "fee_structure": "$1 per page for first 50 pages, $0.50 per page thereafter",
+    "requester_requirements": "Alabama residents only",
+    "key_exemptions": [
+      "Security plans and procedures",
+      "Library circulation records", 
+      "Attorney-client privileged communications",
+      "Medical records including Medicaid recipients",
+      "Personnel records",
+      "Records that would invade personal privacy",
+      "Juvenile court records"
+    ]
+  },
+
+  "agencies": [
+    {
+      "id": "AL-001",
+      "name": "Office of the Governor",
+      "category": "Executive",
+      "description": "Chief executive office of Alabama state government",
+      "website": "https://governor.alabama.gov",
+      "contact_info": {
+        "address": "Alabama State Capitol, 600 Dexter Avenue, Montgomery, AL 36130",
+        "phone": "(334) 242-7100",
+        "fax": "(334) 353-0004",
+        "public_records_contact": "General Counsel's Office"
+      },
+      "records_commonly_requested": [
+        "Executive orders and proclamations",
+        "Correspondence with state agencies",
+        "Meeting calendars and schedules",
+        "Travel records and expenses",
+        "Policy documents and briefing materials"
+      ]
+    },
+    
+    {
+      "id": "AL-002", 
+      "name": "Alabama Attorney General's Office",
+      "category": "Legal/Law Enforcement",
+      "description": "Legal counsel for the state and chief law enforcement officer",
+      "website": "https://www.alabamaag.gov",
+      "contact_info": {
+        "address": "501 Washington Avenue, Montgomery, AL 36104",
+        "phone": "(334) 242-7300",
+        "public_records_contact": "Public Records Coordinator"
+      },
+      "records_commonly_requested": [
+        "Legal opinions and interpretations",
+        "Criminal case files (non-confidential portions)",
+        "Consumer protection investigations",
+        "Civil enforcement actions",
+        "Settlements and consent decrees"
+      ]
+    },
+
+    {
+      "id": "AL-003",
+      "name": "Alabama Law Enforcement Agency (ALEA)", 
+      "category": "Law Enforcement",
+      "description": "Consolidated law enforcement agency including State Police, Highway Patrol, and investigations",
+      "website": "https://www.alea.gov",
+      "contact_info": {
+        "address": "301 South Ripley Street, Montgomery, AL 36104",
+        "phone": "(334) 676-6000",
+        "public_records_contact": "Legal Division"
+      },
+      "records_commonly_requested": [
+        "Traffic accident reports",
+        "Crime statistics and data",
+        "Officer training records",
+        "Equipment and vehicle procurement",
+        "Use of force policies and incidents"
+      ]
+    },
+
+    {
+      "id": "AL-004",
+      "name": "Alabama Department of Public Health", 
+      "category": "Health",
+      "description": "State health agency responsible for public health protection and services",
+      "website": "https://www.alabamapublichealth.gov",
+      "contact_info": {
+        "address": "201 Monroe Street, Montgomery, AL 36104",
+        "phone": "(334) 206-5300",
+        "public_records_contact": "Legal Office"
+      },
+      "records_commonly_requested": [
+        "Restaurant inspection reports",
+        "Environmental health assessments",
+        "Disease surveillance data (aggregated)",
+        "Healthcare facility licenses",
+        "Emergency response plans (non-security portions)"
+      ]
+    },
+
+    {
+      "id": "AL-005",
+      "name": "Alabama State Department of Education",
+      "category": "Education", 
+      "description": "State education agency overseeing K-12 public education",
+      "website": "https://www.alsde.edu",
+      "contact_info": {
+        "address": "Gordon Persons Building, 50 North Ripley Street, Montgomery, AL 36104",
+        "phone": "(334) 694-4900", 
+        "public_records_contact": "Legal Services Division"
+      },
+      "records_commonly_requested": [
+        "School district financial data",
+        "Standardized test scores and performance data",
+        "Teacher certification records",
+        "School safety plans (non-security portions)",
+        "Curriculum standards and materials"
+      ]
+    },
+
+    {
+      "id": "AL-006",
+      "name": "Alabama Department of Transportation (ALDOT)",
+      "category": "Transportation",
+      "description": "State agency responsible for highways, bridges, and transportation infrastructure", 
+      "website": "https://www.dot.state.al.us",
+      "contact_info": {
+        "address": "1409 Coliseum Boulevard, Montgomery, AL 36110",
+        "phone": "(334) 242-6311",
+        "public_records_contact": "Legal Division"
+      },
+      "records_commonly_requested": [
+        "Highway construction contracts",
+        "Bridge inspection reports", 
+        "Traffic studies and counts",
+        "Environmental impact assessments",
+        "Right-of-way acquisition documents"
+      ]
+    },
+
+    {
+      "id": "AL-007",
+      "name": "Alabama Department of Corrections",
+      "category": "Corrections",
+      "description": "State prison system and correctional services",
+      "website": "https://www.doc.alabama.gov", 
+      "contact_info": {
+        "address": "301 South Ripley Street, Montgomery, AL 36130",
+        "phone": "(334) 353-3883",
+        "public_records_contact": "Legal Division"
+      },
+      "records_commonly_requested": [
+        "Inmate population statistics",
+        "Correctional facility policies",
+        "Staff training records",
+        "Incident reports (non-confidential)",
+        "Budget and expenditure data"
+      ]
+    },
+
+    {
+      "id": "AL-008", 
+      "name": "Alabama Department of Human Resources",
+      "category": "Social Services",
+      "description": "State agency providing social services, child welfare, and public assistance",
+      "website": "https://dhr.alabama.gov",
+      "contact_info": {
+        "address": "Gordon Persons Building, 50 North Ripley Street, Montgomery, AL 36130",
+        "phone": "(334) 242-1310",
+        "public_records_contact": "Office of General Counsel"
+      },
+      "records_commonly_requested": [
+        "Child welfare policies and procedures",
+        "Foster care licensing records",
+        "Public assistance program data (aggregated)",
+        "Agency training materials",
+        "Contract information"
+      ]
+    },
+
+    {
+      "id": "AL-009",
+      "name": "Alabama Department of Revenue",
+      "category": "Revenue/Taxation",
+      "description": "State tax collection and revenue administration",
+      "website": "https://www.revenue.alabama.gov",
+      "contact_info": {
+        "address": "Gordon Persons Building, 50 North Ripley Street, Montgomery, AL 36130", 
+        "phone": "(334) 242-1170",
+        "public_records_contact": "Legal Division"
+      },
+      "records_commonly_requested": [
+        "Tax policy documents and interpretations",
+        "Audit procedures and guidelines", 
+        "Revenue collection statistics",
+        "Property tax assessment procedures",
+        "Business registration data"
+      ]
+    },
+
+    {
+      "id": "AL-010",
+      "name": "Alabama Department of Labor",
+      "category": "Labor/Employment",
+      "description": "State agency overseeing labor standards, workplace safety, and employment services",
+      "website": "https://www.labor.alabama.gov",
+      "contact_info": {
+        "address": "649 Monroe Street, Montgomery, AL 36131",
+        "phone": "(334) 242-8990",
+        "public_records_contact": "Administrative Division"
+      },
+      "records_commonly_requested": [
+        "Workplace safety inspection reports",
+        "Employment statistics and data", 
+        "Wage and hour violation cases",
+        "Worker compensation data",
+        "Job training program information"
+      ]
+    },
+
+    {
+      "id": "AL-011",
+      "name": "Alabama Secretary of State",
+      "category": "Elections/Business",
+      "description": "State elections administration, business registration, and official state records",
+      "website": "https://www.sos.alabama.gov",
+      "contact_info": {
+        "address": "Alabama State Capitol, 600 Dexter Avenue, Montgomery, AL 36104",
+        "phone": "(334) 242-7200",
+        "public_records_contact": "Administrative Division"
+      },
+      "records_commonly_requested": [
+        "Election results and voting data",
+        "Campaign finance reports",
+        "Business entity filings",
+        "Notary public records",
+        "Trademark and service mark registrations"
+      ]
+    },
+
+    {
+      "id": "AL-012",
+      "name": "Alabama Department of Agriculture and Industries", 
+      "category": "Agriculture",
+      "description": "State agency overseeing agriculture, food safety, and rural development",
+      "website": "https://www.agi.alabama.gov",
+      "contact_info": {
+        "address": "1445 Federal Drive, Montgomery, AL 36107",
+        "phone": "(334) 240-7100",
+        "public_records_contact": "Administrative Services"
+      },
+      "records_commonly_requested": [
+        "Food safety inspection reports",
+        "Pesticide and fertilizer regulations",
+        "Agricultural commodity statistics",
+        "Farm subsidy and grant programs",
+        "Animal health and veterinary records"
+      ]
+    },
+
+    {
+      "id": "AL-013",
+      "name": "Alabama Department of Conservation and Natural Resources",
+      "category": "Environment/Natural Resources", 
+      "description": "State agency managing natural resources, parks, and environmental protection",
+      "website": "https://www.outdooralabama.com",
+      "contact_info": {
+        "address": "64 North Union Street, Montgomery, AL 36130",
+        "phone": "(334) 242-3486",
+        "public_records_contact": "Administrative Division"
+      },
+      "records_commonly_requested": [
+        "Wildlife management and conservation plans",
+        "State park operations and maintenance",
+        "Environmental permit applications",
+        "Natural resource assessment studies",
+        "Hunting and fishing license data"
+      ]
+    },
+
+    {
+      "id": "AL-014",
+      "name": "Alabama Department of Veterans Affairs",
+      "category": "Veterans Services",
+      "description": "State agency providing services and benefits to military veterans",
+      "website": "https://va.alabama.gov", 
+      "contact_info": {
+        "address": "770 Washington Avenue, Montgomery, AL 36102",
+        "phone": "(334) 242-5077",
+        "public_records_contact": "Administrative Office"
+      },
+      "records_commonly_requested": [
+        "Veterans benefits program information",
+        "State veterans home operations",
+        "Memorial and cemetery records",
+        "Veterans education assistance programs", 
+        "Outreach program statistics"
+      ]
+    },
+
+    {
+      "id": "AL-015",
+      "name": "Alabama Ethics Commission",
+      "category": "Ethics/Government Oversight",
+      "description": "State agency enforcing ethics laws for public officials and employees",
+      "website": "https://www.ethics.alabama.gov",
+      "contact_info": {
+        "address": "770 Washington Avenue, Suite 550, Montgomery, AL 36130",
+        "phone": "(334) 242-2997",
+        "public_records_contact": "Commission Secretary"
+      },
+      "records_commonly_requested": [
+        "Financial disclosure statements",
+        "Ethics violation investigations (completed)",
+        "Advisory opinions and interpretations",
+        "Lobbying registration and reports",
+        "Training materials and resources"
+      ]
+    }
+  ],
+
+  "request_templates": [
+    {
+      "template_id": "AL-STANDARD",
+      "name": "Alabama Standard Records Request",
+      "description": "General purpose records request for Alabama state agencies",
+      "template_text": "Dear Records Custodian:\n\nPursuant to the Alabama Open Records Act, Alabama Code §§ 36-12-40 through 36-12-46, I respectfully request access to and copies of the following public records:\n\n[SPECIFY RECORDS REQUESTED]\n\nI am an Alabama resident as required by state law. If you determine that some portions of these records are exempt from disclosure, please provide me with the non-exempt portions and cite the specific statutory authority for any withholdings.\n\nPer Alabama Code § 36-12-44, please acknowledge receipt of this request within three business days and provide a substantive response within the applicable timeframe (15 business days for standard requests or 45 business days for time-intensive requests).\n\nIf you anticipate charging fees for this request, please notify me in advance of the estimated costs. I understand that fees are limited to actual reproduction costs, with a maximum of $1 per page for the first 50 pages and $0.50 per page thereafter.\n\nIf you deny any portion of this request, please provide written explanation of the specific statutory authority for the denial.\n\nThank you for your prompt attention to this matter.\n\nSincerely,\n[REQUESTER NAME]\n[ADDRESS]\n[CITY, STATE ZIP]\n[PHONE NUMBER]\n[EMAIL ADDRESS]\n[DATE]"
+    },
+    
+    {
+      "template_id": "AL-EXECUTIVE-AGENCY",
+      "name": "Alabama Executive Agency Records Request",
+      "description": "Specific template for executive agencies with enhanced deadline requirements",
+      "template_text": "Dear Records Custodian:\n\nPursuant to the Alabama Open Records Act, Alabama Code §§ 36-12-40 through 36-12-46, I respectfully request access to and copies of the following public records:\n\n[SPECIFY RECORDS REQUESTED]\n\nI am an Alabama resident as required by state law. This request is submitted to an executive agency as defined in Alabama Code § 36-12-44(a)(1).\n\nPlease acknowledge receipt of this request within three business days as required by Alabama Code § 36-12-44(c) or (d). Please categorize this request as either a standard request (can be completed within 8 hours) or time-intensive request and provide substantive response within the applicable timeframe:\n\n• Standard Request: 15 business days\n• Time-Intensive Request: 45 business days (may be extended to maximum 180 business days or 270 calendar days)\n\nIf some portions of these records are exempt from disclosure, please provide the non-exempt portions and cite specific statutory authority for any withholdings.\n\nIf you anticipate charging fees, please notify me in advance. I understand fees are limited to actual reproduction costs ($1 per page for first 50 pages, $0.50 thereafter) and that payment may be required before substantive response for time-intensive requests.\n\nFailure to respond within applicable timeframes will be treated as denial of this request per Alabama Code § 36-12-44(f).\n\nThank you for your compliance with Alabama transparency law.\n\nSincerely,\n[REQUESTER NAME]\n[ADDRESS - MUST BE ALABAMA]\n[CITY, STATE ZIP]\n[PHONE NUMBER]\n[EMAIL ADDRESS]\n[DATE]"
+    },
+
+    {
+      "template_id": "AL-APPEAL-NOTICE",
+      "name": "Alabama Records Denial Appeal Notice", 
+      "description": "Notice template for pursuing judicial review of denied records request",
+      "template_text": "Dear Agency Counsel:\n\nThis letter serves as formal notice that I intend to pursue judicial review of your agency's denial of my public records request dated [REQUEST DATE] and denied on [DENIAL DATE].\n\nAlabama's Open Records Act does not provide for administrative appeals. Therefore, I am providing you this opportunity to reconsider your denial before I file a lawsuit in circuit court as authorized by Alabama law.\n\nThe requested records are public records subject to disclosure under Alabama Code §§ 36-12-40 through 36-12-46. Your cited exemptions do not apply because [EXPLAIN WHY EXEMPTIONS DON'T APPLY].\n\nI request that you:\n1. Reverse your denial decision\n2. Provide the requested records within 10 business days\n3. If partial denial is maintained, provide detailed justification citing specific statutory authority\n\nIf you do not reverse your decision, I will proceed with filing a lawsuit in circuit court within the two-year statute of limitations to compel disclosure of these public records.\n\nI prefer to resolve this matter cooperatively rather than through litigation.\n\nSincerely,\n[REQUESTER NAME]\n[ADDRESS]\n[CITY, STATE ZIP]\n[PHONE NUMBER]\n[EMAIL ADDRESS]\n[DATE]\n\nCC: [AGENCY HEAD]\n    [ATTORNEY GENERAL'S OFFICE IF APPLICABLE]"
+    }
+  ],
+
+  "research_sources": [
+    "Alabama Code Title 36, Chapter 12, Sections 36-12-40 through 36-12-46",
+    "Reporters Committee for Freedom of the Press - Alabama Open Government Guide",
+    "Ballotpedia - Alabama Public Records Law and FOIA Procedures", 
+    "MuckRock - Alabama Public Records Guide",
+    "National Freedom of Information Coalition - Alabama FOIA Laws",
+    "Alabama state government agency websites",
+    "Alabama Attorney General opinions and interpretations"
+  ]
+}

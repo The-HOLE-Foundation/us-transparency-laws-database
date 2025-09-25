@@ -1,0 +1,308 @@
+{
+  "state": "Virginia",
+  "law_name": "Virginia Freedom of Information Act (VFOIA)",
+  "statute_citation": "Va. Code § 2.2-3700 et seq.",
+  "last_updated": "2025-01-15",
+  "oversight_agency": {
+    "name": "Virginia Freedom of Information Advisory Council",
+    "role": "Provides guidance, training, and advisory opinions on FOIA compliance",
+    "contact": {
+      "email": "foiacouncil@dls.virginia.gov",
+      "phone": "(804) 698-1810",
+      "toll_free": "(866) 448-4100",
+      "website": "https://foiacouncil.dls.virginia.gov/",
+      "services": ["FOIA officer directory", "Advisory opinions", "Training", "Guidance"]
+    },
+    "location": "Legislative branch - Division of Legislative Services"
+  },
+  "appeal_process": {
+    "administrative_appeals": false,
+    "court_appeals_only": true,
+    "procedure": "Petition for mandamus or injunction in general district court or circuit court",
+    "timeframe": "Hearing within 7 days of filing",
+    "attorney_fees": "Available to substantially prevailing petitioner"
+  },
+  "agencies": [
+    {
+      "name": "Virginia Department of Education (VDOE)",
+      "description": "State education agency responsible for public education policy and administration",
+      "public_records_contact": {
+        "coordinator_title": "FOIA Officer",
+        "coordinator_name": "Bianca Robinson",
+        "department": "Virginia Department of Education Policy Office",
+        "online_portal": "https://vaedu.nextrequest.com/",
+        "mailing_address": {
+          "street": "Virginia Department of Education",
+          "city": "Richmond",
+          "state": "VA",
+          "zip": "23218"
+        },
+        "website": "https://www.doe.virginia.gov/about-vdoe/foia-requests"
+      },
+      "subject_areas": ["Education policy", "School performance", "Teacher licensing", "School funding", "Academic standards", "Special education"]
+    },
+    {
+      "name": "Virginia Department of Transportation (VDOT)",
+      "description": "State transportation agency with nine construction districts and central office",
+      "public_records_contact": {
+        "coordinator_title": "FOIA Officer",
+        "central_office_location": "Richmond",
+        "district_offices": "Nine construction districts statewide",
+        "website": "https://www.vdot.virginia.gov/policies/foia/",
+        "mailing_address": {
+          "street": "Virginia Department of Transportation",
+          "city": "Richmond",
+          "state": "VA",
+          "zip": "23219"
+        }
+      },
+      "subject_areas": ["Highway construction", "Transportation planning", "Bridge safety", "Road maintenance", "Traffic engineering", "Public transit"]
+    },
+    {
+      "name": "Virginia Department of Health (VDH)",
+      "description": "State health department responsible for public health programs and regulation",
+      "public_records_contact": {
+        "coordinator_title": "FOIA Officer",
+        "online_portal": "https://vdh.nextrequest.com/",
+        "mailing_address": {
+          "street": "Virginia Department of Health",
+          "street2": "P.O. Box 2448",
+          "city": "Richmond",
+          "state": "VA",
+          "zip": "23218-2448"
+        },
+        "physical_address": {
+          "street": "109 Governor Street",
+          "city": "Richmond",
+          "state": "VA",
+          "zip": "23219"
+        },
+        "website": "https://www.vdh.virginia.gov/commissioner/administration/freedom-of-information-act/"
+      },
+      "subject_areas": ["Public health", "Vital records", "Health regulations", "Disease surveillance", "Environmental health", "Emergency preparedness"]
+    },
+    {
+      "name": "Virginia Department of General Services (DGS)",
+      "description": "Provides administrative and support services to state government",
+      "public_records_contact": {
+        "coordinator_title": "FOIA Officer",
+        "phone": "(804) 786-3311",
+        "fax": "(804) 371-8305",
+        "mailing_address": {
+          "street": "Department of General Services",
+          "street2": "Attn: FOIA Request",
+          "street3": "1100 Bank Street, Suite 420",
+          "city": "Richmond",
+          "state": "VA",
+          "zip": "23219"
+        },
+        "website": "https://dgs.virginia.gov/dgs/resources/foia/"
+      },
+      "subject_areas": ["State procurement", "Building management", "Fleet services", "Information technology", "Administrative services"]
+    },
+    {
+      "name": "Virginia State Police (VSP)",
+      "description": "State law enforcement agency",
+      "public_records_contact": {
+        "coordinator_title": "FOIA Officer",
+        "coordinator_name": "First Sergeant William K. Shipman",
+        "phone": "(804) 674-2642",
+        "fax": "(804) 968-0322",
+        "preferred_method": "NextRequest portal for most efficient processing",
+        "website": "https://vsp.virginia.gov/foia/",
+        "mailing_address": {
+          "street": "Virginia State Police",
+          "city": "Richmond",
+          "state": "VA",
+          "zip": "23219"
+        }
+      },
+      "subject_areas": ["Criminal investigations", "Traffic enforcement", "Crime statistics", "Emergency response", "Criminal background checks"]
+    },
+    {
+      "name": "Virginia Department of Emergency Management (VDEM)",
+      "description": "Emergency management and disaster response coordination",
+      "public_records_contact": {
+        "coordinator_title": "FOIA Officer",
+        "coordinator_name": "Caitlin Barbieri",
+        "email": "foiaofficer@vdem.virginia.gov",
+        "phone": "(804) 543-6854",
+        "mailing_address": {
+          "street": "Virginia Department of Emergency Management",
+          "street2": "9711 Farrar Court, Suite 200",
+          "city": "North Chesterfield",
+          "state": "VA",
+          "zip": "23236"
+        },
+        "website": "https://www.vaemergency.gov/resources/foia-requests"
+      },
+      "subject_areas": ["Emergency management", "Disaster response", "Emergency planning", "Hazard mitigation", "Public safety"]
+    },
+    {
+      "name": "Virginia Department of Behavioral Health and Developmental Services (DBHDS)",
+      "description": "Mental health and developmental services",
+      "public_records_contact": {
+        "coordinator_title": "FOIA Officer",
+        "website": "https://dbhds.virginia.gov/about-dbhds/foia-requests/",
+        "mailing_address": {
+          "street": "Virginia Department of Behavioral Health and Developmental Services",
+          "city": "Richmond",
+          "state": "VA",
+          "zip": "23219"
+        }
+      },
+      "subject_areas": ["Mental health services", "Developmental disabilities", "Substance abuse treatment", "State hospitals", "Community services"]
+    },
+    {
+      "name": "Virginia Department of Agriculture and Consumer Services",
+      "description": "Agricultural regulation and consumer protection",
+      "public_records_contact": {
+        "coordinator_title": "FOIA Officer",
+        "mailing_address": {
+          "street": "Virginia Department of Agriculture and Consumer Services",
+          "city": "Richmond",
+          "state": "VA",
+          "zip": "23219"
+        }
+      },
+      "subject_areas": ["Agricultural regulation", "Food safety", "Weights and measures", "Consumer protection", "Animal health"]
+    },
+    {
+      "name": "Virginia Department of Environmental Quality (DEQ)",
+      "description": "Environmental protection and regulation",
+      "public_records_contact": {
+        "coordinator_title": "FOIA Officer",
+        "mailing_address": {
+          "street": "Virginia Department of Environmental Quality",
+          "city": "Richmond",
+          "state": "VA",
+          "zip": "23219"
+        }
+      },
+      "subject_areas": ["Environmental permits", "Water quality", "Air quality", "Waste management", "Environmental cleanup"]
+    },
+    {
+      "name": "Virginia Department of Professional and Occupational Regulation (DPOR)",
+      "description": "Professional and occupational licensing and regulation",
+      "public_records_contact": {
+        "coordinator_title": "FOIA Officer",
+        "mailing_address": {
+          "street": "Virginia Department of Professional and Occupational Regulation",
+          "city": "Richmond",
+          "state": "VA",
+          "zip": "23219"
+        }
+      },
+      "subject_areas": ["Professional licensing", "Occupational regulation", "Board enforcement", "Continuing education", "Public safety"]
+    },
+    {
+      "name": "Virginia Department of Corrections (VADOC)",
+      "description": "State prison system and correctional facilities",
+      "public_records_contact": {
+        "coordinator_title": "FOIA Officer",
+        "mailing_address": {
+          "street": "Virginia Department of Corrections",
+          "city": "Richmond",
+          "state": "VA",
+          "zip": "23219"
+        }
+      },
+      "subject_areas": ["Prison operations", "Inmate records", "Correctional facilities", "Probation and parole", "Rehabilitation programs"]
+    },
+    {
+      "name": "Virginia Department of Motor Vehicles (DMV)",
+      "description": "Motor vehicle registration and driver licensing",
+      "public_records_contact": {
+        "coordinator_title": "FOIA Officer",
+        "mailing_address": {
+          "street": "Virginia Department of Motor Vehicles",
+          "city": "Richmond",
+          "state": "VA",
+          "zip": "23219"
+        }
+      },
+      "subject_areas": ["Driver licenses", "Vehicle registration", "Motor vehicle titles", "Commercial vehicle regulation", "Traffic safety"]
+    },
+    {
+      "name": "Virginia Employment Commission (VEC)",
+      "description": "Employment services and unemployment benefits",
+      "public_records_contact": {
+        "coordinator_title": "FOIA Officer",
+        "mailing_address": {
+          "street": "Virginia Employment Commission",
+          "city": "Richmond",
+          "state": "VA",
+          "zip": "23219"
+        }
+      },
+      "subject_areas": ["Unemployment benefits", "Employment services", "Workforce development", "Labor market data", "Job training"]
+    },
+    {
+      "name": "Virginia Department of Social Services (DSS)",
+      "description": "Social services and public assistance programs",
+      "public_records_contact": {
+        "coordinator_title": "FOIA Officer",
+        "mailing_address": {
+          "street": "Virginia Department of Social Services",
+          "city": "Richmond",
+          "state": "VA",
+          "zip": "23219"
+        }
+      },
+      "subject_areas": ["Social services", "Child welfare", "Adult protective services", "Public assistance", "Food assistance"]
+    },
+    {
+      "name": "Virginia Department of Taxation",
+      "description": "Tax collection and administration",
+      "public_records_contact": {
+        "coordinator_title": "FOIA Officer",
+        "mailing_address": {
+          "street": "Virginia Department of Taxation",
+          "city": "Richmond",
+          "state": "VA",
+          "zip": "23219"
+        }
+      },
+      "subject_areas": ["Tax collection", "Business taxes", "Individual income tax", "Property tax", "Tax compliance"]
+    },
+    {
+      "name": "Office of the Governor - Secretary of the Commonwealth",
+      "description": "Executive branch coordination and FOIA requests for Governor's office",
+      "public_records_contact": {
+        "coordinator_title": "FOIA Officer",
+        "website": "https://www.governor.virginia.gov/constituent-services/foia-requests/",
+        "mailing_address": {
+          "street": "Office of the Governor",
+          "street2": "Secretary of the Commonwealth",
+          "city": "Richmond",
+          "state": "VA",
+          "zip": "23219"
+        },
+        "note": "Governor's Office does not include individual state agencies"
+      },
+      "subject_areas": ["Executive orders", "Governor's correspondence", "Policy development", "Appointments", "Ceremonial functions"]
+    }
+  ],
+  "request_process": {
+    "eligibility": "Any person may request records",
+    "identification_required": "No specific identification requirements",
+    "response_timeframe": "5 working days maximum (12 days with extension)",
+    "appeal_process": "Direct court petition for mandamus or injunction (no administrative appeals)",
+    "fees": {
+      "inspection": "Free",
+      "copying": "Actual costs only",
+      "staff_time": "Actual cost of staff time for searching",
+      "deposit_threshold": "$200 (may require advance deposit)",
+      "overhead": "Not permitted to charge general overhead"
+    }
+  },
+  "key_features": {
+    "presumption_of_openness": "All records and meetings presumed open",
+    "liberal_construction": "Provisions liberally construed in favor of access",
+    "narrow_exemptions": "Exemptions narrowly construed",
+    "foia_advisory_council": "Provides guidance and maintains FOIA officer directory",
+    "nextrequest_portals": "Many agencies use NextRequest online portal system",
+    "attorney_fees": "Available to substantially prevailing petitioners",
+    "civil_penalties": "$500-$2000 for knowing and willful violations"
+  }
+}

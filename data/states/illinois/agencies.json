@@ -1,0 +1,218 @@
+{
+  "state": "Illinois",
+  "transparency_law": "Illinois Freedom of Information Act (FOIA)",
+  "statute_citation": "5 ILCS 140/1 et seq.",
+  "central_authority": {
+    "name": "Public Access Counselor",
+    "parent_agency": "Office of the Attorney General",
+    "role": "Reviews FOIA appeals, provides guidance, issues binding determinations",
+    "address": "500 S. 2nd Street, Springfield, Illinois 62701",
+    "phone": "1-877-299-FOIA (toll-free)",
+    "phone_direct": "(217) 558-0486",
+    "fax": "(217) 782-1396",
+    "email": "public.access@ilag.gov",
+    "website": "https://illinoisattorneygeneral.gov/open-and-honest-government/pac/"
+  },
+  "request_requirements": {
+    "must_be_written": true,
+    "identification_required": true,
+    "purpose_required": false,
+    "illinois_resident_required": false,
+    "fees_may_apply": true,
+    "commercial_requests_special_rules": true
+  },
+  "response_deadlines": {
+    "standard_requests": "5 business days (extendable to 10 business days)",
+    "commercial_requests": "21 working days (extendable to 31 working days)",
+    "voluminous_requests": "Additional time allowed with notice",
+    "appeals_timeframe": "60 days to request PAC review",
+    "penalties": "$2,500-$5,000 for willful violations"
+  },
+  "agencies": [
+    {
+      "name": "Governor's Office",
+      "department": "Office of the Governor",
+      "address": "207 State House, Springfield, IL 62706",
+      "phone": "(217) 782-0244",
+      "fax": "(217) 524-4049",
+      "email": "gov@illinois.gov",
+      "foia_officer": "FOIA Officer",
+      "foia_email": "FOIA.requests@illinois.gov",
+      "website": "https://gov.illinois.gov/",
+      "submission_methods": ["Email", "Mail", "Fax"],
+      "notes": "Executive branch policy and administration"
+    },
+    {
+      "name": "Department of Children and Family Services",
+      "department": "DCFS",
+      "address": "60 E. Van Buren Street, Suite 1339, Chicago, IL 60605",
+      "phone": "(312) 814-6800",
+      "email": "dcfs.communications@illinois.gov",
+      "foia_officer": "FOIA Officer",
+      "website": "https://dcfs.illinois.gov/",
+      "submission_methods": ["Mail", "Email"],
+      "notes": "Child welfare, protective services, adoption"
+    },
+    {
+      "name": "Department of Corrections",
+      "department": "IDOC",
+      "address": "1301 Concordia Court, P.O. Box 19277, Springfield, IL 62794-9277",
+      "phone": "(217) 558-2200 ext. 4166",
+      "fax": "(217) 558-5612",
+      "email": "DOC.FOIARequest@illinois.gov",
+      "foia_officer": "Freedom of Information Act Officer",
+      "website": "https://idoc.illinois.gov/",
+      "submission_methods": ["Email", "Mail", "Fax"],
+      "notes": "Adult corrections, probation, parole"
+    },
+    {
+      "name": "Office of Comptroller",
+      "department": "IOC",
+      "address": "325 West Adams Street, Springfield, IL 62704-1858",
+      "phone": "(217) 782-6000",
+      "fax": "(217) 558-5123",
+      "email": "FOIA@illinoiscomptroller.gov",
+      "foia_officer": "Adam Alstott, Freedom of Information Officer",
+      "website": "https://illinoiscomptroller.gov/",
+      "submission_methods": ["Email", "Mail", "Fax"],
+      "notes": "State financial management, payments, records"
+    },
+    {
+      "name": "Department of Financial and Professional Regulation",
+      "department": "IDFPR",
+      "address": "555 W. Monroe St Suite 500, Chicago, IL 60661",
+      "phone": "(888) 473-4858",
+      "email": "fpr.foia@illinois.gov",
+      "foia_officer": "Freedom of Information Officer",
+      "website": "https://idfpr.illinois.gov/",
+      "submission_methods": ["Email", "Mail"],
+      "notes": "Professional licensing, financial regulation"
+    },
+    {
+      "name": "Department of Insurance",
+      "department": "IDOI",
+      "address": "320 W. Washington, 4th floor, Springfield, IL 62767",
+      "phone": "(217) 557-9248",
+      "email": "DOI.FOIA@Illinois.gov",
+      "foia_officer": "FOIA Officer",
+      "website": "https://idoi.illinois.gov/",
+      "submission_methods": ["Email", "Mail", "Phone"],
+      "notes": "Insurance regulation, consumer protection"
+    },
+    {
+      "name": "Department of Human Rights",
+      "department": "DHR",
+      "address": "100 West Randolph Street, Suite 10-100, Chicago, IL 60601",
+      "phone": "(312) 814-6200",
+      "fax": "(312) 814-1436",
+      "email": "dhr.foia@illinois.gov",
+      "foia_officer": "FOIA Officer",
+      "website": "https://dhr.illinois.gov/",
+      "submission_methods": ["Email", "Mail", "Fax"],
+      "notes": "Civil rights enforcement, discrimination complaints"
+    },
+    {
+      "name": "Department of Transportation",
+      "department": "IDOT",
+      "address": "2300 South Dirksen Parkway, Springfield, IL 62764",
+      "phone": "(217) 782-7820",
+      "email": "dot.foia@illinois.gov",
+      "foia_officer": "FOIA Officer",
+      "website": "https://idot.illinois.gov/",
+      "submission_methods": ["Email", "Mail"],
+      "notes": "Highways, bridges, public transportation, aviation"
+    },
+    {
+      "name": "Department of Public Health",
+      "department": "IDPH",
+      "address": "535 W. Jefferson Street, Springfield, IL 62761",
+      "phone": "(217) 782-4977",
+      "email": "dph.foia@illinois.gov",
+      "foia_officer": "FOIA Officer",
+      "website": "https://dph.illinois.gov/",
+      "submission_methods": ["Email", "Mail"],
+      "notes": "Public health policy, disease prevention, health regulation"
+    },
+    {
+      "name": "Department of Natural Resources",
+      "department": "IDNR",
+      "address": "One Natural Resources Way, Springfield, IL 62702-1271",
+      "phone": "(217) 782-6302",
+      "email": "dnr.foia@illinois.gov",
+      "foia_officer": "FOIA Officer",
+      "website": "https://dnr.illinois.gov/",
+      "submission_methods": ["Email", "Mail"],
+      "notes": "State parks, conservation, natural resource management"
+    },
+    {
+      "name": "Department of Revenue",
+      "department": "IDOR",
+      "address": "100 West Randolph Street, Suite 6-300, Chicago, IL 60601",
+      "phone": "(217) 782-3336",
+      "email": "rev.foia@illinois.gov",
+      "foia_officer": "FOIA Officer",
+      "website": "https://tax.illinois.gov/",
+      "submission_methods": ["Email", "Mail"],
+      "notes": "State tax administration and collection"
+    },
+    {
+      "name": "Department of Human Services",
+      "department": "DHS",
+      "address": "100 South Grand Avenue East, Springfield, IL 62762",
+      "phone": "(217) 557-1601",
+      "email": "dhs.foia@illinois.gov",
+      "foia_officer": "FOIA Officer",
+      "website": "https://dhs.illinois.gov/",
+      "submission_methods": ["Email", "Mail"],
+      "notes": "Social services, mental health, developmental disabilities"
+    },
+    {
+      "name": "Department of Labor",
+      "department": "IDOL",
+      "address": "160 North LaSalle Street, 13th Floor, Suite C-1300, Chicago, IL 60601",
+      "phone": "(312) 793-2800",
+      "email": "dol.foia@illinois.gov",
+      "foia_officer": "FOIA Officer",
+      "website": "https://labor.illinois.gov/",
+      "submission_methods": ["Email", "Mail"],
+      "notes": "Workplace safety, unemployment insurance, labor standards"
+    },
+    {
+      "name": "Department of Agriculture",
+      "department": "IDOA",
+      "address": "State Fairgrounds, P.O. Box 19281, Springfield, IL 62794-9281",
+      "phone": "(217) 782-2172",
+      "email": "agr.foia@illinois.gov",
+      "foia_officer": "FOIA Officer",
+      "website": "https://agr.illinois.gov/",
+      "submission_methods": ["Email", "Mail"],
+      "notes": "Agricultural regulation, food safety, animal health"
+    },
+    {
+      "name": "Department of Veterans Affairs",
+      "department": "IDVA",
+      "address": "833 South Spring Street, Springfield, IL 62794-9432",
+      "phone": "(217) 782-6641",
+      "email": "dva.foia@illinois.gov",
+      "foia_officer": "FOIA Officer",
+      "website": "https://veterans.illinois.gov/",
+      "submission_methods": ["Email", "Mail"],
+      "notes": "Veterans services, benefits, healthcare"
+    },
+    {
+      "name": "Illinois State Police",
+      "department": "ISP",
+      "address": "801 South Seventh Street, Suite 1000-S, Springfield, IL 62703",
+      "phone": "(217) 782-6637",
+      "email": "isp.foia@illinois.gov",
+      "foia_officer": "FOIA Officer",
+      "website": "https://isp.illinois.gov/",
+      "submission_methods": ["Email", "Mail"],
+      "notes": "Law enforcement, public safety, criminal investigations"
+    }
+  ],
+  "template": {
+    "subject": "FOIA Request - [SPECIFIC DESCRIPTION]",
+    "body": "To the FOIA Officer:\n\nPursuant to the Illinois Freedom of Information Act, 5 ILCS 140/1 et seq., I respectfully request access to the following public records:\n\n[DETAILED DESCRIPTION OF RECORDS REQUESTED]\n\nThis request is made under the Illinois FOIA, which provides that \"all persons are entitled to full and complete information regarding the affairs of government.\"\n\nPlease provide the records in the following format: [SPECIFY: copies, electronic format, inspection, etc.]\n\nRequired Contact Information:\nName: [YOUR FULL NAME]\nOrganization: [IF APPLICABLE]\nAddress: [YOUR COMPLETE MAILING ADDRESS]\nEmail: [YOUR EMAIL ADDRESS]\nPhone: [YOUR PHONE NUMBER]\nFax: [IF APPLICABLE]\n\nI understand that under 5 ILCS 140/6, the first 50 pages of black and white copies are provided free of charge, with additional pages at $0.15 each.\n\nPlease respond within five (5) business days as required by 5 ILCS 140/3. If any portion of this request is exempt from disclosure, please identify the specific statutory exemption and provide any segregable portions that can be released.\n\nIf this request is denied in whole or in part, please provide a written explanation of the denial and information about my right to seek review by the Public Access Counselor at (217) 558-0486 or public.access@ilag.gov.\n\nI look forward to your prompt response within the statutory timeframe.\n\nSincerely,\n[YOUR NAME]\n[DATE]\n\nNote: This request is made under the Illinois Freedom of Information Act (5 ILCS 140)."
+  }
+}

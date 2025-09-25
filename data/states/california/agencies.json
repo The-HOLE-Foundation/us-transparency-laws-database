@@ -1,0 +1,131 @@
+{
+  "jurisdiction": "california",
+  "statute": "California Government Code Section 7920 et seq.",
+  "last_updated": "2025-09-05",
+  "superagencies": 7,
+  "major_agencies": [
+    {
+      "agency_name": "California Public Employees' Retirement System",
+      "abbreviation": "CalPERS",
+      "public_records_contact": {
+        "office": "CalPERS Office of Stakeholder Relations - PRA Unit",
+        "address": "400 Q Street, Sacramento, CA 95811",
+        "phone": "916-795-3055",
+        "method": "Online form or phone call"
+      },
+      "submission_methods": ["Online form", "Phone", "Mail"],
+      "website": "https://www.calpers.ca.gov/"
+    },
+    {
+      "agency_name": "California Department of Transportation",
+      "abbreviation": "Caltrans",
+      "public_records_contact": {
+        "contact_person": "Matt Rocco",
+        "phone": "916-657-5060"
+      },
+      "submission_methods": ["Phone", "Mail", "Email"],
+      "website": "https://dot.ca.gov/"
+    },
+    {
+      "agency_name": "California Department of Motor Vehicles",
+      "abbreviation": "DMV", 
+      "public_records_contact": {
+        "contact_person": "Joseph Chapman",
+        "office": "DMV Legal Affairs Division",
+        "address": "2415 1st Avenue, MS C128, PO Box 932382, Sacramento, CA 94232-3820",
+        "phone": "916-657-6469",
+        "email": "PRArequest@dmv.ca.gov"
+      },
+      "submission_methods": ["Email", "Mail", "Phone"],
+      "website": "https://www.dmv.ca.gov/"
+    },
+    {
+      "agency_name": "California Department of Public Health",
+      "abbreviation": "CDPH",
+      "public_records_contact": {
+        "online_portal": "https://cdph.govqa.us/",
+        "description": "Online Public Records Center portal for submitting requests and tracking status"
+      },
+      "submission_methods": ["Online portal", "Mail"],
+      "website": "https://www.cdph.ca.gov/"
+    },
+    {
+      "agency_name": "California Health and Human Services Agency",
+      "abbreviation": "CHHS",
+      "public_records_contact": {
+        "phone": "916-654-3454",
+        "email": "CHHSMAIL@chhs.ca.gov"
+      },
+      "submission_methods": ["Phone", "Email", "Mail"],
+      "website": "https://www.chhs.ca.gov/"
+    },
+    {
+      "agency_name": "California Secretary of State",
+      "abbreviation": "SOS",
+      "public_records_contact": {
+        "website": "https://www.sos.ca.gov/administration/public-records-act-requests"
+      },
+      "submission_methods": ["Online", "Mail", "Email"],
+      "website": "https://www.sos.ca.gov/"
+    },
+    {
+      "agency_name": "California Attorney General's Office",
+      "abbreviation": "CAG",
+      "public_records_contact": {
+        "website": "https://oag.ca.gov/consumers/general/pra",
+        "note": "Cannot assist with records from other agencies"
+      },
+      "submission_methods": ["Mail", "Email"],
+      "website": "https://oag.ca.gov/"
+    },
+    {
+      "agency_name": "California State Transportation Agency",
+      "abbreviation": "CalSTA",
+      "public_records_contact": {
+        "website": "https://calsta.ca.gov/about-us/public-records-act"
+      },
+      "submission_methods": ["Online", "Mail", "Email"],
+      "website": "https://calsta.ca.gov/"
+    },
+    {
+      "agency_name": "California Department of Resources Recycling and Recovery",
+      "abbreviation": "CalRecycle",
+      "public_records_contact": {
+        "online_form": "https://www2.calrecycle.ca.gov/Forms/ContactUs/PublicRecordsRequest/"
+      },
+      "submission_methods": ["Online form", "Mail"],
+      "website": "https://www.calrecycle.ca.gov/"
+    },
+    {
+      "agency_name": "California Department of Health Care Services",
+      "abbreviation": "DHCS",
+      "public_records_contact": {
+        "website": "https://www.dhcs.ca.gov/formsandpubs/Pages/PublicRecordsAct.aspx"
+      },
+      "submission_methods": ["Mail", "Email"],
+      "website": "https://www.dhcs.ca.gov/"
+    }
+  ],
+  "additional_resources": {
+    "california_roster": "https://www.sos.ca.gov/administration/california-roster",
+    "departments_directory": "https://www.ca.gov/departments/",
+    "personnel_office_directory": "https://www.sco.ca.gov/ppsd_cpod.html"
+  },
+  "superagencies_structure": [
+    "Government Operations",
+    "Labor and Workforce Development", 
+    "Transportation",
+    "Natural Resources",
+    "Environmental Protection",
+    "Health and Human Services",
+    "Business, Consumer Services, and Housing"
+  ],
+  "legal_requirements": {
+    "statute_citation": "California Government Code Section 7920 et seq.",
+    "initial_response": "10 days",
+    "extension": "Additional 14 days in unusual circumstances",
+    "access_standard": "Promptly available",
+    "court_enforcement": "Petition for Writ of Mandate",
+    "fee_structure": "Direct costs of duplication only"
+  }
+}

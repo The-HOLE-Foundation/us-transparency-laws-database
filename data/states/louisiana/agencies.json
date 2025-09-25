@@ -1,0 +1,223 @@
+{
+  "state": "Louisiana",
+  "law_name": "Louisiana Public Records Act",
+  "statute_citation": "LSA-RS 44:1 through 44:35",
+  "last_updated": "2025-01-09",
+  "response_deadline": "5 days for status determination, 3 days to schedule inspection",
+  "attorney_general_enforcement": false,
+  "central_foia_office": false,
+  "notes": "No administrative appeals - direct court enforcement only. Civil penalties up to $100/day for unreasonable delays.",
+  
+  "key_provisions": {
+    "immediate_access": "During regular business hours if records readily available",
+    "scheduling_delay": "3 days maximum to schedule inspection if not immediately available",
+    "status_notification": "5 days to notify if questioning public record status",
+    "fee_structure": "Reasonable copying fees, no search time if records poorly maintained",
+    "appeals_process": "Direct court action only - no administrative appeals",
+    "civil_penalties": "Up to $100/day for unreasonable failure to respond",
+    "preferential_treatment": "Court cases tried by preference and summary manner"
+  },
+  
+  "oversight_agency": {
+    "name": "Louisiana Attorney General's Office",
+    "address": "1885 North Third Street, Baton Rouge, LA 70802",
+    "phone": "(225) 326-6079",
+    "website": "https://www.ag.state.la.us",
+    "role": "Education and training only - no administrative appeals",
+    "enforcement_role": "Establishes educational programs, no appeals review"
+  },
+  
+  "major_agencies": [
+    {
+      "name": "Louisiana Coastal Protection and Restoration Authority",
+      "address": "150 Terrace Avenue, Baton Rouge, LA 70802",
+      "phone": "(225) 342-7308",
+      "website": "https://coastal.la.gov",
+      "foia_contact": "Contact main office for records requests",
+      "services": "Coastal restoration, hurricane protection, flood control"
+    },
+    {
+      "name": "Louisiana Department of Agriculture and Forestry",
+      "address": "5825 Florida Boulevard, Baton Rouge, LA 70806",
+      "phone": "(225) 922-1234",
+      "website": "https://ldaf.la.gov",
+      "foia_contact": "Contact main office for records requests",
+      "services": "Agricultural regulation, forestry management, food safety"
+    },
+    {
+      "name": "Louisiana Department of Children and Family Services",
+      "address": "627 N. Fourth St., Baton Rouge, LA 70802",
+      "phone": "(225) 524-3578",
+      "website": "https://dcfs.louisiana.gov",
+      "foia_contact": "Contact main office for records requests",
+      "services": "Child welfare, family support, social services"
+    },
+    {
+      "name": "Louisiana Department of Corrections",
+      "address": "P.O. Box 94304, Baton Rouge, LA 70821",
+      "phone": "(225) 342-6740",
+      "website": "https://doc.louisiana.gov",
+      "foia_contact": "Contact main office for records requests",
+      "services": "Adult corrections, probation and parole, reentry programs"
+    },
+    {
+      "name": "Louisiana Department of Culture, Recreation and Tourism",
+      "address": "1051 N. Third St., Baton Rouge, LA 70802",
+      "phone": "(225) 342-7009",
+      "website": "https://crt.state.la.us",
+      "foia_contact": "Contact main office for records requests",
+      "services": "Tourism promotion, cultural preservation, recreation programs"
+    },
+    {
+      "name": "Louisiana Department of Economic Development",
+      "address": "617 North Third Street, Baton Rouge, LA 70802",
+      "phone": "(225) 342-3000",
+      "website": "https://led.la.gov",
+      "foia_contact": "Contact main office for records requests",
+      "services": "Business development, industrial recruitment, economic incentives"
+    },
+    {
+      "name": "Louisiana Department of Education",
+      "address": "1201 N. Third Street, Baton Rouge, LA 70802",
+      "phone": "(225) 342-3602",
+      "website": "https://louisianabelieves.com",
+      "foia_contact": "Contact main office for records requests",
+      "services": "K-12 education oversight, teacher certification, school accountability"
+    },
+    {
+      "name": "Louisiana Department of Environmental Quality",
+      "address": "602 N. Fifth Street, Baton Rouge, LA 70802",
+      "phone": "(225) 219-3953",
+      "website": "https://deq.louisiana.gov",
+      "foia_contact": "Contact main office for records requests",
+      "services": "Environmental protection, air and water quality, waste management"
+    },
+    {
+      "name": "Louisiana Department of Health",
+      "address": "628 N. 4th Street, Baton Rouge, LA 70821",
+      "phone": "(225) 342-9500",
+      "website": "https://ldh.la.gov",
+      "foia_contact": "Contact main office for records requests",
+      "services": "Public health services, Medicaid administration, health facilities licensing"
+    },
+    {
+      "name": "Louisiana Department of Insurance",
+      "address": "1702 N. 3rd Street, Baton Rouge, LA 70802",
+      "phone": "(225) 342-5900",
+      "website": "https://www.ldi.la.gov",
+      "foia_contact": "Contact main office for records requests",
+      "services": "Insurance regulation, consumer protection, market oversight"
+    },
+    {
+      "name": "Louisiana Department of Justice",
+      "address": "1885 N. Third Street, Baton Rouge, LA 70802",
+      "phone": "(225) 326-6079",
+      "website": "https://www.ag.state.la.us",
+      "foia_contact": "Contact main office for records requests",
+      "services": "Legal representation of state, consumer protection, criminal appeals"
+    },
+    {
+      "name": "Louisiana Department of Natural Resources",
+      "address": "617 N. 3rd Street, Baton Rouge, LA 70802",
+      "phone": "(225) 342-4500",
+      "website": "https://www.dnr.louisiana.gov",
+      "foia_contact": "Contact main office for records requests",
+      "services": "Oil and gas regulation, coastal management, geological survey"
+    },
+    {
+      "name": "Louisiana Department of Public Safety and Corrections",
+      "address": "7919 Independence Blvd., Baton Rouge, LA 70806",
+      "phone": "(225) 925-4239",
+      "website": "https://www.dpsc.la.gov",
+      "foia_contact": "Contact main office for records requests",
+      "services": "State police, emergency preparedness, motor vehicle enforcement"
+    },
+    {
+      "name": "Louisiana Department of Revenue",
+      "address": "617 N. Third Street, Baton Rouge, LA 70802",
+      "phone": "(225) 219-0102",
+      "website": "https://revenue.louisiana.gov",
+      "foia_contact": "Contact main office for records requests",
+      "services": "Tax collection, property assessment, motor vehicle registration"
+    },
+    {
+      "name": "Louisiana Department of Transportation and Development",
+      "address": "1201 Capitol Access Road, Baton Rouge, LA 70802",
+      "phone": "(225) 379-1200",
+      "website": "https://wwwsp.dotd.la.gov",
+      "foia_contact": "Contact main office for records requests",
+      "services": "Highway construction and maintenance, bridge inspection, aviation"
+    }
+  ],
+  
+  "request_process": {
+    "step_1": "Submit request to custodian during regular business hours",
+    "step_2": "Custodian may only inquire about age and identification",
+    "step_3": "Immediate access if records readily available",
+    "step_4": "If not available: 3 days to schedule inspection time",
+    "step_5": "If questioning record status: 5 days written notification required",
+    "step_6": "No administrative appeals - file court action after 5 days or denial",
+    "step_7": "Court cases tried by preference and summary manner"
+  },
+  
+  "fees": {
+    "inspection": "Free during regular business hours",
+    "overtime_inspection": "Actual overtime costs for personnel",
+    "copying": "Reasonable fees allowed",
+    "search_retrieval": "Cannot charge if records poorly maintained by agency",
+    "indigent_waiver": "Fees may be waived for indigent persons",
+    "advance_payment": "May require payment prior to providing copies"
+  },
+  
+  "exemptions_summary": [
+    "Law enforcement investigative records",
+    "Security-related activity records",
+    "Proprietary and trade secret information", 
+    "Certain governor executive communications",
+    "Hospital and medical records",
+    "Personnel records (except basic employment info)",
+    "Judges' personal address information",
+    "Records of prosecutive agencies during ongoing cases",
+    "Video surveillance except crime/injury recordings",
+    "Confidential business information"
+  ],
+  
+  "enforcement_mechanisms": {
+    "court_action": "District court in parish where agency domiciled",
+    "writ_of_mandamus": "Available for compelling disclosure",
+    "summary_proceedings": "Cases tried by preference and summary manner",
+    "appellate_priority": "Appeals heard without delay on preferential docket",
+    "attorney_fees": "Awarded if custodian violated law",
+    "civil_penalties": "Up to $100/day for unreasonable failure to respond",
+    "contempt_proceedings": "Available for knowing violations after notice",
+    "district_attorney": "May institute enforcement proceedings"
+  },
+  
+  "special_provisions": {
+    "age_requirement": "Person of the age of majority (18 years)",
+    "constitutional_basis": "Constitutional mandate of access to public documents",
+    "no_administrative_appeals": "Must go directly to court for enforcement",
+    "preferential_treatment": "Court cases receive priority scheduling",
+    "education_mandate": "Attorney General must establish public education program",
+    "liberal_construction": "Law construed in favor of disclosure"
+  },
+  
+  "templates": {
+    "basic_request": {
+      "subject": "Louisiana Public Records Act Request",
+      "greeting": "Dear Records Custodian:",
+      "body": "Pursuant to the Louisiana Public Records Act (LSA-RS 44:1 et seq.), I hereby request to inspect and obtain copies of the following public records:\n\n[Describe records with specificity]\n\nI am of the age of majority as required by LSA-RS 44:31. Per LSA-RS 44:32 and 44:33, please provide immediate access if the records are readily available, or schedule inspection within three (3) days if they are not immediately available.\n\nIf you believe any requested records are not public records or are exempt from disclosure, please notify me in writing within five (5) days with the basis for such determination as required by LSA-RS 44:32(D).\n\nPlease contact me regarding any copying fees.\n\nThank you for your prompt attention.",
+      "closing": "Sincerely,\n[Your name]\n[Your address]\n[Your phone]\n[Your email]"
+    },
+    "court_enforcement": {
+      "venue": "District court in parish where public body is domiciled",
+      "cause_of_action": "Writ of mandamus or other appropriate relief",
+      "timing": "After 5 days without response OR after final denial",
+      "remedies": "Compel disclosure, attorney fees, civil penalties up to $100/day"
+    },
+    "follow_up_demand": {
+      "subject": "Follow-up: Louisiana Public Records Act Request - Action Required",
+      "body": "It has been [X] days since I submitted my public records request dated [Date]. LSA-RS 44:35(A) allows me to institute court proceedings after five (5) days without receiving a final determination in writing. Please respond immediately to avoid potential civil penalties of up to $100 per day as provided in LSA-RS 44:35(D)."
+    }
+  }
+}

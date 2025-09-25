@@ -1,0 +1,202 @@
+{
+  "state": "New Jersey",
+  "law_name": "New Jersey Open Public Records Act (OPRA)",
+  "statute_citation": "N.J.S.A. 47:1A-1 et seq.",
+  "last_updated": "2025-01-09",
+  "response_deadline": "7 business days (14 for commercial requests)",
+  "attorney_general_enforcement": false,
+  "central_foia_office": false,
+  "notes": "Major 2024 amendments effective September 3, 2024. Government Records Council provides mediation and investigation. Enhanced privacy protections and litigation restrictions.",
+  "templates": {
+    "basic_request": {
+      "subject": "OPRA Request for Public Records",
+      "body": "Dear Records Custodian:\n\nPursuant to the New Jersey Open Public Records Act (OPRA), N.J.S.A. 47:1A-1 et seq., I respectfully request access to the following government records:\n\n[SPECIFIC DESCRIPTION OF RECORDS]\n\n[If requesting emails/correspondence, include: discrete time period, specific subject matter, employee names/titles]\n\nREQUIRED CERTIFICATION: I hereby certify that this request is NOT connected to any legal proceeding in which I am a party.\n\nREQUESTOR INFORMATION:\nName: [YOUR NAME]\nAddress: [YOUR ADDRESS]\nPhone: [PHONE NUMBER]\nPurpose: [PURPOSE FOR REQUEST]\n\nAs required by OPRA, please respond within 7 business days. If any records are denied, please provide written explanation citing specific legal authority.\n\nI understand the first 10 pages are provided at no charge, and any additional pages will be charged at actual cost of duplication.\n\nI prefer to receive responsive records in electronic format when possible to minimize costs. Please contact me if you need clarification regarding this request.\n\nThank you for your attention to this matter.\n\nSincerely,\n[YOUR NAME]\n[EMAIL ADDRESS]"
+    },
+    "appeal_template": {
+      "subject": "GRC Complaint - OPRA Violation",
+      "body": "TO THE GOVERNMENT RECORDS COUNCIL:\n\nPursuant to N.J.S.A. 47:1A-6, I hereby file this complaint alleging a violation of the Open Public Records Act by [AGENCY NAME].\n\nREQUEST DETAILS:\nDate of Request: [DATE]\nAgency: [AGENCY NAME]\nCustodian: [CUSTODIAN NAME]\nRecords Requested: [DESCRIPTION]\n\nVIOLATION:\nThe agency [DESCRIBE VIOLATION - failed to respond within 7 business days / improperly denied request / etc.]. This violates N.J.S.A. 47:1A-5.\n\n[If denial] The agency cited [EXEMPTION CLAIMED], but this exemption does not apply because [LEGAL REASONING]. The requested records are government records subject to disclosure under OPRA.\n\nRELIEF REQUESTED:\nI respectfully request the Government Records Council:\n1. Find that the agency violated OPRA;\n2. Order the agency to provide access to the requested records;\n3. Award attorney's fees and costs if the agency unreasonably denied access, acted in bad faith, or knowingly violated OPRA;\n4. Impose appropriate penalties for the violation.\n\nI am available for mediation if the GRC believes it would be beneficial.\n\nAlternatively, I may file an action in Superior Court within 45 days of the denial.\n\nAttached: Copy of original request and agency response (if any)\n\nRespectfully submitted,\n[YOUR NAME]\n[ADDRESS]\n[PHONE]\n[EMAIL]\n\nSubmit to:\nGovernment Records Council\n101 South Broad Street, PO Box 819\nTrenton, NJ 08625-0819\nEmail: grc@dca.nj.gov"
+    }
+  },
+  "agencies": [
+    {
+      "name": "New Jersey Attorney General / Department of Law and Public Safety",
+      "category": "Constitutional",
+      "description": "Legal services for state government, criminal prosecution, public safety",
+      "address": "PO Box 080, Trenton, NJ 08625-0080",
+      "phone": "(609) 292-4925",
+      "website": "https://www.njoag.gov/",
+      "foia_officer": "OPRA Custodian",
+      "email": "OPRA.Requests@njoag.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Includes State Police, Division of Criminal Justice, other law enforcement"
+    },
+    {
+      "name": "New Jersey Department of Health",
+      "category": "Executive",
+      "description": "Public health, healthcare regulation, health statistics, vital records",
+      "address": "PO Box 360, Trenton, NJ 08625-0360",
+      "phone": "(609) 292-7837",
+      "website": "https://www.nj.gov/health/",
+      "foia_officer": "OPRA Custodian",
+      "email": "OPRA@doh.nj.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Vital records, health statistics, healthcare facility regulation"
+    },
+    {
+      "name": "New Jersey Department of Human Services",
+      "category": "Executive",
+      "description": "Social services, mental health, developmental disabilities, aging services",
+      "address": "PO Box 700, Trenton, NJ 08625-0700",
+      "phone": "(609) 292-3717",
+      "website": "https://www.nj.gov/humanservices/",
+      "foia_officer": "OPRA Custodian",
+      "email": "OPRA@dhs.nj.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Social services, mental health, substance abuse treatment"
+    },
+    {
+      "name": "New Jersey Department of Education",
+      "category": "Executive",
+      "description": "K-12 education oversight, special education, school funding",
+      "address": "100 Riverview Plaza, Trenton, NJ 08625-0500",
+      "phone": "(609) 376-3500",
+      "website": "https://www.nj.gov/education/",
+      "foia_officer": "OPRA Custodian",
+      "email": "OPRA@doe.nj.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Public school administration, teacher certification, education data"
+    },
+    {
+      "name": "New Jersey Department of Transportation",
+      "category": "Executive",
+      "description": "Highway construction and maintenance, transportation planning, motor vehicles",
+      "address": "PO Box 600, Trenton, NJ 08625-0600",
+      "phone": "(609) 530-2000",
+      "website": "https://www.nj.gov/transportation/",
+      "foia_officer": "OPRA Custodian",
+      "email": "OPRA@dot.nj.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Highway projects, transportation planning, traffic data"
+    },
+    {
+      "name": "New Jersey Department of Environmental Protection",
+      "category": "Executive",
+      "description": "Environmental regulation, natural resources, parks and recreation",
+      "address": "401 East State Street, PO Box 402, Trenton, NJ 08625-0420",
+      "phone": "1-866-DEP-KNOW (1-866-337-5669)",
+      "website": "https://dep.nj.gov/",
+      "foia_officer": "OPRA Custodian",
+      "email": "OPRA@dep.nj.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Environmental permits, pollution control, state parks"
+    },
+    {
+      "name": "New Jersey Department of Corrections",
+      "category": "Executive",
+      "description": "State prison system, parole and probation services",
+      "address": "PO Box 863, Trenton, NJ 08625",
+      "phone": "(609) 292-4036",
+      "website": "https://www.nj.gov/corrections/",
+      "foia_officer": "OPRA Custodian",
+      "email": "OPRA@doc.nj.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "State correctional facilities, inmate records, parole services"
+    },
+    {
+      "name": "New Jersey Department of Children and Families",
+      "category": "Executive",
+      "description": "Child welfare, child protection, family services",
+      "address": "PO Box 729, Trenton, NJ 08625-0729",
+      "phone": "1-855-INFO-DCF (1-855-463-6323)",
+      "website": "https://www.nj.gov/dcf/",
+      "foia_officer": "OPRA Custodian",
+      "email": "OPRA@dcf.nj.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Child protective services, adoption, juvenile justice"
+    },
+    {
+      "name": "New Jersey Department of Labor and Workforce Development",
+      "category": "Executive",
+      "description": "Employment services, unemployment insurance, workplace safety",
+      "address": "PO Box 110, Trenton, NJ 08625-0110",
+      "phone": "(609) 659-9045",
+      "website": "https://www.nj.gov/labor/",
+      "foia_officer": "OPRA Custodian",
+      "email": "OPRA@dol.nj.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Unemployment benefits, worker safety, employment statistics"
+    },
+    {
+      "name": "New Jersey Department of Banking and Insurance",
+      "category": "Executive",
+      "description": "Financial institution regulation, insurance oversight, consumer protection",
+      "address": "PO Box 325, Trenton, NJ 08625",
+      "phone": "1-800-446-7467",
+      "website": "https://www.nj.gov/dobi/",
+      "foia_officer": "OPRA Custodian",
+      "email": "OPRA@dobi.nj.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Bank regulation, insurance company oversight, consumer complaints"
+    },
+    {
+      "name": "New Jersey Department of Community Affairs",
+      "category": "Executive",
+      "description": "Local government services, housing, community development",
+      "address": "PO Box 800, Trenton, NJ 08625-0800",
+      "phone": "(609) 376-0802",
+      "website": "https://www.nj.gov/dca/",
+      "foia_officer": "OPRA Custodian",
+      "email": "OPRA@dca.nj.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Local government assistance, housing programs, fire safety"
+    },
+    {
+      "name": "New Jersey Department of the Treasury",
+      "category": "Executive",
+      "description": "State finances, tax collection, procurement, employee benefits",
+      "address": "PO Box 002, Trenton, NJ 08625-0002",
+      "phone": "(609) 292-6748",
+      "website": "https://www.nj.gov/treasury/",
+      "foia_officer": "OPRA Custodian",
+      "email": "OPRA@treas.nj.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "State budget, taxation, public employee retirement"
+    },
+    {
+      "name": "New Jersey Department of State",
+      "category": "Constitutional",
+      "description": "Elections, business filings, notary services, professional licensing",
+      "address": "PO Box 300, Trenton, NJ 08625",
+      "phone": "(609) 777-2581",
+      "website": "https://nj.gov/state/",
+      "foia_officer": "OPRA Custodian",
+      "email": "OPRA@sos.nj.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Elections administration, business registration, notary services"
+    },
+    {
+      "name": "New Jersey Department of Agriculture",
+      "category": "Executive",
+      "description": "Agricultural regulation, food safety, rural development",
+      "address": "PO Box 330, Trenton, NJ 08625",
+      "phone": "(609) 292-3976",
+      "website": "https://www.nj.gov/agriculture/",
+      "foia_officer": "OPRA Custodian",
+      "email": "ContactAg@ag.state.nj.us",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Food safety, agricultural programs, farmland preservation"
+    },
+    {
+      "name": "Government Records Council",
+      "category": "Independent Agency",
+      "description": "OPRA enforcement, mediation, investigation of public records violations",
+      "address": "101 South Broad Street, PO Box 819, Trenton, NJ 08625-0819",
+      "phone": "(609) 292-6830",
+      "website": "https://www.nj.gov/grc/",
+      "foia_officer": "Executive Director",
+      "email": "grc@dca.nj.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "OPRA oversight, mediation services, complaint investigation"
+    }
+  ]
+}

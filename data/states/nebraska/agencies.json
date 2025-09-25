@@ -1,0 +1,202 @@
+{
+  "state": "Nebraska",
+  "law_name": "Nebraska Public Records Act",
+  "statute_citation": "Nebraska Revised Statutes §§ 84-712 through 84-712.09",
+  "last_updated": "2025-01-09",
+  "response_deadline": "4 business days (with extensions allowed for complex requests)",
+  "attorney_general_enforcement": true,
+  "central_foia_office": false,
+  "notes": "4 business day response deadline. Must provide cost estimate, denial with reasons, or extension explanation. Liberal construction for fiscal records. Recent amendments effective January 1, 2025.",
+  "templates": {
+    "basic_request": {
+      "subject": "Nebraska Public Records Request",
+      "body": "Dear Records Custodian:\n\nPursuant to the Nebraska Public Records Act, Nebraska Revised Statutes § 84-712.01, I respectfully request access to inspect and copy the following public records:\n\n[SPECIFIC DESCRIPTION OF RECORDS]\n\nPlease respond within four business days of receipt as required by law, providing either:\n1. Cost estimate and access/copies of records\n2. Written denial with specific statutory citations if access is denied\n3. Written explanation with earliest practicable fulfillment date if request is extensive\n\nIf any portion of this request is denied, please provide a description of withheld contents and specific reasons for denial with statutory citations as required by § 84-712.04.\n\nI prefer to receive responsive records electronically when possible to minimize costs. Please contact me if clarification is needed.\n\nThank you for your attention to this matter.\n\nSincerely,\n[YOUR NAME]\n[YOUR ADDRESS]\n[PHONE NUMBER]\n[EMAIL ADDRESS]"
+    },
+    "appeal_template": {
+      "subject": "Appeal of Public Records Request Denial",
+      "body": "Dear Agency Head:\n\nI am appealing the denial of my Nebraska Public Records Act request dated [DATE]. Your office denied my request for [DESCRIPTION OF RECORDS] citing [EXEMPTION CLAIMED].\n\nI believe this denial is improper under Nebraska law because [LEGAL REASONING]. The Nebraska Public Records Act requires liberal construction, particularly for fiscal records, audit, warrant, voucher, invoice, purchase order, requisition, payroll, check, receipt, or other record involving public funds.\n\nThe requested records appear to be public records that should be disclosed under §§ 84-712 through 84-712.09. Please reconsider this denial and provide the requested records.\n\nSincerely,\n[YOUR NAME]"
+    }
+  },
+  "agencies": [
+    {
+      "name": "Office of the Governor",
+      "category": "Executive",
+      "description": "Office of Governor Jim Pillen",
+      "address": "P.O. Box 94848, Lincoln, NE 68509-4848",
+      "phone": "(402) 471-2244",
+      "website": "https://gov.nebraska.gov/",
+      "foia_officer": "Records Custodian",
+      "email": "governor.records@nebraska.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Governor's office, executive orders, appointments"
+    },
+    {
+      "name": "Nebraska Attorney General",
+      "category": "Constitutional",
+      "description": "Office of Attorney General Mike Hilgers",
+      "address": "2115 State Capitol, Lincoln, NE 68509",
+      "phone": "(402) 471-2682",
+      "website": "https://ago.nebraska.gov/",
+      "foia_officer": "Records Custodian",
+      "email": "ago.records@nebraska.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Public records guidance, legal opinions, consumer protection"
+    },
+    {
+      "name": "Nebraska Secretary of State",
+      "category": "Constitutional",
+      "description": "Office of Secretary of State Bob Evnen",
+      "address": "P.O. Box 94608, Lincoln, NE 68509-4608",
+      "phone": "(402) 471-2554",
+      "website": "https://sos.nebraska.gov/",
+      "foia_officer": "Records Custodian",
+      "email": "sos.records@nebraska.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Elections oversight, business registration, rules and regulations"
+    },
+    {
+      "name": "Nebraska State Treasurer",
+      "category": "Constitutional",
+      "description": "Office of State Treasurer Tom Briese (as of November 2025)",
+      "address": "P.O. Box 94788, Lincoln, NE 68509",
+      "phone": "(402) 471-2455",
+      "website": "https://treasurer.nebraska.gov/",
+      "foia_officer": "Records Custodian",
+      "email": "treasurer.records@nebraska.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "State investments, banking, unclaimed property"
+    },
+    {
+      "name": "Nebraska Auditor of Public Accounts",
+      "category": "Constitutional",
+      "description": "Office of Auditor Mike Foley",
+      "address": "P.O. Box 98917, Lincoln, NE 68509",
+      "phone": "(402) 471-2111",
+      "website": "https://auditors.nebraska.gov/",
+      "foia_officer": "Records Custodian",
+      "email": "auditor.records@nebraska.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Government audits, performance reviews, accountability"
+    },
+    {
+      "name": "Department of Revenue",
+      "category": "Executive",
+      "description": "Tax collection and administration",
+      "address": "P.O. Box 94818, Lincoln, NE 68509-4818",
+      "phone": "(402) 471-5729",
+      "website": "https://revenue.nebraska.gov/",
+      "foia_officer": "Records Custodian",
+      "email": "revenue.records@nebraska.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Income tax, sales tax, property tax administration"
+    },
+    {
+      "name": "Department of Motor Vehicles",
+      "category": "Executive",
+      "description": "Vehicle registration and driver licensing",
+      "address": "P.O. Box 94789, Lincoln, NE 68509-4789",
+      "phone": "(402) 471-3918",
+      "website": "https://dmv.nebraska.gov/",
+      "foia_officer": "Records Custodian",
+      "email": "dmv.records@nebraska.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Driver licenses, vehicle registration, traffic records"
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "category": "Executive",
+      "description": "Public health and social services",
+      "address": "P.O. Box 95026, Lincoln, NE 68509-5026",
+      "phone": "(402) 471-3121",
+      "website": "https://dhhs.nebraska.gov/",
+      "foia_officer": "Records Custodian",
+      "email": "dhhs.records@nebraska.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Medicaid, public health, social services, vital records"
+    },
+    {
+      "name": "Department of Education",
+      "category": "Executive",
+      "description": "K-12 and higher education oversight",
+      "address": "P.O. Box 94987, Lincoln, NE 68509-4987",
+      "phone": "(402) 471-2295",
+      "website": "https://education.nebraska.gov/",
+      "foia_officer": "Records Custodian",
+      "email": "education.records@nebraska.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Public school oversight, teacher certification, education policy"
+    },
+    {
+      "name": "Department of Transportation",
+      "category": "Executive",
+      "description": "Transportation infrastructure and services",
+      "address": "P.O. Box 94759, Lincoln, NE 68509-4759",
+      "phone": "(402) 479-4512",
+      "website": "https://dot.nebraska.gov/",
+      "foia_officer": "Records Custodian",
+      "email": "ndot.records@nebraska.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Highway construction, public transit, aviation"
+    },
+    {
+      "name": "Department of Environment and Energy",
+      "category": "Executive",
+      "description": "Environmental protection and energy regulation",
+      "address": "P.O. Box 98922, Lincoln, NE 68509-8922",
+      "phone": "(402) 471-2186",
+      "website": "https://dee.nebraska.gov/",
+      "foia_officer": "Records Custodian",
+      "email": "dee.records@nebraska.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Environmental permits, air/water quality, energy programs"
+    },
+    {
+      "name": "Department of Correctional Services",
+      "category": "Executive",
+      "description": "State correctional facilities and programs",
+      "address": "P.O. Box 94661, Lincoln, NE 68509-4661",
+      "phone": "(402) 471-2654",
+      "website": "https://corrections.nebraska.gov/",
+      "foia_officer": "Records Custodian",
+      "email": "corrections.records@nebraska.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "State prisons, parole, probation services"
+    },
+    {
+      "name": "Nebraska State Patrol",
+      "category": "Executive",
+      "description": "State law enforcement services",
+      "address": "P.O. Box 94907, Lincoln, NE 68509-4907",
+      "phone": "(402) 471-4545",
+      "website": "https://statepatrol.nebraska.gov/",
+      "foia_officer": "Records Custodian",
+      "email": "nsp.records@nebraska.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "State police services, criminal records, traffic enforcement"
+    },
+    {
+      "name": "Department of Agriculture",
+      "category": "Executive",
+      "description": "Agricultural regulation and promotion",
+      "address": "P.O. Box 94947, Lincoln, NE 68509-4947",
+      "phone": "(402) 471-2341",
+      "website": "https://nda.nebraska.gov/",
+      "foia_officer": "Records Custodian",
+      "email": "nda.records@nebraska.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Agricultural programs, food safety, weights and measures"
+    },
+    {
+      "name": "Department of Labor",
+      "category": "Executive",
+      "description": "Workforce development and labor regulation",
+      "address": "P.O. Box 94600, Lincoln, NE 68509-4600",
+      "phone": "(402) 471-3405",
+      "website": "https://dol.nebraska.gov/",
+      "foia_officer": "Records Custodian",
+      "email": "dol.records@nebraska.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Unemployment insurance, workforce development, worker safety"
+    }
+  ]
+}

@@ -1,0 +1,371 @@
+{
+  "jurisdiction": "Colorado",
+  "transparency_law": "Colorado Open Records Act (CORA)", 
+  "legal_citation": "Colorado Revised Statutes Title 24, Article 72, Part 2, Sections 24-72-200.1 through 24-72-205",
+  "effective_date": "1968",
+  "research_date": "2025-09-05",
+  
+  "law_summary": {
+    "official_name": "Colorado Open Records Act (CORA)",
+    "response_deadline_days": {
+      "standard_response": "3 working days",
+      "with_extension": "Up to 7 additional working days for extenuating circumstances",
+      "request_receipt": "Requests after 3 PM considered received next business day"
+    },
+    "appeal_process": "Optional reconsideration, then district court judicial review",
+    "appeal_deadline": "14 days after reconsideration request or denial",
+    "fee_structure": "$0.25/page after first 25 pages; up to $41.37/hour after first hour of staff time",
+    "requester_requirements": "Any person - no residency requirement",
+    "criminal_justice_exception": "Separate Colorado Criminal Justice Records Act applies",
+    "key_exemptions": [
+      "Medical records",
+      "Personnel files", 
+      "Individual tax records",
+      "Trade secrets and confidential commercial data",
+      "Library circulation records",
+      "Current security procedures",
+      "Records required to be withheld by federal law",
+      "Letters of reference",
+      "Academic research data",
+      "Criminal investigation records",
+      "Attorney work product"
+    ]
+  },
+
+  "agencies": [
+    {
+      "id": "CO-001",
+      "name": "Office of the Governor",
+      "category": "Executive",
+      "description": "Chief executive office of Colorado state government",
+      "website": "https://www.colorado.gov/governor",
+      "contact_info": {
+        "address": "136 State Capitol, Denver, CO 80203-1792",
+        "phone": "(303) 866-2471",
+        "public_records_contact": "Governor's Office Legal Counsel"
+      },
+      "records_commonly_requested": [
+        "Executive orders and proclamations",
+        "Correspondence with state and federal officials",
+        "Meeting calendars and schedules",
+        "Policy briefing materials",
+        "Budget recommendations and proposals"
+      ]
+    },
+    
+    {
+      "id": "CO-002", 
+      "name": "Colorado Attorney General (Department of Law)",
+      "category": "Legal/Law Enforcement",
+      "description": "Legal counsel for the state and consumer protection agency",
+      "website": "https://coag.gov",
+      "contact_info": {
+        "address": "1300 Broadway, 10th Floor, Denver, CO 80203",
+        "phone": "(720) 508-6000",
+        "fax": "(720) 508-6030",
+        "email": "attorney.general@coag.gov",
+        "public_records_contact": "CORA Coordinator"
+      },
+      "records_commonly_requested": [
+        "Attorney General opinions",
+        "Consumer protection case files",
+        "Civil enforcement actions and settlements",
+        "Legal opinions and interpretations",
+        "Peace officer training and certification records"
+      ]
+    },
+
+    {
+      "id": "CO-003",
+      "name": "Colorado Department of Public Safety", 
+      "category": "Law Enforcement",
+      "description": "State public safety agency including State Patrol and investigations",
+      "website": "https://publicsafety.colorado.gov",
+      "contact_info": {
+        "address": "700 Kipling, Suite 1000, Lakewood, CO 80215",
+        "email": "cdps_hr@state.co.us",
+        "public_records_contact": "CORA Coordinator"
+      },
+      "records_commonly_requested": [
+        "Colorado State Patrol policies and procedures",
+        "Traffic enforcement statistics",
+        "Emergency management plans",
+        "Training records and certifications",
+        "Equipment and vehicle procurement"
+      ]
+    },
+
+    {
+      "id": "CO-004",
+      "name": "Colorado Department of Public Health and Environment", 
+      "category": "Health/Environment",
+      "description": "State health and environmental protection agency",
+      "website": "https://cdphe.colorado.gov",
+      "contact_info": {
+        "address": "4300 Cherry Creek Drive South, Denver, CO 80246-1530",
+        "email": "cdphe.commentsapcd@state.co.us",
+        "public_records_contact": "CORA Coordinator"
+      },
+      "records_commonly_requested": [
+        "Restaurant and facility inspection reports",
+        "Environmental permits and violations",
+        "Air and water quality monitoring data",
+        "Public health emergency preparedness plans",
+        "Healthcare facility licensing records"
+      ]
+    },
+
+    {
+      "id": "CO-005",
+      "name": "Colorado Department of Education",
+      "category": "Education", 
+      "description": "State education agency overseeing K-12 public education",
+      "website": "https://www.cde.state.co.us",
+      "contact_info": {
+        "address": "201 East Colfax Ave., Denver, CO 80203",
+        "phone": "(303) 866-6600",
+        "public_records_contact": "CORA Policy Coordinator"
+      },
+      "records_commonly_requested": [
+        "School district financial and performance data",
+        "Student achievement and assessment results",
+        "Teacher licensing and certification records",
+        "School accountability ratings",
+        "Educational standards and curriculum materials"
+      ]
+    },
+
+    {
+      "id": "CO-006",
+      "name": "Colorado Department of Transportation",
+      "category": "Transportation",
+      "description": "State agency managing highways, bridges, and transportation infrastructure", 
+      "website": "https://www.codot.gov",
+      "contact_info": {
+        "address": "2829 W. Howard Place, Denver, CO 80204",
+        "hours": "8 a.m. to 4:30 p.m., Monday - Friday",
+        "public_records_contact": "CORA Coordinator"
+      },
+      "records_commonly_requested": [
+        "Highway construction contracts and bids",
+        "Traffic studies and engineering reports", 
+        "Bridge inspection and safety records",
+        "Right-of-way acquisition documents",
+        "Environmental impact assessments"
+      ]
+    },
+
+    {
+      "id": "CO-007",
+      "name": "Colorado Department of Corrections",
+      "category": "Corrections",
+      "description": "State corrections system managing prisons and rehabilitation programs",
+      "website": "https://cdoc.colorado.gov", 
+      "contact_info": {
+        "address": "1250 Academy Park Loop, Colorado Springs, CO 80910",
+        "phone": "(719) 226-4201",
+        "public_records_contact": "Executive Director's Office"
+      },
+      "records_commonly_requested": [
+        "Inmate population and demographic statistics",
+        "Correctional facility policies and procedures",
+        "Staff training and employment records",
+        "Facility inspection and incident reports",
+        "Rehabilitation and reentry program data"
+      ]
+    },
+
+    {
+      "id": "CO-008", 
+      "name": "Colorado Department of Human Services",
+      "category": "Social Services",
+      "description": "State agency providing social services, child welfare, and public assistance",
+      "website": "https://cdhs.colorado.gov",
+      "contact_info": {
+        "address": "1575 Sherman Street, Denver, CO 80203-1714",
+        "phone": "(303) 866-5700",
+        "public_records_contact": "Legal Office"
+      },
+      "records_commonly_requested": [
+        "Child welfare policies and procedures",
+        "Public assistance program guidelines and statistics",
+        "Social services contracts and provider information",
+        "Foster care and adoption program data",
+        "Mental health and substance abuse program records"
+      ]
+    },
+
+    {
+      "id": "CO-009",
+      "name": "Colorado Department of Revenue",
+      "category": "Revenue/Taxation",
+      "description": "State revenue collection, tax administration, and motor vehicle services",
+      "website": "https://cdor.colorado.gov",
+      "contact_info": {
+        "address": "1881 Pierce Street, Lakewood, CO 80214",
+        "phone": "(303) 238-7378",
+        "public_records_contact": "CORA Coordinator"
+      },
+      "records_commonly_requested": [
+        "Tax policy documents and interpretations",
+        "Revenue collection statistics and reports",
+        "Motor vehicle registration and licensing data",
+        "Business registration and licensing information",
+        "Property tax assessment procedures"
+      ]
+    },
+
+    {
+      "id": "CO-010",
+      "name": "Colorado Department of Labor and Employment",
+      "category": "Labor/Employment",
+      "description": "State agency overseeing labor standards, workplace safety, and employment services",
+      "website": "https://cdle.colorado.gov",
+      "contact_info": {
+        "address": "633 17th Street, Suite 201, Denver, CO 80202-3660",
+        "phone": "(303) 318-8000",
+        "public_records_contact": "Executive Director's Office"
+      },
+      "records_commonly_requested": [
+        "Workplace safety inspection reports",
+        "Employment statistics and labor market data", 
+        "Workers' compensation case information",
+        "Unemployment insurance program data",
+        "Wage and hour violation enforcement cases"
+      ]
+    },
+
+    {
+      "id": "CO-011",
+      "name": "Colorado Secretary of State",
+      "category": "Elections/Business",
+      "description": "State elections administration, business registration, and official records",
+      "website": "https://www.sos.state.co.us",
+      "contact_info": {
+        "address": "1700 Broadway, Suite 270, Denver, CO 80290",
+        "phone": "(303) 894-2200",
+        "public_records_contact": "CORA Coordinator"
+      },
+      "records_commonly_requested": [
+        "Election results and voting statistics",
+        "Campaign finance and lobbying reports",
+        "Business entity filings and registrations",
+        "Notary public records and commissions",
+        "Initiative and referendum petition information"
+      ]
+    },
+
+    {
+      "id": "CO-012",
+      "name": "Colorado Department of Regulatory Agencies (DORA)", 
+      "category": "Business Regulation",
+      "description": "State umbrella regulatory agency for professional licensing and consumer protection",
+      "website": "https://dora.colorado.gov",
+      "contact_info": {
+        "address": "1560 Broadway, Suite 1550, Denver, CO 80202",
+        "phone": "(303) 894-7855",
+        "public_records_contact": "Executive Director's Office"
+      },
+      "records_commonly_requested": [
+        "Professional licensing records and disciplinary actions",
+        "Consumer complaints and enforcement actions",
+        "Regulatory compliance and inspection reports",
+        "Insurance company examinations and filings",
+        "Public utilities commission proceedings"
+      ]
+    },
+
+    {
+      "id": "CO-013",
+      "name": "Colorado Department of Natural Resources",
+      "category": "Natural Resources/Environment", 
+      "description": "State agency managing natural resources, parks, and wildlife",
+      "website": "https://dnr.colorado.gov",
+      "contact_info": {
+        "address": "1313 Sherman Street, Room 718, Denver, CO 80203",
+        "phone": "(303) 866-3311",
+        "public_records_contact": "Executive Director's Office"
+      },
+      "records_commonly_requested": [
+        "Water rights and usage permits",
+        "Oil and gas lease and permit information",
+        "State park operations and management plans",
+        "Mining permits and environmental assessments",
+        "Geological and water resource studies"
+      ]
+    },
+
+    {
+      "id": "CO-014",
+      "name": "Colorado Parks and Wildlife",
+      "category": "Natural Resources",
+      "description": "State agency managing fish and wildlife resources, hunting and fishing",
+      "website": "https://cpw.state.co.us", 
+      "contact_info": {
+        "address": "6060 Broadway, Denver, CO 80216",
+        "phone": "(303) 297-1192",
+        "public_records_contact": "CORA Coordinator"
+      },
+      "records_commonly_requested": [
+        "Wildlife population surveys and management plans",
+        "Hunting and fishing license statistics",
+        "Habitat restoration and conservation projects",
+        "Species research and monitoring data",
+        "Wildlife law enforcement records"
+      ]
+    },
+
+    {
+      "id": "CO-015",
+      "name": "Colorado Department of Military and Veterans Affairs",
+      "category": "Military/Veterans",
+      "description": "State agency providing military coordination and veterans services",
+      "website": "https://dmva.colorado.gov",
+      "contact_info": {
+        "address": "6848 Revere Parkway, Centennial, CO 80112-6700",
+        "phone": "(720) 250-1181",
+        "public_records_contact": "Administrative Office"
+      },
+      "records_commonly_requested": [
+        "Veterans benefits and services information",
+        "Colorado National Guard operations and training",
+        "Veterans cemetery records and policies",
+        "Military facility management records",
+        "Emergency response and homeland security coordination"
+      ]
+    }
+  ],
+
+  "request_templates": [
+    {
+      "template_id": "CO-STANDARD",
+      "name": "Colorado Standard CORA Request",
+      "description": "General purpose records request for Colorado state agencies",
+      "template_text": "Dear Records Custodian:\n\nPursuant to the Colorado Open Records Act, C.R.S. §§ 24-72-200.1 through 24-72-205, I respectfully request access to and copies of the following public records:\n\n[DESCRIBE RECORDS WITH SUFFICIENT SPECIFICITY TO ENABLE CUSTODIAN TO LOCATE THE REQUESTED RECORD]\n\nPer C.R.S. § 24-72-203(3), please provide the requested records or deny this request in writing within three (3) working days after receipt of this application. If extenuating circumstances exist, you may extend this period for up to seven (7) additional working days by providing written notice of the extension and the reasons for it.\n\nI prefer to receive these records in [SPECIFY FORMAT: electronic/paper]. If the records are maintained in electronic form, please provide them electronically when technologically practicable per C.R.S. § 24-72-203(7).\n\nI understand that per C.R.S. § 24-72-203(6), no research and retrieval fee will be charged for the first hour of staff time, but reasonable fees may apply for additional time required.\n\nIf you determine that some portions of these records are exempt from disclosure under C.R.S. § 24-72-204, please provide the non-exempt portions and cite the specific statutory exemption for any withholdings.\n\nIf you deny any portion of this request, please provide written statement of the grounds for denial with specific statutory citation as required by C.R.S. § 24-72-203(5)(a).\n\nThank you for your prompt attention to this matter.\n\nSincerely,\n[REQUESTER NAME]\n[ADDRESS]\n[CITY, STATE ZIP]\n[PHONE NUMBER]\n[EMAIL ADDRESS]\n[DATE]"
+    },
+    
+    {
+      "template_id": "CO-RECONSIDERATION",
+      "name": "Colorado CORA Reconsideration Request",
+      "description": "Template for requesting reconsideration of denied CORA request",
+      "template_text": "Dear Records Custodian:\n\nPursuant to C.R.S. § 24-72-203(5)(b), I respectfully request reconsideration of your denial of my Colorado Open Records Act request dated [REQUEST DATE] and denied on [DENIAL DATE].\n\nMy original request sought the following records:\n[DESCRIBE ORIGINAL REQUEST]\n\nYour denial cited [SPECIFIC EXEMPTION CLAIMED]. I believe this denial is improper for the following reasons:\n\n1. [EXPLAIN WHY EXEMPTION DOESN'T APPLY]\n2. [CITE RELEVANT CORA PROVISIONS]\n3. [REFERENCE COLORADO'S POLICY FAVORING DISCLOSURE]\n\nThe Colorado Open Records Act declares it to be public policy that \"all public records shall be open for inspection by any person at reasonable times\" per C.R.S. § 24-72-200.1. Exemptions should be narrowly construed to effectuate this policy.\n\nI offer to meet and confer with you to discuss the scope and basis of this request as contemplated by the statute.\n\nI request that you:\n1. Reverse your denial decision\n2. Provide the requested records or non-exempt portions\n3. If you maintain partial denial, provide detailed explanation with specific statutory citations\n\nIf this reconsideration is unsuccessful, please be advised that I may seek judicial review in district court after the 14-day period specified in C.R.S. § 24-72-205(1).\n\nI prefer to resolve this matter cooperatively rather than through litigation.\n\nThank you for your reconsideration.\n\nSincerely,\n[REQUESTER NAME]\n[ADDRESS]\n[CITY, STATE ZIP]\n[PHONE NUMBER]\n[EMAIL ADDRESS]\n[DATE]\n\nEnclosures: Copy of original request and denial letter"
+    },
+
+    {
+      "template_id": "CO-DISTRICT-COURT",
+      "name": "Colorado District Court CORA Application", 
+      "description": "Template for district court application to compel records disclosure",
+      "template_text": "IN THE DISTRICT COURT IN AND FOR [COUNTY] COUNTY, COLORADO\n\n[APPLICANT NAME],           )\n  Applicant,               )\n                          )\n  v.                      )  Case No. ____________\n                          )\n[CUSTODIAN/AGENCY NAME],   )\n  Respondent.             )\n\nAPPLICATION FOR ORDER DIRECTING CUSTODIAN TO SHOW CAUSE\nPURSUANT TO COLORADO OPEN RECORDS ACT\n\nTO THE HONORABLE COURT:\n\nApplicant brings this action under C.R.S. § 24-72-205 to compel disclosure of public records improperly withheld under the Colorado Open Records Act.\n\n1. JURISDICTION AND VENUE\nThis Court has jurisdiction under C.R.S. § 24-72-205. Venue is proper as the records are found in [COUNTY] County, Colorado.\n\n2. PARTIES\nApplicant is a person entitled to inspect public records under CORA.\n\nRespondent [CUSTODIAN/AGENCY] is the custodian of the requested records.\n\n3. FACTUAL BACKGROUND\nOn [DATE], Applicant submitted a CORA request seeking [DESCRIBE RECORDS].\n\n[On [DATE], Applicant filed a request for reconsideration with Respondent.]\n\nRespondent denied the request [and reconsideration] on [DATE], claiming exemption under [CITE CLAIMED EXEMPTION].\n\nMore than fourteen days have passed since [the reconsideration request was received/denial of reconsideration].\n\n4. GROUNDS FOR RELIEF\nRespondent's denial violates CORA because:\na) [EXPLAIN WHY RECORDS ARE PUBLIC]\nb) [EXPLAIN WHY CLAIMED EXEMPTION DOESN'T APPLY]\nc) [CITE COLORADO POLICY FAVORING DISCLOSURE]\n\n5. REQUEST FOR RELIEF\nWHEREFORE, Applicant respectfully requests:\na) Order directing Respondent to show cause why inspection should not be permitted;\nb) Order compelling disclosure of the requested records;\nc) Award of court costs and attorney fees per C.R.S. § 24-72-205(3) if Respondent's action was arbitrary or capricious;\nd) Other relief deemed just and proper.\n\nRespectfully submitted,\n\n_________________________\n[ATTORNEY NAME AND NUMBER]\n[OR APPLICANT SIGNATURE IF PRO SE]\n[ADDRESS]\n[CITY, STATE ZIP]\n[PHONE]\n[EMAIL]\nAttorney for Applicant [OR \"Pro Se\"]\n\nVERIFICATION\n[Include verification that facts are true and correct]"
+    }
+  ],
+
+  "research_sources": [
+    "Colorado Revised Statutes Title 24, Article 72, Part 2, Sections 24-72-200.1 through 24-72-205",
+    "Colorado Secretary of State CORA guidance and FAQ materials",
+    "Colorado Attorney General CORA resources",
+    "Colorado Freedom of Information Coalition Guide to Colorado's Open Records Laws",
+    "Colorado state agency CORA policies and procedures",
+    "Colorado court decisions interpreting CORA",
+    "Colorado state government websites and agency directories"
+  ]
+}

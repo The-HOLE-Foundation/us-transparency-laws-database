@@ -1,0 +1,294 @@
+{
+  "state": "Wisconsin",
+  "law_name": "Wisconsin Public Records Law",
+  "statute_citation": "Wis. Stat. §§ 19.31-19.39",
+  "last_updated": "2025-01-15",
+  "oversight_agency": {
+    "name": "Wisconsin Department of Justice - Office of Open Government",
+    "role": "Provides guidance and training on public records law compliance",
+    "contact": {
+      "website": "https://www.doj.state.wi.us/office-open-government/",
+      "services": ["Compliance guidance", "Training resources", "Legal interpretations"]
+    },
+    "note": "No central administrative appeals process - direct court enforcement only"
+  },
+  "agencies": [
+    {
+      "name": "Wisconsin Department of Health Services (DHS)",
+      "description": "State health department and human services agency",
+      "public_records_contact": {
+        "coordinator_title": "Legal Custodian of Records",
+        "office_of_secretary": {
+          "email": "dhsosopenrecords@dhs.wisconsin.gov",
+          "phone": "(608) 266-9622"
+        },
+        "general_requests": {
+          "email": "dhsopenrecordsrequests@dhs.wisconsin.gov",
+          "phone": "(608) 267-5093",
+          "room": "651"
+        },
+        "division_of_public_health": {
+          "email": "dhsdphopenrecordsrequests@dhs.wisconsin.gov",
+          "phone": "(608) 266-5332",
+          "room": "250"
+        },
+        "division_of_quality_assurance": {
+          "email": "DHSDQARecordsRequest@dhs.wisconsin.gov",
+          "phone": "(608) 622-0140",
+          "room": "450"
+        },
+        "mailing_address": {
+          "street": "Wisconsin Department of Health Services",
+          "street2": "1 West Wilson Street",
+          "street3": "PO Box 7850",
+          "city": "Madison",
+          "state": "WI",
+          "zip": "53707"
+        },
+        "business_hours": "7:45-11:45 AM and 12:30-4:30 PM, Monday-Friday (except holidays)",
+        "website": "https://www.dhs.wisconsin.gov/des/openrecords.htm"
+      },
+      "subject_areas": ["Public health", "Human services", "Medicaid", "Mental health", "Substance abuse treatment", "Child welfare"]
+    },
+    {
+      "name": "Wisconsin Department of Transportation (WisDOT)",
+      "description": "State transportation department responsible for highways and transportation services",
+      "public_records_contact": {
+        "coordinator_title": "Public Records Officer",
+        "website": "https://wisconsindot.gov/Pages/about-wisdot/contact-us/default.aspx",
+        "mailing_address": {
+          "street": "Wisconsin Department of Transportation",
+          "street2": "Hill Farms State Office Building",
+          "city": "Madison",
+          "state": "WI",
+          "zip": "53707"
+        },
+        "note": "Wisconsin State Patrol is a division of DOT"
+      },
+      "subject_areas": ["Highway construction", "Transportation planning", "Motor vehicle services", "State patrol", "Traffic safety", "Public transit"]
+    },
+    {
+      "name": "Wisconsin Department of Public Instruction (DPI)",
+      "description": "State education department responsible for public education oversight",
+      "public_records_contact": {
+        "coordinator_title": "Public Records Officer",
+        "website": "https://dpi.wi.gov/records-request/public-records-requests",
+        "data_requests": "https://dpi.wi.gov/wise/data-requests",
+        "mailing_address": {
+          "street": "Wisconsin Department of Public Instruction",
+          "city": "Madison",
+          "state": "WI",
+          "zip": "53707"
+        },
+        "review_schedule": "Reviews requests twice a month",
+        "response_time": "Usually 1-2 months after data use agreement signed, may take 6+ months for confidential data"
+      },
+      "subject_areas": ["Education policy", "School performance", "Teacher licensing", "School funding", "Academic standards", "Student data"]
+    },
+    {
+      "name": "Wisconsin Department of Natural Resources (DNR)",
+      "description": "Environmental protection and natural resource management",
+      "public_records_contact": {
+        "coordinator_title": "Public Records Officer",
+        "mailing_address": {
+          "street": "Wisconsin Department of Natural Resources",
+          "city": "Madison",
+          "state": "WI",
+          "zip": "53707"
+        }
+      },
+      "subject_areas": ["Environmental permits", "Wildlife management", "Parks and recreation", "Water quality", "Air quality", "Hunting and fishing licenses"]
+    },
+    {
+      "name": "Wisconsin Department of Agriculture, Trade and Consumer Protection",
+      "description": "Agricultural regulation and consumer protection",
+      "public_records_contact": {
+        "coordinator_title": "Public Records Officer",
+        "mailing_address": {
+          "street": "Wisconsin Department of Agriculture, Trade and Consumer Protection",
+          "city": "Madison",
+          "state": "WI",
+          "zip": "53707"
+        }
+      },
+      "subject_areas": ["Agricultural regulation", "Food safety", "Weights and measures", "Consumer protection", "Animal health"]
+    },
+    {
+      "name": "Wisconsin Department of Revenue",
+      "description": "Tax collection and administration",
+      "public_records_contact": {
+        "coordinator_title": "Public Records Officer",
+        "mailing_address": {
+          "street": "Wisconsin Department of Revenue",
+          "city": "Madison",
+          "state": "WI",
+          "zip": "53707"
+        }
+      },
+      "subject_areas": ["Tax collection", "Property assessment", "Business taxes", "Income tax", "Sales tax"]
+    },
+    {
+      "name": "Wisconsin Department of Corrections",
+      "description": "State prison system and correctional facilities",
+      "public_records_contact": {
+        "coordinator_title": "Public Records Officer",
+        "mailing_address": {
+          "street": "Wisconsin Department of Corrections",
+          "city": "Madison",
+          "state": "WI",
+          "zip": "53707"
+        }
+      },
+      "subject_areas": ["Prison operations", "Inmate records", "Correctional facilities", "Probation and parole", "Community corrections"]
+    },
+    {
+      "name": "Wisconsin Department of Workforce Development",
+      "description": "Employment services and workforce development",
+      "public_records_contact": {
+        "coordinator_title": "Public Records Officer",
+        "mailing_address": {
+          "street": "Wisconsin Department of Workforce Development",
+          "city": "Madison",
+          "state": "WI",
+          "zip": "53707"
+        }
+      },
+      "subject_areas": ["Unemployment benefits", "Employment services", "Workforce training", "Labor relations", "Job placement"]
+    },
+    {
+      "name": "Wisconsin Department of Administration",
+      "description": "Administrative services and support for state government",
+      "public_records_contact": {
+        "coordinator_title": "Public Records Officer",
+        "mailing_address": {
+          "street": "Wisconsin Department of Administration",
+          "city": "Madison",
+          "state": "WI",
+          "zip": "53707"
+        }
+      },
+      "subject_areas": ["State facilities", "Procurement", "Information technology", "Human resources", "Financial management"]
+    },
+    {
+      "name": "Wisconsin Department of Safety and Professional Services",
+      "description": "Professional licensing and regulation",
+      "public_records_contact": {
+        "coordinator_title": "Public Records Officer",
+        "mailing_address": {
+          "street": "Wisconsin Department of Safety and Professional Services",
+          "city": "Madison",
+          "state": "WI",
+          "zip": "53707"
+        }
+      },
+      "subject_areas": ["Professional licensing", "Building safety", "Occupational regulation", "Industry oversight", "Public safety"]
+    },
+    {
+      "name": "Wisconsin Department of Financial Institutions",
+      "description": "Financial services regulation",
+      "public_records_contact": {
+        "coordinator_title": "Public Records Officer",
+        "mailing_address": {
+          "street": "Wisconsin Department of Financial Institutions",
+          "city": "Madison",
+          "state": "WI",
+          "zip": "53707"
+        }
+      },
+      "subject_areas": ["Banking regulation", "Credit unions", "Securities regulation", "Consumer credit", "Financial institutions"]
+    },
+    {
+      "name": "Wisconsin Attorney General's Office",
+      "description": "Legal representation for state government",
+      "public_records_contact": {
+        "coordinator_title": "Public Records Officer",
+        "mailing_address": {
+          "street": "Wisconsin Attorney General's Office",
+          "city": "Madison",
+          "state": "WI",
+          "zip": "53707"
+        }
+      },
+      "subject_areas": ["Legal opinions", "Criminal prosecution", "Consumer protection", "Civil litigation", "Open government guidance"]
+    },
+    {
+      "name": "Wisconsin State Treasurer's Office",
+      "description": "State financial oversight",
+      "public_records_contact": {
+        "coordinator_title": "Public Records Officer",
+        "mailing_address": {
+          "street": "Wisconsin State Treasurer's Office",
+          "city": "Madison",
+          "state": "WI",
+          "zip": "53707"
+        }
+      },
+      "subject_areas": ["State investments", "Financial oversight", "Unclaimed property", "Banking services"]
+    },
+    {
+      "name": "Wisconsin Secretary of State",
+      "description": "Elections and administrative functions",
+      "public_records_contact": {
+        "coordinator_title": "Public Records Officer",
+        "mailing_address": {
+          "street": "Wisconsin Secretary of State",
+          "city": "Madison",
+          "state": "WI",
+          "zip": "53707"
+        }
+      },
+      "subject_areas": ["Elections", "Notary services", "Administrative functions", "State documents"]
+    },
+    {
+      "name": "Wisconsin Elections Commission",
+      "description": "Election administration and oversight",
+      "public_records_contact": {
+        "coordinator_title": "Public Records Officer",
+        "mailing_address": {
+          "street": "Wisconsin Elections Commission",
+          "city": "Madison",
+          "state": "WI",
+          "zip": "53707"
+        }
+      },
+      "subject_areas": ["Election administration", "Voter registration", "Campaign finance", "Election security", "Voting equipment"]
+    },
+    {
+      "name": "Wisconsin Ethics Commission",
+      "description": "Government ethics oversight",
+      "public_records_contact": {
+        "coordinator_title": "Public Records Officer",
+        "mailing_address": {
+          "street": "Wisconsin Ethics Commission",
+          "city": "Madison",
+          "state": "WI",
+          "zip": "53707"
+        }
+      },
+      "subject_areas": ["Government ethics", "Lobbying regulation", "Campaign finance", "Ethics compliance", "Public integrity"]
+    }
+  ],
+  "request_process": {
+    "eligibility": "All persons entitled to greatest possible information regarding government affairs",
+    "identification_required": "Must adequately describe records sought",
+    "response_timeframe": "As soon as practicable and without delay (generally 10 business days for simple requests)",
+    "appeal_process": "Direct court action for mandamus (no administrative appeals)",
+    "fees": {
+      "inspection": "Free (no charges for access)",
+      "copying": "Actual, necessary, and direct cost of reproduction",
+      "location_fees": "Only if actual cost exceeds $50 (with advance written estimate)",
+      "review_time": "Cannot charge for time reviewing records to determine access rights",
+      "standard_copying": "Typically $0.25 per page for photocopies"
+    }
+  },
+  "key_features": {
+    "presumption_of_access": "Construed in every instance with presumption of complete public access",
+    "greatest_possible_information": "Policy declares all persons entitled to greatest possible information",
+    "essential_government_function": "Providing information declared essential function of representative government",
+    "denial_contrary_to_public_interest": "Denial generally contrary to public interest, only exceptional cases may deny",
+    "attorney_fees": "Reasonable attorney fees available to substantially prevailing requesters",
+    "minimum_damages": "$100 minimum damages for arbitrary and capricious denials",
+    "record_destruction_prohibition": "Cannot destroy records after request received until 60 days after denial or completion of proceedings",
+    "electronic_records_creation": "Must create electronic records if technically feasible and not unduly burdensome"
+  }
+}

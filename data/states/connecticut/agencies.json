@@ -1,0 +1,371 @@
+{
+  "jurisdiction": "Connecticut",
+  "transparency_law": "Connecticut Freedom of Information Act", 
+  "legal_citation": "Connecticut General Statutes Title 1, Chapter 14, Sections 1-200 through 1-241",
+  "effective_date": "1999 (re-codified)",
+  "research_date": "2025-09-05",
+  
+  "law_summary": {
+    "official_name": "Connecticut Freedom of Information Act",
+    "response_deadline_days": {
+      "standard_response": "4 business days",
+      "prompt_inspection": "Promptly during regular office hours",
+      "special_scheduling": "May be established for voluminous requests"
+    },
+    "appeal_process": "Freedom of Information Commission, then Superior Court",
+    "appeal_deadline": "30 days to FOIC, 45 days to Superior Court",
+    "enforcement_agency": "Connecticut Freedom of Information Commission (FOIC)",
+    "criminal_penalties": "Class A or B misdemeanor depending on violation",
+    "civil_penalties": "Up to $1,000 fine by FOIC",
+    "fee_structure": "State agencies: $0.25/page; Other agencies: $0.50/page; No inspection fee",
+    "requester_requirements": "Every person - no residency requirement",
+    "key_exemptions": [
+      "Personnel files (invasion of privacy)",
+      "Strategy sessions and litigation records", 
+      "Trade secrets",
+      "Records required confidential by law",
+      "Test questions and examination data",
+      "Real estate appraisals (until contracts executed)",
+      "Collective bargaining negotiations",
+      "Individual tax returns",
+      "Computer programs"
+    ]
+  },
+
+  "agencies": [
+    {
+      "id": "CT-001",
+      "name": "Office of the Governor",
+      "category": "Executive",
+      "description": "Chief executive office of Connecticut state government",
+      "website": "https://portal.ct.gov/governor",
+      "contact_info": {
+        "address": "State Capitol, 210 Capitol Avenue, Hartford, CT 06106",
+        "phone": "(860) 566-4840",
+        "public_records_contact": "Governor's Office"
+      },
+      "records_commonly_requested": [
+        "Executive orders and proclamations",
+        "Correspondence with state and federal officials",
+        "Meeting calendars and schedules",
+        "Policy briefing materials and reports",
+        "Budget recommendations and proposals"
+      ]
+    },
+    
+    {
+      "id": "CT-002", 
+      "name": "Connecticut Attorney General's Office",
+      "category": "Legal/Law Enforcement",
+      "description": "Legal counsel for the state and consumer protection agency",
+      "website": "https://portal.ct.gov/ag",
+      "contact_info": {
+        "address": "55 Elm Street, P.O. Box 120, Hartford, CT 06106",
+        "phone": "(860) 808-5318",
+        "email": "Attorney.General@ct.gov",
+        "public_records_contact": "FOIA Coordinator"
+      },
+      "records_commonly_requested": [
+        "Attorney General opinions and legal interpretations",
+        "Consumer protection case files and enforcement actions",
+        "Civil litigation records and settlements",
+        "Antitrust and competition enforcement",
+        "Public advocacy matters"
+      ]
+    },
+
+    {
+      "id": "CT-003",
+      "name": "Connecticut Department of Emergency Services and Public Protection", 
+      "category": "Law Enforcement/Public Safety",
+      "description": "State public safety agency including State Police and emergency services",
+      "website": "https://portal.ct.gov/despp",
+      "contact_info": {
+        "address": "1111 Country Club Road, Middletown, CT 06457-9294",
+        "phone": "(860) 685-8000",
+        "public_records_contact": "Records Unit"
+      },
+      "records_commonly_requested": [
+        "Traffic accident reports",
+        "Connecticut State Police policies and procedures",
+        "Crime statistics and UCR data",
+        "Emergency management and preparedness plans",
+        "Training records and certifications"
+      ]
+    },
+
+    {
+      "id": "CT-004",
+      "name": "Connecticut Department of Public Health", 
+      "category": "Health",
+      "description": "State health agency responsible for public health programs and regulation",
+      "website": "https://portal.ct.gov/dph",
+      "contact_info": {
+        "address": "410 Capitol Avenue, Hartford, CT 06134",
+        "phone": "(860) 509-8000",
+        "public_records_contact": "FOIA Coordinator"
+      },
+      "records_commonly_requested": [
+        "Restaurant and healthcare facility inspection reports",
+        "Environmental health assessments and permits",
+        "Public health emergency preparedness plans",
+        "Healthcare professional licensing records",
+        "Disease surveillance and epidemiological data (aggregated)"
+      ]
+    },
+
+    {
+      "id": "CT-005",
+      "name": "Connecticut State Department of Education",
+      "category": "Education", 
+      "description": "State education agency overseeing K-12 public education",
+      "website": "https://portal.ct.gov/sde",
+      "contact_info": {
+        "address": "450 Columbus Boulevard, Hartford, CT 06103",
+        "phone": "(860) 713-6543",
+        "public_records_contact": "Legal and Governmental Affairs"
+      },
+      "records_commonly_requested": [
+        "School district financial and performance data",
+        "Student achievement and assessment results",
+        "Teacher certification and professional development records",
+        "School accountability ratings and improvement plans",
+        "Educational standards and curriculum materials"
+      ]
+    },
+
+    {
+      "id": "CT-006",
+      "name": "Connecticut Department of Transportation",
+      "category": "Transportation",
+      "description": "State agency managing highways, bridges, and transportation infrastructure", 
+      "website": "https://portal.ct.gov/dot",
+      "contact_info": {
+        "address": "2800 Berlin Turnpike, P.O. Box 317546, Newington, CT 06131-7546",
+        "phone": "(860) 594-2560",
+        "email": "DOT.CustomerCare@ct.gov",
+        "public_records_contact": "Legal Affairs Division"
+      },
+      "records_commonly_requested": [
+        "Highway construction contracts and bids",
+        "Traffic studies and engineering reports", 
+        "Bridge inspection and safety records",
+        "Transportation project environmental assessments",
+        "Public transportation planning documents"
+      ]
+    },
+
+    {
+      "id": "CT-007",
+      "name": "Connecticut Department of Correction",
+      "category": "Corrections",
+      "description": "State corrections system managing prisons and rehabilitation programs",
+      "website": "https://portal.ct.gov/doc", 
+      "contact_info": {
+        "address": "24 Wolcott Hill Road, Wethersfield, CT 06109",
+        "phone": "(860) 692-7480",
+        "public_records_contact": "Legal Affairs Division"
+      },
+      "records_commonly_requested": [
+        "Inmate population statistics and demographics",
+        "Correctional facility policies and procedures",
+        "Staff training and employment records",
+        "Facility inspection and incident reports",
+        "Rehabilitation and reentry program information"
+      ]
+    },
+
+    {
+      "id": "CT-008", 
+      "name": "Connecticut Department of Children and Families",
+      "category": "Social Services",
+      "description": "State agency responsible for child welfare and family services",
+      "website": "https://portal.ct.gov/dcf",
+      "contact_info": {
+        "address": "505 Hudson Street, Hartford, CT 06106",
+        "phone": "(860) 550-6300",
+        "public_records_contact": "Office of Legal Affairs"
+      },
+      "records_commonly_requested": [
+        "Child protection policies and procedures",
+        "Foster care and adoption program information",
+        "Social services contracts and provider data",
+        "Program statistics and outcome measures",
+        "Training and professional development records"
+      ]
+    },
+
+    {
+      "id": "CT-009",
+      "name": "Connecticut Department of Revenue Services",
+      "category": "Revenue/Taxation",
+      "description": "State revenue collection and tax administration",
+      "website": "https://portal.ct.gov/drs",
+      "contact_info": {
+        "address": "25 Sigourney Street, Hartford, CT 06106",
+        "phone": "(860) 297-5962",
+        "public_records_contact": "Legal Division"
+      },
+      "records_commonly_requested": [
+        "Tax policy documents and interpretations",
+        "Revenue collection statistics and reports",
+        "Business registration and licensing information",
+        "Property tax assessment procedures",
+        "Audit procedures and guidelines (general)"
+      ]
+    },
+
+    {
+      "id": "CT-010",
+      "name": "Connecticut Department of Labor",
+      "category": "Labor/Employment",
+      "description": "State agency overseeing labor standards, workplace safety, and employment services",
+      "website": "https://portal.ct.gov/dol",
+      "contact_info": {
+        "address": "200 Folly Brook Boulevard, Wethersfield, CT 06109",
+        "phone": "(860) 263-6000",
+        "public_records_contact": "Legal Affairs"
+      },
+      "records_commonly_requested": [
+        "Workplace safety inspection reports",
+        "Employment statistics and labor market data", 
+        "Workers' compensation case information",
+        "Unemployment insurance program data",
+        "Wage and hour violation enforcement records"
+      ]
+    },
+
+    {
+      "id": "CT-011",
+      "name": "Connecticut Secretary of the State",
+      "category": "Elections/Business",
+      "description": "State elections administration, business registration, and official records",
+      "website": "https://portal.ct.gov/sots",
+      "contact_info": {
+        "address": "30 Trinity Street, Hartford, CT 06106",
+        "phone": "(860) 509-6100",
+        "public_records_contact": "Administrative Office"
+      },
+      "records_commonly_requested": [
+        "Election results and voting statistics",
+        "Campaign finance and lobbying reports",
+        "Business entity filings and registrations",
+        "Notary public records and commissions",
+        "Initiative and referendum information"
+      ]
+    },
+
+    {
+      "id": "CT-012",
+      "name": "Connecticut Department of Consumer Protection", 
+      "category": "Consumer Protection",
+      "description": "State agency regulating businesses and protecting consumers",
+      "website": "https://portal.ct.gov/dcp",
+      "contact_info": {
+        "address": "165 Capitol Avenue, Hartford, CT 06106",
+        "phone": "(860) 713-6100",
+        "public_records_contact": "Legal Division"
+      },
+      "records_commonly_requested": [
+        "Professional and business licensing records",
+        "Consumer complaints and enforcement actions",
+        "Product safety and regulatory compliance records",
+        "Industry inspection and violation reports",
+        "Regulatory proceedings and decisions"
+      ]
+    },
+
+    {
+      "id": "CT-013",
+      "name": "Connecticut Department of Energy and Environmental Protection",
+      "category": "Environment/Energy", 
+      "description": "State environmental protection and natural resources agency",
+      "website": "https://portal.ct.gov/deep",
+      "contact_info": {
+        "address": "79 Elm Street, Hartford, CT 06106-5127",
+        "phone": "(860) 424-3000",
+        "public_records_contact": "FOIA Coordinator"
+      },
+      "records_commonly_requested": [
+        "Environmental permits and violations",
+        "Air and water quality monitoring data",
+        "Hazardous waste facility inspections",
+        "Natural resources management plans",
+        "Energy facility licensing and regulations"
+      ]
+    },
+
+    {
+      "id": "CT-014",
+      "name": "Connecticut Department of Administrative Services",
+      "category": "Administrative/General Services",
+      "description": "State agency providing administrative and support services to government",
+      "website": "https://portal.ct.gov/das", 
+      "contact_info": {
+        "address": "450 Columbus Boulevard, Hartford, CT 06103",
+        "phone": "(860) 713-5100",
+        "public_records_contact": "Legal Affairs"
+      },
+      "records_commonly_requested": [
+        "State procurement and contracting records",
+        "Real estate transactions and property management",
+        "State employee personnel policies (general)",
+        "Information technology and telecommunications contracts",
+        "Fleet management and vehicle records"
+      ]
+    },
+
+    {
+      "id": "CT-015",
+      "name": "Connecticut Department of Veterans Affairs",
+      "category": "Veterans Services",
+      "description": "State agency providing services and benefits to military veterans",
+      "website": "https://portal.ct.gov/dva",
+      "contact_info": {
+        "address": "287 West Street, Rocky Hill, CT 06067",
+        "phone": "(860) 616-3603",
+        "public_records_contact": "Administrative Office"
+      },
+      "records_commonly_requested": [
+        "Veterans benefits and services program information",
+        "State veterans facilities operations and policies",
+        "Veterans cemetery records and procedures",
+        "Outreach and assistance program statistics",
+        "Veterans education and training programs"
+      ]
+    }
+  ],
+
+  "request_templates": [
+    {
+      "template_id": "CT-STANDARD",
+      "name": "Connecticut Standard FOIA Request",
+      "description": "General purpose records request for Connecticut state agencies",
+      "template_text": "Dear Records Custodian:\n\nPursuant to the Connecticut Freedom of Information Act, Connecticut General Statutes §§ 1-200 through 1-241, I respectfully request access to and copies of the following public records:\n\n[DESCRIBE RECORDS WITH SUFFICIENT DETAIL TO ENABLE AGENCY TO LOCATE THEM]\n\nPer Conn. Gen. Stat. § 1-210(a), every person has the right to inspect public records promptly during regular office hours, copy such records, or receive copies of such records.\n\nI request that you respond within four (4) business days as required by Connecticut FOIA practice. Please either provide the requested records or provide a written denial with specific statutory justification.\n\nIf you determine that some portions of these records are exempt from disclosure under Conn. Gen. Stat. § 1-210(b), please provide the non-exempt portions and cite the specific statutory exemption for any withholdings.\n\nRegarding fees, I understand that:\n- No fee will be charged for inspection of records\n- For state agencies, copying fees shall not exceed $0.25 per page\n- For other public agencies, copying fees shall not exceed $0.50 per page\n\nIf the nature or volume of this request would clearly interfere with normal duties of public personnel, please contact me to discuss establishing a special schedule or location per Conn. Gen. Stat. § 1-212(d).\n\nIf you deny any portion of this request, please be advised that I may appeal such denial to the Connecticut Freedom of Information Commission within thirty (30) days per Conn. Gen. Stat. § 1-214.\n\nThank you for your prompt attention to this matter.\n\nSincerely,\n[REQUESTER NAME]\n[ADDRESS]\n[CITY, STATE ZIP]\n[PHONE NUMBER]\n[EMAIL ADDRESS]\n[DATE]"
+    },
+    
+    {
+      "template_id": "CT-FOIC-APPEAL",
+      "name": "Connecticut FOIC Appeal",
+      "description": "Template for appealing denied FOIA request to Freedom of Information Commission",
+      "template_text": "BEFORE THE CONNECTICUT FREEDOM OF INFORMATION COMMISSION\n\n[APPELLANT NAME],           )\n  Appellant,               )\n                          )\n  v.                      )  Appeal No. ____________\n                          )\n[RESPONDENT AGENCY],       )\n  Respondent.             )\n\nNOTICE OF APPEAL\n\nTO THE CONNECTICUT FREEDOM OF INFORMATION COMMISSION:\n\nAppellant hereby appeals the denial of access to public records by Respondent [AGENCY NAME], pursuant to Connecticut General Statutes § 1-214.\n\n1. BACKGROUND\nOn [REQUEST DATE], Appellant submitted a written request to Respondent seeking the following public records:\n[DESCRIBE ORIGINAL REQUEST]\n\nOn [DENIAL DATE], Respondent denied this request, stating:\n[QUOTE DENIAL REASON]\n\n2. GROUNDS FOR APPEAL\nRespondent's denial violates the Connecticut Freedom of Information Act because:\n\na) The requested records are public records as defined in Conn. Gen. Stat. § 1-200(3)\nb) [EXPLAIN WHY CLAIMED EXEMPTION DOESN'T APPLY]\nc) [CITE RELEVANT CONNECTICUT FOIA PROVISIONS]\nd) The public interest in disclosure outweighs any privacy concerns\n\n3. BURDEN OF PROOF\nPer Conn. Gen. Stat. § 1-215(b), the burden is upon the public agency to prove that disclosure is not required.\n\n4. REQUEST FOR RELIEF\nAppellant respectfully requests that the Commission:\na) Find that Respondent violated the Connecticut FOIA\nb) Order Respondent to provide access to the requested records\nc) Issue such other orders as the public interest requires\nd) Impose appropriate civil penalties per Conn. Gen. Stat. § 1-216\n\nThis appeal is filed within thirty (30) days of the denial as required by Conn. Gen. Stat. § 1-214(b)(1).\n\nRespectfully submitted,\n\n_________________________\n[APPELLANT NAME]\n[ADDRESS]\n[CITY, STATE ZIP]\n[PHONE NUMBER]\n[EMAIL ADDRESS]\n[DATE]\n\nCERTIFICATE OF SERVICE\n\nI hereby certify that a copy of the foregoing Notice of Appeal was mailed, postage prepaid, to:\n\n[RESPONDENT AGENCY NAME]\n[ADDRESS]\n[CITY, STATE ZIP]\n\non this _____ day of _________, 2025.\n\n_________________________\n[APPELLANT SIGNATURE]"
+    },
+
+    {
+      "template_id": "CT-SUPERIOR-COURT-APPEAL",
+      "name": "Connecticut Superior Court Appeal", 
+      "description": "Template for appealing FOIC decision to Superior Court",
+      "template_text": "STATE OF CONNECTICUT\nSUPERIOR COURT\nJUDICIAL DISTRICT OF HARTFORD\n\n[PETITIONER NAME],          )\n  Petitioner,              )\n                          )\n  v.                      )  No. ____________\n                          )\nCONNECTICUT FREEDOM OF     )\nINFORMATION COMMISSION     )\nand [RESPONDENT AGENCY],   )\n  Respondents.            )\n\nPETITION FOR APPEAL FROM FREEDOM OF INFORMATION COMMISSION\n\nTO THE HONORABLE COURT:\n\nPetitioner appeals the final decision of the Connecticut Freedom of Information Commission pursuant to Connecticut General Statutes § 1-217.\n\n1. PARTIES AND JURISDICTION\nPetitioner is the appellant in FOIC Appeal No. [APPEAL NUMBER].\n\nRespondent Connecticut Freedom of Information Commission issued its final decision on [DECISION DATE].\n\nRespondent [AGENCY NAME] was the original respondent in the FOIC proceeding.\n\nThis Court has jurisdiction under Conn. Gen. Stat. § 1-217.\n\n2. PROCEDURAL HISTORY\n[SUMMARIZE FOIC PROCEEDINGS AND DECISION]\n\n3. GROUNDS FOR APPEAL\nThe Commission's decision should be reversed because:\na) [STATE LEGAL GROUNDS]\nb) [CITE RELEVANT STATUTES AND CASE LAW]\nc) [EXPLAIN HOW COMMISSION ERRED]\n\n4. REQUEST FOR RELIEF\nWHEREFORE, Petitioner respectfully requests that this Court:\na) Reverse the Commission's decision\nb) Order disclosure of the requested public records\nc) Award costs and attorney fees as appropriate\nd) Grant such other relief as may be just and proper\n\nThis petition is filed within forty-five (45) days of the Commission's decision as required by Conn. Gen. Stat. § 1-217(a).\n\nRespectfully submitted,\n\n_________________________\n[ATTORNEY NAME AND BAR NUMBER]\n[OR PETITIONER SIGNATURE IF PRO SE]\n[ADDRESS]\n[CITY, STATE ZIP]\n[PHONE NUMBER]\n[EMAIL ADDRESS]\nAttorney for Petitioner [OR \"Pro Se\"]\n\nCERTIFICATE OF SERVICE\n\nI hereby certify that a copy of this petition was mailed to the Freedom of Information Commission and [RESPONDENT AGENCY] on [DATE].\n\n_________________________\n[SIGNATURE]"
+    }
+  ],
+
+  "research_sources": [
+    "Connecticut General Statutes Title 1, Chapter 14, Sections 1-200 through 1-241",
+    "Connecticut Freedom of Information Commission regulations and decisions",
+    "Connecticut state agency FOIA policies and procedures",
+    "Reporters Committee for Freedom of the Press - Connecticut Open Government Guide",
+    "National Freedom of Information Coalition - Connecticut FOIA Laws",
+    "Connecticut Judicial Branch law library FOIA resources",
+    "Connecticut state government websites and agency directories"
+  ]
+}

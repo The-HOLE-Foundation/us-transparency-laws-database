@@ -1,0 +1,304 @@
+{
+  "state": "Wyoming",
+  "law_name": "Wyoming Public Records Act",
+  "statute_citation": "W.S. § 16-4-201 et seq.",
+  "last_updated": "2025-01-15",
+  "oversight_agency": {
+    "name": "Wyoming Department of Administration & Information",
+    "role": "Maintains directory of designated public records persons, coordinates training",
+    "contact": {
+      "email": "ai-director@wyo.gov",
+      "website": "https://ai.wyo.gov/about-us/transparency/public-records",
+      "directory": "https://ai.wyo.gov/about-us/transparency/governmental-entities",
+      "services": ["Designated persons directory", "Training coordination", "Transparency oversight"]
+    }
+  },
+  "ombudsman": {
+    "name": "Wyoming Public Records Ombudsman",
+    "role": "Assists public with access to public records, mediates disputes",
+    "contact": {
+      "website": "https://governor.wyo.gov/contact/public-records-ombudsman",
+      "authority": "Governor-designated position with mediation and guidance authority"
+    }
+  },
+  "agencies": [
+    {
+      "name": "Wyoming Department of Health",
+      "description": "State health department responsible for public health programs and vital records",
+      "public_records_contact": {
+        "coordinator_title": "Designated Public Records Person",
+        "physical_address": {
+          "street": "2300 Capitol Avenue",
+          "street2": "Hathaway Building, Room 171, First Floor",
+          "city": "Cheyenne",
+          "state": "WY",
+          "zip": "82002"
+        },
+        "mailing_address": {
+          "street": "Wyoming Department of Health",
+          "city": "Cheyenne",
+          "state": "WY",
+          "zip": "82002"
+        }
+      },
+      "subject_areas": ["Public health", "Vital records", "Health regulations", "Environmental health", "Emergency medical services", "Disease surveillance"],
+      "special_services": {
+        "vital_records": "Birth, death, marriage and divorce records available"
+      }
+    },
+    {
+      "name": "Wyoming Department of Transportation (WYDOT)",
+      "description": "State transportation department responsible for highways and motor vehicle services",
+      "public_records_contact": {
+        "coordinator_title": "Designated Public Records Person",
+        "website": "https://www.dot.state.wy.us/home.html",
+        "mailing_address": {
+          "street": "Wyoming Department of Transportation",
+          "city": "Cheyenne",
+          "state": "WY",
+          "zip": "82002"
+        }
+      },
+      "subject_areas": ["Highway construction", "Transportation planning", "Motor vehicle services", "Driver licensing", "Vehicle registration", "Traffic safety"],
+      "special_services": {
+        "driver_services": "Driver history records, convictions, crashes, license withdrawals and reinstatements"
+      }
+    },
+    {
+      "name": "Wyoming Department of Education",
+      "description": "State education department responsible for public education oversight",
+      "public_records_contact": {
+        "coordinator_title": "Designated Public Records Person",
+        "website": "https://edu.wyoming.gov/",
+        "mailing_address": {
+          "street": "Wyoming Department of Education",
+          "street2": "122 W. [Address incomplete in search results]",
+          "city": "Cheyenne",
+          "state": "WY",
+          "zip": "82002"
+        }
+      },
+      "subject_areas": ["Education policy", "School performance", "Teacher certification", "School funding", "Academic standards", "Educational data"]
+    },
+    {
+      "name": "Wyoming Department of Administration & Information",
+      "description": "Administrative services and information management for state government",
+      "public_records_contact": {
+        "coordinator_title": "Designated Public Records Person",
+        "email": "ai-director@wyo.gov",
+        "website": "https://ai.wyo.gov/about-us/transparency/public-records",
+        "mailing_address": {
+          "street": "Wyoming Department of Administration & Information",
+          "city": "Cheyenne",
+          "state": "WY",
+          "zip": "82002"
+        }
+      },
+      "subject_areas": ["Administrative services", "Information technology", "State data center", "Human resources", "General services", "Economic analysis"]
+    },
+    {
+      "name": "Wyoming Department of Corrections",
+      "description": "State prison system and correctional facilities",
+      "public_records_contact": {
+        "coordinator_title": "Designated Public Records Person",
+        "website": "https://corrections.wyo.gov/about-us/public-recordsmedia-request",
+        "mailing_address": {
+          "street": "Wyoming Department of Corrections",
+          "city": "Cheyenne",
+          "state": "WY",
+          "zip": "82002"
+        }
+      },
+      "subject_areas": ["Prison operations", "Inmate records", "Correctional facilities", "Community corrections", "Rehabilitation programs"]
+    },
+    {
+      "name": "Wyoming Game and Fish Department",
+      "description": "Wildlife management and conservation",
+      "public_records_contact": {
+        "coordinator_title": "Designated Public Records Person",
+        "mailing_address": {
+          "street": "Wyoming Game and Fish Department",
+          "city": "Cheyenne",
+          "state": "WY",
+          "zip": "82002"
+        }
+      },
+      "subject_areas": ["Wildlife management", "Hunting and fishing licenses", "Conservation programs", "Habitat protection", "Wildlife research"]
+    },
+    {
+      "name": "Wyoming Department of Environmental Quality",
+      "description": "Environmental protection and regulation",
+      "public_records_contact": {
+        "coordinator_title": "Designated Public Records Person",
+        "mailing_address": {
+          "street": "Wyoming Department of Environmental Quality",
+          "city": "Cheyenne",
+          "state": "WY",
+          "zip": "82002"
+        }
+      },
+      "subject_areas": ["Environmental permits", "Water quality", "Air quality", "Waste management", "Mining regulation"]
+    },
+    {
+      "name": "Wyoming Department of Agriculture",
+      "description": "Agricultural regulation and rural development",
+      "public_records_contact": {
+        "coordinator_title": "Designated Public Records Person",
+        "mailing_address": {
+          "street": "Wyoming Department of Agriculture",
+          "city": "Cheyenne",
+          "state": "WY",
+          "zip": "82002"
+        }
+      },
+      "subject_areas": ["Agricultural regulation", "Food safety", "Weights and measures", "Animal health", "Agricultural marketing"]
+    },
+    {
+      "name": "Wyoming Department of Revenue",
+      "description": "Tax collection and administration",
+      "public_records_contact": {
+        "coordinator_title": "Designated Public Records Person",
+        "mailing_address": {
+          "street": "Wyoming Department of Revenue",
+          "city": "Cheyenne",
+          "state": "WY",
+          "zip": "82002"
+        }
+      },
+      "subject_areas": ["Tax collection", "Property assessment", "Business taxes", "Mineral taxation", "Tax compliance"]
+    },
+    {
+      "name": "Wyoming Department of Workforce Services",
+      "description": "Employment services and workforce development",
+      "public_records_contact": {
+        "coordinator_title": "Designated Public Records Person",
+        "mailing_address": {
+          "street": "Wyoming Department of Workforce Services",
+          "city": "Cheyenne",
+          "state": "WY",
+          "zip": "82002"
+        }
+      },
+      "subject_areas": ["Unemployment benefits", "Employment services", "Workforce development", "Labor market data", "Vocational rehabilitation"]
+    },
+    {
+      "name": "Wyoming Attorney General's Office",
+      "description": "Legal representation for state government",
+      "public_records_contact": {
+        "coordinator_title": "Designated Public Records Person",
+        "mailing_address": {
+          "street": "Wyoming Attorney General's Office",
+          "city": "Cheyenne",
+          "state": "WY",
+          "zip": "82002"
+        }
+      },
+      "subject_areas": ["Legal opinions", "Criminal prosecution", "Consumer protection", "Civil litigation", "Legal counsel to agencies"]
+    },
+    {
+      "name": "Wyoming State Treasurer's Office",
+      "description": "State financial management",
+      "public_records_contact": {
+        "coordinator_title": "Designated Public Records Person",
+        "mailing_address": {
+          "street": "Wyoming State Treasurer's Office",
+          "city": "Cheyenne",
+          "state": "WY",
+          "zip": "82002"
+        }
+      },
+      "subject_areas": ["State investments", "Financial management", "Unclaimed property", "Banking services", "Investment oversight"]
+    },
+    {
+      "name": "Wyoming Secretary of State",
+      "description": "Elections, business services, and administrative functions",
+      "public_records_contact": {
+        "coordinator_title": "Designated Public Records Person",
+        "mailing_address": {
+          "street": "Wyoming Secretary of State",
+          "city": "Cheyenne",
+          "state": "WY",
+          "zip": "82002"
+        }
+      },
+      "subject_areas": ["Elections", "Business registrations", "Corporations", "Trademarks", "Notary services"]
+    },
+    {
+      "name": "Wyoming State Auditor's Office",
+      "description": "Financial oversight and auditing",
+      "public_records_contact": {
+        "coordinator_title": "Designated Public Records Person",
+        "mailing_address": {
+          "street": "Wyoming State Auditor's Office",
+          "city": "Cheyenne",
+          "state": "WY",
+          "zip": "82002"
+        }
+      },
+      "subject_areas": ["Government audits", "Financial oversight", "Performance audits", "Compliance monitoring", "Public accountability"]
+    },
+    {
+      "name": "Wyoming State Archives",
+      "description": "State archives and historical records",
+      "public_records_contact": {
+        "coordinator_title": "Designated Public Records Person",
+        "phone": "(307) 777-7826",
+        "website": "https://wyoarchives.wyo.gov/",
+        "mailing_address": {
+          "street": "Wyoming State Archives",
+          "city": "Cheyenne",
+          "state": "WY",
+          "zip": "82002"
+        }
+      },
+      "subject_areas": ["State archives", "Historical records", "Records management", "Government records preservation", "Public records guidance"],
+      "special_services": {
+        "public_records_guidance": "Provides guidance on public records requests in Wyoming"
+      }
+    },
+    {
+      "name": "University of Wyoming",
+      "description": "State university system",
+      "public_records_contact": {
+        "coordinator_title": "Designated Public Records Person",
+        "department": "General Counsel Office",
+        "website": "https://www.uwyo.edu/generalcounsel/wyoming-public-records-act.html",
+        "mailing_address": {
+          "street": "University of Wyoming",
+          "city": "Laramie",
+          "state": "WY",
+          "zip": "82071"
+        }
+      },
+      "subject_areas": ["Higher education", "University operations", "Research records", "Student services", "Academic programs"]
+    }
+  ],
+  "request_process": {
+    "eligibility": "Any person has right of inspection of public records",
+    "identification_required": "Requests should be made in writing to designated records person",
+    "purpose_statement": "Not required - Wyoming law does not require statement of purpose",
+    "response_timeframe": {
+      "acknowledgment": "7 business days from acknowledged receipt",
+      "production": "30 calendar days maximum from acknowledged receipt",
+      "immediate": "Records readily available shall be released immediately unless would impair operations"
+    },
+    "appeal_process": "District court petition for writ of mandamus (no administrative appeals)",
+    "fees": {
+      "inspection": "Not specified in statute",
+      "copying": "Reasonable fees for reproduction based on actual costs",
+      "search_and_retrieval": "Reasonable fees based on actual costs",
+      "staff_time": "May charge for staff time in copying",
+      "advance_payment": "May require if estimated cost exceeds reasonable amount"
+    }
+  },
+  "key_features": {
+    "designated_persons_required": "Each governmental entity must designate public records person",
+    "training_required": "Entities must provide training to designated persons and staff",
+    "public_records_ombudsman": "Governor-designated ombudsman assists public and mediates disputes",
+    "directory_maintenance": "A&I maintains directory of all designated public records persons",
+    "acknowledgment_requirement": "Must acknowledge receipt within 7 business days",
+    "good_cause_extensions": "30-day deadline may be extended with good cause",
+    "no_purpose_requirement": "No need to state purpose for requesting records",
+    "court_enforcement": "District court mandamus jurisdiction for enforcement"
+  }
+}

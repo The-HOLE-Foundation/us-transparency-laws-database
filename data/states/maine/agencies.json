@@ -1,0 +1,202 @@
+{
+  "state": "Maine",
+  "law_name": "Maine Freedom of Access Act (FOAA)",
+  "statute_citation": "Title 1, Chapter 13, Maine Revised Statutes",
+  "last_updated": "2025-01-09",
+  "response_deadline": "5 working days acknowledgment, reasonable time for response",
+  "attorney_general_enforcement": true,
+  "central_foia_office": false,
+  "notes": "Each agency handles own requests. Appeals within 30 days to Superior Court. No fixed response deadline - 'reasonable time' standard.",
+  "templates": {
+    "basic_request": {
+      "subject": "Maine Freedom of Access Act Request",
+      "body": "Dear FOAA Officer:\n\nPursuant to the Maine Freedom of Access Act, Title 1, Chapter 13, Maine Revised Statutes, I respectfully request access to inspect and copy the following public records:\n\n[SPECIFIC DESCRIPTION OF RECORDS]\n\nPlease acknowledge receipt of this request within 5 working days as required by 1 M.R.S. § 408-A, and provide a good faith estimate of the timeframe for response and any associated costs.\n\nIf any portion of this request is denied, please provide written notice stating the specific reason for denial within 5 working days.\n\nI prefer to receive responsive records in electronic format when possible to minimize costs. Please contact me if you need clarification regarding this request.\n\nThank you for your attention to this matter.\n\nSincerely,\n[YOUR NAME]\n[YOUR ADDRESS]\n[PHONE NUMBER]\n[EMAIL ADDRESS]"
+    },
+    "appeal_template": {
+      "subject": "Appeal of FOAA Request Denial",
+      "body": "Dear Records Officer:\n\nI am writing to formally appeal the denial of my Freedom of Access Act request dated [DATE]. Your response dated [DATE] denied access to [DESCRIPTION OF RECORDS] citing [REASON FOR DENIAL].\n\nI believe this denial is improper under Maine law because [LEGAL REASONING]. The requested records are clearly public records under Title 1, Chapter 13, Maine Revised Statutes.\n\nPlease reconsider this decision and provide the requested records. If you maintain your denial, please be advised that I reserve the right to seek judicial review in Superior Court as provided under 1 M.R.S. § 409.\n\nI look forward to your prompt reconsideration of this matter.\n\nSincerely,\n[YOUR NAME]"
+    }
+  },
+  "agencies": [
+    {
+      "name": "Department of Administrative and Financial Services (DAFS)",
+      "category": "Executive",
+      "description": "Oversees state financial operations, human resources, and administrative functions",
+      "address": "78 State House Station, Augusta, ME 04333-0078",
+      "phone": "(207) 624-7800",
+      "website": "https://www.maine.gov/dafs/",
+      "foia_officer": "DAFS FOAA Officer",
+      "email": "dafs.foaa@maine.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Central administrative functions, budget, purchasing, human resources"
+    },
+    {
+      "name": "Department of Agriculture, Conservation and Forestry (DACF)",
+      "category": "Executive",
+      "description": "Natural resources, forestry, agriculture, and land conservation",
+      "address": "22 State House Station, Augusta, ME 04333-0022",
+      "phone": "(207) 287-3200",
+      "website": "https://www.maine.gov/dacf/",
+      "foia_officer": "DACF FOAA Officer",
+      "email": "dacf.foaa@maine.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Forestry, parks, agriculture, conservation programs"
+    },
+    {
+      "name": "Department of Defense, Veterans and Emergency Management (DVEM)",
+      "category": "Executive",
+      "description": "Military affairs, veterans services, emergency management",
+      "address": "33 State House Station, Augusta, ME 04333-0033",
+      "phone": "(207) 430-6000",
+      "website": "https://www.maine.gov/dvem/",
+      "foia_officer": "DVEM FOAA Officer",
+      "email": "dvem.foaa@maine.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "National Guard, veterans affairs, emergency preparedness"
+    },
+    {
+      "name": "Department of Economic and Community Development (DECD)",
+      "category": "Executive",
+      "description": "Economic development, tourism, community development",
+      "address": "59 State House Station, Augusta, ME 04333-0059",
+      "phone": "(207) 624-9800",
+      "website": "https://www.maine.gov/decd/",
+      "foia_officer": "DECD FOAA Officer",
+      "email": "decd.foaa@maine.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Business development, tourism promotion, community planning"
+    },
+    {
+      "name": "Department of Education (DOE)",
+      "category": "Executive",
+      "description": "K-12 education oversight and administration",
+      "address": "23 State House Station, Augusta, ME 04333-0023",
+      "phone": "(207) 624-6600",
+      "website": "https://www.maine.gov/doe/",
+      "foia_officer": "DOE FOAA Officer",
+      "email": "doe.foaa@maine.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Public school administration, special education, student data"
+    },
+    {
+      "name": "Department of Environmental Protection (DEP)",
+      "category": "Executive",
+      "description": "Environmental regulation and protection",
+      "address": "17 State House Station, Augusta, ME 04333-0017",
+      "phone": "(207) 287-7688",
+      "website": "https://www.maine.gov/dep/",
+      "foia_officer": "DEP FOAA Officer",
+      "email": "dep.foaa@maine.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Environmental permits, pollution control, natural resources"
+    },
+    {
+      "name": "Department of Health and Human Services (DHHS)",
+      "category": "Executive",
+      "description": "Public health, social services, healthcare programs",
+      "address": "11 State House Station, Augusta, ME 04333-0011",
+      "phone": "(207) 287-3707",
+      "website": "https://www.maine.gov/dhhs/",
+      "foia_officer": "DHHS FOAA Officer",
+      "email": "dhhs.foaa@maine.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Medicaid, public health, social services, child welfare"
+    },
+    {
+      "name": "Department of Inland Fisheries and Wildlife (IFW)",
+      "category": "Executive",
+      "description": "Fish and wildlife management and conservation",
+      "address": "41 State House Station, Augusta, ME 04333-0041",
+      "phone": "(207) 287-8000",
+      "website": "https://www.maine.gov/ifw/",
+      "foia_officer": "IFW FOAA Officer",
+      "email": "ifw.foaa@maine.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Hunting, fishing licenses, wildlife management"
+    },
+    {
+      "name": "Department of Labor",
+      "category": "Executive",
+      "description": "Employment services, workplace safety, unemployment insurance",
+      "address": "54 State House Station, Augusta, ME 04333-0054",
+      "phone": "(207) 623-7900",
+      "website": "https://www.maine.gov/labor/",
+      "foia_officer": "Labor FOAA Officer",
+      "email": "labor.foaa@maine.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Unemployment benefits, worker safety, employment statistics"
+    },
+    {
+      "name": "Department of Marine Resources (DMR)",
+      "category": "Executive",
+      "description": "Marine fisheries and coastal resource management",
+      "address": "21 State House Station, Augusta, ME 04333-0021",
+      "phone": "(207) 624-6550",
+      "website": "https://www.maine.gov/dmr/",
+      "foia_officer": "DMR FOAA Officer",
+      "email": "dmr.foaa@maine.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Lobster industry, marine fisheries, coastal management"
+    },
+    {
+      "name": "Department of Professional and Financial Regulation (PFR)",
+      "category": "Executive",
+      "description": "Professional licensing and financial regulation",
+      "address": "35 State House Station, Augusta, ME 04333-0035",
+      "phone": "(207) 624-8603",
+      "website": "https://www.maine.gov/pfr/",
+      "foia_officer": "PFR FOAA Officer",
+      "email": "pfr.foaa@maine.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Professional licenses, insurance regulation, banking oversight"
+    },
+    {
+      "name": "Department of Public Safety (DPS)",
+      "category": "Executive",
+      "description": "Law enforcement, public safety services",
+      "address": "45 State House Station, Augusta, ME 04333-0045",
+      "phone": "(207) 626-3800",
+      "website": "https://www.maine.gov/dps/",
+      "foia_officer": "DPS FOAA Officer",
+      "email": "dps.foaa@maine.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Maine State Police, emergency communications, fire marshal"
+    },
+    {
+      "name": "Maine Secretary of State",
+      "category": "Constitutional",
+      "description": "Elections, corporations, public records",
+      "address": "148 State House Station, Augusta, ME 04333-0148",
+      "phone": "(207) 626-8400",
+      "website": "https://www.maine.gov/sos/",
+      "foia_officer": "Secretary of State FOAA Officer",
+      "email": "sos.foaa@maine.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Elections administration, business filings, notary services"
+    },
+    {
+      "name": "Maine Attorney General",
+      "category": "Constitutional",
+      "description": "Legal services for state, consumer protection",
+      "address": "6 State House Station, Augusta, ME 04333-0006",
+      "phone": "(207) 626-8800",
+      "website": "https://www.maine.gov/ag/",
+      "foia_officer": "Attorney General FOAA Officer",
+      "email": "ag.foaa@maine.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Legal opinions, consumer protection, criminal prosecution"
+    },
+    {
+      "name": "Maine Revenue Services",
+      "category": "Executive",
+      "description": "Tax collection and administration",
+      "address": "24 State House Station, Augusta, ME 04333-0024",
+      "phone": "(207) 624-9784",
+      "website": "https://www.maine.gov/revenue/",
+      "foia_officer": "Revenue Services FOAA Officer",
+      "email": "mrs.foaa@maine.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Income tax, sales tax, property tax administration"
+    }
+  ]
+}

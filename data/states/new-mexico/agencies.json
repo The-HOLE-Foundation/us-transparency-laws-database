@@ -1,0 +1,202 @@
+{
+  "state": "New Mexico",
+  "law_name": "New Mexico Inspection of Public Records Act (IPRA)",
+  "statute_citation": "NMSA 1978, Sections 14-2-1 to 14-2-12",
+  "last_updated": "2025-01-09",
+  "response_deadline": "15 calendar days (3 business days for written response if not immediately available)",
+  "attorney_general_enforcement": true,
+  "central_foia_office": false,
+  "notes": "No citizenship requirement. No fee waivers. No administrative appeals. Attorney General has complaint process. Search fees prohibited. Recent 2024 court decisions expanded scope.",
+  "templates": {
+    "basic_request": {
+      "subject": "IPRA Request for Public Records",
+      "body": "Dear Records Custodian:\n\nPursuant to the New Mexico Inspection of Public Records Act (IPRA), NMSA 1978, Sections 14-2-1 to 14-2-12, I respectfully request access to inspect and copy the following public records:\n\n[SPECIFIC DESCRIPTION OF RECORDS]\n\nUnder NMSA 14-2-8, please permit inspection of these records immediately or as soon as practicable, but no later than 15 calendar days after receiving this request.\n\nIf inspection cannot be permitted within 3 business days, please provide a written response explaining when the records will be available for inspection.\n\nIf any portion of this request is denied, please provide written denial within 15 calendar days citing the specific IPRA exemption under NMSA 14-2-1.\n\nI understand that reasonable fees may be charged for copies at actual cost, but that search fees are not permitted under New Mexico law. No statement of purpose is required under IPRA.\n\nI prefer to receive responsive records in electronic format when possible to minimize costs. Please contact me if you need clarification regarding this request.\n\nThank you for your attention to this matter.\n\nSincerely,\n[YOUR NAME]\n[YOUR ADDRESS]\n[PHONE NUMBER]\n[EMAIL ADDRESS]"
+    },
+    "appeal_template": {
+      "subject": "IPRA Violation Complaint",
+      "body": "TO THE NEW MEXICO ATTORNEY GENERAL:\n\nI am filing this complaint regarding a violation of the New Mexico Inspection of Public Records Act by [AGENCY NAME].\n\nREQUEST DETAILS:\nDate of Request: [DATE]\nAgency: [AGENCY NAME]\nCustodian: [CUSTODIAN NAME]\nRecords Requested: [DESCRIPTION]\n\nVIOLATION:\nThe agency [DESCRIBE VIOLATION - failed to respond within 15 calendar days / improperly denied request / etc.]. This violates NMSA 14-2-8.\n\n[If denial] The agency cited [EXEMPTION CLAIMED], but this exemption under NMSA 14-2-1 does not apply because [LEGAL REASONING]. The requested records are public records subject to disclosure under IPRA.\n\nRELIEF REQUESTED:\nI respectfully request the Attorney General:\n1. Investigate this IPRA violation;\n2. Attempt informal resolution with the agency;\n3. File suit if necessary to enforce IPRA compliance;\n4. Order the agency to provide access to the requested records.\n\nAlternatively, I may file a mandamus action in district court to compel disclosure.\n\nPlease contact me if you need additional information regarding this complaint.\n\nRespectfully submitted,\n[YOUR NAME]\n[ADDRESS]\n[PHONE]\n[EMAIL]\n\nSubmit to:\nNew Mexico Attorney General\nGovernment Counsel & Accountability Team\nPO Drawer 1508\nSanta Fe, NM 87504-1508"
+    }
+  },
+  "agencies": [
+    {
+      "name": "New Mexico Attorney General",
+      "category": "Constitutional",
+      "description": "Legal services for state government, criminal prosecution, IPRA enforcement",
+      "address": "PO Drawer 1508, Santa Fe, NM 87504-1508",
+      "phone": "(505) 717-3500",
+      "website": "https://nmdoj.gov/",
+      "foia_officer": "IPRA Officer",
+      "email": "ipra@nmag.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Government Counsel & Accountability team handles IPRA complaints"
+    },
+    {
+      "name": "New Mexico Secretary of State",
+      "category": "Constitutional",
+      "description": "Elections, business filings, notary services, public records",
+      "address": "325 Don Gaspar Avenue, Suite 300, Santa Fe, NM 87501",
+      "phone": "(505) 827-3600",
+      "website": "https://www.sos.nm.gov/",
+      "foia_officer": "IPRA Officer",
+      "email": "ipra@sos.nm.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Elections administration, business registration, notary services"
+    },
+    {
+      "name": "New Mexico Department of Health",
+      "category": "Executive",
+      "description": "Public health, healthcare regulation, vital records, health statistics",
+      "address": "1190 South St. Francis Drive, Santa Fe, NM 87505",
+      "phone": "(505) 827-2613",
+      "website": "https://www.nmhealth.org/",
+      "foia_officer": "IPRA Officer",
+      "email": "ipra@health.nm.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Public health programs, vital records, healthcare facility regulation"
+    },
+    {
+      "name": "New Mexico Human Services Department",
+      "category": "Executive",
+      "description": "Social services, Medicaid, SNAP benefits, child support",
+      "address": "2009 South Pacheco Street, Santa Fe, NM 87505",
+      "phone": "(505) 827-7750",
+      "website": "https://www.hsd.state.nm.us/",
+      "foia_officer": "IPRA Officer",
+      "email": "ipra@hsd.nm.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Social services, benefits administration, child welfare"
+    },
+    {
+      "name": "New Mexico Public Education Department",
+      "category": "Executive",
+      "description": "K-12 education oversight, special education, school funding",
+      "address": "300 Don Gaspar Avenue, Santa Fe, NM 87501",
+      "phone": "(505) 827-5800",
+      "website": "https://webnew.ped.state.nm.us/",
+      "foia_officer": "IPRA Officer",
+      "email": "ipra@ped.nm.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Public school administration, teacher licensing, education data"
+    },
+    {
+      "name": "New Mexico Department of Transportation",
+      "category": "Executive",
+      "description": "Highway construction and maintenance, transportation planning",
+      "address": "7315 Cerrillos Road, Santa Fe, NM 87504",
+      "phone": "(505) 827-5100",
+      "website": "https://www.dot.nm.gov/",
+      "foia_officer": "IPRA Officer",
+      "email": "ipra@dot.nm.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Highway projects, transportation planning, traffic data"
+    },
+    {
+      "name": "New Mexico Corrections Department",
+      "category": "Executive",
+      "description": "State prison system, probation and parole services",
+      "address": "4337 NM Highway 14, Santa Fe, NM 87508",
+      "phone": "(505) 827-8830",
+      "website": "https://cd.nm.gov/",
+      "foia_officer": "IPRA Officer",
+      "email": "ipra@corrections.nm.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "State correctional facilities, inmate records, community corrections"
+    },
+    {
+      "name": "New Mexico Environment Department",
+      "category": "Executive",
+      "description": "Environmental protection, air and water quality, waste management",
+      "address": "1190 South St. Francis Drive, Santa Fe, NM 87505",
+      "phone": "(505) 827-2855",
+      "website": "https://www.env.nm.gov/",
+      "foia_officer": "IPRA Officer",
+      "email": "ipra@env.nm.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Environmental permits, pollution control, hazardous waste"
+    },
+    {
+      "name": "New Mexico Department of Workforce Solutions",
+      "category": "Executive",
+      "description": "Employment services, unemployment insurance, workforce development",
+      "address": "401 Broadway NE, Albuquerque, NM 87102",
+      "phone": "(505) 841-8405",
+      "website": "https://www.dws.state.nm.us/",
+      "foia_officer": "IPRA Officer",
+      "email": "ipra@dws.nm.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Unemployment benefits, job services, workforce training"
+    },
+    {
+      "name": "New Mexico Department of Public Safety",
+      "category": "Executive",
+      "description": "State police, emergency management, homeland security",
+      "address": "4491 Cerrillos Road, Santa Fe, NM 87507",
+      "phone": "(505) 827-9000",
+      "website": "https://www.dps.nm.gov/",
+      "foia_officer": "IPRA Officer",
+      "email": "ipra@dps.nm.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "New Mexico State Police, emergency services, investigations"
+    },
+    {
+      "name": "New Mexico Taxation and Revenue Department",
+      "category": "Executive",
+      "description": "Tax collection and administration, motor vehicle services",
+      "address": "1200 South St. Francis Drive, Santa Fe, NM 87505",
+      "phone": "(505) 827-0700",
+      "website": "https://www.tax.newmexico.gov/",
+      "foia_officer": "IPRA Officer",
+      "email": "ipra@tax.nm.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Tax collection, motor vehicle registration, driver licensing"
+    },
+    {
+      "name": "New Mexico Economic Development Department",
+      "category": "Executive",
+      "description": "Economic development, tourism promotion, business development",
+      "address": "1100 South St. Francis Drive, Suite 1060, Santa Fe, NM 87505",
+      "phone": "(505) 827-0300",
+      "website": "https://edd.newmexico.gov/",
+      "foia_officer": "IPRA Officer",
+      "email": "ipra@edd.nm.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "Business development, tourism, economic incentives"
+    },
+    {
+      "name": "New Mexico General Services Department",
+      "category": "Executive",
+      "description": "State procurement, facilities management, administrative services",
+      "address": "1100 South St. Francis Drive, Suite 2016, Santa Fe, NM 87505",
+      "phone": "(505) 827-2000",
+      "website": "https://www.generalservices.state.nm.us/",
+      "foia_officer": "IPRA Officer",
+      "email": "ipra@gsd.nm.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "State purchasing, facilities, risk management"
+    },
+    {
+      "name": "New Mexico Department of Finance and Administration",
+      "category": "Executive",
+      "description": "State budget, financial management, local government oversight",
+      "address": "407 Galisteo Street, Suite 270, Santa Fe, NM 87501",
+      "phone": "(505) 827-4950",
+      "website": "https://www.nmdfa.state.nm.us/",
+      "foia_officer": "IPRA Officer",
+      "email": "ipra@dfa.nm.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "State budget, financial oversight, local government assistance"
+    },
+    {
+      "name": "New Mexico State Personnel Office",
+      "category": "Executive",
+      "description": "State employee services, human resources, classification and pay",
+      "address": "2600 Cerrillos Road, Santa Fe, NM 87505",
+      "phone": "(505) 476-7759",
+      "website": "https://www.spo.state.nm.us/",
+      "foia_officer": "IPRA Officer",
+      "email": "applicant.support@spo.nm.gov",
+      "submission_methods": ["Email", "Mail", "In-person"],
+      "notes": "State employment, benefits, personnel policies"
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "state": "Iowa",
+  "transparency_law": "Iowa Open Records Act",
+  "statute_citation": "Iowa Code Chapter 22",
+  "central_authority": {
+    "name": "Iowa Public Information Board (IPIB)",
+    "role": "Enforces sunshine laws, handles complaints, issues formal opinions",
+    "address": "510 E 12th Street, Jessie Parker Building, Des Moines, IA 50319",
+    "phone": "(515) 393-8339",
+    "website": "https://ipib.iowa.gov/",
+    "complaint_deadline": "60 days from alleged violation",
+    "services": ["Ask a Question", "File a Complaint", "Request Formal Opinion"]
+  },
+  "request_requirements": {
+    "must_be_written": false,
+    "identification_required": false,
+    "purpose_required": false,
+    "iowa_resident_required": false,
+    "fees_may_apply": true,
+    "oral_requests_accepted": true,
+    "electronic_requests_accepted": true
+  },
+  "response_deadlines": {
+    "standard_timeline": "ordinarily 10 business days, maximum 20 calendar days",
+    "no_deadline_for_denial": "no set expiration for when request considered denied",
+    "appeals_timeframe": "60 days to file complaint with IPIB",
+    "examination_hours": "regular office hours unless other arrangements made"
+  },
+  "agencies": [
+    {
+      "name": "Governor's Office",
+      "department": "Office of the Governor",
+      "address": "1007 East Grand Avenue, Des Moines, IA 50319",
+      "phone": "(515) 281-5211",
+      "fax": "(515) 725-3527",
+      "email": "info@gov.iowa.gov",
+      "website": "https://gov.iowa.gov/",
+      "records_custodian": "Records Custodian",
+      "submission_methods": ["Email", "Mail", "Phone", "In-person"],
+      "notes": "Executive branch policy and administration"
+    },
+    {
+      "name": "Department of Public Safety",
+      "department": "DPS",
+      "address": "215 East 7th Street, Des Moines, IA 50319",
+      "phone": "(515) 725-6182",
+      "email": "recordsrequest@dps.state.ia.us",
+      "website": "https://dps.iowa.gov/",
+      "records_contact": "Public Information Officer",
+      "submission_methods": ["Email", "Mail", "Phone"],
+      "notes": "State patrol, criminal investigation, emergency management"
+    },
+    {
+      "name": "Department of Natural Resources",
+      "department": "DNR",
+      "address": "502 East 9th Street, Des Moines, IA 50319",
+      "phone": "(515) 725-8200",
+      "email": "DNR.Records.Request@dnr.iowa.gov",
+      "website": "https://www.iowadnr.gov/",
+      "records_contact": "Records Custodian",
+      "submission_methods": ["Email", "Mail", "Online Form"],
+      "online_portal": "https://www.iowadnr.gov/about/contact/open-records-request",
+      "notes": "Environmental protection, parks, wildlife management"
+    },
+    {
+      "name": "Iowa Workforce Development",
+      "department": "IWD",
+      "address": "1000 East Grand Avenue, Des Moines, IA 50319",
+      "phone": "(515) 725-4031",
+      "email": "RecordsRequest@IWD.Iowa.gov",
+      "website": "https://workforce.iowa.gov/",
+      "records_contact": "Records Custodian",
+      "submission_methods": ["Email", "Mail", "Phone"],
+      "fees": "25¢ per page for records",
+      "notes": "Unemployment insurance, workforce development, labor statistics"
+    },
+    {
+      "name": "Department of Transportation",
+      "department": "Iowa DOT",
+      "address": "800 Lincoln Way, Ames, IA 50010",
+      "phone": "(515) 239-1101",
+      "website": "https://iowadot.gov/",
+      "records_contact": "Records Custodian",
+      "submission_methods": ["Email", "Mail", "Online Portal"],
+      "online_portal": "https://ia.iowadot.gov/openrecords",
+      "fees": "Up to 3 hours staff time and 10 pages at no charge",
+      "notes": "Highways, bridges, motor vehicle services"
+    },
+    {
+      "name": "Department of Corrections",
+      "department": "DOC",
+      "address": "510 East 12th Street, Des Moines, IA 50319",
+      "phone": "(515) 725-5701",
+      "website": "https://doc.iowa.gov/",
+      "records_contact": "Records Custodian",
+      "submission_methods": ["Online Portal", "Mail"],
+      "online_portal": "https://iowaopenrecords.nextrequest.com/",
+      "notes": "Adult corrections, probation, parole"
+    },
+    {
+      "name": "Department of Education",
+      "department": "Iowa DE",
+      "address": "400 E 14th Street, Des Moines, IA 50319",
+      "phone": "(515) 281-5294",
+      "email": "webteam@iowa.gov",
+      "website": "https://educateiowa.gov/",
+      "records_contact": "Records Custodian",
+      "submission_methods": ["Email", "Mail", "Phone"],
+      "notes": "K-12 education policy, administration, school finance"
+    },
+    {
+      "name": "Department of Human Services",
+      "department": "DHS",
+      "address": "1305 E Walnut Street, Des Moines, IA 50319",
+      "phone": "(515) 281-5452",
+      "website": "https://dhs.iowa.gov/",
+      "records_contact": "Records Custodian",
+      "submission_methods": ["Email", "Mail", "Phone"],
+      "notes": "Social services, child welfare, Medicaid administration"
+    },
+    {
+      "name": "Department of Revenue",
+      "department": "IDR",
+      "address": "1305 E Walnut Street, Des Moines, IA 50319",
+      "phone": "(515) 281-3114",
+      "email": "idr@iowa.gov",
+      "website": "https://tax.iowa.gov/",
+      "records_contact": "Records Custodian",
+      "submission_methods": ["Email", "Mail", "Phone"],
+      "notes": "State tax administration and collection"
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "department": "HHS",
+      "address": "1305 E Walnut Street, Des Moines, IA 50319",
+      "phone": "(515) 281-7689",
+      "website": "https://hhs.iowa.gov/",
+      "records_contact": "Records Custodian",
+      "submission_methods": ["Email", "Mail", "Phone"],
+      "notes": "Public health policy, disease prevention, health regulation"
+    },
+    {
+      "name": "Department of Agriculture and Land Stewardship",
+      "department": "IDALS",
+      "address": "502 East 9th Street, Des Moines, IA 50319",
+      "phone": "(515) 281-5321",
+      "email": "info@iowaagriculture.gov",
+      "website": "https://iowaagriculture.gov/",
+      "records_contact": "Records Custodian",
+      "submission_methods": ["Email", "Mail", "Phone"],
+      "notes": "Agricultural regulation, food safety, weights and measures"
+    },
+    {
+      "name": "Department of Administrative Services",
+      "department": "DAS",
+      "address": "502 East 9th Street, Des Moines, IA 50319",
+      "phone": "(515) 281-5511",
+      "website": "https://das.iowa.gov/",
+      "records_contact": "Records Custodian",
+      "submission_methods": ["Email", "Mail", "Phone"],
+      "notes": "State purchasing, human resources, facilities management"
+    },
+    {
+      "name": "Iowa Economic Development Authority",
+      "department": "IEDA",
+      "address": "1963 Bell Avenue, Suite 200, Des Moines, IA 50315",
+      "phone": "(515) 348-6200",
+      "email": "info@iowaeconomicdevelopment.com",
+      "website": "https://www.iowaeconomicdevelopment.com/",
+      "records_contact": "Records Custodian",
+      "submission_methods": ["Email", "Mail", "Phone"],
+      "notes": "Economic development, tourism, business development"
+    },
+    {
+      "name": "Department of Veterans Affairs",
+      "department": "IDVA",
+      "address": "601 Locust Street, Des Moines, IA 50309",
+      "phone": "(515) 242-5331",
+      "email": "info@va.iowa.gov",
+      "website": "https://va.iowa.gov/",
+      "records_contact": "Records Custodian",
+      "submission_methods": ["Email", "Mail", "Phone"],
+      "special_provision": "Veterans benefit claims records provided free of charge",
+      "notes": "Veterans services, benefits, healthcare"
+    },
+    {
+      "name": "Attorney General's Office",
+      "department": "Iowa AG",
+      "address": "1305 E Walnut Street, Des Moines, IA 50319",
+      "phone": "(515) 281-5164",
+      "website": "https://www.iowaattorneygeneral.gov/",
+      "records_contact": "Records Custodian",
+      "submission_methods": ["Email", "Mail", "Phone"],
+      "notes": "Legal counsel for state agencies, consumer protection"
+    },
+    {
+      "name": "State Auditor's Office",
+      "department": "State Auditor",
+      "address": "1112 E Grand Avenue, Des Moines, IA 50319",
+      "phone": "(515) 281-5834",
+      "website": "https://auditor.iowa.gov/",
+      "records_contact": "Records Custodian",
+      "submission_methods": ["Email", "Mail", "Phone"],
+      "notes": "State and local government audits, financial oversight"
+    }
+  ],
+  "template": {
+    "subject": "Open Records Request - [SPECIFIC DESCRIPTION]",
+    "body": "To the Records Custodian:\n\nPursuant to Iowa Code Chapter 22, I respectfully request access to the following public records:\n\n[DETAILED DESCRIPTION OF RECORDS REQUESTED]\n\nThis request is made under Iowa's Open Records Act, which provides that every person has the right to examine, copy, and disseminate public records.\n\nPlease provide the records in the following format: [SPECIFY: copies, electronic format, inspection, etc.]\n\nContact Information:\nName: [YOUR FULL NAME]\nAddress: [YOUR COMPLETE ADDRESS]\nPhone: [YOUR PHONE NUMBER]\nEmail: [YOUR EMAIL ADDRESS]\n\nI understand that under Iowa Code Chapter 22, you should ordinarily respond within 10 business days and no later than 20 calendar days. Please acknowledge receipt of this request and provide the records within the statutory timeframe.\n\nIf any portion of this request contains exempt information under Iowa Code Chapter 22.7, please identify the specific exemption and provide any segregable portions that can be released.\n\nIf fees will be charged for this request, please provide an estimate before proceeding. I understand fees must be reasonable and limited to actual costs directly attributable to supervising examination and providing copies.\n\nIf this request is denied in whole or in part, please provide a written explanation. I reserve the right to file a complaint with the Iowa Public Information Board if necessary.\n\nThank you for your prompt attention to this matter.\n\nSincerely,\n[YOUR NAME]\n[DATE]\n\nNote: This request is made under Iowa Code Chapter 22 (Open Records Act)."
+  }
+}

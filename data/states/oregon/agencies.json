@@ -1,0 +1,248 @@
+{
+  "state": "Oregon",
+  "state_abbreviation": "OR",
+  "transparency_law": "Oregon Public Records Law - ORS Chapter 192",
+  "official_source": "https://www.oregonlegislature.gov/bills_laws/ors/ors192.html",
+  "state_portal": "https://www.oregon.gov/",
+  "last_updated": "2025-01-09",
+  "agencies": [
+    {
+      "name": "Office of the Governor",
+      "description": "Chief executive office of Oregon",
+      "website": "https://www.oregon.gov/gov/",
+      "public_records_contact": {
+        "office": "Governor's Office Public Records",
+        "phone": "503-378-4582",
+        "email": "publicrecords@gov.oregon.gov",
+        "mailing_address": "Office of the Governor, 900 Court Street, Suite 254, Salem, OR 97301"
+      },
+      "notes": "Handles gubernatorial records, executive orders, appointments, and official correspondence"
+    },
+    {
+      "name": "Oregon Health Authority (OHA)",
+      "description": "State's primary health services and programs agency",
+      "website": "https://www.oregon.gov/oha/",
+      "public_records_contact": {
+        "office": "OHA External Relations Division Public Records",
+        "phone": "971-673-1222",
+        "email": "publicrecords.oha@oregon.gov",
+        "mailing_address": "Oregon Health Authority, 800 NE Oregon St, Portland, OR 97232",
+        "online_form": "https://www.oregon.gov/oha/erd/pages/public-records-requests.aspx"
+      },
+      "notes": "Handles health records, vital records, public health data, and health facility information"
+    },
+    {
+      "name": "Oregon Department of Transportation (ODOT)",
+      "description": "Manages state transportation infrastructure and services",
+      "website": "https://www.oregon.gov/odot/",
+      "public_records_contact": {
+        "office": "ODOT Public Records Center",
+        "phone": "888-275-6368",
+        "phone_local": "503-588-2941",
+        "fax": "503-986-3432",
+        "email": "publicrecords@odot.oregon.gov",
+        "mailing_address": "Oregon Department of Transportation, 355 Capitol St. NE, MS 11, Salem, OR 97301-3871",
+        "online_portal": "https://odot.govqa.us/"
+      },
+      "notes": "Handles transportation records, highway projects, traffic data, and infrastructure planning documents. Staff available Monday-Friday 8:00am-5:00pm"
+    },
+    {
+      "name": "Oregon Department of Education (ODE)",
+      "description": "Oversees K-12 public education and higher education coordination",
+      "website": "https://www.oregon.gov/ode/",
+      "public_records_contact": {
+        "office": "ODE Public Records Office",
+        "phone": "503-947-5600",
+        "email": "publicrecords@ode.oregon.gov",
+        "mailing_address": "Oregon Department of Education, 255 Capitol St NE, Salem, OR 97310",
+        "online_form": "https://www.oregon.gov/ode/about-us/pages/public-records-requests.aspx"
+      },
+      "notes": "Handles education records, curriculum documents, and school district information (student records protected). Written requests required."
+    },
+    {
+      "name": "Oregon Secretary of State",
+      "description": "Administers elections and maintains official state records",
+      "website": "https://sos.oregon.gov/",
+      "public_records_contact": {
+        "office": "Secretary of State Public Records",
+        "phone": "503-986-1523",
+        "email": "publicrecords@sos.oregon.gov",
+        "mailing_address": "Oregon Secretary of State, 136 State Capitol, Salem, OR 97310"
+      },
+      "notes": "Handles election records, corporate filings, notary records, and official state documents"
+    },
+    {
+      "name": "Oregon State Treasurer",
+      "description": "Manages state investments and financial operations",
+      "website": "https://www.oregon.gov/treasury/",
+      "public_records_contact": {
+        "office": "State Treasurer Public Records Office",
+        "phone": "503-378-4329",
+        "email": "publicrecords@ost.oregon.gov",
+        "mailing_address": "Oregon State Treasurer, 350 Winter St NE, Salem, OR 97301"
+      },
+      "notes": "Handles investment records, bond information, and state financial management documents"
+    },
+    {
+      "name": "Oregon Attorney General",
+      "description": "State's chief legal officer and law enforcement coordination",
+      "website": "https://www.doj.state.or.us/",
+      "public_records_contact": {
+        "office": "Attorney General Public Records Office",
+        "phone": "503-378-6002",
+        "email": "publicrecords@doj.oregon.gov",
+        "mailing_address": "Oregon Department of Justice, 1162 Court Street NE, Salem, OR 97301"
+      },
+      "notes": "Handles legal opinions, consumer protection records, criminal investigation oversight, and public records guidance"
+    },
+    {
+      "name": "Oregon Department of Human Services (ODHS)",
+      "description": "Provides social services and benefits programs",
+      "website": "https://www.oregon.gov/dhs/",
+      "public_records_contact": {
+        "office": "ODHS Public Records Office",
+        "phone": "503-945-5944",
+        "email": "publicrecords@odhs.oregon.gov",
+        "mailing_address": "Oregon Department of Human Services, 500 Summer St NE, Salem, OR 97301"
+      },
+      "notes": "Handles social services records, benefit program information, and child welfare data (personal info protected)"
+    },
+    {
+      "name": "Oregon Department of Revenue",
+      "description": "Administers state tax laws and collects revenues",
+      "website": "https://www.oregon.gov/dor/",
+      "public_records_contact": {
+        "office": "Revenue Public Records Office",
+        "phone": "503-378-4988",
+        "email": "publicrecords@dor.oregon.gov",
+        "mailing_address": "Oregon Department of Revenue, 955 Center St NE, Salem, OR 97301"
+      },
+      "notes": "Handles non-confidential tax records and revenue administration documents (confidential tax info protected)"
+    },
+    {
+      "name": "Oregon State Police",
+      "description": "Provides statewide law enforcement services",
+      "website": "https://www.oregon.gov/osp/",
+      "public_records_contact": {
+        "office": "OSP Public Records Office",
+        "phone": "503-378-3720",
+        "email": "publicrecords@osp.oregon.gov",
+        "mailing_address": "Oregon State Police, 400 Public Service Building, Salem, OR 97310"
+      },
+      "notes": "Handles law enforcement records, incident reports, and public safety information (ongoing investigations protected)"
+    },
+    {
+      "name": "Oregon Department of Fish and Wildlife (ODFW)",
+      "description": "Manages wildlife resources and outdoor recreation",
+      "website": "https://www.dfw.state.or.us/",
+      "public_records_contact": {
+        "office": "ODFW Public Records Office",
+        "phone": "503-947-6000",
+        "email": "publicrecords@odfw.oregon.gov",
+        "mailing_address": "Oregon Department of Fish and Wildlife, 4034 Fairview Industrial Drive SE, Salem, OR 97302",
+        "online_form": "https://www.dfw.state.or.us/agency/public_record/"
+      },
+      "notes": "Handles wildlife management records, hunting/fishing licenses, and conservation program documents"
+    },
+    {
+      "name": "Oregon Department of Environmental Quality (DEQ)",
+      "description": "Protects and improves Oregon's environment",
+      "website": "https://www.oregon.gov/deq/",
+      "public_records_contact": {
+        "office": "DEQ Public Records Office",
+        "phone": "503-229-5696",
+        "email": "publicrecords@deq.oregon.gov",
+        "mailing_address": "Oregon Department of Environmental Quality, 700 NE Multnomah St, Portland, OR 97232"
+      },
+      "notes": "Handles environmental monitoring data, permit information, and compliance records"
+    },
+    {
+      "name": "Oregon Employment Department",
+      "description": "Provides unemployment benefits and workforce services",
+      "website": "https://www.oregon.gov/employ/",
+      "public_records_contact": {
+        "office": "Employment Department Public Records Office",
+        "phone": "503-947-1394",
+        "email": "publicrecords@employ.oregon.gov",
+        "mailing_address": "Oregon Employment Department, 875 Union St NE, Salem, OR 97311"
+      },
+      "notes": "Handles employment statistics, workforce development records, and unemployment insurance data"
+    },
+    {
+      "name": "Oregon Department of Agriculture",
+      "description": "Regulates agriculture and promotes agricultural development",
+      "website": "https://www.oregon.gov/oda/",
+      "public_records_contact": {
+        "office": "Agriculture Department Public Records Office",
+        "phone": "503-986-4550",
+        "email": "publicrecords@oda.oregon.gov",
+        "mailing_address": "Oregon Department of Agriculture, 635 Capitol St NE, Salem, OR 97301"
+      },
+      "notes": "Handles agricultural regulation records, inspection reports, and farming industry documentation"
+    },
+    {
+      "name": "Oregon Department of Administrative Services (DAS)",
+      "description": "Provides administrative services to state government",
+      "website": "https://www.oregon.gov/das/",
+      "public_records_contact": {
+        "office": "DAS Public Records Office",
+        "phone": "503-378-3106",
+        "email": "publicrecords@das.oregon.gov",
+        "mailing_address": "Oregon Department of Administrative Services, 155 Cottage St NE, Salem, OR 97301"
+      },
+      "notes": "Handles procurement records, state property documents, and administrative services information"
+    },
+    {
+      "name": "Oregon Emergency Management",
+      "description": "Coordinates emergency preparedness and disaster response",
+      "website": "https://www.oregon.gov/oem/",
+      "public_records_contact": {
+        "office": "OEM Public Records Office",
+        "phone": "503-378-2911",
+        "email": "publicrecords@oem.oregon.gov",
+        "mailing_address": "Oregon Emergency Management, 3225 State St, Salem, OR 97301"
+      },
+      "notes": "Handles emergency planning records, disaster response documents, and preparedness information"
+    }
+  ],
+  "request_process": {
+    "legal_authority": "Oregon Revised Statutes Chapter 192",
+    "who_can_request": "Every person (no residency requirement)",
+    "how_to_request": "Written request required with name, address, and description of records",
+    "required_information": [
+      "Requester's name",
+      "Mailing address or electronic mail address",
+      "Description of public record requested"
+    ],
+    "agency_response_time": {
+      "acknowledgment": "Within 5 business days of receipt",
+      "response": "Within 15 business days unless written justification provided for longer period"
+    },
+    "fees": {
+      "inspection": "Free",
+      "copying": "Reasonably calculated to reimburse actual costs",
+      "advance_notice": "Written estimate required if fees will exceed $25",
+      "waiver": "May be waived if disclosure primarily benefits general public"
+    },
+    "appeals_process": "May petition District Attorney or Attorney General for review; court review available with attorney fees for prevailing party"
+  },
+  "key_exemptions": [
+    "Personal information that would constitute unreasonable invasion of privacy",
+    "Information submitted in confidence and not required by law",
+    "Ongoing criminal investigations and prosecutions",
+    "Trade secrets with independent economic value",
+    "Records specifically exempt by court order",
+    "Records prohibited from disclosure by Oregon law",
+    "Attorney-client privileged communications",
+    "Personnel records and employment investigations"
+  ],
+  "notable_features": [
+    "Strong policy of public access - 'every person has a right to inspect any public record'",
+    "Conditional exemptions require public interest balancing test",
+    "Required written acknowledgment within 5 business days",
+    "15-business-day response deadline with justification required for extensions",
+    "Fees may be waived if primarily benefits public interest",
+    "District Attorney or Attorney General review process available",
+    "Attorney fees available for prevailing parties in court challenges"
+  ]
+}
