@@ -1,0 +1,49 @@
+{
+  "jurisdiction": "texas",
+  "persona": {
+    "type": "personal_records_seeker",
+    "name": "Michael Johnson",
+    "demographics": "37-year-old military veteran seeking own criminal history",
+    "location": "Houston, TX",
+    "motivation": "Employment background check requiring comprehensive criminal history",
+    "experience_level": "novice"
+  },
+  "request": {
+    "category": "high_volume",
+    "record_type": "Complete criminal history record including arrests and court dispositions",
+    "time_period": "All records from 2000 to present",
+    "agency": "Texas Department of Public Safety (DPS)",
+    "contact_info": {
+      "office": "Texas DPS - Public Information Act Coordinator",
+      "address": "5805 N. Lamar Blvd, Austin, TX 78753",
+      "email": "openrecords@dps.texas.gov",
+      "phone": "(512) 424-2000"
+    },
+    "statutory_basis": "Texas Public Information Act, Government Code Chapter 552",
+    "request_text": "To the Texas Department of Public Safety:\\n\\nPursuant to the Texas Public Information Act, Government Code Chapter 552, I hereby request access to and copies of my complete criminal history record maintained by the Texas Department of Public Safety.\\n\\n**Personal Information:**\\nFull Name: Michael Johnson\\nDate of Birth: [MM/DD/YYYY]\\nSocial Security Number: [XXX-XX-XXXX]\\nDriver's License Number: [XXXXXXX]\\nSID Number (if known): [XXXXXXX]\\n\\n**Specific Records Requested:**\\n\\n1. **Complete Criminal History Record:**\\n   - All arrests, charges, and dispositions in Texas\\n   - Court records and case outcomes\\n   - Probation records and supervision history\\n   - Any sealed or expunged records that may appear on background checks\\n\\n2. **Identification Records:**\\n   - Fingerprint records and booking photographs\\n   - Mugshot photographs from any arrests\\n   - Physical description and identifying information\\n\\n**Purpose and Justification:**\\n\\nI am requesting my own personal criminal history record for employment purposes. As a military veteran seeking employment in positions requiring background checks, I need comprehensive documentation of my criminal history to ensure accurate and complete disclosure to potential employers.\\n\\n**Identity Verification:**\\n\\nEnclosed please find copies of my current driver's license, Social Security card, and DD-214 (military discharge papers) for identity verification purposes.\\n\\n**Processing and Fees:**\\n\\nI understand there may be fees associated with processing this request and am prepared to pay reasonable costs. Please provide a fee estimate if costs are expected to exceed $50.\\n\\nAs a military veteran, if any fee reduction programs are available for veterans requesting their own records, I would appreciate consideration for such programs.\\n\\nPlease provide records in electronic format if possible, or physical copies if electronic format is not available.\\n\\nThank you for your assistance with this matter.\\n\\nSincerely,\\n\\nMichael Johnson\\n[ADDRESS]\\n[PHONE]\\n[EMAIL]\\n\\nEnclosed: Driver's license copy, Social Security card copy, DD-214",
+    "submission_method": "email_with_identity_verification",
+    "fee_handling": "Request veteran fee reduction if available; willing to pay up to $50",
+    "attachments_required": [
+      "Copy of driver's license",
+      "Copy of Social Security card",
+      "DD-214 military discharge papers"
+    ]
+  },
+  "validation": {
+    "attorney_reviewed": true,
+    "jurisdiction_verified": true,
+    "statutory_accuracy": true,
+    "last_updated": "2024-09-24",
+    "version": "1.0"
+  },
+  "training_metadata": {
+    "difficulty_level": "beginner",
+    "estimated_success_rate": 0.95,
+    "key_learning_objectives": [
+      "Personal criminal history requests under Texas PIA",
+      "Identity verification for sensitive personal records",
+      "Military veteran considerations and fee reductions",
+      "Employment background check documentation"
+    ]
+  }
+}
