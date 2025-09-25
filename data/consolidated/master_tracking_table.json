@@ -4,7 +4,7 @@
     "created_date": "2025-09-05",
     "total_jurisdictions": 51,
     "completion_status": "51/51 (100%)",
-    "completed_jurisdictions": ["Federal FOIA", "Texas", "California", "New York", "Florida", "Alabama", "Alaska", "Arizona", "Arkansas", "Colorado", "Connecticut", "Delaware", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Utah", "Vermont", "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming"],
+    "completed_jurisdictions": ["Federal FOIA", "Texas", "California", "New York", "Florida", "Alabama", "Alaska", "Arizona", "Arkansas", "Colorado", "Connecticut", "Delaware", "District of Columbia", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Utah", "Vermont", "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming"],
     "remaining_jurisdictions": [],
     "last_updated": "2025-01-15",
     "project_completed": true,
@@ -114,6 +114,9 @@
       "west_virginia": {"name": "West Virginia", "official_name": "West Virginia Freedom of Information Act", "status": "completed", "priority": 3, "statute_collected": true, "agencies_collected": true, "templates_created": true, "completion_date": "2025-01-15", "notes": "W.Va. Code § 29B-1-1 et seq - 5 day response, no search fees, mandatory FOIA database, 16 agencies"},
       "wisconsin": {"name": "Wisconsin", "official_name": "Wisconsin Public Records Law", "status": "completed", "priority": 3, "statute_collected": true, "agencies_collected": true, "templates_created": true, "completion_date": "2025-01-15", "notes": "Wis. Stat. §§ 19.31-19.39 - 'as soon as practicable', $100 minimum damages, strong presumption, 16 agencies"},
       "wyoming": {"name": "Wyoming", "official_name": "Wyoming Public Records Act", "status": "completed", "priority": 3, "statute_collected": true, "agencies_collected": true, "templates_created": true, "completion_date": "2025-01-15", "notes": "W.S. § 16-4-201 et seq - 7 day acknowledgment/30 day production, Public Records Ombudsman, 16 agencies"}
+    },
+    "district_of_columbia": {
+      "district_of_columbia": {"name": "District of Columbia", "official_name": "District of Columbia Freedom of Information Act", "status": "completed", "priority": 2, "statute_collected": true, "agencies_collected": true, "templates_created": true, "completion_date": "2024-09-24", "notes": "D.C. Code §§ 2-531 through 2-540 - 15 day response, 25 days for body-worn camera, online portal system, Mayor's Office appeals"}
     }
   }
 }

@@ -2,9 +2,9 @@
   "migration_date": "2024-09-24",
   "migration_summary": {
     "federal_files": 2,
-    "state_files": 50,
+    "state_files": 51,
     "consolidated_files": 2,
-    "total_files": 54
+    "total_files": 55
   },
   "state_coverage": {
     "missouri": 1,
@@ -56,7 +56,8 @@
     "idaho": 1,
     "oregon": 1,
     "nevada": 1,
-    "california": 1
+    "california": 1,
+    "district-of-columbia": 1
   },
   "file_inventory": {
     "federal": [
