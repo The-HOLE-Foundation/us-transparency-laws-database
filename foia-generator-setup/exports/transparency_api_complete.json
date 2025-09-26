@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "version": "1.0",
+    "generated": "2025-09-26T10:40:45.445616",
+    "total_jurisdictions": 52,
+    "coverage": "All 51 US transparency law jurisdictions"
+  },
+  "jurisdictions": [
+    {
+      "id": "federal",
+      "name": "Federal Government",
+      "type": "federal",
+      "statute": "5 U.S.C. \u00a7 552 (Freedom of Information Act)",
+      "response_time": "20 business days",
+      "agencies_count": 13,
+      "submission_methods": [
+        "Online portal",
+        "Mail",
+        "Email",
+        "Fax"
+      ]
+    },
+    {
+      "id": "district_of_columbia",
+      "name": "District of Columbia",
+      "type": "federal_district",
+      "statute": "D.C. Code \u00a7\u00a7 2-531 through 2-540 (Freedom of Information Act)",
+      "response_time": "15 business days",
+      "agencies_count": 10,
+      "submission_methods": [
+        "Online",
+        "Mail",
+        "Email"
+      ]
+    }
+  ]
+}

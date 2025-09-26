@@ -1,0 +1,172 @@
+{
+  "custom_slash_commands": {
+    "/export-transparency": {
+      "description": "Export transparency database to various formats and destinations",
+      "command": "python scripts/transparency_data_export_slash_command.py",
+      "usage": "/export-transparency [format] [options]",
+      "formats": {
+        "supabase": "Generate SQL INSERT statements for Supabase deployment",
+        "csv": "Export to CSV files for Excel/Google Sheets analysis",
+        "json": "API-ready JSON format for REST endpoints",
+        "markdown": "Human-readable documentation format",
+        "api": "REST API endpoint data format",
+        "all": "Generate all formats simultaneously"
+      },
+      "examples": [
+        "/export-transparency supabase",
+        "/export-transparency csv",
+        "/export-transparency api --include-examples",
+        "/export-transparency all"
+      ],
+      "output_directory": "exports/",
+      "file_outputs": {
+        "supabase": "transparency_database_supabase.sql",
+        "csv": ["jurisdictions_summary.csv", "agencies_sample.csv"],
+        "json": ["api_jurisdictions.json", "api_agencies_sample.json"],
+        "markdown": "transparency_laws_reference.md"
+      }
+    },
+    "/generate-foia": {
+      "description": "Generate FOIA request using AI with jurisdiction-specific compliance",
+      "command": "python src/api/generate_request.py",
+      "usage": "/generate-foia [jurisdiction] [request_type] [persona]",
+      "parameters": {
+        "jurisdiction": "federal|state_name (e.g., california, texas)",
+        "request_type": "personal|investigation|historical|business",
+        "persona": "citizen|journalist|attorney|researcher|advocate|business"
+      },
+      "examples": [
+        "/generate-foia california personal citizen",
+        "/generate-foia federal investigation journalist",
+        "/generate-foia texas business attorney"
+      ],
+      "requires": ["OpenAI API key", "Complete transparency database"],
+      "output": "Professional FOIA request with jurisdiction-specific compliance"
+    },
+    "/validate-request": {
+      "description": "Validate FOIA request for legal compliance and completeness",
+      "command": "python src/api/validate_request.py",
+      "usage": "/validate-request [jurisdiction] [request_file]",
+      "parameters": {
+        "jurisdiction": "Jurisdiction to validate against",
+        "request_file": "Text file containing FOIA request to validate"
+      },
+      "validation_checks": [
+        "Statutory citation accuracy",
+        "Required elements present",
+        "Jurisdiction-specific formatting",
+        "Fee handling appropriateness",
+        "Appeal process awareness"
+      ],
+      "output": "Validation report with suggestions for improvement"
+    },
+    "/analyze-success": {
+      "description": "Analyze FOIA success rates and patterns across jurisdictions",
+      "command": "python src/analytics/success_analysis.py",
+      "usage": "/analyze-success [jurisdiction] [time_period] [request_type]",
+      "parameters": {
+        "jurisdiction": "federal|state_name|all",
+        "time_period": "30d|90d|1y|all",
+        "request_type": "personal|investigation|historical|business|all"
+      },
+      "examples": [
+        "/analyze-success california 90d personal",
+        "/analyze-success federal 1y investigation",
+        "/analyze-success all all all"
+      ],
+      "output": "Analytics report with success rates, timing, and recommendations"
+    },
+    "/sync-database": {
+      "description": "Synchronize local transparency database with remote sources",
+      "command": "python scripts/sync_transparency_database.py",
+      "usage": "/sync-database [source] [jurisdiction]",
+      "sources": {
+        "supabase": "Sync with hosted Supabase project",
+        "github": "Pull latest from GitHub repository",
+        "official": "Verify against official government sources",
+        "all": "Comprehensive sync from all sources"
+      },
+      "examples": [
+        "/sync-database supabase all",
+        "/sync-database official california",
+        "/sync-database github federal"
+      ],
+      "output": "Sync report with updates and validation results"
+    },
+    "/deploy-dashboard": {
+      "description": "Deploy transparency analytics dashboard to cloud platform",
+      "command": "python scripts/deploy_dashboard.py",
+      "usage": "/deploy-dashboard [platform] [environment]",
+      "platforms": {
+        "vercel": "Deploy to Vercel with Supabase integration",
+        "netlify": "Deploy to Netlify with API connections",
+        "cloudflare": "Deploy to Cloudflare Pages/Workers",
+        "local": "Start local development server"
+      },
+      "environments": ["development", "staging", "production"],
+      "examples": [
+        "/deploy-dashboard vercel production",
+        "/deploy-dashboard local development",
+        "/deploy-dashboard cloudflare staging"
+      ],
+      "requires": ["Supabase project configured", "Cloud platform credentials"],
+      "output": "Deployment URL and status report"
+    }
+  },
+  "installation_instructions": {
+    "claude_code_integration": {
+      "step_1": "Copy transparency_data_export_slash_command.py to Claude Code scripts directory",
+      "step_2": "Add slash command configurations to Claude Code settings",
+      "step_3": "Configure environment variables for API keys and database connections",
+      "step_4": "Test slash commands with sample data export"
+    },
+    "required_dependencies": [
+      "python3",
+      "pandas",
+      "json",
+      "csv",
+      "pathlib",
+      "argparse"
+    ],
+    "optional_dependencies": [
+      "psycopg2 (for direct Postgres connection)",
+      "supabase-py (for Supabase API integration)",
+      "openai (for AI-powered FOIA generation)",
+      "requests (for API data fetching)"
+    ]
+  },
+  "usage_examples": {
+    "quick_supabase_deployment": {
+      "command": "/export-transparency supabase",
+      "description": "Generate SQL for immediate Supabase database import",
+      "use_case": "Deploy complete transparency database to production"
+    },
+    "research_analysis": {
+      "command": "/export-transparency csv",
+      "description": "Export to CSV for Excel/Google Sheets analysis",
+      "use_case": "Academic research and policy analysis"
+    },
+    "api_development": {
+      "command": "/export-transparency api --include-examples",
+      "description": "Generate API-ready JSON with FOIA examples",
+      "use_case": "REST API development and third-party integrations"
+    },
+    "documentation_generation": {
+      "command": "/export-transparency markdown",
+      "description": "Create human-readable reference documentation",
+      "use_case": "Community education and contributor onboarding"
+    },
+    "complete_export": {
+      "command": "/export-transparency all",
+      "description": "Generate all export formats simultaneously",
+      "use_case": "Comprehensive deployment preparation"
+    }
+  },
+  "integration_benefits": {
+    "efficiency": "One command exports entire 51-jurisdiction database",
+    "consistency": "Standardized formats across all export types",
+    "automation": "Scriptable for CI/CD and deployment pipelines",
+    "flexibility": "Multiple output formats for different use cases",
+    "validation": "Built-in data quality checks and verification"
+  }
+}
