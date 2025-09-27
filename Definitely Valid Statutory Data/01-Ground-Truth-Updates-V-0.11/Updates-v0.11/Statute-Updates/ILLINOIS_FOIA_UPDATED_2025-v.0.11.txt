@@ -1,0 +1,198 @@
+ILLINOIS FREEDOM OF INFORMATION ACT
+Illinois Compiled Statutes 5 ILCS 140/
+UPDATED: September 26, 2025
+EFFECTIVE: Includes amendments through January 1, 2025
+
+CITATION: 5 ILCS 140/1 et seq.
+EFFECTIVE DATE: Originally enacted 1984; Recent amendments effective January 1, 2024 and January 1, 2025
+SOURCE: Illinois General Assembly, Illinois Attorney General
+
+ILLINOIS FREEDOM OF INFORMATION ACT - COMPREHENSIVE STATUTORY PROVISIONS INCLUDING 2024-2025 AMENDMENTS
+
+SECTION 1. SHORT TITLE AND LEGISLATIVE PURPOSE
+This Act may be cited as the Freedom of Information Act. The General Assembly hereby finds and declares that it is the public policy of this State that all persons are entitled to full and complete information regarding the affairs of government and the official acts and policies of those who represent them, except as otherwise provided in this Act.
+
+SECTION 2. DEFINITIONS (AMENDED 2024-2025)
+
+(c-5) "Private information" means unique identifiers, including a person's social security number, driver's license number, employee identification number, biometric identifiers, personal financial information, passwords or other access codes, medical records, home or personal telephone numbers, and personal email addresses. Private information also includes home addresses and personal license plates, except as otherwise provided by law.
+
+EXPANDED DEFINITION (EFFECTIVE JANUARY 1, 2024):
+"Private information" additionally includes:
+- Biometric identifiers including DNA profiles, retina or iris scans, fingerprints, voiceprints, and scans of hand or face geometry
+- Electronic medical records and health information
+- Personal financial account information
+- Home addresses of public employees (with limited exceptions for certain officials)
+- Personal cellular phone numbers and personal email addresses
+
+SECTION 3. REQUESTS FOR INFORMATION; CYBERSECURITY PROVISIONS (AMENDED 2025)
+
+(a) Each public body shall, promptly, either comply with or deny a request for public records within 5 business days after its receipt, unless the time for response is properly extended under subsection (e) of this Section.
+
+CYBERSECURITY AMENDMENT (EFFECTIVE 2025):
+Electronic requests for public records must appear in their entirety within the body of the electronic submission. No public body shall be required to open electronically attached files or hyperlinks to view or access the details of such a request for security purposes.
+
+SECTION 4. PUBLIC BODY DUTIES; ENHANCED POSTING REQUIREMENTS (AMENDED 2024-2025)
+
+FOIA OFFICER REQUIREMENTS (ENHANCED 2024):
+Each public body shall designate one or more officials or employees to act as its FOIA officer or officers. All FOIA officers shall complete annual training as prescribed by the Attorney General and obtain annual certification.
+
+TRAINING REQUIREMENTS (STRENGTHENED 2025):
+- Initial training within 90 days of appointment
+- Annual refresher training and certification
+- Specialized training for complex records systems
+- Online training modules available through Attorney General's office
+
+POSTING REQUIREMENTS (EXPANDED 2024):
+Each public body must maintain and display prominently:
+- Brief description of the public body and its purpose
+- Organizational chart and total operating budget
+- List of advisory or governing body members
+- Methods for submitting FOIA requests
+- FOIA officer contact information and addresses
+- Allowable fees and fee schedule
+- Annual FOIA report statistics
+
+WEBSITE REQUIREMENTS:
+Public bodies maintaining websites must post all required information online and maintain current contact information for FOIA requests.
+
+SECTION 7. EXEMPTIONS (AMENDED 2024-2025)
+
+(1)(b) Private information, unless disclosure is required by another provision of this Act, a State or federal law, or a court order.
+
+ENHANCED PRIVACY PROTECTIONS (2024-2025 AMENDMENTS):
+The exemption for private information has been expanded to include:
+- Biometric data collected for security or identification purposes
+- Electronic health records and telemedicine communications
+- Personal financial information including account numbers and credit information
+- Home security system information and access codes
+- Personal vehicle information including license plates (when attributable to specific individuals)
+
+(1)(c) Personal information contained in files, papers, records, or public records of public bodies where disclosure would constitute a clearly unwarranted invasion of personal privacy.
+
+SETTLEMENT AND SEVERANCE AGREEMENT PROVISIONS (AMENDED 2024):
+All settlement agreements, severance agreements, and non-disclosure agreements entered into by public bodies are public records subject to disclosure. However, specific financial terms may be redacted if disclosure would constitute an unwarranted invasion of personal privacy, provided that:
+- The total amount of any settlement or severance is disclosed
+- The general nature of the claims resolved is disclosed
+- Any ongoing obligations or restrictions are disclosed
+
+SECTION 8. RESPONSE PROCEDURES (AMENDED 2024-2025)
+
+ENHANCED NOTIFICATION REQUIREMENTS:
+When denying a request in whole or in part, public bodies must:
+- Cite specific statutory exemptions with precision
+- Explain the factual basis for each claimed exemption
+- Identify whether records are subject to attorney-client privilege
+- Provide information about appeal rights and procedures
+- Indicate whether partial disclosure is possible with redactions
+
+REDACTION PROCEDURES (STANDARDIZED 2024):
+- Public bodies must release non-exempt portions of records with appropriate redactions
+- Redactions must be clearly marked with the statutory basis for withholding
+- Electronic redactions must be secure and not easily reversible
+- A log of redacted materials must be maintained (with some exceptions)
+
+SECTION 9. APPEALS AND ENFORCEMENT (AMENDED 2024-2025)
+
+PUBLIC ACCESS COUNSELOR REVIEW:
+- Initial review within 7 business days of appeal
+- Binding determinations on procedural violations
+- Non-binding recommendations on substantive exemptions
+- Enhanced mediation services for complex disputes
+
+ATTORNEY GENERAL AUTHORITY (EXPANDED 2024):
+- Power to investigate systematic FOIA violations
+- Authority to issue compliance orders
+- Enhanced civil penalty authority for willful violations
+- Requirement for annual compliance reporting by public bodies
+
+SECTION 11. FEES (UPDATED 2025)
+
+STANDARD FEE SCHEDULE:
+- First 50 pages: $0.15 per page
+- Additional pages: $0.07 per page
+- Electronic records: Actual cost of medium
+- Search and retrieval: First hour free, then actual cost not exceeding $10 per hour
+
+COMMERCIAL REQUEST FEES (AMENDED 2024):
+Public bodies may charge enhanced fees for commercial requests:
+- Search time: Actual cost not exceeding $20 per hour
+- Duplication: Up to $0.25 per page for large volumes
+- Electronic format: Actual cost of programming and medium
+
+SECTION 13. PENALTIES (ENHANCED 2024-2025)
+
+CIVIL PENALTIES FOR VIOLATIONS:
+- Willful and intentional failure to comply: $1,000 to $5,000 per violation
+- Pattern of violations: Up to $10,000 per violation
+- Attorney fees and costs for successful requesters
+- Personal liability for officials who knowingly violate the Act
+
+CRIMINAL PENALTIES (STRENGTHENED 2024):
+Class A misdemeanor for:
+- Elected officials using false identities for FOIA requests
+- Intentional destruction of records to avoid disclosure
+- Retaliation against FOIA requesters
+
+SECTION 15. ANNUAL REPORTING (ENHANCED 2025)
+
+COMPREHENSIVE REPORTING REQUIREMENTS:
+Each public body must submit annual reports including:
+- Total number of requests received and processed
+- Average response time and compliance rate
+- Number of denials by exemption category
+- Fees collected and costs incurred
+- FOIA officer training completion status
+- Description of any litigation or appeals
+
+TRANSPARENCY REPORTING (NEW 2025):
+Large public bodies (budget over $1 million) must additionally report:
+- Breakdown of requests by category and requester type
+- Average processing time by request complexity
+- Number of requests fulfilled partially vs. completely
+- Proactive disclosure initiatives undertaken
+
+RECENT LEGISLATION PENDING (2025):
+
+SENATE BILL 226: Database transparency requirements
+SENATE BILL 1357: Prohibition on deceptive requests by elected officials
+SENATE BILL 1386: Restrictions on private attorney FOIA officers
+HOUSE BILL 21: Exclusion of "junk mail" from public records definition
+HOUSE BILL 2334: Cybersecurity provisions for electronic requests
+
+ATTORNEY GENERAL RESOURCES:
+- FOIA Officer Training Program: https://illinoisattorneygeneral.gov
+- Annual FOIA compliance seminars
+- Public Access Counselor: foia@illinoisag.gov
+- Model FOIA policies and procedures
+
+IMPLEMENTATION NOTES:
+- 2024 amendments primarily focused on privacy protection and settlement disclosure
+- 2025 amendments emphasize cybersecurity and training requirements
+- Enhanced penalties took effect January 1, 2024
+- Cybersecurity provisions effective immediately upon passage
+
+JUDICIAL INTERPRETATIONS (2024-2025):
+Illinois courts have recently addressed:
+- Scope of biometric identifier protections
+- Application of settlement disclosure requirements
+- Electronic records format requirements
+- Attorney-client privilege boundaries
+
+COMPLIANCE DEADLINES:
+- FOIA Officer recertification: Annually by December 31
+- Annual report submission: By March 31 of following year
+- Training completion: Within 90 days of appointment/reappointment
+- Policy updates: Within 6 months of statutory amendments
+
+KEY 2024-2025 CHANGES SUMMARY:
+1. Expanded definition of "private information" including biometric data
+2. Mandatory disclosure of settlement and severance agreements
+3. Enhanced FOIA officer training and certification requirements
+4. Cybersecurity provisions for electronic requests
+5. Strengthened penalties for violations
+6. Improved transparency in public body reporting
+7. Enhanced Public Access Counselor authority
+
+Last Updated: September 26, 2025
+Source: Illinois General Assembly, Illinois Attorney General FOIA Division
+Next Review Date: January 1, 2026

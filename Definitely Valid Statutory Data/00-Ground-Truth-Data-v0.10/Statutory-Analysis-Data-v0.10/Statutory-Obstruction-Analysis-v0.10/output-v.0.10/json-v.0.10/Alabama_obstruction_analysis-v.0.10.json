@@ -1,0 +1,27 @@
+{
+  "state": "Alabama",
+  "vulnerabilities": [
+    {
+      "type": "Fee Barriers",
+      "description": "Fee structure can be weaponized to deter requests",
+      "severity": "MEDIUM",
+      "mechanism": "---\n\n## Fee Structure\n\n### **Permitted Charges**\n- **Copying Costs**: Actual cost of duplication\n- **Reasonable Fees**: Must be tied to fulfillment costs\n- **Electronic Records**: Same fee standards as paper records\n\n### **Fee Limitations**\n- **Must be reasonable** and based on actual costs\n- **Cannot be punitive** or designed to discourage requests"
+    },
+    {
+      "type": "Exemption Abuse",
+      "description": "Broad exemptions can be misapplied to withhold records",
+      "severity": "HIGH",
+      "mechanism": "---\n\n## Exemptions and Limitations\n\n### **Protected Information**\n- **Law enforcement**: Sensitive investigatory materials\n- **Privacy**: Personal information not related to public business\n- **Security**: Information that could compromise public safety\n- **Legal**: Attorney-client privileged communications\n\n### **Electronic Records Scope**\n- **Included**: Text messages, emails related to public business"
+    },
+    {
+      "type": "Vague Timeline",
+      "description": "Response deadline is subjective rather than fixed",
+      "severity": "MEDIUM",
+      "mechanism": "Deadline defined as: Reasonable time (vague)"
+    }
+  ],
+  "timelines": {
+    "response_deadline": "Reasonable time (vague)"
+  },
+  "total_vulnerability_count": 3
+}

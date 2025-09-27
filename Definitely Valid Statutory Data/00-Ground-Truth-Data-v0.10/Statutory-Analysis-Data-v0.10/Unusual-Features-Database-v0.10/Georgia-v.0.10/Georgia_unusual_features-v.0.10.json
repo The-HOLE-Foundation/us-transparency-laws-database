@@ -1,0 +1,23 @@
+[
+  {
+    "state": "Georgia",
+    "category": "First 15 Minutes Free",
+    "description": "No charge for first quarter hour (15 minutes) of research/retrieval time",
+    "citation": "O.C.G.A. § 50-18-71(c)",
+    "notes": "Protection from minimal search costs"
+  },
+  {
+    "state": "Georgia",
+    "category": "Immediate Response Required",
+    "description": "Records not in active use must be provided immediately; 3 business day maximum if in active use/storage",
+    "citation": "O.C.G.A. § 50-18-71(b)",
+    "notes": "Fastest response requirement when records readily available"
+  },
+  {
+    "state": "Georgia",
+    "category": "$25 Pre-Payment Threshold",
+    "description": "If estimated cost exceeds $25, agency may request requester confirm willingness to pay; if over $500, may require 50% deposit",
+    "citation": "O.C.G.A. § 50-18-71(c)",
+    "notes": "Structured advance payment system"
+  }
+]

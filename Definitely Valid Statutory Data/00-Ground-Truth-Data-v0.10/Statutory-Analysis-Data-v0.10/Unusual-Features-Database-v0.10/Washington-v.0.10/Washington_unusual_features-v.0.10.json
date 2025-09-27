@@ -1,0 +1,37 @@
+[
+  {
+    "state": "Washington",
+    "category": "Mandatory Training",
+    "description": "PROs and governing body members must complete PRA training within 90 days; refresher every 4 years",
+    "citation": "RCW 42.56.152",
+    "notes": "Comprehensive training mandate"
+  },
+  {
+    "state": "Washington",
+    "category": "Public Records Officer Required",
+    "description": "Each agency must designate PRO as primary contact",
+    "citation": "RCW 42.56.580",
+    "notes": "Designated responsibility"
+  },
+  {
+    "state": "Washington",
+    "category": "Over 500 Exemptions",
+    "description": "More than 500 total exemptions throughout Washington statutes",
+    "citation": "RCW 42.56",
+    "notes": "Extensive exemption structure"
+  },
+  {
+    "state": "Washington",
+    "category": "$5-$100 Daily Penalty",
+    "description": "Daily penalty of $5-$100 per day for each day of violation",
+    "citation": "RCW 42.56.565",
+    "notes": "Ongoing financial penalty"
+  },
+  {
+    "state": "Washington",
+    "category": "Attorney General Model Rules",
+    "description": "AG maintains Model Rules (WAC 44-14) providing detailed guidance",
+    "citation": "RCW 42.56.070",
+    "notes": "Comprehensive regulatory guidance"
+  }
+]

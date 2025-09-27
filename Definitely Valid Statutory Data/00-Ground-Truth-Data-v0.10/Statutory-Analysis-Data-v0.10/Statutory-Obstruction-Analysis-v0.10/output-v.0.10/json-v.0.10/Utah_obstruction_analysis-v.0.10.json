@@ -1,0 +1,39 @@
+{
+  "state": "Utah",
+  "vulnerabilities": [
+    {
+      "type": "Clarification Pause",
+      "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+      "severity": "HIGH",
+      "mechanism": "- **Injunctive Relief**: Ongoing compliance orders\n- **Attorney Fees**: Successful plaintiffs may recover fees\n- **Declaratory Judgment**: Clarification of GRAMA obligations\n\n**Strategic Considerations:**\n- Exhaust administrative appeals first\n- Document pattern of non-compliance\n- Preserve evidence of public interest\n- Consider class action for systemic violations\n\n### State Oversight\n**Utah State Archives and Records Service:**"
+    },
+    {
+      "type": "Fee Barriers",
+      "description": "Fee structure can be weaponized to deter requests",
+      "severity": "MEDIUM",
+      "mechanism": "  - UCA \u00a7 63G-2-201: Classification of records\n  - UCA \u00a7 63G-2-203: Response timeline requirements\n  - UCA \u00a7 63G-2-204: Fee provisions\n\n### **CRITICAL ALERT**: 2025 Legislative Developments\n- **SB277 (2025)**: \"Government Records Management Amendments\" by Sen. Keith Grover\n- **Status**: Proposed amendments to GRAMA focusing on records management procedures\n- **Impact**: Potential restrictions on access procedures (full text requires review)\n- **Implementation**: Monitor Utah Legislature for fina"
+    },
+    {
+      "type": "Programming Time Charges",
+      "description": "Allows charging for technical work with subjective billing",
+      "severity": "MEDIUM",
+      "mechanism": "Can inflate costs by claiming simple requests require programming"
+    },
+    {
+      "type": "Exemption Abuse",
+      "description": "Broad exemptions can be misapplied to withhold records",
+      "severity": "HIGH",
+      "mechanism": "- Access to public records or copies upon payment\n- Specific explanation for any denials or redactions\n- Citation to applicable GRAMA exemption\n- Information about appeal rights\n\n### Phase 4: Appeal Process\n**Administrative Appeal:**\n- **Deadline**: No specific deadline in statute\n- **Authority**: Government entity head or designee\n- **Scope**: Review of denial, fees, adequacy of search\n- **Timeline**: No statutory deadline for appeal decision\n"
+    },
+    {
+      "type": "Vague Timeline",
+      "description": "Response deadline is subjective rather than fixed",
+      "severity": "MEDIUM",
+      "mechanism": "Deadline defined as: Reasonable time (vague)"
+    }
+  ],
+  "timelines": {
+    "response_deadline": "Reasonable time (vague)"
+  },
+  "total_vulnerability_count": 5
+}

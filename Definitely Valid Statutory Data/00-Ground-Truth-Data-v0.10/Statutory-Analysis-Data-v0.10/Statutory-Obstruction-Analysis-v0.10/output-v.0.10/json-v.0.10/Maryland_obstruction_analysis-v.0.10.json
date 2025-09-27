@@ -1,0 +1,39 @@
+{
+  "state": "Maryland",
+  "vulnerabilities": [
+    {
+      "type": "Clarification Pause",
+      "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+      "severity": "HIGH",
+      "mechanism": "**Available Relief:**\n- **Mandamus**: Court order requiring disclosure\n- **Declaratory Judgment**: Clarification of MPIA obligations\n- **Injunctive Relief**: Ongoing compliance orders\n- **Attorney Fees**: Successful plaintiffs may recover reasonable fees\n\n**Strategic Considerations:**\n- Exhaust administrative appeal first for stronger court position\n- Document pattern of non-compliance or bad faith\n- Preserve evidence of public interest in disclosure\n- Consider media attention to pressure compli"
+    },
+    {
+      "type": "Fee Barriers",
+      "description": "Fee structure can be weaponized to deter requests",
+      "severity": "MEDIUM",
+      "mechanism": "  - SG \u00a7 10-613: Public access rights\n  - SG \u00a7 10-614: Response timeline requirements\n  - SG \u00a7 10-621: Fee provisions\n  - SG \u00a7 10-615 through 10-619: Exemptions\n\n### Definitions\n- **Public Body**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**: Any documentary material prepared by or for a public body\n- **Business Days**: Monday through Friday, excluding state holidays\n- **Custodian**: Official designated to maintain and provide access"
+    },
+    {
+      "type": "Vague Request Rejection",
+      "description": "Agencies can reject requests as too broad or vague",
+      "severity": "HIGH",
+      "mechanism": "Subjective interpretation allows denial of valid requests"
+    },
+    {
+      "type": "Exemption Abuse",
+      "description": "Broad exemptions can be misapplied to withhold records",
+      "severity": "HIGH",
+      "mechanism": "  - SG \u00a7 10-614: Response timeline requirements\n  - SG \u00a7 10-621: Fee provisions\n  - SG \u00a7 10-615 through 10-619: Exemptions\n\n### Definitions\n- **Public Body**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**: Any documentary material prepared by or for a public body\n- **Business Days**: Monday through Friday, excluding state holidays\n- **Custodian**: Official designated to maintain and provide access to records\n\n---\n"
+    },
+    {
+      "type": "Vague Timeline",
+      "description": "Response deadline is subjective rather than fixed",
+      "severity": "MEDIUM",
+      "mechanism": "Deadline defined as: Reasonable time (vague)"
+    }
+  ],
+  "timelines": {
+    "response_deadline": "Reasonable time (vague)"
+  },
+  "total_vulnerability_count": 5
+}

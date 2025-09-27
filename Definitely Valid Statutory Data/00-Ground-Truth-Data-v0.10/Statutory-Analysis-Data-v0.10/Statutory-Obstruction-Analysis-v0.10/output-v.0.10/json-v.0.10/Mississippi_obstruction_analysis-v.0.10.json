@@ -1,0 +1,33 @@
+{
+  "state": "Mississippi",
+  "vulnerabilities": [
+    {
+      "type": "Clarification Pause",
+      "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+      "severity": "HIGH",
+      "mechanism": "**Internal Process:**\n- Discuss concerns with custodian or agency head\n- Request clarification of exemption claims\n- Negotiate scope or format to reduce costs\n- Seek informal resolution before litigation\n\n**Documentation:**\n- Preserve all communications with agency\n- Document any improper fee charges or deadline violations\n- Maintain evidence of public interest in disclosure\n- Note violation of 7-working-day mandate\n"
+    },
+    {
+      "type": "Fee Barriers",
+      "description": "Fee structure can be weaponized to deter requests",
+      "severity": "MEDIUM",
+      "mechanism": "  - Miss. Code \u00a7 25-61-3: Definitions and legislative intent\n  - Miss. Code \u00a7 25-61-5: Public access rights and timelines\n  - Miss. Code \u00a7 25-61-7: Fee provisions\n  - Miss. Code \u00a7 25-61-9: Exemptions and confidentiality\n  - Miss. Code \u00a7 25-61-15: Enforcement and attorney fees\n\n### Definitions\n- **Public Body**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**: Any documentary material prepared or maintained by a public body\n- **Working D"
+    },
+    {
+      "type": "Exemption Abuse",
+      "description": "Broad exemptions can be misapplied to withhold records",
+      "severity": "HIGH",
+      "mechanism": "  - Miss. Code \u00a7 25-61-5: Public access rights and timelines\n  - Miss. Code \u00a7 25-61-7: Fee provisions\n  - Miss. Code \u00a7 25-61-9: Exemptions and confidentiality\n  - Miss. Code \u00a7 25-61-15: Enforcement and attorney fees\n\n### Definitions\n- **Public Body**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**: Any documentary material prepared or maintained by a public body\n- **Working Days**: Monday through Friday, excluding state holidays\n- **Cu"
+    },
+    {
+      "type": "Vague Timeline",
+      "description": "Response deadline is subjective rather than fixed",
+      "severity": "MEDIUM",
+      "mechanism": "Deadline defined as: Reasonable time (vague)"
+    }
+  ],
+  "timelines": {
+    "response_deadline": "Reasonable time (vague)"
+  },
+  "total_vulnerability_count": 4
+}

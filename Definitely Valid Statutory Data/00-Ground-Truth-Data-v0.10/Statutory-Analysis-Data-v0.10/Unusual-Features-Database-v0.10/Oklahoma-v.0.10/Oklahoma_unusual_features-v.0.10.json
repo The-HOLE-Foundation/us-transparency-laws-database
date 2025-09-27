@@ -1,0 +1,30 @@
+[
+  {
+    "state": "Oklahoma",
+    "category": "Prompt Reasonable Access Standard",
+    "description": "Must provide 'prompt, reasonable access' during regular business hours - no specific deadline",
+    "citation": "51 O.S. 24A.5",
+    "notes": "General promptness standard"
+  },
+  {
+    "state": "Oklahoma",
+    "category": "No Search Fees for Public Interest",
+    "description": "No search fee when release is in public interest, including news media, scholars, authors, taxpayers",
+    "citation": "51 O.S. 24A.7",
+    "notes": "Broad public interest fee waiver"
+  },
+  {
+    "state": "Oklahoma",
+    "category": "$100 Per Violation Damages",
+    "description": "$100 damages per purposeful violation plus court costs and attorney fees",
+    "citation": "51 O.S. 24A.17",
+    "notes": "Specific damage amount"
+  },
+  {
+    "state": "Oklahoma",
+    "category": "Posted Business Hours",
+    "description": "Public bodies must post regular business hours in prominent public view",
+    "citation": "51 O.S. 24A.6",
+    "notes": "Transparency about access times"
+  }
+]

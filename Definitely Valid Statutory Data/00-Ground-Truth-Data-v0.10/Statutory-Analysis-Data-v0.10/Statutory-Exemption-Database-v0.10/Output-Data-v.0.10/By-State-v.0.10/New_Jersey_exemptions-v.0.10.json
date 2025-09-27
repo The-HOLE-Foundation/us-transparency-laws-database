@@ -1,0 +1,174 @@
+{
+  "metadata": {
+    "extraction_date": "2025-09-26T13:52:18.331850",
+    "total_records": 6,
+    "jurisdiction": "New_Jersey",
+    "data_source": "VERIFIED Process Maps",
+    "verification_date": "September 2025",
+    "categories": [
+      "Statutory Exemption"
+    ]
+  },
+  "records": [
+    {
+      "jurisdiction_name": "New Jersey",
+      "jurisdiction_code": "US-NJ",
+      "law_name": "New Jersey Open Public Records Act (OPRA)",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "Governor and Legislature communications",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: Legislative Working Papers",
+      "extraction_date": "2025-09-26T13:52:18.330963"
+    },
+    {
+      "jurisdiction_name": "New Jersey",
+      "jurisdiction_code": "US-NJ",
+      "law_name": "New Jersey Open Public Records Act (OPRA)",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Law Enforcement",
+      "description": "Active investigations and techniques",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: Criminal Investigatory",
+      "extraction_date": "2025-09-26T13:52:18.330967"
+    },
+    {
+      "jurisdiction_name": "New Jersey",
+      "jurisdiction_code": "US-NJ",
+      "law_name": "New Jersey Open Public Records Act (OPRA)",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Trade Secrets/Commercial",
+      "description": "Commercial competitive information",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: Trade Secrets",
+      "extraction_date": "2025-09-26T13:52:18.330974"
+    },
+    {
+      "jurisdiction_name": "New Jersey",
+      "jurisdiction_code": "US-NJ",
+      "law_name": "New Jersey Open Public Records Act (OPRA)",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Personal Privacy",
+      "description": "Employee privacy protections",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: Personnel Records",
+      "extraction_date": "2025-09-26T13:52:18.330978"
+    },
+    {
+      "jurisdiction_name": "New Jersey",
+      "jurisdiction_code": "US-NJ",
+      "law_name": "New Jersey Open Public Records Act (OPRA)",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Attorney-Client Privilege",
+      "description": "Legal communications and advice",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: Attorney-Client",
+      "extraction_date": "2025-09-26T13:52:18.330983"
+    },
+    {
+      "jurisdiction_name": "New Jersey",
+      "jurisdiction_code": "US-NJ",
+      "law_name": "New Jersey Open Public Records Act (OPRA)",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Law Enforcement",
+      "description": "Law enforcement and emergency response plans",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: Security Procedures",
+      "extraction_date": "2025-09-26T13:52:18.330987"
+    }
+  ],
+  "records_by_category": {
+    "Statutory Exemption": [
+      {
+        "jurisdiction_name": "New Jersey",
+        "jurisdiction_code": "US-NJ",
+        "law_name": "New Jersey Open Public Records Act (OPRA)",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "Governor and Legislature communications",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: Legislative Working Papers",
+        "extraction_date": "2025-09-26T13:52:18.330963"
+      },
+      {
+        "jurisdiction_name": "New Jersey",
+        "jurisdiction_code": "US-NJ",
+        "law_name": "New Jersey Open Public Records Act (OPRA)",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Law Enforcement",
+        "description": "Active investigations and techniques",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: Criminal Investigatory",
+        "extraction_date": "2025-09-26T13:52:18.330967"
+      },
+      {
+        "jurisdiction_name": "New Jersey",
+        "jurisdiction_code": "US-NJ",
+        "law_name": "New Jersey Open Public Records Act (OPRA)",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Trade Secrets/Commercial",
+        "description": "Commercial competitive information",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: Trade Secrets",
+        "extraction_date": "2025-09-26T13:52:18.330974"
+      },
+      {
+        "jurisdiction_name": "New Jersey",
+        "jurisdiction_code": "US-NJ",
+        "law_name": "New Jersey Open Public Records Act (OPRA)",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Personal Privacy",
+        "description": "Employee privacy protections",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: Personnel Records",
+        "extraction_date": "2025-09-26T13:52:18.330978"
+      },
+      {
+        "jurisdiction_name": "New Jersey",
+        "jurisdiction_code": "US-NJ",
+        "law_name": "New Jersey Open Public Records Act (OPRA)",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Attorney-Client Privilege",
+        "description": "Legal communications and advice",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: Attorney-Client",
+        "extraction_date": "2025-09-26T13:52:18.330983"
+      },
+      {
+        "jurisdiction_name": "New Jersey",
+        "jurisdiction_code": "US-NJ",
+        "law_name": "New Jersey Open Public Records Act (OPRA)",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Law Enforcement",
+        "description": "Law enforcement and emergency response plans",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: Security Procedures",
+        "extraction_date": "2025-09-26T13:52:18.330987"
+      }
+    ]
+  }
+}

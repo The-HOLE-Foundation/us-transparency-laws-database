@@ -1,0 +1,33 @@
+{
+  "state": "Pennsylvania",
+  "vulnerabilities": [
+    {
+      "type": "Clarification Pause",
+      "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+      "severity": "HIGH",
+      "mechanism": "- **Body Camera Footage**: New provisions for video recordings\n- **Victim Privacy**: Enhanced protections for crime victims\n- **Timeline Clarifications**: Technical amendments to response deadlines\n\n### OOR Precedent Evolution\n- **Electronic Records**: Email, text messages, social media\n- **Search Requirements**: Adequacy of record searches\n- **Exemption Analysis**: More rigorous segregability requirements\n- **Fee Determinations**: Stricter limits on allowable charges\n\n### Technology Integration"
+    },
+    {
+      "type": "Fee Barriers",
+      "description": "Fee structure can be weaponized to deter requests",
+      "severity": "MEDIUM",
+      "mechanism": "---\n\n## Fee Structure\n\n### Allowable Fees (65 Pa.C.S. \u00a7 67.1307)\n- **Duplication**: Actual cost of photocopying/printing\n- **Postage**: Actual cost of mailing\n- **Electronic Media**: Cost of disk, drive, or other medium\n- **Specialized Documents**: Actual cost for non-standard formats\n\n### Fee Schedule\n- **Paper Copies**: $0.25 per page for letter/legal size"
+    },
+    {
+      "type": "Vague Request Rejection",
+      "description": "Agencies can reject requests as too broad or vague",
+      "severity": "HIGH",
+      "mechanism": "Subjective interpretation allows denial of valid requests"
+    },
+    {
+      "type": "Exemption Abuse",
+      "description": "Broad exemptions can be misapplied to withhold records",
+      "severity": "HIGH",
+      "mechanism": "**VERIFICATION DATE**: September 18, 2025  \n**VERIFICATION SOURCE**: Dual-source validation using 65 Pa.C.S. and OOR decisions  \n**LAST STATUTORY UPDATE**: 2023 (Act 65 - law enforcement exemption modifications)\n\n---\n\n## Legal Framework\n\n### Primary Statute\n- **Right-to-Know Law (RTKL)**: 65 Pa.C.S. \u00a7\u00a7 67.101 et seq.\n- **Effective Date**: January 1, 2009 (replaced prior Right-to-Know Act)\n- **Major Amendments**: 2023 (Act 65 - law enforcement records)"
+    }
+  ],
+  "timelines": {
+    "response_deadline": "15 business days from agency response"
+  },
+  "total_vulnerability_count": 4
+}

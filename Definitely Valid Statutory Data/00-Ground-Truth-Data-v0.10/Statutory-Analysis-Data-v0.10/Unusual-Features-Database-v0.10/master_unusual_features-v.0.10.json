@@ -1,0 +1,1325 @@
+[
+  {
+    "state": "Alabama",
+    "category": "Residency Requirement",
+    "description": "Only Alabama residents and Alabama-based companies can request public records under the Open Records Act",
+    "citation": "Alabama Code § 36-12-40 et seq.",
+    "notes": "Restricts access to residents only, excluding out-of-state requesters"
+  },
+  {
+    "state": "Alabama",
+    "category": "Tiered Response Times",
+    "description": "Executive agencies have 15 business days for standard requests, 45-180 business days for time-intensive requests",
+    "citation": "Alabama Code § 36-12-44",
+    "notes": "Unusually long timeframes compared to most states"
+  },
+  {
+    "state": "Alaska",
+    "category": "First Two Hours Free",
+    "description": "Agency may not charge a fee for the first two person-hours spent searching for or copying public records in a calendar month",
+    "citation": "2 AAC 96.400(a)",
+    "notes": "Unique provision protecting requesters from initial search costs"
+  },
+  {
+    "state": "Alaska",
+    "category": "Balancing Test for Confidentiality",
+    "description": "Agency must find that need for confidentiality outweighs public interest in disclosure, considering 8 specific factors",
+    "citation": "Alaska Statute 40.25.122",
+    "notes": "Structured analysis required for withholding decisions"
+  },
+  {
+    "state": "Alaska",
+    "category": "Administrative Appeals Available",
+    "description": "Most agencies must provide administrative appeal process before court action",
+    "citation": "Alaska Statute 40.25.124",
+    "notes": "Requires exhausting administrative remedies in many cases"
+  },
+  {
+    "state": "Arizona",
+    "category": "Commercial Purpose Statement",
+    "description": "Requesters seeking records for commercial purpose must provide statement; custodian can seek Governor's executive order to prohibit",
+    "citation": "A.R.S. § 39-121.03",
+    "notes": "Governor has authority to block commercial use requests via executive order"
+  },
+  {
+    "state": "Arizona",
+    "category": "5-Day Acknowledgment Requirement",
+    "description": "Must acknowledge written request within 5 business days (since 2023)",
+    "citation": "A.R.S. § 39-132",
+    "notes": "Recent legislative addition improving response transparency"
+  },
+  {
+    "state": "Arizona",
+    "category": "Criminal Penalties",
+    "description": "Unlawful refusal to allow examination is class 2 misdemeanor; failure to comply with response requirements is class 2 misdemeanor",
+    "citation": "A.R.S. §§ 39-121.02, 39-123",
+    "notes": "Criminal enforcement mechanism for violations"
+  },
+  {
+    "state": "Arkansas",
+    "category": "Residency Requirement",
+    "description": "Must be Arkansas citizen to request records",
+    "citation": "A.C.A. § 25-19-105(a)(1)",
+    "notes": "Restricts access to state residents only"
+  },
+  {
+    "state": "Arkansas",
+    "category": "Multiple Request Methods",
+    "description": "Request may be made in person, by telephone, by mail, by facsimile transmission, by electronic mail, or by other electronic means",
+    "citation": "A.C.A. § 25-19-105(a)(2)",
+    "notes": "Explicitly permits telephone requests in statute"
+  },
+  {
+    "state": "Arkansas",
+    "category": "Attorney General Opinion for Personnel Records",
+    "description": "For personnel/evaluation records, requester or subject may seek Attorney General opinion within 3 working days",
+    "citation": "A.C.A. § 25-19-105.1(c)(2)",
+    "notes": "Special expedited AG review process for personnel matters"
+  },
+  {
+    "state": "California",
+    "category": "No Search Fees",
+    "description": "Cannot charge search fees (unlike federal FOIA)",
+    "citation": "Government Code § 7920 et seq.",
+    "notes": "Protects requesters from search costs"
+  },
+  {
+    "state": "California",
+    "category": "10-Day Response with 14-Day Extension",
+    "description": "10 days to determine if records exist and will be disclosed; additional 14 days in unusual circumstances (no further extensions)",
+    "citation": "Government Code § 7922.535",
+    "notes": "Strict limit on extensions prevents indefinite delays"
+  },
+  {
+    "state": "Colorado",
+    "category": "First Hour Free",
+    "description": "May charge research and retrieval fee only if more than one hour of staff time necessary; no fee for first hour",
+    "citation": "C.R.S. § 24-72-203(6)",
+    "notes": "Protects requesters from initial hour of search costs"
+  },
+  {
+    "state": "Colorado",
+    "category": "Mandatory Reconsideration Option",
+    "description": "Before judicial review, person may file written request for reconsideration with custodian; 14-day waiting period before court",
+    "citation": "C.R.S. § 24-72-205(1)",
+    "notes": "Encourages informal resolution before litigation"
+  },
+  {
+    "state": "Connecticut",
+    "category": "Freedom of Information Commission",
+    "description": "Independent 9-member commission handles appeals, issues binding orders, imposes civil penalties up to $1,000",
+    "citation": "Conn. Gen. Stat. §§ 1-205, 1-214, 1-216",
+    "notes": "Strong independent oversight body with enforcement powers"
+  },
+  {
+    "state": "Connecticut",
+    "category": "Tiered Fee Structure",
+    "description": "State agencies: max $0.25/page; other public agencies: max $0.50/page; Judicial Dept: $0.50 first 20 pages, $0.25 thereafter",
+    "citation": "Conn. Gen. Stat. § 1-212(b)-(c)",
+    "notes": "Different fee caps for different agency types"
+  },
+  {
+    "state": "Connecticut",
+    "category": "4-Day Response Requirement",
+    "description": "Agencies must respond within 4 business days",
+    "citation": "Conn. Gen. Stat. (practice standard)",
+    "notes": "Rapid response requirement"
+  },
+  {
+    "state": "Delaware",
+    "category": "Web Portal Requirement",
+    "description": "All state agencies and public bodies must develop web portals for receiving FOIA requests using AG standard form",
+    "citation": "29 Del. C. § 10003(c)",
+    "notes": "Mandatory online request infrastructure"
+  },
+  {
+    "state": "Delaware",
+    "category": "First 20 Pages Free",
+    "description": "First 20 pages of standard black and white material provided free of charge",
+    "citation": "29 Del. C. § 10005(a)",
+    "notes": "Substantial free access before fees apply"
+  },
+  {
+    "state": "Delaware",
+    "category": "Attorney General Determination Process",
+    "description": "Citizens may petition AG for determination of whether violation occurred; AG must respond within 30 days",
+    "citation": "29 Del. C. § 10006(c)",
+    "notes": "Administrative review option before court"
+  },
+  {
+    "state": "Florida",
+    "category": "Verbal Request Accepted",
+    "description": "Can request by phone, in writing, or in person; no specific form required",
+    "citation": "Chapter 119, Florida Statutes",
+    "notes": "Most flexible request format - oral requests explicitly permitted"
+  },
+  {
+    "state": "Florida",
+    "category": "No ID or Purpose Required",
+    "description": "No requirement to state purpose or provide identification",
+    "citation": "Chapter 119, Florida Statutes",
+    "notes": "Maximum anonymity for requesters"
+  },
+  {
+    "state": "Florida",
+    "category": "No Statutory Deadline",
+    "description": "No specific response timeframes; must make 'good faith effort' within 'reasonable period'",
+    "citation": "Chapter 119, Florida Statutes",
+    "notes": "Unusual lack of firm deadlines"
+  },
+  {
+    "state": "Florida",
+    "category": "Constitutional Right",
+    "description": "Article I, Section 24 of Florida Constitution establishes right of access to public records",
+    "citation": "Florida Constitution Article I, Section 24",
+    "notes": "Constitutional foundation beyond statutory"
+  },
+  {
+    "state": "Georgia",
+    "category": "First 15 Minutes Free",
+    "description": "No charge for first quarter hour (15 minutes) of research/retrieval time",
+    "citation": "O.C.G.A. § 50-18-71(c)",
+    "notes": "Protection from minimal search costs"
+  },
+  {
+    "state": "Georgia",
+    "category": "Immediate Response Required",
+    "description": "Records not in active use must be provided immediately; 3 business day maximum if in active use/storage",
+    "citation": "O.C.G.A. § 50-18-71(b)",
+    "notes": "Fastest response requirement when records readily available"
+  },
+  {
+    "state": "Georgia",
+    "category": "$25 Pre-Payment Threshold",
+    "description": "If estimated cost exceeds $25, agency may request requester confirm willingness to pay; if over $500, may require 50% deposit",
+    "citation": "O.C.G.A. § 50-18-71(c)",
+    "notes": "Structured advance payment system"
+  },
+  {
+    "state": "Hawaii",
+    "category": "Office of Information Practices",
+    "description": "Independent oversight agency administers UIPA, handles appeals, issues binding determinations",
+    "citation": "HRS Chapter 92F",
+    "notes": "Strong independent administrative oversight"
+  },
+  {
+    "state": "Hawaii",
+    "category": "Anonymous Requests Allowed",
+    "description": "Requesters can typically remain anonymous",
+    "citation": "HRS Chapter 92F",
+    "notes": "Enhanced privacy for requesters"
+  },
+  {
+    "state": "Hawaii",
+    "category": "16 Mandatory Disclosure Categories",
+    "description": "Statute lists 16 categories of records that must be disclosed",
+    "citation": "HRS § 92F-12",
+    "notes": "Affirmative disclosure requirements beyond typical access"
+  },
+  {
+    "state": "Idaho",
+    "category": "Resident vs. Non-Resident Timelines",
+    "description": "Idaho residents: 3-10 working days; Non-residents: up to 35 days",
+    "citation": "Idaho Code § 74-103",
+    "notes": "Dramatic difference in response times based on residency"
+  },
+  {
+    "state": "Idaho",
+    "category": "Fee Waiver for Public Understanding",
+    "description": "May waive fees if request 'contributes significantly to public understanding of government operations or activities'",
+    "citation": "Idaho Code § 74-102",
+    "notes": "Public interest fee waiver provision"
+  },
+  {
+    "state": "Illinois",
+    "category": "Public Access Counselor",
+    "description": "PAC provides binding determinations on FOIA requests (with limited exceptions)",
+    "citation": "5 ILCS 140/11",
+    "notes": "Strong administrative enforcement through binding decisions"
+  },
+  {
+    "state": "Illinois",
+    "category": "First 50 Pages Free",
+    "description": "First 50 pages of black and white copies provided free",
+    "citation": "5 ILCS 140/6",
+    "notes": "Most generous free page allowance"
+  },
+  {
+    "state": "Illinois",
+    "category": "Commercial Request Timeline",
+    "description": "Commercial requests: 21 working days to respond (vs. 5 days for standard requests)",
+    "citation": "5 ILCS 140/3",
+    "notes": "Extended timeline for commercial use"
+  },
+  {
+    "state": "Illinois",
+    "category": "Civil Penalties",
+    "description": "$2,500-$5,000 civil penalties for willful and intentional violations",
+    "citation": "5 ILCS 140/11",
+    "notes": "Specific monetary penalties for violations"
+  },
+  {
+    "state": "Indiana",
+    "category": "Public Access Counselor Advisory Opinions",
+    "description": "PAC issues advisory opinions (not binding) but provides guidance",
+    "citation": "IC 5-14-3-1 et seq.",
+    "notes": "Advisory rather than binding administrative review"
+  },
+  {
+    "state": "Indiana",
+    "category": "Oral Requests Accepted",
+    "description": "Initial request need not be made in person or in writing; can be oral",
+    "citation": "IC 5-14-3-3",
+    "notes": "Flexible request format including phone"
+  },
+  {
+    "state": "Indiana",
+    "category": "Reasonable Time Standard",
+    "description": "No fixed deadline; must provide within 'reasonable time' based on agency size, request size, complexity",
+    "citation": "IC 5-14-3-3",
+    "notes": "Flexible standard rather than fixed days"
+  },
+  {
+    "state": "Iowa",
+    "category": "Iowa Public Information Board",
+    "description": "Independent board enforces sunshine laws, handles complaints, issues formal opinions",
+    "citation": "Iowa Code Chapter 22",
+    "notes": "Strong independent oversight board"
+  },
+  {
+    "state": "Iowa",
+    "category": "Discretionary Exemptions",
+    "description": "Exemptions are discretionary, not mandatory - narrowly construed in favor of disclosure",
+    "citation": "Iowa Code § 22.7",
+    "notes": "Agency choice to withhold even when exemption applies"
+  },
+  {
+    "state": "Iowa",
+    "category": "First Hour Free",
+    "description": "Cannot charge for first hour of research time",
+    "citation": "Iowa Code Chapter 22",
+    "notes": "Protection from initial search costs"
+  },
+  {
+    "state": "Kansas",
+    "category": "Cost Mitigation Contact",
+    "description": "Agencies must make reasonable efforts to contact requesters when staff time exceeds 5 hours or cost exceeds $200",
+    "citation": "K.S.A. 45-218",
+    "notes": "Proactive cost communication requirement"
+  },
+  {
+    "state": "Kansas",
+    "category": "55 Specific Exemptions",
+    "description": "Statute contains 55 specific exemptions (expanded from original fewer)",
+    "citation": "K.S.A. 45-221",
+    "notes": "Extensive enumerated exemptions"
+  },
+  {
+    "state": "Kansas",
+    "category": "Liberal Construction for Fiscal Records",
+    "description": "Liberal construction standard specifically for fiscal records, audits, and public fund documents",
+    "citation": "K.S.A. 45-221",
+    "notes": "Special disclosure presumption for financial records"
+  },
+  {
+    "state": "Kentucky",
+    "category": "Residency Requirement (Expanded)",
+    "description": "Kentucky 'residents' include individuals, domestic businesses, registered out-of-state businesses, workers in KY, property owners, authorized agents, and news organizations",
+    "citation": "KRS 61.870-61.884",
+    "notes": "Broad definition of 'resident' for access purposes"
+  },
+  {
+    "state": "Kentucky",
+    "category": "Attorney General Review",
+    "description": "Strong AG enforcement role; issues binding decisions unless appealed; decisions have precedential value and are online",
+    "citation": "KRS 61.880",
+    "notes": "Robust administrative review with precedential decisions"
+  },
+  {
+    "state": "Kentucky",
+    "category": "30-Day Appeal Deadline",
+    "description": "Strict 30-day deadline to appeal AG decision; if not appealed, AG decision 'has force and effect of law'",
+    "citation": "KRS 61.880",
+    "notes": "Unusually strict and binding administrative decision process"
+  },
+  {
+    "state": "Kentucky",
+    "category": "No Search Fees for Non-Commercial",
+    "description": "Non-commercial users pay only reproduction costs; no search time charges",
+    "citation": "KRS 61.874",
+    "notes": "Protection from search costs for public interest requests"
+  },
+  {
+    "state": "Louisiana",
+    "category": "Constitutional Foundation",
+    "description": "Louisiana Constitution Article XII, Section 3 provides constitutional protection beyond statutory rights",
+    "citation": "Louisiana Constitution Article XII, Section 3",
+    "notes": "Constitutional mandate for access"
+  },
+  {
+    "state": "Louisiana",
+    "category": "$100 Per Day Penalty",
+    "description": "$100 per day civil penalty against custodian for arbitrary refusal to respond",
+    "citation": "La. R.S. 44:35",
+    "notes": "Financial accountability for non-compliance"
+  },
+  {
+    "state": "Louisiana",
+    "category": "No Administrative Appeals",
+    "description": "Direct court access after 5-day response period; no bureaucratic delays",
+    "citation": "La. R.S. 44:32, 44:35",
+    "notes": "Streamlined enforcement bypassing administrative process"
+  },
+  {
+    "state": "Louisiana",
+    "category": "Preferential Court Treatment",
+    "description": "Cases heard by preference and in summary manner; appellate courts place on preferential docket",
+    "citation": "La. R.S. 44:35",
+    "notes": "Expedited judicial handling"
+  },
+  {
+    "state": "Maine",
+    "category": "First 2 Hours Free",
+    "description": "First 2 hours of staff time are free",
+    "citation": "1 M.R.S. § 408-A",
+    "notes": "Substantial free search time"
+  },
+  {
+    "state": "Maine",
+    "category": "Right to Know Advisory Committee",
+    "description": "Advisory committee assists with FOAA implementation",
+    "citation": "1 M.R.S. § 411",
+    "notes": "Dedicated advisory support structure"
+  },
+  {
+    "state": "Maine",
+    "category": "Mandatory Official Training",
+    "description": "Requires training for public officials on FOAA requirements",
+    "citation": "1 M.R.S. § 412",
+    "notes": "Proactive education mandate"
+  },
+  {
+    "state": "Maryland",
+    "category": "Public Access Ombudsman",
+    "description": "Ombudsman mediates disputes (non-binding) before formal complaints",
+    "citation": "General Provisions § 4-203",
+    "notes": "Mediation-focused conflict resolution"
+  },
+  {
+    "state": "Maryland",
+    "category": "PIA Compliance Board",
+    "description": "Formal compliance board reviews complaints after ombudsman consultation",
+    "citation": "General Provisions § 4-203",
+    "notes": "Two-tier administrative review system"
+  },
+  {
+    "state": "Maryland",
+    "category": "30-Day Response Deadline",
+    "description": "Must respond within 30 days; 10 working days if longer needed",
+    "citation": "General Provisions § 4-203",
+    "notes": "Clear maximum response time"
+  },
+  {
+    "state": "Massachusetts",
+    "category": "Records Access Officer Required",
+    "description": "Each agency and municipality must designate Records Access Officer to coordinate responses",
+    "citation": "M.G.L. c. 66, § 10",
+    "notes": "Mandatory designated contact person"
+  },
+  {
+    "state": "Massachusetts",
+    "category": "Supervisor of Records",
+    "description": "Primary appeal authority in Office of Secretary of Commonwealth",
+    "citation": "M.G.L. c. 66, § 10",
+    "notes": "Centralized administrative appeals"
+  },
+  {
+    "state": "Massachusetts",
+    "category": "10 Business Day Response",
+    "description": "RAO must respond within 10 business days (excluding weekends, holidays, unexpected closures)",
+    "citation": "M.G.L. c. 66, § 10",
+    "notes": "Clear deadline with explicit exclusions"
+  },
+  {
+    "state": "Michigan",
+    "category": "5-Day Response with Single 10-Day Extension",
+    "description": "5 business days to respond; may extend additional 10 days with written notice (only one extension)",
+    "citation": "MCL 15.235",
+    "notes": "Limited extension prevents indefinite delays"
+  },
+  {
+    "state": "Michigan",
+    "category": "Fee Estimate Requirement",
+    "description": "Must provide detailed fee estimate if costs expected to exceed $50",
+    "citation": "MCL 15.235",
+    "notes": "Cost transparency before work begins"
+  },
+  {
+    "state": "Michigan",
+    "category": "Punitive Damages for Bad Faith",
+    "description": "Punitive damages available for bad faith denials",
+    "citation": "MCL 15.240",
+    "notes": "Enhanced enforcement mechanism"
+  },
+  {
+    "state": "Minnesota",
+    "category": "Dual Timeline System",
+    "description": "General requests: 'as soon as reasonably possible'; Data subject requests: 10 business days maximum",
+    "citation": "Minn. Stat. § 13.03",
+    "notes": "Different standards for different request types"
+  },
+  {
+    "state": "Minnesota",
+    "category": "Responsible Authority",
+    "description": "Each agency must designate Responsible Authority to comply with data practices",
+    "citation": "Minn. Stat. Chapter 13",
+    "notes": "Defined accountability structure"
+  },
+  {
+    "state": "Minnesota",
+    "category": "Four-Tier Classification",
+    "description": "Records classified as: Public, Nonpublic, Protected Nonpublic, or Confidential",
+    "citation": "Minn. Stat. Chapter 13",
+    "notes": "Structured classification system"
+  },
+  {
+    "state": "Mississippi",
+    "category": "Sunset Provision",
+    "description": "Current statute expires July 1, 2028 - new legislation may be required",
+    "citation": "Miss. Code § 25-61-1 et seq.",
+    "notes": "Automatic expiration requires legislative reauthorization"
+  },
+  {
+    "state": "Mississippi",
+    "category": "One Working Day Default",
+    "description": "If no written procedures: provide access within 1 working day after written request",
+    "citation": "Miss. Code § 25-61-5",
+    "notes": "Rapid default timeline when no procedures exist"
+  },
+  {
+    "state": "Mississippi",
+    "category": "Agency-Specific Procedures",
+    "description": "Public bodies encouraged to adopt own reasonable written procedures for cost, time, place, method",
+    "citation": "Miss. Code § 25-61-5",
+    "notes": "Decentralized procedural flexibility"
+  },
+  {
+    "state": "Missouri",
+    "category": "3-Day Response Maximum",
+    "description": "Must respond 'as soon as possible' but no later than end of third business day",
+    "citation": "Mo. Rev. Stat. § 610.023.3",
+    "notes": "Short mandatory deadline"
+  },
+  {
+    "state": "Missouri",
+    "category": "First Hour Free",
+    "description": "Cannot charge for first hour of research time",
+    "citation": "Mo. Rev. Stat. § 610.026",
+    "notes": "Protection from initial search costs"
+  },
+  {
+    "state": "Missouri",
+    "category": "10-Cent Per Page Maximum",
+    "description": "Maximum 10 cents per page for standard copies",
+    "citation": "Mo. Rev. Stat. § 610.026",
+    "notes": "Statutory fee cap"
+  },
+  {
+    "state": "Montana",
+    "category": "Constitutional Right to Know",
+    "description": "Montana Constitution Article II, Section 9 provides constitutional right to examine documents and observe deliberations",
+    "citation": "Montana Constitution Article II, Section 9",
+    "notes": "Strong constitutional foundation"
+  },
+  {
+    "state": "Montana",
+    "category": "Two-Tier Executive/Non-Executive System",
+    "description": "Executive branch has specific 5-day acknowledgment and response requirements; non-executive responds 'in timely manner'",
+    "citation": "M.C.A. § 2-6-1006",
+    "notes": "Different standards for different government branches"
+  },
+  {
+    "state": "Montana",
+    "category": "Privacy Must Clearly Exceed Disclosure Merit",
+    "description": "Individual privacy must 'clearly exceed the merits of public disclosure' to justify withholding",
+    "citation": "Montana Constitution Article II, Section 9",
+    "notes": "High bar for privacy-based withholding"
+  },
+  {
+    "state": "Nebraska",
+    "category": "4-Day Response with Three Options",
+    "description": "Within 4 business days must: provide records, deny with citations, or explain delay with earliest date",
+    "citation": "Neb. Rev. Stat. § 84-712.01",
+    "notes": "Structured response requirement"
+  },
+  {
+    "state": "Nebraska",
+    "category": "Liberal Construction for Fiscal Records",
+    "description": "Liberal construction required for fiscal records, audits, vouchers, invoices, and public fund documents",
+    "citation": "Neb. Rev. Stat. § 84-712.03",
+    "notes": "Special presumption favoring financial transparency"
+  },
+  {
+    "state": "Nebraska",
+    "category": "Detailed Denial Requirements",
+    "description": "Denial must include description of withheld record contents and specific statutory citations",
+    "citation": "Neb. Rev. Stat. § 84-712.04",
+    "notes": "Comprehensive justification required"
+  },
+  {
+    "state": "Nevada",
+    "category": "5-Day Response with Four Options",
+    "description": "Within 5 business days must: allow access, notify location, estimate if within 30 days, or deny with citation",
+    "citation": "NRS 239.0107",
+    "notes": "Structured response framework"
+  },
+  {
+    "state": "Nevada",
+    "category": "Deemed Denial",
+    "description": "Failure to act within 5 business days deemed a denial",
+    "citation": "NRS 239.0107",
+    "notes": "Automatic denial for non-response"
+  },
+  {
+    "state": "Nevada",
+    "category": "Strict Narrow Construction",
+    "description": "Statutes making records confidential must be strictly and narrowly construed",
+    "citation": "NRS 239.008",
+    "notes": "Strong presumption against confidentiality"
+  },
+  {
+    "state": "New Hampshire",
+    "category": "Right-to-Know Ombudsman",
+    "description": "Dedicated ombudsman handles FOIA complaints and provides guidance",
+    "citation": "RSA 91-A",
+    "notes": "Specialized oversight position"
+  },
+  {
+    "state": "New Hampshire",
+    "category": "Civil Penalties up to $2,000",
+    "description": "Court may impose civil penalties up to $2,000 for violations",
+    "citation": "RSA 91-A:8",
+    "notes": "Monetary enforcement mechanism"
+  },
+  {
+    "state": "New Hampshire",
+    "category": "Mandatory Training",
+    "description": "Court may order mandatory training for officials who violate law",
+    "citation": "RSA 91-A:8",
+    "notes": "Educational enforcement tool"
+  },
+  {
+    "state": "New Hampshire",
+    "category": "24-Hour Meeting Notice",
+    "description": "24-hour notice required for regular public meetings",
+    "citation": "RSA 91-A:2",
+    "notes": "Short notice period for meetings"
+  },
+  {
+    "state": "New Jersey",
+    "category": "Litigation Certification Required",
+    "description": "Requestors must certify whether request connected to legal proceeding (2024 amendment)",
+    "citation": "N.J.S.A. 47:1A-5",
+    "notes": "New requirement to prevent discovery bypass"
+  },
+  {
+    "state": "New Jersey",
+    "category": "Enhanced Email Specificity",
+    "description": "Email/correspondence requests must include discrete time period, specific subject matter, and employee names/titles (2024)",
+    "citation": "N.J.S.A. 47:1A-5",
+    "notes": "Stricter requirements for email requests"
+  },
+  {
+    "state": "New Jersey",
+    "category": "Website Posting Requirement",
+    "description": "Agencies must keep records on publicly available website 'to extent feasible' with search functionality (2024)",
+    "citation": "N.J.S.A. 47:1A-5",
+    "notes": "Proactive disclosure mandate"
+  },
+  {
+    "state": "New Jersey",
+    "category": "Modified Attorney Fees",
+    "description": "Prevailing requestor gets attorney fees only if agency unreasonably denied, acted in bad faith, or knowingly violated OPRA (2024)",
+    "citation": "N.J.S.A. 47:1A-6",
+    "notes": "Higher burden for fee recovery after 2024"
+  },
+  {
+    "state": "New Jersey",
+    "category": "First 10 Pages Free",
+    "description": "First 10 pages provided at no charge",
+    "citation": "N.J.S.A. 47:1A-5",
+    "notes": "Free initial pages"
+  },
+  {
+    "state": "New Jersey",
+    "category": "Government Records Council",
+    "description": "GRC provides mediation and formal investigation with appealable decisions",
+    "citation": "N.J.S.A. 47:1A-6",
+    "notes": "Administrative review body"
+  },
+  {
+    "state": "New Mexico",
+    "category": "15-Day Maximum Response",
+    "description": "Maximum 15 calendar days to respond; 3 business days triggers written explanation requirement",
+    "citation": "NMSA 14-2-8",
+    "notes": "Clear maximum with early notification trigger"
+  },
+  {
+    "state": "New Mexico",
+    "category": "No Search Fees Allowed",
+    "description": "Search fees are NOT permitted in New Mexico",
+    "citation": "NMSA 14-2-9",
+    "notes": "Explicit prohibition on search charges"
+  },
+  {
+    "state": "New Mexico",
+    "category": "Attorney General Enforcement",
+    "description": "AG has statutory authority to enforce IPRA; can file lawsuits if informal resolution fails",
+    "citation": "NMSA 14-2-11",
+    "notes": "Strong executive enforcement"
+  },
+  {
+    "state": "New Mexico",
+    "category": "Broad Medical Records Exemption",
+    "description": "ALL medical records exempt (broader than most states)",
+    "citation": "NMSA 14-2-1",
+    "notes": "Comprehensive medical privacy"
+  },
+  {
+    "state": "New York",
+    "category": "5-Day Response with 20-Day Extension",
+    "description": "5 business days to grant/deny/acknowledge; up to 20 additional days from acknowledgment (total 25)",
+    "citation": "Public Officers Law § 89",
+    "notes": "Two-stage response structure"
+  },
+  {
+    "state": "New York",
+    "category": "Committee on Open Government",
+    "description": "Provides guidance and handles certain appeals for FOIL matters",
+    "citation": "Public Officers Law Article 6",
+    "notes": "Oversight committee structure"
+  },
+  {
+    "state": "New York",
+    "category": "Electronic Submission Required",
+    "description": "Agencies with email capability must accept and respond to FOIL requests electronically",
+    "citation": "Public Officers Law § 89",
+    "notes": "Mandatory electronic access"
+  },
+  {
+    "state": "North Carolina",
+    "category": "Promptly As Possible Standard",
+    "description": "Records furnished 'as promptly as possible' - no specific deadline in statute",
+    "citation": "N.C. Gen. Stat. § 132-3",
+    "notes": "Vague timing standard"
+  },
+  {
+    "state": "North Carolina",
+    "category": "Actual Cost Only",
+    "description": "Fees cannot exceed actual cost of reproduction",
+    "citation": "N.C. Gen. Stat. § 132-3",
+    "notes": "Cost limitation"
+  },
+  {
+    "state": "North Carolina",
+    "category": "Class 1 Misdemeanor for Destruction",
+    "description": "Willful destruction of public records is Class 1 misdemeanor",
+    "citation": "N.C. Gen. Stat. § 132-4",
+    "notes": "Criminal penalty for record destruction"
+  },
+  {
+    "state": "North Dakota",
+    "category": "Constitutional Right",
+    "description": "North Dakota Constitution Article XI, Section 6 (1977) provides constitutional right to access",
+    "citation": "North Dakota Constitution Article XI, Section 6",
+    "notes": "Constitutional foundation"
+  },
+  {
+    "state": "North Dakota",
+    "category": "No Specific Deadline",
+    "description": "Records available during 'reasonable office hours' - no statutory response deadline",
+    "citation": "N.D.C.C. § 44-04-18",
+    "notes": "Flexible timing"
+  },
+  {
+    "state": "North Dakota",
+    "category": "No Purpose or Identity Required",
+    "description": "May not ask for motive, reason for requesting, or identity of requestor",
+    "citation": "N.D.C.C. § 44-04-18",
+    "notes": "Maximum requestor anonymity"
+  },
+  {
+    "state": "North Dakota",
+    "category": "First Hour Free",
+    "description": "May charge up to $25/hour for locating records only if exceeding one hour",
+    "citation": "N.D.C.C. § 44-04-18",
+    "notes": "Initial hour free"
+  },
+  {
+    "state": "Ohio",
+    "category": "1 Business Day Acknowledgment",
+    "description": "Must acknowledge receipt within 1 business day",
+    "citation": "Ohio Rev. Code § 149.43",
+    "notes": "Immediate acknowledgment requirement"
+  },
+  {
+    "state": "Ohio",
+    "category": "Written Policy Required",
+    "description": "All public offices must adopt written public records policies",
+    "citation": "Ohio Rev. Code § 149.43(E)",
+    "notes": "Mandatory policy adoption"
+  },
+  {
+    "state": "Ohio",
+    "category": "Mandatory Official Training",
+    "description": "All elected officials or designees must attend training on public records requirements",
+    "citation": "Ohio Rev. Code § 149.43(E)",
+    "notes": "Required education for officials"
+  },
+  {
+    "state": "Ohio",
+    "category": "Statutory Damages up to $1,000",
+    "description": "Statutory damages up to $1,000 ($100/day) for violations",
+    "citation": "Ohio Rev. Code § 149.43(C)",
+    "notes": "Specific damage calculation"
+  },
+  {
+    "state": "Ohio",
+    "category": "Assistance Required",
+    "description": "Offices must help clarify ambiguous requests and explain record organization",
+    "citation": "Ohio Rev. Code § 149.43(B)",
+    "notes": "Proactive assistance mandate"
+  },
+  {
+    "state": "Oklahoma",
+    "category": "Prompt Reasonable Access Standard",
+    "description": "Must provide 'prompt, reasonable access' during regular business hours - no specific deadline",
+    "citation": "51 O.S. 24A.5",
+    "notes": "General promptness standard"
+  },
+  {
+    "state": "Oklahoma",
+    "category": "No Search Fees for Public Interest",
+    "description": "No search fee when release is in public interest, including news media, scholars, authors, taxpayers",
+    "citation": "51 O.S. 24A.7",
+    "notes": "Broad public interest fee waiver"
+  },
+  {
+    "state": "Oklahoma",
+    "category": "$100 Per Violation Damages",
+    "description": "$100 damages per purposeful violation plus court costs and attorney fees",
+    "citation": "51 O.S. 24A.17",
+    "notes": "Specific damage amount"
+  },
+  {
+    "state": "Oklahoma",
+    "category": "Posted Business Hours",
+    "description": "Public bodies must post regular business hours in prominent public view",
+    "citation": "51 O.S. 24A.6",
+    "notes": "Transparency about access times"
+  },
+  {
+    "state": "Oregon",
+    "category": "5-Day Acknowledgment, 15-Day Response",
+    "description": "Acknowledge within 5 business days; respond within 15 business days unless justified extension",
+    "citation": "ORS 192.329",
+    "notes": "Two-stage structured timeline"
+  },
+  {
+    "state": "Oregon",
+    "category": "Written Request Required",
+    "description": "Request must be in writing with name, address, and description of records",
+    "citation": "ORS 192.329",
+    "notes": "Formal written requirement"
+  },
+  {
+    "state": "Oregon",
+    "category": "$25 Fee Estimate Trigger",
+    "description": "If fee will exceed $25, must provide written estimate and await confirmation",
+    "citation": "ORS 192.329",
+    "notes": "Cost transparency threshold"
+  },
+  {
+    "state": "Oregon",
+    "category": "District Attorney or AG Review",
+    "description": "May petition DA or AG to review denial; they can order production",
+    "citation": "ORS 192.450",
+    "notes": "Prosecutorial oversight option"
+  },
+  {
+    "state": "Pennsylvania",
+    "category": "Office of Open Records",
+    "description": "OOR handles appeals with appeals officers issuing determinations within 30 days",
+    "citation": "65 P.S. § 67.1101",
+    "notes": "Dedicated oversight agency"
+  },
+  {
+    "state": "Pennsylvania",
+    "category": "Open-Records Officer Required",
+    "description": "Each agency must designate open-records officer responsible for compliance",
+    "citation": "65 P.S. § 67.502",
+    "notes": "Mandatory designated contact"
+  },
+  {
+    "state": "Pennsylvania",
+    "category": "5-Day Response, 30-Day Fulfillment",
+    "description": "5 business days to respond; 30 days to fulfill unless scope requires extension",
+    "citation": "65 P.S. § 67.901",
+    "notes": "Two-stage process"
+  },
+  {
+    "state": "Pennsylvania",
+    "category": "Deemed Denied",
+    "description": "Failure to respond within 5 business days deems request denied",
+    "citation": "65 P.S. § 67.901",
+    "notes": "Automatic denial for non-response"
+  },
+  {
+    "state": "Pennsylvania",
+    "category": "15-Day Appeal Deadline",
+    "description": "Must appeal to OOR within 15 business days of denial or deemed denial",
+    "citation": "65 P.S. § 67.1301",
+    "notes": "Short appeal window"
+  },
+  {
+    "state": "Rhode Island",
+    "category": "10-Day Response, 20-Day Extension",
+    "description": "10 business days to respond; up to additional 20 days if voluminous/complex",
+    "citation": "R.I. Gen. Laws § 38-2-3",
+    "notes": "Substantial total time allowed"
+  },
+  {
+    "state": "Rhode Island",
+    "category": "First Hour Free",
+    "description": "No fee for first hour of search/retrieval time",
+    "citation": "R.I. Gen. Laws § 38-2-4",
+    "notes": "Initial search time free"
+  },
+  {
+    "state": "Rhode Island",
+    "category": "$15/Hour Maximum Search Fee",
+    "description": "Search fees cannot exceed $15/hour based on lowest paid capable employee",
+    "citation": "R.I. Gen. Laws § 38-2-4",
+    "notes": "Fee cap"
+  },
+  {
+    "state": "Rhode Island",
+    "category": "$1,000 Civil Fine",
+    "description": "Court may impose civil fine up to $1,000 for arbitrary or capricious denial",
+    "citation": "R.I. Gen. Laws § 38-2-5",
+    "notes": "Monetary penalty"
+  },
+  {
+    "state": "Rhode Island",
+    "category": "Attorney General Complaint Process",
+    "description": "May file complaint with AG who investigates and may institute court proceedings",
+    "citation": "R.I. Gen. Laws § 38-2-8",
+    "notes": "AG investigation option"
+  },
+  {
+    "state": "Rhode Island",
+    "category": "49th State to Enact",
+    "description": "Rhode Island was 49th state to enact FOIA law (1979)",
+    "citation": "R.I. Gen. Laws Chapter 38-2",
+    "notes": "Historical latecomer to transparency"
+  },
+  {
+    "state": "South Carolina",
+    "category": "15-Day Response, 30-Day Production",
+    "description": "15 calendar days to respond; 30 days to furnish (35 for records over 24 months old)",
+    "citation": "S.C. Code § 30-4-30",
+    "notes": "Calendar days (not business days)"
+  },
+  {
+    "state": "South Carolina",
+    "category": "25% Deposit if Over $25",
+    "description": "May require deposit up to 25% of estimated cost if reproduction exceeds $25",
+    "citation": "S.C. Code § 30-4-30",
+    "notes": "Partial advance payment"
+  },
+  {
+    "state": "South Carolina",
+    "category": "$500 Civil Fine",
+    "description": "$500 civil fine for arbitrary and capricious violations",
+    "citation": "S.C. Code § 30-4-100",
+    "notes": "Monetary penalty"
+  },
+  {
+    "state": "South Carolina",
+    "category": "Liberal Construction Mandate",
+    "description": "Must be construed liberally in favor of openness",
+    "citation": "S.C. Code § 30-4-110",
+    "notes": "Explicit construction standard"
+  },
+  {
+    "state": "South Carolina",
+    "category": "One-Year Statute of Limitations",
+    "description": "Action must be commenced within one year after person knew or should have known of violation",
+    "citation": "S.C. Code § 30-4-165",
+    "notes": "Time limit on challenges"
+  },
+  {
+    "state": "South Dakota",
+    "category": "Presumption Reversal (2009)",
+    "description": "Prior to 2009, records presumed confidential; SB 147 reversed to presumption of public access",
+    "citation": "SDCL 1-27-1",
+    "notes": "Major 2009 reform reversing presumption"
+  },
+  {
+    "state": "South Dakota",
+    "category": "50th in Transparency (2008)",
+    "description": "Better Government Association ranked South Dakota 50th for transparency in 2008",
+    "citation": "Historical",
+    "notes": "Pre-reform poor ranking"
+  },
+  {
+    "state": "South Dakota",
+    "category": "Office of Hearing Examiners",
+    "description": "Administrative appeals through hearing examiners with binding decisions",
+    "citation": "SDCL 1-27-38 through 1-27-43",
+    "notes": "Administrative law judge review"
+  },
+  {
+    "state": "South Dakota",
+    "category": "First Hour Free",
+    "description": "May charge fees after first hour of staff time",
+    "citation": "SDCL 1-27-35",
+    "notes": "Initial hour free"
+  },
+  {
+    "state": "South Dakota",
+    "category": "10-Day Response for Written Requests",
+    "description": "Written requests must receive response within 10 business days",
+    "citation": "SDCL 1-27-35",
+    "notes": "Deadline for written requests"
+  },
+  {
+    "state": "Tennessee",
+    "category": "Residency Requirement",
+    "description": "Only citizens of Tennessee have right to inspect and receive public records",
+    "citation": "T.C.A. § 10-7-503",
+    "notes": "Restricts to state residents only"
+  },
+  {
+    "state": "Tennessee",
+    "category": "7-Day Response Required",
+    "description": "Must respond within 7 business days: provide records, deny, or furnish completed response form with timeline",
+    "citation": "T.C.A. § 10-7-503",
+    "notes": "Structured response requirement"
+  },
+  {
+    "state": "Tennessee",
+    "category": "Public Records Request Coordinator",
+    "description": "Each entity must designate PRRC responsible for prompt and efficient processing",
+    "citation": "T.C.A. § 10-7-503",
+    "notes": "Mandatory designated coordinator"
+  },
+  {
+    "state": "Tennessee",
+    "category": "Office of Open Records Counsel",
+    "description": "Provides guidance, develops standard forms, assists with disputes",
+    "citation": "T.C.A. § 10-7-503",
+    "notes": "Oversight and assistance office"
+  },
+  {
+    "state": "Tennessee",
+    "category": "563 Exemptions",
+    "description": "As of 2018, 563 exemptions exist throughout Tennessee Code",
+    "citation": "Various",
+    "notes": "Extensive exemption structure"
+  },
+  {
+    "state": "Texas",
+    "category": "Attorney General Review",
+    "description": "Agencies must request AG opinion within 10 business days to withhold; AG decides within 45 working days",
+    "citation": "Texas Gov. Code Chapter 552",
+    "notes": "Mandatory AG review for withholding"
+  },
+  {
+    "state": "Texas",
+    "category": "Prompt Response Standard",
+    "description": "Must respond 'promptly' - reasonable time to produce information",
+    "citation": "Texas Gov. Code § 552.221",
+    "notes": "General promptness requirement"
+  },
+  {
+    "state": "Texas",
+    "category": "Third Party Notice",
+    "description": "Must notify third parties if proprietary information involved",
+    "citation": "Texas Gov. Code Chapter 552",
+    "notes": "Protects business interests"
+  },
+  {
+    "state": "Utah",
+    "category": "Government Records Ombudsman",
+    "description": "Independent ombudsman mediates disputes, provides guidance (non-binding)",
+    "citation": "Utah Code § 63G-2-601",
+    "notes": "Mediation support role"
+  },
+  {
+    "state": "Utah",
+    "category": "State Records Committee",
+    "description": "Committee schedules hearings within 5 days, issues binding orders",
+    "citation": "Utah Code § 63G-2-403",
+    "notes": "Administrative adjudication body"
+  },
+  {
+    "state": "Utah",
+    "category": "Four-Tier Classification",
+    "description": "Records classified as Public, Private, Controlled, or Protected",
+    "citation": "Utah Code § 63G-2-302 through 305",
+    "notes": "Structured classification system"
+  },
+  {
+    "state": "Utah",
+    "category": "Open Records Portal",
+    "description": "Statewide online portal for submitting requests, tracking status",
+    "citation": "Utah Code § 63G-2-204",
+    "notes": "Centralized electronic system"
+  },
+  {
+    "state": "Utah",
+    "category": "Expedited Response",
+    "description": "5 business days for expedited requests that benefit public",
+    "citation": "Utah Code § 63G-2-204",
+    "notes": "Fast track for public interest"
+  },
+  {
+    "state": "Utah",
+    "category": "First 10 Pages Free",
+    "description": "First 10 single-sided copies free; searches 15 minutes or less free",
+    "citation": "Utah Code § 63G-2-203",
+    "notes": "Substantial free access"
+  },
+  {
+    "state": "Vermont",
+    "category": "3-Day Response Required",
+    "description": "Record must be produced or certified exempt within 3 business days",
+    "citation": "1 V.S.A. § 316",
+    "notes": "Fastest statutory deadline"
+  },
+  {
+    "state": "Vermont",
+    "category": "First 30 Minutes Free",
+    "description": "Staff time charges only if request exceeds 30 minutes",
+    "citation": "1 V.S.A. § 316",
+    "notes": "Half-hour free search time"
+  },
+  {
+    "state": "Vermont",
+    "category": "Government as Servant",
+    "description": "Statute declares 'government is the servant of the people and not the master of them'",
+    "citation": "1 V.S.A. § 315",
+    "notes": "Strong philosophical declaration"
+  },
+  {
+    "state": "Vermont",
+    "category": "Specific Access Hours",
+    "description": "State agencies: 9 AM-12 PM and 1 PM-4 PM except weekends/holidays",
+    "citation": "1 V.S.A. § 316",
+    "notes": "Defined access windows"
+  },
+  {
+    "state": "Virginia",
+    "category": "No Administrative Appeals",
+    "description": "No administrative appeal process - direct court review only",
+    "citation": "Va. Code § 2.2-3713",
+    "notes": "Streamlined to judicial review"
+  },
+  {
+    "state": "Virginia",
+    "category": "FOIA Advisory Council",
+    "description": "Council provides guidance, training, advisory opinions, maintains FOIA officer directory",
+    "citation": "Va. Code § 2.2-3704",
+    "notes": "Advisory support structure"
+  },
+  {
+    "state": "Virginia",
+    "category": "5-Day Response with 7-Day Extension",
+    "description": "5 working days to respond; may extend 7 additional days (total 12 maximum)",
+    "citation": "Va. Code § 2.2-3704",
+    "notes": "Limited extension period"
+  },
+  {
+    "state": "Virginia",
+    "category": "7-Day Hearing Requirement",
+    "description": "Mandamus petition heard within 7 days of filing",
+    "citation": "Va. Code § 2.2-3713",
+    "notes": "Expedited judicial review"
+  },
+  {
+    "state": "Washington",
+    "category": "Mandatory Training",
+    "description": "PROs and governing body members must complete PRA training within 90 days; refresher every 4 years",
+    "citation": "RCW 42.56.152",
+    "notes": "Comprehensive training mandate"
+  },
+  {
+    "state": "Washington",
+    "category": "Public Records Officer Required",
+    "description": "Each agency must designate PRO as primary contact",
+    "citation": "RCW 42.56.580",
+    "notes": "Designated responsibility"
+  },
+  {
+    "state": "Washington",
+    "category": "Over 500 Exemptions",
+    "description": "More than 500 total exemptions throughout Washington statutes",
+    "citation": "RCW 42.56",
+    "notes": "Extensive exemption structure"
+  },
+  {
+    "state": "Washington",
+    "category": "$5-$100 Daily Penalty",
+    "description": "Daily penalty of $5-$100 per day for each day of violation",
+    "citation": "RCW 42.56.565",
+    "notes": "Ongoing financial penalty"
+  },
+  {
+    "state": "Washington",
+    "category": "Attorney General Model Rules",
+    "description": "AG maintains Model Rules (WAC 44-14) providing detailed guidance",
+    "citation": "RCW 42.56.070",
+    "notes": "Comprehensive regulatory guidance"
+  },
+  {
+    "state": "West Virginia",
+    "category": "No Search or Retrieval Fees",
+    "description": "Public body may NOT charge search or retrieval fee",
+    "citation": "W.Va. Code § 29B-1-3",
+    "notes": "Explicit prohibition on search fees"
+  },
+  {
+    "state": "West Virginia",
+    "category": "FOIA Request Database",
+    "description": "Secretary of State maintains publicly accessible online database of all FOIA requests since 2016",
+    "citation": "W.Va. Code § 29B-1-3A",
+    "notes": "Transparency about transparency"
+  },
+  {
+    "state": "West Virginia",
+    "category": "Mandatory Reporting",
+    "description": "Each agency must report nature of request, response, timeframe, and fees to Secretary of State",
+    "citation": "W.Va. Code § 29B-1-3A",
+    "notes": "Comprehensive tracking requirement"
+  },
+  {
+    "state": "West Virginia",
+    "category": "5-Day Response",
+    "description": "Respond within 5 business days",
+    "citation": "W.Va. Code § 29B-1-3",
+    "notes": "Clear deadline"
+  },
+  {
+    "state": "Wisconsin",
+    "category": "As Soon As Practicable Standard",
+    "description": "'As soon as practicable and without delay' - generally 10 business days for simple requests",
+    "citation": "Wis. Stat. § 19.35",
+    "notes": "Flexible timing standard"
+  },
+  {
+    "state": "Wisconsin",
+    "category": "No Fee for Inspection",
+    "description": "Cannot charge fee for providing access for inspection",
+    "citation": "Wis. Stat. § 19.35",
+    "notes": "Free inspection guaranteed"
+  },
+  {
+    "state": "Wisconsin",
+    "category": "$50 Location Fee Threshold",
+    "description": "May charge for locating records only if cost exceeds $50; must provide written estimate",
+    "citation": "Wis. Stat. § 19.35",
+    "notes": "High threshold for search fees"
+  },
+  {
+    "state": "Wisconsin",
+    "category": "Minimum $100 Damages",
+    "description": "Minimum $100 damages if court finds arbitrary and capricious denial",
+    "citation": "Wis. Stat. § 19.37",
+    "notes": "Guaranteed minimum penalty"
+  },
+  {
+    "state": "Wisconsin",
+    "category": "Presumption of Complete Public Access",
+    "description": "Statute construed with presumption of complete public access; denial contrary to public interest except in exceptional cases",
+    "citation": "Wis. Stat. § 19.31",
+    "notes": "Strongest presumption language"
+  },
+  {
+    "state": "Wyoming",
+    "category": "Public Records Ombudsman",
+    "description": "Governor designates ombudsman to assist public with access",
+    "citation": "W.S. § 16-4-201",
+    "notes": "Designated assistance role"
+  },
+  {
+    "state": "Wyoming",
+    "category": "7-Day Acknowledgment, 30-Day Production",
+    "description": "Acknowledge within 7 business days; produce within 30 calendar days",
+    "citation": "W.S. § 16-4-202",
+    "notes": "Two-stage timeline"
+  },
+  {
+    "state": "Wyoming",
+    "category": "Designated Records Person Required",
+    "description": "Each entity must designate public records person responsible for responding",
+    "citation": "W.S. § 16-4-202",
+    "notes": "Mandatory designee"
+  },
+  {
+    "state": "Wyoming",
+    "category": "Mandatory Training",
+    "description": "Training required for designated records person and other employees",
+    "citation": "W.S. § 16-4-202",
+    "notes": "Education requirement"
+  },
+  {
+    "state": "Federal",
+    "category": "20-Day Response",
+    "description": "20 business days to respond (excluding Saturdays, Sundays, legal holidays)",
+    "citation": "5 U.S.C. § 552(a)(6)(A)",
+    "notes": "Standard federal timeline"
+  },
+  {
+    "state": "Federal",
+    "category": "10-Day Extension for Unusual Circumstances",
+    "description": "May extend up to 10 additional working days in unusual circumstances",
+    "citation": "5 U.S.C. § 552(a)(6)(B)",
+    "notes": "Limited extension provision"
+  },
+  {
+    "state": "Federal",
+    "category": "Nine Statutory Exemptions",
+    "description": "Nine specific exemptions (b)(1) through (b)(9)",
+    "citation": "5 U.S.C. § 552(b)",
+    "notes": "Federal exemption structure"
+  },
+  {
+    "state": "Federal",
+    "category": "Chief FOIA Officer Required",
+    "description": "Each agency must designate Chief FOIA Officer",
+    "citation": "5 U.S.C. § 552",
+    "notes": "Leadership accountability"
+  },
+  {
+    "state": "Federal",
+    "category": "Electronic FOIA Portal Required",
+    "description": "Agencies must maintain electronic FOIA request portal",
+    "citation": "5 U.S.C. § 552",
+    "notes": "Mandatory online access"
+  },
+  {
+    "state": "Federal",
+    "category": "Fee Waiver for Missed Deadlines",
+    "description": "Search fees waived if agency fails to meet time limits",
+    "citation": "5 U.S.C. § 552(a)(4)(A)",
+    "notes": "Penalty for delays"
+  },
+  {
+    "state": "Federal",
+    "category": "Requester Categories",
+    "description": "Different fee structures for commercial, media, educational, and other requesters",
+    "citation": "5 U.S.C. § 552(a)(4)(A)(ii)",
+    "notes": "Tiered fee system"
+  }
+]

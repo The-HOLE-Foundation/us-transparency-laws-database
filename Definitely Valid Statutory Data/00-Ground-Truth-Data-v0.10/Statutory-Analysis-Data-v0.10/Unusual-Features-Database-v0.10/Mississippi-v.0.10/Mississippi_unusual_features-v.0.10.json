@@ -1,0 +1,23 @@
+[
+  {
+    "state": "Mississippi",
+    "category": "Sunset Provision",
+    "description": "Current statute expires July 1, 2028 - new legislation may be required",
+    "citation": "Miss. Code § 25-61-1 et seq.",
+    "notes": "Automatic expiration requires legislative reauthorization"
+  },
+  {
+    "state": "Mississippi",
+    "category": "One Working Day Default",
+    "description": "If no written procedures: provide access within 1 working day after written request",
+    "citation": "Miss. Code § 25-61-5",
+    "notes": "Rapid default timeline when no procedures exist"
+  },
+  {
+    "state": "Mississippi",
+    "category": "Agency-Specific Procedures",
+    "description": "Public bodies encouraged to adopt own reasonable written procedures for cost, time, place, method",
+    "citation": "Miss. Code § 25-61-5",
+    "notes": "Decentralized procedural flexibility"
+  }
+]

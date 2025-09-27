@@ -1,0 +1,37 @@
+[
+  {
+    "state": "South Dakota",
+    "category": "Presumption Reversal (2009)",
+    "description": "Prior to 2009, records presumed confidential; SB 147 reversed to presumption of public access",
+    "citation": "SDCL 1-27-1",
+    "notes": "Major 2009 reform reversing presumption"
+  },
+  {
+    "state": "South Dakota",
+    "category": "50th in Transparency (2008)",
+    "description": "Better Government Association ranked South Dakota 50th for transparency in 2008",
+    "citation": "Historical",
+    "notes": "Pre-reform poor ranking"
+  },
+  {
+    "state": "South Dakota",
+    "category": "Office of Hearing Examiners",
+    "description": "Administrative appeals through hearing examiners with binding decisions",
+    "citation": "SDCL 1-27-38 through 1-27-43",
+    "notes": "Administrative law judge review"
+  },
+  {
+    "state": "South Dakota",
+    "category": "First Hour Free",
+    "description": "May charge fees after first hour of staff time",
+    "citation": "SDCL 1-27-35",
+    "notes": "Initial hour free"
+  },
+  {
+    "state": "South Dakota",
+    "category": "10-Day Response for Written Requests",
+    "description": "Written requests must receive response within 10 business days",
+    "citation": "SDCL 1-27-35",
+    "notes": "Deadline for written requests"
+  }
+]

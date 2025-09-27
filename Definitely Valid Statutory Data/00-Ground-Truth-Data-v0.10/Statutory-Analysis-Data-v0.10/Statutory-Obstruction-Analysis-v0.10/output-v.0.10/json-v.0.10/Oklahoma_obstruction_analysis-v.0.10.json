@@ -1,0 +1,33 @@
+{
+  "state": "Oklahoma",
+  "vulnerabilities": [
+    {
+      "type": "Clarification Pause",
+      "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+      "severity": "HIGH",
+      "mechanism": "**Internal Process:**\n- Discuss concerns with custodian or agency head\n- Request clarification of exemption claims\n- Negotiate scope to reduce copying costs\n- Seek informal resolution before litigation\n\n### Phase 5: Judicial Enforcement\n**District Court Action:**\n- **Venue**: Oklahoma district court where public body is located\n- **Authority**: Court may order compliance with Open Records Act\n- **Standard**: Review of agency decision and application of exemptions\n- **Relief**: Mandamus, injuncti"
+    },
+    {
+      "type": "Fee Barriers",
+      "description": "Fee structure can be weaponized to deter requests",
+      "severity": "MEDIUM",
+      "mechanism": "  - Title 51 \u00a7 24A.1: Definitions and legislative intent\n  - Title 51 \u00a7 24A.5: Public access rights and timelines\n  - Title 51 \u00a7 24A.8: Fee provisions\n  - Title 51 \u00a7 24A.17: Exemptions from disclosure\n\n### Definitions\n- **Public Body**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**: Any record prepared or maintained by a public body\n- **Prompt Response**: Timely response within reasonable period (typically 3-5 business days)\n- **Custo"
+    },
+    {
+      "type": "Exemption Abuse",
+      "description": "Broad exemptions can be misapplied to withhold records",
+      "severity": "HIGH",
+      "mechanism": "  - Title 51 \u00a7 24A.5: Public access rights and timelines\n  - Title 51 \u00a7 24A.8: Fee provisions\n  - Title 51 \u00a7 24A.17: Exemptions from disclosure\n\n### Definitions\n- **Public Body**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**: Any record prepared or maintained by a public body\n- **Prompt Response**: Timely response within reasonable period (typically 3-5 business days)\n- **Custodian**: Official designated to maintain and provide acces"
+    },
+    {
+      "type": "Vague Timeline",
+      "description": "Response deadline is subjective rather than fixed",
+      "severity": "MEDIUM",
+      "mechanism": "Deadline defined as: Promptly (vague)"
+    }
+  ],
+  "timelines": {
+    "response_deadline": "Promptly (vague)"
+  },
+  "total_vulnerability_count": 4
+}

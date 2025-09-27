@@ -1,0 +1,26 @@
+type,severity,description,mechanism
+Fee Barriers,MEDIUM,Fee structure can be weaponized to deter requests,"---
+
+## Fee Structure
+
+### **Permitted Charges**
+- **Copying Costs**: Actual cost of duplication
+- **Reasonable Fees**: Must be tied to fulfillment costs
+- **Electronic Records**: Same fee standards as paper records
+
+### **Fee Limitations**
+- **Must be reasonable** and based on actual costs
+- **Cannot be punitive** or designed to discourage requests"
+Exemption Abuse,HIGH,Broad exemptions can be misapplied to withhold records,"---
+
+## Exemptions and Limitations
+
+### **Protected Information**
+- **Law enforcement**: Sensitive investigatory materials
+- **Privacy**: Personal information not related to public business
+- **Security**: Information that could compromise public safety
+- **Legal**: Attorney-client privileged communications
+
+### **Electronic Records Scope**
+- **Included**: Text messages, emails related to public business"
+Vague Timeline,MEDIUM,Response deadline is subjective rather than fixed,Deadline defined as: Reasonable time (vague)

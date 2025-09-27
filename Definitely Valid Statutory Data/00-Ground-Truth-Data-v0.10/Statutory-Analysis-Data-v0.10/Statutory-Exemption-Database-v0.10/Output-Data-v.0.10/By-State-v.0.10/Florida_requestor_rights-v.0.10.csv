@@ -1,0 +1,121 @@
+jurisdiction_name,jurisdiction_code,law_name,statute_citation,section_reference,category,subcategory,description,conditions,notes,extraction_date
+Florida,US-FL,Florida Sunshine Law,Citation not found,See statute,Request Process,"### Phase 1: Request Submission
+**Requester Actions:**
+- Request can be oral or written
+- No specifi","### Phase 1: Request Submission
+**Requester Actions:**
+- Request can be oral or written
+- No specific form required
+- Reasonably describe records sought
+- Specify inspection vs. copies","### Phase 1: Request Submission
+**Requester Actions:**
+- Request can be oral or written
+- No specific form required
+- Reasonably describe records sought
+- Specify inspection vs",Extracted from Phase 1: Request Submission,2025-09-26T13:52:18.296668
+Florida,US-FL,Florida Sunshine Law,Citation not found,See statute,Request Process,"**Agency Actions:**
+- Must respond promptly to oral requests
+- May require written confirmation for ","**Agency Actions:**
+- Must respond promptly to oral requests
+- May require written confirmation for large requests
+- Should acknowledge receipt and provide timeline","**Agency Actions:**
+- Must respond promptly to oral requests
+- May require written confirmation for large requests
+- Should acknowledge receipt and provide timeline",Extracted from Phase 1: Request Submission,2025-09-26T13:52:18.296669
+Florida,US-FL,Florida Sunshine Law,Citation not found,See statute,Request Process,"### Phase 2: Processing and Review
+**Agency Obligations:**
+- Locate responsive records promptly
+- Re","### Phase 2: Processing and Review
+**Agency Obligations:**
+- Locate responsive records promptly
+- Review for applicable exemptions
+- Prepare redacted versions if necessary
+- Calculate duplication costs","### Phase 2: Processing and Review
+**Agency Obligations:**
+- Locate responsive records promptly
+- Review for applicable exemptions
+- Prepare redacted versions if necessary
+- Calculate duplication costs",Extracted from Phase 2: Processing and Review,2025-09-26T13:52:18.296690
+Florida,US-FL,Florida Sunshine Law,Citation not found,See statute,Request Process,"**Custodian Responsibilities:**
+- Personal responsibility for compliance
+- Must ensure proper search","**Custodian Responsibilities:**
+- Personal responsibility for compliance
+- Must ensure proper search conducted
+- Authority to interpret exemptions initially","**Custodian Responsibilities:**
+- Personal responsibility for compliance
+- Must ensure proper search conducted
+- Authority to interpret exemptions initially",Extracted from Phase 2: Processing and Review,2025-09-26T13:52:18.296691
+Florida,US-FL,Florida Sunshine Law,Citation not found,See statute,General Rights,"### Phase 3: Production or Denial
+**For Released Records:**
+- Make available for inspection immediat","### Phase 3: Production or Denial
+**For Released Records:**
+- Make available for inspection immediately
+- Provide copies upon payment of fees
+- Must explain any redactions made
+- Provide in requested format if available","### Phase 3: Production or Denial
+**For Released Records:**
+- Make available for inspection immediately
+- Provide copies upon payment of fees
+- Must explain any redactions made
+- Provide in requested format if available",Extracted from Phase 3: Production or Denial,2025-09-26T13:52:18.296711
+Florida,US-FL,Florida Sunshine Law,Citation not found,See statute,General Rights,"**For Denied Records:**
+- Must cite specific statutory exemption
+- Explain basis for exemption claim","**For Denied Records:**
+- Must cite specific statutory exemption
+- Explain basis for exemption claim
+- Inform requester of appeal rights
+- Provide Attorney General contact information","**For Denied Records:**
+- Must cite specific statutory exemption
+- Explain basis for exemption claim
+- Inform requester of appeal rights
+- Provide Attorney General contact information",Extracted from Phase 3: Production or Denial,2025-09-26T13:52:18.296712
+Florida,US-FL,Florida Sunshine Law,Citation not found,See statute,Appeal Rights,"### Phase 4: Appeal Process
+**Administrative Appeal:**
+- File complaint with Attorney General
+- AG h","### Phase 4: Appeal Process
+**Administrative Appeal:**
+- File complaint with Attorney General
+- AG has 30 days to issue opinion
+- AG opinion binding on agencies
+- No cost to requester for AG review",No specific conditions stated,Extracted from Phase 4: Appeal Process,2025-09-26T13:52:18.296727
+Florida,US-FL,Florida Sunshine Law,Citation not found,§ 119,Appeal Rights,### Attorney General Enforcement (F.S,"### Attorney General Enforcement (F.S. § 119.10)
+**Administrative Process:**
+- File written complaint with AG
+- No filing fee required
+- AG issues binding opinion within 30 days
+- Agency must comply or face civil penalties","§ 119.10)
+**Administrative Process:**
+- File written complaint with AG
+- No filing fee required
+- AG issues binding opinion within 30 days
+- Agency must comply or face civil penalties",Extracted from Attorney General Enforcement (F.S. § 119.10),2025-09-26T13:52:18.296762
+Florida,US-FL,Florida Sunshine Law,Citation not found,§ 119,Appeal Rights,"**AG Opinion Process:**
+- Informal resolution attempts first
+- Formal written opinion if needed
+- Pu","**AG Opinion Process:**
+- Informal resolution attempts first
+- Formal written opinion if needed
+- Published opinions create precedent
+- Violation may result in suspension from office","**AG Opinion Process:**
+- Informal resolution attempts first
+- Formal written opinion if needed
+- Published opinions create precedent
+- Violation may result in suspension from office",Extracted from Attorney General Enforcement (F.S. § 119.10),2025-09-26T13:52:18.296764
+Florida,US-FL,Florida Sunshine Law,Citation not found,§ 119,Appeal Rights,### Civil Enforcement (F.S,"### Civil Enforcement (F.S. § 119.12)
+**Circuit Court Jurisdiction:**
+- Mandamus to compel production
+- Injunctive relief for ongoing violations
+- Civil penalties for willful violations
+- Attorney fees for prevailing plaintiffs","§ 119.12)
+**Circuit Court Jurisdiction:**
+- Mandamus to compel production
+- Injunctive relief for ongoing violations
+- Civil penalties for willful violations
+- Attorney fees for prevailing plaintiffs",Extracted from Civil Enforcement (F.S. § 119.12),2025-09-26T13:52:18.296790
+Florida,US-FL,Florida Sunshine Law,Citation not found,§ 119,Appeal Rights,**Attorney Fees (F.S,"**Attorney Fees (F.S. § 119.12):**
+- Mandatory for substantially prevailing plaintiffs
+- Reasonable fees and costs
+- Applies to both AG proceedings and court actions","§ 119.12):**
+- Mandatory for substantially prevailing plaintiffs
+- Reasonable fees and costs
+- Applies to both AG proceedings and court actions",Extracted from Civil Enforcement (F.S. § 119.12),2025-09-26T13:52:18.296791

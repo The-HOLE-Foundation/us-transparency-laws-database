@@ -1,0 +1,33 @@
+{
+  "state": "Vermont",
+  "vulnerabilities": [
+    {
+      "type": "Clarification Pause",
+      "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+      "severity": "HIGH",
+      "mechanism": "- Limited time for informal resolution due to 2-day deadline\n- Immediate escalation to agency head if needed\n- Rapid clarification of exemption claims\n- Quick negotiation of scope or format\n\n### Phase 5: Judicial Enforcement\n**Superior Court Action:**\n- **Venue**: Vermont Superior Court\n- **Authority**: Court may order compliance with Public Records Act\n- **First Amendment Protection**: Recent 2025 rulings support access rights\n- **Standard**: Review of agency compliance with 2-day requirement\n"
+    },
+    {
+      "type": "Fee Barriers",
+      "description": "Fee structure can be weaponized to deter requests",
+      "severity": "MEDIUM",
+      "mechanism": "  - 1 V.S.A. \u00a7 315: Definitions and legislative intent\n  - 1 V.S.A. \u00a7 316: Public access rights and timelines\n  - 1 V.S.A. \u00a7 317: Fee provisions\n  - 1 V.S.A. \u00a7 318: Exemptions from disclosure\n\n### **VERIFIED 2025 TIMELINE**\n- **2-Business-Day Response**: Confirmed as shortest mandatory timeline in United States\n- **Court Reinforcement**: 2025 First Amendment access rulings support timely disclosure\n- **No Extensions**: Statute provides no extension mechanism beyond 2 business days\n\n### Definitio"
+    },
+    {
+      "type": "Exemption Abuse",
+      "description": "Broad exemptions can be misapplied to withhold records",
+      "severity": "HIGH",
+      "mechanism": "  - 1 V.S.A. \u00a7 316: Public access rights and timelines\n  - 1 V.S.A. \u00a7 317: Fee provisions\n  - 1 V.S.A. \u00a7 318: Exemptions from disclosure\n\n### **VERIFIED 2025 TIMELINE**\n- **2-Business-Day Response**: Confirmed as shortest mandatory timeline in United States\n- **Court Reinforcement**: 2025 First Amendment access rulings support timely disclosure\n- **No Extensions**: Statute provides no extension mechanism beyond 2 business days\n\n### Definitions\n- **Public Agency**: All state and local government "
+    },
+    {
+      "type": "Vague Timeline",
+      "description": "Response deadline is subjective rather than fixed",
+      "severity": "MEDIUM",
+      "mechanism": "Deadline defined as: Reasonable time (vague)"
+    }
+  ],
+  "timelines": {
+    "response_deadline": "Reasonable time (vague)"
+  },
+  "total_vulnerability_count": 4
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "state": "Nebraska",
+    "category": "4-Day Response with Three Options",
+    "description": "Within 4 business days must: provide records, deny with citations, or explain delay with earliest date",
+    "citation": "Neb. Rev. Stat. § 84-712.01",
+    "notes": "Structured response requirement"
+  },
+  {
+    "state": "Nebraska",
+    "category": "Liberal Construction for Fiscal Records",
+    "description": "Liberal construction required for fiscal records, audits, vouchers, invoices, and public fund documents",
+    "citation": "Neb. Rev. Stat. § 84-712.03",
+    "notes": "Special presumption favoring financial transparency"
+  },
+  {
+    "state": "Nebraska",
+    "category": "Detailed Denial Requirements",
+    "description": "Denial must include description of withheld record contents and specific statutory citations",
+    "citation": "Neb. Rev. Stat. § 84-712.04",
+    "notes": "Comprehensive justification required"
+  }
+]

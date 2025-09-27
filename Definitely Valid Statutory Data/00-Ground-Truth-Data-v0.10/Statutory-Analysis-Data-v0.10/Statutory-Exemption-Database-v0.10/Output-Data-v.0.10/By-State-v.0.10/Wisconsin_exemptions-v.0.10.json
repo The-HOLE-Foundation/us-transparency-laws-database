@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "extraction_date": "2025-09-26T13:52:18.361974",
+    "total_records": 4,
+    "jurisdiction": "Wisconsin",
+    "data_source": "VERIFIED Process Maps",
+    "verification_date": "September 2025",
+    "categories": [
+      "Statutory Exemption"
+    ]
+  },
+  "records": [
+    {
+      "jurisdiction_name": "Wisconsin",
+      "jurisdiction_code": "US-WI",
+      "law_name": "Wisconsin Open Records Law",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Internal Agency Rules",
+      "description": "Cannot include administrative or overhead costs",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: No Overhead",
+      "extraction_date": "2025-09-26T13:52:18.360875"
+    },
+    {
+      "jurisdiction_name": "Wisconsin",
+      "jurisdiction_code": "US-WI",
+      "law_name": "Wisconsin Open Records Law",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "Must not exceed actual reproduction expenses",
+      "conditions": "Must not exceed actual reproduction expenses",
+      "notes": "Exemption type: No Profit",
+      "extraction_date": "2025-09-26T13:52:18.360882"
+    },
+    {
+      "jurisdiction_name": "Wisconsin",
+      "jurisdiction_code": "US-WI",
+      "law_name": "Wisconsin Open Records Law",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "May require prepayment for large requests exceeding $5",
+      "conditions": "May require prepayment for large requests exceeding $5",
+      "notes": "Exemption type: Advance Payment",
+      "extraction_date": "2025-09-26T13:52:18.360888"
+    },
+    {
+      "jurisdiction_name": "Wisconsin",
+      "jurisdiction_code": "US-WI",
+      "law_name": "Wisconsin Open Records Law",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "Must provide estimate for requests likely to exceed $5",
+      "conditions": "Must provide estimate for requests likely to exceed $5",
+      "notes": "Exemption type: Fee Estimate",
+      "extraction_date": "2025-09-26T13:52:18.360895"
+    }
+  ],
+  "records_by_category": {
+    "Statutory Exemption": [
+      {
+        "jurisdiction_name": "Wisconsin",
+        "jurisdiction_code": "US-WI",
+        "law_name": "Wisconsin Open Records Law",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Internal Agency Rules",
+        "description": "Cannot include administrative or overhead costs",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: No Overhead",
+        "extraction_date": "2025-09-26T13:52:18.360875"
+      },
+      {
+        "jurisdiction_name": "Wisconsin",
+        "jurisdiction_code": "US-WI",
+        "law_name": "Wisconsin Open Records Law",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "Must not exceed actual reproduction expenses",
+        "conditions": "Must not exceed actual reproduction expenses",
+        "notes": "Exemption type: No Profit",
+        "extraction_date": "2025-09-26T13:52:18.360882"
+      },
+      {
+        "jurisdiction_name": "Wisconsin",
+        "jurisdiction_code": "US-WI",
+        "law_name": "Wisconsin Open Records Law",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "May require prepayment for large requests exceeding $5",
+        "conditions": "May require prepayment for large requests exceeding $5",
+        "notes": "Exemption type: Advance Payment",
+        "extraction_date": "2025-09-26T13:52:18.360888"
+      },
+      {
+        "jurisdiction_name": "Wisconsin",
+        "jurisdiction_code": "US-WI",
+        "law_name": "Wisconsin Open Records Law",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "Must provide estimate for requests likely to exceed $5",
+        "conditions": "Must provide estimate for requests likely to exceed $5",
+        "notes": "Exemption type: Fee Estimate",
+        "extraction_date": "2025-09-26T13:52:18.360895"
+      }
+    ]
+  }
+}

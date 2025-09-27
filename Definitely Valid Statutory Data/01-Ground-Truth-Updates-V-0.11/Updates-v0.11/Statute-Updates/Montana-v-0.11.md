@@ -1,0 +1,1 @@
+October 2025 agency-level changes to procedures for special districts, requiring agencies to post contact information for records officers and update formats for digital document requests (not a broad statutory overhaul).

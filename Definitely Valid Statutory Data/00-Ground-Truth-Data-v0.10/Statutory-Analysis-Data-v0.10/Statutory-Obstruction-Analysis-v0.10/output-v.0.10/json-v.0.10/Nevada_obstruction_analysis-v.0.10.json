@@ -1,0 +1,39 @@
+{
+  "state": "Nevada",
+  "vulnerabilities": [
+    {
+      "type": "Clarification Pause",
+      "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+      "severity": "HIGH",
+      "mechanism": "**Internal Process:**\n- Discuss concerns with custodian or agency head\n- Request clarification of exemption claims or timeline\n- Negotiate scope or format to reduce costs\n- Seek informal resolution before litigation\n\n**Documentation:**\n- Preserve all communications with agency\n- Document any improper fee charges or unreasonable delays\n- Maintain evidence of public interest in disclosure\n- Note any pattern of non-compliance\n"
+    },
+    {
+      "type": "Fee Barriers",
+      "description": "Fee structure can be weaponized to deter requests",
+      "severity": "MEDIUM",
+      "mechanism": "  - NRS 239.0105: Public access rights\n  - NRS 239.011: Response timeline requirements\n  - NRS 239.052: Fee provisions\n  - NRS 239.010: Exemptions and confidentiality\n\n### Supporting Regulations\n- **Nevada Administrative Code (NAC) 239.926**: Records retention schedules\n- **NAC 239**: Administrative rules for records management\n- **Local Ordinances**: Municipal and county implementation rules\n\n### Definitions\n- **Public Body**: All state and local government agencies, including boards, commissio"
+    },
+    {
+      "type": "Vague Request Rejection",
+      "description": "Agencies can reject requests as too broad or vague",
+      "severity": "HIGH",
+      "mechanism": "Subjective interpretation allows denial of valid requests"
+    },
+    {
+      "type": "Exemption Abuse",
+      "description": "Broad exemptions can be misapplied to withhold records",
+      "severity": "HIGH",
+      "mechanism": "  - NRS 239.011: Response timeline requirements\n  - NRS 239.052: Fee provisions\n  - NRS 239.010: Exemptions and confidentiality\n\n### Supporting Regulations\n- **Nevada Administrative Code (NAC) 239.926**: Records retention schedules\n- **NAC 239**: Administrative rules for records management\n- **Local Ordinances**: Municipal and county implementation rules\n\n### Definitions\n- **Public Body**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**"
+    },
+    {
+      "type": "Vague Timeline",
+      "description": "Response deadline is subjective rather than fixed",
+      "severity": "MEDIUM",
+      "mechanism": "Deadline defined as: Reasonable time (vague)"
+    }
+  ],
+  "timelines": {
+    "response_deadline": "Reasonable time (vague)"
+  },
+  "total_vulnerability_count": 5
+}

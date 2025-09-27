@@ -1,0 +1,91 @@
+SOUTH CAROLINA FREEDOM OF INFORMATION ACT
+South Carolina Code Title 30, Chapter 4 - Freedom of Information Act
+Full Statute Text - Official Source: https://www.scstatehouse.gov/code/t30c004.php
+
+SOUTH CAROLINA FREEDOM OF INFORMATION ACT - SC CODE 30-4-10 ET SEQ.
+
+§ 30-4-10. Legislative intent.
+The General Assembly finds that it is vital in a democratic society that public business be performed in an open and public manner so that citizens shall be advised of the performance of public officials and of the decisions that are reached in public activity and in the formulation of public policy. Toward this end, provisions of this chapter must be construed so as to make it possible for citizens, or their representatives, to learn and report fully the activities of their public officials and the deliberations and decisions that go into the making of public policy. The General Assembly further finds that permitting secrecy to shroud the actions of public officials can only lead to inefficiency, wastefulness, and corruption in the governmental process.
+
+§ 30-4-20. Definitions.
+As used in this chapter:
+
+(a) "Public body" means any department of the State, a majority of directors or their representatives of departments within the executive branch of state government as outlined in Section 1-30-10, any state board, commission, agency, and authority, any public or governmental body or political subdivision of the State, including counties, municipalities, townships, school districts, and special purpose districts, or any organization, corporation, or agency supported in whole or in part by public funds or expending public funds.
+
+(b) "Meeting" means the convening of a quorum of the constituent membership of a public body, whether in person, by telephone conference, or through any electronic means, but not including electronic messaging, to discuss or act upon a matter over which the public body has supervision, control, jurisdiction, or advisory power.
+
+(c) "Public record" includes all books, papers, maps, photographs, cards, tapes, recordings, or other documentary materials regardless of physical form or characteristics prepared, owned, used, in the possession of, or retained by a public body. Records such as income tax returns, medical records, hospital medical staff reports, scholastic records, adoption records, records related to registration, and circulation of library materials which contain names or other personally identifying details regarding the users of public, private, academic, school, or special libraries and library systems, supported in whole or in part by public funds, or records which reveal the identity of the library patron checking out or requesting an item from the library or using other library services, except non-identifying administrative and statistical reports, are not considered to be made open to the public under this chapter.
+
+§ 30-4-30. Right to inspect or copy public records; fees; notification as to public availability of records.
+(A) Any person has a right to inspect or copy any public record of a public body, except as otherwise provided by Section 30-4-40, in accordance with reasonable rules concerning time and place of access.
+
+(B) A public body may establish fees for the actual costs of search, retrieval, and reproduction of records. If the cost of reproduction is greater than twenty-five dollars, the public body may require a deposit not exceeding twenty-five percent of the estimated cost prior to searching for or reproducing the records.
+
+(C) A public body shall respond to a request within fifteen calendar days by providing the record, providing a written explanation for the delay in providing the record, or providing a written explanation stating the basis for the refusal to provide the record.
+
+(D) If a request for records is granted, the records shall be furnished as promptly as reasonably possible, but no later than thirty calendar days from the date of the request, unless the request is for records that are more than twenty-four months old, in which case the public body has up to thirty-five calendar days to furnish the records.
+
+§ 30-4-40. Matters exempt from disclosure.
+The following matters are exempt from disclosure under this chapter unless disclosure is required by a court order:
+
+(1) Trade secrets, which are defined as unpatented, secret, commercially valuable plans, appliances, formulas, or processes, which are used for the making, preparing, compounding, treating, or processing of articles or materials which are trade commodities obtained from a person and are generally recognized as confidential; and information relating to the amount or source of any income, profits, losses, or expenditures of a person, firm, partnership, corporation, or association.
+
+(2) Information of a personal nature where the public disclosure thereof would constitute unreasonable invasion of personal privacy. Information relating to the medical condition or history of persons shall be exempt from disclosure.
+
+(3) Records of law enforcement and public safety agencies, the disclosure of which would:
+(a) interfere with law enforcement proceedings;
+(b) deprive a person of a fair trial or an impartial adjudication;
+(c) constitute an unwarranted invasion of personal privacy;
+(d) disclose the identity of a confidential source;
+(e) disclose confidential information furnished by a confidential source;
+(f) disclose investigative techniques and procedures; or
+(g) present a clear and present danger to the safety of law enforcement personnel or the general public.
+
+(4) Information contained in or related to examination, operation, or condition reports prepared by, on behalf of, or for the use of any agency responsible for the regulation or supervision of financial institutions.
+
+[Additional exemptions continue through subsection (22)]
+
+§ 30-4-50. Meeting to be open to public; recording permitted.
+(A) Every meeting of all public bodies shall be open to the public unless closed in accordance with Sections 30-4-70 and 30-4-71.
+
+(B) A public body conducting a meeting may not prohibit members of the public from recording the proceedings with cameras or sound equipment if the recording is not disruptive to the meeting.
+
+§ 30-4-100. Remedies.
+(A) Any citizen of this State may apply to the circuit court for a declaratory judgment, an injunction, or a writ of mandamus to enforce the provisions of this chapter. A suit may be brought in the county where the public body has its principal place of business or where a violation of this chapter is alleged to have occurred.
+
+(B) The court in its discretion may award reasonable attorney's fees and other costs of litigation to the plaintiff if he substantially prevails. The court in its discretion may award reasonable attorney's fees and other costs of litigation to the defendant if the court finds that the plaintiff's case is frivolous, malicious, or wholly without merit.
+
+(C) A public body that arbitrarily and capriciously violates the provisions of this chapter is subject to a civil fine of five hundred dollars for each violation.
+
+§ 30-4-110. Liberal construction; existing rights; severability.
+(A) This chapter must be construed liberally in favor of openness.
+
+(B) The provisions of this chapter are in addition to other provisions of law, and do not limit rights guaranteed by the State Constitution and laws of this State or the United States Constitution and laws.
+
+(C) If any provision of this chapter or the application thereof is held invalid, that invalidity does not affect other provisions or applications of this chapter which can be given effect without the invalid provision or application, and for this purpose the provisions of this chapter are severable.
+
+§ 30-4-165. Statute of limitations.
+An action to enforce any provision of this chapter must be commenced within one year after the person knew or should have known of the act or omission alleged to have violated this chapter.
+
+SUMMARY OF KEY PROVISIONS:
+
+1. DEFINITION: Public records include all documentary materials prepared, owned, used, or retained by public bodies
+
+2. ACCESS RIGHTS: Any person has right to inspect or copy public records with reasonable time/place restrictions
+
+3. REQUEST PROCESS: No specific format required; public body must respond within 15 calendar days
+
+4. RESPONSE TIME: Records provided within 30 days (35 days for records over 24 months old)
+
+5. FEES: Actual costs of search, retrieval, and reproduction; deposit up to 25% if cost exceeds $25
+
+6. EXEMPTIONS: Trade secrets, personal privacy, law enforcement records, financial institution reports, personnel records, etc.
+
+7. MEETINGS: All public body meetings must be open to public; recording permitted if not disruptive
+
+8. ENFORCEMENT: Circuit court action for declaratory judgment, injunction, or mandamus; attorney fees discretionary; $500 civil fine for arbitrary violations
+
+9. CONSTRUCTION: Liberal construction in favor of openness; one-year statute of limitations
+
+Last Updated: January 2025
+Source: South Carolina General Assembly - https://www.scstatehouse.gov/code/t30c004.php

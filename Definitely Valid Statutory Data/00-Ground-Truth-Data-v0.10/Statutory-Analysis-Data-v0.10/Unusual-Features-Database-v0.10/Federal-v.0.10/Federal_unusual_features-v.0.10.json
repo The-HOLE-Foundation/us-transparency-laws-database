@@ -1,0 +1,51 @@
+[
+  {
+    "state": "Federal",
+    "category": "20-Day Response",
+    "description": "20 business days to respond (excluding Saturdays, Sundays, legal holidays)",
+    "citation": "5 U.S.C. § 552(a)(6)(A)",
+    "notes": "Standard federal timeline"
+  },
+  {
+    "state": "Federal",
+    "category": "10-Day Extension for Unusual Circumstances",
+    "description": "May extend up to 10 additional working days in unusual circumstances",
+    "citation": "5 U.S.C. § 552(a)(6)(B)",
+    "notes": "Limited extension provision"
+  },
+  {
+    "state": "Federal",
+    "category": "Nine Statutory Exemptions",
+    "description": "Nine specific exemptions (b)(1) through (b)(9)",
+    "citation": "5 U.S.C. § 552(b)",
+    "notes": "Federal exemption structure"
+  },
+  {
+    "state": "Federal",
+    "category": "Chief FOIA Officer Required",
+    "description": "Each agency must designate Chief FOIA Officer",
+    "citation": "5 U.S.C. § 552",
+    "notes": "Leadership accountability"
+  },
+  {
+    "state": "Federal",
+    "category": "Electronic FOIA Portal Required",
+    "description": "Agencies must maintain electronic FOIA request portal",
+    "citation": "5 U.S.C. § 552",
+    "notes": "Mandatory online access"
+  },
+  {
+    "state": "Federal",
+    "category": "Fee Waiver for Missed Deadlines",
+    "description": "Search fees waived if agency fails to meet time limits",
+    "citation": "5 U.S.C. § 552(a)(4)(A)",
+    "notes": "Penalty for delays"
+  },
+  {
+    "state": "Federal",
+    "category": "Requester Categories",
+    "description": "Different fee structures for commercial, media, educational, and other requesters",
+    "citation": "5 U.S.C. § 552(a)(4)(A)(ii)",
+    "notes": "Tiered fee system"
+  }
+]

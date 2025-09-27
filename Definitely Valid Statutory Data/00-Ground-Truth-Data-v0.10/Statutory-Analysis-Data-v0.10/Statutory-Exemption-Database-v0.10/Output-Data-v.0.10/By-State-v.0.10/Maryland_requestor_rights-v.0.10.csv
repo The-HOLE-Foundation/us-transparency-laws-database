@@ -1,0 +1,147 @@
+jurisdiction_name,jurisdiction_code,law_name,statute_citation,section_reference,category,subcategory,description,conditions,notes,extraction_date
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,§ 10-614,Response Timeline,### Standard Timeline (SG § 10-614),### Standard Timeline (SG § 10-614),No specific conditions stated,Extracted from Standard Timeline (SG § 10614),2025-09-26T13:52:18.314233
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,§ 10-614,Response Timeline,: 30 calendar days from receipt of request,: 30 calendar days from receipt of request,No specific conditions stated,Extracted from Standard Timeline (SG § 10614),2025-09-26T13:52:18.314242
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,§ 10-614,Response Timeline,":
+  1",":
+  1. Provide requested records
+  2. Deny request with written explanation citing specific exemption
+  3. Provide written explanation for delay with estimated completion date","Deny request with written explanation citing specific exemption
+  3",Extracted from Standard Timeline (SG § 10614),2025-09-26T13:52:18.314254
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,See statute,Special Access,: No formal expedited process in MPIA,: No formal expedited process in MPIA,No specific conditions stated,Extracted from Expedited Processing,2025-09-26T13:52:18.314274
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,See statute,Special Access,: Some entities may prioritize urgent requests,: Some entities may prioritize urgent requests,: Some entities may prioritize urgent requests,Extracted from Expedited Processing,2025-09-26T13:52:18.314279
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,See statute,Special Access,: Agencies encouraged to provide immediate access when feasible,: Agencies encouraged to provide immediate access when feasible,: Agencies encouraged to provide immediate access when feasible,Extracted from Expedited Processing,2025-09-26T13:52:18.314285
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,§ 10-621,Fee Structure,### Allowable Fees (SG § 10-621),### Allowable Fees (SG § 10-621),No specific conditions stated,Extracted from Allowable Fees (SG § 10621),2025-09-26T13:52:18.314302
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,§ 10-621,Fee Structure,": Fees limited to reasonable costs of searching, reviewing, and copying",": Fees limited to reasonable costs of searching, reviewing, and copying",": Fees limited to reasonable costs of searching, reviewing, and copying",Extracted from Allowable Fees (SG § 10621),2025-09-26T13:52:18.314307
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,§ 10-621,Fee Structure,: All fees must be disclosed upfront before processing,: All fees must be disclosed upfront before processing,: All fees must be disclosed upfront before processing,Extracted from Allowable Fees (SG § 10621),2025-09-26T13:52:18.314312
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,§ 10-621,Fee Structure,": Charges for locating, reviewing, and preparing records",": Charges for locating, reviewing, and preparing records",No specific conditions stated,Extracted from Allowable Fees (SG § 10621),2025-09-26T13:52:18.314317
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,§ 10-621,Fee Structure,": Cost of duplication, electronic media, postage",": Cost of duplication, electronic media, postage",No specific conditions stated,Extracted from Allowable Fees (SG § 10621),2025-09-26T13:52:18.314322
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,See statute,Fee Structure,: Staff hourly rate for locating records,: Staff hourly rate for locating records,No specific conditions stated,Extracted from Fee Schedule Components,2025-09-26T13:52:18.314336
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,See statute,Fee Structure,: Staff time for examining records and applying exemptions,: Staff time for examining records and applying exemptions,No specific conditions stated,Extracted from Fee Schedule Components,2025-09-26T13:52:18.314341
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,See statute,Fee Structure,: Per-page charges for paper duplication,: Per-page charges for paper duplication,No specific conditions stated,Extracted from Fee Schedule Components,2025-09-26T13:52:18.314345
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,See statute,Fee Structure,: Costs for electronic format conversion,: Costs for electronic format conversion,No specific conditions stated,Extracted from Fee Schedule Components,2025-09-26T13:52:18.314351
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,See statute,Request Process,"### Phase 1: Request Submission
+**Requester Actions:**
+- Submit written request to appropriate publi","### Phase 1: Request Submission
+**Requester Actions:**
+- Submit written request to appropriate public body
+- Provide sufficient detail to identify records
+- Include contact information for response
+- Specify preferred format (paper, electronic)","### Phase 1: Request Submission
+**Requester Actions:**
+- Submit written request to appropriate public body
+- Provide sufficient detail to identify records
+- Include contact information for response
+- Specify preferred format (paper, electronic)",Extracted from Phase 1: Request Submission,2025-09-26T13:52:18.314381
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,See statute,Request Process,"**Agency Actions:**
+- Date-stamp request upon receipt
+- Assign to appropriate custodian
+- Begin 30-c","**Agency Actions:**
+- Date-stamp request upon receipt
+- Assign to appropriate custodian
+- Begin 30-calendar-day countdown
+- Send acknowledgment if required by agency policy","**Agency Actions:**
+- Date-stamp request upon receipt
+- Assign to appropriate custodian
+- Begin 30-calendar-day countdown
+- Send acknowledgment if required by agency policy",Extracted from Phase 1: Request Submission,2025-09-26T13:52:18.314383
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,See statute,Request Process,"### Phase 2: Processing
+**Agency Actions:**
+- Locate responsive records across departments
+- Review ","### Phase 2: Processing
+**Agency Actions:**
+- Locate responsive records across departments
+- Review records for applicable exemptions
+- Redact protected information as required
+- Calculate fees for search, review, and copying",No specific conditions stated,Extracted from Phase 2: Processing,2025-09-26T13:52:18.314405
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,See statute,Request Process,"**Timeline Management:**
+- Monitor 30-calendar-day deadline
+- Provide written notice if extension ne","**Timeline Management:**
+- Monitor 30-calendar-day deadline
+- Provide written notice if extension needed
+- Communicate with requester about status and fees","**Timeline Management:**
+- Monitor 30-calendar-day deadline
+- Provide written notice if extension needed
+- Communicate with requester about status and fees",Extracted from Phase 2: Processing,2025-09-26T13:52:18.314406
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,See statute,Response Timeline,"### Phase 3: Initial Response
+**Agency Must Provide:**
+- Written response within 30 calendar days
+- ","### Phase 3: Initial Response
+**Agency Must Provide:**
+- Written response within 30 calendar days
+- Access to public records or copies upon payment of fees
+- Specific explanation for any denials with citation to exemption
+- Information about appeal rights to MPIA Compliance Board","### Phase 3: Initial Response
+**Agency Must Provide:**
+- Written response within 30 calendar days
+- Access to public records or copies upon payment of fees
+- Specific explanation for any denials with citation to exemption
+- Information about appeal rights to MPIA Compliance Board",Extracted from Phase 3: Initial Response,2025-09-26T13:52:18.314421
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,See statute,Appeal Rights,"### Phase 4: Appeal Process
+**MPIA Compliance Board Appeal:**","### Phase 4: Appeal Process
+**MPIA Compliance Board Appeal:**",No specific conditions stated,Extracted from Phase 4: Appeal Process,2025-09-26T13:52:18.314438
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,See statute,Appeal Rights,: Public Information Act Compliance Board,: Public Information Act Compliance Board,No specific conditions stated,Extracted from Phase 4: Appeal Process,2025-09-26T13:52:18.314443
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,See statute,Appeal Rights,: No specific statutory deadline for filing appeal,: No specific statutory deadline for filing appeal,: No specific statutory deadline for filing appeal,Extracted from Phase 4: Appeal Process,2025-09-26T13:52:18.314447
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,See statute,Appeal Rights,: Administrative review of denial or inadequate response,: Administrative review of denial or inadequate response,No specific conditions stated,Extracted from Phase 4: Appeal Process,2025-09-26T13:52:18.314454
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,See statute,Appeal Rights,: Board has discretion on review timeline,: Board has discretion on review timeline,No specific conditions stated,Extracted from Phase 4: Appeal Process,2025-09-26T13:52:18.314466
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,See statute,Appeal Rights,"**Board Powers:**
+- Review agency decisions on access and fees
+- Issue recommendations for complianc","**Board Powers:**
+- Review agency decisions on access and fees
+- Issue recommendations for compliance
+- Mediate disputes between requesters and agencies
+- Make findings on proper application of exemptions",No specific conditions stated,Extracted from Phase 4: Appeal Process,2025-09-26T13:52:18.314467
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,See statute,Appeal Rights,"### Phase 5: Judicial Enforcement
+**Circuit Court Action:**","### Phase 5: Judicial Enforcement
+**Circuit Court Action:**",No specific conditions stated,Extracted from Phase 5: Judicial Enforcement,2025-09-26T13:52:18.314484
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,See statute,Appeal Rights,: Maryland circuit court where public body is located,: Maryland circuit court where public body is located,No specific conditions stated,Extracted from Phase 5: Judicial Enforcement,2025-09-26T13:52:18.314489
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,See statute,Appeal Rights,: Court may order compliance with MPIA,: Court may order compliance with MPIA,: Court may order compliance with MPIA,Extracted from Phase 5: Judicial Enforcement,2025-09-26T13:52:18.314494
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,See statute,Appeal Rights,: De novo review of agency decision and Board recommendation,: De novo review of agency decision and Board recommendation,No specific conditions stated,Extracted from Phase 5: Judicial Enforcement,2025-09-26T13:52:18.314499
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,See statute,Appeal Rights,": Mandamus, declaratory judgment, attorney fees",": Mandamus, declaratory judgment, attorney fees",No specific conditions stated,Extracted from Phase 5: Judicial Enforcement,2025-09-26T13:52:18.314510
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,See statute,Appeal Rights,"**Enforcement Powers:**
+- Compel disclosure of improperly withheld records
+- Order payment of attorn","**Enforcement Powers:**
+- Compel disclosure of improperly withheld records
+- Order payment of attorney fees for successful plaintiffs
+- Issue injunctive relief for ongoing compliance
+- Find public body in contempt for willful non-compliance","**Enforcement Powers:**
+- Compel disclosure of improperly withheld records
+- Order payment of attorney fees for successful plaintiffs
+- Issue injunctive relief for ongoing compliance
+- Find public body in contempt for willful non-compliance",Extracted from Phase 5: Judicial Enforcement,2025-09-26T13:52:18.314510
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,See statute,Appeal Rights,: Records may be withheld during ongoing investigation,: Records may be withheld during ongoing investigation,: Records may be withheld during ongoing investigation,Extracted from Law Enforcement Records,2025-09-26T13:52:18.314530
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,See statute,Appeal Rights,: Generally available after case closure,: Generally available after case closure,No specific conditions stated,Extracted from Law Enforcement Records,2025-09-26T13:52:18.314537
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,See statute,Appeal Rights,: Protected personal details of crime victims,: Protected personal details of crime victims,No specific conditions stated,Extracted from Law Enforcement Records,2025-09-26T13:52:18.314541
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,See statute,Appeal Rights,: Informant identities and related information,: Informant identities and related information,No specific conditions stated,Extracted from Law Enforcement Records,2025-09-26T13:52:18.314548
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,See statute,Fee Structure,"### Excessive Fees
+**Problem**: Unreasonable charges for record production
+**Workarounds**:
+- Reques","### Excessive Fees
+**Problem**: Unreasonable charges for record production
+**Workarounds**:
+- Request detailed fee breakdown and justification
+- Challenge fees as unreasonable to MPIA Compliance Board
+- Request public interest fee waiver
+- Negotiate reduced scope to minimize costs","### Excessive Fees
+**Problem**: Unreasonable charges for record production
+**Workarounds**:
+- Request detailed fee breakdown and justification
+- Challenge fees as unreasonable to MPIA Compliance Board
+- Request public interest fee waiver
+- Negotiate reduced scope to minimize costs",Extracted from Excessive Fees,2025-09-26T13:52:18.314566
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,See statute,General Rights,Internal Appeal,Agency head or designee review,No specific conditions stated,Extracted from Administrative Remedies,2025-09-26T13:52:18.314593
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,See statute,General Rights,MPIA Compliance Board,Administrative appeal for all public bodies,No specific conditions stated,Extracted from Administrative Remedies,2025-09-26T13:52:18.314594
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,See statute,General Rights,Legislative Oversight,General Assembly oversight of compliance,No specific conditions stated,Extracted from Administrative Remedies,2025-09-26T13:52:18.314595
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,See statute,General Rights,Political Pressure,"Elected officials, media attention",No specific conditions stated,Extracted from Administrative Remedies,2025-09-26T13:52:18.314595
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,See statute,General Rights,"### Judicial Remedies
+**Available Relief:**","### Judicial Remedies
+**Available Relief:**",No specific conditions stated,Extracted from Judicial Remedies,2025-09-26T13:52:18.314611
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,See statute,General Rights,: Court order requiring disclosure,: Court order requiring disclosure,No specific conditions stated,Extracted from Judicial Remedies,2025-09-26T13:52:18.314617
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,See statute,General Rights,: Clarification of MPIA obligations,: Clarification of MPIA obligations,: Clarification of MPIA obligations,Extracted from Judicial Remedies,2025-09-26T13:52:18.314623
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,See statute,General Rights,: Successful plaintiffs may recover reasonable fees,: Successful plaintiffs may recover reasonable fees,: Successful plaintiffs may recover reasonable fees,Extracted from Judicial Remedies,2025-09-26T13:52:18.314639
+Maryland,US-MD,Maryland Public Information Act (MPIA),Citation not found,See statute,General Rights,"**Strategic Considerations:**
+- Exhaust administrative appeal first for stronger court position
+- Do","**Strategic Considerations:**
+- Exhaust administrative appeal first for stronger court position
+- Document pattern of non-compliance or bad faith
+- Preserve evidence of public interest in disclosure
+- Consider media attention to pressure compliance",No specific conditions stated,Extracted from Judicial Remedies,2025-09-26T13:52:18.314640

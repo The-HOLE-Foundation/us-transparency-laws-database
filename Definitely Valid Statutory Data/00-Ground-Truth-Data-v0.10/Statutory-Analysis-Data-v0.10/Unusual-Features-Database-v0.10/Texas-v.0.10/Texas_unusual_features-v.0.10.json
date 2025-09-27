@@ -1,0 +1,23 @@
+[
+  {
+    "state": "Texas",
+    "category": "Attorney General Review",
+    "description": "Agencies must request AG opinion within 10 business days to withhold; AG decides within 45 working days",
+    "citation": "Texas Gov. Code Chapter 552",
+    "notes": "Mandatory AG review for withholding"
+  },
+  {
+    "state": "Texas",
+    "category": "Prompt Response Standard",
+    "description": "Must respond 'promptly' - reasonable time to produce information",
+    "citation": "Texas Gov. Code § 552.221",
+    "notes": "General promptness requirement"
+  },
+  {
+    "state": "Texas",
+    "category": "Third Party Notice",
+    "description": "Must notify third parties if proprietary information involved",
+    "citation": "Texas Gov. Code Chapter 552",
+    "notes": "Protects business interests"
+  }
+]

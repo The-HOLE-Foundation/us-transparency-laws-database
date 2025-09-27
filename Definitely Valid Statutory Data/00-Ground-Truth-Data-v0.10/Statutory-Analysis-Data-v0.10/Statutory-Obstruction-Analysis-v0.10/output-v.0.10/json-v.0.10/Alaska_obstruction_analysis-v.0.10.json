@@ -1,0 +1,27 @@
+{
+  "state": "Alaska",
+  "vulnerabilities": [
+    {
+      "type": "Fee Barriers",
+      "description": "Fee structure can be weaponized to deter requests",
+      "severity": "MEDIUM",
+      "mechanism": "  - AS \u00a7 40.25.110: Definitions and legislative intent\n  - AS \u00a7 40.25.110-122: Public access rights and procedures\n  - AS \u00a7 40.25.120: Fee provisions\n  - AS \u00a7 40.25.120: Exemptions from disclosure\n\n### Definitions\n- **Public Agency**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**: Any item, regardless of format, that documents the transaction of public business\n- **Business Days**: Monday through Friday, excluding state holidays\n- **C"
+    },
+    {
+      "type": "Exemption Abuse",
+      "description": "Broad exemptions can be misapplied to withhold records",
+      "severity": "HIGH",
+      "mechanism": "  - AS \u00a7 40.25.110-122: Public access rights and procedures\n  - AS \u00a7 40.25.120: Fee provisions\n  - AS \u00a7 40.25.120: Exemptions from disclosure\n\n### Definitions\n- **Public Agency**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**: Any item, regardless of format, that documents the transaction of public business\n- **Business Days**: Monday through Friday, excluding state holidays\n- **Custodian**: Official designated to maintain and provide"
+    },
+    {
+      "type": "Vague Timeline",
+      "description": "Response deadline is subjective rather than fixed",
+      "severity": "MEDIUM",
+      "mechanism": "Deadline defined as: Reasonable time (vague)"
+    }
+  ],
+  "timelines": {
+    "response_deadline": "Reasonable time (vague)"
+  },
+  "total_vulnerability_count": 3
+}

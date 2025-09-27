@@ -1,0 +1,33 @@
+{
+  "state": "Maine",
+  "vulnerabilities": [
+    {
+      "type": "Clarification Pause",
+      "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+      "severity": "HIGH",
+      "mechanism": "- **Public Interest**: Enhanced focus on transparency value\n- **Agency Accountability**: Scrutiny of exemption claims\n- **Reform Potential**: Possible legislative clarification of exemptions\n\n---\n\n## **2025 CRITICAL DEVELOPMENTS**\n\n### Legislative Investigation\n**DHHS Focus**: GOP lawmakers investigating Department of Health and Human Services\n**Expanding Scope**: Investigation of FOAA response problems growing\n**Bipartisan Concern**: Cross-party interest in transparency issues"
+    },
+    {
+      "type": "Fee Barriers",
+      "description": "Fee structure can be weaponized to deter requests",
+      "severity": "MEDIUM",
+      "mechanism": "  - 1 M.R.S. \u00a7 401: Definitions and legislative intent\n  - 1 M.R.S. \u00a7 408: Public access rights and timelines\n  - 1 M.R.S. \u00a7 409: Fee provisions\n  - 1 M.R.S. \u00a7 405: Exemptions from disclosure\n\n### **2025 Legislative Focus**\n- **DHHS Issues**: GOP lawmakers investigating Department of Health and Human Services FOAA response problems\n- **Timeline Concerns**: Legislative attention to lengthy response times\n- **Fee Issues**: Scrutiny of high fees charged by agencies\n- **Transparency Push**: Enhanced"
+    },
+    {
+      "type": "Exemption Abuse",
+      "description": "Broad exemptions can be misapplied to withhold records",
+      "severity": "HIGH",
+      "mechanism": "  - 1 M.R.S. \u00a7 408: Public access rights and timelines\n  - 1 M.R.S. \u00a7 409: Fee provisions\n  - 1 M.R.S. \u00a7 405: Exemptions from disclosure\n\n### **2025 Legislative Focus**\n- **DHHS Issues**: GOP lawmakers investigating Department of Health and Human Services FOAA response problems\n- **Timeline Concerns**: Legislative attention to lengthy response times\n- **Fee Issues**: Scrutiny of high fees charged by agencies\n- **Transparency Push**: Enhanced oversight of agency compliance\n\n### Definitions\n- **Pu"
+    },
+    {
+      "type": "Vague Timeline",
+      "description": "Response deadline is subjective rather than fixed",
+      "severity": "MEDIUM",
+      "mechanism": "Deadline defined as: Reasonable time (vague)"
+    }
+  ],
+  "timelines": {
+    "response_deadline": "Reasonable time (vague)"
+  },
+  "total_vulnerability_count": 4
+}

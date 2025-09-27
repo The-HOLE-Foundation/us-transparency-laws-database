@@ -1,0 +1,119 @@
+jurisdiction_name,jurisdiction_code,law_name,statute_citation,section_reference,category,subcategory,description,conditions,notes,extraction_date
+Utah,US-UT,Utah Government Records Access and Management Act (GRAMA),Citation not found,§ 63,Response Timeline,### Standard Timeline (UCA § 63G-2-203),### Standard Timeline (UCA § 63G-2-203),No specific conditions stated,Extracted from Standard Timeline (UCA § 63G2203),2025-09-26T13:52:18.350422
+Utah,US-UT,Utah Government Records Access and Management Act (GRAMA),Citation not found,§ 63,Response Timeline,: 10 business days from receipt of request,: 10 business days from receipt of request,No specific conditions stated,Extracted from Standard Timeline (UCA § 63G2203),2025-09-26T13:52:18.350428
+Utah,US-UT,Utah Government Records Access and Management Act (GRAMA),Citation not found,§ 63,Response Timeline,":
+  1",":
+  1. Provide requested records
+  2. Deny request with written explanation
+  3. Provide written explanation for delay or partial denial",No specific conditions stated,Extracted from Standard Timeline (UCA § 63G2203),2025-09-26T13:52:18.350439
+Utah,US-UT,Utah Government Records Access and Management Act (GRAMA),Citation not found,See statute,Special Access,: No formal expedited process in GRAMA,: No formal expedited process in GRAMA,No specific conditions stated,Extracted from Expedited Processing,2025-09-26T13:52:18.350456
+Utah,US-UT,Utah Government Records Access and Management Act (GRAMA),Citation not found,See statute,Special Access,: Some entities may prioritize urgent requests,: Some entities may prioritize urgent requests,: Some entities may prioritize urgent requests,Extracted from Expedited Processing,2025-09-26T13:52:18.350461
+Utah,US-UT,Utah Government Records Access and Management Act (GRAMA),Citation not found,See statute,Special Access,: Agencies encouraged to provide immediate access when possible,: Agencies encouraged to provide immediate access when possible,: Agencies encouraged to provide immediate access when possible,Extracted from Expedited Processing,2025-09-26T13:52:18.350467
+Utah,US-UT,Utah Government Records Access and Management Act (GRAMA),Citation not found,§ 63,Fee Structure,### Allowable Fees (UCA § 63G-2-204),### Allowable Fees (UCA § 63G-2-204),No specific conditions stated,Extracted from Allowable Fees (UCA § 63G2204),2025-09-26T13:52:18.350483
+Utah,US-UT,Utah Government Records Access and Management Act (GRAMA),Citation not found,§ 63,Fee Structure,: Fees limited to actual cost of providing records,: Fees limited to actual cost of providing records,: Fees limited to actual cost of providing records,Extracted from Allowable Fees (UCA § 63G2204),2025-09-26T13:52:18.350488
+Utah,US-UT,Utah Government Records Access and Management Act (GRAMA),Citation not found,§ 63,Fee Structure,": Reasonable charges for locating, preparing, and copying",": Reasonable charges for locating, preparing, and copying",No specific conditions stated,Extracted from Allowable Fees (UCA § 63G2204),2025-09-26T13:52:18.350493
+Utah,US-UT,Utah Government Records Access and Management Act (GRAMA),Citation not found,§ 63,Fee Structure,": Cost of paper, electronic media, postage",": Cost of paper, electronic media, postage",No specific conditions stated,Extracted from Allowable Fees (UCA § 63G2204),2025-09-26T13:52:18.350498
+Utah,US-UT,Utah Government Records Access and Management Act (GRAMA),Citation not found,§ 63,Fee Structure,: Electronic format conversion costs,: Electronic format conversion costs,No specific conditions stated,Extracted from Allowable Fees (UCA § 63G2204),2025-09-26T13:52:18.350503
+Utah,US-UT,Utah Government Records Access and Management Act (GRAMA),Citation not found,See statute,Fee Structure,: Staff hourly rate for locating records,: Staff hourly rate for locating records,No specific conditions stated,Extracted from Fee Schedule Components,2025-09-26T13:52:18.350516
+Utah,US-UT,Utah Government Records Access and Management Act (GRAMA),Citation not found,See statute,Fee Structure,: Per-page charges for duplication,: Per-page charges for duplication,No specific conditions stated,Extracted from Fee Schedule Components,2025-09-26T13:52:18.350521
+Utah,US-UT,Utah Government Records Access and Management Act (GRAMA),Citation not found,See statute,Fee Structure,: Programming time for database queries,: Programming time for database queries,No specific conditions stated,Extracted from Fee Schedule Components,2025-09-26T13:52:18.350526
+Utah,US-UT,Utah Government Records Access and Management Act (GRAMA),Citation not found,See statute,Fee Structure,: Additional fee for certified copies,: Additional fee for certified copies,: Additional fee for certified copies,Extracted from Fee Schedule Components,2025-09-26T13:52:18.350530
+Utah,US-UT,Utah Government Records Access and Management Act (GRAMA),Citation not found,See statute,Request Process,"### Phase 1: Request Submission
+**Requester Actions:**
+- Submit written request to appropriate gover","### Phase 1: Request Submission
+**Requester Actions:**
+- Submit written request to appropriate government entity
+- Provide sufficient detail to identify records
+- Include contact information
+- Specify preferred format (paper, electronic)","### Phase 1: Request Submission
+**Requester Actions:**
+- Submit written request to appropriate government entity
+- Provide sufficient detail to identify records
+- Include contact information
+- Specify preferred format (paper, electronic)",Extracted from Phase 1: Request Submission,2025-09-26T13:52:18.350559
+Utah,US-UT,Utah Government Records Access and Management Act (GRAMA),Citation not found,See statute,Request Process,"**Agency Actions:**
+- Date-stamp request upon receipt
+- Assign tracking number (best practice)
+- For","**Agency Actions:**
+- Date-stamp request upon receipt
+- Assign tracking number (best practice)
+- Forward to appropriate records custodian
+- Begin 10-business-day countdown",No specific conditions stated,Extracted from Phase 1: Request Submission,2025-09-26T13:52:18.350560
+Utah,US-UT,Utah Government Records Access and Management Act (GRAMA),Citation not found,See statute,Request Process,"### Phase 2: Processing
+**Agency Actions:**
+- Locate responsive records across departments
+- Review ","### Phase 2: Processing
+**Agency Actions:**
+- Locate responsive records across departments
+- Review records for classification (public, protected, private)
+- Redact protected information as required
+- Calculate fees for duplication and processing","### Phase 2: Processing
+**Agency Actions:**
+- Locate responsive records across departments
+- Review records for classification (public, protected, private)
+- Redact protected information as required
+- Calculate fees for duplication and processing",Extracted from Phase 2: Processing,2025-09-26T13:52:18.350580
+Utah,US-UT,Utah Government Records Access and Management Act (GRAMA),Citation not found,See statute,Request Process,"**Timeline Management:**
+- Monitor 10-business-day deadline
+- Provide written notice if extension ne","**Timeline Management:**
+- Monitor 10-business-day deadline
+- Provide written notice if extension needed
+- Communicate regularly with requester about status","**Timeline Management:**
+- Monitor 10-business-day deadline
+- Provide written notice if extension needed
+- Communicate regularly with requester about status",Extracted from Phase 2: Processing,2025-09-26T13:52:18.350581
+Utah,US-UT,Utah Government Records Access and Management Act (GRAMA),Citation not found,See statute,Response Timeline,"### Phase 3: Initial Response
+**Agency Must Provide:**
+- Written response within 10 business days
+- ","### Phase 3: Initial Response
+**Agency Must Provide:**
+- Written response within 10 business days
+- Access to public records or copies upon payment
+- Specific explanation for any denials or redactions
+- Citation to applicable GRAMA exemption
+- Information about appeal rights","### Phase 3: Initial Response
+**Agency Must Provide:**
+- Written response within 10 business days
+- Access to public records or copies upon payment
+- Specific explanation for any denials or redactions
+- Citation to applicable GRAMA exemption
+- Information about appeal rights",Extracted from Phase 3: Initial Response,2025-09-26T13:52:18.350595
+Utah,US-UT,Utah Government Records Access and Management Act (GRAMA),Citation not found,See statute,Appeal Rights,"### Phase 4: Appeal Process
+**Administrative Appeal:**","### Phase 4: Appeal Process
+**Administrative Appeal:**",No specific conditions stated,Extracted from Phase 4: Appeal Process,2025-09-26T13:52:18.350611
+Utah,US-UT,Utah Government Records Access and Management Act (GRAMA),Citation not found,See statute,Appeal Rights,: No specific deadline in statute,: No specific deadline in statute,: No specific deadline in statute,Extracted from Phase 4: Appeal Process,2025-09-26T13:52:18.350615
+Utah,US-UT,Utah Government Records Access and Management Act (GRAMA),Citation not found,See statute,Appeal Rights,: Government entity head or designee,: Government entity head or designee,No specific conditions stated,Extracted from Phase 4: Appeal Process,2025-09-26T13:52:18.350620
+Utah,US-UT,Utah Government Records Access and Management Act (GRAMA),Citation not found,See statute,Appeal Rights,": Review of denial, fees, adequacy of search",": Review of denial, fees, adequacy of search",No specific conditions stated,Extracted from Phase 4: Appeal Process,2025-09-26T13:52:18.350625
+Utah,US-UT,Utah Government Records Access and Management Act (GRAMA),Citation not found,See statute,Appeal Rights,: No statutory deadline for appeal decision,: No statutory deadline for appeal decision,No specific conditions stated,Extracted from Phase 4: Appeal Process,2025-09-26T13:52:18.350630
+Utah,US-UT,Utah Government Records Access and Management Act (GRAMA),Citation not found,See statute,Appeal Rights,: Appeal to State Records Committee,: Appeal to State Records Committee,No specific conditions stated,Extracted from Phase 4: Appeal Process,2025-09-26T13:52:18.350635
+Utah,US-UT,Utah Government Records Access and Management Act (GRAMA),Citation not found,See statute,Appeal Rights,: Formal administrative proceeding,: Formal administrative proceeding,No specific conditions stated,Extracted from Phase 4: Appeal Process,2025-09-26T13:52:18.350641
+Utah,US-UT,Utah Government Records Access and Management Act (GRAMA),Citation not found,See statute,Appeal Rights,: Binding decisions on state agencies,: Binding decisions on state agencies,No specific conditions stated,Extracted from Phase 4: Appeal Process,2025-09-26T13:52:18.350646
+Utah,US-UT,Utah Government Records Access and Management Act (GRAMA),Citation not found,See statute,Appeal Rights,: Generally public after investigation complete,: Generally public after investigation complete,No specific conditions stated,Extracted from Law Enforcement Records,2025-09-26T13:52:18.350669
+Utah,US-UT,Utah Government Records Access and Management Act (GRAMA),Citation not found,See statute,Appeal Rights,: Methods and procedures protected,: Methods and procedures protected,No specific conditions stated,Extracted from Law Enforcement Records,2025-09-26T13:52:18.350677
+Utah,US-UT,Utah Government Records Access and Management Act (GRAMA),Citation not found,See statute,Fee Structure,"### Excessive Fees
+**Problem**: Unreasonable charges for record production
+**Workarounds**:
+- Reques","### Excessive Fees
+**Problem**: Unreasonable charges for record production
+**Workarounds**:
+- Request detailed fee breakdown
+- Compare to other agencies' fee schedules
+- Challenge fees as unreasonable
+- Negotiate reduced scope to minimize costs",No specific conditions stated,Extracted from Excessive Fees,2025-09-26T13:52:18.350695
+Utah,US-UT,Utah Government Records Access and Management Act (GRAMA),Citation not found,See statute,General Rights,Internal Appeal,Agency head or designee review,No specific conditions stated,Extracted from Administrative Remedies,2025-09-26T13:52:18.350722
+Utah,US-UT,Utah Government Records Access and Management Act (GRAMA),Citation not found,See statute,General Rights,State Records Committee,For state agency appeals,No specific conditions stated,Extracted from Administrative Remedies,2025-09-26T13:52:18.350723
+Utah,US-UT,Utah Government Records Access and Management Act (GRAMA),Citation not found,See statute,General Rights,Legislative Oversight,Utah State Archives and Records Service,No specific conditions stated,Extracted from Administrative Remedies,2025-09-26T13:52:18.350724
+Utah,US-UT,Utah Government Records Access and Management Act (GRAMA),Citation not found,See statute,General Rights,Political Pressure,"Elected officials, media attention",No specific conditions stated,Extracted from Administrative Remedies,2025-09-26T13:52:18.350725
+Utah,US-UT,Utah Government Records Access and Management Act (GRAMA),Citation not found,See statute,General Rights,"### Judicial Remedies
+**Available Relief:**","### Judicial Remedies
+**Available Relief:**",No specific conditions stated,Extracted from Judicial Remedies,2025-09-26T13:52:18.350740
+Utah,US-UT,Utah Government Records Access and Management Act (GRAMA),Citation not found,See statute,General Rights,: Court order requiring disclosure,: Court order requiring disclosure,No specific conditions stated,Extracted from Judicial Remedies,2025-09-26T13:52:18.350745
+Utah,US-UT,Utah Government Records Access and Management Act (GRAMA),Citation not found,See statute,General Rights,: Successful plaintiffs may recover fees,: Successful plaintiffs may recover fees,: Successful plaintiffs may recover fees,Extracted from Judicial Remedies,2025-09-26T13:52:18.350752
+Utah,US-UT,Utah Government Records Access and Management Act (GRAMA),Citation not found,See statute,General Rights,: Clarification of GRAMA obligations,: Clarification of GRAMA obligations,: Clarification of GRAMA obligations,Extracted from Judicial Remedies,2025-09-26T13:52:18.350765
+Utah,US-UT,Utah Government Records Access and Management Act (GRAMA),Citation not found,See statute,General Rights,"**Strategic Considerations:**
+- Exhaust administrative appeals first
+- Document pattern of non-compl","**Strategic Considerations:**
+- Exhaust administrative appeals first
+- Document pattern of non-compliance
+- Preserve evidence of public interest
+- Consider class action for systemic violations",No specific conditions stated,Extracted from Judicial Remedies,2025-09-26T13:52:18.350765

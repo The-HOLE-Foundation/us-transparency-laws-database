@@ -1,0 +1,98 @@
+jurisdiction_name,jurisdiction_code,law_name,statute_citation,section_reference,category,subcategory,description,conditions,notes,extraction_date
+Texas,US-TX,Texas Public Information Act,Citation not found,See statute,Response Timeline,## Response Timeline Framework (VERIFIED 2025),## Response Timeline Framework (VERIFIED 2025),## Response Timeline Framework (VERIFIED 2025),Extracted from Response Timeline Framework (VERIFIED 2025),2025-09-26T13:52:18.348683
+Texas,US-TX,Texas Public Information Act,Citation not found,See statute,Fee Structure,## Fee Structure (VERIFIED 2025),## Fee Structure (VERIFIED 2025),## Fee Structure (VERIFIED 2025),Extracted from Fee Structure (VERIFIED 2025),2025-09-26T13:52:18.348693
+Texas,US-TX,Texas Public Information Act,Citation not found,See statute,Request Process,"### Phase 1: Request Submission
+**Requirements**:
+- Must be in writing (confirmed 2025 requirement)
+","### Phase 1: Request Submission
+**Requirements**:
+- Must be in writing (confirmed 2025 requirement)
+- Sufficiently specific to allow location of records
+- May be submitted by any person (not just Texas residents)
+- No required form, but agencies may provide preferred format","### Phase 1: Request Submission
+**Requirements**:
+- Must be in writing (confirmed 2025 requirement)
+- Sufficiently specific to allow location of records
+- May be submitted by any person (not just Texas residents)
+- No required form, but agencies may provide preferred format",Extracted from Phase 1: Request Submission,2025-09-26T13:52:18.348721
+Texas,US-TX,Texas Public Information Act,Citation not found,See statute,Request Process,"**Best Practices**:
+- Email to designated Public Information Officer
+- Include specific date ranges ","**Best Practices**:
+- Email to designated Public Information Officer
+- Include specific date ranges and document types
+- Reference previous similar successful requests
+- State fee waiver justification upfront","**Best Practices**:
+- Email to designated Public Information Officer
+- Include specific date ranges and document types
+- Reference previous similar successful requests
+- State fee waiver justification upfront",Extracted from Phase 1: Request Submission,2025-09-26T13:52:18.348722
+Texas,US-TX,Texas Public Information Act,Citation not found,See statute,Response Timeline,"### Phase 2: Agency Response (THE CRITICAL PHASE)
+**Day 1-10: Standard Response Window**
+Agency must","### Phase 2: Agency Response (THE CRITICAL PHASE)
+**Day 1-10: Standard Response Window**
+Agency must either:
+- Release the information
+- Seek Attorney General opinion to withhold","### Phase 2: Agency Response (THE CRITICAL PHASE)
+**Day 1-10: Standard Response Window**
+Agency must either:
+- Release the information
+- Seek Attorney General opinion to withhold",Extracted from Phase 2: Agency Response (THE CRITICAL PHASE),2025-09-26T13:52:18.348744
+Texas,US-TX,Texas Public Information Act,Citation not found,See statute,Response Timeline,"Request ""clarification"" (THE PAUSE BUTTON)","Request ""clarification"" (THE PAUSE BUTTON)","Request ""clarification"" (THE PAUSE BUTTON)",Extracted from Phase 2: Agency Response (THE CRITICAL PHASE),2025-09-26T13:52:18.348748
+Texas,US-TX,Texas Public Information Act,Citation not found,See statute,Response Timeline,"**Clarification Request Tactics**:
+- ""Please clarify what specific documents you want""
+- ""Please nar","**Clarification Request Tactics**:
+- ""Please clarify what specific documents you want""
+- ""Please narrow your date range""
+- ""Please define [common term] in your request""
+- ""We need clarification about [obvious element]""","**Clarification Request Tactics**:
+- ""Please clarify what specific documents you want""
+- ""Please narrow your date range""
+- ""Please define [common term] in your request""
+- ""We need clarification about [obvious element]""",Extracted from Phase 2: Agency Response (THE CRITICAL PHASE),2025-09-26T13:52:18.348760
+Texas,US-TX,Texas Public Information Act,Citation not found,See statute,Response Timeline,"**Strategic Response to Clarification Requests**:
+- Challenge unnecessary clarification requests in ","**Strategic Response to Clarification Requests**:
+- Challenge unnecessary clarification requests in writing
+- Cite specific examples of similar successful requests
+- Demand explanation of what is genuinely unclear
+- Set reasonable deadline for agency response to clarification","**Strategic Response to Clarification Requests**:
+- Challenge unnecessary clarification requests in writing
+- Cite specific examples of similar successful requests
+- Demand explanation of what is genuinely unclear
+- Set reasonable deadline for agency response to clarification",Extracted from Phase 2: Agency Response (THE CRITICAL PHASE),2025-09-26T13:52:18.348761
+Texas,US-TX,Texas Public Information Act,Citation not found,See statute,General Rights,"### Phase 3: Financial Barriers
+**Cost Estimate Phase**:
+- Agency provides estimate (often inflated)","### Phase 3: Financial Barriers
+**Cost Estimate Phase**:
+- Agency provides estimate (often inflated)
+- May demand payment before work begins
+- Can claim ""programming"" for routine database queries
+- No appeal process for fee disputes","### Phase 3: Financial Barriers
+**Cost Estimate Phase**:
+- Agency provides estimate (often inflated)
+- May demand payment before work begins
+- Can claim ""programming"" for routine database queries
+- No appeal process for fee disputes",Extracted from Phase 3: Financial Barriers,2025-09-26T13:52:18.348786
+Texas,US-TX,Texas Public Information Act,Citation not found,See statute,General Rights,"**Fee Challenge Strategies**:
+- Request detailed breakdown of time estimates
+- Challenge ""programmin","**Fee Challenge Strategies**:
+- Request detailed breakdown of time estimates
+- Challenge ""programming"" characterization for simple searches
+- Demand justification for hourly rates charged
+- Seek fee waiver based on public interest","**Fee Challenge Strategies**:
+- Request detailed breakdown of time estimates
+- Challenge ""programming"" characterization for simple searches
+- Demand justification for hourly rates charged
+- Seek fee waiver based on public interest",Extracted from Phase 3: Financial Barriers,2025-09-26T13:52:18.348787
+Texas,US-TX,Texas Public Information Act,Citation not found,See statute,Appeal Rights,"### Judicial Enforcement
+**Court Venue**: District court in county where records located
+**Legal Sta","### Judicial Enforcement
+**Court Venue**: District court in county where records located
+**Legal Standard**: Mandamus action to compel disclosure
+**Attorney Fees**: Available if requester ""substantially prevails""
+**Timeline**: 6-12 months typical for resolution
+**Costs**: Can be significant but recoverable if successful","### Judicial Enforcement
+**Court Venue**: District court in county where records located
+**Legal Standard**: Mandamus action to compel disclosure
+**Attorney Fees**: Available if requester ""substantially prevails""
+**Timeline**: 6-12 months typical for resolution
+**Costs**: Can be significant but reco",Extracted from Judicial Enforcement,2025-09-26T13:52:18.348818

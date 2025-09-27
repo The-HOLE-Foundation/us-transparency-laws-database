@@ -1,0 +1,23 @@
+[
+  {
+    "state": "Delaware",
+    "category": "Web Portal Requirement",
+    "description": "All state agencies and public bodies must develop web portals for receiving FOIA requests using AG standard form",
+    "citation": "29 Del. C. § 10003(c)",
+    "notes": "Mandatory online request infrastructure"
+  },
+  {
+    "state": "Delaware",
+    "category": "First 20 Pages Free",
+    "description": "First 20 pages of standard black and white material provided free of charge",
+    "citation": "29 Del. C. § 10005(a)",
+    "notes": "Substantial free access before fees apply"
+  },
+  {
+    "state": "Delaware",
+    "category": "Attorney General Determination Process",
+    "description": "Citizens may petition AG for determination of whether violation occurred; AG must respond within 30 days",
+    "citation": "29 Del. C. § 10006(c)",
+    "notes": "Administrative review option before court"
+  }
+]

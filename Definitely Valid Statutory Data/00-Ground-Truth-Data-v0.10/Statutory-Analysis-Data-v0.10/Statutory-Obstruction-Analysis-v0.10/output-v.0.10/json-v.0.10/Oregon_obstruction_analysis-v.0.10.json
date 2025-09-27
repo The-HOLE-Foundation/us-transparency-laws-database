@@ -1,0 +1,33 @@
+{
+  "state": "Oregon",
+  "vulnerabilities": [
+    {
+      "type": "Clarification Pause",
+      "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+      "severity": "HIGH",
+      "mechanism": "**Available Relief:**\n- **Mandamus**: Court order requiring disclosure within reasonable time\n- **Declaratory Judgment**: Clarification of reasonable timeline requirements\n- **Injunctive Relief**: Ongoing compliance orders\n- **Attorney Fees**: Recovery of reasonable fees for successful enforcement\n\n---\n\n## Strategic Recommendations\n\n### For Effective Oregon Public Records Practice\n1. **Timeline Negotiation**: Work with agency to establish reasonable timeline upfront"
+    },
+    {
+      "type": "Fee Barriers",
+      "description": "Fee structure can be weaponized to deter requests",
+      "severity": "MEDIUM",
+      "mechanism": "  - ORS 192.311: Definitions and legislative intent\n  - ORS 192.324: Public access rights and timelines\n  - ORS 192.440: Fee provisions\n  - ORS 192.345: Exemptions from disclosure\n\n### **2025 Updates**\n- **Portland Rules**: Updated public records rules effective January 2025\n- **Fee Notification**: Enhanced requirements for fee disclosure over $25\n- **Transparency Initiatives**: Counties implementing new transparency policies\n\n### Definitions\n- **Public Body**: All state and local government age"
+    },
+    {
+      "type": "Exemption Abuse",
+      "description": "Broad exemptions can be misapplied to withhold records",
+      "severity": "HIGH",
+      "mechanism": "  - ORS 192.324: Public access rights and timelines\n  - ORS 192.440: Fee provisions\n  - ORS 192.345: Exemptions from disclosure\n\n### **2025 Updates**\n- **Portland Rules**: Updated public records rules effective January 2025\n- **Fee Notification**: Enhanced requirements for fee disclosure over $25\n- **Transparency Initiatives**: Counties implementing new transparency policies\n\n### Definitions\n- **Public Body**: All state and local government agencies, including boards, commissions, and authoritie"
+    },
+    {
+      "type": "Vague Timeline",
+      "description": "Response deadline is subjective rather than fixed",
+      "severity": "MEDIUM",
+      "mechanism": "Deadline defined as: Reasonable time (vague)"
+    }
+  ],
+  "timelines": {
+    "response_deadline": "Reasonable time (vague)"
+  },
+  "total_vulnerability_count": 4
+}

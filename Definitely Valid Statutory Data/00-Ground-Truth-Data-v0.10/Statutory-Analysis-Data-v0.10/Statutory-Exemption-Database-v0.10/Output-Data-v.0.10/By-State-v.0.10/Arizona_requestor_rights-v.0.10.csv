@@ -1,0 +1,53 @@
+jurisdiction_name,jurisdiction_code,law_name,statute_citation,section_reference,category,subcategory,description,conditions,notes,extraction_date
+Arizona,US-AZ,Arizona Public Records Law,Citation not found,§ 39-121,Response Timeline,### Standard Response Timeline (ARS § 39-121.01),### Standard Response Timeline (ARS § 39-121.01),No specific conditions stated,Extracted from Standard Response Timeline (ARS § 39121.01),2025-09-26T13:52:18.285576
+Arizona,US-AZ,Arizona Public Records Law,Citation not found,§ 39-121,Response Timeline,: No specific deadline but must be reasonable,: No specific deadline but must be reasonable,: No specific deadline but must be reasonable,Extracted from Standard Response Timeline (ARS § 39121.01),2025-09-26T13:52:18.285581
+Arizona,US-AZ,Arizona Public Records Law,Citation not found,§ 39-121,Response Timeline,: Simple records available immediately,: Simple records available immediately,No specific conditions stated,Extracted from Standard Response Timeline (ARS § 39121.01),2025-09-26T13:52:18.285588
+Arizona,US-AZ,Arizona Public Records Law,Citation not found,§ 39-121,Response Timeline,: Extended time with justification,: Extended time with justification,: Extended time with justification,Extracted from Standard Response Timeline (ARS § 39121.01),2025-09-26T13:52:18.285592
+Arizona,US-AZ,Arizona Public Records Law,Citation not found,See statute,Request Process,"### Phase 1: Request Submission
+**Requester Actions:**
+- Submit request (oral or written acceptable)","### Phase 1: Request Submission
+**Requester Actions:**
+- Submit request (oral or written acceptable)
+- Reasonably describe records sought
+- Specify inspection vs. copies
+- Provide contact information","### Phase 1: Request Submission
+**Requester Actions:**
+- Submit request (oral or written acceptable)
+- Reasonably describe records sought
+- Specify inspection vs",Extracted from Phase 1: Request Submission,2025-09-26T13:52:18.285618
+Arizona,US-AZ,Arizona Public Records Law,Citation not found,See statute,Request Process,"### Phase 2: Processing
+**""Prompt"" Response Standard:**
+- No fixed timeline but must be reasonable
+-","### Phase 2: Processing
+**""Prompt"" Response Standard:**
+- No fixed timeline but must be reasonable
+- Simple requests: immediate to same day
+- Complex requests: several days to weeks
+- Communication with requester expected","### Phase 2: Processing
+**""Prompt"" Response Standard:**
+- No fixed timeline but must be reasonable
+- Simple requests: immediate to same day
+- Complex requests: several days to weeks
+- Communication with requester expected",Extracted from Phase 2: Processing,2025-09-26T13:52:18.285633
+Arizona,US-AZ,Arizona Public Records Law,Citation not found,See statute,General Rights,"### Phase 3: Production or Denial
+**Access Provided:**
+- Inspection during business hours
+- Copies u","### Phase 3: Production or Denial
+**Access Provided:**
+- Inspection during business hours
+- Copies upon payment of fees
+- Electronic format when available","### Phase 3: Production or Denial
+**Access Provided:**
+- Inspection during business hours
+- Copies upon payment of fees
+- Electronic format when available",Extracted from Phase 3: Production or Denial,2025-09-26T13:52:18.285651
+Arizona,US-AZ,Arizona Public Records Law,Citation not found,See statute,General Rights,"**Denial Requirements:**
+- Specific exemption citation
+- Factual basis for denial
+- Appeal informati","**Denial Requirements:**
+- Specific exemption citation
+- Factual basis for denial
+- Appeal information","**Denial Requirements:**
+- Specific exemption citation
+- Factual basis for denial
+- Appeal information",Extracted from Phase 3: Production or Denial,2025-09-26T13:52:18.285651

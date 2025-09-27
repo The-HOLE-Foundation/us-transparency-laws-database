@@ -1,0 +1,34 @@
+type,severity,description,mechanism
+Clarification Pause,HIGH,Statute allows agencies to pause deadlines by claiming requests are unclear,"- **Injunctive Relief**: Ongoing compliance orders
+- **Attorney Fees**: Recovery for successful plaintiffs
+- **Declaratory Judgment**: Clarification of exemption application
+
+### Strategic Advantages
+- **IPIB Expertise**: Specialized knowledge of open records law
+- **No Cost**: IPIB complaints are free to file
+- **Enforcement Power**: Real consequences for non-compliance
+- **Precedential Value**: IPIB orders provide guidance for future cases
+
+---
+"
+Fee Barriers,MEDIUM,Fee structure can be weaponized to deter requests,"  - Iowa Code § 22.1: Legislative intent and policy
+  - Iowa Code § 22.2: Public examination rights and procedures
+  - Iowa Code § 22.3: Copying and fee provisions
+  - Iowa Code § 22.7: Exemptions and confidential records
+
+### Enforcement and Oversight
+- **Iowa Public Information Board (IPIB)**: Independent oversight and enforcement authority
+- **IPIB Powers**: Investigate complaints, issue binding orders, assess penalties
+- **Advisory Opinions**: Guidance on law interpretation and best practice"
+Programming Time Charges,MEDIUM,Allows charging for technical work with subjective billing,Can inflate costs by claiming simple requests require programming
+Vague Request Rejection,HIGH,Agencies can reject requests as too broad or vague,Subjective interpretation allows denial of valid requests
+Exemption Abuse,HIGH,Broad exemptions can be misapplied to withhold records,"  - Iowa Code § 22.2: Public examination rights and procedures
+  - Iowa Code § 22.3: Copying and fee provisions
+  - Iowa Code § 22.7: Exemptions and confidential records
+
+### Enforcement and Oversight
+- **Iowa Public Information Board (IPIB)**: Independent oversight and enforcement authority
+- **IPIB Powers**: Investigate complaints, issue binding orders, assess penalties
+- **Advisory Opinions**: Guidance on law interpretation and best practices
+- **Training**: Required education for government "
+Vague Timeline,MEDIUM,Response deadline is subjective rather than fixed,Deadline defined as: Reasonable time (vague)

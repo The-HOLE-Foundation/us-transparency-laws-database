@@ -1,0 +1,252 @@
+{
+  "metadata": {
+    "extraction_date": "2025-09-26T13:52:18.282904",
+    "total_records": 9,
+    "jurisdiction": "Federal",
+    "data_source": "VERIFIED Process Maps",
+    "verification_date": "September 2025",
+    "categories": [
+      "Statutory Exemption"
+    ]
+  },
+  "records": [
+    {
+      "jurisdiction_name": "Federal",
+      "jurisdiction_code": "US-FED",
+      "law_name": "Federal FOIA",
+      "statute_citation": "Citation not found",
+      "section_reference": "5 U.S.C. § 552(b)(1)",
+      "category": "Statutory Exemption",
+      "subcategory": "Federal FOIA Exemption (b)(1)",
+      "description": "National Defense/Foreign Policy (classified)",
+      "conditions": "National Defense/Foreign Policy (classified)",
+      "notes": "Federal FOIA exemption 1",
+      "extraction_date": "2025-09-26T13:52:18.281823"
+    },
+    {
+      "jurisdiction_name": "Federal",
+      "jurisdiction_code": "US-FED",
+      "law_name": "Federal FOIA",
+      "statute_citation": "Citation not found",
+      "section_reference": "5 U.S.C. § 552(b)(2)",
+      "category": "Statutory Exemption",
+      "subcategory": "Federal FOIA Exemption (b)(2)",
+      "description": "Internal Agency Rules/Practices",
+      "conditions": "No specific conditions stated",
+      "notes": "Federal FOIA exemption 2",
+      "extraction_date": "2025-09-26T13:52:18.281828"
+    },
+    {
+      "jurisdiction_name": "Federal",
+      "jurisdiction_code": "US-FED",
+      "law_name": "Federal FOIA",
+      "statute_citation": "Citation not found",
+      "section_reference": "5 U.S.C. § 552(b)(3)",
+      "category": "Statutory Exemption",
+      "subcategory": "Federal FOIA Exemption (b)(3)",
+      "description": "Information Exempted by Other Statutes",
+      "conditions": "No specific conditions stated",
+      "notes": "Federal FOIA exemption 3",
+      "extraction_date": "2025-09-26T13:52:18.281832"
+    },
+    {
+      "jurisdiction_name": "Federal",
+      "jurisdiction_code": "US-FED",
+      "law_name": "Federal FOIA",
+      "statute_citation": "Citation not found",
+      "section_reference": "5 U.S.C. § 552(b)(4)",
+      "category": "Statutory Exemption",
+      "subcategory": "Federal FOIA Exemption (b)(4)",
+      "description": "Trade Secrets/Commercial Information",
+      "conditions": "No specific conditions stated",
+      "notes": "Federal FOIA exemption 4",
+      "extraction_date": "2025-09-26T13:52:18.281835"
+    },
+    {
+      "jurisdiction_name": "Federal",
+      "jurisdiction_code": "US-FED",
+      "law_name": "Federal FOIA",
+      "statute_citation": "Citation not found",
+      "section_reference": "5 U.S.C. § 552(b)(5)",
+      "category": "Statutory Exemption",
+      "subcategory": "Federal FOIA Exemption (b)(5)",
+      "description": "Inter-agency/Intra-agency Communications (deliberative process)",
+      "conditions": "No specific conditions stated",
+      "notes": "Federal FOIA exemption 5",
+      "extraction_date": "2025-09-26T13:52:18.281839"
+    },
+    {
+      "jurisdiction_name": "Federal",
+      "jurisdiction_code": "US-FED",
+      "law_name": "Federal FOIA",
+      "statute_citation": "Citation not found",
+      "section_reference": "5 U.S.C. § 552(b)(6)",
+      "category": "Statutory Exemption",
+      "subcategory": "Federal FOIA Exemption (b)(6)",
+      "description": "Personal Privacy",
+      "conditions": "No specific conditions stated",
+      "notes": "Federal FOIA exemption 6",
+      "extraction_date": "2025-09-26T13:52:18.281842"
+    },
+    {
+      "jurisdiction_name": "Federal",
+      "jurisdiction_code": "US-FED",
+      "law_name": "Federal FOIA",
+      "statute_citation": "Citation not found",
+      "section_reference": "5 U.S.C. § 552(b)(7)",
+      "category": "Statutory Exemption",
+      "subcategory": "Federal FOIA Exemption (b)(7)",
+      "description": "Law Enforcement Records",
+      "conditions": "No specific conditions stated",
+      "notes": "Federal FOIA exemption 7",
+      "extraction_date": "2025-09-26T13:52:18.281844"
+    },
+    {
+      "jurisdiction_name": "Federal",
+      "jurisdiction_code": "US-FED",
+      "law_name": "Federal FOIA",
+      "statute_citation": "Citation not found",
+      "section_reference": "5 U.S.C. § 552(b)(8)",
+      "category": "Statutory Exemption",
+      "subcategory": "Federal FOIA Exemption (b)(8)",
+      "description": "Financial Institution Records",
+      "conditions": "No specific conditions stated",
+      "notes": "Federal FOIA exemption 8",
+      "extraction_date": "2025-09-26T13:52:18.281847"
+    },
+    {
+      "jurisdiction_name": "Federal",
+      "jurisdiction_code": "US-FED",
+      "law_name": "Federal FOIA",
+      "statute_citation": "Citation not found",
+      "section_reference": "5 U.S.C. § 552(b)(9)",
+      "category": "Statutory Exemption",
+      "subcategory": "Federal FOIA Exemption (b)(9)",
+      "description": "Geological Information",
+      "conditions": "No specific conditions stated",
+      "notes": "Federal FOIA exemption 9",
+      "extraction_date": "2025-09-26T13:52:18.281850"
+    }
+  ],
+  "records_by_category": {
+    "Statutory Exemption": [
+      {
+        "jurisdiction_name": "Federal",
+        "jurisdiction_code": "US-FED",
+        "law_name": "Federal FOIA",
+        "statute_citation": "Citation not found",
+        "section_reference": "5 U.S.C. § 552(b)(1)",
+        "category": "Statutory Exemption",
+        "subcategory": "Federal FOIA Exemption (b)(1)",
+        "description": "National Defense/Foreign Policy (classified)",
+        "conditions": "National Defense/Foreign Policy (classified)",
+        "notes": "Federal FOIA exemption 1",
+        "extraction_date": "2025-09-26T13:52:18.281823"
+      },
+      {
+        "jurisdiction_name": "Federal",
+        "jurisdiction_code": "US-FED",
+        "law_name": "Federal FOIA",
+        "statute_citation": "Citation not found",
+        "section_reference": "5 U.S.C. § 552(b)(2)",
+        "category": "Statutory Exemption",
+        "subcategory": "Federal FOIA Exemption (b)(2)",
+        "description": "Internal Agency Rules/Practices",
+        "conditions": "No specific conditions stated",
+        "notes": "Federal FOIA exemption 2",
+        "extraction_date": "2025-09-26T13:52:18.281828"
+      },
+      {
+        "jurisdiction_name": "Federal",
+        "jurisdiction_code": "US-FED",
+        "law_name": "Federal FOIA",
+        "statute_citation": "Citation not found",
+        "section_reference": "5 U.S.C. § 552(b)(3)",
+        "category": "Statutory Exemption",
+        "subcategory": "Federal FOIA Exemption (b)(3)",
+        "description": "Information Exempted by Other Statutes",
+        "conditions": "No specific conditions stated",
+        "notes": "Federal FOIA exemption 3",
+        "extraction_date": "2025-09-26T13:52:18.281832"
+      },
+      {
+        "jurisdiction_name": "Federal",
+        "jurisdiction_code": "US-FED",
+        "law_name": "Federal FOIA",
+        "statute_citation": "Citation not found",
+        "section_reference": "5 U.S.C. § 552(b)(4)",
+        "category": "Statutory Exemption",
+        "subcategory": "Federal FOIA Exemption (b)(4)",
+        "description": "Trade Secrets/Commercial Information",
+        "conditions": "No specific conditions stated",
+        "notes": "Federal FOIA exemption 4",
+        "extraction_date": "2025-09-26T13:52:18.281835"
+      },
+      {
+        "jurisdiction_name": "Federal",
+        "jurisdiction_code": "US-FED",
+        "law_name": "Federal FOIA",
+        "statute_citation": "Citation not found",
+        "section_reference": "5 U.S.C. § 552(b)(5)",
+        "category": "Statutory Exemption",
+        "subcategory": "Federal FOIA Exemption (b)(5)",
+        "description": "Inter-agency/Intra-agency Communications (deliberative process)",
+        "conditions": "No specific conditions stated",
+        "notes": "Federal FOIA exemption 5",
+        "extraction_date": "2025-09-26T13:52:18.281839"
+      },
+      {
+        "jurisdiction_name": "Federal",
+        "jurisdiction_code": "US-FED",
+        "law_name": "Federal FOIA",
+        "statute_citation": "Citation not found",
+        "section_reference": "5 U.S.C. § 552(b)(6)",
+        "category": "Statutory Exemption",
+        "subcategory": "Federal FOIA Exemption (b)(6)",
+        "description": "Personal Privacy",
+        "conditions": "No specific conditions stated",
+        "notes": "Federal FOIA exemption 6",
+        "extraction_date": "2025-09-26T13:52:18.281842"
+      },
+      {
+        "jurisdiction_name": "Federal",
+        "jurisdiction_code": "US-FED",
+        "law_name": "Federal FOIA",
+        "statute_citation": "Citation not found",
+        "section_reference": "5 U.S.C. § 552(b)(7)",
+        "category": "Statutory Exemption",
+        "subcategory": "Federal FOIA Exemption (b)(7)",
+        "description": "Law Enforcement Records",
+        "conditions": "No specific conditions stated",
+        "notes": "Federal FOIA exemption 7",
+        "extraction_date": "2025-09-26T13:52:18.281844"
+      },
+      {
+        "jurisdiction_name": "Federal",
+        "jurisdiction_code": "US-FED",
+        "law_name": "Federal FOIA",
+        "statute_citation": "Citation not found",
+        "section_reference": "5 U.S.C. § 552(b)(8)",
+        "category": "Statutory Exemption",
+        "subcategory": "Federal FOIA Exemption (b)(8)",
+        "description": "Financial Institution Records",
+        "conditions": "No specific conditions stated",
+        "notes": "Federal FOIA exemption 8",
+        "extraction_date": "2025-09-26T13:52:18.281847"
+      },
+      {
+        "jurisdiction_name": "Federal",
+        "jurisdiction_code": "US-FED",
+        "law_name": "Federal FOIA",
+        "statute_citation": "Citation not found",
+        "section_reference": "5 U.S.C. § 552(b)(9)",
+        "category": "Statutory Exemption",
+        "subcategory": "Federal FOIA Exemption (b)(9)",
+        "description": "Geological Information",
+        "conditions": "No specific conditions stated",
+        "notes": "Federal FOIA exemption 9",
+        "extraction_date": "2025-09-26T13:52:18.281850"
+      }
+    ]
+  }
+}

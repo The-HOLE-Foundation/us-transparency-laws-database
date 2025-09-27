@@ -1,0 +1,39 @@
+{
+  "state": "Kentucky",
+  "vulnerabilities": [
+    {
+      "type": "Clarification Pause",
+      "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+      "severity": "HIGH",
+      "mechanism": "**Internal Process:**\n- Discuss concerns with custodian or agency head\n- Request clarification of exemption claims\n- Challenge any attempts to hide records on private devices\n- Seek informal resolution before formal appeal\n\n### Phase 5: Judicial Enforcement\n**Circuit Court Action:**\n- **Venue**: Kentucky circuit court where public agency is located\n- **Authority**: Court may order compliance with Open Records Act\n- ****2025 Precedent**: Supreme Court case may establish binding precedent on priva"
+    },
+    {
+      "type": "Fee Barriers",
+      "description": "Fee structure can be weaponized to deter requests",
+      "severity": "MEDIUM",
+      "mechanism": "  - KRS 61.870: Definitions and legislative intent\n  - KRS 61.872: Public access rights and timelines\n  - KRS 61.874: Fee provisions\n  - KRS 61.878: Exemptions from disclosure\n\n### **CRITICAL 2025 DEVELOPMENTS**\n- **Supreme Court Case**: Kentucky Supreme Court deciding if public officials can hide business on personal devices\n- **Legislative Resistance**: Attempts to exempt text messages/communications have failed due to public opposition\n- **Broad Interpretation**: Courts maintaining expansive "
+    },
+    {
+      "type": "Vague Request Rejection",
+      "description": "Agencies can reject requests as too broad or vague",
+      "severity": "HIGH",
+      "mechanism": "Subjective interpretation allows denial of valid requests"
+    },
+    {
+      "type": "Exemption Abuse",
+      "description": "Broad exemptions can be misapplied to withhold records",
+      "severity": "HIGH",
+      "mechanism": "  - KRS 61.872: Public access rights and timelines\n  - KRS 61.874: Fee provisions\n  - KRS 61.878: Exemptions from disclosure\n\n### **CRITICAL 2025 DEVELOPMENTS**\n- **Supreme Court Case**: Kentucky Supreme Court deciding if public officials can hide business on personal devices\n- **Legislative Resistance**: Attempts to exempt text messages/communications have failed due to public opposition\n- **Broad Interpretation**: Courts maintaining expansive view of public records including digital communicat"
+    },
+    {
+      "type": "Vague Timeline",
+      "description": "Response deadline is subjective rather than fixed",
+      "severity": "MEDIUM",
+      "mechanism": "Deadline defined as: Reasonable time (vague)"
+    }
+  ],
+  "timelines": {
+    "response_deadline": "Reasonable time (vague)"
+  },
+  "total_vulnerability_count": 5
+}

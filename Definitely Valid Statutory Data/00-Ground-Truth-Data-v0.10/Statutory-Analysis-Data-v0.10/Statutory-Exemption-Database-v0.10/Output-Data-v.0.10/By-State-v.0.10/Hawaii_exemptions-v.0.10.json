@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "extraction_date": "2025-09-26T13:52:18.301126",
+    "total_records": 4,
+    "jurisdiction": "Hawaii",
+    "data_source": "VERIFIED Process Maps",
+    "verification_date": "September 2025",
+    "categories": [
+      "Statutory Exemption"
+    ]
+  },
+  "records": [
+    {
+      "jurisdiction_name": "Hawaii",
+      "jurisdiction_code": "US-HI",
+      "law_name": "Hawaii Uniform Information Practices Act (UIPA)",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "All fees must be reasonable and reflect actual costs",
+      "conditions": "All fees must be reasonable and reflect actual costs",
+      "notes": "Exemption type: Reasonableness Standard",
+      "extraction_date": "2025-09-26T13:52:18.299400"
+    },
+    {
+      "jurisdiction_name": "Hawaii",
+      "jurisdiction_code": "US-HI",
+      "law_name": "Hawaii Uniform Information Practices Act (UIPA)",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "Cannot use fees to discourage legitimate requests",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: No Excessive Charges",
+      "extraction_date": "2025-09-26T13:52:18.299408"
+    },
+    {
+      "jurisdiction_name": "Hawaii",
+      "jurisdiction_code": "US-HI",
+      "law_name": "Hawaii Uniform Information Practices Act (UIPA)",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "Should notify requester of costs before processing",
+      "conditions": "Should notify requester of costs before processing",
+      "notes": "Exemption type: Advance Notice",
+      "extraction_date": "2025-09-26T13:52:18.299414"
+    },
+    {
+      "jurisdiction_name": "Hawaii",
+      "jurisdiction_code": "US-HI",
+      "law_name": "Hawaii Uniform Information Practices Act (UIPA)",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "Provide cost estimates for extensive reproduction requests",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: Written Estimates",
+      "extraction_date": "2025-09-26T13:52:18.299422"
+    }
+  ],
+  "records_by_category": {
+    "Statutory Exemption": [
+      {
+        "jurisdiction_name": "Hawaii",
+        "jurisdiction_code": "US-HI",
+        "law_name": "Hawaii Uniform Information Practices Act (UIPA)",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "All fees must be reasonable and reflect actual costs",
+        "conditions": "All fees must be reasonable and reflect actual costs",
+        "notes": "Exemption type: Reasonableness Standard",
+        "extraction_date": "2025-09-26T13:52:18.299400"
+      },
+      {
+        "jurisdiction_name": "Hawaii",
+        "jurisdiction_code": "US-HI",
+        "law_name": "Hawaii Uniform Information Practices Act (UIPA)",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "Cannot use fees to discourage legitimate requests",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: No Excessive Charges",
+        "extraction_date": "2025-09-26T13:52:18.299408"
+      },
+      {
+        "jurisdiction_name": "Hawaii",
+        "jurisdiction_code": "US-HI",
+        "law_name": "Hawaii Uniform Information Practices Act (UIPA)",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "Should notify requester of costs before processing",
+        "conditions": "Should notify requester of costs before processing",
+        "notes": "Exemption type: Advance Notice",
+        "extraction_date": "2025-09-26T13:52:18.299414"
+      },
+      {
+        "jurisdiction_name": "Hawaii",
+        "jurisdiction_code": "US-HI",
+        "law_name": "Hawaii Uniform Information Practices Act (UIPA)",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "Provide cost estimates for extensive reproduction requests",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: Written Estimates",
+        "extraction_date": "2025-09-26T13:52:18.299422"
+      }
+    ]
+  }
+}

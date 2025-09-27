@@ -1,0 +1,23 @@
+[
+  {
+    "state": "Montana",
+    "category": "Constitutional Right to Know",
+    "description": "Montana Constitution Article II, Section 9 provides constitutional right to examine documents and observe deliberations",
+    "citation": "Montana Constitution Article II, Section 9",
+    "notes": "Strong constitutional foundation"
+  },
+  {
+    "state": "Montana",
+    "category": "Two-Tier Executive/Non-Executive System",
+    "description": "Executive branch has specific 5-day acknowledgment and response requirements; non-executive responds 'in timely manner'",
+    "citation": "M.C.A. § 2-6-1006",
+    "notes": "Different standards for different government branches"
+  },
+  {
+    "state": "Montana",
+    "category": "Privacy Must Clearly Exceed Disclosure Merit",
+    "description": "Individual privacy must 'clearly exceed the merits of public disclosure' to justify withholding",
+    "citation": "Montana Constitution Article II, Section 9",
+    "notes": "High bar for privacy-based withholding"
+  }
+]

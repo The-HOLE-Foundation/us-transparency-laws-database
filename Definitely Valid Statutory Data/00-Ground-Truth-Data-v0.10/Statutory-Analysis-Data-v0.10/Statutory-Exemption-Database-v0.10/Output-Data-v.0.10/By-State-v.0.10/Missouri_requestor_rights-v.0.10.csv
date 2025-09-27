@@ -1,0 +1,114 @@
+jurisdiction_name,jurisdiction_code,law_name,statute_citation,section_reference,category,subcategory,description,conditions,notes,extraction_date
+Missouri,US-MO,Missouri Sunshine Law,Citation not found,§ 610,Response Timeline,### Standard Timeline (RSMo § 610.023),### Standard Timeline (RSMo § 610.023),No specific conditions stated,Extracted from Standard Timeline (RSMo § 610.023),2025-09-26T13:52:18.323897
+Missouri,US-MO,Missouri Sunshine Law,Citation not found,§ 610,Response Timeline,: 3 business days from receipt of request,: 3 business days from receipt of request,No specific conditions stated,Extracted from Standard Timeline (RSMo § 610.023),2025-09-26T13:52:18.323903
+Missouri,US-MO,Missouri Sunshine Law,Citation not found,§ 610,Response Timeline,":
+  1",":
+  1. Provide requested records
+  2. Deny request with written explanation citing specific exemption
+  3. Provide written statement explaining when and how records will be made available","Deny request with written explanation citing specific exemption
+  3 Provide written statement explaining when and how records will be made available",Extracted from Standard Timeline (RSMo § 610.023),2025-09-26T13:52:18.323913
+Missouri,US-MO,Missouri Sunshine Law,Citation not found,See statute,Special Access,": Law requires ""prompt"" response, generally interpreted as 3 business days",": Law requires ""prompt"" response, generally interpreted as 3 business days",No specific conditions stated,Extracted from Expedited Processing,2025-09-26T13:52:18.323931
+Missouri,US-MO,Missouri Sunshine Law,Citation not found,See statute,Special Access,: Agencies may prioritize urgent public safety matters,: Agencies may prioritize urgent public safety matters,: Agencies may prioritize urgent public safety matters,Extracted from Expedited Processing,2025-09-26T13:52:18.323938
+Missouri,US-MO,Missouri Sunshine Law,Citation not found,See statute,Special Access,: Immediate response encouraged when records readily available,: Immediate response encouraged when records readily available,: Immediate response encouraged when records readily available,Extracted from Expedited Processing,2025-09-26T13:52:18.323943
+Missouri,US-MO,Missouri Sunshine Law,Citation not found,§ 610,Fee Structure,### Allowable Fees (RSMo § 610.026),### Allowable Fees (RSMo § 610.026),No specific conditions stated,Extracted from Allowable Fees (RSMo § 610.026),2025-09-26T13:52:18.323959
+Missouri,US-MO,Missouri Sunshine Law,Citation not found,§ 610,Fee Structure,: Fees limited to actual cost of producing records,: Fees limited to actual cost of producing records,: Fees limited to actual cost of producing records,Extracted from Allowable Fees (RSMo § 610.026),2025-09-26T13:52:18.323964
+Missouri,US-MO,Missouri Sunshine Law,Citation not found,§ 610,Fee Structure,: Cannot charge for inspection of records,: Cannot charge for inspection of records,No specific conditions stated,Extracted from Allowable Fees (RSMo § 610.026),2025-09-26T13:52:18.323969
+Missouri,US-MO,Missouri Sunshine Law,Citation not found,§ 610,Fee Structure,: Direct costs of reproduction and duplication,: Direct costs of reproduction and duplication,No specific conditions stated,Extracted from Allowable Fees (RSMo § 610.026),2025-09-26T13:52:18.323974
+Missouri,US-MO,Missouri Sunshine Law,Citation not found,§ 610,Fee Structure,: Reasonable charges for staff time in copying and production,: Reasonable charges for staff time in copying and production,No specific conditions stated,Extracted from Allowable Fees (RSMo § 610.026),2025-09-26T13:52:18.323979
+Missouri,US-MO,Missouri Sunshine Law,Citation not found,See statute,Fee Structure,: Per-page charges for paper duplication,: Per-page charges for paper duplication,No specific conditions stated,Extracted from Fee Schedule Components,2025-09-26T13:52:18.323992
+Missouri,US-MO,Missouri Sunshine Law,Citation not found,See statute,Fee Structure,": Cost of disks, drives, or other electronic storage",": Cost of disks, drives, or other electronic storage",No specific conditions stated,Extracted from Fee Schedule Components,2025-09-26T13:52:18.323997
+Missouri,US-MO,Missouri Sunshine Law,Citation not found,See statute,Fee Structure,: Hourly rate for time spent copying and preparing records,: Hourly rate for time spent copying and preparing records,No specific conditions stated,Extracted from Fee Schedule Components,2025-09-26T13:52:18.324002
+Missouri,US-MO,Missouri Sunshine Law,Citation not found,See statute,Fee Structure,: Actual cost of mailing records to requester,: Actual cost of mailing records to requester,No specific conditions stated,Extracted from Fee Schedule Components,2025-09-26T13:52:18.324007
+Missouri,US-MO,Missouri Sunshine Law,Citation not found,See statute,Request Process,"### Phase 1: Request Submission
+**Requester Actions:**
+- Submit written request to appropriate publi","### Phase 1: Request Submission
+**Requester Actions:**
+- Submit written request to appropriate public governmental body
+- Provide sufficient detail to identify records
+- Include contact information for response
+- Specify preferred format (paper, electronic, inspection)","### Phase 1: Request Submission
+**Requester Actions:**
+- Submit written request to appropriate public governmental body
+- Provide sufficient detail to identify records
+- Include contact information for response
+- Specify preferred format (paper, electronic, inspection)",Extracted from Phase 1: Request Submission,2025-09-26T13:52:18.324034
+Missouri,US-MO,Missouri Sunshine Law,Citation not found,See statute,Request Process,"**Agency Actions:**
+- Date-stamp request upon receipt
+- Assign to appropriate custodian
+- Begin 3-bu","**Agency Actions:**
+- Date-stamp request upon receipt
+- Assign to appropriate custodian
+- Begin 3-business-day countdown
+- Acknowledge receipt if agency policy requires","**Agency Actions:**
+- Date-stamp request upon receipt
+- Assign to appropriate custodian
+- Begin 3-business-day countdown
+- Acknowledge receipt if agency policy requires",Extracted from Phase 1: Request Submission,2025-09-26T13:52:18.324035
+Missouri,US-MO,Missouri Sunshine Law,Citation not found,See statute,Request Process,"### Phase 2: Processing
+**Agency Actions:**
+- Locate responsive records across departments
+- Review ","### Phase 2: Processing
+**Agency Actions:**
+- Locate responsive records across departments
+- Review records for applicable exemptions under Chapter 610
+- Separate public records from exempt records
+- Calculate fees for copying and production",No specific conditions stated,Extracted from Phase 2: Processing,2025-09-26T13:52:18.324057
+Missouri,US-MO,Missouri Sunshine Law,Citation not found,See statute,Request Process,"**Timeline Management:**
+- Monitor 3-business-day deadline
+- Provide written statement if delay nece","**Timeline Management:**
+- Monitor 3-business-day deadline
+- Provide written statement if delay necessary
+- Communicate with requester about availability and costs","**Timeline Management:**
+- Monitor 3-business-day deadline
+- Provide written statement if delay necessary
+- Communicate with requester about availability and costs",Extracted from Phase 2: Processing,2025-09-26T13:52:18.324058
+Missouri,US-MO,Missouri Sunshine Law,Citation not found,See statute,Response Timeline,"### Phase 3: Initial Response
+**Agency Must Provide (within 3 business days):**
+- Access to public r","### Phase 3: Initial Response
+**Agency Must Provide (within 3 business days):**
+- Access to public records for inspection
+- Copies of records upon payment of fees
+- Written denial with specific exemption cited
+- Written statement explaining when records will be available","### Phase 3: Initial Response
+**Agency Must Provide (within 3 business days):**
+- Access to public records for inspection
+- Copies of records upon payment of fees
+- Written denial with specific exemption cited
+- Written statement explaining when records will be available",Extracted from Phase 3: Initial Response,2025-09-26T13:52:18.324072
+Missouri,US-MO,Missouri Sunshine Law,Citation not found,§ 610,Appeal Rights,"### Phase 5: Judicial Enforcement
+**Circuit Court Action (RSMo § 610.027):**","### Phase 5: Judicial Enforcement
+**Circuit Court Action (RSMo § 610.027):**",No specific conditions stated,Extracted from Phase 5: Judicial Enforcement,2025-09-26T13:52:18.324095
+Missouri,US-MO,Missouri Sunshine Law,Citation not found,§ 610,Appeal Rights,: Circuit court in county where public body is located,: Circuit court in county where public body is located,No specific conditions stated,Extracted from Phase 5: Judicial Enforcement,2025-09-26T13:52:18.324100
+Missouri,US-MO,Missouri Sunshine Law,Citation not found,§ 610,Appeal Rights,: Court may order compliance with Sunshine Law,: Court may order compliance with Sunshine Law,: Court may order compliance with Sunshine Law,Extracted from Phase 5: Judicial Enforcement,2025-09-26T13:52:18.324105
+Missouri,US-MO,Missouri Sunshine Law,Citation not found,§ 610,Appeal Rights,: Review of agency decision and application of exemptions,: Review of agency decision and application of exemptions,No specific conditions stated,Extracted from Phase 5: Judicial Enforcement,2025-09-26T13:52:18.324110
+Missouri,US-MO,Missouri Sunshine Law,Citation not found,§ 610,Appeal Rights,: No specific statutory deadline for filing action,: No specific statutory deadline for filing action,: No specific statutory deadline for filing action,Extracted from Phase 5: Judicial Enforcement,2025-09-26T13:52:18.324115
+Missouri,US-MO,Missouri Sunshine Law,Citation not found,§ 610,Appeal Rights,: Court order requiring disclosure,: Court order requiring disclosure,No specific conditions stated,Extracted from Phase 5: Judicial Enforcement,2025-09-26T13:52:18.324119
+Missouri,US-MO,Missouri Sunshine Law,Citation not found,§ 610,Appeal Rights,: Court may award reasonable fees to substantially prevailing plaintiff,: Court may award reasonable fees to substantially prevailing plaintiff,: Court may award reasonable fees to substantially prevailing plaintiff,Extracted from Phase 5: Judicial Enforcement,2025-09-26T13:52:18.324126
+Missouri,US-MO,Missouri Sunshine Law,Citation not found,§ 610,Appeal Rights,: Recovery of court costs for successful plaintiff,: Recovery of court costs for successful plaintiff,: Recovery of court costs for successful plaintiff,Extracted from Phase 5: Judicial Enforcement,2025-09-26T13:52:18.324130
+Missouri,US-MO,Missouri Sunshine Law,Citation not found,See statute,Fee Structure,"### Excessive Fees
+**Problem**: Unreasonable charges for record production
+**Workarounds**:
+- Challe","### Excessive Fees
+**Problem**: Unreasonable charges for record production
+**Workarounds**:
+- Challenge fees as exceeding actual costs
+- Request detailed breakdown of all charges
+- Compare to other agencies' fee schedules
+- Seek court review of unreasonable fees",No specific conditions stated,Extracted from Excessive Fees,2025-09-26T13:52:18.324153
+Missouri,US-MO,Missouri Sunshine Law,Citation not found,See statute,General Rights,Internal Appeal,Discuss with custodian or agency head,No specific conditions stated,Extracted from Administrative Remedies,2025-09-26T13:52:18.324177
+Missouri,US-MO,Missouri Sunshine Law,Citation not found,See statute,General Rights,Legislative Oversight,General Assembly oversight of compliance,No specific conditions stated,Extracted from Administrative Remedies,2025-09-26T13:52:18.324178
+Missouri,US-MO,Missouri Sunshine Law,Citation not found,See statute,General Rights,Political Pressure,"Contact elected officials, media attention",No specific conditions stated,Extracted from Administrative Remedies,2025-09-26T13:52:18.324179
+Missouri,US-MO,Missouri Sunshine Law,Citation not found,See statute,General Rights,Attorney General,Guidance on Sunshine Law interpretation,No specific conditions stated,Extracted from Administrative Remedies,2025-09-26T13:52:18.324180
+Missouri,US-MO,Missouri Sunshine Law,Citation not found,§ 610,General Rights,"### Judicial Remedies (RSMo § 610.027)
+**Available Relief:**","### Judicial Remedies (RSMo § 610.027)
+**Available Relief:**",No specific conditions stated,Extracted from Judicial Remedies (RSMo § 610.027),2025-09-26T13:52:18.324198
+Missouri,US-MO,Missouri Sunshine Law,Citation not found,§ 610,General Rights,: Court order requiring disclosure,: Court order requiring disclosure,No specific conditions stated,Extracted from Judicial Remedies (RSMo § 610.027),2025-09-26T13:52:18.324203
+Missouri,US-MO,Missouri Sunshine Law,Citation not found,§ 610,General Rights,: Clarification of Sunshine Law obligations,: Clarification of Sunshine Law obligations,: Clarification of Sunshine Law obligations,Extracted from Judicial Remedies (RSMo § 610.027),2025-09-26T13:52:18.324209
+Missouri,US-MO,Missouri Sunshine Law,Citation not found,§ 610,General Rights,: Reasonable fees for substantially prevailing plaintiff,: Reasonable fees for substantially prevailing plaintiff,: Reasonable fees for substantially prevailing plaintiff,Extracted from Judicial Remedies (RSMo § 610.027),2025-09-26T13:52:18.324215
+Missouri,US-MO,Missouri Sunshine Law,Citation not found,§ 610,General Rights,"**Strategic Considerations:**
+- Document pattern of non-compliance or bad faith
+- Preserve evidence ","**Strategic Considerations:**
+- Document pattern of non-compliance or bad faith
+- Preserve evidence of public interest in disclosure
+- Consider informal resolution before litigation
+- Maintain detailed records of all interactions",No specific conditions stated,Extracted from Judicial Remedies (RSMo § 610.027),2025-09-26T13:52:18.324227

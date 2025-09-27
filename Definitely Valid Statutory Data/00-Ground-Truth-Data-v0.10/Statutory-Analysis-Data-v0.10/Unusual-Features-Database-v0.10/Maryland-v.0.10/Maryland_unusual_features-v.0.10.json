@@ -1,0 +1,23 @@
+[
+  {
+    "state": "Maryland",
+    "category": "Public Access Ombudsman",
+    "description": "Ombudsman mediates disputes (non-binding) before formal complaints",
+    "citation": "General Provisions § 4-203",
+    "notes": "Mediation-focused conflict resolution"
+  },
+  {
+    "state": "Maryland",
+    "category": "PIA Compliance Board",
+    "description": "Formal compliance board reviews complaints after ombudsman consultation",
+    "citation": "General Provisions § 4-203",
+    "notes": "Two-tier administrative review system"
+  },
+  {
+    "state": "Maryland",
+    "category": "30-Day Response Deadline",
+    "description": "Must respond within 30 days; 10 working days if longer needed",
+    "citation": "General Provisions § 4-203",
+    "notes": "Clear maximum response time"
+  }
+]

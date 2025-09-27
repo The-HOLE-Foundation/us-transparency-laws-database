@@ -1,0 +1,115 @@
+jurisdiction_name,jurisdiction_code,law_name,statute_citation,section_reference,category,subcategory,description,conditions,notes,extraction_date
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,§ 92,Response Timeline,### Standard Timeline (HRS § 92F-12),### Standard Timeline (HRS § 92F-12),No specific conditions stated,Extracted from Standard Timeline (HRS § 92F12),2025-09-26T13:52:18.298966
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,§ 92,Response Timeline,: 10 business days from receipt of request,: 10 business days from receipt of request,No specific conditions stated,Extracted from Standard Timeline (HRS § 92F12),2025-09-26T13:52:18.298977
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,§ 92,Response Timeline,":
+  1",":
+  1. Provide requested records for inspection or copying
+  2. Deny request with written explanation citing specific exemption
+  3. Provide partial records with explanation for any withholding","Deny request with written explanation citing specific exemption
+  3",Extracted from Standard Timeline (HRS § 92F12),2025-09-26T13:52:18.298989
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,See statute,Special Access,: No formal expedited process in Hawaii UIPA,: No formal expedited process in Hawaii UIPA,No specific conditions stated,Extracted from Expedited Processing,2025-09-26T13:52:18.299009
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,See statute,Special Access,: Some entities may prioritize urgent requests,: Some entities may prioritize urgent requests,: Some entities may prioritize urgent requests,Extracted from Expedited Processing,2025-09-26T13:52:18.299015
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,See statute,Special Access,: Immediate response encouraged when records readily available,: Immediate response encouraged when records readily available,: Immediate response encouraged when records readily available,Extracted from Expedited Processing,2025-09-26T13:52:18.299020
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,§ 92,Fee Structure,### Allowable Fees (HRS § 92F-16),### Allowable Fees (HRS § 92F-16),No specific conditions stated,Extracted from Allowable Fees (HRS § 92F16),2025-09-26T13:52:18.299038
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,§ 92,Fee Structure,: Fees limited to reasonable costs of reproducing records,: Fees limited to reasonable costs of reproducing records,: Fees limited to reasonable costs of reproducing records,Extracted from Allowable Fees (HRS § 92F16),2025-09-26T13:52:18.299043
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,§ 92,Fee Structure,": Direct costs of copying, mailing, and related expenses",": Direct costs of copying, mailing, and related expenses",No specific conditions stated,Extracted from Allowable Fees (HRS § 92F16),2025-09-26T13:52:18.299048
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,§ 92,Fee Structure,: Fees primarily for duplication rather than search time,: Fees primarily for duplication rather than search time,No specific conditions stated,Extracted from Allowable Fees (HRS § 92F16),2025-09-26T13:52:18.299053
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,§ 92,Fee Structure,": Paper, electronic media, postage costs",": Paper, electronic media, postage costs",No specific conditions stated,Extracted from Allowable Fees (HRS § 92F16),2025-09-26T13:52:18.299058
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,See statute,Fee Structure,: Per-page charges for paper duplication,: Per-page charges for paper duplication,No specific conditions stated,Extracted from Fee Schedule Components,2025-09-26T13:52:18.299072
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,See statute,Fee Structure,": Cost of disks, drives, or other electronic storage",": Cost of disks, drives, or other electronic storage",No specific conditions stated,Extracted from Fee Schedule Components,2025-09-26T13:52:18.299077
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,See statute,Fee Structure,: Actual postage for sending records to requester,: Actual postage for sending records to requester,No specific conditions stated,Extracted from Fee Schedule Components,2025-09-26T13:52:18.299082
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,See statute,Fee Structure,: Limited charges for staff time in reproduction,: Limited charges for staff time in reproduction,No specific conditions stated,Extracted from Fee Schedule Components,2025-09-26T13:52:18.299087
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,See statute,Request Process,"### Phase 1: Request Submission
+**Requester Actions:**
+- Submit written request to appropriate agenc","### Phase 1: Request Submission
+**Requester Actions:**
+- Submit written request to appropriate agency
+- Provide sufficient detail to identify records
+- Include contact information for response
+- Specify preferred format (inspection, paper copies, electronic)","### Phase 1: Request Submission
+**Requester Actions:**
+- Submit written request to appropriate agency
+- Provide sufficient detail to identify records
+- Include contact information for response
+- Specify preferred format (inspection, paper copies, electronic)",Extracted from Phase 1: Request Submission,2025-09-26T13:52:18.299115
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,See statute,Request Process,"**Agency Actions:**
+- Date-stamp request upon receipt
+- Assign to appropriate custodian
+- Begin 10-b","**Agency Actions:**
+- Date-stamp request upon receipt
+- Assign to appropriate custodian
+- Begin 10-business-day countdown
+- Acknowledge receipt if agency policy requires","**Agency Actions:**
+- Date-stamp request upon receipt
+- Assign to appropriate custodian
+- Begin 10-business-day countdown
+- Acknowledge receipt if agency policy requires",Extracted from Phase 1: Request Submission,2025-09-26T13:52:18.299116
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,§ 92,Request Process,"### Phase 2: Processing
+**Agency Actions:**
+- Locate responsive records across departments
+- Review ","### Phase 2: Processing
+**Agency Actions:**
+- Locate responsive records across departments
+- Review records for applicable exemptions under HRS § 92F-13
+- Separate public records from exempt records
+- Calculate reasonable fees for reproduction",No specific conditions stated,Extracted from Phase 2: Processing,2025-09-26T13:52:18.299144
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,§ 92,Request Process,"**Timeline Management:**
+- Monitor 10-business-day deadline
+- Provide written notice if extension ne","**Timeline Management:**
+- Monitor 10-business-day deadline
+- Provide written notice if extension needed
+- Communicate with requester about status and fees","**Timeline Management:**
+- Monitor 10-business-day deadline
+- Provide written notice if extension needed
+- Communicate with requester about status and fees",Extracted from Phase 2: Processing,2025-09-26T13:52:18.299145
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,§ 92,Response Timeline,"### Phase 3: Initial Response (within 10 business days)
+**Agency Must Provide:**
+- Access to governm","### Phase 3: Initial Response (within 10 business days)
+**Agency Must Provide:**
+- Access to government records for inspection
+- Copies of records upon payment of reasonable fees
+- Written denial with specific exemption cited under HRS § 92F-13
+- Partial records with explanation for any withholding","### Phase 3: Initial Response (within 10 business days)
+**Agency Must Provide:**
+- Access to government records for inspection
+- Copies of records upon payment of reasonable fees
+- Written denial with specific exemption cited under HRS § 92F-13
+- Partial records with explanation for any withholding",Extracted from Phase 3: Initial Response (within 10 business days),2025-09-26T13:52:18.299163
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,See statute,Appeal Rights,"### Phase 5: Administrative and Judicial Enforcement
+**Office of Information Practices (OIP):**","### Phase 5: Administrative and Judicial Enforcement
+**Office of Information Practices (OIP):**",No specific conditions stated,Extracted from Phase 5: Administrative and Judicial Enforcement,2025-09-26T13:52:18.299184
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,See statute,Appeal Rights,: State agency responsible for UIPA administration,: State agency responsible for UIPA administration,No specific conditions stated,Extracted from Phase 5: Administrative and Judicial Enforcement,2025-09-26T13:52:18.299189
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,See statute,Appeal Rights,: Handle appeals of UIPA denials,: Handle appeals of UIPA denials,No specific conditions stated,Extracted from Phase 5: Administrative and Judicial Enforcement,2025-09-26T13:52:18.299194
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,See statute,Appeal Rights,: Provide interpretation and compliance assistance,: Provide interpretation and compliance assistance,No specific conditions stated,Extracted from Phase 5: Administrative and Judicial Enforcement,2025-09-26T13:52:18.299200
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,See statute,Appeal Rights,: Issue binding decisions on UIPA disputes,: Issue binding decisions on UIPA disputes,No specific conditions stated,Extracted from Phase 5: Administrative and Judicial Enforcement,2025-09-26T13:52:18.299205
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,See statute,Appeal Rights,: Court may order compliance with UIPA,: Court may order compliance with UIPA,: Court may order compliance with UIPA,Extracted from Phase 5: Administrative and Judicial Enforcement,2025-09-26T13:52:18.299211
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,See statute,Appeal Rights,: Review of agency decision and OIP recommendations,: Review of agency decision and OIP recommendations,No specific conditions stated,Extracted from Phase 5: Administrative and Judicial Enforcement,2025-09-26T13:52:18.299216
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,See statute,Appeal Rights,": Mandamus, injunctive relief, potential attorney fees",": Mandamus, injunctive relief, potential attorney fees",No specific conditions stated,Extracted from Phase 5: Administrative and Judicial Enforcement,2025-09-26T13:52:18.299222
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,See statute,Fee Structure,"### Excessive Fees
+**Problem**: Unreasonable charges for record reproduction
+**Workarounds**:
+- Chal","### Excessive Fees
+**Problem**: Unreasonable charges for record reproduction
+**Workarounds**:
+- Challenge fees as exceeding reasonable reproduction costs
+- Request detailed breakdown of all charges
+- Compare to other agencies' fee schedules
+- Negotiate scope reduction to minimize costs",No specific conditions stated,Extracted from Excessive Fees,2025-09-26T13:52:18.299246
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,See statute,General Rights,Office of Information Practices,Primary enforcement authority,No specific conditions stated,Extracted from Administrative Remedies,2025-09-26T13:52:18.299273
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,See statute,General Rights,Internal Appeal,Agency head or designee review,No specific conditions stated,Extracted from Administrative Remedies,2025-09-26T13:52:18.299274
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,See statute,General Rights,Legislative Oversight,Hawaii Legislature oversight of compliance,No specific conditions stated,Extracted from Administrative Remedies,2025-09-26T13:52:18.299275
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,See statute,General Rights,Political Pressure,"Contact elected officials, media attention",No specific conditions stated,Extracted from Administrative Remedies,2025-09-26T13:52:18.299276
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,See statute,General Rights,"### Judicial Remedies
+**Available Relief:**","### Judicial Remedies
+**Available Relief:**",No specific conditions stated,Extracted from Judicial Remedies,2025-09-26T13:52:18.299295
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,See statute,General Rights,: Court order requiring disclosure,: Court order requiring disclosure,No specific conditions stated,Extracted from Judicial Remedies,2025-09-26T13:52:18.299300
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,See statute,General Rights,: Clarification of UIPA obligations,: Clarification of UIPA obligations,: Clarification of UIPA obligations,Extracted from Judicial Remedies,2025-09-26T13:52:18.299307
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,See statute,General Rights,: Potential recovery for successful enforcement,: Potential recovery for successful enforcement,No specific conditions stated,Extracted from Judicial Remedies,2025-09-26T13:52:18.299315
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,See statute,General Rights,: Utilize Office of Information Practices before court action,: Utilize Office of Information Practices before court action,No specific conditions stated,Extracted from Judicial Remedies,2025-09-26T13:52:18.299320
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,See statute,General Rights,: OIP decisions create binding interpretation,: OIP decisions create binding interpretation,No specific conditions stated,Extracted from Judicial Remedies,2025-09-26T13:52:18.299326
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,See statute,General Rights,: OIP has specific UIPA expertise,: OIP has specific UIPA expertise,: OIP has specific UIPA expertise,Extracted from Judicial Remedies,2025-09-26T13:52:18.299332
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,See statute,General Rights,: Administrative appeal less expensive than litigation,: Administrative appeal less expensive than litigation,No specific conditions stated,Extracted from Judicial Remedies,2025-09-26T13:52:18.299338
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,See statute,Appeal Rights,: Steady application of UIPA principles,: Steady application of UIPA principles,No specific conditions stated,Extracted from OIP Enforcement Trends,2025-09-26T13:52:18.299358
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,See statute,Appeal Rights,: Enhanced outreach and training programs,: Enhanced outreach and training programs,No specific conditions stated,Extracted from OIP Enforcement Trends,2025-09-26T13:52:18.299363
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,See statute,Appeal Rights,: Improved agency understanding of UIPA requirements,: Improved agency understanding of UIPA requirements,No specific conditions stated,Extracted from OIP Enforcement Trends,2025-09-26T13:52:18.299368
+Hawaii,US-HI,Hawaii Uniform Information Practices Act (UIPA),Citation not found,See statute,Appeal Rights,: Growing focus on digital information access,: Growing focus on digital information access,No specific conditions stated,Extracted from OIP Enforcement Trends,2025-09-26T13:52:18.299373

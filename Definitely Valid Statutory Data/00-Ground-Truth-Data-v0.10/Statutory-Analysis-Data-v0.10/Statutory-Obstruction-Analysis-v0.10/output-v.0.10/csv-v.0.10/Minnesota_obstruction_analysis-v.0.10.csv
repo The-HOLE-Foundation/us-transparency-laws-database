@@ -1,0 +1,38 @@
+type,severity,description,mechanism
+Clarification Pause,HIGH,Statute allows agencies to pause deadlines by claiming requests are unclear,"- **Mandamus**: Court order requiring data access
+- **Injunctive Relief**: Ongoing compliance orders
+- **Declaratory Judgment**: Clarification of data classification
+- **Attorney Fees**: Possible recovery in successful actions
+
+**Strategic Considerations:**
+- **Document Interactions**: Preserve all communications with agency
+- **Public Interest**: Articulate community benefit from access
+- **Classification Challenge**: Focus on proper statutory interpretation
+- **Exhaustion**: Complete administr"
+Fee Barriers,MEDIUM,Fee structure can be weaponized to deter requests,"---
+
+## Fee Structure
+
+### Allowable Fees (Minn. Stat. § 13.03, subd. 3)
+- **Actual Costs Only**: Limited to actual cost of providing data copies
+- **No Search Fees**: Cannot charge for time spent locating data
+- **Reasonable Copying**: Paper, electronic media, staff time for duplication
+- **Statutory Limits**: Fees must be reasonable and justified
+
+### Fee Components
+- **Paper Copies**: Typically $0.25-$1.00 per page"
+Programming Time Charges,MEDIUM,Allows charging for technical work with subjective billing,Can inflate costs by claiming simple requests require programming
+Vague Request Rejection,HIGH,Agencies can reject requests as too broad or vague,Subjective interpretation allows denial of valid requests
+Exemption Abuse,HIGH,Broad exemptions can be misapplied to withhold records,"- **Programming**: Electronic format conversion (actual costs)
+
+### Fee Exemptions and Limitations
+- **Inspection**: Free on-site review of public data
+- **100-Page Rule**: First 100 pages free in many jurisdictions
+- **Public Interest**: Some agencies waive fees for public benefit requests
+- **Advance Estimates**: Must provide cost estimate for requests over $25
+
+---
+
+## Data Classification System
+"
+Vague Timeline,MEDIUM,Response deadline is subjective rather than fixed,Deadline defined as: Promptly (vague)

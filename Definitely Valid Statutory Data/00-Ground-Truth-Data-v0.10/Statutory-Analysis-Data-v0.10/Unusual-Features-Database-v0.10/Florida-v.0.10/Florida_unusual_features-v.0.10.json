@@ -1,0 +1,30 @@
+[
+  {
+    "state": "Florida",
+    "category": "Verbal Request Accepted",
+    "description": "Can request by phone, in writing, or in person; no specific form required",
+    "citation": "Chapter 119, Florida Statutes",
+    "notes": "Most flexible request format - oral requests explicitly permitted"
+  },
+  {
+    "state": "Florida",
+    "category": "No ID or Purpose Required",
+    "description": "No requirement to state purpose or provide identification",
+    "citation": "Chapter 119, Florida Statutes",
+    "notes": "Maximum anonymity for requesters"
+  },
+  {
+    "state": "Florida",
+    "category": "No Statutory Deadline",
+    "description": "No specific response timeframes; must make 'good faith effort' within 'reasonable period'",
+    "citation": "Chapter 119, Florida Statutes",
+    "notes": "Unusual lack of firm deadlines"
+  },
+  {
+    "state": "Florida",
+    "category": "Constitutional Right",
+    "description": "Article I, Section 24 of Florida Constitution establishes right of access to public records",
+    "citation": "Florida Constitution Article I, Section 24",
+    "notes": "Constitutional foundation beyond statutory"
+  }
+]

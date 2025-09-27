@@ -1,0 +1,39 @@
+{
+  "state": "Hawaii",
+  "vulnerabilities": [
+    {
+      "type": "Clarification Pause",
+      "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+      "severity": "HIGH",
+      "mechanism": "**Internal Process:**\n- Discuss concerns with custodian or agency head\n- Request clarification of exemption claims\n- Negotiate scope or format to reduce costs\n- Seek informal resolution before formal appeal\n\n### Phase 5: Administrative and Judicial Enforcement\n**Office of Information Practices (OIP):**\n- **Authority**: State agency responsible for UIPA administration\n- **Appeals**: Handle appeals of UIPA denials\n- **Guidance**: Provide interpretation and compliance assistance\n- **Enforcement**: "
+    },
+    {
+      "type": "Fee Barriers",
+      "description": "Fee structure can be weaponized to deter requests",
+      "severity": "MEDIUM",
+      "mechanism": "  - HRS \u00a7 92F-11: Definitions and legislative intent\n  - HRS \u00a7 92F-12: Public access rights and timelines\n  - HRS \u00a7 92F-16: Fee provisions\n  - HRS \u00a7 92F-13: Exemptions from disclosure\n\n### Definitions\n- **Agency**: All state and county government agencies, including boards, commissions, and authorities\n- **Government Record**: Any information that has been maintained by an agency in written, auditory, visual, electronic, or other physical form\n- **Business Days**: Monday through Friday, excludin"
+    },
+    {
+      "type": "Vague Request Rejection",
+      "description": "Agencies can reject requests as too broad or vague",
+      "severity": "HIGH",
+      "mechanism": "Subjective interpretation allows denial of valid requests"
+    },
+    {
+      "type": "Exemption Abuse",
+      "description": "Broad exemptions can be misapplied to withhold records",
+      "severity": "HIGH",
+      "mechanism": "  - HRS \u00a7 92F-12: Public access rights and timelines\n  - HRS \u00a7 92F-16: Fee provisions\n  - HRS \u00a7 92F-13: Exemptions from disclosure\n\n### Definitions\n- **Agency**: All state and county government agencies, including boards, commissions, and authorities\n- **Government Record**: Any information that has been maintained by an agency in written, auditory, visual, electronic, or other physical form\n- **Business Days**: Monday through Friday, excluding state holidays\n- **Personal Record**: Any item, col"
+    },
+    {
+      "type": "Vague Timeline",
+      "description": "Response deadline is subjective rather than fixed",
+      "severity": "MEDIUM",
+      "mechanism": "Deadline defined as: Reasonable time (vague)"
+    }
+  ],
+  "timelines": {
+    "response_deadline": "Reasonable time (vague)"
+  },
+  "total_vulnerability_count": 5
+}

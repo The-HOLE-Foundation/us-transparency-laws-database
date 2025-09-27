@@ -1,0 +1,200 @@
+{
+  "metadata": {
+    "extraction_date": "2025-09-26T13:52:18.296116",
+    "total_records": 7,
+    "jurisdiction": "Delaware",
+    "data_source": "VERIFIED Process Maps",
+    "verification_date": "September 2025",
+    "categories": [
+      "Statutory Exemption"
+    ]
+  },
+  "records": [
+    {
+      "jurisdiction_name": "Delaware",
+      "jurisdiction_code": "US-DE",
+      "law_name": "Delaware Freedom of Information Act (FOIA)",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "All fees must be reasonable and reflect actual costs",
+      "conditions": "All fees must be reasonable and reflect actual costs",
+      "notes": "Exemption type: Reasonableness Standard",
+      "extraction_date": "2025-09-26T13:52:18.295472"
+    },
+    {
+      "jurisdiction_name": "Delaware",
+      "jurisdiction_code": "US-DE",
+      "law_name": "Delaware Freedom of Information Act (FOIA)",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "Should notify requester of costs before processing",
+      "conditions": "Should notify requester of costs before processing",
+      "notes": "Exemption type: Advance Notice",
+      "extraction_date": "2025-09-26T13:52:18.295479"
+    },
+    {
+      "jurisdiction_name": "Delaware",
+      "jurisdiction_code": "US-DE",
+      "law_name": "Delaware Freedom of Information Act (FOIA)",
+      "statute_citation": "Citation not found",
+      "section_reference": "§ 10002",
+      "category": "Statutory Exemption",
+      "subcategory": "Personal Privacy",
+      "description": "Information constituting invasion of personal privacy",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: Personal Privacy",
+      "extraction_date": "2025-09-26T13:52:18.295495"
+    },
+    {
+      "jurisdiction_name": "Delaware",
+      "jurisdiction_code": "US-DE",
+      "law_name": "Delaware Freedom of Information Act (FOIA)",
+      "statute_citation": "Citation not found",
+      "section_reference": "§ 10002",
+      "category": "Statutory Exemption",
+      "subcategory": "Law Enforcement",
+      "description": "Investigatory records and confidential sources",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: Law Enforcement",
+      "extraction_date": "2025-09-26T13:52:18.295500"
+    },
+    {
+      "jurisdiction_name": "Delaware",
+      "jurisdiction_code": "US-DE",
+      "law_name": "Delaware Freedom of Information Act (FOIA)",
+      "statute_citation": "Citation not found",
+      "section_reference": "§ 10002",
+      "category": "Statutory Exemption",
+      "subcategory": "Personnel Records",
+      "description": "Employee evaluations and disciplinary records",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: Personnel Records",
+      "extraction_date": "2025-09-26T13:52:18.295505"
+    },
+    {
+      "jurisdiction_name": "Delaware",
+      "jurisdiction_code": "US-DE",
+      "law_name": "Delaware Freedom of Information Act (FOIA)",
+      "statute_citation": "Citation not found",
+      "section_reference": "§ 10002",
+      "category": "Statutory Exemption",
+      "subcategory": "Attorney-Client Privilege",
+      "description": "Legal advice and privileged communications",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: Attorney-Client Privilege",
+      "extraction_date": "2025-09-26T13:52:18.295511"
+    },
+    {
+      "jurisdiction_name": "Delaware",
+      "jurisdiction_code": "US-DE",
+      "law_name": "Delaware Freedom of Information Act (FOIA)",
+      "statute_citation": "Citation not found",
+      "section_reference": "§ 10002",
+      "category": "Statutory Exemption",
+      "subcategory": "Trade Secrets/Commercial",
+      "description": "Proprietary business information",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: Trade Secrets",
+      "extraction_date": "2025-09-26T13:52:18.295517"
+    }
+  ],
+  "records_by_category": {
+    "Statutory Exemption": [
+      {
+        "jurisdiction_name": "Delaware",
+        "jurisdiction_code": "US-DE",
+        "law_name": "Delaware Freedom of Information Act (FOIA)",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "All fees must be reasonable and reflect actual costs",
+        "conditions": "All fees must be reasonable and reflect actual costs",
+        "notes": "Exemption type: Reasonableness Standard",
+        "extraction_date": "2025-09-26T13:52:18.295472"
+      },
+      {
+        "jurisdiction_name": "Delaware",
+        "jurisdiction_code": "US-DE",
+        "law_name": "Delaware Freedom of Information Act (FOIA)",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "Should notify requester of costs before processing",
+        "conditions": "Should notify requester of costs before processing",
+        "notes": "Exemption type: Advance Notice",
+        "extraction_date": "2025-09-26T13:52:18.295479"
+      },
+      {
+        "jurisdiction_name": "Delaware",
+        "jurisdiction_code": "US-DE",
+        "law_name": "Delaware Freedom of Information Act (FOIA)",
+        "statute_citation": "Citation not found",
+        "section_reference": "§ 10002",
+        "category": "Statutory Exemption",
+        "subcategory": "Personal Privacy",
+        "description": "Information constituting invasion of personal privacy",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: Personal Privacy",
+        "extraction_date": "2025-09-26T13:52:18.295495"
+      },
+      {
+        "jurisdiction_name": "Delaware",
+        "jurisdiction_code": "US-DE",
+        "law_name": "Delaware Freedom of Information Act (FOIA)",
+        "statute_citation": "Citation not found",
+        "section_reference": "§ 10002",
+        "category": "Statutory Exemption",
+        "subcategory": "Law Enforcement",
+        "description": "Investigatory records and confidential sources",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: Law Enforcement",
+        "extraction_date": "2025-09-26T13:52:18.295500"
+      },
+      {
+        "jurisdiction_name": "Delaware",
+        "jurisdiction_code": "US-DE",
+        "law_name": "Delaware Freedom of Information Act (FOIA)",
+        "statute_citation": "Citation not found",
+        "section_reference": "§ 10002",
+        "category": "Statutory Exemption",
+        "subcategory": "Personnel Records",
+        "description": "Employee evaluations and disciplinary records",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: Personnel Records",
+        "extraction_date": "2025-09-26T13:52:18.295505"
+      },
+      {
+        "jurisdiction_name": "Delaware",
+        "jurisdiction_code": "US-DE",
+        "law_name": "Delaware Freedom of Information Act (FOIA)",
+        "statute_citation": "Citation not found",
+        "section_reference": "§ 10002",
+        "category": "Statutory Exemption",
+        "subcategory": "Attorney-Client Privilege",
+        "description": "Legal advice and privileged communications",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: Attorney-Client Privilege",
+        "extraction_date": "2025-09-26T13:52:18.295511"
+      },
+      {
+        "jurisdiction_name": "Delaware",
+        "jurisdiction_code": "US-DE",
+        "law_name": "Delaware Freedom of Information Act (FOIA)",
+        "statute_citation": "Citation not found",
+        "section_reference": "§ 10002",
+        "category": "Statutory Exemption",
+        "subcategory": "Trade Secrets/Commercial",
+        "description": "Proprietary business information",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: Trade Secrets",
+        "extraction_date": "2025-09-26T13:52:18.295517"
+      }
+    ]
+  }
+}

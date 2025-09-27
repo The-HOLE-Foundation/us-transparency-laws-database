@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "extraction_date": "2025-09-26T13:52:18.306679",
+    "total_records": 4,
+    "jurisdiction": "Iowa",
+    "data_source": "VERIFIED Process Maps",
+    "verification_date": "September 2025",
+    "categories": [
+      "Statutory Exemption"
+    ]
+  },
+  "records": [
+    {
+      "jurisdiction_name": "Iowa",
+      "jurisdiction_code": "US-IA",
+      "law_name": "Iowa Open Records Law",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "Fees cannot be excessive or prohibitive",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: Reasonableness Test",
+      "extraction_date": "2025-09-26T13:52:18.305744"
+    },
+    {
+      "jurisdiction_name": "Iowa",
+      "jurisdiction_code": "US-IA",
+      "law_name": "Iowa Open Records Law",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "Should provide cost estimate for large requests",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: Advance Estimates",
+      "extraction_date": "2025-09-26T13:52:18.305751"
+    },
+    {
+      "jurisdiction_name": "Iowa",
+      "jurisdiction_code": "US-IA",
+      "law_name": "Iowa Open Records Law",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "Some agencies waive fees for public interest requests",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: Fee Waiver",
+      "extraction_date": "2025-09-26T13:52:18.305759"
+    },
+    {
+      "jurisdiction_name": "Iowa",
+      "jurisdiction_code": "US-IA",
+      "law_name": "Iowa Open Records Law",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "May require advance payment for expensive requests",
+      "conditions": "May require advance payment for expensive requests",
+      "notes": "Exemption type: Payment Timing",
+      "extraction_date": "2025-09-26T13:52:18.305765"
+    }
+  ],
+  "records_by_category": {
+    "Statutory Exemption": [
+      {
+        "jurisdiction_name": "Iowa",
+        "jurisdiction_code": "US-IA",
+        "law_name": "Iowa Open Records Law",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "Fees cannot be excessive or prohibitive",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: Reasonableness Test",
+        "extraction_date": "2025-09-26T13:52:18.305744"
+      },
+      {
+        "jurisdiction_name": "Iowa",
+        "jurisdiction_code": "US-IA",
+        "law_name": "Iowa Open Records Law",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "Should provide cost estimate for large requests",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: Advance Estimates",
+        "extraction_date": "2025-09-26T13:52:18.305751"
+      },
+      {
+        "jurisdiction_name": "Iowa",
+        "jurisdiction_code": "US-IA",
+        "law_name": "Iowa Open Records Law",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "Some agencies waive fees for public interest requests",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: Fee Waiver",
+        "extraction_date": "2025-09-26T13:52:18.305759"
+      },
+      {
+        "jurisdiction_name": "Iowa",
+        "jurisdiction_code": "US-IA",
+        "law_name": "Iowa Open Records Law",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "May require advance payment for expensive requests",
+        "conditions": "May require advance payment for expensive requests",
+        "notes": "Exemption type: Payment Timing",
+        "extraction_date": "2025-09-26T13:52:18.305765"
+      }
+    ]
+  }
+}

@@ -1,0 +1,316 @@
+{
+  "metadata": {
+    "extraction_date": "2025-09-26T13:52:18.349055",
+    "total_records": 11,
+    "jurisdiction": "Texas",
+    "data_source": "VERIFIED Process Maps",
+    "verification_date": "September 2025",
+    "categories": [
+      "Response Timeline",
+      "Fee Structure",
+      "Request Process",
+      "General Rights",
+      "Appeal Rights"
+    ]
+  },
+  "records": [
+    {
+      "jurisdiction_name": "Texas",
+      "jurisdiction_code": "US-TX",
+      "law_name": "Texas Public Information Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See statute",
+      "category": "Response Timeline",
+      "subcategory": "## Response Timeline Framework (VERIFIED 2025)",
+      "description": "## Response Timeline Framework (VERIFIED 2025)",
+      "conditions": "## Response Timeline Framework (VERIFIED 2025)",
+      "notes": "Extracted from Response Timeline Framework (VERIFIED 2025)",
+      "extraction_date": "2025-09-26T13:52:18.348683"
+    },
+    {
+      "jurisdiction_name": "Texas",
+      "jurisdiction_code": "US-TX",
+      "law_name": "Texas Public Information Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See statute",
+      "category": "Fee Structure",
+      "subcategory": "## Fee Structure (VERIFIED 2025)",
+      "description": "## Fee Structure (VERIFIED 2025)",
+      "conditions": "## Fee Structure (VERIFIED 2025)",
+      "notes": "Extracted from Fee Structure (VERIFIED 2025)",
+      "extraction_date": "2025-09-26T13:52:18.348693"
+    },
+    {
+      "jurisdiction_name": "Texas",
+      "jurisdiction_code": "US-TX",
+      "law_name": "Texas Public Information Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See statute",
+      "category": "Request Process",
+      "subcategory": "### Phase 1: Request Submission\n**Requirements**:\n- Must be in writing (confirmed 2025 requirement)\n",
+      "description": "### Phase 1: Request Submission\n**Requirements**:\n- Must be in writing (confirmed 2025 requirement)\n- Sufficiently specific to allow location of records\n- May be submitted by any person (not just Texas residents)\n- No required form, but agencies may provide preferred format",
+      "conditions": "### Phase 1: Request Submission\n**Requirements**:\n- Must be in writing (confirmed 2025 requirement)\n- Sufficiently specific to allow location of records\n- May be submitted by any person (not just Texas residents)\n- No required form, but agencies may provide preferred format",
+      "notes": "Extracted from Phase 1: Request Submission",
+      "extraction_date": "2025-09-26T13:52:18.348721"
+    },
+    {
+      "jurisdiction_name": "Texas",
+      "jurisdiction_code": "US-TX",
+      "law_name": "Texas Public Information Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See statute",
+      "category": "Request Process",
+      "subcategory": "**Best Practices**:\n- Email to designated Public Information Officer\n- Include specific date ranges ",
+      "description": "**Best Practices**:\n- Email to designated Public Information Officer\n- Include specific date ranges and document types\n- Reference previous similar successful requests\n- State fee waiver justification upfront",
+      "conditions": "**Best Practices**:\n- Email to designated Public Information Officer\n- Include specific date ranges and document types\n- Reference previous similar successful requests\n- State fee waiver justification upfront",
+      "notes": "Extracted from Phase 1: Request Submission",
+      "extraction_date": "2025-09-26T13:52:18.348722"
+    },
+    {
+      "jurisdiction_name": "Texas",
+      "jurisdiction_code": "US-TX",
+      "law_name": "Texas Public Information Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See statute",
+      "category": "Response Timeline",
+      "subcategory": "### Phase 2: Agency Response (THE CRITICAL PHASE)\n**Day 1-10: Standard Response Window**\nAgency must",
+      "description": "### Phase 2: Agency Response (THE CRITICAL PHASE)\n**Day 1-10: Standard Response Window**\nAgency must either:\n- Release the information\n- Seek Attorney General opinion to withhold",
+      "conditions": "### Phase 2: Agency Response (THE CRITICAL PHASE)\n**Day 1-10: Standard Response Window**\nAgency must either:\n- Release the information\n- Seek Attorney General opinion to withhold",
+      "notes": "Extracted from Phase 2: Agency Response (THE CRITICAL PHASE)",
+      "extraction_date": "2025-09-26T13:52:18.348744"
+    },
+    {
+      "jurisdiction_name": "Texas",
+      "jurisdiction_code": "US-TX",
+      "law_name": "Texas Public Information Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See statute",
+      "category": "Response Timeline",
+      "subcategory": "Request \"clarification\" (THE PAUSE BUTTON)",
+      "description": "Request \"clarification\" (THE PAUSE BUTTON)",
+      "conditions": "Request \"clarification\" (THE PAUSE BUTTON)",
+      "notes": "Extracted from Phase 2: Agency Response (THE CRITICAL PHASE)",
+      "extraction_date": "2025-09-26T13:52:18.348748"
+    },
+    {
+      "jurisdiction_name": "Texas",
+      "jurisdiction_code": "US-TX",
+      "law_name": "Texas Public Information Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See statute",
+      "category": "Response Timeline",
+      "subcategory": "**Clarification Request Tactics**:\n- \"Please clarify what specific documents you want\"\n- \"Please nar",
+      "description": "**Clarification Request Tactics**:\n- \"Please clarify what specific documents you want\"\n- \"Please narrow your date range\"\n- \"Please define [common term] in your request\"\n- \"We need clarification about [obvious element]\"",
+      "conditions": "**Clarification Request Tactics**:\n- \"Please clarify what specific documents you want\"\n- \"Please narrow your date range\"\n- \"Please define [common term] in your request\"\n- \"We need clarification about [obvious element]\"",
+      "notes": "Extracted from Phase 2: Agency Response (THE CRITICAL PHASE)",
+      "extraction_date": "2025-09-26T13:52:18.348760"
+    },
+    {
+      "jurisdiction_name": "Texas",
+      "jurisdiction_code": "US-TX",
+      "law_name": "Texas Public Information Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See statute",
+      "category": "Response Timeline",
+      "subcategory": "**Strategic Response to Clarification Requests**:\n- Challenge unnecessary clarification requests in ",
+      "description": "**Strategic Response to Clarification Requests**:\n- Challenge unnecessary clarification requests in writing\n- Cite specific examples of similar successful requests\n- Demand explanation of what is genuinely unclear\n- Set reasonable deadline for agency response to clarification",
+      "conditions": "**Strategic Response to Clarification Requests**:\n- Challenge unnecessary clarification requests in writing\n- Cite specific examples of similar successful requests\n- Demand explanation of what is genuinely unclear\n- Set reasonable deadline for agency response to clarification",
+      "notes": "Extracted from Phase 2: Agency Response (THE CRITICAL PHASE)",
+      "extraction_date": "2025-09-26T13:52:18.348761"
+    },
+    {
+      "jurisdiction_name": "Texas",
+      "jurisdiction_code": "US-TX",
+      "law_name": "Texas Public Information Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See statute",
+      "category": "General Rights",
+      "subcategory": "### Phase 3: Financial Barriers\n**Cost Estimate Phase**:\n- Agency provides estimate (often inflated)",
+      "description": "### Phase 3: Financial Barriers\n**Cost Estimate Phase**:\n- Agency provides estimate (often inflated)\n- May demand payment before work begins\n- Can claim \"programming\" for routine database queries\n- No appeal process for fee disputes",
+      "conditions": "### Phase 3: Financial Barriers\n**Cost Estimate Phase**:\n- Agency provides estimate (often inflated)\n- May demand payment before work begins\n- Can claim \"programming\" for routine database queries\n- No appeal process for fee disputes",
+      "notes": "Extracted from Phase 3: Financial Barriers",
+      "extraction_date": "2025-09-26T13:52:18.348786"
+    },
+    {
+      "jurisdiction_name": "Texas",
+      "jurisdiction_code": "US-TX",
+      "law_name": "Texas Public Information Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See statute",
+      "category": "General Rights",
+      "subcategory": "**Fee Challenge Strategies**:\n- Request detailed breakdown of time estimates\n- Challenge \"programmin",
+      "description": "**Fee Challenge Strategies**:\n- Request detailed breakdown of time estimates\n- Challenge \"programming\" characterization for simple searches\n- Demand justification for hourly rates charged\n- Seek fee waiver based on public interest",
+      "conditions": "**Fee Challenge Strategies**:\n- Request detailed breakdown of time estimates\n- Challenge \"programming\" characterization for simple searches\n- Demand justification for hourly rates charged\n- Seek fee waiver based on public interest",
+      "notes": "Extracted from Phase 3: Financial Barriers",
+      "extraction_date": "2025-09-26T13:52:18.348787"
+    },
+    {
+      "jurisdiction_name": "Texas",
+      "jurisdiction_code": "US-TX",
+      "law_name": "Texas Public Information Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See statute",
+      "category": "Appeal Rights",
+      "subcategory": "### Judicial Enforcement\n**Court Venue**: District court in county where records located\n**Legal Sta",
+      "description": "### Judicial Enforcement\n**Court Venue**: District court in county where records located\n**Legal Standard**: Mandamus action to compel disclosure\n**Attorney Fees**: Available if requester \"substantially prevails\"\n**Timeline**: 6-12 months typical for resolution\n**Costs**: Can be significant but recoverable if successful",
+      "conditions": "### Judicial Enforcement\n**Court Venue**: District court in county where records located\n**Legal Standard**: Mandamus action to compel disclosure\n**Attorney Fees**: Available if requester \"substantially prevails\"\n**Timeline**: 6-12 months typical for resolution\n**Costs**: Can be significant but reco",
+      "notes": "Extracted from Judicial Enforcement",
+      "extraction_date": "2025-09-26T13:52:18.348818"
+    }
+  ],
+  "records_by_category": {
+    "Response Timeline": [
+      {
+        "jurisdiction_name": "Texas",
+        "jurisdiction_code": "US-TX",
+        "law_name": "Texas Public Information Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See statute",
+        "category": "Response Timeline",
+        "subcategory": "## Response Timeline Framework (VERIFIED 2025)",
+        "description": "## Response Timeline Framework (VERIFIED 2025)",
+        "conditions": "## Response Timeline Framework (VERIFIED 2025)",
+        "notes": "Extracted from Response Timeline Framework (VERIFIED 2025)",
+        "extraction_date": "2025-09-26T13:52:18.348683"
+      },
+      {
+        "jurisdiction_name": "Texas",
+        "jurisdiction_code": "US-TX",
+        "law_name": "Texas Public Information Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See statute",
+        "category": "Response Timeline",
+        "subcategory": "### Phase 2: Agency Response (THE CRITICAL PHASE)\n**Day 1-10: Standard Response Window**\nAgency must",
+        "description": "### Phase 2: Agency Response (THE CRITICAL PHASE)\n**Day 1-10: Standard Response Window**\nAgency must either:\n- Release the information\n- Seek Attorney General opinion to withhold",
+        "conditions": "### Phase 2: Agency Response (THE CRITICAL PHASE)\n**Day 1-10: Standard Response Window**\nAgency must either:\n- Release the information\n- Seek Attorney General opinion to withhold",
+        "notes": "Extracted from Phase 2: Agency Response (THE CRITICAL PHASE)",
+        "extraction_date": "2025-09-26T13:52:18.348744"
+      },
+      {
+        "jurisdiction_name": "Texas",
+        "jurisdiction_code": "US-TX",
+        "law_name": "Texas Public Information Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See statute",
+        "category": "Response Timeline",
+        "subcategory": "Request \"clarification\" (THE PAUSE BUTTON)",
+        "description": "Request \"clarification\" (THE PAUSE BUTTON)",
+        "conditions": "Request \"clarification\" (THE PAUSE BUTTON)",
+        "notes": "Extracted from Phase 2: Agency Response (THE CRITICAL PHASE)",
+        "extraction_date": "2025-09-26T13:52:18.348748"
+      },
+      {
+        "jurisdiction_name": "Texas",
+        "jurisdiction_code": "US-TX",
+        "law_name": "Texas Public Information Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See statute",
+        "category": "Response Timeline",
+        "subcategory": "**Clarification Request Tactics**:\n- \"Please clarify what specific documents you want\"\n- \"Please nar",
+        "description": "**Clarification Request Tactics**:\n- \"Please clarify what specific documents you want\"\n- \"Please narrow your date range\"\n- \"Please define [common term] in your request\"\n- \"We need clarification about [obvious element]\"",
+        "conditions": "**Clarification Request Tactics**:\n- \"Please clarify what specific documents you want\"\n- \"Please narrow your date range\"\n- \"Please define [common term] in your request\"\n- \"We need clarification about [obvious element]\"",
+        "notes": "Extracted from Phase 2: Agency Response (THE CRITICAL PHASE)",
+        "extraction_date": "2025-09-26T13:52:18.348760"
+      },
+      {
+        "jurisdiction_name": "Texas",
+        "jurisdiction_code": "US-TX",
+        "law_name": "Texas Public Information Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See statute",
+        "category": "Response Timeline",
+        "subcategory": "**Strategic Response to Clarification Requests**:\n- Challenge unnecessary clarification requests in ",
+        "description": "**Strategic Response to Clarification Requests**:\n- Challenge unnecessary clarification requests in writing\n- Cite specific examples of similar successful requests\n- Demand explanation of what is genuinely unclear\n- Set reasonable deadline for agency response to clarification",
+        "conditions": "**Strategic Response to Clarification Requests**:\n- Challenge unnecessary clarification requests in writing\n- Cite specific examples of similar successful requests\n- Demand explanation of what is genuinely unclear\n- Set reasonable deadline for agency response to clarification",
+        "notes": "Extracted from Phase 2: Agency Response (THE CRITICAL PHASE)",
+        "extraction_date": "2025-09-26T13:52:18.348761"
+      }
+    ],
+    "Fee Structure": [
+      {
+        "jurisdiction_name": "Texas",
+        "jurisdiction_code": "US-TX",
+        "law_name": "Texas Public Information Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See statute",
+        "category": "Fee Structure",
+        "subcategory": "## Fee Structure (VERIFIED 2025)",
+        "description": "## Fee Structure (VERIFIED 2025)",
+        "conditions": "## Fee Structure (VERIFIED 2025)",
+        "notes": "Extracted from Fee Structure (VERIFIED 2025)",
+        "extraction_date": "2025-09-26T13:52:18.348693"
+      }
+    ],
+    "Request Process": [
+      {
+        "jurisdiction_name": "Texas",
+        "jurisdiction_code": "US-TX",
+        "law_name": "Texas Public Information Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See statute",
+        "category": "Request Process",
+        "subcategory": "### Phase 1: Request Submission\n**Requirements**:\n- Must be in writing (confirmed 2025 requirement)\n",
+        "description": "### Phase 1: Request Submission\n**Requirements**:\n- Must be in writing (confirmed 2025 requirement)\n- Sufficiently specific to allow location of records\n- May be submitted by any person (not just Texas residents)\n- No required form, but agencies may provide preferred format",
+        "conditions": "### Phase 1: Request Submission\n**Requirements**:\n- Must be in writing (confirmed 2025 requirement)\n- Sufficiently specific to allow location of records\n- May be submitted by any person (not just Texas residents)\n- No required form, but agencies may provide preferred format",
+        "notes": "Extracted from Phase 1: Request Submission",
+        "extraction_date": "2025-09-26T13:52:18.348721"
+      },
+      {
+        "jurisdiction_name": "Texas",
+        "jurisdiction_code": "US-TX",
+        "law_name": "Texas Public Information Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See statute",
+        "category": "Request Process",
+        "subcategory": "**Best Practices**:\n- Email to designated Public Information Officer\n- Include specific date ranges ",
+        "description": "**Best Practices**:\n- Email to designated Public Information Officer\n- Include specific date ranges and document types\n- Reference previous similar successful requests\n- State fee waiver justification upfront",
+        "conditions": "**Best Practices**:\n- Email to designated Public Information Officer\n- Include specific date ranges and document types\n- Reference previous similar successful requests\n- State fee waiver justification upfront",
+        "notes": "Extracted from Phase 1: Request Submission",
+        "extraction_date": "2025-09-26T13:52:18.348722"
+      }
+    ],
+    "General Rights": [
+      {
+        "jurisdiction_name": "Texas",
+        "jurisdiction_code": "US-TX",
+        "law_name": "Texas Public Information Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See statute",
+        "category": "General Rights",
+        "subcategory": "### Phase 3: Financial Barriers\n**Cost Estimate Phase**:\n- Agency provides estimate (often inflated)",
+        "description": "### Phase 3: Financial Barriers\n**Cost Estimate Phase**:\n- Agency provides estimate (often inflated)\n- May demand payment before work begins\n- Can claim \"programming\" for routine database queries\n- No appeal process for fee disputes",
+        "conditions": "### Phase 3: Financial Barriers\n**Cost Estimate Phase**:\n- Agency provides estimate (often inflated)\n- May demand payment before work begins\n- Can claim \"programming\" for routine database queries\n- No appeal process for fee disputes",
+        "notes": "Extracted from Phase 3: Financial Barriers",
+        "extraction_date": "2025-09-26T13:52:18.348786"
+      },
+      {
+        "jurisdiction_name": "Texas",
+        "jurisdiction_code": "US-TX",
+        "law_name": "Texas Public Information Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See statute",
+        "category": "General Rights",
+        "subcategory": "**Fee Challenge Strategies**:\n- Request detailed breakdown of time estimates\n- Challenge \"programmin",
+        "description": "**Fee Challenge Strategies**:\n- Request detailed breakdown of time estimates\n- Challenge \"programming\" characterization for simple searches\n- Demand justification for hourly rates charged\n- Seek fee waiver based on public interest",
+        "conditions": "**Fee Challenge Strategies**:\n- Request detailed breakdown of time estimates\n- Challenge \"programming\" characterization for simple searches\n- Demand justification for hourly rates charged\n- Seek fee waiver based on public interest",
+        "notes": "Extracted from Phase 3: Financial Barriers",
+        "extraction_date": "2025-09-26T13:52:18.348787"
+      }
+    ],
+    "Appeal Rights": [
+      {
+        "jurisdiction_name": "Texas",
+        "jurisdiction_code": "US-TX",
+        "law_name": "Texas Public Information Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See statute",
+        "category": "Appeal Rights",
+        "subcategory": "### Judicial Enforcement\n**Court Venue**: District court in county where records located\n**Legal Sta",
+        "description": "### Judicial Enforcement\n**Court Venue**: District court in county where records located\n**Legal Standard**: Mandamus action to compel disclosure\n**Attorney Fees**: Available if requester \"substantially prevails\"\n**Timeline**: 6-12 months typical for resolution\n**Costs**: Can be significant but recoverable if successful",
+        "conditions": "### Judicial Enforcement\n**Court Venue**: District court in county where records located\n**Legal Standard**: Mandamus action to compel disclosure\n**Attorney Fees**: Available if requester \"substantially prevails\"\n**Timeline**: 6-12 months typical for resolution\n**Costs**: Can be significant but reco",
+        "notes": "Extracted from Judicial Enforcement",
+        "extraction_date": "2025-09-26T13:52:18.348818"
+      }
+    ]
+  }
+}

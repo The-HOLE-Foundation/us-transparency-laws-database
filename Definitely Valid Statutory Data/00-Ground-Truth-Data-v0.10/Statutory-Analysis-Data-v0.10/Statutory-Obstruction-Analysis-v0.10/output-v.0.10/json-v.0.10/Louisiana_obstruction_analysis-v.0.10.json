@@ -1,0 +1,33 @@
+{
+  "state": "Louisiana",
+  "vulnerabilities": [
+    {
+      "type": "Clarification Pause",
+      "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+      "severity": "HIGH",
+      "mechanism": "**Internal Process:**\n- Discuss concerns with custodian or agency head\n- Request clarification of exemption claims or timeline\n- Seek informal resolution before formal action\n- Document interactions for potential legal proceedings\n\n### Phase 5: Legal Enforcement\n**District Court Action:**\n- **Venue**: Louisiana district court where public body located\n- **Authority**: Court may order compliance with Public Records Act\n- **Relief**: Mandamus, injunctive relief, potential attorney fees\n- **Standar"
+    },
+    {
+      "type": "Fee Barriers",
+      "description": "Fee structure can be weaponized to deter requests",
+      "severity": "MEDIUM",
+      "mechanism": "  - LSA-R.S. 44:1: Definitions and legislative intent\n  - LSA-R.S. 44:31: Public access rights and procedures\n  - LSA-R.S. 44:32: Fee provisions\n  - LSA-R.S. 44:3-30: Specific exemptions from disclosure\n\n### Definitions\n- **Public Body**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**: All books, records, writings, accounts, letters, maps, drawings, photographs, cards, tapes, recordings, or other documentary materials\n- **Regular Offic"
+    },
+    {
+      "type": "Exemption Abuse",
+      "description": "Broad exemptions can be misapplied to withhold records",
+      "severity": "HIGH",
+      "mechanism": "  - LSA-R.S. 44:31: Public access rights and procedures\n  - LSA-R.S. 44:32: Fee provisions\n  - LSA-R.S. 44:3-30: Specific exemptions from disclosure\n\n### Definitions\n- **Public Body**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**: All books, records, writings, accounts, letters, maps, drawings, photographs, cards, tapes, recordings, or other documentary materials\n- **Regular Office Hours**: Normal business hours during which agency c"
+    },
+    {
+      "type": "Vague Timeline",
+      "description": "Response deadline is subjective rather than fixed",
+      "severity": "MEDIUM",
+      "mechanism": "Deadline defined as: Promptly (vague)"
+    }
+  ],
+  "timelines": {
+    "response_deadline": "Promptly (vague)"
+  },
+  "total_vulnerability_count": 4
+}

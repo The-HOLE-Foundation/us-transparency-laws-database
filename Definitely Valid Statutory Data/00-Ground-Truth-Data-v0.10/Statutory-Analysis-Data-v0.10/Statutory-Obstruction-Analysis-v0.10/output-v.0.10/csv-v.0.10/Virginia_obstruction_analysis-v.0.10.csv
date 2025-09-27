@@ -1,0 +1,27 @@
+type,severity,description,mechanism
+Fee Barriers,MEDIUM,Fee structure can be weaponized to deter requests,"---
+
+## Fee Structure (VERIFIED 2025)
+
+### Permitted Charges
+- **Search Costs**: Actual cost of staff time for searching
+- **Review Costs**: Actual cost of legal/administrative review
+- **Duplication Costs**: Actual copying and materials costs
+- **Electronic Media**: Cost of CDs, USB drives, etc.
+
+### Fee Limitations
+- **Itemized Billing**: Required for all charges"
+Programming Time Charges,MEDIUM,Allows charging for technical work with subjective billing,Can inflate costs by claiming simple requests require programming
+Vague Request Rejection,HIGH,Agencies can reject requests as too broad or vague,Subjective interpretation allows denial of valid requests
+Exemption Abuse,HIGH,Broad exemptions can be misapplied to withhold records,"**Agency Must Either**:
+- Provide requested records
+- Deny request with specific exemption citations
+- Notify of need for additional time with explanation
+
+---
+
+## Fee Structure (VERIFIED 2025)
+
+### Permitted Charges
+- **Search Costs**: Actual cost of staff time for searching
+- **Review Costs**: Actual cost of legal/administrative review"

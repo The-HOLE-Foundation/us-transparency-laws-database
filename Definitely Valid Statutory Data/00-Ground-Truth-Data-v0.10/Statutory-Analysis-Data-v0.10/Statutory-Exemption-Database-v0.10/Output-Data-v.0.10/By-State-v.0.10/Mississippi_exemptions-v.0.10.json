@@ -1,0 +1,252 @@
+{
+  "metadata": {
+    "extraction_date": "2025-09-26T13:52:18.323277",
+    "total_records": 9,
+    "jurisdiction": "Mississippi",
+    "data_source": "VERIFIED Process Maps",
+    "verification_date": "September 2025",
+    "categories": [
+      "Statutory Exemption"
+    ]
+  },
+  "records": [
+    {
+      "jurisdiction_name": "Mississippi",
+      "jurisdiction_code": "US-MS",
+      "law_name": "Mississippi Public Records Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "All fees must be reasonable and not excessive",
+      "conditions": "All fees must be reasonable and not excessive",
+      "notes": "Exemption type: Reasonableness Standard",
+      "extraction_date": "2025-09-26T13:52:18.321747"
+    },
+    {
+      "jurisdiction_name": "Mississippi",
+      "jurisdiction_code": "US-MS",
+      "law_name": "Mississippi Public Records Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "Fees cannot be used as means to deny access",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: No Denial Tool",
+      "extraction_date": "2025-09-26T13:52:18.321754"
+    },
+    {
+      "jurisdiction_name": "Mississippi",
+      "jurisdiction_code": "US-MS",
+      "law_name": "Mississippi Public Records Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "All charges must comply with statutory provisions",
+      "conditions": "All charges must comply with statutory provisions",
+      "notes": "Exemption type: Statutory Compliance",
+      "extraction_date": "2025-09-26T13:52:18.321761"
+    },
+    {
+      "jurisdiction_name": "Mississippi",
+      "jurisdiction_code": "US-MS",
+      "law_name": "Mississippi Public Records Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "Best practice to notify requester of costs before processing",
+      "conditions": "Best practice to notify requester of costs before processing",
+      "notes": "Exemption type: Advance Notice",
+      "extraction_date": "2025-09-26T13:52:18.321768"
+    },
+    {
+      "jurisdiction_name": "Mississippi",
+      "jurisdiction_code": "US-MS",
+      "law_name": "Mississippi Public Records Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Personnel Records",
+      "description": "Employee evaluations, disciplinary records where specifically exempted",
+      "conditions": "Employee evaluations, disciplinary records where specifically exempted",
+      "notes": "Exemption type: Personnel Records",
+      "extraction_date": "2025-09-26T13:52:18.321786"
+    },
+    {
+      "jurisdiction_name": "Mississippi",
+      "jurisdiction_code": "US-MS",
+      "law_name": "Mississippi Public Records Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Law Enforcement",
+      "description": "Active investigations where specifically protected by statute",
+      "conditions": "Active investigations where specifically protected by statute",
+      "notes": "Exemption type: Law Enforcement",
+      "extraction_date": "2025-09-26T13:52:18.321789"
+    },
+    {
+      "jurisdiction_name": "Mississippi",
+      "jurisdiction_code": "US-MS",
+      "law_name": "Mississippi Public Records Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Attorney-Client Privilege",
+      "description": "Legal advice specifically protected by law",
+      "conditions": "Legal advice specifically protected by law",
+      "notes": "Exemption type: Attorney-Client Privilege",
+      "extraction_date": "2025-09-26T13:52:18.321793"
+    },
+    {
+      "jurisdiction_name": "Mississippi",
+      "jurisdiction_code": "US-MS",
+      "law_name": "Mississippi Public Records Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Medical Records",
+      "description": "Protected health information under specific statutes",
+      "conditions": "Protected health information under specific statutes",
+      "notes": "Exemption type: Medical Records",
+      "extraction_date": "2025-09-26T13:52:18.321798"
+    },
+    {
+      "jurisdiction_name": "Mississippi",
+      "jurisdiction_code": "US-MS",
+      "law_name": "Mississippi Public Records Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Educational Records",
+      "description": "Student records protected under FERPA and state law",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: Educational Records",
+      "extraction_date": "2025-09-26T13:52:18.321804"
+    }
+  ],
+  "records_by_category": {
+    "Statutory Exemption": [
+      {
+        "jurisdiction_name": "Mississippi",
+        "jurisdiction_code": "US-MS",
+        "law_name": "Mississippi Public Records Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "All fees must be reasonable and not excessive",
+        "conditions": "All fees must be reasonable and not excessive",
+        "notes": "Exemption type: Reasonableness Standard",
+        "extraction_date": "2025-09-26T13:52:18.321747"
+      },
+      {
+        "jurisdiction_name": "Mississippi",
+        "jurisdiction_code": "US-MS",
+        "law_name": "Mississippi Public Records Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "Fees cannot be used as means to deny access",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: No Denial Tool",
+        "extraction_date": "2025-09-26T13:52:18.321754"
+      },
+      {
+        "jurisdiction_name": "Mississippi",
+        "jurisdiction_code": "US-MS",
+        "law_name": "Mississippi Public Records Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "All charges must comply with statutory provisions",
+        "conditions": "All charges must comply with statutory provisions",
+        "notes": "Exemption type: Statutory Compliance",
+        "extraction_date": "2025-09-26T13:52:18.321761"
+      },
+      {
+        "jurisdiction_name": "Mississippi",
+        "jurisdiction_code": "US-MS",
+        "law_name": "Mississippi Public Records Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "Best practice to notify requester of costs before processing",
+        "conditions": "Best practice to notify requester of costs before processing",
+        "notes": "Exemption type: Advance Notice",
+        "extraction_date": "2025-09-26T13:52:18.321768"
+      },
+      {
+        "jurisdiction_name": "Mississippi",
+        "jurisdiction_code": "US-MS",
+        "law_name": "Mississippi Public Records Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Personnel Records",
+        "description": "Employee evaluations, disciplinary records where specifically exempted",
+        "conditions": "Employee evaluations, disciplinary records where specifically exempted",
+        "notes": "Exemption type: Personnel Records",
+        "extraction_date": "2025-09-26T13:52:18.321786"
+      },
+      {
+        "jurisdiction_name": "Mississippi",
+        "jurisdiction_code": "US-MS",
+        "law_name": "Mississippi Public Records Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Law Enforcement",
+        "description": "Active investigations where specifically protected by statute",
+        "conditions": "Active investigations where specifically protected by statute",
+        "notes": "Exemption type: Law Enforcement",
+        "extraction_date": "2025-09-26T13:52:18.321789"
+      },
+      {
+        "jurisdiction_name": "Mississippi",
+        "jurisdiction_code": "US-MS",
+        "law_name": "Mississippi Public Records Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Attorney-Client Privilege",
+        "description": "Legal advice specifically protected by law",
+        "conditions": "Legal advice specifically protected by law",
+        "notes": "Exemption type: Attorney-Client Privilege",
+        "extraction_date": "2025-09-26T13:52:18.321793"
+      },
+      {
+        "jurisdiction_name": "Mississippi",
+        "jurisdiction_code": "US-MS",
+        "law_name": "Mississippi Public Records Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Medical Records",
+        "description": "Protected health information under specific statutes",
+        "conditions": "Protected health information under specific statutes",
+        "notes": "Exemption type: Medical Records",
+        "extraction_date": "2025-09-26T13:52:18.321798"
+      },
+      {
+        "jurisdiction_name": "Mississippi",
+        "jurisdiction_code": "US-MS",
+        "law_name": "Mississippi Public Records Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Educational Records",
+        "description": "Student records protected under FERPA and state law",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: Educational Records",
+        "extraction_date": "2025-09-26T13:52:18.321804"
+      }
+    ]
+  }
+}

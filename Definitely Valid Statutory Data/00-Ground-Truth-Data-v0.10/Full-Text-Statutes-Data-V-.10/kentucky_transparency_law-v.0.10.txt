@@ -1,0 +1,181 @@
+KENTUCKY OPEN RECORDS ACT
+=========================
+Official Citation: KRS 61.870 through 61.884
+Enacted: 1976 (significant revisions in 1986, 1992, 1994, 2021)
+Last Updated: 2025-01-09
+
+STATUTORY FRAMEWORK
+==================
+
+Primary Authority: Kentucky Revised Statutes Chapter 61
+KRS 61.870 - Definitions and general provisions
+KRS 61.871 - Policy declaration and strict construction
+KRS 61.878 - Exemptions from disclosure
+KRS 61.880 - Enforcement procedures and deadlines
+
+POLICY DECLARATION (KRS 61.871)
+===============================
+"The General Assembly finds and declares that the basic policy of KRS 61.870 to 61.884 is that free and open examination of public records is in the public interest and the exceptions provided for by KRS 61.878 or otherwise provided by law shall be strictly construed, even though such examination may cause inconvenience or embarrassment to public officials of others."
+
+DEFINITION OF PUBLIC RECORDS (KRS 61.870)
+=========================================
+Public records include "all books, papers, maps, photographs, cards, tapes, discs, diskettes, recordings, software, or other documentation regardless of physical form or characteristics, which are prepared, owned, used, in the possession of or retained by a public agency."
+
+WHO CAN REQUEST RECORDS
+=======================
+Only Kentucky "residents" have enforceable rights under the Act. A Kentucky "resident" includes:
+- Individuals residing in Kentucky
+- Domestic businesses with Kentucky locations  
+- Out-of-state businesses registered with Secretary of State
+- Persons who work in Kentucky
+- Persons or businesses owning real property in Kentucky
+- Persons or businesses authorized to act on behalf of Kentucky residents
+- News-gathering organizations
+
+Non-residents can request records but cannot enforce requests through appeal process.
+
+KEY PROCEDURAL REQUIREMENTS (KRS 61.880)
+========================================
+
+Response Timeline:
+- Agencies must determine within 5 business days whether to comply
+- Written notification required within the 5-day period
+- Excludes Saturdays, Sundays, and legal holidays
+
+Agency Obligations:
+- Must provide written decision to provide or deny inspection
+- Must make suitable facilities available for inspection
+- Required to provide redacted copies if records contain both exempt and non-exempt information
+
+MAJOR EXEMPTIONS (KRS 61.878)
+=============================
+The Kentucky Open Records Act contains 14 specific exemptions including:
+
+1. Personal records where disclosure would constitute "clearly unwarranted invasion of personal privacy"
+2. Records of law enforcement agencies compiled in detecting/investigating violations (with timing restrictions)
+3. Confidential or proprietary business information
+4. Preliminary drafts, notes, correspondence, and memoranda
+5. Confidential research records of institutions of higher education
+6. Testing and examination materials
+7. Records relating to adoption proceedings
+8. Personnel records and employee evaluations
+9. Records of agencies handling public funds' investments
+10. Medical and psychiatric records
+
+Special Provisions:
+- Exemptions must be strictly construed
+- Agencies must separate exempt from non-exempt information
+- Burden of proof for withholding is on the public agency
+
+FEES AND COSTS
+==============
+
+Non-Commercial Use:
+- Limited to actual reproduction costs only
+- Cannot charge for staff time or search time
+- Cannot charge sales tax on copies
+- May require advance payment
+
+Commercial Use:
+- Can charge for staff time and record acquisition costs
+- Higher fee structure applies for commercial requesters
+- Must distinguish between commercial and non-commercial use
+
+APPEALS PROCESS
+===============
+
+Administrative Review:
+1. Request review by Kentucky Attorney General within 30 days
+2. Attorney General has 20 days to issue written decision (excluding weekends/holidays)
+3. Attorney General's decisions available online and have precedential value
+
+Judicial Review:
+1. Appeal Attorney General decision to Circuit Court within 30 days
+2. Original action directly to Circuit Court (bypassing AG review)
+3. Court determines matter "de novo"
+4. Burden of proof on public agency
+
+Important Deadlines:
+- 30-day deadline to appeal AG decision is STRICT
+- If not appealed within 30 days, AG decision "has force and effect of law"
+
+ENFORCEMENT MECHANISMS
+=====================
+
+Attorney General Review:
+- Primary enforcement mechanism
+- Issues binding decisions unless appealed
+- Maintains online database of decisions
+- Can order disclosure and establish precedent
+
+Circuit Court Actions:
+- De novo review standard
+- Can order injunctive relief
+- Agency bears burden of proof
+- Attorney fees may be available
+
+SCOPE OF COVERAGE
+=================
+
+Public Agencies Include:
+- State and local government agencies
+- Bodies receiving 25% or more government funding
+- Agencies with majority government-appointed boards
+- Public universities and school districts
+
+NOTABLE FEATURES
+================
+
+1. Resident Requirement: Only Kentucky residents have enforceable rights
+2. Strict Construction: Exemptions construed narrowly in favor of disclosure
+3. Administrative Review: Strong Attorney General enforcement role
+4. No Fee for Search: Non-commercial users pay only reproduction costs
+5. Liberal Policy: Emphasizes public interest in open examination
+
+COMPARISON TO FEDERAL FOIA
+=========================
+- Faster initial response time (5 days vs. 20 days)
+- Resident-only enforcement rights (unlike federal FOIA)
+- Strong Attorney General review process
+- Different exemption structure
+- No fee for search time (non-commercial use)
+
+RECENT DEVELOPMENTS (2021 Amendments)
+====================================
+- Clarifications to commercial vs. non-commercial use
+- Updated definitions reflecting electronic records
+- Enhanced procedural requirements for agencies
+- Strengthened enforcement mechanisms
+
+COMPLIANCE RECOMMENDATIONS
+==========================
+1. Verify Kentucky residency status before filing request
+2. Be specific about non-commercial use to avoid higher fees
+3. Submit requests in writing to establish clear 5-day timeline
+4. Understand that partial denials require redacted copies
+5. Know 30-day appeal deadline is absolute
+6. Contact Attorney General's Office for guidance on denials
+7. Consider precedential AG decisions for similar requests
+
+APPEALS CONTACT INFORMATION
+===========================
+Kentucky Attorney General's Office
+Open Records Decisions
+700 Capitol Avenue, Suite 118
+Frankfort, KY 40601
+Phone: Contact main AG office
+Website: ag.ky.gov (for open records decisions database)
+
+STATUTORY CITATIONS FOR LEGAL RESEARCH
+======================================
+Primary Statutes: KRS 61.870 through 61.884
+Policy Statement: KRS 61.871 (strict construction requirement)
+Exemptions: KRS 61.878 (14 specific exemptions)
+Procedures: KRS 61.880 (5-day response, appeal process)
+Enforcement: KRS 61.882 (penalties and enforcement)
+
+Note: This document provides a comprehensive overview based on available sources. For complete statutory text and current amendments, consult the official Kentucky Revised Statutes at legislature.ky.gov or contact the Kentucky Attorney General's Office for specific guidance.
+
+LEGAL PRECEDENT
+===============
+Kentucky courts and the Attorney General have established extensive precedent interpreting the Act, with decisions available through the Attorney General's online open records decision database. Key principles include strict construction of exemptions and broad interpretation of what constitutes public records.

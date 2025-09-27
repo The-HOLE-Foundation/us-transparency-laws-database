@@ -1,0 +1,310 @@
+{
+  "metadata": {
+    "extraction_date": "2025-09-26T13:52:18.296998",
+    "total_records": 11,
+    "jurisdiction": "Florida",
+    "data_source": "VERIFIED Process Maps",
+    "verification_date": "September 2025",
+    "categories": [
+      "Request Process",
+      "General Rights",
+      "Appeal Rights"
+    ]
+  },
+  "records": [
+    {
+      "jurisdiction_name": "Florida",
+      "jurisdiction_code": "US-FL",
+      "law_name": "Florida Sunshine Law",
+      "statute_citation": "Citation not found",
+      "section_reference": "See statute",
+      "category": "Request Process",
+      "subcategory": "### Phase 1: Request Submission\n**Requester Actions:**\n- Request can be oral or written\n- No specifi",
+      "description": "### Phase 1: Request Submission\n**Requester Actions:**\n- Request can be oral or written\n- No specific form required\n- Reasonably describe records sought\n- Specify inspection vs. copies",
+      "conditions": "### Phase 1: Request Submission\n**Requester Actions:**\n- Request can be oral or written\n- No specific form required\n- Reasonably describe records sought\n- Specify inspection vs",
+      "notes": "Extracted from Phase 1: Request Submission",
+      "extraction_date": "2025-09-26T13:52:18.296668"
+    },
+    {
+      "jurisdiction_name": "Florida",
+      "jurisdiction_code": "US-FL",
+      "law_name": "Florida Sunshine Law",
+      "statute_citation": "Citation not found",
+      "section_reference": "See statute",
+      "category": "Request Process",
+      "subcategory": "**Agency Actions:**\n- Must respond promptly to oral requests\n- May require written confirmation for ",
+      "description": "**Agency Actions:**\n- Must respond promptly to oral requests\n- May require written confirmation for large requests\n- Should acknowledge receipt and provide timeline",
+      "conditions": "**Agency Actions:**\n- Must respond promptly to oral requests\n- May require written confirmation for large requests\n- Should acknowledge receipt and provide timeline",
+      "notes": "Extracted from Phase 1: Request Submission",
+      "extraction_date": "2025-09-26T13:52:18.296669"
+    },
+    {
+      "jurisdiction_name": "Florida",
+      "jurisdiction_code": "US-FL",
+      "law_name": "Florida Sunshine Law",
+      "statute_citation": "Citation not found",
+      "section_reference": "See statute",
+      "category": "Request Process",
+      "subcategory": "### Phase 2: Processing and Review\n**Agency Obligations:**\n- Locate responsive records promptly\n- Re",
+      "description": "### Phase 2: Processing and Review\n**Agency Obligations:**\n- Locate responsive records promptly\n- Review for applicable exemptions\n- Prepare redacted versions if necessary\n- Calculate duplication costs",
+      "conditions": "### Phase 2: Processing and Review\n**Agency Obligations:**\n- Locate responsive records promptly\n- Review for applicable exemptions\n- Prepare redacted versions if necessary\n- Calculate duplication costs",
+      "notes": "Extracted from Phase 2: Processing and Review",
+      "extraction_date": "2025-09-26T13:52:18.296690"
+    },
+    {
+      "jurisdiction_name": "Florida",
+      "jurisdiction_code": "US-FL",
+      "law_name": "Florida Sunshine Law",
+      "statute_citation": "Citation not found",
+      "section_reference": "See statute",
+      "category": "Request Process",
+      "subcategory": "**Custodian Responsibilities:**\n- Personal responsibility for compliance\n- Must ensure proper search",
+      "description": "**Custodian Responsibilities:**\n- Personal responsibility for compliance\n- Must ensure proper search conducted\n- Authority to interpret exemptions initially",
+      "conditions": "**Custodian Responsibilities:**\n- Personal responsibility for compliance\n- Must ensure proper search conducted\n- Authority to interpret exemptions initially",
+      "notes": "Extracted from Phase 2: Processing and Review",
+      "extraction_date": "2025-09-26T13:52:18.296691"
+    },
+    {
+      "jurisdiction_name": "Florida",
+      "jurisdiction_code": "US-FL",
+      "law_name": "Florida Sunshine Law",
+      "statute_citation": "Citation not found",
+      "section_reference": "See statute",
+      "category": "General Rights",
+      "subcategory": "### Phase 3: Production or Denial\n**For Released Records:**\n- Make available for inspection immediat",
+      "description": "### Phase 3: Production or Denial\n**For Released Records:**\n- Make available for inspection immediately\n- Provide copies upon payment of fees\n- Must explain any redactions made\n- Provide in requested format if available",
+      "conditions": "### Phase 3: Production or Denial\n**For Released Records:**\n- Make available for inspection immediately\n- Provide copies upon payment of fees\n- Must explain any redactions made\n- Provide in requested format if available",
+      "notes": "Extracted from Phase 3: Production or Denial",
+      "extraction_date": "2025-09-26T13:52:18.296711"
+    },
+    {
+      "jurisdiction_name": "Florida",
+      "jurisdiction_code": "US-FL",
+      "law_name": "Florida Sunshine Law",
+      "statute_citation": "Citation not found",
+      "section_reference": "See statute",
+      "category": "General Rights",
+      "subcategory": "**For Denied Records:**\n- Must cite specific statutory exemption\n- Explain basis for exemption claim",
+      "description": "**For Denied Records:**\n- Must cite specific statutory exemption\n- Explain basis for exemption claim\n- Inform requester of appeal rights\n- Provide Attorney General contact information",
+      "conditions": "**For Denied Records:**\n- Must cite specific statutory exemption\n- Explain basis for exemption claim\n- Inform requester of appeal rights\n- Provide Attorney General contact information",
+      "notes": "Extracted from Phase 3: Production or Denial",
+      "extraction_date": "2025-09-26T13:52:18.296712"
+    },
+    {
+      "jurisdiction_name": "Florida",
+      "jurisdiction_code": "US-FL",
+      "law_name": "Florida Sunshine Law",
+      "statute_citation": "Citation not found",
+      "section_reference": "See statute",
+      "category": "Appeal Rights",
+      "subcategory": "### Phase 4: Appeal Process\n**Administrative Appeal:**\n- File complaint with Attorney General\n- AG h",
+      "description": "### Phase 4: Appeal Process\n**Administrative Appeal:**\n- File complaint with Attorney General\n- AG has 30 days to issue opinion\n- AG opinion binding on agencies\n- No cost to requester for AG review",
+      "conditions": "No specific conditions stated",
+      "notes": "Extracted from Phase 4: Appeal Process",
+      "extraction_date": "2025-09-26T13:52:18.296727"
+    },
+    {
+      "jurisdiction_name": "Florida",
+      "jurisdiction_code": "US-FL",
+      "law_name": "Florida Sunshine Law",
+      "statute_citation": "Citation not found",
+      "section_reference": "§ 119",
+      "category": "Appeal Rights",
+      "subcategory": "### Attorney General Enforcement (F.S",
+      "description": "### Attorney General Enforcement (F.S. § 119.10)\n**Administrative Process:**\n- File written complaint with AG\n- No filing fee required\n- AG issues binding opinion within 30 days\n- Agency must comply or face civil penalties",
+      "conditions": "§ 119.10)\n**Administrative Process:**\n- File written complaint with AG\n- No filing fee required\n- AG issues binding opinion within 30 days\n- Agency must comply or face civil penalties",
+      "notes": "Extracted from Attorney General Enforcement (F.S. § 119.10)",
+      "extraction_date": "2025-09-26T13:52:18.296762"
+    },
+    {
+      "jurisdiction_name": "Florida",
+      "jurisdiction_code": "US-FL",
+      "law_name": "Florida Sunshine Law",
+      "statute_citation": "Citation not found",
+      "section_reference": "§ 119",
+      "category": "Appeal Rights",
+      "subcategory": "**AG Opinion Process:**\n- Informal resolution attempts first\n- Formal written opinion if needed\n- Pu",
+      "description": "**AG Opinion Process:**\n- Informal resolution attempts first\n- Formal written opinion if needed\n- Published opinions create precedent\n- Violation may result in suspension from office",
+      "conditions": "**AG Opinion Process:**\n- Informal resolution attempts first\n- Formal written opinion if needed\n- Published opinions create precedent\n- Violation may result in suspension from office",
+      "notes": "Extracted from Attorney General Enforcement (F.S. § 119.10)",
+      "extraction_date": "2025-09-26T13:52:18.296764"
+    },
+    {
+      "jurisdiction_name": "Florida",
+      "jurisdiction_code": "US-FL",
+      "law_name": "Florida Sunshine Law",
+      "statute_citation": "Citation not found",
+      "section_reference": "§ 119",
+      "category": "Appeal Rights",
+      "subcategory": "### Civil Enforcement (F.S",
+      "description": "### Civil Enforcement (F.S. § 119.12)\n**Circuit Court Jurisdiction:**\n- Mandamus to compel production\n- Injunctive relief for ongoing violations\n- Civil penalties for willful violations\n- Attorney fees for prevailing plaintiffs",
+      "conditions": "§ 119.12)\n**Circuit Court Jurisdiction:**\n- Mandamus to compel production\n- Injunctive relief for ongoing violations\n- Civil penalties for willful violations\n- Attorney fees for prevailing plaintiffs",
+      "notes": "Extracted from Civil Enforcement (F.S. § 119.12)",
+      "extraction_date": "2025-09-26T13:52:18.296790"
+    },
+    {
+      "jurisdiction_name": "Florida",
+      "jurisdiction_code": "US-FL",
+      "law_name": "Florida Sunshine Law",
+      "statute_citation": "Citation not found",
+      "section_reference": "§ 119",
+      "category": "Appeal Rights",
+      "subcategory": "**Attorney Fees (F.S",
+      "description": "**Attorney Fees (F.S. § 119.12):**\n- Mandatory for substantially prevailing plaintiffs\n- Reasonable fees and costs\n- Applies to both AG proceedings and court actions",
+      "conditions": "§ 119.12):**\n- Mandatory for substantially prevailing plaintiffs\n- Reasonable fees and costs\n- Applies to both AG proceedings and court actions",
+      "notes": "Extracted from Civil Enforcement (F.S. § 119.12)",
+      "extraction_date": "2025-09-26T13:52:18.296791"
+    }
+  ],
+  "records_by_category": {
+    "Request Process": [
+      {
+        "jurisdiction_name": "Florida",
+        "jurisdiction_code": "US-FL",
+        "law_name": "Florida Sunshine Law",
+        "statute_citation": "Citation not found",
+        "section_reference": "See statute",
+        "category": "Request Process",
+        "subcategory": "### Phase 1: Request Submission\n**Requester Actions:**\n- Request can be oral or written\n- No specifi",
+        "description": "### Phase 1: Request Submission\n**Requester Actions:**\n- Request can be oral or written\n- No specific form required\n- Reasonably describe records sought\n- Specify inspection vs. copies",
+        "conditions": "### Phase 1: Request Submission\n**Requester Actions:**\n- Request can be oral or written\n- No specific form required\n- Reasonably describe records sought\n- Specify inspection vs",
+        "notes": "Extracted from Phase 1: Request Submission",
+        "extraction_date": "2025-09-26T13:52:18.296668"
+      },
+      {
+        "jurisdiction_name": "Florida",
+        "jurisdiction_code": "US-FL",
+        "law_name": "Florida Sunshine Law",
+        "statute_citation": "Citation not found",
+        "section_reference": "See statute",
+        "category": "Request Process",
+        "subcategory": "**Agency Actions:**\n- Must respond promptly to oral requests\n- May require written confirmation for ",
+        "description": "**Agency Actions:**\n- Must respond promptly to oral requests\n- May require written confirmation for large requests\n- Should acknowledge receipt and provide timeline",
+        "conditions": "**Agency Actions:**\n- Must respond promptly to oral requests\n- May require written confirmation for large requests\n- Should acknowledge receipt and provide timeline",
+        "notes": "Extracted from Phase 1: Request Submission",
+        "extraction_date": "2025-09-26T13:52:18.296669"
+      },
+      {
+        "jurisdiction_name": "Florida",
+        "jurisdiction_code": "US-FL",
+        "law_name": "Florida Sunshine Law",
+        "statute_citation": "Citation not found",
+        "section_reference": "See statute",
+        "category": "Request Process",
+        "subcategory": "### Phase 2: Processing and Review\n**Agency Obligations:**\n- Locate responsive records promptly\n- Re",
+        "description": "### Phase 2: Processing and Review\n**Agency Obligations:**\n- Locate responsive records promptly\n- Review for applicable exemptions\n- Prepare redacted versions if necessary\n- Calculate duplication costs",
+        "conditions": "### Phase 2: Processing and Review\n**Agency Obligations:**\n- Locate responsive records promptly\n- Review for applicable exemptions\n- Prepare redacted versions if necessary\n- Calculate duplication costs",
+        "notes": "Extracted from Phase 2: Processing and Review",
+        "extraction_date": "2025-09-26T13:52:18.296690"
+      },
+      {
+        "jurisdiction_name": "Florida",
+        "jurisdiction_code": "US-FL",
+        "law_name": "Florida Sunshine Law",
+        "statute_citation": "Citation not found",
+        "section_reference": "See statute",
+        "category": "Request Process",
+        "subcategory": "**Custodian Responsibilities:**\n- Personal responsibility for compliance\n- Must ensure proper search",
+        "description": "**Custodian Responsibilities:**\n- Personal responsibility for compliance\n- Must ensure proper search conducted\n- Authority to interpret exemptions initially",
+        "conditions": "**Custodian Responsibilities:**\n- Personal responsibility for compliance\n- Must ensure proper search conducted\n- Authority to interpret exemptions initially",
+        "notes": "Extracted from Phase 2: Processing and Review",
+        "extraction_date": "2025-09-26T13:52:18.296691"
+      }
+    ],
+    "General Rights": [
+      {
+        "jurisdiction_name": "Florida",
+        "jurisdiction_code": "US-FL",
+        "law_name": "Florida Sunshine Law",
+        "statute_citation": "Citation not found",
+        "section_reference": "See statute",
+        "category": "General Rights",
+        "subcategory": "### Phase 3: Production or Denial\n**For Released Records:**\n- Make available for inspection immediat",
+        "description": "### Phase 3: Production or Denial\n**For Released Records:**\n- Make available for inspection immediately\n- Provide copies upon payment of fees\n- Must explain any redactions made\n- Provide in requested format if available",
+        "conditions": "### Phase 3: Production or Denial\n**For Released Records:**\n- Make available for inspection immediately\n- Provide copies upon payment of fees\n- Must explain any redactions made\n- Provide in requested format if available",
+        "notes": "Extracted from Phase 3: Production or Denial",
+        "extraction_date": "2025-09-26T13:52:18.296711"
+      },
+      {
+        "jurisdiction_name": "Florida",
+        "jurisdiction_code": "US-FL",
+        "law_name": "Florida Sunshine Law",
+        "statute_citation": "Citation not found",
+        "section_reference": "See statute",
+        "category": "General Rights",
+        "subcategory": "**For Denied Records:**\n- Must cite specific statutory exemption\n- Explain basis for exemption claim",
+        "description": "**For Denied Records:**\n- Must cite specific statutory exemption\n- Explain basis for exemption claim\n- Inform requester of appeal rights\n- Provide Attorney General contact information",
+        "conditions": "**For Denied Records:**\n- Must cite specific statutory exemption\n- Explain basis for exemption claim\n- Inform requester of appeal rights\n- Provide Attorney General contact information",
+        "notes": "Extracted from Phase 3: Production or Denial",
+        "extraction_date": "2025-09-26T13:52:18.296712"
+      }
+    ],
+    "Appeal Rights": [
+      {
+        "jurisdiction_name": "Florida",
+        "jurisdiction_code": "US-FL",
+        "law_name": "Florida Sunshine Law",
+        "statute_citation": "Citation not found",
+        "section_reference": "See statute",
+        "category": "Appeal Rights",
+        "subcategory": "### Phase 4: Appeal Process\n**Administrative Appeal:**\n- File complaint with Attorney General\n- AG h",
+        "description": "### Phase 4: Appeal Process\n**Administrative Appeal:**\n- File complaint with Attorney General\n- AG has 30 days to issue opinion\n- AG opinion binding on agencies\n- No cost to requester for AG review",
+        "conditions": "No specific conditions stated",
+        "notes": "Extracted from Phase 4: Appeal Process",
+        "extraction_date": "2025-09-26T13:52:18.296727"
+      },
+      {
+        "jurisdiction_name": "Florida",
+        "jurisdiction_code": "US-FL",
+        "law_name": "Florida Sunshine Law",
+        "statute_citation": "Citation not found",
+        "section_reference": "§ 119",
+        "category": "Appeal Rights",
+        "subcategory": "### Attorney General Enforcement (F.S",
+        "description": "### Attorney General Enforcement (F.S. § 119.10)\n**Administrative Process:**\n- File written complaint with AG\n- No filing fee required\n- AG issues binding opinion within 30 days\n- Agency must comply or face civil penalties",
+        "conditions": "§ 119.10)\n**Administrative Process:**\n- File written complaint with AG\n- No filing fee required\n- AG issues binding opinion within 30 days\n- Agency must comply or face civil penalties",
+        "notes": "Extracted from Attorney General Enforcement (F.S. § 119.10)",
+        "extraction_date": "2025-09-26T13:52:18.296762"
+      },
+      {
+        "jurisdiction_name": "Florida",
+        "jurisdiction_code": "US-FL",
+        "law_name": "Florida Sunshine Law",
+        "statute_citation": "Citation not found",
+        "section_reference": "§ 119",
+        "category": "Appeal Rights",
+        "subcategory": "**AG Opinion Process:**\n- Informal resolution attempts first\n- Formal written opinion if needed\n- Pu",
+        "description": "**AG Opinion Process:**\n- Informal resolution attempts first\n- Formal written opinion if needed\n- Published opinions create precedent\n- Violation may result in suspension from office",
+        "conditions": "**AG Opinion Process:**\n- Informal resolution attempts first\n- Formal written opinion if needed\n- Published opinions create precedent\n- Violation may result in suspension from office",
+        "notes": "Extracted from Attorney General Enforcement (F.S. § 119.10)",
+        "extraction_date": "2025-09-26T13:52:18.296764"
+      },
+      {
+        "jurisdiction_name": "Florida",
+        "jurisdiction_code": "US-FL",
+        "law_name": "Florida Sunshine Law",
+        "statute_citation": "Citation not found",
+        "section_reference": "§ 119",
+        "category": "Appeal Rights",
+        "subcategory": "### Civil Enforcement (F.S",
+        "description": "### Civil Enforcement (F.S. § 119.12)\n**Circuit Court Jurisdiction:**\n- Mandamus to compel production\n- Injunctive relief for ongoing violations\n- Civil penalties for willful violations\n- Attorney fees for prevailing plaintiffs",
+        "conditions": "§ 119.12)\n**Circuit Court Jurisdiction:**\n- Mandamus to compel production\n- Injunctive relief for ongoing violations\n- Civil penalties for willful violations\n- Attorney fees for prevailing plaintiffs",
+        "notes": "Extracted from Civil Enforcement (F.S. § 119.12)",
+        "extraction_date": "2025-09-26T13:52:18.296790"
+      },
+      {
+        "jurisdiction_name": "Florida",
+        "jurisdiction_code": "US-FL",
+        "law_name": "Florida Sunshine Law",
+        "statute_citation": "Citation not found",
+        "section_reference": "§ 119",
+        "category": "Appeal Rights",
+        "subcategory": "**Attorney Fees (F.S",
+        "description": "**Attorney Fees (F.S. § 119.12):**\n- Mandatory for substantially prevailing plaintiffs\n- Reasonable fees and costs\n- Applies to both AG proceedings and court actions",
+        "conditions": "§ 119.12):**\n- Mandatory for substantially prevailing plaintiffs\n- Reasonable fees and costs\n- Applies to both AG proceedings and court actions",
+        "notes": "Extracted from Civil Enforcement (F.S. § 119.12)",
+        "extraction_date": "2025-09-26T13:52:18.296791"
+      }
+    ]
+  }
+}

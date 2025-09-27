@@ -1,0 +1,31 @@
+type,severity,description,mechanism
+Clarification Pause,HIGH,Statute allows agencies to pause deadlines by claiming requests are unclear,"**Internal Process:**
+- Discuss concerns with custodian or agency head
+- Request clarification of exemption claims or timeline
+- Seek informal resolution before formal action
+- Document interactions for potential legal proceedings
+
+### Phase 5: Legal Enforcement
+**District Court Action:**
+- **Venue**: Louisiana district court where public body located
+- **Authority**: Court may order compliance with Public Records Act
+- **Relief**: Mandamus, injunctive relief, potential attorney fees
+- **Standar"
+Fee Barriers,MEDIUM,Fee structure can be weaponized to deter requests,"  - LSA-R.S. 44:1: Definitions and legislative intent
+  - LSA-R.S. 44:31: Public access rights and procedures
+  - LSA-R.S. 44:32: Fee provisions
+  - LSA-R.S. 44:3-30: Specific exemptions from disclosure
+
+### Definitions
+- **Public Body**: All state and local government agencies, including boards, commissions, and authorities
+- **Public Record**: All books, records, writings, accounts, letters, maps, drawings, photographs, cards, tapes, recordings, or other documentary materials
+- **Regular Offic"
+Exemption Abuse,HIGH,Broad exemptions can be misapplied to withhold records,"  - LSA-R.S. 44:31: Public access rights and procedures
+  - LSA-R.S. 44:32: Fee provisions
+  - LSA-R.S. 44:3-30: Specific exemptions from disclosure
+
+### Definitions
+- **Public Body**: All state and local government agencies, including boards, commissions, and authorities
+- **Public Record**: All books, records, writings, accounts, letters, maps, drawings, photographs, cards, tapes, recordings, or other documentary materials
+- **Regular Office Hours**: Normal business hours during which agency c"
+Vague Timeline,MEDIUM,Response deadline is subjective rather than fixed,Deadline defined as: Promptly (vague)

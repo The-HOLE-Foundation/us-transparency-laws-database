@@ -1,0 +1,33 @@
+{
+  "state": "New",
+  "vulnerabilities": [
+    {
+      "type": "Fee Barriers",
+      "description": "Fee structure can be weaponized to deter requests",
+      "severity": "MEDIUM",
+      "mechanism": "---\n\n## Fee Structure\n\n### Allowable Fees (POL \u00a7 87(1))\n- **Photocopying**: $0.25 per page maximum\n- **Certified Copies**: Reasonable certification fees\n- **Electronic Media**: Actual cost of storage medium\n- **Postage**: Actual mailing costs if requester requests mailing\n\n### Prohibited Charges\n- **Search Time**: Cannot charge for time to locate records"
+    },
+    {
+      "type": "Vague Request Rejection",
+      "description": "Agencies can reject requests as too broad or vague",
+      "severity": "HIGH",
+      "mechanism": "Subjective interpretation allows denial of valid requests"
+    },
+    {
+      "type": "Exemption Abuse",
+      "description": "Broad exemptions can be misapplied to withhold records",
+      "severity": "HIGH",
+      "mechanism": "- **No Constitutional Right**: FOIL is statutory, not constitutional\n- **Legislative Intent**: Promote government transparency and accountability\n- **Narrow Construction**: Exemptions strictly construed\n\n---\n\n## Response Timelines\n\n### Standard Timeline (POL \u00a7 89(3))\n- **Initial Response**: 5 business days from receipt\n- **Production Deadline**: \"Reasonable time\" after determination to release\n- **Extension**: \"Reasonable\" additional time for voluminous/complex requests"
+    },
+    {
+      "type": "Vague Timeline",
+      "description": "Response deadline is subjective rather than fixed",
+      "severity": "MEDIUM",
+      "mechanism": "Deadline defined as: Promptly (vague)"
+    }
+  ],
+  "timelines": {
+    "response_deadline": "Promptly (vague)"
+  },
+  "total_vulnerability_count": 4
+}

@@ -1,0 +1,101 @@
+jurisdiction_name,jurisdiction_code,law_name,statute_citation,section_reference,category,subcategory,description,conditions,notes,extraction_date
+Oklahoma,US-OK,Oklahoma Open Records Act,Citation not found,§ 24,Response Timeline,### Standard Timeline (Title 51 § 24A.5),### Standard Timeline (Title 51 § 24A.5),No specific conditions stated,Extracted from Standard Timeline (Title 51 § 24A.5),2025-09-26T13:52:18.336694
+Oklahoma,US-OK,Oklahoma Open Records Act,Citation not found,§ 24,Response Timeline,": Must respond ""promptly"" without unreasonable delay",": Must respond ""promptly"" without unreasonable delay",": Must respond ""promptly"" without unreasonable delay",Extracted from Standard Timeline (Title 51 § 24A.5),2025-09-26T13:52:18.336701
+Oklahoma,US-OK,Oklahoma Open Records Act,Citation not found,§ 24,Response Timeline,: Generally interpreted as 3-5 business days by courts,: Generally interpreted as 3-5 business days by courts,No specific conditions stated,Extracted from Standard Timeline (Title 51 § 24A.5),2025-09-26T13:52:18.336707
+Oklahoma,US-OK,Oklahoma Open Records Act,Citation not found,§ 24,Response Timeline,":
+  1",":
+  1. Provide requested records for inspection or copying
+  2. Deny request with written explanation citing specific exemption
+  3. Notify requester of delay with estimated completion date","Deny request with written explanation citing specific exemption
+  3 Notify requester of delay with estimated completion date",Extracted from Standard Timeline (Title 51 § 24A.5),2025-09-26T13:52:18.336717
+Oklahoma,US-OK,Oklahoma Open Records Act,Citation not found,See statute,Special Access,: No formal expedited process in Oklahoma Open Records Act,: No formal expedited process in Oklahoma Open Records Act,No specific conditions stated,Extracted from Expedited Processing,2025-09-26T13:52:18.336735
+Oklahoma,US-OK,Oklahoma Open Records Act,Citation not found,See statute,Special Access,: Some entities may prioritize urgent requests,: Some entities may prioritize urgent requests,: Some entities may prioritize urgent requests,Extracted from Expedited Processing,2025-09-26T13:52:18.336740
+Oklahoma,US-OK,Oklahoma Open Records Act,Citation not found,See statute,Special Access,: Immediate response encouraged when records readily available,: Immediate response encouraged when records readily available,: Immediate response encouraged when records readily available,Extracted from Expedited Processing,2025-09-26T13:52:18.336746
+Oklahoma,US-OK,Oklahoma Open Records Act,Citation not found,§ 24,Fee Structure,### Allowable Fees (Title 51 § 24A.8),### Allowable Fees (Title 51 § 24A.8),No specific conditions stated,Extracted from Allowable Fees (Title 51 § 24A.8),2025-09-26T13:52:18.336762
+Oklahoma,US-OK,Oklahoma Open Records Act,Citation not found,§ 24,Fee Structure,: May charge for actual cost of copying records,: May charge for actual cost of copying records,: May charge for actual cost of copying records,Extracted from Allowable Fees (Title 51 § 24A.8),2025-09-26T13:52:18.336767
+Oklahoma,US-OK,Oklahoma Open Records Act,Citation not found,§ 24,Fee Structure,: Cannot charge for inspection or review of records,: Cannot charge for inspection or review of records,No specific conditions stated,Extracted from Allowable Fees (Title 51 § 24A.8),2025-09-26T13:52:18.336772
+Oklahoma,US-OK,Oklahoma Open Records Act,Citation not found,§ 24,Fee Structure,: All fees must be reasonable and directly related to duplication,: All fees must be reasonable and directly related to duplication,: All fees must be reasonable and directly related to duplication,Extracted from Allowable Fees (Title 51 § 24A.8),2025-09-26T13:52:18.336778
+Oklahoma,US-OK,Oklahoma Open Records Act,Citation not found,§ 24,Fee Structure,": Paper, electronic media, postage costs",": Paper, electronic media, postage costs",No specific conditions stated,Extracted from Allowable Fees (Title 51 § 24A.8),2025-09-26T13:52:18.336783
+Oklahoma,US-OK,Oklahoma Open Records Act,Citation not found,See statute,Fee Structure,: Per-page charges for paper duplication,: Per-page charges for paper duplication,No specific conditions stated,Extracted from Fee Schedule Components,2025-09-26T13:52:18.336796
+Oklahoma,US-OK,Oklahoma Open Records Act,Citation not found,See statute,Fee Structure,": Cost of disks, drives, or other electronic storage",": Cost of disks, drives, or other electronic storage",No specific conditions stated,Extracted from Fee Schedule Components,2025-09-26T13:52:18.336801
+Oklahoma,US-OK,Oklahoma Open Records Act,Citation not found,See statute,Fee Structure,: Actual cost of mailing records to requester,: Actual cost of mailing records to requester,No specific conditions stated,Extracted from Fee Schedule Components,2025-09-26T13:52:18.336806
+Oklahoma,US-OK,Oklahoma Open Records Act,Citation not found,See statute,Fee Structure,: Cannot charge for staff time to locate records,: Cannot charge for staff time to locate records,No specific conditions stated,Extracted from Fee Schedule Components,2025-09-26T13:52:18.336811
+Oklahoma,US-OK,Oklahoma Open Records Act,Citation not found,See statute,Request Process,"### Phase 1: Request Submission
+**Requester Actions:**
+- Submit written request to appropriate publi","### Phase 1: Request Submission
+**Requester Actions:**
+- Submit written request to appropriate public body
+- Provide sufficient detail to identify records
+- Include contact information for response
+- Specify preferred format (inspection, paper copies, electronic)","### Phase 1: Request Submission
+**Requester Actions:**
+- Submit written request to appropriate public body
+- Provide sufficient detail to identify records
+- Include contact information for response
+- Specify preferred format (inspection, paper copies, electronic)",Extracted from Phase 1: Request Submission,2025-09-26T13:52:18.336839
+Oklahoma,US-OK,Oklahoma Open Records Act,Citation not found,See statute,Request Process,"**Agency Actions:**
+- Date-stamp request upon receipt
+- Assign to appropriate custodian
+- Begin prom","**Agency Actions:**
+- Date-stamp request upon receipt
+- Assign to appropriate custodian
+- Begin prompt response timeline
+- Acknowledge receipt if agency policy requires","**Agency Actions:**
+- Date-stamp request upon receipt
+- Assign to appropriate custodian
+- Begin prompt response timeline
+- Acknowledge receipt if agency policy requires",Extracted from Phase 1: Request Submission,2025-09-26T13:52:18.336840
+Oklahoma,US-OK,Oklahoma Open Records Act,Citation not found,§ 24,Request Process,"### Phase 2: Processing
+**Agency Actions:**
+- Locate responsive records across departments
+- Review ","### Phase 2: Processing
+**Agency Actions:**
+- Locate responsive records across departments
+- Review records for applicable exemptions under Title 51 § 24A.17
+- Separate public records from exempt records
+- Calculate fees for copying if applicable","### Phase 2: Processing
+**Agency Actions:**
+- Locate responsive records across departments
+- Review records for applicable exemptions under Title 51 § 24A.17
+- Separate public records from exempt records
+- Calculate fees for copying if applicable",Extracted from Phase 2: Processing,2025-09-26T13:52:18.336864
+Oklahoma,US-OK,Oklahoma Open Records Act,Citation not found,§ 24,Request Process,"**Timeline Management:**
+- Monitor prompt response requirement
+- Provide notice if delay necessary f","**Timeline Management:**
+- Monitor prompt response requirement
+- Provide notice if delay necessary for complex requests
+- Communicate with requester about availability and costs","**Timeline Management:**
+- Monitor prompt response requirement
+- Provide notice if delay necessary for complex requests
+- Communicate with requester about availability and costs",Extracted from Phase 2: Processing,2025-09-26T13:52:18.336864
+Oklahoma,US-OK,Oklahoma Open Records Act,Citation not found,§ 24,Response Timeline,"### Phase 3: Response
+**Agency Must Provide:**
+- Access to public records for inspection
+- Copies of","### Phase 3: Response
+**Agency Must Provide:**
+- Access to public records for inspection
+- Copies of records upon payment of reasonable copying fees
+- Written denial with specific exemption cited under Title 51 § 24A.17
+- Notice of delay with estimated completion date if needed","### Phase 3: Response
+**Agency Must Provide:**
+- Access to public records for inspection
+- Copies of records upon payment of reasonable copying fees
+- Written denial with specific exemption cited under Title 51 § 24A.17
+- Notice of delay with estimated completion date if needed",Extracted from Phase 3: Response,2025-09-26T13:52:18.336881
+Oklahoma,US-OK,Oklahoma Open Records Act,Citation not found,See statute,Appeal Rights,"### Phase 5: Judicial Enforcement
+**District Court Action:**","### Phase 5: Judicial Enforcement
+**District Court Action:**",No specific conditions stated,Extracted from Phase 5: Judicial Enforcement,2025-09-26T13:52:18.336895
+Oklahoma,US-OK,Oklahoma Open Records Act,Citation not found,See statute,Appeal Rights,: Oklahoma district court where public body is located,: Oklahoma district court where public body is located,No specific conditions stated,Extracted from Phase 5: Judicial Enforcement,2025-09-26T13:52:18.336901
+Oklahoma,US-OK,Oklahoma Open Records Act,Citation not found,See statute,Appeal Rights,: Court may order compliance with Open Records Act,: Court may order compliance with Open Records Act,: Court may order compliance with Open Records Act,Extracted from Phase 5: Judicial Enforcement,2025-09-26T13:52:18.336906
+Oklahoma,US-OK,Oklahoma Open Records Act,Citation not found,See statute,Appeal Rights,: Review of agency decision and application of exemptions,: Review of agency decision and application of exemptions,No specific conditions stated,Extracted from Phase 5: Judicial Enforcement,2025-09-26T13:52:18.336911
+Oklahoma,US-OK,Oklahoma Open Records Act,Citation not found,See statute,Appeal Rights,": Mandamus, injunctive relief, potential attorney fees",": Mandamus, injunctive relief, potential attorney fees",No specific conditions stated,Extracted from Phase 5: Judicial Enforcement,2025-09-26T13:52:18.336917
+Oklahoma,US-OK,Oklahoma Open Records Act,Citation not found,See statute,General Rights,Internal Appeal,Discuss with custodian or agency head,No specific conditions stated,Extracted from Administrative Remedies,2025-09-26T13:52:18.336946
+Oklahoma,US-OK,Oklahoma Open Records Act,Citation not found,See statute,General Rights,Legislative Oversight,Oklahoma Legislature oversight of compliance,No specific conditions stated,Extracted from Administrative Remedies,2025-09-26T13:52:18.336947
+Oklahoma,US-OK,Oklahoma Open Records Act,Citation not found,See statute,General Rights,Political Pressure,"Contact elected officials, media attention",No specific conditions stated,Extracted from Administrative Remedies,2025-09-26T13:52:18.336948
+Oklahoma,US-OK,Oklahoma Open Records Act,Citation not found,See statute,General Rights,Attorney General,Guidance on Open Records Act interpretation,No specific conditions stated,Extracted from Administrative Remedies,2025-09-26T13:52:18.336949
+Oklahoma,US-OK,Oklahoma Open Records Act,Citation not found,See statute,General Rights,"### Judicial Remedies
+**Available Relief:**","### Judicial Remedies
+**Available Relief:**",No specific conditions stated,Extracted from Judicial Remedies,2025-09-26T13:52:18.336961
+Oklahoma,US-OK,Oklahoma Open Records Act,Citation not found,See statute,General Rights,: Court order requiring disclosure,: Court order requiring disclosure,No specific conditions stated,Extracted from Judicial Remedies,2025-09-26T13:52:18.336967
+Oklahoma,US-OK,Oklahoma Open Records Act,Citation not found,See statute,General Rights,: Clarification of Open Records Act obligations,: Clarification of Open Records Act obligations,: Clarification of Open Records Act obligations,Extracted from Judicial Remedies,2025-09-26T13:52:18.336974
+Oklahoma,US-OK,Oklahoma Open Records Act,Citation not found,See statute,General Rights,: Potential recovery for successful enforcement,: Potential recovery for successful enforcement,No specific conditions stated,Extracted from Judicial Remedies,2025-09-26T13:52:18.336982

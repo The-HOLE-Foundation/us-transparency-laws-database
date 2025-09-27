@@ -1,0 +1,27 @@
+{
+  "state": "Montana",
+  "vulnerabilities": [
+    {
+      "type": "Fee Barriers",
+      "description": "Fee structure can be weaponized to deter requests",
+      "severity": "MEDIUM",
+      "mechanism": "  - MCA \u00a7 2-6-101: Definitions and legislative intent\n  - MCA \u00a7 2-6-102: Public access rights and timelines\n  - MCA \u00a7 2-6-105: Fee provisions\n  - MCA \u00a7 2-6-111: Exemptions from disclosure\n\n### Definitions\n- **Public Agency**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Information**: Information in any form prepared or owned by a public agency\n- **Working Days**: Monday through Friday, excluding state holidays\n- **Custodian**: Official desig"
+    },
+    {
+      "type": "Exemption Abuse",
+      "description": "Broad exemptions can be misapplied to withhold records",
+      "severity": "HIGH",
+      "mechanism": "  - MCA \u00a7 2-6-102: Public access rights and timelines\n  - MCA \u00a7 2-6-105: Fee provisions\n  - MCA \u00a7 2-6-111: Exemptions from disclosure\n\n### Definitions\n- **Public Agency**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Information**: Information in any form prepared or owned by a public agency\n- **Working Days**: Monday through Friday, excluding state holidays\n- **Custodian**: Official designated to maintain and provide access to records\n\n---\n"
+    },
+    {
+      "type": "Vague Timeline",
+      "description": "Response deadline is subjective rather than fixed",
+      "severity": "MEDIUM",
+      "mechanism": "Deadline defined as: Reasonable time (vague)"
+    }
+  ],
+  "timelines": {
+    "response_deadline": "Reasonable time (vague)"
+  },
+  "total_vulnerability_count": 3
+}

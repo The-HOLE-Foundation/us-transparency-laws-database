@@ -1,0 +1,35 @@
+type,severity,description,mechanism
+Clarification Pause,HIGH,Statute allows agencies to pause deadlines by claiming requests are unclear,"**Internal Process:**
+- Discuss concerns with custodian or agency head
+- Request clarification of exemption claims
+- Negotiate scope or format to reduce costs
+- Seek informal resolution before litigation
+
+**Documentation:**
+- Preserve all communications with agency
+- Document any improper fee charges
+- Maintain evidence of public interest in disclosure
+- Note any pattern of non-compliance
+"
+Fee Barriers,MEDIUM,Fee structure can be weaponized to deter requests,"  - RSMo § 610.021: Public access rights
+  - RSMo § 610.023: Response timeline requirements
+  - RSMo § 610.026: Fee provisions
+  - RSMo § 610.027: Enforcement and attorney fees
+
+### Definitions
+- **Public Governmental Body**: All state and local government agencies, including boards, commissions, and authorities
+- **Public Record**: Any record maintained by a public governmental body
+- **Business Days**: Monday through Friday, excluding state holidays
+- **Custodian**: Official designated to main"
+Vague Request Rejection,HIGH,Agencies can reject requests as too broad or vague,Subjective interpretation allows denial of valid requests
+Exemption Abuse,HIGH,Broad exemptions can be misapplied to withhold records,"- **Response Options**:
+  1. Provide requested records
+  2. Deny request with written explanation citing specific exemption
+  3. Provide written statement explaining when and how records will be made available
+
+### Extension Provisions
+- **Complex Requests**: If records not immediately available, must provide written statement
+- **Required Information**: Statement must explain when and how records will be made available
+- **Ongoing Communication**: Must keep requester informed of status
+- **Exam"
+Vague Timeline,MEDIUM,Response deadline is subjective rather than fixed,Deadline defined as: Reasonable time (vague)

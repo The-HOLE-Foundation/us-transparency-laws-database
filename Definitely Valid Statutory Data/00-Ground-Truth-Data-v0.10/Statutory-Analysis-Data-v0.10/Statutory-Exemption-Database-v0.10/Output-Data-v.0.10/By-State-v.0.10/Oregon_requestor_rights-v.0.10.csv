@@ -1,0 +1,86 @@
+jurisdiction_name,jurisdiction_code,law_name,statute_citation,section_reference,category,subcategory,description,conditions,notes,extraction_date
+Oregon,US-OR,Oregon Public Records Law,Citation not found,See statute,Fee Structure,: Staff and attorney time at applicable hourly rates,: Staff and attorney time at applicable hourly rates,No specific conditions stated,Extracted from Fee Schedule Components,2025-09-26T13:52:18.338508
+Oregon,US-OR,Oregon Public Records Law,Citation not found,See statute,Fee Structure,: Per-page charges for paper duplication,: Per-page charges for paper duplication,No specific conditions stated,Extracted from Fee Schedule Components,2025-09-26T13:52:18.338513
+Oregon,US-OR,Oregon Public Records Law,Citation not found,See statute,Fee Structure,": Cost of disks, drives, or other electronic storage",": Cost of disks, drives, or other electronic storage",No specific conditions stated,Extracted from Fee Schedule Components,2025-09-26T13:52:18.338517
+Oregon,US-OR,Oregon Public Records Law,Citation not found,See statute,Fee Structure,: Staff time for supervising record inspection,: Staff time for supervising record inspection,No specific conditions stated,Extracted from Fee Schedule Components,2025-09-26T13:52:18.338522
+Oregon,US-OR,Oregon Public Records Law,Citation not found,See statute,Request Process,"### Phase 1: Request Submission
+**Requester Actions:**
+- Submit written request to appropriate publi","### Phase 1: Request Submission
+**Requester Actions:**
+- Submit written request to appropriate public body
+- Provide sufficient detail to identify records
+- Include contact information for response
+- Specify preferred format (inspection, paper copies, electronic)","### Phase 1: Request Submission
+**Requester Actions:**
+- Submit written request to appropriate public body
+- Provide sufficient detail to identify records
+- Include contact information for response
+- Specify preferred format (inspection, paper copies, electronic)",Extracted from Phase 1: Request Submission,2025-09-26T13:52:18.338547
+Oregon,US-OR,Oregon Public Records Law,Citation not found,See statute,Request Process,"**Agency Actions:**
+- Date-stamp request upon receipt
+- Assign to appropriate custodian
+- Begin asse","**Agency Actions:**
+- Date-stamp request upon receipt
+- Assign to appropriate custodian
+- Begin assessment of reasonable response time
+- Acknowledge receipt and provide estimated timeline",No specific conditions stated,Extracted from Phase 1: Request Submission,2025-09-26T13:52:18.338548
+Oregon,US-OR,Oregon Public Records Law,Citation not found,See statute,Request Process,"### Phase 2: Assessment and Processing
+**Agency Actions:**
+- Assess complexity, volume, and resource","### Phase 2: Assessment and Processing
+**Agency Actions:**
+- Assess complexity, volume, and resource requirements
+- Determine reasonable time for response based on factors
+- Locate responsive records across departments
+- Review records for applicable exemptions under ORS 192.345
+- Calculate estimated fees using comprehensive fee structure",No specific conditions stated,Extracted from Phase 2: Assessment and Processing,2025-09-26T13:52:18.338574
+Oregon,US-OR,Oregon Public Records Law,Citation not found,See statute,Request Process,"**Timeline Determination:**
+- Consider request complexity and volume
+- Assess agency workload and av","**Timeline Determination:**
+- Consider request complexity and volume
+- Assess agency workload and available resources
+- Communicate reasonable timeline to requester
+- Provide fee estimate if costs expected to exceed $25","**Timeline Determination:**
+- Consider request complexity and volume
+- Assess agency workload and available resources
+- Communicate reasonable timeline to requester
+- Provide fee estimate if costs expected to exceed $25",Extracted from Phase 2: Assessment and Processing,2025-09-26T13:52:18.338575
+Oregon,US-OR,Oregon Public Records Law,Citation not found,See statute,Fee Structure,"### Phase 3: Fee Notification (if applicable)
+**If Estimated Fees Exceed $25:**
+- Provide detailed f","### Phase 3: Fee Notification (if applicable)
+**If Estimated Fees Exceed $25:**
+- Provide detailed fee estimate to requester
+- Obtain written approval before proceeding
+- Request 50% deposit for anticipated costs
+- Begin work only after requester consent and payment","### Phase 3: Fee Notification (if applicable)
+**If Estimated Fees Exceed $25:**
+- Provide detailed fee estimate to requester
+- Obtain written approval before proceeding
+- Request 50% deposit for anticipated costs
+- Begin work only after requester consent and payment",Extracted from Phase 3: Fee Notification (if applicable),2025-09-26T13:52:18.338587
+Oregon,US-OR,Oregon Public Records Law,Citation not found,See statute,General Rights,"### Phase 5: Administrative and Judicial Remedies
+**Administrative Options:**
+- Internal appeal to a","### Phase 5: Administrative and Judicial Remedies
+**Administrative Options:**
+- Internal appeal to agency head
+- Petition to Attorney General for guidance
+- Legislative oversight and political pressure",No specific conditions stated,Extracted from Phase 5: Administrative and Judicial Remedies,2025-09-26T13:52:18.338606
+Oregon,US-OR,Oregon Public Records Law,Citation not found,See statute,General Rights,": Mandamus, injunctive relief, attorney fees",": Mandamus, injunctive relief, attorney fees",No specific conditions stated,Extracted from Phase 5: Administrative and Judicial Remedies,2025-09-26T13:52:18.338613
+Oregon,US-OR,Oregon Public Records Law,Citation not found,See statute,General Rights,: Review of reasonableness of agency timeline and exemption claims,: Review of reasonableness of agency timeline and exemption claims,No specific conditions stated,Extracted from Phase 5: Administrative and Judicial Remedies,2025-09-26T13:52:18.338619
+Oregon,US-OR,Oregon Public Records Law,Citation not found,See statute,Response Timeline,"### Unreasonable Timeline Claims
+**Problem**: Agencies claiming excessive time needed for simple req","### Unreasonable Timeline Claims
+**Problem**: Agencies claiming excessive time needed for simple requests
+**Workarounds**:
+- Challenge timeline as unreasonable based on request simplicity
+- Compare to other agencies' timelines for similar requests
+- Reference 2025 transparency initiatives requiring faster response
+- Document delays that exceed truly reasonable timeframes",No specific conditions stated,Extracted from Unreasonable Timeline Claims,2025-09-26T13:52:18.338641
+Oregon,US-OR,Oregon Public Records Law,Citation not found,See statute,General Rights,Internal Appeal,Discuss with custodian or agency head,No specific conditions stated,Extracted from Administrative Remedies,2025-09-26T13:52:18.338667
+Oregon,US-OR,Oregon Public Records Law,Citation not found,See statute,General Rights,Attorney General,Guidance on public records interpretation,No specific conditions stated,Extracted from Administrative Remedies,2025-09-26T13:52:18.338667
+Oregon,US-OR,Oregon Public Records Law,Citation not found,See statute,General Rights,Legislative Oversight,Oregon Legislature oversight of compliance,No specific conditions stated,Extracted from Administrative Remedies,2025-09-26T13:52:18.338668
+Oregon,US-OR,Oregon Public Records Law,Citation not found,See statute,General Rights,Political Pressure,"Contact elected officials, media attention",No specific conditions stated,Extracted from Administrative Remedies,2025-09-26T13:52:18.338669
+Oregon,US-OR,Oregon Public Records Law,Citation not found,See statute,General Rights,"### Judicial Remedies
+**Available Relief:**","### Judicial Remedies
+**Available Relief:**",No specific conditions stated,Extracted from Judicial Remedies,2025-09-26T13:52:18.338681
+Oregon,US-OR,Oregon Public Records Law,Citation not found,See statute,General Rights,: Court order requiring disclosure within reasonable time,: Court order requiring disclosure within reasonable time,No specific conditions stated,Extracted from Judicial Remedies,2025-09-26T13:52:18.338686
+Oregon,US-OR,Oregon Public Records Law,Citation not found,See statute,General Rights,: Clarification of reasonable timeline requirements,: Clarification of reasonable timeline requirements,: Clarification of reasonable timeline requirements,Extracted from Judicial Remedies,2025-09-26T13:52:18.338692
+Oregon,US-OR,Oregon Public Records Law,Citation not found,See statute,General Rights,: Recovery of reasonable fees for successful enforcement,: Recovery of reasonable fees for successful enforcement,No specific conditions stated,Extracted from Judicial Remedies,2025-09-26T13:52:18.338699

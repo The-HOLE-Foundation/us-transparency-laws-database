@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "extraction_date": "2025-09-26T13:52:18.310284",
+    "total_records": 4,
+    "jurisdiction": "Kentucky",
+    "data_source": "VERIFIED Process Maps",
+    "verification_date": "September 2025",
+    "categories": [
+      "Statutory Exemption"
+    ]
+  },
+  "records": [
+    {
+      "jurisdiction_name": "Kentucky",
+      "jurisdiction_code": "US-KY",
+      "law_name": "Kentucky Open Records Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "Fees cannot be used to discourage requests",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: Reasonableness Standard",
+      "extraction_date": "2025-09-26T13:52:18.309198"
+    },
+    {
+      "jurisdiction_name": "Kentucky",
+      "jurisdiction_code": "US-KY",
+      "law_name": "Kentucky Open Records Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "Some relief available for those unable to pay",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: Indigent Exemptions",
+      "extraction_date": "2025-09-26T13:52:18.309205"
+    },
+    {
+      "jurisdiction_name": "Kentucky",
+      "jurisdiction_code": "US-KY",
+      "law_name": "Kentucky Open Records Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "Consideration for fee reduction when disclosure serves public",
+      "conditions": "Consideration for fee reduction when disclosure serves public",
+      "notes": "Exemption type: Public Interest",
+      "extraction_date": "2025-09-26T13:52:18.309212"
+    },
+    {
+      "jurisdiction_name": "Kentucky",
+      "jurisdiction_code": "US-KY",
+      "law_name": "Kentucky Open Records Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "Provide cost estimates for extensive requests",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: Written Estimates",
+      "extraction_date": "2025-09-26T13:52:18.309218"
+    }
+  ],
+  "records_by_category": {
+    "Statutory Exemption": [
+      {
+        "jurisdiction_name": "Kentucky",
+        "jurisdiction_code": "US-KY",
+        "law_name": "Kentucky Open Records Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "Fees cannot be used to discourage requests",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: Reasonableness Standard",
+        "extraction_date": "2025-09-26T13:52:18.309198"
+      },
+      {
+        "jurisdiction_name": "Kentucky",
+        "jurisdiction_code": "US-KY",
+        "law_name": "Kentucky Open Records Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "Some relief available for those unable to pay",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: Indigent Exemptions",
+        "extraction_date": "2025-09-26T13:52:18.309205"
+      },
+      {
+        "jurisdiction_name": "Kentucky",
+        "jurisdiction_code": "US-KY",
+        "law_name": "Kentucky Open Records Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "Consideration for fee reduction when disclosure serves public",
+        "conditions": "Consideration for fee reduction when disclosure serves public",
+        "notes": "Exemption type: Public Interest",
+        "extraction_date": "2025-09-26T13:52:18.309212"
+      },
+      {
+        "jurisdiction_name": "Kentucky",
+        "jurisdiction_code": "US-KY",
+        "law_name": "Kentucky Open Records Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "Provide cost estimates for extensive requests",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: Written Estimates",
+        "extraction_date": "2025-09-26T13:52:18.309218"
+      }
+    ]
+  }
+}

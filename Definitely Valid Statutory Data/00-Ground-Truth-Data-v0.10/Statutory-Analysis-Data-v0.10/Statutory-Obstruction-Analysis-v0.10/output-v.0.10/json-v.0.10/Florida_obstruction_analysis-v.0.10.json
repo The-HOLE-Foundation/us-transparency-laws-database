@@ -1,0 +1,39 @@
+{
+  "state": "Florida",
+  "vulnerabilities": [
+    {
+      "type": "Clarification Pause",
+      "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+      "severity": "HIGH",
+      "mechanism": "**VERIFICATION DATE**: September 18, 2025  \n**VERIFICATION SOURCE**: Dual-source validation using Florida Statutes and AG opinions  \n**LAST STATUTORY UPDATE**: 2024 (HB 1291 - law enforcement exemptions clarification)\n\n---\n\n## Legal Framework\n\n### Primary Statutes\n- **Chapter 119, Florida Statutes**: Public Records Law\n- **Chapter 286, Florida Statutes**: Government in the Sunshine Law (meetings)\n- **Constitutional Foundation**: Article I, Section 24, Florida Constitution"
+    },
+    {
+      "type": "Fee Barriers",
+      "description": "Fee structure can be weaponized to deter requests",
+      "severity": "MEDIUM",
+      "mechanism": "- **Public Record**: All documents, papers, letters, maps, books, tapes, photographs, films, sound recordings, data processing software, or other material, regardless of physical form\n- **Agency**: State, county, district, authority, or municipal officer, department, division, board, bureau, commission, or other separate unit of government\n- **Custodian**: Elected or appointed official charged with responsibility for records\n\n### Broad Construction Mandate\n- **Liberal Construction**: All exempti"
+    },
+    {
+      "type": "Vague Request Rejection",
+      "description": "Agencies can reject requests as too broad or vague",
+      "severity": "HIGH",
+      "mechanism": "Subjective interpretation allows denial of valid requests"
+    },
+    {
+      "type": "Exemption Abuse",
+      "description": "Broad exemptions can be misapplied to withhold records",
+      "severity": "HIGH",
+      "mechanism": "**VERIFICATION DATE**: September 18, 2025  \n**VERIFICATION SOURCE**: Dual-source validation using Florida Statutes and AG opinions  \n**LAST STATUTORY UPDATE**: 2024 (HB 1291 - law enforcement exemptions clarification)\n\n---\n\n## Legal Framework\n\n### Primary Statutes\n- **Chapter 119, Florida Statutes**: Public Records Law\n- **Chapter 286, Florida Statutes**: Government in the Sunshine Law (meetings)\n- **Constitutional Foundation**: Article I, Section 24, Florida Constitution"
+    },
+    {
+      "type": "Vague Timeline",
+      "description": "Response deadline is subjective rather than fixed",
+      "severity": "MEDIUM",
+      "mechanism": "Deadline defined as: Promptly (vague)"
+    }
+  ],
+  "timelines": {
+    "response_deadline": "Promptly (vague)"
+  },
+  "total_vulnerability_count": 5
+}

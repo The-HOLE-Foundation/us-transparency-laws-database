@@ -1,0 +1,30 @@
+[
+  {
+    "state": "Wyoming",
+    "category": "Public Records Ombudsman",
+    "description": "Governor designates ombudsman to assist public with access",
+    "citation": "W.S. § 16-4-201",
+    "notes": "Designated assistance role"
+  },
+  {
+    "state": "Wyoming",
+    "category": "7-Day Acknowledgment, 30-Day Production",
+    "description": "Acknowledge within 7 business days; produce within 30 calendar days",
+    "citation": "W.S. § 16-4-202",
+    "notes": "Two-stage timeline"
+  },
+  {
+    "state": "Wyoming",
+    "category": "Designated Records Person Required",
+    "description": "Each entity must designate public records person responsible for responding",
+    "citation": "W.S. § 16-4-202",
+    "notes": "Mandatory designee"
+  },
+  {
+    "state": "Wyoming",
+    "category": "Mandatory Training",
+    "description": "Training required for designated records person and other employees",
+    "citation": "W.S. § 16-4-202",
+    "notes": "Education requirement"
+  }
+]

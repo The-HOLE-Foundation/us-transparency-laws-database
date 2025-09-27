@@ -1,0 +1,30 @@
+[
+  {
+    "state": "New Hampshire",
+    "category": "Right-to-Know Ombudsman",
+    "description": "Dedicated ombudsman handles FOIA complaints and provides guidance",
+    "citation": "RSA 91-A",
+    "notes": "Specialized oversight position"
+  },
+  {
+    "state": "New Hampshire",
+    "category": "Civil Penalties up to $2,000",
+    "description": "Court may impose civil penalties up to $2,000 for violations",
+    "citation": "RSA 91-A:8",
+    "notes": "Monetary enforcement mechanism"
+  },
+  {
+    "state": "New Hampshire",
+    "category": "Mandatory Training",
+    "description": "Court may order mandatory training for officials who violate law",
+    "citation": "RSA 91-A:8",
+    "notes": "Educational enforcement tool"
+  },
+  {
+    "state": "New Hampshire",
+    "category": "24-Hour Meeting Notice",
+    "description": "24-hour notice required for regular public meetings",
+    "citation": "RSA 91-A:2",
+    "notes": "Short notice period for meetings"
+  }
+]

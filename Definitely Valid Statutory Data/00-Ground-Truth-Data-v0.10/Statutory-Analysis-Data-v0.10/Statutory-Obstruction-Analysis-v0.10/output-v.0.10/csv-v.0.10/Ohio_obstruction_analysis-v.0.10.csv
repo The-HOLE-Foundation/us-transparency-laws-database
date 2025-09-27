@@ -1,0 +1,26 @@
+type,severity,description,mechanism
+Fee Barriers,MEDIUM,Fee structure can be weaponized to deter requests,"---
+
+## Fee Structure
+
+### Allowable Charges (ORC 149.43(B)(7))
+- **Copying Costs**: Actual cost of making copies
+- **Postage**: Actual cost of mailing records
+- **Electronic Media**: Cost of storage devices (CD, DVD, flash drive)
+- **No Search Fees**: Cannot charge for time to locate records
+
+### Standard Fee Rates
+- **Paper Copies**: $0.05-0.10 per page (varies by agency)"
+Vague Request Rejection,HIGH,Agencies can reject requests as too broad or vague,Subjective interpretation allows denial of valid requests
+Exemption Abuse,HIGH,Broad exemptions can be misapplied to withhold records,"- Copies upon payment of fees
+- Electronic format when reasonably available
+- Redactions with specific exemption citations
+
+**Denial Requirements:**
+- Must cite specific statutory exemption
+- Explain factual basis for denial
+- Inform of appeal/enforcement options
+
+### Phase 4: Pre-Litigation Process (NEW 2024) ⚠️
+**Mandatory Before Any Lawsuit:**
+1. **Written Notice**: Send formal notice to public office"

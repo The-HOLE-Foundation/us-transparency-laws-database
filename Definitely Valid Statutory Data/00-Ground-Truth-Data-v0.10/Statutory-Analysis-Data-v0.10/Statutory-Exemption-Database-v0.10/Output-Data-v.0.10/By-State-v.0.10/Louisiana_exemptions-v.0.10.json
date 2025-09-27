@@ -1,0 +1,226 @@
+{
+  "metadata": {
+    "extraction_date": "2025-09-26T13:52:18.312039",
+    "total_records": 8,
+    "jurisdiction": "Louisiana",
+    "data_source": "VERIFIED Process Maps",
+    "verification_date": "September 2025",
+    "categories": [
+      "Statutory Exemption"
+    ]
+  },
+  "records": [
+    {
+      "jurisdiction_name": "Louisiana",
+      "jurisdiction_code": "US-LA",
+      "law_name": "Louisiana Public Records Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "Potential exemptions for news media requests",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: Media Representatives",
+      "extraction_date": "2025-09-26T13:52:18.310943"
+    },
+    {
+      "jurisdiction_name": "Louisiana",
+      "jurisdiction_code": "US-LA",
+      "law_name": "Louisiana Public Records Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "Consideration for requests serving public interest",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: Public Interest",
+      "extraction_date": "2025-09-26T13:52:18.310951"
+    },
+    {
+      "jurisdiction_name": "Louisiana",
+      "jurisdiction_code": "US-LA",
+      "law_name": "Louisiana Public Records Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "Possible fee reduction for financial hardship",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: Indigent Requesters",
+      "extraction_date": "2025-09-26T13:52:18.310958"
+    },
+    {
+      "jurisdiction_name": "Louisiana",
+      "jurisdiction_code": "US-LA",
+      "law_name": "Louisiana Public Records Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Educational Records",
+      "description": "Potential exemptions for academic research",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: Educational Use",
+      "extraction_date": "2025-09-26T13:52:18.310963"
+    },
+    {
+      "jurisdiction_name": "Louisiana",
+      "jurisdiction_code": "US-LA",
+      "law_name": "Louisiana Public Records Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "Exemptions detailed throughout LSA-R.S. 44:3-30",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: Multiple Chapters",
+      "extraction_date": "2025-09-26T13:52:18.310982"
+    },
+    {
+      "jurisdiction_name": "Louisiana",
+      "jurisdiction_code": "US-LA",
+      "law_name": "Louisiana Public Records Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "Various chapters addressing different record types",
+      "conditions": "Various chapters addressing different record types",
+      "notes": "Exemption type: Specific Statutes",
+      "extraction_date": "2025-09-26T13:52:18.310989"
+    },
+    {
+      "jurisdiction_name": "Louisiana",
+      "jurisdiction_code": "US-LA",
+      "law_name": "Louisiana Public Records Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "Detailed exemptions for numerous categories",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: Comprehensive Coverage",
+      "extraction_date": "2025-09-26T13:52:18.310996"
+    },
+    {
+      "jurisdiction_name": "Louisiana",
+      "jurisdiction_code": "US-LA",
+      "law_name": "Louisiana Public Records Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "Ongoing refinement of exemption categories",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: Legislative Updates",
+      "extraction_date": "2025-09-26T13:52:18.311003"
+    }
+  ],
+  "records_by_category": {
+    "Statutory Exemption": [
+      {
+        "jurisdiction_name": "Louisiana",
+        "jurisdiction_code": "US-LA",
+        "law_name": "Louisiana Public Records Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "Potential exemptions for news media requests",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: Media Representatives",
+        "extraction_date": "2025-09-26T13:52:18.310943"
+      },
+      {
+        "jurisdiction_name": "Louisiana",
+        "jurisdiction_code": "US-LA",
+        "law_name": "Louisiana Public Records Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "Consideration for requests serving public interest",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: Public Interest",
+        "extraction_date": "2025-09-26T13:52:18.310951"
+      },
+      {
+        "jurisdiction_name": "Louisiana",
+        "jurisdiction_code": "US-LA",
+        "law_name": "Louisiana Public Records Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "Possible fee reduction for financial hardship",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: Indigent Requesters",
+        "extraction_date": "2025-09-26T13:52:18.310958"
+      },
+      {
+        "jurisdiction_name": "Louisiana",
+        "jurisdiction_code": "US-LA",
+        "law_name": "Louisiana Public Records Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Educational Records",
+        "description": "Potential exemptions for academic research",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: Educational Use",
+        "extraction_date": "2025-09-26T13:52:18.310963"
+      },
+      {
+        "jurisdiction_name": "Louisiana",
+        "jurisdiction_code": "US-LA",
+        "law_name": "Louisiana Public Records Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "Exemptions detailed throughout LSA-R.S. 44:3-30",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: Multiple Chapters",
+        "extraction_date": "2025-09-26T13:52:18.310982"
+      },
+      {
+        "jurisdiction_name": "Louisiana",
+        "jurisdiction_code": "US-LA",
+        "law_name": "Louisiana Public Records Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "Various chapters addressing different record types",
+        "conditions": "Various chapters addressing different record types",
+        "notes": "Exemption type: Specific Statutes",
+        "extraction_date": "2025-09-26T13:52:18.310989"
+      },
+      {
+        "jurisdiction_name": "Louisiana",
+        "jurisdiction_code": "US-LA",
+        "law_name": "Louisiana Public Records Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "Detailed exemptions for numerous categories",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: Comprehensive Coverage",
+        "extraction_date": "2025-09-26T13:52:18.310996"
+      },
+      {
+        "jurisdiction_name": "Louisiana",
+        "jurisdiction_code": "US-LA",
+        "law_name": "Louisiana Public Records Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "Ongoing refinement of exemption categories",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: Legislative Updates",
+        "extraction_date": "2025-09-26T13:52:18.311003"
+      }
+    ]
+  }
+}

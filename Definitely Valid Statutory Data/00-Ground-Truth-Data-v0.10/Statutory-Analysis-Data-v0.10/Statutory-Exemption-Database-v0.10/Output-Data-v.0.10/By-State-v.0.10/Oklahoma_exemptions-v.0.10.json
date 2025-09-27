@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "extraction_date": "2025-09-26T13:52:18.338221",
+    "total_records": 4,
+    "jurisdiction": "Oklahoma",
+    "data_source": "VERIFIED Process Maps",
+    "verification_date": "September 2025",
+    "categories": [
+      "Statutory Exemption"
+    ]
+  },
+  "records": [
+    {
+      "jurisdiction_name": "Oklahoma",
+      "jurisdiction_code": "US-OK",
+      "law_name": "Oklahoma Open Records Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "Limited to actual duplication costs",
+      "conditions": "Limited to actual duplication costs",
+      "notes": "Exemption type: Direct Costs Only",
+      "extraction_date": "2025-09-26T13:52:18.337002"
+    },
+    {
+      "jurisdiction_name": "Oklahoma",
+      "jurisdiction_code": "US-OK",
+      "law_name": "Oklahoma Open Records Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Personnel Records",
+      "description": "Cannot charge for staff time or administrative overhead",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: No Administrative Fees",
+      "extraction_date": "2025-09-26T13:52:18.337008"
+    },
+    {
+      "jurisdiction_name": "Oklahoma",
+      "jurisdiction_code": "US-OK",
+      "law_name": "Oklahoma Open Records Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "Should notify requester of costs before processing",
+      "conditions": "Should notify requester of costs before processing",
+      "notes": "Exemption type: Advance Notice",
+      "extraction_date": "2025-09-26T13:52:18.337014"
+    },
+    {
+      "jurisdiction_name": "Oklahoma",
+      "jurisdiction_code": "US-OK",
+      "law_name": "Oklahoma Open Records Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "Provide estimate for extensive copying requests",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: Written Estimate",
+      "extraction_date": "2025-09-26T13:52:18.337021"
+    }
+  ],
+  "records_by_category": {
+    "Statutory Exemption": [
+      {
+        "jurisdiction_name": "Oklahoma",
+        "jurisdiction_code": "US-OK",
+        "law_name": "Oklahoma Open Records Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "Limited to actual duplication costs",
+        "conditions": "Limited to actual duplication costs",
+        "notes": "Exemption type: Direct Costs Only",
+        "extraction_date": "2025-09-26T13:52:18.337002"
+      },
+      {
+        "jurisdiction_name": "Oklahoma",
+        "jurisdiction_code": "US-OK",
+        "law_name": "Oklahoma Open Records Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Personnel Records",
+        "description": "Cannot charge for staff time or administrative overhead",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: No Administrative Fees",
+        "extraction_date": "2025-09-26T13:52:18.337008"
+      },
+      {
+        "jurisdiction_name": "Oklahoma",
+        "jurisdiction_code": "US-OK",
+        "law_name": "Oklahoma Open Records Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "Should notify requester of costs before processing",
+        "conditions": "Should notify requester of costs before processing",
+        "notes": "Exemption type: Advance Notice",
+        "extraction_date": "2025-09-26T13:52:18.337014"
+      },
+      {
+        "jurisdiction_name": "Oklahoma",
+        "jurisdiction_code": "US-OK",
+        "law_name": "Oklahoma Open Records Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "Provide estimate for extensive copying requests",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: Written Estimate",
+        "extraction_date": "2025-09-26T13:52:18.337021"
+      }
+    ]
+  }
+}

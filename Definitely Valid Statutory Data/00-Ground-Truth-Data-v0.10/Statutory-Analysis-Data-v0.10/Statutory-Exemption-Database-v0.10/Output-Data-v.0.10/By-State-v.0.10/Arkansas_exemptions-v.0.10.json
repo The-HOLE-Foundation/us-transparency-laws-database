@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "extraction_date": "2025-09-26T13:52:18.288012",
+    "total_records": 4,
+    "jurisdiction": "Arkansas",
+    "data_source": "VERIFIED Process Maps",
+    "verification_date": "September 2025",
+    "categories": [
+      "Statutory Exemption"
+    ]
+  },
+  "records": [
+    {
+      "jurisdiction_name": "Arkansas",
+      "jurisdiction_code": "US-AR",
+      "law_name": "Arkansas Freedom of Information Act (FOIA)",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "All fees must be reasonable and based on documented costs",
+      "conditions": "All fees must be reasonable and based on documented costs",
+      "notes": "Exemption type: Reasonableness Standard",
+      "extraction_date": "2025-09-26T13:52:18.286858"
+    },
+    {
+      "jurisdiction_name": "Arkansas",
+      "jurisdiction_code": "US-AR",
+      "law_name": "Arkansas Freedom of Information Act (FOIA)",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "Fee waiver available for demonstrated financial hardship",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: Inability to Pay",
+      "extraction_date": "2025-09-26T13:52:18.286866"
+    },
+    {
+      "jurisdiction_name": "Arkansas",
+      "jurisdiction_code": "US-AR",
+      "law_name": "Arkansas Freedom of Information Act (FOIA)",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "Fee waiver when request serves public interest",
+      "conditions": "Fee waiver when request serves public interest",
+      "notes": "Exemption type: Public Interest",
+      "extraction_date": "2025-09-26T13:52:18.286873"
+    },
+    {
+      "jurisdiction_name": "Arkansas",
+      "jurisdiction_code": "US-AR",
+      "law_name": "Arkansas Freedom of Information Act (FOIA)",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "Must notify requester of costs before processing",
+      "conditions": "Must notify requester of costs before processing",
+      "notes": "Exemption type: Advance Notice",
+      "extraction_date": "2025-09-26T13:52:18.286880"
+    }
+  ],
+  "records_by_category": {
+    "Statutory Exemption": [
+      {
+        "jurisdiction_name": "Arkansas",
+        "jurisdiction_code": "US-AR",
+        "law_name": "Arkansas Freedom of Information Act (FOIA)",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "All fees must be reasonable and based on documented costs",
+        "conditions": "All fees must be reasonable and based on documented costs",
+        "notes": "Exemption type: Reasonableness Standard",
+        "extraction_date": "2025-09-26T13:52:18.286858"
+      },
+      {
+        "jurisdiction_name": "Arkansas",
+        "jurisdiction_code": "US-AR",
+        "law_name": "Arkansas Freedom of Information Act (FOIA)",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "Fee waiver available for demonstrated financial hardship",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: Inability to Pay",
+        "extraction_date": "2025-09-26T13:52:18.286866"
+      },
+      {
+        "jurisdiction_name": "Arkansas",
+        "jurisdiction_code": "US-AR",
+        "law_name": "Arkansas Freedom of Information Act (FOIA)",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "Fee waiver when request serves public interest",
+        "conditions": "Fee waiver when request serves public interest",
+        "notes": "Exemption type: Public Interest",
+        "extraction_date": "2025-09-26T13:52:18.286873"
+      },
+      {
+        "jurisdiction_name": "Arkansas",
+        "jurisdiction_code": "US-AR",
+        "law_name": "Arkansas Freedom of Information Act (FOIA)",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "Must notify requester of costs before processing",
+        "conditions": "Must notify requester of costs before processing",
+        "notes": "Exemption type: Advance Notice",
+        "extraction_date": "2025-09-26T13:52:18.286880"
+      }
+    ]
+  }
+}

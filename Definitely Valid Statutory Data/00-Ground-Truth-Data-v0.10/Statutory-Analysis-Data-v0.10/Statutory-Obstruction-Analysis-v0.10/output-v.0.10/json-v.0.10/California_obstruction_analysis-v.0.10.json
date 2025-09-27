@@ -1,0 +1,39 @@
+{
+  "state": "California",
+  "vulnerabilities": [
+    {
+      "type": "Fee Barriers",
+      "description": "Fee structure can be weaponized to deter requests",
+      "severity": "MEDIUM",
+      "mechanism": "---\n\n## Fee Structure\n\n### Allowable Costs (Gov. Code \u00a7 7922.570)\n- **Direct Cost of Duplication**: Actual reproduction costs only\n- **No Search Fees**: Prohibited for standard requests\n- **Electronic Records**: Cost of copying to electronic medium\n- **Customized Programming**: May charge for specialized database queries\n\n### Fee Limitations\n- **$25 Threshold**: No fees charged if duplication costs under $25"
+    },
+    {
+      "type": "Programming Time Charges",
+      "description": "Allows charging for technical work with subjective billing",
+      "severity": "MEDIUM",
+      "mechanism": "Can inflate costs by claiming simple requests require programming"
+    },
+    {
+      "type": "Vague Request Rejection",
+      "description": "Agencies can reject requests as too broad or vague",
+      "severity": "HIGH",
+      "mechanism": "Subjective interpretation allows denial of valid requests"
+    },
+    {
+      "type": "Exemption Abuse",
+      "description": "Broad exemptions can be misapplied to withhold records",
+      "severity": "HIGH",
+      "mechanism": "- **Indigent Requesters**: Fee waiver for those unable to pay\n- **Public Interest**: Discretionary waiver when release serves broad public interest\n- **News Media**: No special exemption but may qualify for public interest waiver\n\n---\n\n## Standard Process Flow\n\n### Phase 1: Request Submission\n**Requester Actions:**\n- Submit request in writing (email acceptable)\n- Reasonably describe records sought"
+    },
+    {
+      "type": "Vague Timeline",
+      "description": "Response deadline is subjective rather than fixed",
+      "severity": "MEDIUM",
+      "mechanism": "Deadline defined as: Promptly (vague)"
+    }
+  ],
+  "timelines": {
+    "response_deadline": "Promptly (vague)"
+  },
+  "total_vulnerability_count": 5
+}

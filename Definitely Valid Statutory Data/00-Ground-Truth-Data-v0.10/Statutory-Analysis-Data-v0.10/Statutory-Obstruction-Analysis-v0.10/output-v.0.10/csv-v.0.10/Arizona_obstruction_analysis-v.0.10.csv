@@ -1,0 +1,26 @@
+type,severity,description,mechanism
+Fee Barriers,MEDIUM,Fee structure can be weaponized to deter requests,"**VERIFICATION DATE**: September 18, 2025  
+**VERIFICATION SOURCE**: Dual-source validation using ARS § 39-121 and court decisions  
+**LAST STATUTORY UPDATE**: 2023 (HB 2568 - electronic records and fee limitations)
+
+---
+
+## Legal Framework
+
+### Primary Statute
+- **Arizona Public Records Law**: Arizona Revised Statutes § 39-121 et seq.
+- **Original Enactment**: 1962
+- **Major Revision**: 2012 (comprehensive reform)"
+Exemption Abuse,HIGH,Broad exemptions can be misapplied to withhold records,"- Make records available for inspection
+- Provide copies upon payment of fees
+- Deny with specific exemption citations
+- Respond within reasonable time
+
+---
+
+## Fee Structure
+
+### Allowable Charges (ARS § 39-121.03)
+- **Copying Costs**: Actual cost of reproduction
+- **Personnel Time**: For extensive searches only"
+Vague Timeline,MEDIUM,Response deadline is subjective rather than fixed,Deadline defined as: Promptly (vague)

@@ -1,0 +1,23 @@
+[
+  {
+    "state": "Connecticut",
+    "category": "Freedom of Information Commission",
+    "description": "Independent 9-member commission handles appeals, issues binding orders, imposes civil penalties up to $1,000",
+    "citation": "Conn. Gen. Stat. §§ 1-205, 1-214, 1-216",
+    "notes": "Strong independent oversight body with enforcement powers"
+  },
+  {
+    "state": "Connecticut",
+    "category": "Tiered Fee Structure",
+    "description": "State agencies: max $0.25/page; other public agencies: max $0.50/page; Judicial Dept: $0.50 first 20 pages, $0.25 thereafter",
+    "citation": "Conn. Gen. Stat. § 1-212(b)-(c)",
+    "notes": "Different fee caps for different agency types"
+  },
+  {
+    "state": "Connecticut",
+    "category": "4-Day Response Requirement",
+    "description": "Agencies must respond within 4 business days",
+    "citation": "Conn. Gen. Stat. (practice standard)",
+    "notes": "Rapid response requirement"
+  }
+]

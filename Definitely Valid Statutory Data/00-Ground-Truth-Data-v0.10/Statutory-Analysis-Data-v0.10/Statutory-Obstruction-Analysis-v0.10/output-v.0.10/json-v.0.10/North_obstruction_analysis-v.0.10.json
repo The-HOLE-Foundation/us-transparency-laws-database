@@ -1,0 +1,27 @@
+{
+  "state": "North",
+  "vulnerabilities": [
+    {
+      "type": "Fee Barriers",
+      "description": "Fee structure can be weaponized to deter requests",
+      "severity": "MEDIUM",
+      "mechanism": "  - N.D.C.C. \u00a7 44-04-18: Definitions and legislative intent\n  - N.D.C.C. \u00a7 44-04-18.1: Public access rights and timelines\n  - N.D.C.C. \u00a7 44-04-18.7: Fee provisions\n  - N.D.C.C. \u00a7 44-04-18.1 through 44-04-18.27: Exemptions from disclosure\n\n### Definitions\n- **Public Entity**: All state and local government agencies, including boards, commissions, and authorities\n- **Record**: Information in any physical form prepared or owned by a public entity\n- **Business Days**: Monday through Friday, excludin"
+    },
+    {
+      "type": "Exemption Abuse",
+      "description": "Broad exemptions can be misapplied to withhold records",
+      "severity": "HIGH",
+      "mechanism": "  - N.D.C.C. \u00a7 44-04-18.1: Public access rights and timelines\n  - N.D.C.C. \u00a7 44-04-18.7: Fee provisions\n  - N.D.C.C. \u00a7 44-04-18.1 through 44-04-18.27: Exemptions from disclosure\n\n### Definitions\n- **Public Entity**: All state and local government agencies, including boards, commissions, and authorities\n- **Record**: Information in any physical form prepared or owned by a public entity\n- **Business Days**: Monday through Friday, excluding state holidays\n- **Custodian**: Official designated to mai"
+    },
+    {
+      "type": "Vague Timeline",
+      "description": "Response deadline is subjective rather than fixed",
+      "severity": "MEDIUM",
+      "mechanism": "Deadline defined as: Reasonable time (vague)"
+    }
+  ],
+  "timelines": {
+    "response_deadline": "Reasonable time (vague)"
+  },
+  "total_vulnerability_count": 3
+}

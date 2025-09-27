@@ -1,0 +1,39 @@
+{
+  "state": "DC",
+  "vulnerabilities": [
+    {
+      "type": "Clarification Pause",
+      "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+      "severity": "HIGH",
+      "mechanism": "- **Injunctive Relief**: Ongoing compliance orders\n- **Attorney Fees**: Recovery possible for successful enforcement\n- **Declaratory Judgment**: Clarification of FOIA obligations\n\n---\n\n## Classification System and Exemptions\n\n### General Exemptions (DC Code \u00a7 2-534)\n**Personal Privacy**: Information constituting clearly unwarranted invasion of personal privacy\n**Law Enforcement**: Records compiled for law enforcement purposes\n**National Security**: Information affecting national defense or forei"
+    },
+    {
+      "type": "Fee Barriers",
+      "description": "Fee structure can be weaponized to deter requests",
+      "severity": "MEDIUM",
+      "mechanism": "  - DC Code \u00a7 2-532: Definitions and legislative intent\n  - DC Code \u00a7 2-533: Public access rights and timelines\n  - DC Code \u00a7 2-535: Fee provisions and waivers\n  - DC Code \u00a7 2-534: Exemptions from disclosure\n\n### Definitions\n- **Public Body**: All DC government agencies, including boards, commissions, and authorities\n- **Public Record**: Any documentary material prepared or maintained by a public body\n- **Business Days**: Monday through Friday, excluding District holidays\n- **Custodian**: Offici"
+    },
+    {
+      "type": "Vague Request Rejection",
+      "description": "Agencies can reject requests as too broad or vague",
+      "severity": "HIGH",
+      "mechanism": "Subjective interpretation allows denial of valid requests"
+    },
+    {
+      "type": "Exemption Abuse",
+      "description": "Broad exemptions can be misapplied to withhold records",
+      "severity": "HIGH",
+      "mechanism": "  - DC Code \u00a7 2-533: Public access rights and timelines\n  - DC Code \u00a7 2-535: Fee provisions and waivers\n  - DC Code \u00a7 2-534: Exemptions from disclosure\n\n### Definitions\n- **Public Body**: All DC government agencies, including boards, commissions, and authorities\n- **Public Record**: Any documentary material prepared or maintained by a public body\n- **Business Days**: Monday through Friday, excluding District holidays\n- **Custodian**: Official designated to maintain and provide access to records\n"
+    },
+    {
+      "type": "Vague Timeline",
+      "description": "Response deadline is subjective rather than fixed",
+      "severity": "MEDIUM",
+      "mechanism": "Deadline defined as: Reasonable time (vague)"
+    }
+  ],
+  "timelines": {
+    "response_deadline": "Reasonable time (vague)"
+  },
+  "total_vulnerability_count": 5
+}

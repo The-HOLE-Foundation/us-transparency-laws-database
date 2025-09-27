@@ -1,0 +1,16 @@
+[
+  {
+    "state": "California",
+    "category": "No Search Fees",
+    "description": "Cannot charge search fees (unlike federal FOIA)",
+    "citation": "Government Code § 7920 et seq.",
+    "notes": "Protects requesters from search costs"
+  },
+  {
+    "state": "California",
+    "category": "10-Day Response with 14-Day Extension",
+    "description": "10 days to determine if records exist and will be disclosed; additional 14 days in unusual circumstances (no further extensions)",
+    "citation": "Government Code § 7922.535",
+    "notes": "Strict limit on extensions prevents indefinite delays"
+  }
+]

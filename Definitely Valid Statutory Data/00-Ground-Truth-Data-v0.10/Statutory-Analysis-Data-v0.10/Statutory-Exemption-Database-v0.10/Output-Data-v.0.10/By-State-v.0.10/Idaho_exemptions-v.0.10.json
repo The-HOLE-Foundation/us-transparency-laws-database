@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "extraction_date": "2025-09-26T13:52:18.302135",
+    "total_records": 4,
+    "jurisdiction": "Idaho",
+    "data_source": "VERIFIED Process Maps",
+    "verification_date": "September 2025",
+    "categories": [
+      "Statutory Exemption"
+    ]
+  },
+  "records": [
+    {
+      "jurisdiction_name": "Idaho",
+      "jurisdiction_code": "US-ID",
+      "law_name": "Idaho Public Records Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "§ 74-105",
+      "category": "Statutory Exemption",
+      "subcategory": "Personal Privacy",
+      "description": "Information constituting invasion of personal privacy",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: Personal Privacy",
+      "extraction_date": "2025-09-26T13:52:18.301539"
+    },
+    {
+      "jurisdiction_name": "Idaho",
+      "jurisdiction_code": "US-ID",
+      "law_name": "Idaho Public Records Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "§ 74-105",
+      "category": "Statutory Exemption",
+      "subcategory": "Law Enforcement",
+      "description": "Investigatory records and confidential sources",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: Law Enforcement",
+      "extraction_date": "2025-09-26T13:52:18.301544"
+    },
+    {
+      "jurisdiction_name": "Idaho",
+      "jurisdiction_code": "US-ID",
+      "law_name": "Idaho Public Records Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "§ 74-105",
+      "category": "Statutory Exemption",
+      "subcategory": "Personnel Records",
+      "description": "Employee evaluations and disciplinary records",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: Personnel Records",
+      "extraction_date": "2025-09-26T13:52:18.301550"
+    },
+    {
+      "jurisdiction_name": "Idaho",
+      "jurisdiction_code": "US-ID",
+      "law_name": "Idaho Public Records Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "§ 74-105",
+      "category": "Statutory Exemption",
+      "subcategory": "Trade Secrets/Commercial",
+      "description": "Proprietary business information",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: Trade Secrets",
+      "extraction_date": "2025-09-26T13:52:18.301555"
+    }
+  ],
+  "records_by_category": {
+    "Statutory Exemption": [
+      {
+        "jurisdiction_name": "Idaho",
+        "jurisdiction_code": "US-ID",
+        "law_name": "Idaho Public Records Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "§ 74-105",
+        "category": "Statutory Exemption",
+        "subcategory": "Personal Privacy",
+        "description": "Information constituting invasion of personal privacy",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: Personal Privacy",
+        "extraction_date": "2025-09-26T13:52:18.301539"
+      },
+      {
+        "jurisdiction_name": "Idaho",
+        "jurisdiction_code": "US-ID",
+        "law_name": "Idaho Public Records Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "§ 74-105",
+        "category": "Statutory Exemption",
+        "subcategory": "Law Enforcement",
+        "description": "Investigatory records and confidential sources",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: Law Enforcement",
+        "extraction_date": "2025-09-26T13:52:18.301544"
+      },
+      {
+        "jurisdiction_name": "Idaho",
+        "jurisdiction_code": "US-ID",
+        "law_name": "Idaho Public Records Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "§ 74-105",
+        "category": "Statutory Exemption",
+        "subcategory": "Personnel Records",
+        "description": "Employee evaluations and disciplinary records",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: Personnel Records",
+        "extraction_date": "2025-09-26T13:52:18.301550"
+      },
+      {
+        "jurisdiction_name": "Idaho",
+        "jurisdiction_code": "US-ID",
+        "law_name": "Idaho Public Records Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "§ 74-105",
+        "category": "Statutory Exemption",
+        "subcategory": "Trade Secrets/Commercial",
+        "description": "Proprietary business information",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: Trade Secrets",
+        "extraction_date": "2025-09-26T13:52:18.301555"
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "state": "Arkansas",
+  "vulnerabilities": [
+    {
+      "type": "Clarification Pause",
+      "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+      "severity": "HIGH",
+      "mechanism": "**Internal Process:**\n- Discuss concerns with custodian or agency head\n- Request clarification of exemption claims or timeline\n- Negotiate scope or format to reduce costs\n- Request fee waiver if applicable criteria met\n\n**Documentation:**\n- Preserve all communications with agency\n- Document any improper fee charges or unreasonable delays\n- Maintain evidence of public interest in disclosure\n- Note any pattern of non-compliance for potential penalties\n"
+    },
+    {
+      "type": "Fee Barriers",
+      "description": "Fee structure can be weaponized to deter requests",
+      "severity": "MEDIUM",
+      "mechanism": "  - Ark. Code \u00a7 25-19-104: Public access rights\n  - Ark. Code \u00a7 25-19-105: Response timeline and enforcement\n  - Ark. Code \u00a7 25-19-106: Fee provisions\n  - Ark. Code \u00a7 25-19-107: Exemptions from disclosure\n\n### **CRITICAL 2025 UPDATES**\n- **Act 505 (2025)**: \"Arkansas Freedom of Information Act Amendments\"\n- **Act 922 (2025)**: \"Public Records Enhancement Act\"\n- **Key Changes**:\n  - Clarified definitions for public meetings and communications\n  - Strengthened prohibitions on informal deliberation"
+    },
+    {
+      "type": "Exemption Abuse",
+      "description": "Broad exemptions can be misapplied to withhold records",
+      "severity": "HIGH",
+      "mechanism": "  - Ark. Code \u00a7 25-19-105: Response timeline and enforcement\n  - Ark. Code \u00a7 25-19-106: Fee provisions\n  - Ark. Code \u00a7 25-19-107: Exemptions from disclosure\n\n### **CRITICAL 2025 UPDATES**\n- **Act 505 (2025)**: \"Arkansas Freedom of Information Act Amendments\"\n- **Act 922 (2025)**: \"Public Records Enhancement Act\"\n- **Key Changes**:\n  - Clarified definitions for public meetings and communications\n  - Strengthened prohibitions on informal deliberations (\"polling\")\n  - Enhanced civil penalties for v"
+    },
+    {
+      "type": "Vague Timeline",
+      "description": "Response deadline is subjective rather than fixed",
+      "severity": "MEDIUM",
+      "mechanism": "Deadline defined as: Promptly (vague)"
+    }
+  ],
+  "timelines": {
+    "response_deadline": "Promptly (vague)"
+  },
+  "total_vulnerability_count": 4
+}

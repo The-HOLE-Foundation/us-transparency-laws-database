@@ -1,0 +1,27 @@
+type,severity,description,mechanism
+Fee Barriers,MEDIUM,Fee structure can be weaponized to deter requests,"**VERIFICATION DATE**: September 18, 2025  
+**VERIFICATION SOURCE**: Dual-source validation using MGL Ch. 66 and SJC decisions  
+**LAST STATUTORY UPDATE**: 2023 (Chapter 107 - electronic records and fee limitations)
+
+---
+
+## Legal Framework
+
+### Primary Statute
+- **Massachusetts Public Records Law**: Massachusetts General Laws Chapter 66, Sections 10, 10A, and 10B
+- **Original Enactment**: 1973
+- **Major Reform**: 2016 (comprehensive overhaul)"
+Programming Time Charges,MEDIUM,Allows charging for technical work with subjective billing,Can inflate costs by claiming simple requests require programming
+Vague Request Rejection,HIGH,Agencies can reject requests as too broad or vague,Subjective interpretation allows denial of valid requests
+Exemption Abuse,HIGH,Broad exemptions can be misapplied to withhold records,"**Within 10 Business Days:**
+- Provide records in whole or in part
+- Deny request with specific exemption citations
+- Provide written response indicating need for extension
+
+### Extension Criteria (MGL Ch. 66, § 10(a))
+- Need to search for records at multiple locations
+- Need to review voluminous number of records
+- Need to consult with legal counsel
+- Technical difficulties preventing electronic production
+
+---"

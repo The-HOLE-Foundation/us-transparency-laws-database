@@ -1,0 +1,20 @@
+type,severity,description,mechanism
+Fee Barriers,MEDIUM,Fee structure can be weaponized to deter requests,"  - R.I. Gen. Laws § 38-2-1: Definitions and legislative intent
+  - R.I. Gen. Laws § 38-2-3: Public access rights and timelines
+  - R.I. Gen. Laws § 38-2-4: Fee provisions
+  - R.I. Gen. Laws § 38-2-2: Exemptions from disclosure
+
+### Definitions
+- **Public Body**: All state and local government agencies, including boards, commissions, and authorities
+- **Public Record**: Any documentary material prepared or owned by a public body
+- **Business Days**: Monday through Friday, excluding state holiday"
+Exemption Abuse,HIGH,Broad exemptions can be misapplied to withhold records,"  - R.I. Gen. Laws § 38-2-3: Public access rights and timelines
+  - R.I. Gen. Laws § 38-2-4: Fee provisions
+  - R.I. Gen. Laws § 38-2-2: Exemptions from disclosure
+
+### Definitions
+- **Public Body**: All state and local government agencies, including boards, commissions, and authorities
+- **Public Record**: Any documentary material prepared or owned by a public body
+- **Business Days**: Monday through Friday, excluding state holidays
+- **Custodian**: Official designated to maintain and provide a"
+Vague Timeline,MEDIUM,Response deadline is subjective rather than fixed,Deadline defined as: Reasonable time (vague)

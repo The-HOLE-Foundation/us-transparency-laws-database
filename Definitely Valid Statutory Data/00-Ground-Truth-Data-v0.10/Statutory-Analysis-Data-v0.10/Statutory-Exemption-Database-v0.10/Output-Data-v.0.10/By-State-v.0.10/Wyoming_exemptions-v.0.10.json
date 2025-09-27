@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "extraction_date": "2025-09-26T13:52:18.363518",
+    "total_records": 4,
+    "jurisdiction": "Wyoming",
+    "data_source": "VERIFIED Process Maps",
+    "verification_date": "September 2025",
+    "categories": [
+      "Statutory Exemption"
+    ]
+  },
+  "records": [
+    {
+      "jurisdiction_name": "Wyoming",
+      "jurisdiction_code": "US-WY",
+      "law_name": "Wyoming Public Records Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "All fees must be reasonable and actual",
+      "conditions": "All fees must be reasonable and actual",
+      "notes": "Exemption type: Reasonableness Standard",
+      "extraction_date": "2025-09-26T13:52:18.362567"
+    },
+    {
+      "jurisdiction_name": "Wyoming",
+      "jurisdiction_code": "US-WY",
+      "law_name": "Wyoming Public Records Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "Cannot use fees to discourage legitimate requests",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: No Excessive Charges",
+      "extraction_date": "2025-09-26T13:52:18.362575"
+    },
+    {
+      "jurisdiction_name": "Wyoming",
+      "jurisdiction_code": "US-WY",
+      "law_name": "Wyoming Public Records Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "Provide cost estimates for extensive requests",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: Written Estimates",
+      "extraction_date": "2025-09-26T13:52:18.362583"
+    },
+    {
+      "jurisdiction_name": "Wyoming",
+      "jurisdiction_code": "US-WY",
+      "law_name": "Wyoming Public Records Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "Clear explanation of fee structure",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: Payment Terms",
+      "extraction_date": "2025-09-26T13:52:18.362590"
+    }
+  ],
+  "records_by_category": {
+    "Statutory Exemption": [
+      {
+        "jurisdiction_name": "Wyoming",
+        "jurisdiction_code": "US-WY",
+        "law_name": "Wyoming Public Records Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "All fees must be reasonable and actual",
+        "conditions": "All fees must be reasonable and actual",
+        "notes": "Exemption type: Reasonableness Standard",
+        "extraction_date": "2025-09-26T13:52:18.362567"
+      },
+      {
+        "jurisdiction_name": "Wyoming",
+        "jurisdiction_code": "US-WY",
+        "law_name": "Wyoming Public Records Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "Cannot use fees to discourage legitimate requests",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: No Excessive Charges",
+        "extraction_date": "2025-09-26T13:52:18.362575"
+      },
+      {
+        "jurisdiction_name": "Wyoming",
+        "jurisdiction_code": "US-WY",
+        "law_name": "Wyoming Public Records Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "Provide cost estimates for extensive requests",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: Written Estimates",
+        "extraction_date": "2025-09-26T13:52:18.362583"
+      },
+      {
+        "jurisdiction_name": "Wyoming",
+        "jurisdiction_code": "US-WY",
+        "law_name": "Wyoming Public Records Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "Clear explanation of fee structure",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: Payment Terms",
+        "extraction_date": "2025-09-26T13:52:18.362590"
+      }
+    ]
+  }
+}

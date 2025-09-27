@@ -1,0 +1,37 @@
+[
+  {
+    "state": "Ohio",
+    "category": "1 Business Day Acknowledgment",
+    "description": "Must acknowledge receipt within 1 business day",
+    "citation": "Ohio Rev. Code § 149.43",
+    "notes": "Immediate acknowledgment requirement"
+  },
+  {
+    "state": "Ohio",
+    "category": "Written Policy Required",
+    "description": "All public offices must adopt written public records policies",
+    "citation": "Ohio Rev. Code § 149.43(E)",
+    "notes": "Mandatory policy adoption"
+  },
+  {
+    "state": "Ohio",
+    "category": "Mandatory Official Training",
+    "description": "All elected officials or designees must attend training on public records requirements",
+    "citation": "Ohio Rev. Code § 149.43(E)",
+    "notes": "Required education for officials"
+  },
+  {
+    "state": "Ohio",
+    "category": "Statutory Damages up to $1,000",
+    "description": "Statutory damages up to $1,000 ($100/day) for violations",
+    "citation": "Ohio Rev. Code § 149.43(C)",
+    "notes": "Specific damage calculation"
+  },
+  {
+    "state": "Ohio",
+    "category": "Assistance Required",
+    "description": "Offices must help clarify ambiguous requests and explain record organization",
+    "citation": "Ohio Rev. Code § 149.43(B)",
+    "notes": "Proactive assistance mandate"
+  }
+]

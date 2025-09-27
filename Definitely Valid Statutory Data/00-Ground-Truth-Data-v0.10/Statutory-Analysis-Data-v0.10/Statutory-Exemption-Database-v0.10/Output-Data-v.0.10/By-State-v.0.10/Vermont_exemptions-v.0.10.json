@@ -1,0 +1,226 @@
+{
+  "metadata": {
+    "extraction_date": "2025-09-26T13:52:18.356206",
+    "total_records": 8,
+    "jurisdiction": "Vermont",
+    "data_source": "VERIFIED Process Maps",
+    "verification_date": "September 2025",
+    "categories": [
+      "Statutory Exemption"
+    ]
+  },
+  "records": [
+    {
+      "jurisdiction_name": "Vermont",
+      "jurisdiction_code": "US-VT",
+      "law_name": "Vermont Public Records Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "All fees must be reasonable and reflect actual costs",
+      "conditions": "All fees must be reasonable and reflect actual costs",
+      "notes": "Exemption type: Reasonableness Standard",
+      "extraction_date": "2025-09-26T13:52:18.354931"
+    },
+    {
+      "jurisdiction_name": "Vermont",
+      "jurisdiction_code": "US-VT",
+      "law_name": "Vermont Public Records Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "Cannot charge more than actual cost of fulfillment",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: No Profit Motive",
+      "extraction_date": "2025-09-26T13:52:18.354939"
+    },
+    {
+      "jurisdiction_name": "Vermont",
+      "jurisdiction_code": "US-VT",
+      "law_name": "Vermont Public Records Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "Fees cannot be used to deny access to public records",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: Access Protection",
+      "extraction_date": "2025-09-26T13:52:18.354947"
+    },
+    {
+      "jurisdiction_name": "Vermont",
+      "jurisdiction_code": "US-VT",
+      "law_name": "Vermont Public Records Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Personal Privacy",
+      "description": "Information constituting unreasonable invasion of personal privacy",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: Personal Privacy",
+      "extraction_date": "2025-09-26T13:52:18.354965"
+    },
+    {
+      "jurisdiction_name": "Vermont",
+      "jurisdiction_code": "US-VT",
+      "law_name": "Vermont Public Records Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Law Enforcement",
+      "description": "Active investigations and confidential sources",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: Law Enforcement",
+      "extraction_date": "2025-09-26T13:52:18.354969"
+    },
+    {
+      "jurisdiction_name": "Vermont",
+      "jurisdiction_code": "US-VT",
+      "law_name": "Vermont Public Records Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Attorney-Client Privilege",
+      "description": "Legal advice and privileged communications",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: Attorney-Client Privilege",
+      "extraction_date": "2025-09-26T13:52:18.354975"
+    },
+    {
+      "jurisdiction_name": "Vermont",
+      "jurisdiction_code": "US-VT",
+      "law_name": "Vermont Public Records Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Medical Records",
+      "description": "Protected health information",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: Medical Records",
+      "extraction_date": "2025-09-26T13:52:18.354980"
+    },
+    {
+      "jurisdiction_name": "Vermont",
+      "jurisdiction_code": "US-VT",
+      "law_name": "Vermont Public Records Act",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Educational Records",
+      "description": "Student records protected under FERPA",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: Educational Records",
+      "extraction_date": "2025-09-26T13:52:18.354986"
+    }
+  ],
+  "records_by_category": {
+    "Statutory Exemption": [
+      {
+        "jurisdiction_name": "Vermont",
+        "jurisdiction_code": "US-VT",
+        "law_name": "Vermont Public Records Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "All fees must be reasonable and reflect actual costs",
+        "conditions": "All fees must be reasonable and reflect actual costs",
+        "notes": "Exemption type: Reasonableness Standard",
+        "extraction_date": "2025-09-26T13:52:18.354931"
+      },
+      {
+        "jurisdiction_name": "Vermont",
+        "jurisdiction_code": "US-VT",
+        "law_name": "Vermont Public Records Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "Cannot charge more than actual cost of fulfillment",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: No Profit Motive",
+        "extraction_date": "2025-09-26T13:52:18.354939"
+      },
+      {
+        "jurisdiction_name": "Vermont",
+        "jurisdiction_code": "US-VT",
+        "law_name": "Vermont Public Records Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "Fees cannot be used to deny access to public records",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: Access Protection",
+        "extraction_date": "2025-09-26T13:52:18.354947"
+      },
+      {
+        "jurisdiction_name": "Vermont",
+        "jurisdiction_code": "US-VT",
+        "law_name": "Vermont Public Records Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Personal Privacy",
+        "description": "Information constituting unreasonable invasion of personal privacy",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: Personal Privacy",
+        "extraction_date": "2025-09-26T13:52:18.354965"
+      },
+      {
+        "jurisdiction_name": "Vermont",
+        "jurisdiction_code": "US-VT",
+        "law_name": "Vermont Public Records Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Law Enforcement",
+        "description": "Active investigations and confidential sources",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: Law Enforcement",
+        "extraction_date": "2025-09-26T13:52:18.354969"
+      },
+      {
+        "jurisdiction_name": "Vermont",
+        "jurisdiction_code": "US-VT",
+        "law_name": "Vermont Public Records Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Attorney-Client Privilege",
+        "description": "Legal advice and privileged communications",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: Attorney-Client Privilege",
+        "extraction_date": "2025-09-26T13:52:18.354975"
+      },
+      {
+        "jurisdiction_name": "Vermont",
+        "jurisdiction_code": "US-VT",
+        "law_name": "Vermont Public Records Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Medical Records",
+        "description": "Protected health information",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: Medical Records",
+        "extraction_date": "2025-09-26T13:52:18.354980"
+      },
+      {
+        "jurisdiction_name": "Vermont",
+        "jurisdiction_code": "US-VT",
+        "law_name": "Vermont Public Records Act",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Educational Records",
+        "description": "Student records protected under FERPA",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: Educational Records",
+        "extraction_date": "2025-09-26T13:52:18.354986"
+      }
+    ]
+  }
+}

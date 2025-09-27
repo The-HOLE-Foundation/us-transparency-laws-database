@@ -1,0 +1,23 @@
+[
+  {
+    "state": "Massachusetts",
+    "category": "Records Access Officer Required",
+    "description": "Each agency and municipality must designate Records Access Officer to coordinate responses",
+    "citation": "M.G.L. c. 66, § 10",
+    "notes": "Mandatory designated contact person"
+  },
+  {
+    "state": "Massachusetts",
+    "category": "Supervisor of Records",
+    "description": "Primary appeal authority in Office of Secretary of Commonwealth",
+    "citation": "M.G.L. c. 66, § 10",
+    "notes": "Centralized administrative appeals"
+  },
+  {
+    "state": "Massachusetts",
+    "category": "10 Business Day Response",
+    "description": "RAO must respond within 10 business days (excluding weekends, holidays, unexpected closures)",
+    "citation": "M.G.L. c. 66, § 10",
+    "notes": "Clear deadline with explicit exclusions"
+  }
+]

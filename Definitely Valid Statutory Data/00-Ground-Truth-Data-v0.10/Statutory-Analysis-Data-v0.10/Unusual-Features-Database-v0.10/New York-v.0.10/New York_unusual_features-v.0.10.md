@@ -1,0 +1,11 @@
+# New York - Unusual Transparency Law Features
+
+**Total Features Identified:** 3
+
+## Features
+
+| Category | Description | Citation | Notes |
+|----------|-------------|----------|-------|
+| 5-Day Response with 20-Day Extension | 5 business days to grant/deny/acknowledge; up to 20 additional days from acknowledgment (total 25) | Public Officers Law § 89 | Two-stage response structure |
+| Committee on Open Government | Provides guidance and handles certain appeals for FOIL matters | Public Officers Law Article 6 | Oversight committee structure |
+| Electronic Submission Required | Agencies with email capability must accept and respond to FOIL requests electronically | Public Officers Law § 89 | Mandatory electronic access |

@@ -1,0 +1,27 @@
+{
+  "state": "Delaware",
+  "vulnerabilities": [
+    {
+      "type": "Fee Barriers",
+      "description": "Fee structure can be weaponized to deter requests",
+      "severity": "MEDIUM",
+      "mechanism": "  - Del. Code tit. 29, \u00a7 10001: Definitions and legislative intent\n  - Del. Code tit. 29, \u00a7 10003: Public access rights and timelines\n  - Del. Code tit. 29, \u00a7 10006: Fee provisions\n  - Del. Code tit. 29, \u00a7 10002: Exemptions from disclosure\n\n### Definitions\n- **Public Body**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**: Any information, regardless of physical form, prepared or owned by a public body\n- **Business Days**: Monday throug"
+    },
+    {
+      "type": "Exemption Abuse",
+      "description": "Broad exemptions can be misapplied to withhold records",
+      "severity": "HIGH",
+      "mechanism": "  - Del. Code tit. 29, \u00a7 10003: Public access rights and timelines\n  - Del. Code tit. 29, \u00a7 10006: Fee provisions\n  - Del. Code tit. 29, \u00a7 10002: Exemptions from disclosure\n\n### Definitions\n- **Public Body**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**: Any information, regardless of physical form, prepared or owned by a public body\n- **Business Days**: Monday through Friday, excluding state holidays\n- **Custodian**: Official design"
+    },
+    {
+      "type": "Vague Timeline",
+      "description": "Response deadline is subjective rather than fixed",
+      "severity": "MEDIUM",
+      "mechanism": "Deadline defined as: Reasonable time (vague)"
+    }
+  ],
+  "timelines": {
+    "response_deadline": "Reasonable time (vague)"
+  },
+  "total_vulnerability_count": 3
+}

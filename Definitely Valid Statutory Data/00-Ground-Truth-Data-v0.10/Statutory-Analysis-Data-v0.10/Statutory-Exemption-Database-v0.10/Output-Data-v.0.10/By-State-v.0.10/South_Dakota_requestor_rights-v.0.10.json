@@ -1,0 +1,284 @@
+{
+  "metadata": {
+    "extraction_date": "2025-09-26T13:52:18.346171",
+    "total_records": 10,
+    "jurisdiction": "South_Dakota",
+    "data_source": "VERIFIED Process Maps",
+    "verification_date": "September 2025",
+    "categories": [
+      "Response Timeline",
+      "Fee Structure",
+      "General Rights"
+    ]
+  },
+  "records": [
+    {
+      "jurisdiction_name": "South Dakota",
+      "jurisdiction_code": "US-SD",
+      "law_name": "South Dakota Open Records Law",
+      "statute_citation": "Citation not found",
+      "section_reference": "§ 1-27-1",
+      "category": "Response Timeline",
+      "subcategory": "### Standard Timeline (SDCL § 1-27-1.5)",
+      "description": "### Standard Timeline (SDCL § 1-27-1.5)",
+      "conditions": "No specific conditions stated",
+      "notes": "Extracted from Standard Timeline (SDCL § 1271.5)",
+      "extraction_date": "2025-09-26T13:52:18.345907"
+    },
+    {
+      "jurisdiction_name": "South Dakota",
+      "jurisdiction_code": "US-SD",
+      "law_name": "South Dakota Open Records Law",
+      "statute_citation": "Citation not found",
+      "section_reference": "§ 1-27-1",
+      "category": "Response Timeline",
+      "subcategory": ": Reasonable time from receipt of request",
+      "description": ": Reasonable time from receipt of request",
+      "conditions": "No specific conditions stated",
+      "notes": "Extracted from Standard Timeline (SDCL § 1271.5)",
+      "extraction_date": "2025-09-26T13:52:18.345915"
+    },
+    {
+      "jurisdiction_name": "South Dakota",
+      "jurisdiction_code": "US-SD",
+      "law_name": "South Dakota Open Records Law",
+      "statute_citation": "Citation not found",
+      "section_reference": "§ 1-27-1",
+      "category": "Response Timeline",
+      "subcategory": ": Request complexity, volume, agency resources",
+      "description": ": Request complexity, volume, agency resources",
+      "conditions": "No specific conditions stated",
+      "notes": "Extracted from Standard Timeline (SDCL § 1271.5)",
+      "extraction_date": "2025-09-26T13:52:18.345921"
+    },
+    {
+      "jurisdiction_name": "South Dakota",
+      "jurisdiction_code": "US-SD",
+      "law_name": "South Dakota Open Records Law",
+      "statute_citation": "Citation not found",
+      "section_reference": "§ 1-27-1",
+      "category": "Response Timeline",
+      "subcategory": ":\n  1",
+      "description": ":\n  1. Provide requested records for inspection or copying\n  2. Deny request with written explanation citing specific exemption\n  3. Provide partial records with explanation for any withholding",
+      "conditions": "Deny request with written explanation citing specific exemption\n  3",
+      "notes": "Extracted from Standard Timeline (SDCL § 1271.5)",
+      "extraction_date": "2025-09-26T13:52:18.345935"
+    },
+    {
+      "jurisdiction_name": "South Dakota",
+      "jurisdiction_code": "US-SD",
+      "law_name": "South Dakota Open Records Law",
+      "statute_citation": "Citation not found",
+      "section_reference": "§ 1-27-35",
+      "category": "Fee Structure",
+      "subcategory": "### Allowable Fees (SDCL § 1-27-35)",
+      "description": "### Allowable Fees (SDCL § 1-27-35)",
+      "conditions": "No specific conditions stated",
+      "notes": "Extracted from Allowable Fees (SDCL § 12735)",
+      "extraction_date": "2025-09-26T13:52:18.345952"
+    },
+    {
+      "jurisdiction_name": "South Dakota",
+      "jurisdiction_code": "US-SD",
+      "law_name": "South Dakota Open Records Law",
+      "statute_citation": "Citation not found",
+      "section_reference": "§ 1-27-35",
+      "category": "Fee Structure",
+      "subcategory": ": Fees limited to reasonable costs of copying and preparation",
+      "description": ": Fees limited to reasonable costs of copying and preparation",
+      "conditions": ": Fees limited to reasonable costs of copying and preparation",
+      "notes": "Extracted from Allowable Fees (SDCL § 12735)",
+      "extraction_date": "2025-09-26T13:52:18.345957"
+    },
+    {
+      "jurisdiction_name": "South Dakota",
+      "jurisdiction_code": "US-SD",
+      "law_name": "South Dakota Open Records Law",
+      "statute_citation": "Citation not found",
+      "section_reference": "§ 1-27-35",
+      "category": "Fee Structure",
+      "subcategory": ": Direct costs of duplication and staff time",
+      "description": ": Direct costs of duplication and staff time",
+      "conditions": "No specific conditions stated",
+      "notes": "Extracted from Allowable Fees (SDCL § 12735)",
+      "extraction_date": "2025-09-26T13:52:18.345961"
+    },
+    {
+      "jurisdiction_name": "South Dakota",
+      "jurisdiction_code": "US-SD",
+      "law_name": "South Dakota Open Records Law",
+      "statute_citation": "Citation not found",
+      "section_reference": "§ 1-27-35",
+      "category": "Fee Structure",
+      "subcategory": ": Paper, electronic media, postage costs",
+      "description": ": Paper, electronic media, postage costs",
+      "conditions": "No specific conditions stated",
+      "notes": "Extracted from Allowable Fees (SDCL § 12735)",
+      "extraction_date": "2025-09-26T13:52:18.345966"
+    },
+    {
+      "jurisdiction_name": "South Dakota",
+      "jurisdiction_code": "US-SD",
+      "law_name": "South Dakota Open Records Law",
+      "statute_citation": "Citation not found",
+      "section_reference": "See statute",
+      "category": "General Rights",
+      "subcategory": ": Mandamus and injunctive relief",
+      "description": ": Mandamus and injunctive relief",
+      "conditions": "No specific conditions stated",
+      "notes": "Extracted from Judicial Remedies",
+      "extraction_date": "2025-09-26T13:52:18.345986"
+    },
+    {
+      "jurisdiction_name": "South Dakota",
+      "jurisdiction_code": "US-SD",
+      "law_name": "South Dakota Open Records Law",
+      "statute_citation": "Citation not found",
+      "section_reference": "See statute",
+      "category": "General Rights",
+      "subcategory": ": Potential recovery for successful enforcement",
+      "description": ": Potential recovery for successful enforcement",
+      "conditions": "No specific conditions stated",
+      "notes": "Extracted from Judicial Remedies",
+      "extraction_date": "2025-09-26T13:52:18.345992"
+    }
+  ],
+  "records_by_category": {
+    "Response Timeline": [
+      {
+        "jurisdiction_name": "South Dakota",
+        "jurisdiction_code": "US-SD",
+        "law_name": "South Dakota Open Records Law",
+        "statute_citation": "Citation not found",
+        "section_reference": "§ 1-27-1",
+        "category": "Response Timeline",
+        "subcategory": "### Standard Timeline (SDCL § 1-27-1.5)",
+        "description": "### Standard Timeline (SDCL § 1-27-1.5)",
+        "conditions": "No specific conditions stated",
+        "notes": "Extracted from Standard Timeline (SDCL § 1271.5)",
+        "extraction_date": "2025-09-26T13:52:18.345907"
+      },
+      {
+        "jurisdiction_name": "South Dakota",
+        "jurisdiction_code": "US-SD",
+        "law_name": "South Dakota Open Records Law",
+        "statute_citation": "Citation not found",
+        "section_reference": "§ 1-27-1",
+        "category": "Response Timeline",
+        "subcategory": ": Reasonable time from receipt of request",
+        "description": ": Reasonable time from receipt of request",
+        "conditions": "No specific conditions stated",
+        "notes": "Extracted from Standard Timeline (SDCL § 1271.5)",
+        "extraction_date": "2025-09-26T13:52:18.345915"
+      },
+      {
+        "jurisdiction_name": "South Dakota",
+        "jurisdiction_code": "US-SD",
+        "law_name": "South Dakota Open Records Law",
+        "statute_citation": "Citation not found",
+        "section_reference": "§ 1-27-1",
+        "category": "Response Timeline",
+        "subcategory": ": Request complexity, volume, agency resources",
+        "description": ": Request complexity, volume, agency resources",
+        "conditions": "No specific conditions stated",
+        "notes": "Extracted from Standard Timeline (SDCL § 1271.5)",
+        "extraction_date": "2025-09-26T13:52:18.345921"
+      },
+      {
+        "jurisdiction_name": "South Dakota",
+        "jurisdiction_code": "US-SD",
+        "law_name": "South Dakota Open Records Law",
+        "statute_citation": "Citation not found",
+        "section_reference": "§ 1-27-1",
+        "category": "Response Timeline",
+        "subcategory": ":\n  1",
+        "description": ":\n  1. Provide requested records for inspection or copying\n  2. Deny request with written explanation citing specific exemption\n  3. Provide partial records with explanation for any withholding",
+        "conditions": "Deny request with written explanation citing specific exemption\n  3",
+        "notes": "Extracted from Standard Timeline (SDCL § 1271.5)",
+        "extraction_date": "2025-09-26T13:52:18.345935"
+      }
+    ],
+    "Fee Structure": [
+      {
+        "jurisdiction_name": "South Dakota",
+        "jurisdiction_code": "US-SD",
+        "law_name": "South Dakota Open Records Law",
+        "statute_citation": "Citation not found",
+        "section_reference": "§ 1-27-35",
+        "category": "Fee Structure",
+        "subcategory": "### Allowable Fees (SDCL § 1-27-35)",
+        "description": "### Allowable Fees (SDCL § 1-27-35)",
+        "conditions": "No specific conditions stated",
+        "notes": "Extracted from Allowable Fees (SDCL § 12735)",
+        "extraction_date": "2025-09-26T13:52:18.345952"
+      },
+      {
+        "jurisdiction_name": "South Dakota",
+        "jurisdiction_code": "US-SD",
+        "law_name": "South Dakota Open Records Law",
+        "statute_citation": "Citation not found",
+        "section_reference": "§ 1-27-35",
+        "category": "Fee Structure",
+        "subcategory": ": Fees limited to reasonable costs of copying and preparation",
+        "description": ": Fees limited to reasonable costs of copying and preparation",
+        "conditions": ": Fees limited to reasonable costs of copying and preparation",
+        "notes": "Extracted from Allowable Fees (SDCL § 12735)",
+        "extraction_date": "2025-09-26T13:52:18.345957"
+      },
+      {
+        "jurisdiction_name": "South Dakota",
+        "jurisdiction_code": "US-SD",
+        "law_name": "South Dakota Open Records Law",
+        "statute_citation": "Citation not found",
+        "section_reference": "§ 1-27-35",
+        "category": "Fee Structure",
+        "subcategory": ": Direct costs of duplication and staff time",
+        "description": ": Direct costs of duplication and staff time",
+        "conditions": "No specific conditions stated",
+        "notes": "Extracted from Allowable Fees (SDCL § 12735)",
+        "extraction_date": "2025-09-26T13:52:18.345961"
+      },
+      {
+        "jurisdiction_name": "South Dakota",
+        "jurisdiction_code": "US-SD",
+        "law_name": "South Dakota Open Records Law",
+        "statute_citation": "Citation not found",
+        "section_reference": "§ 1-27-35",
+        "category": "Fee Structure",
+        "subcategory": ": Paper, electronic media, postage costs",
+        "description": ": Paper, electronic media, postage costs",
+        "conditions": "No specific conditions stated",
+        "notes": "Extracted from Allowable Fees (SDCL § 12735)",
+        "extraction_date": "2025-09-26T13:52:18.345966"
+      }
+    ],
+    "General Rights": [
+      {
+        "jurisdiction_name": "South Dakota",
+        "jurisdiction_code": "US-SD",
+        "law_name": "South Dakota Open Records Law",
+        "statute_citation": "Citation not found",
+        "section_reference": "See statute",
+        "category": "General Rights",
+        "subcategory": ": Mandamus and injunctive relief",
+        "description": ": Mandamus and injunctive relief",
+        "conditions": "No specific conditions stated",
+        "notes": "Extracted from Judicial Remedies",
+        "extraction_date": "2025-09-26T13:52:18.345986"
+      },
+      {
+        "jurisdiction_name": "South Dakota",
+        "jurisdiction_code": "US-SD",
+        "law_name": "South Dakota Open Records Law",
+        "statute_citation": "Citation not found",
+        "section_reference": "See statute",
+        "category": "General Rights",
+        "subcategory": ": Potential recovery for successful enforcement",
+        "description": ": Potential recovery for successful enforcement",
+        "conditions": "No specific conditions stated",
+        "notes": "Extracted from Judicial Remedies",
+        "extraction_date": "2025-09-26T13:52:18.345992"
+      }
+    ]
+  }
+}

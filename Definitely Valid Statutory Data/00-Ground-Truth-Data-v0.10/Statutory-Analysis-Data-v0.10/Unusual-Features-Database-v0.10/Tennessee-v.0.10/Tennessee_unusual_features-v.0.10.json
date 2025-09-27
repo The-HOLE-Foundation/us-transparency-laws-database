@@ -1,0 +1,37 @@
+[
+  {
+    "state": "Tennessee",
+    "category": "Residency Requirement",
+    "description": "Only citizens of Tennessee have right to inspect and receive public records",
+    "citation": "T.C.A. § 10-7-503",
+    "notes": "Restricts to state residents only"
+  },
+  {
+    "state": "Tennessee",
+    "category": "7-Day Response Required",
+    "description": "Must respond within 7 business days: provide records, deny, or furnish completed response form with timeline",
+    "citation": "T.C.A. § 10-7-503",
+    "notes": "Structured response requirement"
+  },
+  {
+    "state": "Tennessee",
+    "category": "Public Records Request Coordinator",
+    "description": "Each entity must designate PRRC responsible for prompt and efficient processing",
+    "citation": "T.C.A. § 10-7-503",
+    "notes": "Mandatory designated coordinator"
+  },
+  {
+    "state": "Tennessee",
+    "category": "Office of Open Records Counsel",
+    "description": "Provides guidance, develops standard forms, assists with disputes",
+    "citation": "T.C.A. § 10-7-503",
+    "notes": "Oversight and assistance office"
+  },
+  {
+    "state": "Tennessee",
+    "category": "563 Exemptions",
+    "description": "As of 2018, 563 exemptions exist throughout Tennessee Code",
+    "citation": "Various",
+    "notes": "Extensive exemption structure"
+  }
+]

@@ -1,0 +1,1805 @@
+[
+  {
+    "state": "01",
+    "vulnerabilities": [
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "---\n\n## Fee Structure\n\n### Fee Categories (5 U.S.C. \u00a7 552(a)(4)(A))\n1. **Commercial Requesters**: All allowable fees\n2. **Educational/Scientific/Media**: Duplication fees only (first 100 pages free)\n3. **All Other Requesters**: Search and duplication fees (first 2 hours search + 100 pages free)\n\n### Allowable Fees\n- **Search Fees**: Time spent looking for records\n- **Review Fees**: Time spent examining records for exemptions (commercial only)"
+      },
+      {
+        "type": "Vague Request Rejection",
+        "description": "Agencies can reject requests as too broad or vague",
+        "severity": "HIGH",
+        "mechanism": "Subjective interpretation allows denial of valid requests"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "### Allowable Fees\n- **Search Fees**: Time spent looking for records\n- **Review Fees**: Time spent examining records for exemptions (commercial only)\n- **Duplication Fees**: Cost of copying records\n- **Processing Fees**: Technical costs for electronic records\n\n### Fee Waivers\n- **Standard**: Public interest significantly greater than commercial interest\n- **Poverty Fee Waiver**: Requesters who cannot afford fees\n\n---\n"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "90 days from agency response"
+    },
+    "total_vulnerability_count": 3
+  },
+  {
+    "state": "Alabama",
+    "vulnerabilities": [
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "---\n\n## Fee Structure\n\n### **Permitted Charges**\n- **Copying Costs**: Actual cost of duplication\n- **Reasonable Fees**: Must be tied to fulfillment costs\n- **Electronic Records**: Same fee standards as paper records\n\n### **Fee Limitations**\n- **Must be reasonable** and based on actual costs\n- **Cannot be punitive** or designed to discourage requests"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "---\n\n## Exemptions and Limitations\n\n### **Protected Information**\n- **Law enforcement**: Sensitive investigatory materials\n- **Privacy**: Personal information not related to public business\n- **Security**: Information that could compromise public safety\n- **Legal**: Attorney-client privileged communications\n\n### **Electronic Records Scope**\n- **Included**: Text messages, emails related to public business"
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Reasonable time (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Reasonable time (vague)"
+    },
+    "total_vulnerability_count": 3
+  },
+  {
+    "state": "Alaska",
+    "vulnerabilities": [
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "  - AS \u00a7 40.25.110: Definitions and legislative intent\n  - AS \u00a7 40.25.110-122: Public access rights and procedures\n  - AS \u00a7 40.25.120: Fee provisions\n  - AS \u00a7 40.25.120: Exemptions from disclosure\n\n### Definitions\n- **Public Agency**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**: Any item, regardless of format, that documents the transaction of public business\n- **Business Days**: Monday through Friday, excluding state holidays\n- **C"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "  - AS \u00a7 40.25.110-122: Public access rights and procedures\n  - AS \u00a7 40.25.120: Fee provisions\n  - AS \u00a7 40.25.120: Exemptions from disclosure\n\n### Definitions\n- **Public Agency**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**: Any item, regardless of format, that documents the transaction of public business\n- **Business Days**: Monday through Friday, excluding state holidays\n- **Custodian**: Official designated to maintain and provide"
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Reasonable time (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Reasonable time (vague)"
+    },
+    "total_vulnerability_count": 3
+  },
+  {
+    "state": "Arizona",
+    "vulnerabilities": [
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "**VERIFICATION DATE**: September 18, 2025  \n**VERIFICATION SOURCE**: Dual-source validation using ARS \u00a7 39-121 and court decisions  \n**LAST STATUTORY UPDATE**: 2023 (HB 2568 - electronic records and fee limitations)\n\n---\n\n## Legal Framework\n\n### Primary Statute\n- **Arizona Public Records Law**: Arizona Revised Statutes \u00a7 39-121 et seq.\n- **Original Enactment**: 1962\n- **Major Revision**: 2012 (comprehensive reform)"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "- Make records available for inspection\n- Provide copies upon payment of fees\n- Deny with specific exemption citations\n- Respond within reasonable time\n\n---\n\n## Fee Structure\n\n### Allowable Charges (ARS \u00a7 39-121.03)\n- **Copying Costs**: Actual cost of reproduction\n- **Personnel Time**: For extensive searches only"
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Promptly (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Promptly (vague)"
+    },
+    "total_vulnerability_count": 3
+  },
+  {
+    "state": "Arkansas",
+    "vulnerabilities": [
+      {
+        "type": "Clarification Pause",
+        "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+        "severity": "HIGH",
+        "mechanism": "**Internal Process:**\n- Discuss concerns with custodian or agency head\n- Request clarification of exemption claims or timeline\n- Negotiate scope or format to reduce costs\n- Request fee waiver if applicable criteria met\n\n**Documentation:**\n- Preserve all communications with agency\n- Document any improper fee charges or unreasonable delays\n- Maintain evidence of public interest in disclosure\n- Note any pattern of non-compliance for potential penalties\n"
+      },
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "  - Ark. Code \u00a7 25-19-104: Public access rights\n  - Ark. Code \u00a7 25-19-105: Response timeline and enforcement\n  - Ark. Code \u00a7 25-19-106: Fee provisions\n  - Ark. Code \u00a7 25-19-107: Exemptions from disclosure\n\n### **CRITICAL 2025 UPDATES**\n- **Act 505 (2025)**: \"Arkansas Freedom of Information Act Amendments\"\n- **Act 922 (2025)**: \"Public Records Enhancement Act\"\n- **Key Changes**:\n  - Clarified definitions for public meetings and communications\n  - Strengthened prohibitions on informal deliberation"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "  - Ark. Code \u00a7 25-19-105: Response timeline and enforcement\n  - Ark. Code \u00a7 25-19-106: Fee provisions\n  - Ark. Code \u00a7 25-19-107: Exemptions from disclosure\n\n### **CRITICAL 2025 UPDATES**\n- **Act 505 (2025)**: \"Arkansas Freedom of Information Act Amendments\"\n- **Act 922 (2025)**: \"Public Records Enhancement Act\"\n- **Key Changes**:\n  - Clarified definitions for public meetings and communications\n  - Strengthened prohibitions on informal deliberations (\"polling\")\n  - Enhanced civil penalties for v"
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Promptly (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Promptly (vague)"
+    },
+    "total_vulnerability_count": 4
+  },
+  {
+    "state": "COMPREHENSIVE",
+    "vulnerabilities": [
+      {
+        "type": "Clarification Pause",
+        "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+        "severity": "HIGH",
+        "mechanism": "- **Injunctive Relief**: Ongoing compliance orders\n- **Attorney Fees**: Recovery possible for successful enforcement\n- **Declaratory Judgment**: Clarification of FOIA obligations\n\n---\n\n## Classification System and Exemptions\n\n### General Exemptions (DC Code \u00a7 2-534)\n**Personal Privacy**: Information constituting clearly unwarranted invasion of personal privacy\n**Law Enforcement**: Records compiled for law enforcement purposes\n**National Security**: Information affecting national defense or forei"
+      },
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "---\n\n## Fee Structure\n\n### Fee Categories (5 U.S.C. \u00a7 552(a)(4)(A))\n1. **Commercial Requesters**: All allowable fees\n2. **Educational/Scientific/Media**: Duplication fees only (first 100 pages free)\n3. **All Other Requesters**: Search and duplication fees (first 2 hours search + 100 pages free)\n\n### Allowable Fees\n- **Search Fees**: Time spent looking for records\n- **Review Fees**: Time spent examining records for exemptions (commercial only)"
+      },
+      {
+        "type": "Programming Time Charges",
+        "description": "Allows charging for technical work with subjective billing",
+        "severity": "MEDIUM",
+        "mechanism": "Can inflate costs by claiming simple requests require programming"
+      },
+      {
+        "type": "Vague Request Rejection",
+        "description": "Agencies can reject requests as too broad or vague",
+        "severity": "HIGH",
+        "mechanism": "Subjective interpretation allows denial of valid requests"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "\n## DOCUMENT PURPOSE AND SCOPE\nThis master document contains the **COMPLETE CONTENT** from all verified process maps for Freedom of Information Act (FOIA) and public records laws across all 51 U.S. jurisdictions (50 states plus District of Columbia and Federal). This comprehensive reference preserves all content from individual process maps without summarization, maintaining all formatting, sections, details, exemptions, enforcement mechanisms, recent developments, strategic recommendations, and"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "90 days from agency response"
+    },
+    "total_vulnerability_count": 5
+  },
+  {
+    "state": "California",
+    "vulnerabilities": [
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "---\n\n## Fee Structure\n\n### Allowable Costs (Gov. Code \u00a7 7922.570)\n- **Direct Cost of Duplication**: Actual reproduction costs only\n- **No Search Fees**: Prohibited for standard requests\n- **Electronic Records**: Cost of copying to electronic medium\n- **Customized Programming**: May charge for specialized database queries\n\n### Fee Limitations\n- **$25 Threshold**: No fees charged if duplication costs under $25"
+      },
+      {
+        "type": "Programming Time Charges",
+        "description": "Allows charging for technical work with subjective billing",
+        "severity": "MEDIUM",
+        "mechanism": "Can inflate costs by claiming simple requests require programming"
+      },
+      {
+        "type": "Vague Request Rejection",
+        "description": "Agencies can reject requests as too broad or vague",
+        "severity": "HIGH",
+        "mechanism": "Subjective interpretation allows denial of valid requests"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "- **Indigent Requesters**: Fee waiver for those unable to pay\n- **Public Interest**: Discretionary waiver when release serves broad public interest\n- **News Media**: No special exemption but may qualify for public interest waiver\n\n---\n\n## Standard Process Flow\n\n### Phase 1: Request Submission\n**Requester Actions:**\n- Submit request in writing (email acceptable)\n- Reasonably describe records sought"
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Promptly (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Promptly (vague)"
+    },
+    "total_vulnerability_count": 5
+  },
+  {
+    "state": "Colorado",
+    "vulnerabilities": [
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "**Within 3 Business Days:**\n- Allow inspection of records\n- Provide copies upon payment of fees\n- Deny request with specific exemption citations\n- Notify of need for additional time with explanation\n\n### 2024 Electronic Records Enhancements\n- **Digital Format**: Required when records exist electronically\n- **Search Capabilities**: Enhanced requirements for electronic searches\n- **Body Camera Video**: New timeline provisions for law enforcement recordings\n- **Metadata**: Clarified requirements fo"
+      },
+      {
+        "type": "Programming Time Charges",
+        "description": "Allows charging for technical work with subjective billing",
+        "severity": "MEDIUM",
+        "mechanism": "Can inflate costs by claiming simple requests require programming"
+      },
+      {
+        "type": "Vague Request Rejection",
+        "description": "Agencies can reject requests as too broad or vague",
+        "severity": "HIGH",
+        "mechanism": "Subjective interpretation allows denial of valid requests"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "- Allow inspection of records\n- Provide copies upon payment of fees\n- Deny request with specific exemption citations\n- Notify of need for additional time with explanation\n\n### 2024 Electronic Records Enhancements\n- **Digital Format**: Required when records exist electronically\n- **Search Capabilities**: Enhanced requirements for electronic searches\n- **Body Camera Video**: New timeline provisions for law enforcement recordings\n- **Metadata**: Clarified requirements for electronic record integrit"
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Reasonable time (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Reasonable time (vague)"
+    },
+    "total_vulnerability_count": 5
+  },
+  {
+    "state": "Connecticut",
+    "vulnerabilities": [
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "  - CGS \u00a7 1-200: Definitions and legislative intent\n  - CGS \u00a7 1-210: Public access rights and timelines\n  - CGS \u00a7 1-212: Fee provisions\n  - CGS \u00a7 1-214: Exemptions from disclosure\n  - CGS \u00a7 1-206: Enforcement and attorney fees\n\n### Definitions\n- **Public Agency**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Records**: Any recorded data or information relating to public business\n- **Business Days**: Monday through Friday, excluding state holi"
+      },
+      {
+        "type": "Vague Request Rejection",
+        "description": "Agencies can reject requests as too broad or vague",
+        "severity": "HIGH",
+        "mechanism": "Subjective interpretation allows denial of valid requests"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "**VERIFICATION DATE**: September 18, 2025  \n**VERIFICATION SOURCE**: Dual-source validation using Connecticut General Statutes \u00a7 1-200 et seq. and Freedom of Information Commission guidance  \n**LAST STATUTORY UPDATE**: 2025 (police complaint exemption provisions updated)\n\n---\n\n## Legal Framework\n\n### Primary Statute\n- **Connecticut FOIA**: Connecticut General Statutes (CGS) \u00a7 1-200 through \u00a7 1-241 (1975, amended through 2025)\n- **Key Provisions**:\n  - CGS \u00a7 1-200: Definitions and legislative int"
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Reasonable time (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Reasonable time (vague)"
+    },
+    "total_vulnerability_count": 4
+  },
+  {
+    "state": "DC",
+    "vulnerabilities": [
+      {
+        "type": "Clarification Pause",
+        "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+        "severity": "HIGH",
+        "mechanism": "- **Injunctive Relief**: Ongoing compliance orders\n- **Attorney Fees**: Recovery possible for successful enforcement\n- **Declaratory Judgment**: Clarification of FOIA obligations\n\n---\n\n## Classification System and Exemptions\n\n### General Exemptions (DC Code \u00a7 2-534)\n**Personal Privacy**: Information constituting clearly unwarranted invasion of personal privacy\n**Law Enforcement**: Records compiled for law enforcement purposes\n**National Security**: Information affecting national defense or forei"
+      },
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "  - DC Code \u00a7 2-532: Definitions and legislative intent\n  - DC Code \u00a7 2-533: Public access rights and timelines\n  - DC Code \u00a7 2-535: Fee provisions and waivers\n  - DC Code \u00a7 2-534: Exemptions from disclosure\n\n### Definitions\n- **Public Body**: All DC government agencies, including boards, commissions, and authorities\n- **Public Record**: Any documentary material prepared or maintained by a public body\n- **Business Days**: Monday through Friday, excluding District holidays\n- **Custodian**: Offici"
+      },
+      {
+        "type": "Vague Request Rejection",
+        "description": "Agencies can reject requests as too broad or vague",
+        "severity": "HIGH",
+        "mechanism": "Subjective interpretation allows denial of valid requests"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "  - DC Code \u00a7 2-533: Public access rights and timelines\n  - DC Code \u00a7 2-535: Fee provisions and waivers\n  - DC Code \u00a7 2-534: Exemptions from disclosure\n\n### Definitions\n- **Public Body**: All DC government agencies, including boards, commissions, and authorities\n- **Public Record**: Any documentary material prepared or maintained by a public body\n- **Business Days**: Monday through Friday, excluding District holidays\n- **Custodian**: Official designated to maintain and provide access to records\n"
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Reasonable time (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Reasonable time (vague)"
+    },
+    "total_vulnerability_count": 5
+  },
+  {
+    "state": "Delaware",
+    "vulnerabilities": [
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "  - Del. Code tit. 29, \u00a7 10001: Definitions and legislative intent\n  - Del. Code tit. 29, \u00a7 10003: Public access rights and timelines\n  - Del. Code tit. 29, \u00a7 10006: Fee provisions\n  - Del. Code tit. 29, \u00a7 10002: Exemptions from disclosure\n\n### Definitions\n- **Public Body**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**: Any information, regardless of physical form, prepared or owned by a public body\n- **Business Days**: Monday throug"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "  - Del. Code tit. 29, \u00a7 10003: Public access rights and timelines\n  - Del. Code tit. 29, \u00a7 10006: Fee provisions\n  - Del. Code tit. 29, \u00a7 10002: Exemptions from disclosure\n\n### Definitions\n- **Public Body**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**: Any information, regardless of physical form, prepared or owned by a public body\n- **Business Days**: Monday through Friday, excluding state holidays\n- **Custodian**: Official design"
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Reasonable time (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Reasonable time (vague)"
+    },
+    "total_vulnerability_count": 3
+  },
+  {
+    "state": "Florida",
+    "vulnerabilities": [
+      {
+        "type": "Clarification Pause",
+        "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+        "severity": "HIGH",
+        "mechanism": "**VERIFICATION DATE**: September 18, 2025  \n**VERIFICATION SOURCE**: Dual-source validation using Florida Statutes and AG opinions  \n**LAST STATUTORY UPDATE**: 2024 (HB 1291 - law enforcement exemptions clarification)\n\n---\n\n## Legal Framework\n\n### Primary Statutes\n- **Chapter 119, Florida Statutes**: Public Records Law\n- **Chapter 286, Florida Statutes**: Government in the Sunshine Law (meetings)\n- **Constitutional Foundation**: Article I, Section 24, Florida Constitution"
+      },
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "- **Public Record**: All documents, papers, letters, maps, books, tapes, photographs, films, sound recordings, data processing software, or other material, regardless of physical form\n- **Agency**: State, county, district, authority, or municipal officer, department, division, board, bureau, commission, or other separate unit of government\n- **Custodian**: Elected or appointed official charged with responsibility for records\n\n### Broad Construction Mandate\n- **Liberal Construction**: All exempti"
+      },
+      {
+        "type": "Vague Request Rejection",
+        "description": "Agencies can reject requests as too broad or vague",
+        "severity": "HIGH",
+        "mechanism": "Subjective interpretation allows denial of valid requests"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "**VERIFICATION DATE**: September 18, 2025  \n**VERIFICATION SOURCE**: Dual-source validation using Florida Statutes and AG opinions  \n**LAST STATUTORY UPDATE**: 2024 (HB 1291 - law enforcement exemptions clarification)\n\n---\n\n## Legal Framework\n\n### Primary Statutes\n- **Chapter 119, Florida Statutes**: Public Records Law\n- **Chapter 286, Florida Statutes**: Government in the Sunshine Law (meetings)\n- **Constitutional Foundation**: Article I, Section 24, Florida Constitution"
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Promptly (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Promptly (vague)"
+    },
+    "total_vulnerability_count": 5
+  },
+  {
+    "state": "Georgia",
+    "vulnerabilities": [
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "---\n\n## Fee Structure\n\n### Allowable Charges (O.C.G.A. \u00a7 50-18-71(c))\n- **Search and Retrieval**: Actual cost of personnel time\n- **Copying Costs**: Reasonable charges for reproduction\n- **Postage**: Actual mailing costs\n- **Electronic Media**: Cost of storage devices\n\n### Standard Fee Rates\n- **Personnel Time**: Actual hourly rate of employee performing work"
+      },
+      {
+        "type": "Vague Request Rejection",
+        "description": "Agencies can reject requests as too broad or vague",
+        "severity": "HIGH",
+        "mechanism": "Subjective interpretation allows denial of valid requests"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "**VERIFICATION DATE**: September 18, 2025  \n**VERIFICATION SOURCE**: Dual-source validation using O.C.G.A. \u00a7 50-18-70 and AG guidance  \n**LAST STATUTORY UPDATE**: 2024 (HB 1130 - body-worn camera exemptions)\n\n---\n\n## Legal Framework\n\n### Primary Statute\n- **Georgia Open Records Act**: O.C.G.A. \u00a7 50-18-70 et seq.\n- **Original Enactment**: 1959\n- **Major Revision**: 2012 (comprehensive reform)"
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Promptly (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Promptly (vague)"
+    },
+    "total_vulnerability_count": 4
+  },
+  {
+    "state": "Hawaii",
+    "vulnerabilities": [
+      {
+        "type": "Clarification Pause",
+        "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+        "severity": "HIGH",
+        "mechanism": "**Internal Process:**\n- Discuss concerns with custodian or agency head\n- Request clarification of exemption claims\n- Negotiate scope or format to reduce costs\n- Seek informal resolution before formal appeal\n\n### Phase 5: Administrative and Judicial Enforcement\n**Office of Information Practices (OIP):**\n- **Authority**: State agency responsible for UIPA administration\n- **Appeals**: Handle appeals of UIPA denials\n- **Guidance**: Provide interpretation and compliance assistance\n- **Enforcement**: "
+      },
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "  - HRS \u00a7 92F-11: Definitions and legislative intent\n  - HRS \u00a7 92F-12: Public access rights and timelines\n  - HRS \u00a7 92F-16: Fee provisions\n  - HRS \u00a7 92F-13: Exemptions from disclosure\n\n### Definitions\n- **Agency**: All state and county government agencies, including boards, commissions, and authorities\n- **Government Record**: Any information that has been maintained by an agency in written, auditory, visual, electronic, or other physical form\n- **Business Days**: Monday through Friday, excludin"
+      },
+      {
+        "type": "Vague Request Rejection",
+        "description": "Agencies can reject requests as too broad or vague",
+        "severity": "HIGH",
+        "mechanism": "Subjective interpretation allows denial of valid requests"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "  - HRS \u00a7 92F-12: Public access rights and timelines\n  - HRS \u00a7 92F-16: Fee provisions\n  - HRS \u00a7 92F-13: Exemptions from disclosure\n\n### Definitions\n- **Agency**: All state and county government agencies, including boards, commissions, and authorities\n- **Government Record**: Any information that has been maintained by an agency in written, auditory, visual, electronic, or other physical form\n- **Business Days**: Monday through Friday, excluding state holidays\n- **Personal Record**: Any item, col"
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Reasonable time (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Reasonable time (vague)"
+    },
+    "total_vulnerability_count": 5
+  },
+  {
+    "state": "Idaho",
+    "vulnerabilities": [
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "  - Idaho Code \u00a7 74-101: Definitions and legislative intent\n  - Idaho Code \u00a7 74-102: Public access rights and timelines\n  - Idaho Code \u00a7 74-104: Fee provisions\n  - Idaho Code \u00a7 74-105: Exemptions from disclosure\n\n### Definitions\n- **Public Agency**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**: Any writing containing information prepared or owned by a public agency\n- **Working Days**: Monday through Friday, excluding state holidays\n-"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "  - Idaho Code \u00a7 74-102: Public access rights and timelines\n  - Idaho Code \u00a7 74-104: Fee provisions\n  - Idaho Code \u00a7 74-105: Exemptions from disclosure\n\n### Definitions\n- **Public Agency**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**: Any writing containing information prepared or owned by a public agency\n- **Working Days**: Monday through Friday, excluding state holidays\n- **Custodian**: Official designated to maintain and provide "
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Reasonable time (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Reasonable time (vague)"
+    },
+    "total_vulnerability_count": 3
+  },
+  {
+    "state": "Illinois",
+    "vulnerabilities": [
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "- **Illinois Freedom of Information Act (FOIA)**: 5 ILCS 140/1 et seq.\n- **Effective Date**: January 1, 2010 (major revision)\n- **Recent Amendments**: 2023 (PA 103-0472 - electronic records and fee limitations)\n- **Administrative Rules**: 44 Ill. Admin. Code Part 5 (Attorney General regulations)\n\n### Key Definitions (5 ILCS 140/2)\n- **Public Body**: State agencies, local governments, school districts, public universities\n- **Public Record**: Any writing, recording, map, book, paper, photograph m"
+      },
+      {
+        "type": "Vague Request Rejection",
+        "description": "Agencies can reject requests as too broad or vague",
+        "severity": "HIGH",
+        "mechanism": "Subjective interpretation allows denial of valid requests"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "### Legislative Intent\n- **Presumption of Disclosure**: All records presumed open unless specifically exempt\n- **Strict Construction**: Exemptions narrowly interpreted\n- **Government Accountability**: Promote public oversight of government operations\n\n---\n\n## Response Timelines\n\n### Standard Response Timeline (5 ILCS 140/3(d))\n- **Initial Response**: 5 business days from receipt\n- **Extension**: Additional 5 business days for complex requests"
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Reasonable time (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Reasonable time (vague)"
+    },
+    "total_vulnerability_count": 4
+  },
+  {
+    "state": "Indiana",
+    "vulnerabilities": [
+      {
+        "type": "Clarification Pause",
+        "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+        "severity": "HIGH",
+        "mechanism": "**Internal Process:**\n- Discuss concerns with custodian or agency head\n- Request clarification of exemption claims or timeline\n- Seek informal resolution before formal action\n- Document interactions for potential legal proceedings\n\n### Phase 5: Legal Enforcement\n**Court Action:**\n- **Venue**: Indiana circuit or superior court\n- **2025 Precedent**: Recent cases showing court willingness to enforce APRA\n- **Relief**: Mandamus, injunctive relief, potential attorney fees\n- **Standard**: Review of ag"
+      },
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "  - IC 5-14-3-1: Definitions and legislative intent\n  - IC 5-14-3-3: Public access rights and timelines\n  - IC 5-14-3-8: Fee provisions\n  - IC 5-14-3-4: Exemptions from disclosure\n\n### **2025 Enforcement Activity**\n- **Active Litigation**: Recent cases against agencies for delayed or denied responses\n- **Court Enforcement**: 2025 lawsuits highlighting importance of timely compliance\n- **Legal Precedent**: Enhanced judicial scrutiny of agency compliance\n\n### Definitions\n- **Public Agency**: All s"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "  - IC 5-14-3-3: Public access rights and timelines\n  - IC 5-14-3-8: Fee provisions\n  - IC 5-14-3-4: Exemptions from disclosure\n\n### **2025 Enforcement Activity**\n- **Active Litigation**: Recent cases against agencies for delayed or denied responses\n- **Court Enforcement**: 2025 lawsuits highlighting importance of timely compliance\n- **Legal Precedent**: Enhanced judicial scrutiny of agency compliance\n\n### Definitions\n- **Public Agency**: All state and local government agencies, including boards"
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Promptly (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Promptly (vague)"
+    },
+    "total_vulnerability_count": 4
+  },
+  {
+    "state": "Iowa",
+    "vulnerabilities": [
+      {
+        "type": "Clarification Pause",
+        "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+        "severity": "HIGH",
+        "mechanism": "- **Injunctive Relief**: Ongoing compliance orders\n- **Attorney Fees**: Recovery for successful plaintiffs\n- **Declaratory Judgment**: Clarification of exemption application\n\n### Strategic Advantages\n- **IPIB Expertise**: Specialized knowledge of open records law\n- **No Cost**: IPIB complaints are free to file\n- **Enforcement Power**: Real consequences for non-compliance\n- **Precedential Value**: IPIB orders provide guidance for future cases\n\n---\n"
+      },
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "  - Iowa Code \u00a7 22.1: Legislative intent and policy\n  - Iowa Code \u00a7 22.2: Public examination rights and procedures\n  - Iowa Code \u00a7 22.3: Copying and fee provisions\n  - Iowa Code \u00a7 22.7: Exemptions and confidential records\n\n### Enforcement and Oversight\n- **Iowa Public Information Board (IPIB)**: Independent oversight and enforcement authority\n- **IPIB Powers**: Investigate complaints, issue binding orders, assess penalties\n- **Advisory Opinions**: Guidance on law interpretation and best practice"
+      },
+      {
+        "type": "Programming Time Charges",
+        "description": "Allows charging for technical work with subjective billing",
+        "severity": "MEDIUM",
+        "mechanism": "Can inflate costs by claiming simple requests require programming"
+      },
+      {
+        "type": "Vague Request Rejection",
+        "description": "Agencies can reject requests as too broad or vague",
+        "severity": "HIGH",
+        "mechanism": "Subjective interpretation allows denial of valid requests"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "  - Iowa Code \u00a7 22.2: Public examination rights and procedures\n  - Iowa Code \u00a7 22.3: Copying and fee provisions\n  - Iowa Code \u00a7 22.7: Exemptions and confidential records\n\n### Enforcement and Oversight\n- **Iowa Public Information Board (IPIB)**: Independent oversight and enforcement authority\n- **IPIB Powers**: Investigate complaints, issue binding orders, assess penalties\n- **Advisory Opinions**: Guidance on law interpretation and best practices\n- **Training**: Required education for government "
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Reasonable time (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Reasonable time (vague)"
+    },
+    "total_vulnerability_count": 6
+  },
+  {
+    "state": "Kansas",
+    "vulnerabilities": [
+      {
+        "type": "Clarification Pause",
+        "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+        "severity": "HIGH",
+        "mechanism": "**Internal Process:**\n- Discuss concerns with custodian or agency head\n- Request clarification of exemption claims\n- Negotiate scope or format to reduce costs\n- Seek informal resolution before litigation\n\n**Documentation:**\n- Preserve all communications with agency\n- Document any improper fee charges or delays\n- Maintain evidence of public interest in disclosure\n- Note any pattern of non-compliance\n"
+      },
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "  - KSA 45-217: Public access rights\n  - KSA 45-218: Response timeline requirements\n  - KSA 45-219: Fee provisions\n  - KSA 45-221: Exemptions from disclosure\n  - KSA 45-222: Enforcement and attorney fees\n\n### Definitions\n- **Public Agency**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**: Any recorded information prepared or possessed by a public agency\n- **Business Days**: Monday through Friday, excluding state holidays\n- **Custodian*"
+      },
+      {
+        "type": "Vague Request Rejection",
+        "description": "Agencies can reject requests as too broad or vague",
+        "severity": "HIGH",
+        "mechanism": "Subjective interpretation allows denial of valid requests"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "  - KSA 45-218: Response timeline requirements\n  - KSA 45-219: Fee provisions\n  - KSA 45-221: Exemptions from disclosure\n  - KSA 45-222: Enforcement and attorney fees\n\n### Definitions\n- **Public Agency**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**: Any recorded information prepared or possessed by a public agency\n- **Business Days**: Monday through Friday, excluding state holidays\n- **Custodian**: Official designated to maintain an"
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Reasonable time (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Reasonable time (vague)"
+    },
+    "total_vulnerability_count": 5
+  },
+  {
+    "state": "Kentucky",
+    "vulnerabilities": [
+      {
+        "type": "Clarification Pause",
+        "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+        "severity": "HIGH",
+        "mechanism": "**Internal Process:**\n- Discuss concerns with custodian or agency head\n- Request clarification of exemption claims\n- Challenge any attempts to hide records on private devices\n- Seek informal resolution before formal appeal\n\n### Phase 5: Judicial Enforcement\n**Circuit Court Action:**\n- **Venue**: Kentucky circuit court where public agency is located\n- **Authority**: Court may order compliance with Open Records Act\n- ****2025 Precedent**: Supreme Court case may establish binding precedent on priva"
+      },
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "  - KRS 61.870: Definitions and legislative intent\n  - KRS 61.872: Public access rights and timelines\n  - KRS 61.874: Fee provisions\n  - KRS 61.878: Exemptions from disclosure\n\n### **CRITICAL 2025 DEVELOPMENTS**\n- **Supreme Court Case**: Kentucky Supreme Court deciding if public officials can hide business on personal devices\n- **Legislative Resistance**: Attempts to exempt text messages/communications have failed due to public opposition\n- **Broad Interpretation**: Courts maintaining expansive "
+      },
+      {
+        "type": "Vague Request Rejection",
+        "description": "Agencies can reject requests as too broad or vague",
+        "severity": "HIGH",
+        "mechanism": "Subjective interpretation allows denial of valid requests"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "  - KRS 61.872: Public access rights and timelines\n  - KRS 61.874: Fee provisions\n  - KRS 61.878: Exemptions from disclosure\n\n### **CRITICAL 2025 DEVELOPMENTS**\n- **Supreme Court Case**: Kentucky Supreme Court deciding if public officials can hide business on personal devices\n- **Legislative Resistance**: Attempts to exempt text messages/communications have failed due to public opposition\n- **Broad Interpretation**: Courts maintaining expansive view of public records including digital communicat"
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Reasonable time (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Reasonable time (vague)"
+    },
+    "total_vulnerability_count": 5
+  },
+  {
+    "state": "Louisiana",
+    "vulnerabilities": [
+      {
+        "type": "Clarification Pause",
+        "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+        "severity": "HIGH",
+        "mechanism": "**Internal Process:**\n- Discuss concerns with custodian or agency head\n- Request clarification of exemption claims or timeline\n- Seek informal resolution before formal action\n- Document interactions for potential legal proceedings\n\n### Phase 5: Legal Enforcement\n**District Court Action:**\n- **Venue**: Louisiana district court where public body located\n- **Authority**: Court may order compliance with Public Records Act\n- **Relief**: Mandamus, injunctive relief, potential attorney fees\n- **Standar"
+      },
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "  - LSA-R.S. 44:1: Definitions and legislative intent\n  - LSA-R.S. 44:31: Public access rights and procedures\n  - LSA-R.S. 44:32: Fee provisions\n  - LSA-R.S. 44:3-30: Specific exemptions from disclosure\n\n### Definitions\n- **Public Body**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**: All books, records, writings, accounts, letters, maps, drawings, photographs, cards, tapes, recordings, or other documentary materials\n- **Regular Offic"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "  - LSA-R.S. 44:31: Public access rights and procedures\n  - LSA-R.S. 44:32: Fee provisions\n  - LSA-R.S. 44:3-30: Specific exemptions from disclosure\n\n### Definitions\n- **Public Body**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**: All books, records, writings, accounts, letters, maps, drawings, photographs, cards, tapes, recordings, or other documentary materials\n- **Regular Office Hours**: Normal business hours during which agency c"
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Promptly (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Promptly (vague)"
+    },
+    "total_vulnerability_count": 4
+  },
+  {
+    "state": "Maine",
+    "vulnerabilities": [
+      {
+        "type": "Clarification Pause",
+        "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+        "severity": "HIGH",
+        "mechanism": "- **Public Interest**: Enhanced focus on transparency value\n- **Agency Accountability**: Scrutiny of exemption claims\n- **Reform Potential**: Possible legislative clarification of exemptions\n\n---\n\n## **2025 CRITICAL DEVELOPMENTS**\n\n### Legislative Investigation\n**DHHS Focus**: GOP lawmakers investigating Department of Health and Human Services\n**Expanding Scope**: Investigation of FOAA response problems growing\n**Bipartisan Concern**: Cross-party interest in transparency issues"
+      },
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "  - 1 M.R.S. \u00a7 401: Definitions and legislative intent\n  - 1 M.R.S. \u00a7 408: Public access rights and timelines\n  - 1 M.R.S. \u00a7 409: Fee provisions\n  - 1 M.R.S. \u00a7 405: Exemptions from disclosure\n\n### **2025 Legislative Focus**\n- **DHHS Issues**: GOP lawmakers investigating Department of Health and Human Services FOAA response problems\n- **Timeline Concerns**: Legislative attention to lengthy response times\n- **Fee Issues**: Scrutiny of high fees charged by agencies\n- **Transparency Push**: Enhanced"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "  - 1 M.R.S. \u00a7 408: Public access rights and timelines\n  - 1 M.R.S. \u00a7 409: Fee provisions\n  - 1 M.R.S. \u00a7 405: Exemptions from disclosure\n\n### **2025 Legislative Focus**\n- **DHHS Issues**: GOP lawmakers investigating Department of Health and Human Services FOAA response problems\n- **Timeline Concerns**: Legislative attention to lengthy response times\n- **Fee Issues**: Scrutiny of high fees charged by agencies\n- **Transparency Push**: Enhanced oversight of agency compliance\n\n### Definitions\n- **Pu"
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Reasonable time (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Reasonable time (vague)"
+    },
+    "total_vulnerability_count": 4
+  },
+  {
+    "state": "Maryland",
+    "vulnerabilities": [
+      {
+        "type": "Clarification Pause",
+        "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+        "severity": "HIGH",
+        "mechanism": "**Available Relief:**\n- **Mandamus**: Court order requiring disclosure\n- **Declaratory Judgment**: Clarification of MPIA obligations\n- **Injunctive Relief**: Ongoing compliance orders\n- **Attorney Fees**: Successful plaintiffs may recover reasonable fees\n\n**Strategic Considerations:**\n- Exhaust administrative appeal first for stronger court position\n- Document pattern of non-compliance or bad faith\n- Preserve evidence of public interest in disclosure\n- Consider media attention to pressure compli"
+      },
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "  - SG \u00a7 10-613: Public access rights\n  - SG \u00a7 10-614: Response timeline requirements\n  - SG \u00a7 10-621: Fee provisions\n  - SG \u00a7 10-615 through 10-619: Exemptions\n\n### Definitions\n- **Public Body**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**: Any documentary material prepared by or for a public body\n- **Business Days**: Monday through Friday, excluding state holidays\n- **Custodian**: Official designated to maintain and provide access"
+      },
+      {
+        "type": "Vague Request Rejection",
+        "description": "Agencies can reject requests as too broad or vague",
+        "severity": "HIGH",
+        "mechanism": "Subjective interpretation allows denial of valid requests"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "  - SG \u00a7 10-614: Response timeline requirements\n  - SG \u00a7 10-621: Fee provisions\n  - SG \u00a7 10-615 through 10-619: Exemptions\n\n### Definitions\n- **Public Body**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**: Any documentary material prepared by or for a public body\n- **Business Days**: Monday through Friday, excluding state holidays\n- **Custodian**: Official designated to maintain and provide access to records\n\n---\n"
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Reasonable time (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Reasonable time (vague)"
+    },
+    "total_vulnerability_count": 5
+  },
+  {
+    "state": "Massachusetts",
+    "vulnerabilities": [
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "**VERIFICATION DATE**: September 18, 2025  \n**VERIFICATION SOURCE**: Dual-source validation using MGL Ch. 66 and SJC decisions  \n**LAST STATUTORY UPDATE**: 2023 (Chapter 107 - electronic records and fee limitations)\n\n---\n\n## Legal Framework\n\n### Primary Statute\n- **Massachusetts Public Records Law**: Massachusetts General Laws Chapter 66, Sections 10, 10A, and 10B\n- **Original Enactment**: 1973\n- **Major Reform**: 2016 (comprehensive overhaul)"
+      },
+      {
+        "type": "Programming Time Charges",
+        "description": "Allows charging for technical work with subjective billing",
+        "severity": "MEDIUM",
+        "mechanism": "Can inflate costs by claiming simple requests require programming"
+      },
+      {
+        "type": "Vague Request Rejection",
+        "description": "Agencies can reject requests as too broad or vague",
+        "severity": "HIGH",
+        "mechanism": "Subjective interpretation allows denial of valid requests"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "**Within 10 Business Days:**\n- Provide records in whole or in part\n- Deny request with specific exemption citations\n- Provide written response indicating need for extension\n\n### Extension Criteria (MGL Ch. 66, \u00a7 10(a))\n- Need to search for records at multiple locations\n- Need to review voluminous number of records\n- Need to consult with legal counsel\n- Technical difficulties preventing electronic production\n\n---"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "90 days of response"
+    },
+    "total_vulnerability_count": 4
+  },
+  {
+    "state": "Michigan",
+    "vulnerabilities": [
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "- **Extension**: Additional 10 business days with written justification\n- **Complex Requests**: Extended timeline with detailed explanation\n- **Fees Over $50**: Additional time for fee calculation and approval\n\n### Extension Criteria (MCL 15.235(2))\n- **Voluminous Records**: Large number of documents to review\n- **Separate Locations**: Records stored at multiple facilities\n- **Consultation Required**: Need to contact other agencies or parties\n- **Detailed Exemption Review**: Complex legal analys"
+      },
+      {
+        "type": "Vague Request Rejection",
+        "description": "Agencies can reject requests as too broad or vague",
+        "severity": "HIGH",
+        "mechanism": "Subjective interpretation allows denial of valid requests"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "- **Governor's Office**: Executive office communications and records\n- **Implementation Timeline**: Phased approach through 2025-2026\n- **Limited Exemptions**: Certain legislative privilege and executive communications\n\n---\n\n## Response Timelines\n\n### Standard Response Timeline (MCL 15.235)\n- **Initial Response**: 5 business days from receipt\n- **Extension**: Additional 10 business days with written justification\n- **Complex Requests**: Extended timeline with detailed explanation"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "180 days of response"
+    },
+    "total_vulnerability_count": 3
+  },
+  {
+    "state": "Minnesota",
+    "vulnerabilities": [
+      {
+        "type": "Clarification Pause",
+        "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+        "severity": "HIGH",
+        "mechanism": "- **Mandamus**: Court order requiring data access\n- **Injunctive Relief**: Ongoing compliance orders\n- **Declaratory Judgment**: Clarification of data classification\n- **Attorney Fees**: Possible recovery in successful actions\n\n**Strategic Considerations:**\n- **Document Interactions**: Preserve all communications with agency\n- **Public Interest**: Articulate community benefit from access\n- **Classification Challenge**: Focus on proper statutory interpretation\n- **Exhaustion**: Complete administr"
+      },
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "---\n\n## Fee Structure\n\n### Allowable Fees (Minn. Stat. \u00a7 13.03, subd. 3)\n- **Actual Costs Only**: Limited to actual cost of providing data copies\n- **No Search Fees**: Cannot charge for time spent locating data\n- **Reasonable Copying**: Paper, electronic media, staff time for duplication\n- **Statutory Limits**: Fees must be reasonable and justified\n\n### Fee Components\n- **Paper Copies**: Typically $0.25-$1.00 per page"
+      },
+      {
+        "type": "Programming Time Charges",
+        "description": "Allows charging for technical work with subjective billing",
+        "severity": "MEDIUM",
+        "mechanism": "Can inflate costs by claiming simple requests require programming"
+      },
+      {
+        "type": "Vague Request Rejection",
+        "description": "Agencies can reject requests as too broad or vague",
+        "severity": "HIGH",
+        "mechanism": "Subjective interpretation allows denial of valid requests"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "- **Programming**: Electronic format conversion (actual costs)\n\n### Fee Exemptions and Limitations\n- **Inspection**: Free on-site review of public data\n- **100-Page Rule**: First 100 pages free in many jurisdictions\n- **Public Interest**: Some agencies waive fees for public benefit requests\n- **Advance Estimates**: Must provide cost estimate for requests over $25\n\n---\n\n## Data Classification System\n"
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Promptly (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Promptly (vague)"
+    },
+    "total_vulnerability_count": 6
+  },
+  {
+    "state": "Mississippi",
+    "vulnerabilities": [
+      {
+        "type": "Clarification Pause",
+        "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+        "severity": "HIGH",
+        "mechanism": "**Internal Process:**\n- Discuss concerns with custodian or agency head\n- Request clarification of exemption claims\n- Negotiate scope or format to reduce costs\n- Seek informal resolution before litigation\n\n**Documentation:**\n- Preserve all communications with agency\n- Document any improper fee charges or deadline violations\n- Maintain evidence of public interest in disclosure\n- Note violation of 7-working-day mandate\n"
+      },
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "  - Miss. Code \u00a7 25-61-3: Definitions and legislative intent\n  - Miss. Code \u00a7 25-61-5: Public access rights and timelines\n  - Miss. Code \u00a7 25-61-7: Fee provisions\n  - Miss. Code \u00a7 25-61-9: Exemptions and confidentiality\n  - Miss. Code \u00a7 25-61-15: Enforcement and attorney fees\n\n### Definitions\n- **Public Body**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**: Any documentary material prepared or maintained by a public body\n- **Working D"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "  - Miss. Code \u00a7 25-61-5: Public access rights and timelines\n  - Miss. Code \u00a7 25-61-7: Fee provisions\n  - Miss. Code \u00a7 25-61-9: Exemptions and confidentiality\n  - Miss. Code \u00a7 25-61-15: Enforcement and attorney fees\n\n### Definitions\n- **Public Body**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**: Any documentary material prepared or maintained by a public body\n- **Working Days**: Monday through Friday, excluding state holidays\n- **Cu"
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Reasonable time (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Reasonable time (vague)"
+    },
+    "total_vulnerability_count": 4
+  },
+  {
+    "state": "Missouri",
+    "vulnerabilities": [
+      {
+        "type": "Clarification Pause",
+        "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+        "severity": "HIGH",
+        "mechanism": "**Internal Process:**\n- Discuss concerns with custodian or agency head\n- Request clarification of exemption claims\n- Negotiate scope or format to reduce costs\n- Seek informal resolution before litigation\n\n**Documentation:**\n- Preserve all communications with agency\n- Document any improper fee charges\n- Maintain evidence of public interest in disclosure\n- Note any pattern of non-compliance\n"
+      },
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "  - RSMo \u00a7 610.021: Public access rights\n  - RSMo \u00a7 610.023: Response timeline requirements\n  - RSMo \u00a7 610.026: Fee provisions\n  - RSMo \u00a7 610.027: Enforcement and attorney fees\n\n### Definitions\n- **Public Governmental Body**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**: Any record maintained by a public governmental body\n- **Business Days**: Monday through Friday, excluding state holidays\n- **Custodian**: Official designated to main"
+      },
+      {
+        "type": "Vague Request Rejection",
+        "description": "Agencies can reject requests as too broad or vague",
+        "severity": "HIGH",
+        "mechanism": "Subjective interpretation allows denial of valid requests"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "- **Response Options**:\n  1. Provide requested records\n  2. Deny request with written explanation citing specific exemption\n  3. Provide written statement explaining when and how records will be made available\n\n### Extension Provisions\n- **Complex Requests**: If records not immediately available, must provide written statement\n- **Required Information**: Statement must explain when and how records will be made available\n- **Ongoing Communication**: Must keep requester informed of status\n- **Exam"
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Reasonable time (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Reasonable time (vague)"
+    },
+    "total_vulnerability_count": 5
+  },
+  {
+    "state": "Montana",
+    "vulnerabilities": [
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "  - MCA \u00a7 2-6-101: Definitions and legislative intent\n  - MCA \u00a7 2-6-102: Public access rights and timelines\n  - MCA \u00a7 2-6-105: Fee provisions\n  - MCA \u00a7 2-6-111: Exemptions from disclosure\n\n### Definitions\n- **Public Agency**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Information**: Information in any form prepared or owned by a public agency\n- **Working Days**: Monday through Friday, excluding state holidays\n- **Custodian**: Official desig"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "  - MCA \u00a7 2-6-102: Public access rights and timelines\n  - MCA \u00a7 2-6-105: Fee provisions\n  - MCA \u00a7 2-6-111: Exemptions from disclosure\n\n### Definitions\n- **Public Agency**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Information**: Information in any form prepared or owned by a public agency\n- **Working Days**: Monday through Friday, excluding state holidays\n- **Custodian**: Official designated to maintain and provide access to records\n\n---\n"
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Reasonable time (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Reasonable time (vague)"
+    },
+    "total_vulnerability_count": 3
+  },
+  {
+    "state": "Nebraska",
+    "vulnerabilities": [
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "  - Neb. Rev. Stat. \u00a7 84-712: Definitions and legislative intent\n  - Neb. Rev. Stat. \u00a7 84-712.01: Public access rights and timelines\n  - Neb. Rev. Stat. \u00a7 84-712.02: Fee provisions\n  - Neb. Rev. Stat. \u00a7 84-712.05: Exemptions from disclosure\n\n### Definitions\n- **Public Body**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**: Any recorded information prepared or owned by a public body\n- **Business Days**: Monday through Friday, excluding "
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "  - Neb. Rev. Stat. \u00a7 84-712.01: Public access rights and timelines\n  - Neb. Rev. Stat. \u00a7 84-712.02: Fee provisions\n  - Neb. Rev. Stat. \u00a7 84-712.05: Exemptions from disclosure\n\n### Definitions\n- **Public Body**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**: Any recorded information prepared or owned by a public body\n- **Business Days**: Monday through Friday, excluding state holidays\n- **Custodian**: Official designated to maintain a"
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Reasonable time (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Reasonable time (vague)"
+    },
+    "total_vulnerability_count": 3
+  },
+  {
+    "state": "Nevada",
+    "vulnerabilities": [
+      {
+        "type": "Clarification Pause",
+        "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+        "severity": "HIGH",
+        "mechanism": "**Internal Process:**\n- Discuss concerns with custodian or agency head\n- Request clarification of exemption claims or timeline\n- Negotiate scope or format to reduce costs\n- Seek informal resolution before litigation\n\n**Documentation:**\n- Preserve all communications with agency\n- Document any improper fee charges or unreasonable delays\n- Maintain evidence of public interest in disclosure\n- Note any pattern of non-compliance\n"
+      },
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "  - NRS 239.0105: Public access rights\n  - NRS 239.011: Response timeline requirements\n  - NRS 239.052: Fee provisions\n  - NRS 239.010: Exemptions and confidentiality\n\n### Supporting Regulations\n- **Nevada Administrative Code (NAC) 239.926**: Records retention schedules\n- **NAC 239**: Administrative rules for records management\n- **Local Ordinances**: Municipal and county implementation rules\n\n### Definitions\n- **Public Body**: All state and local government agencies, including boards, commissio"
+      },
+      {
+        "type": "Vague Request Rejection",
+        "description": "Agencies can reject requests as too broad or vague",
+        "severity": "HIGH",
+        "mechanism": "Subjective interpretation allows denial of valid requests"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "  - NRS 239.011: Response timeline requirements\n  - NRS 239.052: Fee provisions\n  - NRS 239.010: Exemptions and confidentiality\n\n### Supporting Regulations\n- **Nevada Administrative Code (NAC) 239.926**: Records retention schedules\n- **NAC 239**: Administrative rules for records management\n- **Local Ordinances**: Municipal and county implementation rules\n\n### Definitions\n- **Public Body**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**"
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Reasonable time (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Reasonable time (vague)"
+    },
+    "total_vulnerability_count": 5
+  },
+  {
+    "state": "New",
+    "vulnerabilities": [
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "  - RSA 91-A:1: Definitions and legislative intent\n  - RSA 91-A:4: Public access rights and timelines\n  - RSA 91-A:4-c: Fee provisions\n  - RSA 91-A:5: Exemptions from disclosure\n\n### Definitions\n- **Public Body**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**: Any information in any physical form prepared or owned by a public body\n- **Business Days**: Monday through Friday, excluding state holidays\n- **Custodian**: Official designated"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "  - RSA 91-A:4: Public access rights and timelines\n  - RSA 91-A:4-c: Fee provisions\n  - RSA 91-A:5: Exemptions from disclosure\n\n### Definitions\n- **Public Body**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**: Any information in any physical form prepared or owned by a public body\n- **Business Days**: Monday through Friday, excluding state holidays\n- **Custodian**: Official designated to maintain and provide access to records\n\n---\n"
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Reasonable time (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Reasonable time (vague)"
+    },
+    "total_vulnerability_count": 3
+  },
+  {
+    "state": "New",
+    "vulnerabilities": [
+      {
+        "type": "Clarification Pause",
+        "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+        "severity": "HIGH",
+        "mechanism": "- **Letter**: Traditional written request\n- **Email**: Electronic submission accepted\n- **Requirement**: Must include all necessary information without excessive clarification burden\n\n**Required Elements**:\n- Specific description of requested records\n- Contact information for response\n- Preferred format (electronic encouraged)\n- Fee limitation if applicable\n\n### Phase 2: Agency Response (2024 PROCEDURES)\n**7-Day Response Window**:"
+      },
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "---\n\n## Fee Structure (2024 REFORMS)\n\n### Photocopy Fees (Confirmed Current)\n- **First 10 pages**: $0.75 per page\n- **Next 10 pages**: $0.50 per page\n- **Additional pages**: $0.25 per page\n- **Electronic Records**: Actual cost for electronic media\n\n### Special Service Charges\n- **Definition**: Complex searches, programming, or special formatting"
+      },
+      {
+        "type": "Programming Time Charges",
+        "description": "Allows charging for technical work with subjective billing",
+        "severity": "MEDIUM",
+        "mechanism": "Can inflate costs by claiming simple requests require programming"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "\n**Denial Requirements**:\n- Must cite specific exemption\n- Must be in writing with legal justification\n- Must provide information about appeal rights\n\n### Phase 4: Fee Assessment and Payment\n**New Fee Framework (2024)**:\n- **Estimate Provided**: For any charges beyond standard copying\n- **Payment Terms**: May require prepayment for extensive work\n- **Website Alternative**: May reduce or eliminate fees through online access\n"
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Reasonable time (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Reasonable time (vague)"
+    },
+    "total_vulnerability_count": 5
+  },
+  {
+    "state": "New",
+    "vulnerabilities": [
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "---\n\n## Fee Structure\n\n### Allowable Fees (POL \u00a7 87(1))\n- **Photocopying**: $0.25 per page maximum\n- **Certified Copies**: Reasonable certification fees\n- **Electronic Media**: Actual cost of storage medium\n- **Postage**: Actual mailing costs if requester requests mailing\n\n### Prohibited Charges\n- **Search Time**: Cannot charge for time to locate records"
+      },
+      {
+        "type": "Vague Request Rejection",
+        "description": "Agencies can reject requests as too broad or vague",
+        "severity": "HIGH",
+        "mechanism": "Subjective interpretation allows denial of valid requests"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "- **No Constitutional Right**: FOIL is statutory, not constitutional\n- **Legislative Intent**: Promote government transparency and accountability\n- **Narrow Construction**: Exemptions strictly construed\n\n---\n\n## Response Timelines\n\n### Standard Timeline (POL \u00a7 89(3))\n- **Initial Response**: 5 business days from receipt\n- **Production Deadline**: \"Reasonable time\" after determination to release\n- **Extension**: \"Reasonable\" additional time for voluminous/complex requests"
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Promptly (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Promptly (vague)"
+    },
+    "total_vulnerability_count": 4
+  },
+  {
+    "state": "North",
+    "vulnerabilities": [
+      {
+        "type": "Clarification Pause",
+        "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+        "severity": "HIGH",
+        "mechanism": "- Accept request during normal business hours\n- No specific form required\n- May ask for clarification of request\n- Begin search process immediately\n\n### Phase 2: Processing\n**Agency Actions:**\n- Locate responsive records across relevant departments\n- Review for exemptions and redactions\n- Calculate duplication costs if copies requested\n- Determine if records exist in requested format\n"
+      },
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "  - NCGS \u00a7 132-1: Definitions and public policy\n  - NCGS \u00a7 132-6: Inspection and copying procedures\n  - NCGS \u00a7 132-6.2: Fee provisions\n  - NCGS \u00a7 132-1.4A: Law enforcement recordings (2016)\n\n### Definitions\n- **Public Record**: Any document, paper, letter, map, book, photograph, film, sound recording, magnetic or other tape, electronic data-processing record, or other documentary material regardless of physical form or characteristics\n- **Public Agency**: All state and local government entities\n"
+      },
+      {
+        "type": "Programming Time Charges",
+        "description": "Allows charging for technical work with subjective billing",
+        "severity": "MEDIUM",
+        "mechanism": "Can inflate costs by claiming simple requests require programming"
+      },
+      {
+        "type": "Vague Request Rejection",
+        "description": "Agencies can reject requests as too broad or vague",
+        "severity": "HIGH",
+        "mechanism": "Subjective interpretation allows denial of valid requests"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "**Agency Actions:**\n- Locate responsive records across relevant departments\n- Review for exemptions and redactions\n- Calculate duplication costs if copies requested\n- Determine if records exist in requested format\n\n**Timeline Management:**\n- Begin processing \"as promptly as possible\"\n- Communicate with requester about delays\n- Provide realistic timeline estimates\n\n### Phase 3: Initial Response"
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Promptly (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Promptly (vague)"
+    },
+    "total_vulnerability_count": 6
+  },
+  {
+    "state": "North",
+    "vulnerabilities": [
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "  - N.D.C.C. \u00a7 44-04-18: Definitions and legislative intent\n  - N.D.C.C. \u00a7 44-04-18.1: Public access rights and timelines\n  - N.D.C.C. \u00a7 44-04-18.7: Fee provisions\n  - N.D.C.C. \u00a7 44-04-18.1 through 44-04-18.27: Exemptions from disclosure\n\n### Definitions\n- **Public Entity**: All state and local government agencies, including boards, commissions, and authorities\n- **Record**: Information in any physical form prepared or owned by a public entity\n- **Business Days**: Monday through Friday, excludin"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "  - N.D.C.C. \u00a7 44-04-18.1: Public access rights and timelines\n  - N.D.C.C. \u00a7 44-04-18.7: Fee provisions\n  - N.D.C.C. \u00a7 44-04-18.1 through 44-04-18.27: Exemptions from disclosure\n\n### Definitions\n- **Public Entity**: All state and local government agencies, including boards, commissions, and authorities\n- **Record**: Information in any physical form prepared or owned by a public entity\n- **Business Days**: Monday through Friday, excluding state holidays\n- **Custodian**: Official designated to mai"
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Reasonable time (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Reasonable time (vague)"
+    },
+    "total_vulnerability_count": 3
+  },
+  {
+    "state": "Ohio",
+    "vulnerabilities": [
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "---\n\n## Fee Structure\n\n### Allowable Charges (ORC 149.43(B)(7))\n- **Copying Costs**: Actual cost of making copies\n- **Postage**: Actual cost of mailing records\n- **Electronic Media**: Cost of storage devices (CD, DVD, flash drive)\n- **No Search Fees**: Cannot charge for time to locate records\n\n### Standard Fee Rates\n- **Paper Copies**: $0.05-0.10 per page (varies by agency)"
+      },
+      {
+        "type": "Vague Request Rejection",
+        "description": "Agencies can reject requests as too broad or vague",
+        "severity": "HIGH",
+        "mechanism": "Subjective interpretation allows denial of valid requests"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "- Copies upon payment of fees\n- Electronic format when reasonably available\n- Redactions with specific exemption citations\n\n**Denial Requirements:**\n- Must cite specific statutory exemption\n- Explain factual basis for denial\n- Inform of appeal/enforcement options\n\n### Phase 4: Pre-Litigation Process (NEW 2024) \u26a0\ufe0f\n**Mandatory Before Any Lawsuit:**\n1. **Written Notice**: Send formal notice to public office"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "30 days for office response"
+    },
+    "total_vulnerability_count": 3
+  },
+  {
+    "state": "Oklahoma",
+    "vulnerabilities": [
+      {
+        "type": "Clarification Pause",
+        "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+        "severity": "HIGH",
+        "mechanism": "**Internal Process:**\n- Discuss concerns with custodian or agency head\n- Request clarification of exemption claims\n- Negotiate scope to reduce copying costs\n- Seek informal resolution before litigation\n\n### Phase 5: Judicial Enforcement\n**District Court Action:**\n- **Venue**: Oklahoma district court where public body is located\n- **Authority**: Court may order compliance with Open Records Act\n- **Standard**: Review of agency decision and application of exemptions\n- **Relief**: Mandamus, injuncti"
+      },
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "  - Title 51 \u00a7 24A.1: Definitions and legislative intent\n  - Title 51 \u00a7 24A.5: Public access rights and timelines\n  - Title 51 \u00a7 24A.8: Fee provisions\n  - Title 51 \u00a7 24A.17: Exemptions from disclosure\n\n### Definitions\n- **Public Body**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**: Any record prepared or maintained by a public body\n- **Prompt Response**: Timely response within reasonable period (typically 3-5 business days)\n- **Custo"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "  - Title 51 \u00a7 24A.5: Public access rights and timelines\n  - Title 51 \u00a7 24A.8: Fee provisions\n  - Title 51 \u00a7 24A.17: Exemptions from disclosure\n\n### Definitions\n- **Public Body**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**: Any record prepared or maintained by a public body\n- **Prompt Response**: Timely response within reasonable period (typically 3-5 business days)\n- **Custodian**: Official designated to maintain and provide acces"
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Promptly (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Promptly (vague)"
+    },
+    "total_vulnerability_count": 4
+  },
+  {
+    "state": "Oregon",
+    "vulnerabilities": [
+      {
+        "type": "Clarification Pause",
+        "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+        "severity": "HIGH",
+        "mechanism": "**Available Relief:**\n- **Mandamus**: Court order requiring disclosure within reasonable time\n- **Declaratory Judgment**: Clarification of reasonable timeline requirements\n- **Injunctive Relief**: Ongoing compliance orders\n- **Attorney Fees**: Recovery of reasonable fees for successful enforcement\n\n---\n\n## Strategic Recommendations\n\n### For Effective Oregon Public Records Practice\n1. **Timeline Negotiation**: Work with agency to establish reasonable timeline upfront"
+      },
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "  - ORS 192.311: Definitions and legislative intent\n  - ORS 192.324: Public access rights and timelines\n  - ORS 192.440: Fee provisions\n  - ORS 192.345: Exemptions from disclosure\n\n### **2025 Updates**\n- **Portland Rules**: Updated public records rules effective January 2025\n- **Fee Notification**: Enhanced requirements for fee disclosure over $25\n- **Transparency Initiatives**: Counties implementing new transparency policies\n\n### Definitions\n- **Public Body**: All state and local government age"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "  - ORS 192.324: Public access rights and timelines\n  - ORS 192.440: Fee provisions\n  - ORS 192.345: Exemptions from disclosure\n\n### **2025 Updates**\n- **Portland Rules**: Updated public records rules effective January 2025\n- **Fee Notification**: Enhanced requirements for fee disclosure over $25\n- **Transparency Initiatives**: Counties implementing new transparency policies\n\n### Definitions\n- **Public Body**: All state and local government agencies, including boards, commissions, and authoritie"
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Reasonable time (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Reasonable time (vague)"
+    },
+    "total_vulnerability_count": 4
+  },
+  {
+    "state": "Pennsylvania",
+    "vulnerabilities": [
+      {
+        "type": "Clarification Pause",
+        "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+        "severity": "HIGH",
+        "mechanism": "- **Body Camera Footage**: New provisions for video recordings\n- **Victim Privacy**: Enhanced protections for crime victims\n- **Timeline Clarifications**: Technical amendments to response deadlines\n\n### OOR Precedent Evolution\n- **Electronic Records**: Email, text messages, social media\n- **Search Requirements**: Adequacy of record searches\n- **Exemption Analysis**: More rigorous segregability requirements\n- **Fee Determinations**: Stricter limits on allowable charges\n\n### Technology Integration"
+      },
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "---\n\n## Fee Structure\n\n### Allowable Fees (65 Pa.C.S. \u00a7 67.1307)\n- **Duplication**: Actual cost of photocopying/printing\n- **Postage**: Actual cost of mailing\n- **Electronic Media**: Cost of disk, drive, or other medium\n- **Specialized Documents**: Actual cost for non-standard formats\n\n### Fee Schedule\n- **Paper Copies**: $0.25 per page for letter/legal size"
+      },
+      {
+        "type": "Vague Request Rejection",
+        "description": "Agencies can reject requests as too broad or vague",
+        "severity": "HIGH",
+        "mechanism": "Subjective interpretation allows denial of valid requests"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "**VERIFICATION DATE**: September 18, 2025  \n**VERIFICATION SOURCE**: Dual-source validation using 65 Pa.C.S. and OOR decisions  \n**LAST STATUTORY UPDATE**: 2023 (Act 65 - law enforcement exemption modifications)\n\n---\n\n## Legal Framework\n\n### Primary Statute\n- **Right-to-Know Law (RTKL)**: 65 Pa.C.S. \u00a7\u00a7 67.101 et seq.\n- **Effective Date**: January 1, 2009 (replaced prior Right-to-Know Act)\n- **Major Amendments**: 2023 (Act 65 - law enforcement records)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "15 business days from agency response"
+    },
+    "total_vulnerability_count": 4
+  },
+  {
+    "state": "Rhode",
+    "vulnerabilities": [
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "  - R.I. Gen. Laws \u00a7 38-2-1: Definitions and legislative intent\n  - R.I. Gen. Laws \u00a7 38-2-3: Public access rights and timelines\n  - R.I. Gen. Laws \u00a7 38-2-4: Fee provisions\n  - R.I. Gen. Laws \u00a7 38-2-2: Exemptions from disclosure\n\n### Definitions\n- **Public Body**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**: Any documentary material prepared or owned by a public body\n- **Business Days**: Monday through Friday, excluding state holiday"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "  - R.I. Gen. Laws \u00a7 38-2-3: Public access rights and timelines\n  - R.I. Gen. Laws \u00a7 38-2-4: Fee provisions\n  - R.I. Gen. Laws \u00a7 38-2-2: Exemptions from disclosure\n\n### Definitions\n- **Public Body**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**: Any documentary material prepared or owned by a public body\n- **Business Days**: Monday through Friday, excluding state holidays\n- **Custodian**: Official designated to maintain and provide a"
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Reasonable time (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Reasonable time (vague)"
+    },
+    "total_vulnerability_count": 3
+  },
+  {
+    "state": "South",
+    "vulnerabilities": [
+      {
+        "type": "Clarification Pause",
+        "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+        "severity": "HIGH",
+        "mechanism": "- **Injunctive Relief**: Ongoing compliance orders\n- **Attorney Fees**: Court may award fees and costs to prevailing party\n- **Declaratory Judgment**: Clarification of FOIA obligations\n\n---\n\n## Classification System and Exemptions\n\n### General Exemptions (S.C. Code \u00a7 30-4-40(a))\n**Personal Privacy**: Information constituting unreasonable invasion of personal privacy\n**Law Enforcement**: Active investigatory records and confidential sources\n**Trade Secrets**: Proprietary business information and "
+      },
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "  - S.C. Code \u00a7 30-4-30: Response timeline requirements\n  - S.C. Code \u00a7 30-4-40: Exemptions from disclosure\n  - S.C. Code \u00a7 30-4-60: Fees and costs\n\n### Definitions\n- **Public Body**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**: All documentary material prepared by or received by a public body\n- **Business Days**: Monday through Friday, excluding state holidays\n- **Custodian**: Official designated to maintain and provide access to r"
+      },
+      {
+        "type": "Vague Request Rejection",
+        "description": "Agencies can reject requests as too broad or vague",
+        "severity": "HIGH",
+        "mechanism": "Subjective interpretation allows denial of valid requests"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "  - S.C. Code \u00a7 30-4-15: Public access rights\n  - S.C. Code \u00a7 30-4-30: Response timeline requirements\n  - S.C. Code \u00a7 30-4-40: Exemptions from disclosure\n  - S.C. Code \u00a7 30-4-60: Fees and costs\n\n### Definitions\n- **Public Body**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**: All documentary material prepared by or received by a public body\n- **Business Days**: Monday through Friday, excluding state holidays\n- **Custodian**: Official "
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Reasonable time (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Reasonable time (vague)"
+    },
+    "total_vulnerability_count": 5
+  },
+  {
+    "state": "South",
+    "vulnerabilities": [
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "  - SDCL \u00a7 1-27-1: Definitions and legislative intent\n  - SDCL \u00a7 1-27-1.5: Public access rights and timelines\n  - SDCL \u00a7 1-27-35: Fee provisions\n  - SDCL \u00a7 1-27-1.1 through 1-27-34: Exemptions from disclosure\n\n### Definitions\n- **Public Body**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**: Any file, document, or item regardless of storage medium, prepared or owned by a public body\n- **Business Days**: Monday through Friday, excluding"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "  - SDCL \u00a7 1-27-1.5: Public access rights and timelines\n  - SDCL \u00a7 1-27-35: Fee provisions\n  - SDCL \u00a7 1-27-1.1 through 1-27-34: Exemptions from disclosure\n\n### Definitions\n- **Public Body**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**: Any file, document, or item regardless of storage medium, prepared or owned by a public body\n- **Business Days**: Monday through Friday, excluding state holidays\n- **Custodian**: Official designated t"
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Reasonable time (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Reasonable time (vague)"
+    },
+    "total_vulnerability_count": 3
+  },
+  {
+    "state": "Tennessee",
+    "vulnerabilities": [
+      {
+        "type": "Clarification Pause",
+        "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+        "severity": "HIGH",
+        "mechanism": "- Accept requests during business hours\n- No specific form required (written preferred)\n- May ask for clarification of request\n- Begin processing promptly\n\n### Phase 2: Processing\n**Agency Actions:**\n- Locate responsive records\n- Review for required redactions under TCA \u00a7 10-7-504\n- Remove protected personal information\n- Calculate duplication fees if copies requested\n"
+      },
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "  - TCA \u00a7 10-7-503: Public inspection rights and procedures\n  - TCA \u00a7 10-7-504: Privacy protection and redaction requirements\n  - TCA \u00a7 8-21-401: Fee provisions for record duplication\n  - TCA \u00a7 10-7-505: Enforcement and penalties\n\n### Definitions\n- **Public Record**: Any document, paper, letter, map, book, photograph, microfilm, magnetic tape, electronic data processing record, or other documentary material\n- **Governmental Entity**: All state and local government agencies, departments, and offi"
+      },
+      {
+        "type": "Vague Request Rejection",
+        "description": "Agencies can reject requests as too broad or vague",
+        "severity": "HIGH",
+        "mechanism": "Subjective interpretation allows denial of valid requests"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "**Denied Requests:**\n- Written explanation with statutory basis\n- Citation to specific exemption provision\n- Information about appeal options\n\n### Phase 4: Appeal Process\n**Administrative Appeal:**\n- **No Formal Process**: TCA does not establish formal administrative appeal\n- **Informal Resolution**: Contact agency head or supervisor\n- **Local Procedures**: Some agencies have internal appeal processes\n- **Political Remedies**: Contact elected officials or oversight bodies\n"
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Promptly (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Promptly (vague)"
+    },
+    "total_vulnerability_count": 5
+  },
+  {
+    "state": "Texas",
+    "vulnerabilities": [
+      {
+        "type": "Clarification Pause",
+        "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+        "severity": "HIGH",
+        "mechanism": "- **Start Date**: Day after request is received\n\n### The \"Clarification Pause\" Mechanism \u26a0\ufe0f\n**CONFIRMED: This is the primary obstruction tool described by the user**\n\n**How It Works**:\n1. Agency receives request within 10-day deadline\n2. Agency claims request is \"unclear\" or needs \"clarification\"\n3. **10-day statutory clock PAUSES indefinitely**\n4. Clock does not resume until requester provides \"clarification\"\n5. No limit on how long pause can last\n"
+      },
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "**Timeline**: No fixed deadline for AG opinion\n**Effect**: Further extends overall response time\n**Fee Impact**: Agencies often wait for AG opinion before proceeding\n\n---\n\n## Fee Structure (VERIFIED 2025)\n\n### Programming Time Charges\n- **Hourly Rate**: **$15-40 per hour** (confirmed current range)\n- **Basis**: Actual labor costs of staff performing work\n- **No Minimum**: Can charge for any amount of programming time"
+      },
+      {
+        "type": "Programming Time Charges",
+        "description": "Allows charging for technical work with subjective billing",
+        "severity": "MEDIUM",
+        "mechanism": "Can inflate costs by claiming simple requests require programming"
+      },
+      {
+        "type": "Vague Request Rejection",
+        "description": "Agencies can reject requests as too broad or vague",
+        "severity": "HIGH",
+        "mechanism": "Subjective interpretation allows denial of valid requests"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "\n### Attorney General Review Process\n**When Required**: If agency claims exemption under Government Code 552\n**Timeline**: No fixed deadline for AG opinion\n**Effect**: Further extends overall response time\n**Fee Impact**: Agencies often wait for AG opinion before proceeding\n\n---\n\n## Fee Structure (VERIFIED 2025)\n\n### Programming Time Charges"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "10 days to reply. Then the games really begin. If the agency asks for 'clarification' then the 10-day statutory response"
+    },
+    "total_vulnerability_count": 5
+  },
+  {
+    "state": "Utah",
+    "vulnerabilities": [
+      {
+        "type": "Clarification Pause",
+        "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+        "severity": "HIGH",
+        "mechanism": "- **Injunctive Relief**: Ongoing compliance orders\n- **Attorney Fees**: Successful plaintiffs may recover fees\n- **Declaratory Judgment**: Clarification of GRAMA obligations\n\n**Strategic Considerations:**\n- Exhaust administrative appeals first\n- Document pattern of non-compliance\n- Preserve evidence of public interest\n- Consider class action for systemic violations\n\n### State Oversight\n**Utah State Archives and Records Service:**"
+      },
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "  - UCA \u00a7 63G-2-201: Classification of records\n  - UCA \u00a7 63G-2-203: Response timeline requirements\n  - UCA \u00a7 63G-2-204: Fee provisions\n\n### **CRITICAL ALERT**: 2025 Legislative Developments\n- **SB277 (2025)**: \"Government Records Management Amendments\" by Sen. Keith Grover\n- **Status**: Proposed amendments to GRAMA focusing on records management procedures\n- **Impact**: Potential restrictions on access procedures (full text requires review)\n- **Implementation**: Monitor Utah Legislature for fina"
+      },
+      {
+        "type": "Programming Time Charges",
+        "description": "Allows charging for technical work with subjective billing",
+        "severity": "MEDIUM",
+        "mechanism": "Can inflate costs by claiming simple requests require programming"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "- Access to public records or copies upon payment\n- Specific explanation for any denials or redactions\n- Citation to applicable GRAMA exemption\n- Information about appeal rights\n\n### Phase 4: Appeal Process\n**Administrative Appeal:**\n- **Deadline**: No specific deadline in statute\n- **Authority**: Government entity head or designee\n- **Scope**: Review of denial, fees, adequacy of search\n- **Timeline**: No statutory deadline for appeal decision\n"
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Reasonable time (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Reasonable time (vague)"
+    },
+    "total_vulnerability_count": 5
+  },
+  {
+    "state": "VERIFICATION",
+    "vulnerabilities": [
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "- **Constitutional standard**: Cannot unreasonably delay\n\n### **Fee Structure**\n- **Actual costs**: Based on fulfillment expenses\n- **Reasonable standard**: Cannot be punitive\n- **No fixed schedule**: Varies by agency\n\n### **Legal Framework**\n- **Established**: Right to public record access\n- **Balanced**: Government procedures vs. public access\n- **Protected**: Constitutional oversight of agency compliance\n"
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Reasonable time (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Reasonable time (vague)"
+    },
+    "total_vulnerability_count": 2
+  },
+  {
+    "state": "Vermont",
+    "vulnerabilities": [
+      {
+        "type": "Clarification Pause",
+        "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+        "severity": "HIGH",
+        "mechanism": "- Limited time for informal resolution due to 2-day deadline\n- Immediate escalation to agency head if needed\n- Rapid clarification of exemption claims\n- Quick negotiation of scope or format\n\n### Phase 5: Judicial Enforcement\n**Superior Court Action:**\n- **Venue**: Vermont Superior Court\n- **Authority**: Court may order compliance with Public Records Act\n- **First Amendment Protection**: Recent 2025 rulings support access rights\n- **Standard**: Review of agency compliance with 2-day requirement\n"
+      },
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "  - 1 V.S.A. \u00a7 315: Definitions and legislative intent\n  - 1 V.S.A. \u00a7 316: Public access rights and timelines\n  - 1 V.S.A. \u00a7 317: Fee provisions\n  - 1 V.S.A. \u00a7 318: Exemptions from disclosure\n\n### **VERIFIED 2025 TIMELINE**\n- **2-Business-Day Response**: Confirmed as shortest mandatory timeline in United States\n- **Court Reinforcement**: 2025 First Amendment access rulings support timely disclosure\n- **No Extensions**: Statute provides no extension mechanism beyond 2 business days\n\n### Definitio"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "  - 1 V.S.A. \u00a7 316: Public access rights and timelines\n  - 1 V.S.A. \u00a7 317: Fee provisions\n  - 1 V.S.A. \u00a7 318: Exemptions from disclosure\n\n### **VERIFIED 2025 TIMELINE**\n- **2-Business-Day Response**: Confirmed as shortest mandatory timeline in United States\n- **Court Reinforcement**: 2025 First Amendment access rulings support timely disclosure\n- **No Extensions**: Statute provides no extension mechanism beyond 2 business days\n\n### Definitions\n- **Public Agency**: All state and local government "
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Reasonable time (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Reasonable time (vague)"
+    },
+    "total_vulnerability_count": 4
+  },
+  {
+    "state": "Virginia",
+    "vulnerabilities": [
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "---\n\n## Fee Structure (VERIFIED 2025)\n\n### Permitted Charges\n- **Search Costs**: Actual cost of staff time for searching\n- **Review Costs**: Actual cost of legal/administrative review\n- **Duplication Costs**: Actual copying and materials costs\n- **Electronic Media**: Cost of CDs, USB drives, etc.\n\n### Fee Limitations\n- **Itemized Billing**: Required for all charges"
+      },
+      {
+        "type": "Programming Time Charges",
+        "description": "Allows charging for technical work with subjective billing",
+        "severity": "MEDIUM",
+        "mechanism": "Can inflate costs by claiming simple requests require programming"
+      },
+      {
+        "type": "Vague Request Rejection",
+        "description": "Agencies can reject requests as too broad or vague",
+        "severity": "HIGH",
+        "mechanism": "Subjective interpretation allows denial of valid requests"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "**Agency Must Either**:\n- Provide requested records\n- Deny request with specific exemption citations\n- Notify of need for additional time with explanation\n\n---\n\n## Fee Structure (VERIFIED 2025)\n\n### Permitted Charges\n- **Search Costs**: Actual cost of staff time for searching\n- **Review Costs**: Actual cost of legal/administrative review"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Unknown"
+    },
+    "total_vulnerability_count": 4
+  },
+  {
+    "state": "Washington",
+    "vulnerabilities": [
+      {
+        "type": "Clarification Pause",
+        "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+        "severity": "HIGH",
+        "mechanism": "- Estimate timeline for remaining records\n- Identify any exempt materials\n- Request clarification if needed\n\n### Phase 3: Production and Communication\n**Ongoing Production:**\n- Provide records as they become available\n- Regular status updates for long-term requests\n- Electronic format preference honored\n- Clear explanation of any redactions\n\n**Communication Standards:**"
+      },
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "**VERIFICATION DATE**: September 18, 2025  \n**VERIFICATION SOURCE**: Dual-source validation using RCW 42.56 and court decisions  \n**LAST STATUTORY UPDATE**: 2023 (SB 5432 - electronic records and fee limitations)\n\n---\n\n## Legal Framework\n\n### Primary Statute\n- **Public Records Act (PRA)**: RCW 42.56 et seq.\n- **Original Enactment**: 1972 (Initiative 276)\n- **Major Revision**: 2005 (comprehensive recodification)"
+      },
+      {
+        "type": "Programming Time Charges",
+        "description": "Allows charging for technical work with subjective billing",
+        "severity": "MEDIUM",
+        "mechanism": "Can inflate costs by claiming simple requests require programming"
+      },
+      {
+        "type": "Vague Request Rejection",
+        "description": "Agencies can reject requests as too broad or vague",
+        "severity": "HIGH",
+        "mechanism": "Subjective interpretation allows denial of valid requests"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "- Provide copies of accessible records\n- Provide reasonable estimate for remaining records\n- Deny request with specific exemption citations\n\n### Expedited Processing\n- **No Statutory Provision**: Agencies may establish expedited procedures\n- **Urgent Matters**: Some agencies accommodate emergency requests\n- **Media Deadlines**: Limited informal accommodation available\n\n---\n\n## Fee Structure"
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Reasonable time (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Reasonable time (vague)"
+    },
+    "total_vulnerability_count": 6
+  },
+  {
+    "state": "West",
+    "vulnerabilities": [
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "  - W. Va. Code \u00a7 29B-1-1: Definitions and legislative intent\n  - W. Va. Code \u00a7 29B-1-3: Public access rights and timelines\n  - W. Va. Code \u00a7 29B-1-6: Fee provisions\n  - W. Va. Code \u00a7 29B-1-4: Exemptions from disclosure\n\n### Definitions\n- **Public Body**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**: Any writing containing information prepared or owned by a public body\n- **Business Days**: Monday through Friday, excluding state holid"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "  - W. Va. Code \u00a7 29B-1-3: Public access rights and timelines\n  - W. Va. Code \u00a7 29B-1-6: Fee provisions\n  - W. Va. Code \u00a7 29B-1-4: Exemptions from disclosure\n\n### Definitions\n- **Public Body**: All state and local government agencies, including boards, commissions, and authorities\n- **Public Record**: Any writing containing information prepared or owned by a public body\n- **Business Days**: Monday through Friday, excluding state holidays\n- **Custodian**: Official designated to maintain and provi"
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Reasonable time (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Reasonable time (vague)"
+    },
+    "total_vulnerability_count": 3
+  },
+  {
+    "state": "Wisconsin",
+    "vulnerabilities": [
+      {
+        "type": "Clarification Pause",
+        "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+        "severity": "HIGH",
+        "mechanism": "- Accept request during regular business hours\n- No specific form required\n- May ask for clarification if description unclear\n- Begin processing as soon as practicable\n\n### Phase 2: Processing\n**Agency Actions:**\n- Locate responsive records across relevant departments\n- Review for applicable exemptions under Wis. Stat. \u00a7 19.36\n- Redact exempt information while preserving maximum disclosure\n- Calculate reproduction fees if copies requested\n"
+      },
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "  - Wis. Stat. \u00a7 19.35: Access procedures and deadlines\n  - Wis. Stat. \u00a7 19.36: Exemptions and limitations\n  - Wis. Stat. \u00a7 19.37: Enforcement and attorney fees\n\n### 2025 Legislative Updates\n- **Wisconsin Act 16**: Updates effective August 13, 2025\n- **Electronic Records**: Enhanced provisions for digital content including emails, chats, website content\n- **Privacy Protections**: Updated exemptions balancing transparency with privacy\n- **Compliance Guidance**: Wisconsin Department of Justice upd"
+      },
+      {
+        "type": "Programming Time Charges",
+        "description": "Allows charging for technical work with subjective billing",
+        "severity": "MEDIUM",
+        "mechanism": "Can inflate costs by claiming simple requests require programming"
+      },
+      {
+        "type": "Vague Request Rejection",
+        "description": "Agencies can reject requests as too broad or vague",
+        "severity": "HIGH",
+        "mechanism": "Subjective interpretation allows denial of valid requests"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "  - Wis. Stat. \u00a7 19.32: Definitions and policy declaration\n  - Wis. Stat. \u00a7 19.35: Access procedures and deadlines\n  - Wis. Stat. \u00a7 19.36: Exemptions and limitations\n  - Wis. Stat. \u00a7 19.37: Enforcement and attorney fees\n\n### 2025 Legislative Updates\n- **Wisconsin Act 16**: Updates effective August 13, 2025\n- **Electronic Records**: Enhanced provisions for digital content including emails, chats, website content\n- **Privacy Protections**: Updated exemptions balancing transparency with privacy\n- *"
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Reasonable time (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Reasonable time (vague)"
+    },
+    "total_vulnerability_count": 6
+  },
+  {
+    "state": "Wyoming",
+    "vulnerabilities": [
+      {
+        "type": "Clarification Pause",
+        "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+        "severity": "HIGH",
+        "mechanism": "### **2025 Legislative Activity**\n- **Ongoing Review**: Legislative review of public records laws in progress\n- **Potential Updates**: Possible clarifications or amendments under consideration\n- **Transparency Focus**: Enhanced attention to public access requirements\n- **Federal Coordination**: Coordination with federal transparency requirements\n\n### Definitions\n- **Custodian**: Official designated to maintain and provide access to records\n- **Public Record**: Any written or recorded information"
+      },
+      {
+        "type": "Fee Barriers",
+        "description": "Fee structure can be weaponized to deter requests",
+        "severity": "MEDIUM",
+        "mechanism": "  - Wyo. Stat. \u00a7 16-4-202: Public access rights and procedures\n  - Wyo. Stat. \u00a7 16-4-203: Response requirements\n  - Wyo. Stat. \u00a7 16-4-204: Fee provisions\n  - Wyo. Stat. \u00a7 16-4-205: Exemptions from disclosure\n\n### **2025 Legislative Activity**\n- **Ongoing Review**: Legislative review of public records laws in progress\n- **Potential Updates**: Possible clarifications or amendments under consideration\n- **Transparency Focus**: Enhanced attention to public access requirements\n- **Federal Coordinatio"
+      },
+      {
+        "type": "Exemption Abuse",
+        "description": "Broad exemptions can be misapplied to withhold records",
+        "severity": "HIGH",
+        "mechanism": "  - Wyo. Stat. \u00a7 16-4-203: Response requirements\n  - Wyo. Stat. \u00a7 16-4-204: Fee provisions\n  - Wyo. Stat. \u00a7 16-4-205: Exemptions from disclosure\n\n### **2025 Legislative Activity**\n- **Ongoing Review**: Legislative review of public records laws in progress\n- **Potential Updates**: Possible clarifications or amendments under consideration\n- **Transparency Focus**: Enhanced attention to public access requirements\n- **Federal Coordination**: Coordination with federal transparency requirements\n\n### D"
+      },
+      {
+        "type": "Vague Timeline",
+        "description": "Response deadline is subjective rather than fixed",
+        "severity": "MEDIUM",
+        "mechanism": "Deadline defined as: Promptly (vague)"
+      }
+    ],
+    "timelines": {
+      "response_deadline": "Promptly (vague)"
+    },
+    "total_vulnerability_count": 4
+  }
+]

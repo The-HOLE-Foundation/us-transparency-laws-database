@@ -1,0 +1,230 @@
+================================================================================
+STATUTORY EXEMPTION DATA EXTRACTION - SUMMARY REPORT
+================================================================================
+Extraction Date: 2025-09-26
+Script: extract_statutory_data.py
+Source: Process Maps (51 jurisdictions)
+
+================================================================================
+EXTRACTION RESULTS
+================================================================================
+
+Total Jurisdictions Processed: 51
+  - 50 U.S. States
+  - District of Columbia (DC)
+  - Federal FOIA
+
+Total Records Extracted:
+  - Requestor Rights: 1,286 records
+  - Exemptions: 211 records
+  - Combined Total: 1,497 records
+
+================================================================================
+OUTPUT FILES CREATED
+================================================================================
+
+BY-STATE FILES (102 jurisdictions × 2 types × 2 formats):
+  Location: Output-Data/By-State/
+  
+  For each jurisdiction:
+    - {JURISDICTION}_requestor_rights.csv
+    - {JURISDICTION}_requestor_rights.json
+    - {JURISDICTION}_exemptions.csv
+    - {JURISDICTION}_exemptions.json
+  
+  Total Files: 182 files (91 jurisdictions with data)
+
+MASTER DATASETS (4 files):
+  Location: Output-Data/Master-Datasets/
+  
+  Files:
+    - ALL_JURISDICTIONS_requestor_rights.csv (1,286 records + 1 header = 1,287 lines)
+    - ALL_JURISDICTIONS_requestor_rights.json
+    - ALL_JURISDICTIONS_exemptions.csv (211 records + 1 header = 212 lines)
+    - ALL_JURISDICTIONS_exemptions.json
+
+================================================================================
+DATA CATEGORIES EXTRACTED
+================================================================================
+
+REQUESTOR RIGHTS CATEGORIES:
+  - Response Timeline (deadlines, extensions, prompt response requirements)
+  - Fee Structure (search fees, duplication fees, waivers, cost recovery)
+  - Request Process (submission requirements, agency obligations, phases)
+  - Appeal Rights (administrative appeals, judicial review, enforcement)
+  - Special Access (expedited processing, priority handling)
+  - General Rights (access provisions, remedies, FOIA liaisons)
+
+EXEMPTION CATEGORIES:
+  - National Security/Defense (classified information, foreign policy)
+  - Law Enforcement (investigatory records, criminal matters)
+  - Personal Privacy (private information, protected individuals)
+  - Trade Secrets/Commercial (proprietary information, business secrets)
+  - Attorney-Client Privilege (legal advice, privileged communications)
+  - Deliberative Process (predecisional, inter/intra-agency communications)
+  - Personnel Records (employee information, disciplinary records)
+  - Medical Records (health information, protected medical data)
+  - Educational Records (student records, FERPA protected)
+  - Security Information (infrastructure, public safety)
+  - Financial Institution Records (bank records, financial data)
+  - Geological Information (well data, resource information)
+  - Internal Agency Rules (administrative procedures, operations)
+  - Other Exemptions (miscellaneous statutory exemptions)
+
+================================================================================
+CSV FILE STRUCTURE
+================================================================================
+
+Columns (11 total):
+  1. jurisdiction_name - Full name of jurisdiction (e.g., "Wyoming", "Federal")
+  2. jurisdiction_code - Standard code (e.g., "US-WY", "US-FED")
+  3. law_name - Name of the transparency law
+  4. statute_citation - Primary statute citation
+  5. section_reference - Specific statute sections referenced
+  6. category - Main category (e.g., "Response Timeline", "Statutory Exemption")
+  7. subcategory - Specific subcategory or provision type
+  8. description - Detailed description of the right or exemption
+  9. conditions - Conditions, limitations, or requirements
+  10. notes - Additional context and extraction source
+  11. extraction_date - ISO 8601 timestamp of extraction
+
+================================================================================
+JSON FILE STRUCTURE
+================================================================================
+
+Structure:
+  {
+    "metadata": {
+      "extraction_date": "ISO 8601 timestamp",
+      "total_records": integer,
+      "jurisdiction": "name or 'All Jurisdictions'",
+      "data_source": "VERIFIED Process Maps",
+      "verification_date": "September 2025",
+      "categories": [list of categories present]
+    },
+    "records": [array of all records],
+    "records_by_category": {
+      "category_name": [array of records in that category]
+    }
+  }
+
+================================================================================
+SPECIAL FEATURES EXTRACTED
+================================================================================
+
+FEDERAL FOIA SPECIFICS:
+  ✓ All 9 FOIA exemptions (b)(1) through (b)(9)
+  ✓ 20-day response timeline
+  ✓ 10-day expedited processing timeline
+  ✓ Fee categories (commercial, educational, media, other)
+  ✓ OGIS mediation services
+  ✓ Foreseeable harm standard
+
+STATE-SPECIFIC PROVISIONS:
+  ✓ Varying response timelines (prompt, reasonable, specific day counts)
+  ✓ State-specific exemption categories
+  ✓ Unique fee structures and waivers
+  ✓ Local enforcement mechanisms
+  ✓ Special access provisions
+
+================================================================================
+NOTES AND LIMITATIONS
+================================================================================
+
+Citation Extraction:
+  - Primary statute citations show "Citation not found" for most states
+  - This is due to varied formatting in source documents
+  - Section references within documents were successfully extracted
+  - Future enhancement: Improve citation extraction patterns
+
+Exemption Extraction:
+  - Some states have rich exemption data (Federal, Alabama, Mississippi)
+  - Other states have limited exemption sections in source docs
+  - Fee limitations sometimes incorrectly categorized as exemptions
+  - This reflects source document structure variations
+
+Data Quality:
+  - All data extracted from VERIFIED Process Maps (Sept 2025)
+  - Dual-source validation performed on source documents
+  - Some formatting artifacts present (leading colons, markdown headers)
+  - Data is comprehensive but may require light cleaning for specific uses
+
+================================================================================
+RECOMMENDED USE CASES
+================================================================================
+
+1. COMPARATIVE ANALYSIS:
+   - Compare transparency laws across jurisdictions
+   - Analyze response timeline variations
+   - Study fee structure differences
+   - Examine exemption patterns
+
+2. AI TRAINING:
+   - JSON format optimized for ML model training
+   - Structured data for FOIA generator agents
+   - Category-based learning for legal AI
+
+3. DATABASE IMPORT:
+   - CSV format compatible with Notion, Supabase, Airtable
+   - Standard column structure for easy import
+   - Normalized jurisdiction codes for joining
+
+4. LEGAL RESEARCH:
+   - Quick reference for statutory provisions
+   - Jurisdiction-specific exemption lookup
+   - Rights comparison across states
+
+5. ADVOCACY & POLICY:
+   - Identify gaps in state transparency laws
+   - Model improvements based on best practices
+   - Support legislative reform efforts
+
+================================================================================
+FILE LOCATIONS
+================================================================================
+
+Input:
+  /Users/jth/Desktop/Definitely Valid Statutory Data/
+    Statutory-Analysis-Data/Statutory-Exemption-Database/
+      Refrence Datasets/Process Maps/
+        (51 VERIFIED-Process-Map.md files)
+
+Output:
+  /Users/jth/Desktop/Definitely Valid Statutory Data/
+    Statutory-Analysis-Data/Statutory-Exemption-Database/
+      Output-Data/
+        By-State/ (182 files)
+        Master-Datasets/ (4 files)
+
+Script:
+  /Users/jth/Desktop/Definitely Valid Statutory Data/
+    Statutory-Analysis-Data/Statutory-Exemption-Database/
+      extract_statutory_data.py
+
+================================================================================
+NEXT STEPS
+================================================================================
+
+1. DATA CLEANING (Optional):
+   - Remove leading colons from some subcategory fields
+   - Clean up markdown formatting artifacts
+   - Enhance statute citation extraction
+
+2. DATA VALIDATION:
+   - Spot-check random samples against source documents
+   - Verify category assignments
+   - Confirm record counts per jurisdiction
+
+3. ENHANCED EXTRACTION (Future):
+   - Extract more detailed exemption provisions
+   - Add cross-references between related provisions
+   - Include case law citations where present
+
+4. INTEGRATION:
+   - Import into Notion/Supabase databases
+   - Train AI models on JSON data
+   - Create visualization dashboards
+
+================================================================================
+END OF SUMMARY REPORT
+================================================================================

@@ -1,0 +1,39 @@
+{
+  "state": "Tennessee",
+  "vulnerabilities": [
+    {
+      "type": "Clarification Pause",
+      "description": "Statute allows agencies to pause deadlines by claiming requests are unclear",
+      "severity": "HIGH",
+      "mechanism": "- Accept requests during business hours\n- No specific form required (written preferred)\n- May ask for clarification of request\n- Begin processing promptly\n\n### Phase 2: Processing\n**Agency Actions:**\n- Locate responsive records\n- Review for required redactions under TCA \u00a7 10-7-504\n- Remove protected personal information\n- Calculate duplication fees if copies requested\n"
+    },
+    {
+      "type": "Fee Barriers",
+      "description": "Fee structure can be weaponized to deter requests",
+      "severity": "MEDIUM",
+      "mechanism": "  - TCA \u00a7 10-7-503: Public inspection rights and procedures\n  - TCA \u00a7 10-7-504: Privacy protection and redaction requirements\n  - TCA \u00a7 8-21-401: Fee provisions for record duplication\n  - TCA \u00a7 10-7-505: Enforcement and penalties\n\n### Definitions\n- **Public Record**: Any document, paper, letter, map, book, photograph, microfilm, magnetic tape, electronic data processing record, or other documentary material\n- **Governmental Entity**: All state and local government agencies, departments, and offi"
+    },
+    {
+      "type": "Vague Request Rejection",
+      "description": "Agencies can reject requests as too broad or vague",
+      "severity": "HIGH",
+      "mechanism": "Subjective interpretation allows denial of valid requests"
+    },
+    {
+      "type": "Exemption Abuse",
+      "description": "Broad exemptions can be misapplied to withhold records",
+      "severity": "HIGH",
+      "mechanism": "**Denied Requests:**\n- Written explanation with statutory basis\n- Citation to specific exemption provision\n- Information about appeal options\n\n### Phase 4: Appeal Process\n**Administrative Appeal:**\n- **No Formal Process**: TCA does not establish formal administrative appeal\n- **Informal Resolution**: Contact agency head or supervisor\n- **Local Procedures**: Some agencies have internal appeal processes\n- **Political Remedies**: Contact elected officials or oversight bodies\n"
+    },
+    {
+      "type": "Vague Timeline",
+      "description": "Response deadline is subjective rather than fixed",
+      "severity": "MEDIUM",
+      "mechanism": "Deadline defined as: Promptly (vague)"
+    }
+  ],
+  "timelines": {
+    "response_deadline": "Promptly (vague)"
+  },
+  "total_vulnerability_count": 5
+}

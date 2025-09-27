@@ -1,0 +1,23 @@
+[
+  {
+    "state": "Iowa",
+    "category": "Iowa Public Information Board",
+    "description": "Independent board enforces sunshine laws, handles complaints, issues formal opinions",
+    "citation": "Iowa Code Chapter 22",
+    "notes": "Strong independent oversight board"
+  },
+  {
+    "state": "Iowa",
+    "category": "Discretionary Exemptions",
+    "description": "Exemptions are discretionary, not mandatory - narrowly construed in favor of disclosure",
+    "citation": "Iowa Code § 22.7",
+    "notes": "Agency choice to withhold even when exemption applies"
+  },
+  {
+    "state": "Iowa",
+    "category": "First Hour Free",
+    "description": "Cannot charge for first hour of research time",
+    "citation": "Iowa Code Chapter 22",
+    "notes": "Protection from initial search costs"
+  }
+]

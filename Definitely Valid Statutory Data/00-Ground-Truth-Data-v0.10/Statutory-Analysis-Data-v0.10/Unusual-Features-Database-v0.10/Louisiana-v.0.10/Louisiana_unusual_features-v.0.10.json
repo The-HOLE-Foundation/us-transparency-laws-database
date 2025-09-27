@@ -1,0 +1,30 @@
+[
+  {
+    "state": "Louisiana",
+    "category": "Constitutional Foundation",
+    "description": "Louisiana Constitution Article XII, Section 3 provides constitutional protection beyond statutory rights",
+    "citation": "Louisiana Constitution Article XII, Section 3",
+    "notes": "Constitutional mandate for access"
+  },
+  {
+    "state": "Louisiana",
+    "category": "$100 Per Day Penalty",
+    "description": "$100 per day civil penalty against custodian for arbitrary refusal to respond",
+    "citation": "La. R.S. 44:35",
+    "notes": "Financial accountability for non-compliance"
+  },
+  {
+    "state": "Louisiana",
+    "category": "No Administrative Appeals",
+    "description": "Direct court access after 5-day response period; no bureaucratic delays",
+    "citation": "La. R.S. 44:32, 44:35",
+    "notes": "Streamlined enforcement bypassing administrative process"
+  },
+  {
+    "state": "Louisiana",
+    "category": "Preferential Court Treatment",
+    "description": "Cases heard by preference and in summary manner; appellate courts place on preferential docket",
+    "citation": "La. R.S. 44:35",
+    "notes": "Expedited judicial handling"
+  }
+]

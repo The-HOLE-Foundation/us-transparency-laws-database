@@ -1,0 +1,30 @@
+[
+  {
+    "state": "West Virginia",
+    "category": "No Search or Retrieval Fees",
+    "description": "Public body may NOT charge search or retrieval fee",
+    "citation": "W.Va. Code § 29B-1-3",
+    "notes": "Explicit prohibition on search fees"
+  },
+  {
+    "state": "West Virginia",
+    "category": "FOIA Request Database",
+    "description": "Secretary of State maintains publicly accessible online database of all FOIA requests since 2016",
+    "citation": "W.Va. Code § 29B-1-3A",
+    "notes": "Transparency about transparency"
+  },
+  {
+    "state": "West Virginia",
+    "category": "Mandatory Reporting",
+    "description": "Each agency must report nature of request, response, timeframe, and fees to Secretary of State",
+    "citation": "W.Va. Code § 29B-1-3A",
+    "notes": "Comprehensive tracking requirement"
+  },
+  {
+    "state": "West Virginia",
+    "category": "5-Day Response",
+    "description": "Respond within 5 business days",
+    "citation": "W.Va. Code § 29B-1-3",
+    "notes": "Clear deadline"
+  }
+]

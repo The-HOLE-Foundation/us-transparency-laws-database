@@ -1,0 +1,33 @@
+type,severity,description,mechanism
+Clarification Pause,HIGH,Statute allows agencies to pause deadlines by claiming requests are unclear,"**Internal Process:**
+- Discuss concerns with custodian or agency head
+- Request clarification of exemption claims
+- Negotiate scope to reduce copying costs
+- Seek informal resolution before litigation
+
+### Phase 5: Judicial Enforcement
+**District Court Action:**
+- **Venue**: Oklahoma district court where public body is located
+- **Authority**: Court may order compliance with Open Records Act
+- **Standard**: Review of agency decision and application of exemptions
+- **Relief**: Mandamus, injuncti"
+Fee Barriers,MEDIUM,Fee structure can be weaponized to deter requests,"  - Title 51 § 24A.1: Definitions and legislative intent
+  - Title 51 § 24A.5: Public access rights and timelines
+  - Title 51 § 24A.8: Fee provisions
+  - Title 51 § 24A.17: Exemptions from disclosure
+
+### Definitions
+- **Public Body**: All state and local government agencies, including boards, commissions, and authorities
+- **Public Record**: Any record prepared or maintained by a public body
+- **Prompt Response**: Timely response within reasonable period (typically 3-5 business days)
+- **Custo"
+Exemption Abuse,HIGH,Broad exemptions can be misapplied to withhold records,"  - Title 51 § 24A.5: Public access rights and timelines
+  - Title 51 § 24A.8: Fee provisions
+  - Title 51 § 24A.17: Exemptions from disclosure
+
+### Definitions
+- **Public Body**: All state and local government agencies, including boards, commissions, and authorities
+- **Public Record**: Any record prepared or maintained by a public body
+- **Prompt Response**: Timely response within reasonable period (typically 3-5 business days)
+- **Custodian**: Official designated to maintain and provide acces"
+Vague Timeline,MEDIUM,Response deadline is subjective rather than fixed,Deadline defined as: Promptly (vague)

@@ -1,0 +1,23 @@
+[
+  {
+    "state": "Michigan",
+    "category": "5-Day Response with Single 10-Day Extension",
+    "description": "5 business days to respond; may extend additional 10 days with written notice (only one extension)",
+    "citation": "MCL 15.235",
+    "notes": "Limited extension prevents indefinite delays"
+  },
+  {
+    "state": "Michigan",
+    "category": "Fee Estimate Requirement",
+    "description": "Must provide detailed fee estimate if costs expected to exceed $50",
+    "citation": "MCL 15.235",
+    "notes": "Cost transparency before work begins"
+  },
+  {
+    "state": "Michigan",
+    "category": "Punitive Damages for Bad Faith",
+    "description": "Punitive damages available for bad faith denials",
+    "citation": "MCL 15.240",
+    "notes": "Enhanced enforcement mechanism"
+  }
+]

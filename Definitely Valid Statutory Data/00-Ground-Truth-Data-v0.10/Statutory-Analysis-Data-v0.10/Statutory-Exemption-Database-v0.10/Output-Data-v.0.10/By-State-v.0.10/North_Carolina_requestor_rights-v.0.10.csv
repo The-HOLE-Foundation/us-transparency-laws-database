@@ -1,0 +1,115 @@
+jurisdiction_name,jurisdiction_code,law_name,statute_citation,section_reference,category,subcategory,description,conditions,notes,extraction_date
+North Carolina,US-NC,North Carolina Public Records Act,Citation not found,See statute,Response Timeline,"### Factors Affecting Timeline
+- Volume and complexity of request
+- Location of records (multiple of","### Factors Affecting Timeline
+- Volume and complexity of request
+- Location of records (multiple offices)
+- Need for legal review
+- Redaction requirements
+- Staff availability",No specific conditions stated,Extracted from Factors Affecting Timeline,2025-09-26T13:52:18.333212
+North Carolina,US-NC,North Carolina Public Records Act,Citation not found,§ 132-6,Fee Structure,### Allowable Fees (NCGS § 132-6.2),### Allowable Fees (NCGS § 132-6.2),No specific conditions stated,Extracted from Allowable Fees (NCGS § 1326.2),2025-09-26T13:52:18.333229
+North Carolina,US-NC,North Carolina Public Records Act,Citation not found,§ 132-6,Fee Structure,: Free on-site review of records,: Free on-site review of records,No specific conditions stated,Extracted from Allowable Fees (NCGS § 1326.2),2025-09-26T13:52:18.333234
+North Carolina,US-NC,North Carolina Public Records Act,Citation not found,§ 132-6,Fee Structure,: Actual cost of duplication including materials and labor,: Actual cost of duplication including materials and labor,No specific conditions stated,Extracted from Allowable Fees (NCGS § 1326.2),2025-09-26T13:52:18.333240
+North Carolina,US-NC,North Carolina Public Records Act,Citation not found,§ 132-6,Fee Structure,: Agencies cannot charge for time spent locating records,: Agencies cannot charge for time spent locating records,No specific conditions stated,Extracted from Allowable Fees (NCGS § 1326.2),2025-09-26T13:52:18.333245
+North Carolina,US-NC,North Carolina Public Records Act,Citation not found,§ 132-6,Fee Structure,: May charge for programming or format conversion,: May charge for programming or format conversion,: May charge for programming or format conversion,Extracted from Allowable Fees (NCGS § 1326.2),2025-09-26T13:52:18.333250
+North Carolina,US-NC,North Carolina Public Records Act,Citation not found,See statute,Request Process,"### Phase 1: Request Submission
+**Requester Actions:**
+- Submit oral or written request to appropria","### Phase 1: Request Submission
+**Requester Actions:**
+- Submit oral or written request to appropriate custodian
+- Provide reasonable description of records sought
+- Specify preferred format (paper, electronic)
+- Identify self and purpose (optional but recommended)","### Phase 1: Request Submission
+**Requester Actions:**
+- Submit oral or written request to appropriate custodian
+- Provide reasonable description of records sought
+- Specify preferred format (paper, electronic)
+- Identify self and purpose (optional but recommended)",Extracted from Phase 1: Request Submission,2025-09-26T13:52:18.333278
+North Carolina,US-NC,North Carolina Public Records Act,Citation not found,See statute,Request Process,"**Agency Actions:**
+- Accept request during normal business hours
+- No specific form required
+- May ","**Agency Actions:**
+- Accept request during normal business hours
+- No specific form required
+- May ask for clarification of request
+- Begin search process immediately","**Agency Actions:**
+- Accept request during normal business hours
+- No specific form required
+- May ask for clarification of request
+- Begin search process immediately",Extracted from Phase 1: Request Submission,2025-09-26T13:52:18.333279
+North Carolina,US-NC,North Carolina Public Records Act,Citation not found,See statute,Request Process,"### Phase 2: Processing
+**Agency Actions:**
+- Locate responsive records across relevant departments
+","### Phase 2: Processing
+**Agency Actions:**
+- Locate responsive records across relevant departments
+- Review for exemptions and redactions
+- Calculate duplication costs if copies requested
+- Determine if records exist in requested format","### Phase 2: Processing
+**Agency Actions:**
+- Locate responsive records across relevant departments
+- Review for exemptions and redactions
+- Calculate duplication costs if copies requested
+- Determine if records exist in requested format",Extracted from Phase 2: Processing,2025-09-26T13:52:18.333300
+North Carolina,US-NC,North Carolina Public Records Act,Citation not found,See statute,Request Process,"**Timeline Management:**
+- Begin processing ""as promptly as possible""
+- Communicate with requester a","**Timeline Management:**
+- Begin processing ""as promptly as possible""
+- Communicate with requester about delays
+- Provide realistic timeline estimates",No specific conditions stated,Extracted from Phase 2: Processing,2025-09-26T13:52:18.333301
+North Carolina,US-NC,North Carolina Public Records Act,Citation not found,See statute,Response Timeline,"### Phase 3: Initial Response
+**Agency Must Provide:**
+- Access to records for inspection (free)
+- C","### Phase 3: Initial Response
+**Agency Must Provide:**
+- Access to records for inspection (free)
+- Copies upon payment of fees
+- Explanation of any redactions or exemptions
+- Information about appeal rights
+- Written denial with specific statutory basis if applicable","### Phase 3: Initial Response
+**Agency Must Provide:**
+- Access to records for inspection (free)
+- Copies upon payment of fees
+- Explanation of any redactions or exemptions
+- Information about appeal rights
+- Written denial with specific statutory basis if applicable",Extracted from Phase 3: Initial Response,2025-09-26T13:52:18.333314
+North Carolina,US-NC,North Carolina Public Records Act,Citation not found,See statute,Appeal Rights,"### Phase 4: Appeal Process
+**Administrative Options:**","### Phase 4: Appeal Process
+**Administrative Options:**",No specific conditions stated,Extracted from Phase 4: Appeal Process,2025-09-26T13:52:18.333327
+North Carolina,US-NC,North Carolina Public Records Act,Citation not found,See statute,Appeal Rights,: Contact agency head or records officer,: Contact agency head or records officer,No specific conditions stated,Extracted from Phase 4: Appeal Process,2025-09-26T13:52:18.333332
+North Carolina,US-NC,North Carolina Public Records Act,Citation not found,See statute,Appeal Rights,No Formal Administrative Appeal,No Formal Administrative Appeal,No specific conditions stated,Extracted from Phase 4: Appeal Process,2025-09-26T13:52:18.333337
+North Carolina,US-NC,North Carolina Public Records Act,Citation not found,See statute,Appeal Rights,: NCGS 132 does not establish formal appeal process,: NCGS 132 does not establish formal appeal process,No specific conditions stated,Extracted from Phase 4: Appeal Process,2025-09-26T13:52:18.333342
+North Carolina,US-NC,North Carolina Public Records Act,Citation not found,See statute,Appeal Rights,": Contact elected officials, media, citizen advocacy groups",": Contact elected officials, media, citizen advocacy groups",No specific conditions stated,Extracted from Phase 4: Appeal Process,2025-09-26T13:52:18.333349
+North Carolina,US-NC,North Carolina Public Records Act,Citation not found,See statute,Fee Structure,"### Excessive Fees
+**Problem**: Unreasonable duplication charges
+**Workarounds**:
+- Inspect records ","### Excessive Fees
+**Problem**: Unreasonable duplication charges
+**Workarounds**:
+- Inspect records first to identify truly needed documents
+- Request electronic format to reduce costs
+- Challenge fees that exceed actual duplication costs
+- Negotiate reduced scope","### Excessive Fees
+**Problem**: Unreasonable duplication charges
+**Workarounds**:
+- Inspect records first to identify truly needed documents
+- Request electronic format to reduce costs
+- Challenge fees that exceed actual duplication costs
+- Negotiate reduced scope",Extracted from Excessive Fees,2025-09-26T13:52:18.333369
+North Carolina,US-NC,North Carolina Public Records Act,Citation not found,See statute,General Rights,Direct Contact,Agency head or records custodian,No specific conditions stated,Extracted from Administrative Remedies,2025-09-26T13:52:18.333397
+North Carolina,US-NC,North Carolina Public Records Act,Citation not found,See statute,General Rights,Political Pressure,"Local elected officials, media attention",No specific conditions stated,Extracted from Administrative Remedies,2025-09-26T13:52:18.333398
+North Carolina,US-NC,North Carolina Public Records Act,Citation not found,See statute,General Rights,State Officials,Contact Governor's office or Attorney General,No specific conditions stated,Extracted from Administrative Remedies,2025-09-26T13:52:18.333398
+North Carolina,US-NC,North Carolina Public Records Act,Citation not found,See statute,General Rights,Legislative Oversight,Contact relevant legislative committees,No specific conditions stated,Extracted from Administrative Remedies,2025-09-26T13:52:18.333399
+North Carolina,US-NC,North Carolina Public Records Act,Citation not found,See statute,General Rights,"### Judicial Remedies
+**Available Relief:**","### Judicial Remedies
+**Available Relief:**",No specific conditions stated,Extracted from Judicial Remedies,2025-09-26T13:52:18.333415
+North Carolina,US-NC,North Carolina Public Records Act,Citation not found,See statute,General Rights,: Court order requiring disclosure,: Court order requiring disclosure,No specific conditions stated,Extracted from Judicial Remedies,2025-09-26T13:52:18.333420
+North Carolina,US-NC,North Carolina Public Records Act,Citation not found,See statute,General Rights,: Possible in successful actions under certain circumstances,: Possible in successful actions under certain circumstances,No specific conditions stated,Extracted from Judicial Remedies,2025-09-26T13:52:18.333428
+North Carolina,US-NC,North Carolina Public Records Act,Citation not found,See statute,General Rights,: Clarification of disclosure obligations,: Clarification of disclosure obligations,: Clarification of disclosure obligations,Extracted from Judicial Remedies,2025-09-26T13:52:18.333440
+North Carolina,US-NC,North Carolina Public Records Act,Citation not found,See statute,General Rights,"**Strategic Considerations:**
+- Document all interactions with agency
+- Preserve evidence of public ","**Strategic Considerations:**
+- Document all interactions with agency
+- Preserve evidence of public interest
+- Consider costs versus benefits of litigation
+- Explore settlement negotiations",No specific conditions stated,Extracted from Judicial Remedies,2025-09-26T13:52:18.333441

@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "extraction_date": "2025-09-26T13:52:18.336327",
+    "total_records": 3,
+    "jurisdiction": "Ohio",
+    "data_source": "VERIFIED Process Maps",
+    "verification_date": "September 2025",
+    "categories": [
+      "Statutory Exemption"
+    ]
+  },
+  "records": [
+    {
+      "jurisdiction_name": "Ohio",
+      "jurisdiction_code": "US-OH",
+      "law_name": "Ohio Public Records Law",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "Cannot include labor, overhead, or profit",
+      "conditions": "No specific conditions stated",
+      "notes": "Exemption type: Actual Cost Only",
+      "extraction_date": "2025-09-26T13:52:18.335589"
+    },
+    {
+      "jurisdiction_name": "Ohio",
+      "jurisdiction_code": "US-OH",
+      "law_name": "Ohio Public Records Law",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "Fees must be reasonable and not used to discourage requests",
+      "conditions": "Fees must be reasonable and not used to discourage requests",
+      "notes": "Exemption type: Reasonable",
+      "extraction_date": "2025-09-26T13:52:18.335597"
+    },
+    {
+      "jurisdiction_name": "Ohio",
+      "jurisdiction_code": "US-OH",
+      "law_name": "Ohio Public Records Law",
+      "statute_citation": "Citation not found",
+      "section_reference": "See exemptions",
+      "category": "Statutory Exemption",
+      "subcategory": "Other Exemption",
+      "description": "May require payment before providing copies",
+      "conditions": "May require payment before providing copies",
+      "notes": "Exemption type: Advance Payment",
+      "extraction_date": "2025-09-26T13:52:18.335604"
+    }
+  ],
+  "records_by_category": {
+    "Statutory Exemption": [
+      {
+        "jurisdiction_name": "Ohio",
+        "jurisdiction_code": "US-OH",
+        "law_name": "Ohio Public Records Law",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "Cannot include labor, overhead, or profit",
+        "conditions": "No specific conditions stated",
+        "notes": "Exemption type: Actual Cost Only",
+        "extraction_date": "2025-09-26T13:52:18.335589"
+      },
+      {
+        "jurisdiction_name": "Ohio",
+        "jurisdiction_code": "US-OH",
+        "law_name": "Ohio Public Records Law",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "Fees must be reasonable and not used to discourage requests",
+        "conditions": "Fees must be reasonable and not used to discourage requests",
+        "notes": "Exemption type: Reasonable",
+        "extraction_date": "2025-09-26T13:52:18.335597"
+      },
+      {
+        "jurisdiction_name": "Ohio",
+        "jurisdiction_code": "US-OH",
+        "law_name": "Ohio Public Records Law",
+        "statute_citation": "Citation not found",
+        "section_reference": "See exemptions",
+        "category": "Statutory Exemption",
+        "subcategory": "Other Exemption",
+        "description": "May require payment before providing copies",
+        "conditions": "May require payment before providing copies",
+        "notes": "Exemption type: Advance Payment",
+        "extraction_date": "2025-09-26T13:52:18.335604"
+      }
+    ]
+  }
+}

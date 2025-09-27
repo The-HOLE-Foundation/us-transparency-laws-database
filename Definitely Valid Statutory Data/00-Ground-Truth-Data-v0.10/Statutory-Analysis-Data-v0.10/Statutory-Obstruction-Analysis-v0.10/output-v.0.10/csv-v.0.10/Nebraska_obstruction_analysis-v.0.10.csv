@@ -1,0 +1,20 @@
+type,severity,description,mechanism
+Fee Barriers,MEDIUM,Fee structure can be weaponized to deter requests,"  - Neb. Rev. Stat. § 84-712: Definitions and legislative intent
+  - Neb. Rev. Stat. § 84-712.01: Public access rights and timelines
+  - Neb. Rev. Stat. § 84-712.02: Fee provisions
+  - Neb. Rev. Stat. § 84-712.05: Exemptions from disclosure
+
+### Definitions
+- **Public Body**: All state and local government agencies, including boards, commissions, and authorities
+- **Public Record**: Any recorded information prepared or owned by a public body
+- **Business Days**: Monday through Friday, excluding "
+Exemption Abuse,HIGH,Broad exemptions can be misapplied to withhold records,"  - Neb. Rev. Stat. § 84-712.01: Public access rights and timelines
+  - Neb. Rev. Stat. § 84-712.02: Fee provisions
+  - Neb. Rev. Stat. § 84-712.05: Exemptions from disclosure
+
+### Definitions
+- **Public Body**: All state and local government agencies, including boards, commissions, and authorities
+- **Public Record**: Any recorded information prepared or owned by a public body
+- **Business Days**: Monday through Friday, excluding state holidays
+- **Custodian**: Official designated to maintain a"
+Vague Timeline,MEDIUM,Response deadline is subjective rather than fixed,Deadline defined as: Reasonable time (vague)

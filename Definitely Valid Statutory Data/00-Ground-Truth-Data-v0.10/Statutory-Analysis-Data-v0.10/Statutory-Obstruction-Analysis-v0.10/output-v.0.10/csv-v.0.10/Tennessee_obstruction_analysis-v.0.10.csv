@@ -1,0 +1,35 @@
+type,severity,description,mechanism
+Clarification Pause,HIGH,Statute allows agencies to pause deadlines by claiming requests are unclear,"- Accept requests during business hours
+- No specific form required (written preferred)
+- May ask for clarification of request
+- Begin processing promptly
+
+### Phase 2: Processing
+**Agency Actions:**
+- Locate responsive records
+- Review for required redactions under TCA § 10-7-504
+- Remove protected personal information
+- Calculate duplication fees if copies requested
+"
+Fee Barriers,MEDIUM,Fee structure can be weaponized to deter requests,"  - TCA § 10-7-503: Public inspection rights and procedures
+  - TCA § 10-7-504: Privacy protection and redaction requirements
+  - TCA § 8-21-401: Fee provisions for record duplication
+  - TCA § 10-7-505: Enforcement and penalties
+
+### Definitions
+- **Public Record**: Any document, paper, letter, map, book, photograph, microfilm, magnetic tape, electronic data processing record, or other documentary material
+- **Governmental Entity**: All state and local government agencies, departments, and offi"
+Vague Request Rejection,HIGH,Agencies can reject requests as too broad or vague,Subjective interpretation allows denial of valid requests
+Exemption Abuse,HIGH,Broad exemptions can be misapplied to withhold records,"**Denied Requests:**
+- Written explanation with statutory basis
+- Citation to specific exemption provision
+- Information about appeal options
+
+### Phase 4: Appeal Process
+**Administrative Appeal:**
+- **No Formal Process**: TCA does not establish formal administrative appeal
+- **Informal Resolution**: Contact agency head or supervisor
+- **Local Procedures**: Some agencies have internal appeal processes
+- **Political Remedies**: Contact elected officials or oversight bodies
+"
+Vague Timeline,MEDIUM,Response deadline is subjective rather than fixed,Deadline defined as: Promptly (vague)

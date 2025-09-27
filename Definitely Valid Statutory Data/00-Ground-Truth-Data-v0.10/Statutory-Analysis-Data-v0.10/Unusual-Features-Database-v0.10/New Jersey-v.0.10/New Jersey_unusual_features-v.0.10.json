@@ -1,0 +1,44 @@
+[
+  {
+    "state": "New Jersey",
+    "category": "Litigation Certification Required",
+    "description": "Requestors must certify whether request connected to legal proceeding (2024 amendment)",
+    "citation": "N.J.S.A. 47:1A-5",
+    "notes": "New requirement to prevent discovery bypass"
+  },
+  {
+    "state": "New Jersey",
+    "category": "Enhanced Email Specificity",
+    "description": "Email/correspondence requests must include discrete time period, specific subject matter, and employee names/titles (2024)",
+    "citation": "N.J.S.A. 47:1A-5",
+    "notes": "Stricter requirements for email requests"
+  },
+  {
+    "state": "New Jersey",
+    "category": "Website Posting Requirement",
+    "description": "Agencies must keep records on publicly available website 'to extent feasible' with search functionality (2024)",
+    "citation": "N.J.S.A. 47:1A-5",
+    "notes": "Proactive disclosure mandate"
+  },
+  {
+    "state": "New Jersey",
+    "category": "Modified Attorney Fees",
+    "description": "Prevailing requestor gets attorney fees only if agency unreasonably denied, acted in bad faith, or knowingly violated OPRA (2024)",
+    "citation": "N.J.S.A. 47:1A-6",
+    "notes": "Higher burden for fee recovery after 2024"
+  },
+  {
+    "state": "New Jersey",
+    "category": "First 10 Pages Free",
+    "description": "First 10 pages provided at no charge",
+    "citation": "N.J.S.A. 47:1A-5",
+    "notes": "Free initial pages"
+  },
+  {
+    "state": "New Jersey",
+    "category": "Government Records Council",
+    "description": "GRC provides mediation and formal investigation with appealable decisions",
+    "citation": "N.J.S.A. 47:1A-6",
+    "notes": "Administrative review body"
+  }
+]

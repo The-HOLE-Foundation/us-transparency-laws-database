@@ -1,0 +1,20 @@
+type,severity,description,mechanism
+Fee Barriers,MEDIUM,Fee structure can be weaponized to deter requests,"  - SDCL § 1-27-1: Definitions and legislative intent
+  - SDCL § 1-27-1.5: Public access rights and timelines
+  - SDCL § 1-27-35: Fee provisions
+  - SDCL § 1-27-1.1 through 1-27-34: Exemptions from disclosure
+
+### Definitions
+- **Public Body**: All state and local government agencies, including boards, commissions, and authorities
+- **Public Record**: Any file, document, or item regardless of storage medium, prepared or owned by a public body
+- **Business Days**: Monday through Friday, excluding"
+Exemption Abuse,HIGH,Broad exemptions can be misapplied to withhold records,"  - SDCL § 1-27-1.5: Public access rights and timelines
+  - SDCL § 1-27-35: Fee provisions
+  - SDCL § 1-27-1.1 through 1-27-34: Exemptions from disclosure
+
+### Definitions
+- **Public Body**: All state and local government agencies, including boards, commissions, and authorities
+- **Public Record**: Any file, document, or item regardless of storage medium, prepared or owned by a public body
+- **Business Days**: Monday through Friday, excluding state holidays
+- **Custodian**: Official designated t"
+Vague Timeline,MEDIUM,Response deadline is subjective rather than fixed,Deadline defined as: Reasonable time (vague)
