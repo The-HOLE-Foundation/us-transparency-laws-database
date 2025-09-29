@@ -5,23 +5,28 @@
 **Critical Dependency**: Statute validation required before all downstream work can proceed with integrity.
 
 ## 📊 **REALISTIC PROJECT PHASES**
+**Major Sub-Projects**      
+a) ***Foia generator*** - we are starting with a relatively rudimentary ai chat that I setup through az ai foundry using openai 4.1 nano. I attached a vector database of our tranparency data and it works relatively well. We will work on a more refined version later where we will integerate custom training, which will require a set of highly refined example outputs to train on. This is not necessary for the initial launch stage. the current model performs suitably well for the task at launch. 
+b) ***Transparency map*** - this is a map where users can click on their state and see a summary of basic information about the foia statutes governing public records in their state or federal. I have the map as an svg in figma. I need to finish polishing it (placement of state names, development of the displace area where information will be produced from the supabse database)
+c) ***Transparency wiki*** - this will be for in depth exploration of all aspects of the foia statutes in a given state or jurisdiction. I would like to display a more comprehensive table of data about each state here. I want the tranpsparency map to link here, and i want users to be able to click a button in this page and be taken directly to the foia generator.
 
-### **🚨 PHASE 1: STATUTE VALIDATION** (IMMEDIATE PRIORITY)
-**Status**: NOT STARTED - BLOCKS ALL DOWNSTREAM WORK
-**Timeline**: 2-4 weeks (51 jurisdictions × thorough verification)
+[x]### **🚨 PHASE 1: STATUTE VALIDATION** (IMMEDIATE PRIORITY)
+**Status**: Completed - BLOCKS ALL DOWNSTREAM WORK
+**Timeline**: days-to-weeks (51 jurisdictions × thorough verification)
 **Criticality**: MISSION CRITICAL
 
 #### **Requirements**
-- Validate all 51 transparency statutes for accuracy and currency
-- Check for recent/pending amendments (2022-2025)
-- Update full statute text with verified current versions
-- Validate ALL downstream information against corrected statutes
-- Update deadlines, fees, procedures affected by statute changes
+-[x] Validate all 51 transparency statutes for accuracy and currency
+- [x] Check for recent/pending amendments (2022-2025)
+- [x] Update full statute text with verified current versions
+-[x] Validate ALL downstream information against corrected statutes
+-[x] Update date deadlines, fees, procedures affected by statute changes
+- [x] Deleted old outdated information from the transparency repository, but kept the templates of the forms for storing the data. Our new immediate priority 08-29-25 is to complete the templates and 
 
 #### **Validation Priorities**
-- **Tier 1 (Week 1-2)**: 8 high-risk states (NY S2520A, CA recodification, TX updates, FL exemptions, IL amendments, PA access issues, OH changes, GA sources)
-- **Tier 2 (Week 2-3)**: 8 medium-priority states with recent activity
-- **Tier 3 (Week 3-4)**: Remaining 35 jurisdictions + DC + Federal
+-[x] **Tier 1 (Week 1-2)**: 8 high-risk states (NY S2520A, CA recodification, TX updates, FL exemptions, IL amendments, PA access issues, OH changes, GA sources)
+-[x] **Tier 2 (Week 2-3)**: 8 medium-priority states with recent activity
+- [x]**Tier 3 (Week 3-4)**: Remaining 35 jurisdictions + DC + Federal
 
 #### **Deliverables**
 - Validated statutory text database (51 jurisdictions)
@@ -30,30 +35,32 @@
 - Comprehensive validation documentation
 - Quality assurance certification
 
-### **🚫 PHASE 2: OBSTRUCTION ANALYSIS** (BLOCKED)
+### **🚫 PHASE 2: OBSTRUCTION ANALYSIS - Database Completion** (Immediate Priority)
 **Status**: CANNOT START until Phase 1 complete
 **Timeline**: 2-3 weeks (once accurate statutes available)
 **Dependency**: Requires validated, current statutory framework
 
 #### **Work Remaining**
-- Complete comprehensive analysis of obstruction mechanisms using ACCURATE statutes
-- Identify statutory gaps and loopholes based on current law
-- Document agency exploitation patterns with verified legal framework
-- Create counter-strategy frameworks aligned with actual statutory requirements
-- Update obstruction vulnerability rankings based on current law
+- [ ] Populate a consolidated datasets and templates with the now fully validated data. Make sure all csv, json, and other tables and files are fully populated with our transparency data **Curret Priority**
+-[ ] Complete comprehensive analysis of obstruction mechanisms using ACCURATE statutes
+-[ ] Identify statutory gaps and loopholes based on current law
+-[ ] Document agency exploitation patterns with verified legal framework
+-[ ] Create counter-strategy frameworks aligned with actual statutory requirements
+-[ ] Update obstruction vulnerability rankings based on current law
 
-#### **Critical Note**
-**Cannot proceed without accurate statutes** - analysis based on incorrect or outdated laws would be worse than useless, potentially harmful to transparency advocates.
 
 ### **🚫 PHASE 3: DATABASE INTEGRITY RESTORATION** (BLOCKED)
 **Status**: Depends on Phases 1-2 completion
-**Timeline**: 1-2 weeks
+**Timeline**: ~2-days-1 week
 
 #### **Requirements**
-- Integrate validated statutes into master database
-- Apply obstruction analysis findings to database structure
-- Prepare verified data for Supabase deployment
-- Complete database testing and integrity verification
+- Take templates and dataset and completely populate the supabase dataset with the schemes needed for each suproject
+-[ ] **Decision Point** a) keep data currently in supabse project b) erase current supabase database and start fresh. I am leaning towards option b as I want this to be completely clean, unaffected by any mistakes made in the past. We should backup the current database entirely, use it for reference, and start over with a clean slate.
+-[ ]Integrate validated statutes into master database
+-[ ] Apply obstruction analysis findings to database structure
+-[ ] Prepare verified data for Supabase deployment
+-[ ] Complete **database testing** and integrity verification
+-[ ] We need to setup supabase according to the instructions on the website and deploy github action testing with custom tests to ensure that our database is perfect before we migrate it to production
 
 ### **🚫 PHASE 4: SUPABASE DEPLOYMENT** (BLOCKED)
 **Status**: Depends on Phase 3 completion
@@ -134,8 +141,8 @@ PRODUCTION LAUNCH (Phase 8)
 ## 📈 **REALISTIC TIMELINE PROJECTION**
 
 ### **Conservative Estimates**
-- **Phase 1** (Statute Validation): **2-4 weeks**
-- **Phase 2** (Obstruction Analysis): **2-3 weeks**
+- [x] **Phase 1** (Statute Validation): **2-4 weeks**
+- **Phase 2** (Obstruction Analysis): **2-3 weeks** Need to populate all templates in the workspace with the data. need to make sure none of the datasets that we have are incomplete. We have all the data that we need and it is 100% valid, we just need to clean it up and distribute it. We need a curated set that wil power the transparency map, we need a comprehansive set that will power the wiki (where we will have detailed information for each state.)
 - **Phase 3** (Database Integrity): **1-2 weeks**
 - **Phase 4** (Supabase Deployment): **1-2 weeks**
 - **Phase 5** (Backend Integration): **2-3 weeks**
