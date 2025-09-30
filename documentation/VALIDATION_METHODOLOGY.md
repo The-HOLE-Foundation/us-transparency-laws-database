@@ -21,7 +21,7 @@ This database serves as ground truth for AI training - 100% accuracy is mandator
 - News articles or media summaries
 
 ## Validation Steps for Each State
-
+**This SHOULD all be done. Check and mark if it is or it isn't (claude code instruction)
 ### Step 1: Statute Identification
 - [ ] Find official state legislature website
 - [ ] Locate current statutory code

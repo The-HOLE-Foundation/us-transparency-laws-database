@@ -2,6 +2,22 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Document Standards (GLOBAL REQUIREMENT)
+
+**Every document generated must include the following header:**
+
+```
+---
+DATE: [YYYY-MM-DD]
+AUTHOR: [Author Name or "Claude Code AI Assistant"]
+PROJECT: The HOLE Foundation - US Transparency Laws Database
+SUBPROJECT: [Specific component, e.g., "Supabase Schema Design", "Data Validation", "Process Maps"]
+VERSION: v0.11
+---
+```
+
+This applies to all markdown files, documentation, reports, schemas, and any other documents created for this project.
+
 ## Project Overview
 
 This repository is a comprehensive database of US transparency laws (FOIA and public records laws) for all 51 jurisdictions (50 states + DC + Federal). The project is currently in **template mode (v0.11)** - all data files have been cleared and replaced with empty templates ready to be populated with verified data.
@@ -109,9 +125,81 @@ This repository is part of the HOLE Foundation ecosystem:
 - Database is structured for Supabase compatibility
 - JSON structure designed for direct API consumption
 
+## Development Commands
+
+### Supabase Development
+```bash
+# Start Supabase local development
+cd supabase && pnpm setup:cli
+
+# Generate TypeScript types from database
+pnpm generate:types
+
+# Run development server
+pnpm dev
+
+# Build for production
+pnpm build
+
+# Run linting and formatting
+pnpm lint
+pnpm typecheck
+pnpm test:prettier
+pnpm format
+```
+
+### Data Migration and Validation
+```bash
+# Run data migration scripts
+./scripts/migrate_data_files.sh
+python3 scripts/complete_migration.py
+
+# Find and resolve duplicates
+python3 scripts/find_duplicates.py
+
+# Extract and process map data
+python3 scripts/extract_map_data.py
+
+# Rename files to v0.11 convention
+python3 scripts/rename_to_v0_11.py
+```
+
+### Data Validation (Required for PR approval)
+```bash
+# Verify all 51 jurisdictions present
+scripts/verify_jurisdictions.sh
+
+# Validate JSON schema compliance
+scripts/validate_data.py
+
+# Check Supabase compatibility
+scripts/check_supabase.sh
+```
+
+## Architecture Overview
+
+### Database Design
+- **Supabase Backend**: Full Supabase integration with TypeScript types generated from schema
+- **Three-Layer Architecture**: Raw statutory → Structured jurisdiction → Consolidated resources
+- **Cross-Repository Integration**: Designed to serve theholetruth-platform React application
+
+### Code Quality Gates
+- Minimum 80% test coverage required
+- Maximum complexity score of 10
+- TypeScript definitions required for all data structures
+- Naming conventions enforced per .github/claude-code.yml
+
+### Development Workflow
+1. **Data Entry**: Start with templates in `templates/json/`
+2. **Validation**: Use official government sources only (see validation rules)
+3. **Migration**: Run migration scripts to organize data
+4. **Integration**: Sync with Supabase schema using `pnpm generate:types`
+5. **Quality Checks**: All PRs require Claude Code review and custom validation scripts
+
 ## Important Notes
 
 - README.md describes the repository as "production ready" but this reflects the template structure, not data completeness
 - Current state: All data files are empty templates awaiting verified data
 - Priority jurisdictions: Federal (priority 1), major states including CA, FL, IL, NY, TX (priority 2), all others (priority 3)
 - Target: 51 total jurisdictions (50 states + DC + Federal)
+- **Package Manager**: Use `pnpm` (required by Supabase setup, engines requirement: pnpm >=10.16)

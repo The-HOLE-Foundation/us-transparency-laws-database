@@ -1,7 +1,7 @@
 # TRANSPARENCY STATUTE OBSTRUCTION ANALYSIS FRAMEWORK
 
 ## CORE THESIS
-**Transparency statutes exist primarily to provide the appearance of transparency, not actual transparency.** They function as intended when citizens request routine, non-sensitive information. However, when requests target information agencies prefer to withhold, the statutes reveal numerous built-in mechanisms for obstruction and delay.
+**Transparency statutes exist primarily to provide the appearance of transparency, not actual transparency.** They function as intended when citizens request routine, non-sensitive information. However, when requests target information, many agencies will show a preference to withhold, the statutes reveal numerous built-in mechanisms for obstruction and delay.
 
 ## OBSTRUCTION CATEGORIES
 

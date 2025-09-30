@@ -1,0 +1,64 @@
+{
+  "jurisdiction_code": "AL",
+  "jurisdiction_name": "Alabama",
+  "statute_abbreviation": "PRL",
+  "statute_full_name": "Alabama Public Records Law",
+  "core_principle": "Every Alabama resident has the right to inspect and copy public records, except as otherwise provided by law.",
+  "recent_changes_2024_2025": "No significant statutory changes. 2024 clarified that text messages and emails related to public business are public records.",
+  "response_timeline_days": -1,
+  "response_timeline_type": "flexible",
+  "response_timeline_description": "Reasonable time (no fixed statutory deadline)",
+  "response_timeline_factors": [
+    "Request complexity",
+    "Volume of records",
+    "Agency resources",
+    "Need for legal review"
+  ],
+  "response_timeline_extension": {
+    "allowed": false,
+    "max_days": null,
+    "conditions": "N/A - no fixed deadline to extend"
+  },
+  "public_record_categories": [
+    "Text messages and emails related to public business",
+    "Agency financial records",
+    "Government contracts",
+    "Meeting minutes and agendas",
+    "Personnel records (with exemptions)"
+  ],
+  "fee_structure": {
+    "standard_copying": "$1.00 per page (max for first 50 pages), $0.50 per page thereafter",
+    "search_fees": "Not specified",
+    "electronic_records": "Actual cost of reproduction, not to exceed hard copy fees",
+    "programming_fees": "Not specifically addressed",
+    "minimum_threshold": null,
+    "fee_waiver_available": false,
+    "waiver_criteria": []
+  },
+  "appeal_process": {
+    "type": "Court action",
+    "venue": "Circuit Court",
+    "timeline_days": null,
+    "timeline_description": "No specific statutory deadline",
+    "attorney_fees_available": true,
+    "burden_of_proof": "Agency must justify denial"
+  },
+  "key_features_tags": [
+    "Attorney Fees Available",
+    "Reasonable Time Standard",
+    "No Fixed Deadline",
+    "Constitutional Protection"
+  ],
+  "official_resources": {
+    "statute_url": "https://codes.findlaw.com/al/title-36-public-officers-and-employees/al-code-sect-36-12-40/",
+    "ag_page_url": "https://www.alabamaag.gov/",
+    "request_portal_url": null
+  },
+  "metadata": {
+    "version": "v0.11",
+    "verification_date": "2025-09-26",
+    "last_statutory_update": "2024",
+    "process_map_source": "Alabama-PRL-v0.11.md",
+    "timeline_code_reference": -1
+  }
+}
