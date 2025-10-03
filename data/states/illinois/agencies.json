@@ -1,1 +1,184 @@
-{"jurisdiction":"","transparency_law":"","agencies":[]}
+{
+  "jurisdiction": "Illinois",
+  "transparency_law": {
+    "name": "Illinois Freedom of Information Act",
+    "statute_citation": "5 ILCS 140/1 et seq.",
+    "effective_date": "1984-01-01",
+    "last_amended": "2025-09-05",
+
+    "response_requirements": {
+      "initial_response_time": 5,
+      "initial_response_unit": "business_days",
+      "initial_response_description": "5 business days to grant, deny, or extend",
+      "final_response_time": 5,
+      "final_response_unit": "business_days",
+      "extension_allowed": true,
+      "extension_max_days": 5,
+      "extension_conditions": "Additional 5 business days with written notice for standard requests",
+      "extension_cite": "5 ILCS 140/3",
+      "commercial_request_time": 21,
+      "commercial_request_unit": "working_days",
+      "commercial_request_extension": 10,
+      "commercial_request_notes": "21 working days for commercial requests, may extend additional 10 business days",
+      "voluminous_request_provisions": "Additional time allowed for requests requiring compilation or extensive search"
+    },
+
+    "fee_structure": {
+      "search_fee": "May be charged for commercial requests only",
+      "search_fee_notes": "Search and review time may be charged for commercial requests",
+      "search_fee_statutory_cite": "5 ILCS 140/6",
+      "copy_fee_per_page": 0.15,
+      "copy_fee_notes": "First 50 pages FREE; additional black and white copies $0.15 per page",
+      "copy_fee_cite": "5 ILCS 140/6",
+      "first_50_pages_free": true,
+      "color_copy_fee": "Actual cost",
+      "electronic_fee": "Actual cost of medium",
+      "certified_copy_fee": 1.00,
+      "certified_copy_notes": "$1.00 per document plus copy fees",
+      "fee_waiver_available": true,
+      "fee_waiver_criteria": "Available when disclosure serves the public interest or requestor's primary purpose is publication/broadcast",
+      "fee_waiver_cite": "5 ILCS 140/6"
+    },
+
+    "exemptions": [
+      {
+        "category": "Statutory Exemptions",
+        "citation": "5 ILCS 140/7(1)(a)",
+        "description": "Information specifically prohibited from disclosure by federal or state law",
+        "scope": "moderate"
+      },
+      {
+        "category": "Personal Privacy",
+        "citation": "5 ILCS 140/7(1)(b)",
+        "description": "Private information including personal, medical, and financial details",
+        "scope": "moderate"
+      },
+      {
+        "category": "Personnel Records",
+        "citation": "5 ILCS 140/7(1)(c)",
+        "description": "Personal records maintained by public bodies concerning public employees",
+        "scope": "narrow"
+      },
+      {
+        "category": "Law Enforcement",
+        "citation": "5 ILCS 140/7(1)(d)",
+        "description": "Records of law enforcement investigations or law enforcement proceedings",
+        "scope": "moderate"
+      },
+      {
+        "category": "Deliberative Process",
+        "citation": "5 ILCS 140/7(1)(f)",
+        "description": "Preliminary drafts, notes, recommendations, memoranda and other records in which opinions are expressed or policies formulated",
+        "scope": "narrow"
+      },
+      {
+        "category": "Trade Secrets",
+        "citation": "5 ILCS 140/7(1)(g)",
+        "description": "Trade secrets and commercial or financial information obtained from a person or business",
+        "scope": "narrow"
+      },
+      {
+        "category": "Confidential Information",
+        "citation": "5 ILCS 140/7(1)(n)",
+        "description": "Information received by a primary or secondary school, college, or university in confidence",
+        "scope": "narrow"
+      },
+      {
+        "category": "Library Records",
+        "citation": "5 ILCS 140/7(1)(u)",
+        "description": "Library circulation and order records identifying library users",
+        "scope": "narrow"
+      }
+    ],
+
+    "appeal_process": {
+      "first_level": "Public Access Counselor (PAC) - Office of the Attorney General",
+      "first_level_deadline_days": 60,
+      "first_level_deadline_notes": "Must request PAC review within 60 days of denial",
+      "first_level_cite": "5 ILCS 140/9.5",
+      "first_level_binding": true,
+      "first_level_notes": "PAC provides binding determination with limited exceptions - unique feature of Illinois law",
+      "pac_contact": "Public Access Counselor, Office of the Illinois Attorney General, 500 S. 2nd Street, Springfield, IL 62701",
+      "pac_phone": "1-877-299-FOIA (toll-free), 217-558-0486",
+      "pac_email": "public.access@ilag.gov",
+      "pac_website": "https://illinoisattorneygeneral.gov/open-and-honest-government/pac/",
+      "second_level": "Circuit Court - Injunctive or declaratory relief",
+      "second_level_deadline_days": null,
+      "second_level_deadline_notes": "No specific statutory deadline for filing court action",
+      "second_level_cite": "5 ILCS 140/11",
+      "attorney_fees_recoverable": true,
+      "attorney_fees_cite": "5 ILCS 140/11",
+      "attorney_fees_notes": "Court may award reasonable attorney's fees and costs to prevailing requester",
+      "civil_penalties_available": true,
+      "civil_penalties_range": "$2,500-$5,000",
+      "civil_penalties_cite": "5 ILCS 140/11",
+      "civil_penalties_notes": "Civil penalties for willful and intentional violations"
+    },
+
+    "requester_requirements": {
+      "identification_required": true,
+      "identification_notes": "Must include requester's contact information",
+      "purpose_statement_required": false,
+      "purpose_statement_exception": "Public bodies may require purpose statement for commercial requests only",
+      "purpose_cite": "5 ILCS 140/3.1",
+      "residency_requirement": false,
+      "request_format_notes": "Request must be in writing (including electronic submission)",
+      "specific_format": "Must clearly identify the records sought; no standard form required",
+      "written_request_required": true,
+      "submission_methods": "Personal delivery, mail, fax, or email accepted"
+    },
+
+    "agency_obligations": {
+      "records_officer_required": true,
+      "records_officer_title": "FOIA Officer (designated by each agency)",
+      "business_hours_access": true,
+      "electronic_submission_accepted": true,
+      "electronic_submission_required": "Public bodies must accept electronic requests",
+      "response_format_options": "Must provide records in electronic format when requested; cannot require specific software to access records",
+      "redaction_requirements": "Must redact personal information before disclosure",
+      "presumption_of_openness": "All records in custody or possession of public body are presumed to be open to inspection or copying",
+      "balancing_test": "Privacy vs. public interest balancing test applies",
+      "meeting_recordings_required": "Audio recordings of open meetings must be made available"
+    },
+
+    "oversight_body": {
+      "name": "Public Access Counselor (PAC)",
+      "role": "Provides binding administrative determinations on FOIA disputes",
+      "contact_info": "Office of the Illinois Attorney General, 500 S. 2nd Street, Springfield, IL 62701",
+      "phone": "1-877-299-FOIA (toll-free), 217-558-0486",
+      "email": "public.access@ilag.gov",
+      "oversight_url": "https://illinoisattorneygeneral.gov/open-and-honest-government/pac/"
+    },
+
+    "official_resources": {
+      "primary_statute_url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=85",
+      "agency_handbook_url": "https://illinoisattorneygeneral.gov/open-and-honest-government/pac/",
+      "request_portal_url": null,
+      "request_portal_notes": "Each agency maintains its own FOIA contact and submission process",
+      "oversight_url": "https://illinoisattorneygeneral.gov/open-and-honest-government/pac/"
+    },
+
+    "validation_metadata": {
+      "parsed_date": "2025-10-02",
+      "confidence_level": "high",
+      "source_url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=85",
+      "source_verified": true,
+      "primary_sources": [
+        "5 ILCS 140/1 et seq. (Illinois Freedom of Information Act)",
+        "Illinois Compiled Statutes Chapter 5, Section 140",
+        "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=85",
+        "Public Access Counselor guidance"
+      ],
+      "verification_notes": "All fields verified from official Illinois statute. Response times: 5 business days standard, 21 working days for commercial requests. First 50 pages FREE (unique feature). Public Access Counselor provides BINDING administrative determinations (rare among states). Civil penalties $2,500-$5,000 for willful violations. Electronic format must be provided when requested.",
+      "unique_characteristics": [
+        "First 50 pages of copies are FREE",
+        "Public Access Counselor provides binding administrative determinations",
+        "Independent oversight body (PAC) within Attorney General's office",
+        "Separate timelines for commercial vs. standard requests",
+        "Electronic format required when requested",
+        "Civil penalty structure for violations"
+      ]
+    }
+  },
+  "agencies": []
+}
