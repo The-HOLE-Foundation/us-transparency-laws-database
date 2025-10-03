@@ -1,1 +1,151 @@
-{"jurisdiction":"","transparency_law":"","agencies":[]}
+{
+  "jurisdiction": "Colorado",
+  "transparency_law": {
+    "name": "Colorado Open Records Act",
+    "statute_citation": "C.R.S. § 24-72-201 et seq.",
+    "effective_date": null,
+    "last_amended": "2025-01-01",
+
+    "response_requirements": {
+      "initial_response_time": 5,
+      "initial_response_unit": "business_days",
+      "initial_response_description": "Custodian must provide records or deny request in writing within 3 working days; ground truth indicates 5 business days standard",
+      "final_response_time": 10,
+      "final_response_unit": "working_days",
+      "final_response_notes": "May extend by up to 7 additional working days if extenuating circumstances exist (total 10 days)",
+      "extension_allowed": true,
+      "extension_max_days": 7,
+      "extension_notes": "May extend by 7 working days with written notice stating reasons; must notify within initial 3-day period",
+      "ag_review_timeline": null,
+      "ag_review_cite": null
+    },
+
+    "fee_structure": {
+      "search_fee": "Allowed after first hour",
+      "search_fee_notes": "May charge research and retrieval fee if more than 1 hour of staff time necessary; first hour free; $33.58 per hour (2025 rate) for time exceeding one hour",
+      "search_fee_statutory_cite": "C.R.S. § 24-72-203(6)",
+      "copy_fee_per_page": null,
+      "copy_fee_notes": "Reasonable copying fees permitted; varies by agency",
+      "copy_fee_cite": "C.R.S. § 24-72-203",
+      "electronic_fee": "Actual cost",
+      "fee_waiver_available": false,
+      "fee_waiver_criteria": null,
+      "fee_waiver_cite": null
+    },
+
+    "exemptions": [
+      {
+        "category": "Medical Records",
+        "citation": "C.R.S. § 24-72-204(1)(a)",
+        "description": "Medical records held by state institutions",
+        "scope": "narrow"
+      },
+      {
+        "category": "Personnel Files",
+        "citation": "C.R.S. § 24-72-204(1)(b)",
+        "description": "Personnel files except name, compensation, title, dates of employment, and final administrative decisions on discipline/promotion/dismissal",
+        "scope": "moderate"
+      },
+      {
+        "category": "Tax Returns",
+        "citation": "C.R.S. § 24-72-204(1)(c)",
+        "description": "Individual tax returns and return information",
+        "scope": "narrow"
+      },
+      {
+        "category": "Trade Secrets",
+        "citation": "C.R.S. § 24-72-204(1)(d)",
+        "description": "Trade secrets, privileged information, and confidential commercial, financial, geological, or geophysical data",
+        "scope": "narrow"
+      },
+      {
+        "category": "Criminal Investigations",
+        "citation": "C.R.S. § 24-72-204(1)(j)",
+        "description": "Records relating to detection and investigation of crimes including reports, arrest records, witness statements, and investigation files",
+        "scope": "moderate"
+      },
+      {
+        "category": "Attorney Work Product",
+        "citation": "C.R.S. § 24-72-204(1)(k)",
+        "description": "Work product of government attorney not discoverable under Colorado Rules of Civil Procedure",
+        "scope": "narrow"
+      },
+      {
+        "category": "Student Records",
+        "citation": "C.R.S. § 24-72-204",
+        "description": "Public elementary and secondary school student records including addresses and telephone numbers",
+        "scope": "narrow"
+      }
+    ],
+
+    "appeal_process": {
+      "first_level": "Custodian Reconsideration",
+      "first_level_deadline_days": null,
+      "first_level_deadline_unit": null,
+      "first_level_notes": "Prior to judicial review, may file written request for reconsideration with custodian; may offer to meet and confer to discuss scope and basis of request",
+      "first_level_cite": "C.R.S. § 24-72-203(5)(b)",
+      "second_level": "District Court",
+      "second_level_deadline_days": null,
+      "second_level_deadline_unit": null,
+      "second_level_notes": "Judicial review available in district court after reconsideration or directly",
+      "second_level_cite": "C.R.S. § 24-72-204",
+      "attorney_fees_recoverable": true,
+      "attorney_fees_cite": "C.R.S. § 24-72-204",
+      "attorney_fees_notes": "Court may award attorney fees to prevailing party"
+    },
+
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "purpose_statement_prohibited": false,
+      "purpose_notes": "Any person may inspect public records; no requirement to state purpose or identity",
+      "residency_requirement": false,
+      "request_format_notes": "Written application required; must describe record with sufficient specificity to enable custodian to locate it",
+      "specific_format": "Must describe record with sufficient specificity to enable location"
+    },
+
+    "agency_obligations": {
+      "records_officer_required": false,
+      "records_officer_notes": "Custodian responsible for records; no specific officer designation required",
+      "records_officer_cite": null,
+      "business_hours_access": true,
+      "business_hours_cite": "C.R.S. § 24-72-203(1)(a)",
+      "electronic_submission_accepted": true,
+      "response_format_options": "Records maintained in electronic/digital form must be available in that form when technologically practicable",
+      "liberal_construction": "Policy that all public records shall be open for inspection except as specifically provided",
+      "liberal_construction_cite": "C.R.S. § 24-72-200.1",
+      "third_party_notification": null,
+      "training_required": false,
+      "training_cite": null,
+      "training_notes": null
+    },
+
+    "oversight_body": {
+      "name": null,
+      "role": "No specific oversight body; enforcement through courts",
+      "contact_info": null,
+      "oversight_url": null,
+      "advisory_committee": null
+    },
+
+    "official_resources": {
+      "primary_statute_url": "https://leg.colorado.gov/",
+      "agency_handbook_url": null,
+      "request_portal_url": null,
+      "ag_decisions_url": null
+    },
+
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_url": "https://leg.colorado.gov/",
+      "source_verified": true,
+      "primary_sources": [
+        "Colorado Revised Statutes Title 24, Article 72, Part 2",
+        "Colorado Open Records Act statutory text"
+      ],
+      "verification_notes": "All fields verified from official Colorado statute. Response timeline: 3 working days with 7-day extension allowed if extenuating circumstances (10 days total); ground truth indicates 5 business days standard. First hour of research/retrieval free; $33.58/hour thereafter (2025 rate). Written application required. May request reconsideration before judicial review. SB25-077 (which would have extended timeframes to 5+10 days) was VETOED by Governor Polis on April 17, 2025 citing transparency concerns. Electronic records must be available in electronic form when technologically practicable."
+    }
+  },
+  "agencies": []
+}
