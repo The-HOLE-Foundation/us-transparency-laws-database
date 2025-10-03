@@ -1,1 +1,135 @@
-{"jurisdiction":"","transparency_law":"","agencies":[]}
+{
+  "jurisdiction": "Virginia",
+  "transparency_law": {
+    "name": "Virginia Freedom of Information Act",
+    "statute_citation": "Va. Code § 2.2-3700 et seq.",
+    "effective_date": null,
+    "last_amended": "2024-01-01",
+
+    "response_requirements": {
+      "initial_response_time": 5,
+      "initial_response_unit": "business_days",
+      "initial_response_description": "Public body must respond within 5 working days of receipt (day after request received is day one)",
+      "final_response_time": 7,
+      "final_response_unit": "business_days",
+      "final_response_notes": "If impossible to respond in 5 days, may extend 7 additional working days with written explanation (total 12 working days maximum)",
+      "extension_allowed": true,
+      "extension_max_days": 7,
+      "extension_notes": "Must explain conditions making 5-day response impossible; requests after 5 PM considered received next working day"
+    },
+
+    "fee_structure": {
+      "search_fee": "May charge for search time",
+      "search_fee_notes": "May charge reasonable fees for search, retrieval, and copying",
+      "search_fee_statutory_cite": "Va. Code § 2.2-3704",
+      "copy_fee_per_page": null,
+      "copy_fee_notes": "Actual cost of reproduction",
+      "copy_fee_cite": "Va. Code § 2.2-3704",
+      "electronic_fee": "Actual cost",
+      "fee_waiver_available": false
+    },
+
+    "exemptions": [
+      {
+        "category": "Confidential by Law",
+        "citation": "Va. Code § 2.2-3705",
+        "description": "Records made confidential by law",
+        "scope": "broad"
+      },
+      {
+        "category": "Personnel Records",
+        "citation": "Va. Code § 2.2-3705.1",
+        "description": "Personnel records including employment applications, performance evaluations, and disciplinary records",
+        "scope": "moderate"
+      },
+      {
+        "category": "Medical and Mental Health Records",
+        "citation": "Va. Code § 2.2-3705.5",
+        "description": "Medical and mental health records",
+        "scope": "narrow"
+      },
+      {
+        "category": "Attorney-Client Privilege",
+        "citation": "Va. Code § 2.2-3705.1",
+        "description": "Attorney-client privileged communications and attorney work product",
+        "scope": "narrow"
+      },
+      {
+        "category": "Law Enforcement Investigative Records",
+        "citation": "Va. Code § 2.2-3706",
+        "description": "Criminal investigative files and law enforcement records",
+        "scope": "moderate"
+      },
+      {
+        "category": "Trade Secrets",
+        "citation": "Va. Code § 2.2-3705.1",
+        "description": "Trade secrets and proprietary information",
+        "scope": "narrow"
+      },
+      {
+        "category": "Personal Information",
+        "citation": "Va. Code § 2.2-3705.1",
+        "description": "Personal contact information and identifying details",
+        "scope": "moderate"
+      }
+    ],
+
+    "appeal_process": {
+      "first_level": "Circuit Court or General District Court",
+      "first_level_deadline_days": null,
+      "first_level_notes": "No administrative appeal; direct petition to circuit court or general district court",
+      "first_level_cite": "Va. Code § 2.2-3713",
+      "second_level": null,
+      "second_level_deadline_days": null,
+      "attorney_fees_recoverable": true,
+      "attorney_fees_cite": "Va. Code § 2.2-3713",
+      "attorney_fees_notes": "Court may award reasonable costs and attorney fees to prevailing petitioner"
+    },
+
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "residency_requirement": false,
+      "request_format_notes": "May be oral or written (written recommended); must adequately identify desired records",
+      "specific_format": "No specific format required; submit to custodian of records"
+    },
+
+    "agency_obligations": {
+      "records_officer_required": true,
+      "records_officer_notes": "Custodian of records designated for each public body",
+      "records_officer_cite": "Va. Code § 2.2-3704",
+      "business_hours_access": true,
+      "electronic_submission_accepted": true,
+      "response_format_options": "Must make reasonable efforts to reach agreement with requester",
+      "liberal_construction": "Liberally construed to promote awareness of governmental activities; exemptions narrowly construed",
+      "liberal_construction_cite": "Va. Code § 2.2-3700",
+      "burden_of_proof": "Burden on public body to justify denial"
+    },
+
+    "oversight_body": {
+      "name": "Virginia Freedom of Information Advisory Council",
+      "role": "Provides guidance, training, and dispute resolution assistance",
+      "contact_info": null,
+      "oversight_url": "http://foiacouncil.dls.virginia.gov/"
+    },
+
+    "official_resources": {
+      "primary_statute_url": "https://law.lis.virginia.gov/vacodefull/title2.2/chapter37/",
+      "agency_handbook_url": "http://foiacouncil.dls.virginia.gov/",
+      "request_portal_url": null
+    },
+
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_url": "https://law.lis.virginia.gov/vacodefull/title2.2/chapter37/",
+      "source_verified": true,
+      "primary_sources": [
+        "Va. Code Title 2.2, Chapter 37, §§ 2.2-3700 through 2.2-3714",
+        "VIRGINIA_transparency_law-v0.11.txt"
+      ],
+      "verification_notes": "All fields manually verified from official Virginia statute. 5 working day response with 7 day extension possible (12 day maximum). May charge for search and copying. No administrative appeal - direct court review. Attorney fees to prevailing petitioner. Liberal construction favoring access, narrow construction of exemptions. Strong presumption of openness. FOIA Advisory Council provides guidance."
+    }
+  },
+  "agencies": []
+}
