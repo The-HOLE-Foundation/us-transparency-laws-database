@@ -1,1 +1,209 @@
-{"jurisdiction":"","transparency_law":"","agencies":[]}
+{
+  "jurisdiction": "Delaware",
+  "transparency_law": {
+    "name": "Delaware Freedom of Information Act",
+    "statute_citation": "Delaware Code Title 29, Chapter 100, §§ 10001-10008",
+    "effective_date": "1977-01-01",
+    "last_amended": null,
+    "response_requirements": {
+      "initial_response_time": 15,
+      "initial_response_unit": "business_days",
+      "initial_response_description": "Public body shall respond as soon as possible, but in any event within 15 business days after receipt of request.",
+      "maximum_response_time": 25,
+      "extension_allowed": true,
+      "extension_max_time": 10,
+      "extension_conditions": [
+        "Request is for voluminous amount of material",
+        "Request requires legal review"
+      ],
+      "no_response_consequence": "Request deemed denied if no response within required time periods"
+    },
+    "fee_structure": {
+      "standard_copy_fee": "$0.10 per sheet ($0.20 for double-sided) after first 20 free pages",
+      "electronic_fee": "Actual cost of electronic media",
+      "search_time_fee": "None specified",
+      "certification_fee": "Not specified",
+      "waiver_available": false,
+      "waiver_criteria": [],
+      "notes": "First 20 pages free. Microfilm/microfiche: $0.15 per sheet after first 20 free pages. Requesters may use own copying equipment if agency cannot copy."
+    },
+    "exemptions": [
+      {
+        "category": "Trade Secrets and Business Information",
+        "citation": "29 Del. C. § 10004(a)",
+        "description": "Trade secrets and commercial or financial information obtained from a person which is of a privileged or confidential nature",
+        "scope": "moderate"
+      },
+      {
+        "category": "Personal Privacy",
+        "citation": "29 Del. C. § 10004(b)",
+        "description": "Information of a personal nature where the public disclosure thereof would constitute an unreasonable invasion of personal privacy",
+        "scope": "moderate"
+      },
+      {
+        "category": "Statutory Exemptions",
+        "citation": "29 Del. C. § 10004(c)",
+        "description": "Information specifically exempted from disclosure by statute or common law",
+        "scope": "broad"
+      },
+      {
+        "category": "Court-Ordered Confidentiality",
+        "citation": "29 Del. C. § 10004(d)",
+        "description": "Information or records declared by a court of this State to be confidential",
+        "scope": "narrow"
+      },
+      {
+        "category": "Economic Development",
+        "citation": "29 Del. C. § 10004(e)",
+        "description": "Information relating to prospective location or expansion of business or industry where no previous public announcement made (expires 1 year from creation)",
+        "scope": "narrow"
+      },
+      {
+        "category": "Public Health and Safety",
+        "citation": "29 Del. C. § 10004(f)",
+        "description": "Records whose disclosure would be detrimental to public health, safety or welfare or would impair effective operation of government",
+        "scope": "broad"
+      },
+      {
+        "category": "Law Enforcement Investigations",
+        "citation": "29 Del. C. § 10004(g)",
+        "description": "Investigatory files compiled for civil, administrative or criminal law-enforcement purposes except to extent available by common law or statute",
+        "scope": "moderate"
+      },
+      {
+        "category": "Testing Materials",
+        "citation": "29 Del. C. § 10004(h)",
+        "description": "Test questions, scoring keys and other examination data (candidate may obtain own essay answers)",
+        "scope": "narrow"
+      },
+      {
+        "category": "Medical and Workers Compensation",
+        "citation": "29 Del. C. § 10004(i)",
+        "description": "Records related to employees' medical condition and history, workers' compensation claims, and records prohibited by federal law",
+        "scope": "moderate"
+      },
+      {
+        "category": "Litigation Anticipation",
+        "citation": "29 Del. C. § 10004(j)",
+        "description": "Information compiled in reasonable anticipation of a civil action or proceeding",
+        "scope": "moderate"
+      },
+      {
+        "category": "Computer Software and GIS",
+        "citation": "29 Del. C. § 10004(k)",
+        "description": "Computer software developed by public body or computer mapping/GIS, including preparatory records",
+        "scope": "narrow"
+      },
+      {
+        "category": "Library Records",
+        "citation": "29 Del. C. § 10004(l)",
+        "description": "Library records that would identify any individual who borrowed or received materials from library",
+        "scope": "narrow"
+      },
+      {
+        "category": "Student Records",
+        "citation": "29 Del. C. § 10004(m)",
+        "description": "Student records required by federal or state law to be kept confidential",
+        "scope": "moderate"
+      },
+      {
+        "category": "Undercover Officers",
+        "citation": "29 Del. C. § 10004(n)",
+        "description": "Records related to undercover law-enforcement officers, including records that would tend to identify such officers",
+        "scope": "narrow"
+      },
+      {
+        "category": "Pending Litigation",
+        "citation": "29 Del. C. § 10004(p)",
+        "description": "All records related to pending or potential litigation to which State or its agencies is or may be party, including attorney work product",
+        "scope": "broad"
+      },
+      {
+        "category": "Financial Institution Regulation",
+        "citation": "29 Del. C. § 10004(q)",
+        "description": "Information in examination, operating or condition reports for financial institutions (except formal enforcement actions)",
+        "scope": "narrow"
+      },
+      {
+        "category": "Competitive Advantage",
+        "citation": "29 Del. C. § 10004(r)",
+        "description": "Information or records which, if disclosed, would give advantage to competitors or bidders",
+        "scope": "moderate"
+      },
+      {
+        "category": "Infrastructure Security",
+        "citation": "29 Del. C. § 10004(s)",
+        "description": "Infrastructure records that would disclose vulnerabilities to terrorist attack",
+        "scope": "narrow"
+      }
+    ],
+    "appeal_process": {
+      "administrative_appeal_required": false,
+      "appeal_deadline_days": 60,
+      "appeal_deadline_unit": "calendar_days",
+      "appeal_authority": "Court or Attorney General",
+      "appeal_description": "May file suit within 60 days of denial. May also petition Attorney General for determination within 30 days.",
+      "judicial_review_available": true,
+      "judicial_review_deadline_days": 60,
+      "court_jurisdiction": "Any court of competent jurisdiction",
+      "burden_of_proof": "Not specified",
+      "penalties": {
+        "criminal": "Misdemeanor: Up to $500 fine and/or 30 days imprisonment for willful violations",
+        "civil": "Court may assess reasonable attorney fees if willful violation found"
+      }
+    },
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "residency_requirement": true,
+      "specific_format": "Written request to appropriate public body. Web portal available using standard AG form.",
+      "notes": "Must be a citizen. All agencies must develop web portals for FOIA requests."
+    },
+    "agency_obligations": {
+      "records_officer_required": false,
+      "business_hours_access": false,
+      "electronic_submission_accepted": true,
+      "response_format_options": [
+        "Inspection",
+        "Physical copies",
+        "Electronic copies"
+      ],
+      "training_required": false,
+      "annual_reporting_required": false,
+      "specific_obligations": [
+        "Develop web portal for receiving FOIA requests",
+        "Use standard request form promulgated by Attorney General",
+        "Respond within 15 business days",
+        "Provide written notice if extension needed"
+      ]
+    },
+    "oversight_body": {
+      "name": "Delaware Attorney General",
+      "role": "Issues determinations on FOIA violations upon citizen petition; promulgates standard request forms",
+      "contact_info": "Office of the Attorney General",
+      "statute_reference": "29 Del. C. § 10006(c)",
+      "enforcement_powers": [
+        "Issue written determinations on violations",
+        "Limited to determining violations - no injunctive power or penalty authority"
+      ]
+    },
+    "official_resources": {
+      "primary_statute_url": "https://delcode.delaware.gov/title29/c100/",
+      "agency_handbook_url": null,
+      "request_portal_url": null,
+      "oversight_url": "https://attorneygeneral.delaware.gov/"
+    },
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_verified": true,
+      "primary_sources": [
+        "Delaware Code Title 29, Chapter 100",
+        "Delaware Attorney General FOIA Manual"
+      ],
+      "verification_notes": "Parsed from official statutory text file. Response time verified against canonical-values.json (15 business days). 18 exemptions parsed from statute.",
+      "last_verified_date": "2025-10-03"
+    }
+  },
+  "agencies": []
+}
