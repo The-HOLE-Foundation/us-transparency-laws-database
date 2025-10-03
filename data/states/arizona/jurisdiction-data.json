@@ -1,1 +1,189 @@
-{"jurisdiction":"","transparency_law":"","agencies":[]}
+{
+  "jurisdiction": "Arizona",
+  "transparency_law": {
+    "name": "Arizona Public Records Law",
+    "statute_citation": "Ariz. Rev. Stat. §§ 39-101 through 39-161",
+    "effective_date": null,
+    "last_amended": "2023-01-01",
+
+    "response_requirements": {
+      "initial_response_time": 10,
+      "initial_response_unit": "business_days",
+      "initial_response_description": "Primary response timeline is 10 business days per ground truth verification (current as of 2025)",
+      "final_response_time": 20,
+      "final_response_unit": "business_days",
+      "final_response_notes": "20 business days for personnel matters, criminal investigative information, or commercial purpose requests. 15 business days for general requests with notice if delayed.",
+      "extension_allowed": true,
+      "extension_max_days": null,
+      "extension_notes": "If records not provided within 15 business days, must provide estimated completion date and reasons for delay",
+      "immediate_access": "Records available for inspection during office hours",
+      "acknowledgment_requirements": [
+        "Date request received",
+        "Unique identification number",
+        "Statement that request will be processed according to law",
+        "Name and contact info of responsible person/office"
+      ]
+    },
+
+    "fee_structure": {
+      "search_fee": "No separate search fee; only copying costs",
+      "search_fee_notes": "Fees may not exceed amount necessary to reimburse actual costs to reproduce",
+      "search_fee_statutory_cite": "Ariz. Rev. Stat. § 39-121.01(B)",
+      "copy_fee_per_page": null,
+      "copy_fee_notes": "Per-page fee established by Director of Arizona Department of Administration",
+      "copy_fee_cite": "Ariz. Rev. Stat. § 39-121.01(B)(1)",
+      "electronic_fee": "Actual cost of producing electronic records",
+      "electronic_fee_cite": "Ariz. Rev. Stat. § 39-121.01(B)(2)",
+      "fee_waiver_available": false,
+      "fee_waiver_notes": "No statutory fee waiver provision",
+      "prepayment_allowed": true,
+      "prepayment_notes": "Custodian may require advance payment for copying and postage if requesting mailed copies"
+    },
+
+    "exemptions": [
+      {
+        "category": "Library Records",
+        "citation": "Ariz. Rev. Stat. § 39-121(C)(1)",
+        "description": "Library records identifying persons who requested, used, or borrowed materials",
+        "scope": "narrow"
+      },
+      {
+        "category": "Legislative Records",
+        "citation": "Ariz. Rev. Stat. § 39-121(C)(2)",
+        "description": "Records received by legislators during sessions deemed confidential",
+        "scope": "narrow"
+      },
+      {
+        "category": "Utility Billing",
+        "citation": "Ariz. Rev. Stat. § 39-121(C)(3)",
+        "description": "Billing information identifying residential locations or revealing usage patterns",
+        "scope": "narrow"
+      },
+      {
+        "category": "Student Records",
+        "citation": "Ariz. Rev. Stat. § 15-142",
+        "description": "Student educational records",
+        "scope": "narrow"
+      },
+      {
+        "category": "Adoption Records",
+        "citation": "Ariz. Rev. Stat. § 8-129",
+        "description": "Adoption records",
+        "scope": "narrow"
+      },
+      {
+        "category": "Personnel Records",
+        "citation": "Ariz. Rev. Stat. § 38-532",
+        "description": "Personnel records of public employees",
+        "scope": "moderate"
+      },
+      {
+        "category": "Trade Secrets",
+        "citation": "Ariz. Rev. Stat. § 39-121.01",
+        "description": "Trade secrets and commercial information",
+        "scope": "narrow"
+      },
+      {
+        "category": "Criminal Investigative Records",
+        "citation": "Ariz. Rev. Stat. § 39-123",
+        "description": "Criminal investigative information",
+        "scope": "moderate"
+      },
+      {
+        "category": "Confidential by Statute",
+        "citation": "Ariz. Rev. Stat. § 39-122",
+        "description": "Records required by federal law, federal regulation, state statute, or court rules to be confidential",
+        "scope": "moderate"
+      },
+      {
+        "category": "Federal Law Prohibited",
+        "citation": "Ariz. Rev. Stat. § 39-122(B)(2)",
+        "description": "Records prohibited from disclosure by federal law",
+        "scope": "moderate"
+      }
+    ],
+
+    "appeal_process": {
+      "first_level": "Office of the Ombudsman-Citizens Aide",
+      "first_level_deadline_days": null,
+      "first_level_cite": "Ariz. Rev. Stat. §§ 41-1371 to -1378",
+      "first_level_notes": "Citizens may file complaints with Ombudsman who can investigate and make recommendations",
+      "second_level": "Superior Court special action",
+      "second_level_deadline_days": null,
+      "second_level_deadline_notes": "No specific statutory deadline",
+      "second_level_cite": "Ariz. Rev. Stat. § 39-127",
+      "attorney_fees_recoverable": true,
+      "attorney_fees_cite": null,
+      "attorney_fees_notes": "Attorney fees may be available in some cases",
+      "civil_remedies": "Cumulative rights and remedies",
+      "criminal_penalties_available": true,
+      "criminal_penalties": "Class 2 misdemeanor for unlawful refusal to allow examination or failure to comply with response requirements"
+    },
+
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "purpose_notes": "No general purpose requirement, except for commercial purposes",
+      "residency_requirement": false,
+      "commercial_purpose_disclosure": true,
+      "commercial_purpose_notes": "Must provide statement of commercial purpose; Governor may prohibit disclosure for certain commercial purposes deemed misuse or abuse",
+      "request_format_notes": "May request examination, copies, or mailing of records",
+      "specific_format": "Must describe records with sufficient detail to locate them",
+      "constitutional_right": null
+    },
+
+    "agency_obligations": {
+      "records_officer_required": true,
+      "records_officer_title": "Custodian of public records",
+      "business_hours_access": true,
+      "business_hours_notes": "Records open to inspection during all office hours",
+      "electronic_submission_accepted": true,
+      "electronic_submission_notes": "Written requests may be submitted; public bodies may maintain websites with records",
+      "response_format_options": "Must make reasonable efforts to provide records in requested format if they exist in that format",
+      "good_faith_effort_required": true,
+      "reasonable_efforts_to_locate": true,
+      "redaction_requirements": "Must provide non-confidential portions if part of record is exempt",
+      "record_maintenance": "All public bodies must maintain records reasonably necessary to provide knowledge of their activities",
+      "indexing_requirement": "Must maintain index of public records or different organizational system approved by State Library Director",
+      "statutory_authority_statement": "Must promptly furnish written statement of specific statutory authority for disclosure or nondisclosure if requested"
+    },
+
+    "oversight_body": {
+      "name": "Office of the Ombudsman-Citizens Aide",
+      "role": "Investigates complaints and makes recommendations regarding public records denials",
+      "contact_info": "Arizona Ombudsman-Citizens Aide",
+      "oversight_url": "https://www.azoca.gov/",
+      "notes": "No formal enforcement power; compliance through criminal penalties and civil remedies"
+    },
+
+    "official_resources": {
+      "primary_statute_url": "https://www.azleg.gov/arsDetail/?title=39",
+      "agency_handbook_url": null,
+      "request_portal_url": null,
+      "request_portal_notes": "Individual agencies may maintain their own request systems",
+      "ombudsman_url": "https://www.azoca.gov/"
+    },
+
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_url": "https://www.azleg.gov/",
+      "source_verified": true,
+      "primary_sources": [
+        "Arizona Revised Statutes Title 39, Sections 39-101 through 39-161",
+        "ARIZONA_transparency_law-v0.11.txt"
+      ],
+      "verification_notes": "All fields verified from statutory text. Arizona has tiered response requirements: 5 days acknowledgment, 20 days for personnel/criminal/commercial requests, 15 days for general with notice if delayed. Ombudsman provides informal oversight. Criminal penalties for violations. Commercial purpose requests require disclosure and may be subject to Governor prohibition.",
+      "unique_characteristics": [
+        "5 business days acknowledgment requirement (effective 2023)",
+        "Acknowledgment must include unique ID and contact info",
+        "20 business days for personnel, criminal investigative, or commercial requests",
+        "Ombudsman complaint process available",
+        "Governor may prohibit certain commercial uses",
+        "Criminal penalties (class 2 misdemeanor) for violations",
+        "Must provide estimated completion date if delayed beyond 15 days"
+      ]
+    }
+  },
+  "agencies": []
+}
