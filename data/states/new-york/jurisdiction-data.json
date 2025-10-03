@@ -1,1 +1,145 @@
-{"jurisdiction":"","transparency_law":"","agencies":[]}
+{
+  "jurisdiction": "New York",
+  "transparency_law": {
+    "name": "Freedom of Information Law",
+    "statute_citation": "N.Y. Pub. Off. Law § 84-90",
+    "effective_date": "1974-01-01",
+    "last_amended": null,
+
+    "response_requirements": {
+      "initial_response_time": 5,
+      "initial_response_unit": "business_days",
+      "initial_response_description": "Agency must grant access, deny access, or acknowledge receipt and provide approximate date when request will be granted or denied",
+      "final_response_time": 20,
+      "final_response_unit": "business_days",
+      "final_response_notes": "If acknowledged, agency has additional 20 business days to respond (total maximum 25 business days)",
+      "extension_allowed": true,
+      "extension_max_days": 20,
+      "extension_notes": "After initial 5 business day acknowledgment, agency has up to 20 additional business days for reasonable circumstances"
+    },
+
+    "fee_structure": {
+      "search_fee": "No charge for search time",
+      "search_fee_notes": "Agencies may not charge for staff time to locate and retrieve records",
+      "search_fee_statutory_cite": "N.Y. Pub. Off. Law § 87(1)",
+      "copy_fee_per_page": 0.25,
+      "copy_fee_notes": "$0.25 per page for documents up to 9\"x14\"; actual cost for larger or special formats",
+      "copy_fee_cite": "N.Y. Pub. Off. Law § 87(1)(b)(iii)",
+      "electronic_fee": "No charge for records provided electronically",
+      "fee_waiver_available": false,
+      "fee_waiver_criteria": null
+    },
+
+    "exemptions": [
+      {
+        "category": "Statutory Exemption",
+        "citation": "N.Y. Pub. Off. Law § 87(2)(a)",
+        "description": "Records specifically exempted from disclosure by state or federal statute",
+        "scope": "broad"
+      },
+      {
+        "category": "Law Enforcement",
+        "citation": "N.Y. Pub. Off. Law § 87(2)(e)",
+        "description": "Records compiled for law enforcement purposes that would interfere with investigations, deprive fair trial, identify confidential sources, reveal investigative techniques, or endanger life or safety",
+        "scope": "moderate"
+      },
+      {
+        "category": "Personal Privacy",
+        "citation": "N.Y. Pub. Off. Law § 87(2)(b)",
+        "description": "Records that would constitute unwarranted invasion of personal privacy",
+        "scope": "moderate"
+      },
+      {
+        "category": "Trade Secrets",
+        "citation": "N.Y. Pub. Off. Law § 87(2)(d)",
+        "description": "Trade secrets or confidential commercial information",
+        "scope": "narrow"
+      },
+      {
+        "category": "Deliberative Process",
+        "citation": "N.Y. Pub. Off. Law § 87(2)(g)",
+        "description": "Inter-agency or intra-agency materials that are not statistical or factual tabulations, instructions to staff that affect the public, or final agency policy",
+        "scope": "moderate"
+      },
+      {
+        "category": "Computer Security",
+        "citation": "N.Y. Pub. Off. Law § 87(2)(h)",
+        "description": "Computer access codes and security records that could endanger life or safety or jeopardize security",
+        "scope": "narrow"
+      },
+      {
+        "category": "Correctional Facility Security",
+        "citation": "N.Y. Pub. Off. Law § 87(2)(f)",
+        "description": "Records that could endanger life or safety of correctional facility personnel or inmates, or jeopardize security",
+        "scope": "narrow"
+      }
+    ],
+
+    "appeal_process": {
+      "first_level": "Agency Appeals Officer",
+      "first_level_deadline_days": 30,
+      "first_level_deadline_unit": "calendar_days",
+      "first_level_notes": "Administrative appeal must be filed within 30 days of denial",
+      "first_level_cite": "N.Y. Pub. Off. Law § 89(4)(a)",
+      "second_level": "Committee on Open Government or Court",
+      "second_level_deadline_days": null,
+      "second_level_notes": "If administrative appeal denied, requestor may seek guidance from Committee on Open Government or file Article 78 proceeding in court",
+      "second_level_cite": "N.Y. Pub. Off. Law § 89",
+      "attorney_fees_recoverable": true,
+      "attorney_fees_cite": "N.Y. Pub. Off. Law § 89(4)(c)",
+      "attorney_fees_notes": "Court may award reasonable attorney fees and litigation costs if requestor substantially prevails"
+    },
+
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "purpose_statement_prohibited": false,
+      "purpose_notes": "Agency may not require requestor to provide identification or state purpose for request",
+      "residency_requirement": false,
+      "request_format_notes": "Must reasonably describe records; electronic submission required if agency has email capability",
+      "specific_format": "Request must reasonably describe the records sought"
+    },
+
+    "agency_obligations": {
+      "records_officer_required": true,
+      "records_officer_notes": "Each agency must designate a Records Access Officer",
+      "records_officer_cite": "N.Y. Pub. Off. Law § 86(3)",
+      "business_hours_access": true,
+      "business_hours_cite": "N.Y. Pub. Off. Law § 87(3)",
+      "electronic_submission_accepted": true,
+      "electronic_submission_required": true,
+      "electronic_submission_notes": "Every agency with email capability must accept and respond to FOIL requests electronically",
+      "response_format_options": "Requestor may specify preferred format; electronic transmission preferred when possible",
+      "liberal_construction": "Law must be liberally construed to promote public access",
+      "liberal_construction_cite": "N.Y. Pub. Off. Law § 84"
+    },
+
+    "oversight_body": {
+      "name": "Committee on Open Government",
+      "role": "Provides guidance on FOIL compliance, issues advisory opinions, and assists with appeals",
+      "contact_info": "Department of State, One Commerce Plaza, 99 Washington Avenue, Suite 650, Albany, NY 12231",
+      "oversight_url": "https://opengovernment.ny.gov"
+    },
+
+    "official_resources": {
+      "primary_statute_url": "https://www.nysenate.gov/legislation/laws/PBO/A6",
+      "agency_handbook_url": "https://opengovernment.ny.gov/freedom-information-law",
+      "request_portal_url": null,
+      "committee_guidance": "https://opengovernment.ny.gov"
+    },
+
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_url": "https://opengovernment.ny.gov/freedom-information-law",
+      "source_verified": true,
+      "primary_sources": [
+        "New York Public Officers Law Article 6, §§84-90",
+        "Committee on Open Government guidance",
+        "NEW_YORK_transparency_law-v0.11.txt"
+      ],
+      "verification_notes": "All fields verified from official New York statute and Committee on Open Government guidance. Initial response required within 5 business days (grant, deny, or acknowledge). If acknowledged, agency has additional 20 business days to respond (total max 25 business days). Standard copy fee is $0.25/page for documents up to 9\"x14\". Electronic submissions required if agency has email capability. Administrative appeal within 30 days of denial, with further appeal to Committee on Open Government or courts. Attorney fees recoverable if requestor substantially prevails."
+    }
+  },
+  "agencies": []
+}
