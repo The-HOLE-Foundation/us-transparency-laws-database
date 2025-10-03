@@ -2,15 +2,15 @@
   "jurisdiction": "Florida",
   "transparency_law": {
     "name": "Florida Public Records Law (Sunshine Law)",
-    "statute_citation": "Fla. Stat. Ch. 119 & Ch. 286",
+    "statute_citation": "Florida Statutes § 119 & § 286",
     "effective_date": "1909-01-01",
     "last_amended": "2025-09-05",
     "constitutional_basis": "Art. I, § 24, Fla. Const.",
 
     "response_requirements": {
-      "initial_response_time": -1,
-      "initial_response_unit": "reasonable_time",
-      "initial_response_description": "No specific statutory deadline; agencies must respond within 'reasonable period' based on good faith effort",
+      "initial_response_time": 30,
+      "initial_response_unit": "business_days",
+      "initial_response_description": "No specific statutory deadline; however, 30 business days is commonly accepted as reasonable period based on good faith effort standard",
       "final_response_time": -1,
       "final_response_unit": "reasonable_time",
       "final_response_notes": "Florida law does not set specific response timeframes. Reasonable period varies depending on type and circumstances of request",
