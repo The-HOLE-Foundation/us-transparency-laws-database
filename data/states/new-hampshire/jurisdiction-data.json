@@ -1,1 +1,24 @@
-{"jurisdiction":"","transparency_law":"","agencies":[]}
+{
+  "jurisdiction": "New Hampshire",
+  "transparency_law": {
+    "name": "",
+    "statute_citation": "",
+    "effective_date": null,
+    "last_amended": null,
+    "response_requirements": {},
+    "fee_structure": {},
+    "exemptions": [],
+    "appeal_process": {},
+    "requester_requirements": {},
+    "agency_obligations": {},
+    "oversight_body": {},
+    "official_resources": {},
+    "validation_metadata": {
+      "parsed_date": null,
+      "confidence_level": "none",
+      "source_verified": false,
+      "primary_sources": []
+    }
+  },
+  "agencies": []
+}
