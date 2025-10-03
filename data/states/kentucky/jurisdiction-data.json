@@ -1,1 +1,153 @@
-{"jurisdiction":"","transparency_law":"","agencies":[]}
+{
+  "jurisdiction": "Kentucky",
+  "transparency_law": {
+    "name": "Kentucky Open Records Act",
+    "statute_citation": "KRS §§ 61.870 to 61.884",
+    "effective_date": "1976-01-01",
+    "last_amended": "2021-01-01",
+    "response_requirements": {
+      "initial_response_time": 5,
+      "initial_response_unit": "business_days",
+      "initial_response_description": "Agencies must determine within 5 business days whether to comply. Written notification required within the 5-day period. Excludes Saturdays, Sundays, and legal holidays.",
+      "maximum_response_time": null,
+      "extension_allowed": false,
+      "extension_max_time": null,
+      "extension_conditions": [],
+      "no_response_consequence": "Request review by Kentucky Attorney General within 30 days or file directly in Circuit Court"
+    },
+    "fee_structure": {
+      "standard_copy_fee": "Actual reproduction costs only for non-commercial use",
+      "electronic_fee": "Actual reproduction costs",
+      "search_time_fee": "No search or staff time fees for non-commercial use. Can charge for staff time for commercial use.",
+      "certification_fee": "Not specified",
+      "waiver_available": false,
+      "waiver_criteria": [],
+      "notes": "Non-commercial users pay only reproduction costs, no search fees. Commercial users face higher fee structure including staff time and acquisition costs. Cannot charge sales tax on copies. May require advance payment."
+    },
+    "exemptions": [
+      {
+        "category": "Personal Privacy",
+        "citation": "KRS § 61.878",
+        "description": "Personal records where disclosure would constitute clearly unwarranted invasion of personal privacy",
+        "scope": "moderate"
+      },
+      {
+        "category": "Law Enforcement Records",
+        "citation": "KRS § 61.878",
+        "description": "Records of law enforcement agencies compiled in detecting/investigating violations (with timing restrictions)",
+        "scope": "moderate"
+      },
+      {
+        "category": "Confidential Business Information",
+        "citation": "KRS § 61.878",
+        "description": "Confidential or proprietary business information",
+        "scope": "moderate"
+      },
+      {
+        "category": "Preliminary Drafts",
+        "citation": "KRS § 61.878",
+        "description": "Preliminary drafts, notes, correspondence, and memoranda",
+        "scope": "narrow"
+      },
+      {
+        "category": "Higher Education Research",
+        "citation": "KRS § 61.878",
+        "description": "Confidential research records of institutions of higher education",
+        "scope": "narrow"
+      },
+      {
+        "category": "Testing Materials",
+        "citation": "KRS § 61.878",
+        "description": "Testing and examination materials",
+        "scope": "narrow"
+      },
+      {
+        "category": "Adoption Proceedings",
+        "citation": "KRS § 61.878",
+        "description": "Records relating to adoption proceedings",
+        "scope": "narrow"
+      },
+      {
+        "category": "Personnel Records",
+        "citation": "KRS § 61.878",
+        "description": "Personnel records and employee evaluations",
+        "scope": "moderate"
+      },
+      {
+        "category": "Investment Records",
+        "citation": "KRS § 61.878",
+        "description": "Records of agencies handling public funds' investments",
+        "scope": "narrow"
+      },
+      {
+        "category": "Medical and Psychiatric Records",
+        "citation": "KRS § 61.878",
+        "description": "Medical and psychiatric records",
+        "scope": "moderate"
+      }
+    ],
+    "appeal_process": {
+      "administrative_appeal_required": false,
+      "appeal_deadline_days": 30,
+      "appeal_deadline_unit": "calendar_days",
+      "appeal_authority": "Kentucky Attorney General or Circuit Court",
+      "appeal_description": "Request review by Attorney General within 30 days (AG has 20 days to issue decision) OR file original action directly in Circuit Court. 30-day deadline to appeal AG decision is STRICT.",
+      "judicial_review_available": true,
+      "judicial_review_deadline_days": 30,
+      "court_jurisdiction": "Circuit Court",
+      "burden_of_proof": "Public agency bears burden of proof",
+      "penalties": {
+        "criminal": "Not specified in excerpt",
+        "civil": "Attorney fees may be available. AG decisions have force and effect of law if not appealed within 30 days."
+      }
+    },
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "residency_requirement": true,
+      "specific_format": "Must be Kentucky resident (includes individuals, domestic businesses, out-of-state businesses registered with SOS, workers in KY, property owners, news organizations). Non-residents can request but cannot enforce through appeal.",
+      "notes": "Only Kentucky residents have enforceable rights under the Act. Resident definition is broad and includes news-gathering organizations."
+    },
+    "agency_obligations": {
+      "records_officer_required": false,
+      "business_hours_access": false,
+      "electronic_submission_accepted": false,
+      "response_format_options": ["Inspection", "Copies", "Redacted copies if records contain exempt and non-exempt information"],
+      "training_required": false,
+      "annual_reporting_required": false,
+      "specific_obligations": [
+        "Must provide written decision within 5 business days",
+        "Make suitable facilities available for inspection",
+        "Provide redacted copies if records contain both exempt and non-exempt information",
+        "Separate exempt from non-exempt information"
+      ]
+    },
+    "oversight_body": {
+      "name": "Kentucky Attorney General's Office",
+      "role": "Primary enforcement mechanism. Issues binding decisions unless appealed. Maintains online database of precedential decisions.",
+      "contact_info": "700 Capitol Avenue, Suite 118, Frankfort, KY 40601. Website: ag.ky.gov",
+      "statute_reference": "KRS § 61.880",
+      "enforcement_powers": [
+        "Issue binding decisions (unless appealed within 30 days)",
+        "Order disclosure",
+        "Establish precedent through decision database",
+        "Respond to appeals within 20 days"
+      ]
+    },
+    "official_resources": {
+      "primary_statute_url": "https://legislature.ky.gov/",
+      "agency_handbook_url": null,
+      "request_portal_url": null,
+      "oversight_url": "https://ag.ky.gov/"
+    },
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_verified": true,
+      "primary_sources": ["KRS 61.870 through 61.884", "Kentucky Attorney General open records decisions"],
+      "verification_notes": "Parsed from official statutory text file. Response time verified against canonical-values.json (5 business days). 10 of 14 exemptions parsed from statute. Strict construction of exemptions required.",
+      "last_verified_date": "2025-10-03"
+    }
+  },
+  "agencies": []
+}
