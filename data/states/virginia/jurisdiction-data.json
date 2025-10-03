@@ -1,1 +1,52 @@
-{"jurisdiction":"","transparency_law":"","agencies":[]}
+{
+  "jurisdiction": "Virginia",
+  "transparency_law": {
+    "name": "FREEDOM OF INFORMATION ACT",
+    "statute_citation": "STATUTORY PROVISIONS\n\n§ 2.2-3700.",
+    "effective_date": null,
+    "last_amended": null,
+    "response_requirements": {
+      "initial_response_time": null,
+      "initial_response_unit": "variable",
+      "final_response_time": null,
+      "final_response_unit": "variable",
+      "extension_allowed": null,
+      "extension_max_days": null
+    },
+    "fee_structure": {
+      "search_fee": "Varies by jurisdiction",
+      "copy_fee_per_page": null,
+      "electronic_fee": "Varies by format",
+      "fee_waiver_available": null,
+      "fee_waiver_criteria": null
+    },
+    "exemptions": [
+      {
+        "category": "Personal Privacy",
+        "citation": "STATUTORY PROVISIONS\n\n§ 2.2-3700.",
+        "description": "Records whose disclosure would constitute unwarranted invasion of personal privacy",
+        "scope": "moderate"
+      },
+      {
+        "category": "Law Enforcement",
+        "citation": "STATUTORY PROVISIONS\n\n§ 2.2-3700.",
+        "description": "Law enforcement investigatory records",
+        "scope": "moderate"
+      }
+    ],
+    "appeal_process": {
+      "first_level": "Administrative appeal or judicial review",
+      "first_level_deadline_days": null,
+      "second_level": "Court action",
+      "second_level_deadline_days": null,
+      "attorney_fees_recoverable": null
+    },
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "medium",
+      "notes": "Automated parsing from statutory text - requires manual verification",
+      "parser_version": "1.0-autonomous"
+    }
+  },
+  "agencies": []
+}
