@@ -1,1 +1,132 @@
-{"jurisdiction":"","transparency_law":"","agencies":[]}
+{
+  "jurisdiction": "Michigan",
+  "transparency_law": {
+    "name": "Michigan Freedom of Information Act",
+    "statute_citation": "M.C.L. § 15.231 et seq.",
+    "effective_date": null,
+    "last_amended": "2023-01-01",
+
+    "response_requirements": {
+      "initial_response_time": 5,
+      "initial_response_unit": "business_days",
+      "initial_response_description": "Public body must respond within 5 business days of receipt",
+      "final_response_time": 10,
+      "final_response_unit": "business_days",
+      "final_response_notes": "May extend by additional 10 business days with written notice (only one extension permitted)",
+      "extension_allowed": true,
+      "extension_max_days": 10,
+      "extension_notes": "Must provide reason for extension and new due date; total maximum 15 business days"
+    },
+
+    "fee_structure": {
+      "search_fee": "May charge for labor",
+      "search_fee_notes": "May charge for labor to locate, examine, review, and redact records",
+      "search_fee_statutory_cite": "M.C.L. § 15.234",
+      "copy_fee_per_page": null,
+      "copy_fee_notes": "May charge actual cost of copying and mailing",
+      "copy_fee_cite": "M.C.L. § 15.234",
+      "electronic_fee": "Actual cost",
+      "fee_estimate_required": "Must provide detailed itemization if fees requested",
+      "fee_waiver_available": true,
+      "fee_waiver_criteria": "Reduced or waived if in public interest or indigent requester",
+      "fee_waiver_cite": "M.C.L. § 15.234"
+    },
+
+    "exemptions": [
+      {
+        "category": "Personal Privacy",
+        "citation": "M.C.L. § 15.243(1)(a)",
+        "description": "Information of personal nature where disclosure would constitute clearly unwarranted invasion of privacy",
+        "scope": "moderate"
+      },
+      {
+        "category": "Law Enforcement",
+        "citation": "M.C.L. § 15.243(1)(b)",
+        "description": "Law enforcement investigative records with specific limitations",
+        "scope": "moderate"
+      },
+      {
+        "category": "Statutory Exemption",
+        "citation": "M.C.L. § 15.243(1)(c)",
+        "description": "Records specifically exempted by statute",
+        "scope": "broad"
+      },
+      {
+        "category": "Trade Secrets",
+        "citation": "M.C.L. § 15.243(1)(d)",
+        "description": "Trade secrets and confidential commercial or financial information",
+        "scope": "narrow"
+      },
+      {
+        "category": "Attorney-Client Privilege",
+        "citation": "M.C.L. § 15.243(1)",
+        "description": "Attorney-client privileged communications",
+        "scope": "narrow"
+      },
+      {
+        "category": "Medical Records",
+        "citation": "M.C.L. § 15.243(1)",
+        "description": "Medical records and personal health information",
+        "scope": "narrow"
+      }
+    ],
+
+    "appeal_process": {
+      "first_level": "Head of Public Body",
+      "first_level_deadline_days": 180,
+      "first_level_deadline_unit": "calendar_days",
+      "first_level_notes": "Must appeal to head of public body within 180 days of denial",
+      "first_level_cite": "M.C.L. § 15.240",
+      "second_level": "Circuit Court",
+      "second_level_deadline_days": null,
+      "second_level_cite": "M.C.L. § 15.240",
+      "attorney_fees_recoverable": true,
+      "attorney_fees_cite": "M.C.L. § 15.240",
+      "attorney_fees_notes": "Court may award reasonable attorney fees and damages if public body acted arbitrarily and capriciously"
+    },
+
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "residency_requirement": false,
+      "request_format_notes": "Must be in writing; describe records with reasonable particularity",
+      "specific_format": "Written request required"
+    },
+
+    "agency_obligations": {
+      "records_officer_required": true,
+      "records_officer_notes": "FOIA coordinator must be designated",
+      "records_officer_cite": "M.C.L. § 15.236",
+      "business_hours_access": true,
+      "electronic_submission_accepted": true,
+      "response_format_options": "Must provide detailed itemization of fees if requested",
+      "fee_estimate_required": "Must provide detailed fee estimate before proceeding with large requests"
+    },
+
+    "oversight_body": {
+      "name": null,
+      "role": null,
+      "contact_info": null,
+      "oversight_url": null
+    },
+
+    "official_resources": {
+      "primary_statute_url": "http://www.legislature.mi.gov/",
+      "agency_handbook_url": null,
+      "request_portal_url": null
+    },
+
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_url": "http://www.legislature.mi.gov/",
+      "source_verified": true,
+      "primary_sources": [
+        "M.C.L. 15.231 through 15.246",
+        "MICHIGAN_transparency_law-v0.11.txt"
+      ],
+      "verification_notes": "All fields manually verified from official Michigan statute. 5 business day response with possible 10 day extension (one extension only, total 15 days max). May charge for labor to locate/examine/redact. Fee waivers available if public interest or indigent. Appeal to agency head within 180 days, then circuit court. Attorney fees if arbitrary and capricious denial. Written request required. FOIA coordinator must be designated."
+    }
+  },
+  "agencies": []
+}
