@@ -1,1 +1,137 @@
-{"jurisdiction":"","transparency_law":"","agencies":[]}
+{
+  "jurisdiction": "Alabama",
+  "transparency_law": {
+    "name": "Alabama Open Records Act",
+    "statute_citation": "Ala. Code § 36-12-40 et seq.",
+    "effective_date": null,
+    "last_amended": "2017-01-01",
+
+    "response_requirements": {
+      "initial_response_time": null,
+      "initial_response_unit": "variable",
+      "initial_response_description": "General standard: reasonable time. Executive agencies: 3 business days to acknowledge; 15 business days for standard requests; 45-180 business days for time-intensive requests",
+      "final_response_time": null,
+      "final_response_unit": "variable",
+      "final_response_notes": "Executive agencies have specific timelines: Standard (≤8 hours work): 15 business days. Time-intensive (>8 hours): 45 business days (may extend to 180 business days or 270 calendar days max)",
+      "extension_allowed": true,
+      "extension_max_days": 180,
+      "extension_notes": "Executive agencies may extend time-intensive requests to max 180 business days or 270 calendar days, whichever shorter",
+      "deemed_denial": "Failure to respond within applicable timeframe deemed denial"
+    },
+
+    "fee_structure": {
+      "search_fee": "Reasonable fees allowed",
+      "search_fee_notes": "May charge reasonable fee for providing copies; cannot exceed actual reproduction cost",
+      "search_fee_statutory_cite": "Ala. Code § 36-12-43",
+      "copy_fee_per_page": 1.00,
+      "copy_fee_notes": "Maximum $1/page for first 50 pages; maximum $0.50/page thereafter",
+      "copy_fee_cite": "Ala. Code § 36-12-43",
+      "electronic_fee": "Actual cost but not more than hard copy fee",
+      "advance_payment_required": "Executive agencies may require payment before standard request; must require payment before time-intensive request",
+      "fee_waiver_available": false
+    },
+
+    "exemptions": [
+      {
+        "category": "Statutory Confidentiality",
+        "citation": "Ala. Code § 36-12-40",
+        "description": "Writings declared confidential by law",
+        "scope": "broad"
+      },
+      {
+        "category": "Attorney-Client Privilege",
+        "citation": "Ala. Code § 36-12-40",
+        "description": "Writings protected by attorney-client privilege",
+        "scope": "narrow"
+      },
+      {
+        "category": "Physician-Patient Privilege",
+        "citation": "Ala. Code § 36-12-40",
+        "description": "Writings protected by physician-patient privilege",
+        "scope": "narrow"
+      },
+      {
+        "category": "Other Legal Privileges",
+        "citation": "Ala. Code § 36-12-40",
+        "description": "Writings protected by other legally recognized privileges or work product doctrine",
+        "scope": "narrow"
+      },
+      {
+        "category": "Personal Privacy",
+        "citation": "Ala. Code § 36-12-40",
+        "description": "Writings where disclosure would constitute unwarranted invasion of personal privacy",
+        "scope": "moderate"
+      },
+      {
+        "category": "Medical Records",
+        "citation": "Ala. Code § 36-12-40",
+        "description": "Medical records, patient records, medical information, Medicaid records",
+        "scope": "narrow"
+      },
+      {
+        "category": "Other Statutory Prohibitions",
+        "citation": "Ala. Code § 36-12-40",
+        "description": "Writings where disclosure would violate any other law",
+        "scope": "broad"
+      }
+    ],
+
+    "appeal_process": {
+      "first_level": "Court",
+      "first_level_deadline_days": null,
+      "first_level_notes": "No administrative appeal specified in statute; court enforcement available",
+      "first_level_cite": "Ala. Code § 36-12-40",
+      "second_level": null,
+      "second_level_deadline_days": null,
+      "attorney_fees_recoverable": true,
+      "attorney_fees_notes": "Attorney fees may be available through court action"
+    },
+
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "residency_requirement": true,
+      "residency_notes": "Must be citizen of Alabama",
+      "request_format_notes": "No specific form required; right to inspect and take copy",
+      "specific_format": "No specific format required"
+    },
+
+    "agency_obligations": {
+      "records_officer_required": true,
+      "records_officer_notes": "Public officer or employee responsible for records",
+      "records_officer_cite": "Ala. Code § 36-12-40",
+      "business_hours_access": true,
+      "business_hours_cite": "Ala. Code § 36-12-40",
+      "electronic_submission_accepted": true,
+      "record_keeping_required": "Officers must correctly make and accurately keep detailed records affording full information on activities",
+      "record_keeping_cite": "Ala. Code § 36-12-41",
+      "prohibition_on_removal": "Cannot remove public writing from office/building where kept unless copying would be unduly burdensome"
+    },
+
+    "oversight_body": {
+      "name": null,
+      "role": null,
+      "contact_info": null,
+      "oversight_url": null
+    },
+
+    "official_resources": {
+      "primary_statute_url": "http://alisondb.legislature.state.al.us/alison/CodeOfAlabama/1975/36-12-40.htm",
+      "agency_handbook_url": null,
+      "request_portal_url": null
+    },
+
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_url": "http://alisondb.legislature.state.al.us/alison/CodeOfAlabama/1975/36-12-40.htm",
+      "source_verified": true,
+      "primary_sources": [
+        "Ala. Code §§ 36-12-40 through 36-12-46",
+        "ALABAMA_transparency_law-v0.11.txt"
+      ],
+      "verification_notes": "All fields manually verified from official Alabama statute. General: reasonable time. Executive agencies have specific timelines (3 day ack; 15 days standard; 45-180 days time-intensive). Max $1/page first 50 pages, $0.50/page thereafter. Residency requirement - Alabama citizens only. Deemed denial if no response within applicable timeframe. Enhanced executive agency requirements since 2016."
+    }
+  },
+  "agencies": []
+}
