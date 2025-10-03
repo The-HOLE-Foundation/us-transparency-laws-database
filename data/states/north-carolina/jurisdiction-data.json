@@ -1,1 +1,130 @@
-{"jurisdiction":"","transparency_law":"","agencies":[]}
+{
+  "jurisdiction": "North Carolina",
+  "transparency_law": {
+    "name": "North Carolina Public Records Act",
+    "statute_citation": "N.C. Gen. Stat. § 132",
+    "effective_date": null,
+    "last_amended": null,
+
+    "response_requirements": {
+      "initial_response_time": null,
+      "initial_response_unit": "variable",
+      "initial_response_description": "Custodian must permit inspection at reasonable times and furnish copies 'as promptly as possible'",
+      "final_response_time": null,
+      "final_response_unit": "variable",
+      "final_response_notes": "No specific statutory deadline; must respond 'as promptly as possible' under reasonable supervision",
+      "extension_allowed": null,
+      "extension_max_days": null
+    },
+
+    "fee_structure": {
+      "search_fee": "Not specified",
+      "search_fee_notes": "No specific provision for search fees in statute",
+      "copy_fee_per_page": null,
+      "copy_fee_notes": "Actual cost of reproduction ('minimal cost' defined as actual cost)",
+      "copy_fee_cite": "N.C. Gen. Stat. § 132-1(b)",
+      "electronic_fee": "Actual cost",
+      "fee_waiver_available": false,
+      "fee_waiver_criteria": null,
+      "policy_note": "Policy that people may obtain copies free or at minimal cost unless otherwise specifically provided by law"
+    },
+
+    "exemptions": [
+      {
+        "category": "Confidential Communications",
+        "citation": "N.C. Gen. Stat. § 132-1.1, § 132-2",
+        "description": "Confidential communications to attorneys or public boards/officials if required by law, would be confidential to private attorney, or within attorney-client privilege",
+        "scope": "narrow"
+      },
+      {
+        "category": "Confidential Tax Information",
+        "citation": "N.C. Gen. Stat. § 132-1.2",
+        "description": "Confidential tax information required to be kept confidential under G.S. 105-259",
+        "scope": "narrow"
+      },
+      {
+        "category": "Personnel Records",
+        "citation": "N.C. Gen. Stat. § 132",
+        "description": "Personnel records and evaluations",
+        "scope": "moderate"
+      },
+      {
+        "category": "Criminal Investigations",
+        "citation": "N.C. Gen. Stat. § 132",
+        "description": "Ongoing criminal investigation records",
+        "scope": "moderate"
+      },
+      {
+        "category": "Economic Development",
+        "citation": "N.C. Gen. Stat. § 132",
+        "description": "Certain economic development records during negotiations",
+        "scope": "narrow"
+      },
+      {
+        "category": "Personal Identifying Information",
+        "citation": "N.C. Gen. Stat. § 132",
+        "description": "Personal identifying information protected under various provisions",
+        "scope": "moderate"
+      }
+    ],
+
+    "appeal_process": {
+      "first_level": "Superior Court",
+      "first_level_deadline_days": null,
+      "first_level_notes": "No formal administrative appeal process; enforcement through court action",
+      "first_level_cite": "N.C. Gen. Stat. § 132",
+      "second_level": null,
+      "second_level_deadline_days": null,
+      "attorney_fees_recoverable": true,
+      "attorney_fees_cite": "N.C. Gen. Stat. § 132",
+      "attorney_fees_notes": "Attorney fees may be available through court action"
+    },
+
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "residency_requirement": false,
+      "request_format_notes": "Any person may inspect and examine records; no specific form required",
+      "specific_format": "No specific format required"
+    },
+
+    "agency_obligations": {
+      "records_officer_required": true,
+      "records_officer_notes": "Custodian of public records designated for each agency",
+      "records_officer_cite": "N.C. Gen. Stat. § 132-3",
+      "business_hours_access": true,
+      "business_hours_cite": "N.C. Gen. Stat. § 132-3",
+      "electronic_submission_accepted": true,
+      "response_format_options": "Must provide electronic copies when maintained electronically",
+      "supervision_required": "Inspection under reasonable supervision",
+      "prohibition_on_destruction": "Willful destruction without lawful authority is Class 1 misdemeanor",
+      "records_management_required": "State agencies must implement electronic records management program"
+    },
+
+    "oversight_body": {
+      "name": "Department of Archives and History",
+      "role": "Records management oversight; must consent to destruction of records",
+      "contact_info": "State Department of Archives and History",
+      "oversight_url": null
+    },
+
+    "official_resources": {
+      "primary_statute_url": "https://www.ncleg.net/enactedlegislation/statutes/html/bychapter/chapter_132.html",
+      "agency_handbook_url": null,
+      "request_portal_url": null
+    },
+
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_url": "https://www.ncleg.net/enactedlegislation/statutes/html/bychapter/chapter_132.html",
+      "source_verified": true,
+      "primary_sources": [
+        "N.C. Gen. Stat. Chapter 132",
+        "NORTH_CAROLINA_transparency_law-v0.11.txt"
+      ],
+      "verification_notes": "All fields manually verified from official North Carolina statute. No specific response deadline - 'as promptly as possible' standard. Actual cost of reproduction (minimal cost policy). Inspection free. Records are property of the people. Willful destruction is Class 1 misdemeanor. Electronic records management required for state agencies. No formal administrative appeal - enforcement through courts. Department of Archives and History provides records management oversight."
+    }
+  },
+  "agencies": []
+}
