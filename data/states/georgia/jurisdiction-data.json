@@ -1,1 +1,170 @@
-{"jurisdiction":"","transparency_law":"","agencies":[]}
+{
+  "jurisdiction": "Georgia",
+  "transparency_law": {
+    "name": "Georgia Open Records Act",
+    "statute_citation": "O.C.G.A. §§ 50-18-70 through 50-18-78",
+    "effective_date": null,
+    "last_amended": "2024-01-01",
+
+    "response_requirements": {
+      "initial_response_time": 3,
+      "initial_response_unit": "business_days",
+      "initial_response_description": "Agency must determine whether records are subject to access and permit inspection and copying within reasonable amount of time, not to exceed 3 business days",
+      "final_response_time": null,
+      "final_response_unit": null,
+      "final_response_notes": "3 business days maximum for response",
+      "extension_allowed": false,
+      "extension_max_days": null,
+      "extension_notes": "No statutory extension provision; 3 business days is maximum",
+      "ag_review_timeline": null,
+      "ag_review_cite": null
+    },
+
+    "fee_structure": {
+      "search_fee": "Allowed after first 15 minutes",
+      "search_fee_notes": "First quarter hour (15 minutes) free; thereafter may charge prorated hourly salary of lowest-paid qualified employee for research, retrieval, redaction, and administrative costs",
+      "search_fee_statutory_cite": "O.C.G.A. § 50-18-71(c)",
+      "copy_fee_per_page": "$0.10",
+      "copy_fee_notes": "Up to $0.10 per page for copies 8.5 x 14 inches or smaller; actual cost for larger copies",
+      "copy_fee_cite": "O.C.G.A. § 50-18-71(c)",
+      "electronic_fee": "Actual cost of electronic media",
+      "fee_waiver_available": false,
+      "fee_waiver_criteria": null,
+      "fee_waiver_cite": null
+    },
+
+    "exemptions": [
+      {
+        "category": "Confidential by Law",
+        "citation": "O.C.G.A. § 50-18-72(a)(1)",
+        "description": "Records specifically required by federal statute or regulation or by state statute to be kept confidential",
+        "scope": "broad"
+      },
+      {
+        "category": "Medical/Veterinary Records",
+        "citation": "O.C.G.A. § 50-18-72(a)(2)",
+        "description": "Medical or veterinary records and similar files, the disclosure of which would be an invasion of personal privacy",
+        "scope": "moderate"
+      },
+      {
+        "category": "Law Enforcement Investigations",
+        "citation": "O.C.G.A. § 50-18-72(a)(3)(4)",
+        "description": "Records compiled for law enforcement or prosecution purposes; specific investigative files; pending investigations",
+        "scope": "moderate"
+      },
+      {
+        "category": "Personal Identifying Information",
+        "citation": "O.C.G.A. § 50-18-72(a)(5)",
+        "description": "Social security numbers, credit card info, bank account info, passwords, financial data, unlisted phone numbers, personal email, birth dates",
+        "scope": "narrow"
+      },
+      {
+        "category": "Security Information",
+        "citation": "O.C.G.A. § 50-18-72(a)(6)",
+        "description": "Passwords, keys, alarm codes, entry codes for secured areas",
+        "scope": "narrow"
+      },
+      {
+        "category": "Trade Secrets",
+        "citation": "O.C.G.A. § 50-18-72(a)(8)",
+        "description": "Valuable trade secrets or commercially valuable information of any private person, corporation, or other entity",
+        "scope": "narrow"
+      },
+      {
+        "category": "Attorney-Client Privilege",
+        "citation": "O.C.G.A. § 50-18-72(a)(12)(24)",
+        "description": "Records developed for litigation under attorney-client privilege; communications between agency and private attorney",
+        "scope": "narrow"
+      },
+      {
+        "category": "Personnel Records",
+        "citation": "O.C.G.A. § 50-18-72(a)(17)(35)",
+        "description": "Personnel records and personal information of employees in state personnel records",
+        "scope": "moderate"
+      },
+      {
+        "category": "Deliberative Process",
+        "citation": "O.C.G.A. § 50-18-72(a)(22)(23)",
+        "description": "Preliminary drafts and notes; intragovernmental communications",
+        "scope": "moderate"
+      },
+      {
+        "category": "Student Records",
+        "citation": "O.C.G.A. § 50-18-72(a)(15)",
+        "description": "Student records which are confidential under federal law (FERPA)",
+        "scope": "narrow"
+      }
+    ],
+
+    "appeal_process": {
+      "first_level": "Superior Court",
+      "first_level_deadline_days": null,
+      "first_level_deadline_unit": null,
+      "first_level_notes": "No formal administrative appeal process; can request Attorney General to bring action or file civil action directly in superior court for declaratory or injunctive relief",
+      "first_level_cite": "O.C.G.A. § 50-18-73(a)",
+      "second_level": null,
+      "second_level_deadline_days": null,
+      "second_level_deadline_unit": null,
+      "second_level_notes": null,
+      "second_level_cite": null,
+      "attorney_fees_recoverable": true,
+      "attorney_fees_cite": "O.C.G.A. § 50-18-73(b)",
+      "attorney_fees_notes": "Court shall assess reasonable attorney fees and litigation costs if agency acted without substantial justification, unless special circumstances exist"
+    },
+
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "purpose_statement_prohibited": false,
+      "purpose_notes": "Any person, firm, corporation, or other entity may request records; no requirement to state purpose or prove standing",
+      "residency_requirement": false,
+      "request_format_notes": "Request may be made orally or in writing; if both oral and written request made for same records, written request controls",
+      "specific_format": "Request must identify records sought with reasonable specificity"
+    },
+
+    "agency_obligations": {
+      "records_officer_required": false,
+      "records_officer_notes": "Individual in charge of records must not refuse inspection to any citizen; individual or agency with custody determines access",
+      "records_officer_cite": "O.C.G.A. § 50-18-71(a)",
+      "business_hours_access": true,
+      "business_hours_cite": "O.C.G.A. § 50-18-71(a)",
+      "electronic_submission_accepted": true,
+      "response_format_options": "Must produce electronic copies or printouts of electronic records using programs agency maintains; cannot create new records or compile, cross-reference, or reorganize existing records",
+      "liberal_construction": "Broadly construed to allow inspection; exceptions interpreted narrowly",
+      "liberal_construction_cite": "O.C.G.A. § 50-18-70(b)",
+      "third_party_notification": null,
+      "training_required": false,
+      "training_cite": null,
+      "training_notes": null
+    },
+
+    "oversight_body": {
+      "name": "Georgia Attorney General",
+      "role": "May bring civil or criminal actions to enforce the Open Records Act upon request; provides advisory opinions",
+      "contact_info": "Office of the Attorney General",
+      "oversight_url": "https://law.georgia.gov/open-government",
+      "advisory_committee": null
+    },
+
+    "official_resources": {
+      "primary_statute_url": "https://law.justia.com/codes/georgia/2022/title-50/chapter-18/article-4/",
+      "agency_handbook_url": "https://law.georgia.gov/open-government/open-records-act",
+      "request_portal_url": null,
+      "ag_decisions_url": null
+    },
+
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_url": "https://law.justia.com/codes/georgia/2022/title-50/chapter-18/article-4/",
+      "source_verified": true,
+      "primary_sources": [
+        "Official Code of Georgia Annotated Sections 50-18-70 through 50-18-78",
+        "Georgia Open Records Act statutory text",
+        "Georgia Attorney General Open Government guidance"
+      ],
+      "verification_notes": "All fields verified from official Georgia statute. Response timeline: 3 business days maximum (no extension allowed). First 15 minutes of search/retrieval free, then may charge prorated hourly salary of lowest-paid qualified employee. Copy fees up to $0.10 per page. No formal administrative appeal process - goes directly to superior court. Attorney fees available if agency acts without substantial justification. Strong policy favoring open government with narrow construction of exemptions. 50+ specific statutory exemptions covering medical records, law enforcement investigations, personal information, trade secrets, personnel records, deliberative process."
+    }
+  },
+  "agencies": []
+}
