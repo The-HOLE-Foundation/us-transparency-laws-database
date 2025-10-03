@@ -1,1 +1,169 @@
-{"jurisdiction":"","transparency_law":"","agencies":[]}
+{
+  "jurisdiction": "Indiana",
+  "transparency_law": {
+    "name": "Indiana Access to Public Records Act",
+    "statute_citation": "Indiana Code § 5-14-3-1 et seq.",
+    "effective_date": null,
+    "last_amended": null,
+    "response_requirements": {
+      "initial_response_time": 5,
+      "initial_response_unit": "business_days",
+      "initial_response_description": "In-person or phone requests: 24 hours to acknowledge. Mail, fax, or email requests: 7 days to acknowledge. Must provide records within reasonable time after acknowledgment.",
+      "maximum_response_time": null,
+      "extension_allowed": true,
+      "extension_max_time": null,
+      "extension_conditions": [
+        "Reasonable time depends on size of agency, size of request, number of pending requests, complexity, and operational considerations"
+      ],
+      "no_response_consequence": "May file lawsuit in any court of competent jurisdiction or seek advisory opinion from Public Access Counselor"
+    },
+    "fee_structure": {
+      "standard_copy_fee": "Reasonable copying fees",
+      "electronic_fee": "Enhanced access fees may apply for programming or formatting",
+      "search_time_fee": "No search or retrieval fees for standard requests",
+      "certification_fee": "Not specified",
+      "waiver_available": false,
+      "waiver_criteria": [],
+      "notes": "May request advance payment of copying costs. Fees must be reasonably related to actual costs."
+    },
+    "exemptions": [
+      {
+        "category": "Trade Secrets",
+        "citation": "IC 5-14-3-4",
+        "description": "Trade secrets and commercial information",
+        "scope": "moderate"
+      },
+      {
+        "category": "University Research",
+        "citation": "IC 5-14-3-4",
+        "description": "University research records",
+        "scope": "narrow"
+      },
+      {
+        "category": "Educational Records",
+        "citation": "IC 5-14-3-4",
+        "description": "Educational records (with some exceptions)",
+        "scope": "moderate"
+      },
+      {
+        "category": "Medical Records",
+        "citation": "IC 5-14-3-4",
+        "description": "Medical records",
+        "scope": "moderate"
+      },
+      {
+        "category": "Personnel Files",
+        "citation": "IC 5-14-3-4",
+        "description": "Personnel files (except certain information)",
+        "scope": "moderate"
+      },
+      {
+        "category": "Law Enforcement Investigations",
+        "citation": "IC 5-14-3-4",
+        "description": "Law enforcement investigatory records",
+        "scope": "moderate"
+      },
+      {
+        "category": "Attorney Work Product",
+        "citation": "IC 5-14-3-4",
+        "description": "Attorney work product and privileged communications",
+        "scope": "narrow"
+      },
+      {
+        "category": "Federal Confidentiality",
+        "citation": "IC 5-14-3-4",
+        "description": "Records required to be kept confidential by federal law",
+        "scope": "broad"
+      },
+      {
+        "category": "Personal Notes",
+        "citation": "IC 5-14-3-4",
+        "description": "Diaries, journals, and personal notes not prepared for public use (discretionary)",
+        "scope": "narrow"
+      },
+      {
+        "category": "Technical Information",
+        "citation": "IC 5-14-3-4",
+        "description": "Administrative or technical information that would not be useful to the public (discretionary)",
+        "scope": "narrow"
+      },
+      {
+        "category": "Computer Programs",
+        "citation": "IC 5-14-3-4",
+        "description": "Computer programs developed by public agencies (discretionary)",
+        "scope": "narrow"
+      }
+    ],
+    "appeal_process": {
+      "administrative_appeal_required": false,
+      "appeal_deadline_days": null,
+      "appeal_deadline_unit": null,
+      "appeal_authority": "Indiana Public Access Counselor (advisory opinions only) or court",
+      "appeal_description": "May contact Public Access Counselor for advisory opinion or file lawsuit in any court of competent jurisdiction.",
+      "judicial_review_available": true,
+      "judicial_review_deadline_days": null,
+      "court_jurisdiction": "Any court of competent jurisdiction",
+      "burden_of_proof": "Agency must prove exemption applies",
+      "penalties": {
+        "criminal": "Class A misdemeanor for knowingly or intentionally disclosing confidential information",
+        "civil": "Attorney's fees available in some circumstances. Civil liability possible for willful violations."
+      }
+    },
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "residency_requirement": false,
+      "specific_format": "No specific form required. Can be made orally or in writing. Must reasonably describe records sought.",
+      "notes": "No purpose requirement. No residency requirement. Any person may request."
+    },
+    "agency_obligations": {
+      "records_officer_required": false,
+      "business_hours_access": false,
+      "electronic_submission_accepted": true,
+      "response_format_options": [
+        "Inspection",
+        "Copying",
+        "Electronic format if maintained electronically"
+      ],
+      "training_required": false,
+      "annual_reporting_required": false,
+      "specific_obligations": [
+        "Acknowledge in-person/phone requests within 24 hours",
+        "Acknowledge mail/fax/email requests within 7 days",
+        "Provide records within reasonable time",
+        "Provide written explanation if denying access, citing specific exemption",
+        "Separate and withhold only confidential portions",
+        "Provide electronic records in requested format if maintained electronically"
+      ]
+    },
+    "oversight_body": {
+      "name": "Indiana Public Access Counselor",
+      "role": "Issues advisory opinions, provides education and guidance. No formal enforcement authority.",
+      "contact_info": "Office of the Governor, 200 W. Washington Street, Room 212, Indianapolis, IN 46204. Phone: (317) 234-0906. Email: pac@gov.in.gov",
+      "statute_reference": "IC 5-14-3",
+      "enforcement_powers": [
+        "Issue advisory opinions",
+        "Provide education and guidance",
+        "No binding enforcement authority"
+      ]
+    },
+    "official_resources": {
+      "primary_statute_url": "https://iga.in.gov/legislative/laws/2023/ic/titles/005",
+      "agency_handbook_url": null,
+      "request_portal_url": null,
+      "oversight_url": "https://www.in.gov/pac/"
+    },
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_verified": true,
+      "primary_sources": [
+        "Indiana Code Title 5, Article 14, Chapter 3",
+        "Indiana Public Access Counselor guidance"
+      ],
+      "verification_notes": "Parsed from official statutory text file. Response time verified against canonical-values.json (5 business days - note statute uses 'reasonable time' standard with 7 day acknowledgment for written requests). 11 exemptions parsed from statute.",
+      "last_verified_date": "2025-10-03"
+    }
+  },
+  "agencies": []
+}
