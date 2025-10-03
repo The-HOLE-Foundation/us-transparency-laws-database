@@ -1,1 +1,155 @@
-{"jurisdiction":"","transparency_law":"","agencies":[]}
+{
+  "jurisdiction": "Connecticut",
+  "transparency_law": {
+    "name": "Connecticut Freedom of Information Act",
+    "statute_citation": "Connecticut General Statutes Title 1, Chapter 14, §§ 1-200 to 1-241",
+    "effective_date": null,
+    "last_amended": "1999-01-01",
+    "response_requirements": {
+      "initial_response_time": 4,
+      "initial_response_unit": "business_days",
+      "initial_response_description": "Agencies must respond within 4 business days. The word 'promptly' means quickly and without undue delay.",
+      "maximum_response_time": null,
+      "extension_allowed": true,
+      "extension_max_time": null,
+      "extension_conditions": [
+        "Agencies may establish special schedules if requests interfere with normal duties"
+      ],
+      "no_response_consequence": "Denial subject to appeal to Freedom of Information Commission"
+    },
+    "fee_structure": {
+      "standard_copy_fee": "$0.50 per page for non-state agencies; $0.25 per page for state agencies",
+      "electronic_fee": "Same as standard copy fee",
+      "search_time_fee": "None specified",
+      "certification_fee": "Not specified",
+      "waiver_available": false,
+      "waiver_criteria": [],
+      "notes": "Judicial Department: $0.50 per page (first 20 pages), $0.25 per page thereafter. No fee for inspection."
+    },
+    "exemptions": [
+      {
+        "category": "Personnel and Privacy",
+        "citation": "Conn. Gen. Stat. § 1-210(b)(1)",
+        "description": "Personnel files and similar files the disclosure of which would constitute an invasion of personal privacy",
+        "scope": "moderate"
+      },
+      {
+        "category": "Legal Strategy and Litigation",
+        "citation": "Conn. Gen. Stat. § 1-210(b)(2)",
+        "description": "Records of strategy sessions of a public agency or the negotiations of pending claims or litigation until finally adjudicated or settled",
+        "scope": "narrow"
+      },
+      {
+        "category": "Trade Secrets",
+        "citation": "Conn. Gen. Stat. § 1-210(b)(3)",
+        "description": "Trade secrets",
+        "scope": "narrow"
+      },
+      {
+        "category": "Confidential Records",
+        "citation": "Conn. Gen. Stat. § 1-210(b)(4)",
+        "description": "Records, reports and statements required to be kept confidential under provisions of the general statutes or so exempted by state or federal law",
+        "scope": "broad"
+      },
+      {
+        "category": "Testing Materials",
+        "citation": "Conn. Gen. Stat. § 1-210(b)(5)",
+        "description": "Test questions, scoring keys and other examination data used in administering licensing, employment or academic examinations",
+        "scope": "narrow"
+      },
+      {
+        "category": "Property Acquisition",
+        "citation": "Conn. Gen. Stat. § 1-210(b)(6)",
+        "description": "Real estate appraisals, engineering or feasibility estimates relative to property acquisition until contracts executed or proceedings abandoned",
+        "scope": "narrow"
+      },
+      {
+        "category": "Labor Relations",
+        "citation": "Conn. Gen. Stat. § 1-210(b)(7)",
+        "description": "Records, reports and statements of strategy or negotiations with respect to collective bargaining",
+        "scope": "narrow"
+      },
+      {
+        "category": "Tax Returns",
+        "citation": "Conn. Gen. Stat. § 1-210(b)(8)",
+        "description": "Individual tax returns",
+        "scope": "narrow"
+      },
+      {
+        "category": "Computer Programs",
+        "citation": "Conn. Gen. Stat. § 1-210(b)(10)",
+        "description": "Computer programs as defined in subdivision (1) of subsection (a) of section 1-211",
+        "scope": "narrow"
+      }
+    ],
+    "appeal_process": {
+      "administrative_appeal_required": true,
+      "appeal_deadline_days": 30,
+      "appeal_deadline_unit": "calendar_days",
+      "appeal_authority": "Freedom of Information Commission",
+      "appeal_description": "File with FOIC within 30 days of denial. Commission may order mediation.",
+      "judicial_review_available": true,
+      "judicial_review_deadline_days": 45,
+      "court_jurisdiction": "Superior Court for the Judicial District of Hartford",
+      "burden_of_proof": "Public agency must prove disclosure not required",
+      "penalties": {
+        "criminal": "Class B misdemeanor for failing to comply with FOIC order; Class A misdemeanor for willful FOIA violations",
+        "civil": "Up to $1,000 civil penalty by FOIC"
+      }
+    },
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "residency_requirement": false,
+      "specific_format": "Written application required for copies (not for inspection)",
+      "notes": "Inspection requires no written request; copies require written application"
+    },
+    "agency_obligations": {
+      "records_officer_required": false,
+      "business_hours_access": true,
+      "electronic_submission_accepted": false,
+      "response_format_options": [
+        "Inspection during regular office hours",
+        "Physical copies",
+        "Electronic copies (same fee as physical)"
+      ],
+      "training_required": false,
+      "annual_reporting_required": false,
+      "specific_obligations": [
+        "Maintain records in reasonably accessible manner",
+        "Provide information on procedures for accessing records",
+        "Provide assistance to requesters",
+        "Explain technical terms or abbreviated notations"
+      ]
+    },
+    "oversight_body": {
+      "name": "Freedom of Information Commission",
+      "role": "Adjudicates appeals, enforces FOIA compliance, imposes penalties",
+      "contact_info": "9-member commission appointed by various officials",
+      "statute_reference": "Conn. Gen. Stat. § 1-205",
+      "enforcement_powers": [
+        "Order disclosure of records",
+        "Impose civil penalties up to $1,000",
+        "Issue compliance orders"
+      ]
+    },
+    "official_resources": {
+      "primary_statute_url": "https://www.cga.ct.gov/current/pub/chap_014.htm",
+      "agency_handbook_url": null,
+      "request_portal_url": null,
+      "oversight_url": "https://portal.ct.gov/FOI"
+    },
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_verified": true,
+      "primary_sources": [
+        "Connecticut General Statutes Title 1, Chapter 14",
+        "Connecticut Freedom of Information Commission materials"
+      ],
+      "verification_notes": "Parsed from official statutory text file. Response time verified against canonical-values.json (4 business days).",
+      "last_verified_date": "2025-10-03"
+    }
+  },
+  "agencies": []
+}
