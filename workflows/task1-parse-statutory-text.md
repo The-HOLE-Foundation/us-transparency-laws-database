@@ -22,7 +22,7 @@ Convert raw statutory text files (Layer 1) into structured JSON metadata (Layer 
 
 ## Output Files
 
-**Target**: `data/states/{state-name}/agencies.json`
+**Target**: `data/states/{state-name}/jurisdiction-data.json`
 
 **Structure**:
 ```json
@@ -179,7 +179,7 @@ except jsonschema.ValidationError as e:
 ```python
 import json
 
-output_path = f'data/states/{state_name}/agencies.json'
+output_path = f'data/states/{state_name}/jurisdiction-data.json'
 
 output_data = {
     "jurisdiction": jurisdiction_name,
@@ -243,7 +243,7 @@ with open(output_path, 'w') as f:
 ## Deliverables
 
 **Per Jurisdiction**:
-1. Populated `agencies.json` file (transparency_law section)
+1. Populated `jurisdiction-data.json` file (transparency_law section)
 2. Verification report (JSON)
 3. Git commit with clear message
 

@@ -52,7 +52,7 @@ class Layer2Validator:
 
     def validate_file(self, file_path: str) -> Tuple[bool, List[str]]:
         """
-        Validate Layer 2 agencies.json file
+        Validate Layer 2 jurisdiction-data.json file
 
         Returns:
             (is_valid, error_messages)
@@ -233,7 +233,7 @@ def validate_staged_files():
 
     staged_files = [
         f for f in result.stdout.strip().split('\n')
-        if f.endswith('agencies.json') and ('states/' in f or 'federal/' in f)
+        if f.endswith('jurisdiction-data.json') and ('states/' in f or 'federal/' in f)
     ]
 
     if not staged_files:

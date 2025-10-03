@@ -34,8 +34,8 @@ us-transparency-laws-database/
 │   ├── statutory-text_template-v0.11.txt
 │   └── state-agencies_template-v0.11.json
 ├── data/
-│   ├── federal/                       # Federal FOIA data (agencies.json, templates.json)
-│   ├── states/                        # 50 state directories, each with agencies.json
+│   ├── federal/                       # Federal FOIA data (jurisdiction-data.json, templates.json)
+│   ├── states/                        # 50 state directories, each with jurisdiction-data.json
 │   └── consolidated/                  # Master database and tracking table
 ├── consolidated-transparency-data/
 │   ├── verified-process-maps/         # Jurisdiction-specific process maps
@@ -59,7 +59,7 @@ us-transparency-laws-database/
    - Parsed statute information in JSON format
    - Agency contact databases
    - Request templates
-   - Each state has its own directory with `agencies.json`
+   - Each state has its own directory with `jurisdiction-data.json`
 
 3. **Consolidated Resources** (`data/consolidated/`, `consolidated-transparency-data/`)
    - Master tracking table for all 51 jurisdictions
@@ -70,7 +70,7 @@ us-transparency-laws-database/
 
 - **`data/consolidated/master_tracking_table-template.json`**: Tracks completion status for all 51 jurisdictions, including priority levels, statute collection status, agency data collection status, and template creation status
 - **`templates/json/STANDARD_JURISDICTION_TEMPLATE_template-v0.11.json`**: Standard schema for jurisdiction data including statute details, response requirements, appeal process, fee structure, exemptions, requester requirements, agency obligations, oversight body, and validation metadata
-- **State agencies files**: `data/states/{state-name}/agencies.json` - Contains jurisdiction info, transparency law details, and agency contact information
+- **State agencies files**: `data/states/{state-name}/jurisdiction-data.json` - Contains jurisdiction info, transparency law details, and agency contact information
 
 ## Data Validation Rules (CRITICAL)
 
