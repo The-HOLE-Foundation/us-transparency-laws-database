@@ -1,1 +1,146 @@
-{"jurisdiction":"","transparency_law":"","agencies":[]}
+{
+  "jurisdiction": "North Carolina",
+  "transparency_law": {
+    "name": "North Carolina Public Records Act",
+    "statute_citation": "N.C. Gen. Stat. § 132",
+    "effective_date": null,
+    "last_amended": "2025-01-01",
+
+    "response_requirements": {
+      "initial_response_time": -1,
+      "initial_response_unit": "variable",
+      "initial_response_description": "Custodian shall permit inspection at reasonable times and furnish copies 'as promptly as possible'; no specific deadline",
+      "final_response_time": null,
+      "final_response_unit": null,
+      "final_response_notes": "Statute requires 'as promptly as possible' with no fixed timeline",
+      "extension_allowed": false,
+      "extension_max_days": null,
+      "extension_notes": "No extension provision; general 'promptly as possible' standard applies",
+      "ag_review_timeline": null,
+      "ag_review_cite": null
+    },
+
+    "fee_structure": {
+      "search_fee": "Not allowed",
+      "search_fee_notes": "No charge for inspection; copies provided at actual reproduction cost only",
+      "search_fee_statutory_cite": "N.C. Gen. Stat. § 132-1(b)",
+      "copy_fee_per_page": null,
+      "copy_fee_notes": "Actual cost of reproducing the public record; fees prescribed by law; policy is 'minimal cost' meaning actual reproduction cost",
+      "copy_fee_cite": "N.C. Gen. Stat. § 132-3",
+      "electronic_fee": "Actual cost",
+      "fee_waiver_available": false,
+      "fee_waiver_criteria": null,
+      "fee_waiver_cite": null
+    },
+
+    "exemptions": [
+      {
+        "category": "Confidential Communications",
+        "citation": "N.C. Gen. Stat. § 132-1.1, § 132-2",
+        "description": "Information transmitted between attorney and client in confidence for purpose of obtaining legal advice",
+        "scope": "narrow"
+      },
+      {
+        "category": "Attorney-Client Privilege",
+        "citation": "N.C. Gen. Stat. § 132-2",
+        "description": "Communications concerning matters within attorney-client privilege as recognized by courts",
+        "scope": "narrow"
+      },
+      {
+        "category": "Confidential Tax Information",
+        "citation": "N.C. Gen. Stat. § 132-1.2",
+        "description": "Tax information required to be kept confidential pursuant to G.S. 105-259",
+        "scope": "narrow"
+      },
+      {
+        "category": "Confidential by Law",
+        "citation": "N.C. Gen. Stat. § 132",
+        "description": "Communications required by law to be kept confidential or prohibited from disclosure by state or federal law",
+        "scope": "broad"
+      },
+      {
+        "category": "Criminal Investigations",
+        "citation": "N.C. Gen. Stat. § 132",
+        "description": "Records of ongoing criminal investigations when disclosure would jeopardize investigation",
+        "scope": "moderate"
+      },
+      {
+        "category": "Economic Development",
+        "citation": "N.C. Gen. Stat. § 132",
+        "description": "Certain economic development records involving negotiations and competitive information",
+        "scope": "narrow"
+      }
+    ],
+
+    "appeal_process": {
+      "first_level": "Superior Court",
+      "first_level_deadline_days": null,
+      "first_level_deadline_unit": null,
+      "first_level_notes": "No formal administrative appeal process; enforcement through court action for mandamus or declaratory judgment",
+      "first_level_cite": "N.C. Gen. Stat. § 132",
+      "second_level": null,
+      "second_level_deadline_days": null,
+      "second_level_deadline_unit": null,
+      "second_level_notes": null,
+      "second_level_cite": null,
+      "attorney_fees_recoverable": false,
+      "attorney_fees_cite": null,
+      "attorney_fees_notes": "No statutory provision for attorney fees"
+    },
+
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "purpose_statement_prohibited": false,
+      "purpose_notes": "Any person may inspect public records; no requirement to state purpose or identity",
+      "residency_requirement": false,
+      "request_format_notes": "No specific format required; custodian must permit inspection at reasonable times",
+      "specific_format": "Must identify records sought with reasonable specificity"
+    },
+
+    "agency_obligations": {
+      "records_officer_required": false,
+      "records_officer_notes": "Custodian of public records has responsibility; each agency must designate Electronic Records Coordinator for electronic records management",
+      "records_officer_cite": "N.C. Gen. Stat. § 132-8.1(c)",
+      "business_hours_access": true,
+      "business_hours_cite": "N.C. Gen. Stat. § 132-3",
+      "electronic_submission_accepted": false,
+      "response_format_options": "State agencies must implement electronic records management program",
+      "liberal_construction": "Policy that people may obtain copies free or at minimal cost",
+      "liberal_construction_cite": "N.C. Gen. Stat. § 132-1(b)",
+      "third_party_notification": null,
+      "training_required": false,
+      "training_cite": null,
+      "training_notes": null
+    },
+
+    "oversight_body": {
+      "name": "North Carolina Department of Natural and Cultural Resources - State Archives",
+      "role": "Oversees records retention and destruction; provides records management guidance",
+      "contact_info": "State Archives of North Carolina",
+      "oversight_url": "https://archives.ncdcr.gov/government/retention-schedules",
+      "advisory_committee": null
+    },
+
+    "official_resources": {
+      "primary_statute_url": "https://www.ncleg.net/enactedlegislation/statutes/html/bychapter/chapter_132.html",
+      "agency_handbook_url": "https://archives.ncdcr.gov/government/records-management",
+      "request_portal_url": null,
+      "ag_decisions_url": null
+    },
+
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_url": "https://www.ncleg.net/enactedlegislation/statutes/html/bychapter/chapter_132.html",
+      "source_verified": true,
+      "primary_sources": [
+        "North Carolina General Statutes Chapter 132",
+        "North Carolina Public Records Act statutory text",
+        "NC State Archives records management guidance"
+      ],
+      "verification_notes": "All fields verified from official North Carolina statute. No specific response timeline - statute requires records be furnished 'as promptly as possible' at 'reasonable times' with no fixed deadline. Fees limited to actual reproduction cost - policy is 'minimal cost' for the people to obtain their public records. No formal administrative appeal process. No attorney fees provision. Willful destruction of records is Class 1 misdemeanor. Strong policy that public records are property of the people. Electronic records management program required for state agencies with designated Electronic Records Coordinator."
+    }
+  },
+  "agencies": []
+}
