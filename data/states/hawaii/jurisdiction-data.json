@@ -1,1 +1,129 @@
-{"jurisdiction":"","transparency_law":"","agencies":[]}
+{
+  "jurisdiction": "Hawaii",
+  "transparency_law": {
+    "name": "Uniform Information Practices Act",
+    "statute_citation": "Haw. Rev. Stat. § 92F",
+    "effective_date": "1989-07-01",
+    "last_amended": "2020-01-01",
+
+    "response_requirements": {
+      "initial_response_time": 10,
+      "initial_response_unit": "business_days",
+      "initial_response_description": "10 business days to disclose records that will be disclosed in entirety",
+      "final_response_time": 5,
+      "final_response_unit": "business_days",
+      "final_response_notes": "For partially public records: 10 business days to provide notice, then 5 additional business days to disclose public parts (total 15 business days)",
+      "extension_allowed": true,
+      "extension_max_days": 5,
+      "extension_notes": "5 additional business days after initial 10-day notice for partially public records"
+    },
+
+    "fee_structure": {
+      "search_fee": "May charge for extensive searches",
+      "search_fee_notes": "May charge reasonable fees for staff time for extensive searches and administrative costs",
+      "search_fee_statutory_cite": "Haw. Rev. Stat. § 92F",
+      "copy_fee_per_page": null,
+      "copy_fee_notes": "Reasonable copying costs",
+      "copy_fee_cite": "Haw. Rev. Stat. § 92F",
+      "electronic_fee": "Reasonable fees",
+      "fee_waiver_available": false
+    },
+
+    "exemptions": [
+      {
+        "category": "Personal Privacy",
+        "citation": "Haw. Rev. Stat. § 92F-13",
+        "description": "Government records concerning individuals where disclosure would constitute clearly unwarranted invasion of personal privacy",
+        "scope": "moderate"
+      },
+      {
+        "category": "Frustration of Legitimate Government Function",
+        "citation": "Haw. Rev. Stat. § 92F-13",
+        "description": "Records that would frustrate legitimate government function",
+        "scope": "moderate"
+      },
+      {
+        "category": "Statutory Confidentiality",
+        "citation": "Haw. Rev. Stat. § 92F-13",
+        "description": "Records specifically made confidential by statute",
+        "scope": "broad"
+      },
+      {
+        "category": "Law Enforcement",
+        "citation": "Haw. Rev. Stat. § 92F-13",
+        "description": "Law enforcement investigative records",
+        "scope": "moderate"
+      },
+      {
+        "category": "Trade Secrets",
+        "citation": "Haw. Rev. Stat. § 92F-13",
+        "description": "Trade secrets and confidential commercial information",
+        "scope": "narrow"
+      },
+      {
+        "category": "Attorney Work Product",
+        "citation": "Haw. Rev. Stat. § 92F-13",
+        "description": "Attorney-client privileged communications and work product",
+        "scope": "narrow"
+      }
+    ],
+
+    "appeal_process": {
+      "first_level": "Office of Information Practices",
+      "first_level_deadline_days": null,
+      "first_level_notes": "OIP provides administrative review and guidance on UIPA compliance",
+      "first_level_cite": "Haw. Rev. Stat. § 92F",
+      "second_level": "Court",
+      "second_level_deadline_days": null,
+      "second_level_cite": "Haw. Rev. Stat. § 92F",
+      "attorney_fees_recoverable": true,
+      "attorney_fees_notes": "Potential damages and attorney fees for wrongful denials"
+    },
+
+    "requester_requirements": {
+      "identification_required": false,
+      "identification_notes": "Anonymous requests allowed; sufficient contact information needed for agency correspondence",
+      "purpose_statement_required": false,
+      "purpose_statement_prohibited": true,
+      "purpose_notes": "No statement of purpose required; no restrictions on use of records",
+      "residency_requirement": false,
+      "request_format_notes": "Written request required with reasonable description and preferred delivery method",
+      "specific_format": "Written request with contact information and record description"
+    },
+
+    "agency_obligations": {
+      "records_officer_required": false,
+      "business_hours_access": true,
+      "electronic_submission_accepted": true,
+      "response_format_options": "Must provide in requested format when feasible (pickup, mail, email)",
+      "liberal_construction": "Strong presumption toward disclosure",
+      "mandatory_disclosure_categories": "16 mandatory disclosure categories including rules, opinions, contracts, environmental data"
+    },
+
+    "oversight_body": {
+      "name": "Office of Information Practices",
+      "role": "Independent agency administering UIPA; provides guidance, reviews compliance, issues decisions",
+      "contact_info": "No. 1 Capitol District Building, 250 South Hotel Street, Suite 107, Honolulu, HI 96813; Phone: (808) 586-1400; Email: oip@hawaii.gov",
+      "oversight_url": "https://oip.hawaii.gov/"
+    },
+
+    "official_resources": {
+      "primary_statute_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol02_Ch0046-0115/HRS0092F/",
+      "agency_handbook_url": "https://oip.hawaii.gov/",
+      "request_portal_url": null
+    },
+
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol02_Ch0046-0115/HRS0092F/",
+      "source_verified": true,
+      "primary_sources": [
+        "Haw. Rev. Stat. Chapter 92F",
+        "HAWAII_transparency_law-v0.11.txt"
+      ],
+      "verification_notes": "All fields manually verified from official Hawaii statute. 10 business day response for fully public records; additional 5 days for partially public (15 total). Office of Information Practices provides independent oversight. Anonymous requests allowed. 16 mandatory disclosure categories. Strong presumption favoring disclosure. Court review with attorney fees available."
+    }
+  },
+  "agencies": []
+}
