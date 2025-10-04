@@ -1,1 +1,147 @@
-{"jurisdiction":"","transparency_law":"","agencies":[]}
+{
+  "jurisdiction": "Connecticut",
+  "transparency_law": {
+    "name": "Connecticut Freedom of Information Act",
+    "statute_citation": "Conn. Gen. Stat. § 1-200 et seq.",
+    "effective_date": null,
+    "last_amended": "1999-01-01",
+
+    "response_requirements": {
+      "initial_response_time": 4,
+      "initial_response_unit": "business_days",
+      "initial_response_description": "Must respond within 4 business days; 'promptly' means quickly and without undue delay",
+      "final_response_time": null,
+      "final_response_unit": "variable",
+      "final_response_notes": "Common sense and good will should be guiding principles",
+      "extension_allowed": true,
+      "extension_max_days": null,
+      "extension_notes": "May establish special schedule if requests interfere with normal duties"
+    },
+
+    "fee_structure": {
+      "search_fee": "Not allowed",
+      "search_fee_notes": "No fee for inspection",
+      "copy_fee_per_page": 0.50,
+      "copy_fee_notes": "State agencies: max $0.25/page; Other agencies: max $0.50/page; Judicial Dept: $0.50 first 20 pages, $0.25 thereafter",
+      "copy_fee_cite": "Conn. Gen. Stat. § 1-212",
+      "electronic_fee": "Same as copy fees",
+      "fee_waiver_available": false
+    },
+
+    "exemptions": [
+      {
+        "category": "Personnel Privacy",
+        "citation": "Conn. Gen. Stat. § 1-210(b)(1)",
+        "description": "Personnel files and similar files where disclosure would constitute invasion of personal privacy",
+        "scope": "moderate"
+      },
+      {
+        "category": "Legal Strategy",
+        "citation": "Conn. Gen. Stat. § 1-210(b)(2)",
+        "description": "Records of strategy sessions or negotiations of pending claims/litigation until finally adjudicated or settled",
+        "scope": "narrow"
+      },
+      {
+        "category": "Trade Secrets",
+        "citation": "Conn. Gen. Stat. § 1-210(b)(3)",
+        "description": "Trade secrets",
+        "scope": "narrow"
+      },
+      {
+        "category": "Confidential by Statute",
+        "citation": "Conn. Gen. Stat. § 1-210(b)(4)",
+        "description": "Records required confidential under general statutes or exempted by state or federal law",
+        "scope": "broad"
+      },
+      {
+        "category": "Testing Materials",
+        "citation": "Conn. Gen. Stat. § 1-210(b)(5)",
+        "description": "Test questions, scoring keys, examination data for licensing, employment, or academic exams",
+        "scope": "narrow"
+      },
+      {
+        "category": "Property Appraisals",
+        "citation": "Conn. Gen. Stat. § 1-210(b)(6)",
+        "description": "Real estate appraisals and feasibility estimates until contracts executed or proceedings abandoned",
+        "scope": "narrow"
+      },
+      {
+        "category": "Collective Bargaining",
+        "citation": "Conn. Gen. Stat. § 1-210(b)(7)",
+        "description": "Records of strategy or negotiations with respect to collective bargaining",
+        "scope": "narrow"
+      },
+      {
+        "category": "Tax Returns",
+        "citation": "Conn. Gen. Stat. § 1-210(b)(8)",
+        "description": "Individual tax returns",
+        "scope": "narrow"
+      },
+      {
+        "category": "Computer Programs",
+        "citation": "Conn. Gen. Stat. § 1-210(b)(10)",
+        "description": "Computer programs as defined in § 1-211",
+        "scope": "narrow"
+      }
+    ],
+
+    "appeal_process": {
+      "first_level": "Freedom of Information Commission",
+      "first_level_deadline_days": 30,
+      "first_level_deadline_unit": "calendar_days",
+      "first_level_notes": "File with FOIC within 30 days of denial; Commission may order mediation",
+      "first_level_cite": "Conn. Gen. Stat. § 1-214",
+      "second_level": "Hartford Superior Court",
+      "second_level_deadline_days": 45,
+      "second_level_deadline_unit": "calendar_days",
+      "second_level_cite": "Conn. Gen. Stat. § 1-217",
+      "attorney_fees_recoverable": true,
+      "civil_penalties": "Up to $1,000 civil penalty by FOIC",
+      "criminal_penalties": "Class B misdemeanor for failing to comply with FOIC order; Class A misdemeanor for willful violations"
+    },
+
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "residency_requirement": false,
+      "request_format_notes": "May inspect promptly without written request; written application required for copies",
+      "specific_format": "Inspection: no form required; Copies: written application required"
+    },
+
+    "agency_obligations": {
+      "records_officer_required": false,
+      "business_hours_access": true,
+      "business_hours_cite": "Conn. Gen. Stat. § 1-210",
+      "electronic_submission_accepted": true,
+      "written_procedures_required": "Must adopt written procedures for public access",
+      "assistance_required": "Must provide assistance to requesters; explain technical terms",
+      "records_maintenance": "Must maintain records in reasonably accessible manner"
+    },
+
+    "oversight_body": {
+      "name": "Freedom of Information Commission",
+      "role": "Adjudicates appeals; enforces compliance; imposes penalties up to $1,000",
+      "contact_info": "9-member commission",
+      "oversight_url": "https://portal.ct.gov/FOI"
+    },
+
+    "official_resources": {
+      "primary_statute_url": "https://www.cga.ct.gov/current/pub/chap_014.htm",
+      "agency_handbook_url": "https://portal.ct.gov/FOI",
+      "request_portal_url": null
+    },
+
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_url": "https://www.cga.ct.gov/current/pub/chap_014.htm",
+      "source_verified": true,
+      "primary_sources": [
+        "Conn. Gen. Stat. Title 1, Chapter 14",
+        "CONNECTICUT_transparency_law-v0.11.txt"
+      ],
+      "verification_notes": "All fields manually verified from official Connecticut statute. 4 business day response ('promptly'). State agencies max $0.25/page; others max $0.50/page. No inspection fee. FOIC administrative appeal within 30 days; Hartford Superior Court within 45 days. Civil penalties up to $1,000; criminal penalties for violations. 9 specific exemptions with Conn. Gen. Stat. § 1-210(b) subsection citations."
+    }
+  },
+  "agencies": []
+}
