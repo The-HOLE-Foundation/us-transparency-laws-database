@@ -1,1 +1,137 @@
-{"jurisdiction":"","transparency_law":"","agencies":[]}
+{
+  "jurisdiction": "Montana",
+  "transparency_law": {
+    "name": "Montana Public Information Law",
+    "statute_citation": "Montana Code Annotated Title 2, Chapter 6 \u00a7 2-6-1006",
+    "effective_date": null,
+    "last_amended": "2025-10-01",
+    "response_requirements": {
+      "initial_response_time": 5,
+      "initial_response_unit": "business_days",
+      "initial_response_description": "Executive branch: Acknowledge receipt within 5 business days. For specific, clearly identifiable, readily available records: provide within 5 working days of acknowledgment. Non-executive: Respond in timely manner.",
+      "maximum_response_time": 10,
+      "extension_allowed": false,
+      "extension_max_time": null,
+      "extension_conditions": [],
+      "no_response_consequence": "District court action under constitutional right or mandamus proceedings"
+    },
+    "fee_structure": {
+      "standard_copy_fee": "Actual costs of copying",
+      "electronic_fee": "Actual costs",
+      "search_time_fee": "Staff time for searching and retrieving records",
+      "certification_fee": "Not specified",
+      "waiver_available": false,
+      "waiver_criteria": [],
+      "notes": "Reasonable fees for actual costs including copying, staff time, and administrative overhead. Cannot charge more than actual cost incurred."
+    },
+    "exemptions": [
+      {
+        "category": "Personnel Records and Privacy",
+        "citation": "MCA Title 2, Ch. 6",
+        "description": "Personnel records and personal privacy (individual privacy must clearly exceed merits of public disclosure)",
+        "scope": "moderate"
+      },
+      {
+        "category": "Law Enforcement Investigations",
+        "citation": "MCA Title 2, Ch. 6",
+        "description": "Law enforcement investigative records",
+        "scope": "moderate"
+      },
+      {
+        "category": "Attorney-Client Privilege",
+        "citation": "MCA Title 2, Ch. 6",
+        "description": "Attorney-client privileged communications",
+        "scope": "narrow"
+      },
+      {
+        "category": "Medical Records",
+        "citation": "MCA Title 2, Ch. 6",
+        "description": "Medical records and health information",
+        "scope": "moderate"
+      },
+      {
+        "category": "Trade Secrets",
+        "citation": "MCA Title 2, Ch. 6",
+        "description": "Trade secrets and proprietary information",
+        "scope": "moderate"
+      },
+      {
+        "category": "Statutory Exemptions",
+        "citation": "MCA Title 2, Ch. 6",
+        "description": "Records specifically exempted by statute",
+        "scope": "broad"
+      }
+    ],
+    "appeal_process": {
+      "administrative_appeal_required": false,
+      "appeal_deadline_days": null,
+      "appeal_deadline_unit": null,
+      "appeal_authority": "District Court",
+      "appeal_description": "Administrative appeal to agency head (discretionary). District court action under constitutional right to know or mandamus proceedings for enforcement.",
+      "judicial_review_available": true,
+      "judicial_review_deadline_days": null,
+      "court_jurisdiction": "District Court",
+      "burden_of_proof": "Individual privacy must clearly exceed merits of public disclosure to justify withholding",
+      "penalties": {
+        "criminal": "Not specified",
+        "civil": "Constitutional right enforceable through courts"
+      }
+    },
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "residency_requirement": false,
+      "specific_format": "Be specific about records sought. Identify whether requesting from executive or non-executive agency.",
+      "notes": "Constitutional right to examine documents. Strong presumption favoring disclosure."
+    },
+    "agency_obligations": {
+      "records_officer_required": true,
+      "business_hours_access": false,
+      "electronic_submission_accepted": false,
+      "response_format_options": [
+        "Inspection",
+        "Copies",
+        "Electronic copies"
+      ],
+      "training_required": false,
+      "annual_reporting_required": false,
+      "specific_obligations": [
+        "Executive agencies must designate contact person",
+        "Acknowledge requests within 5 business days",
+        "Provide specific records within 5 working days when readily available",
+        "Explain reasons for denials",
+        "Charge only actual costs"
+      ]
+    },
+    "oversight_body": {
+      "name": "Montana Department of Justice (guidance only)",
+      "role": "Provides guidance on public information law. No formal enforcement authority - enforcement through constitutional right and courts.",
+      "contact_info": "Montana Department of Justice",
+      "statute_reference": "Montana Constitution Article II, Section 9; MCA Title 2, Chapter 6",
+      "enforcement_powers": [
+        "Provide guidance and interpretation",
+        "No formal enforcement authority",
+        "Constitutional right enforced through district courts"
+      ]
+    },
+    "official_resources": {
+      "primary_statute_url": "https://leg.mt.gov/bills/mca/title_0020/chapter_0060/parts_index.html",
+      "agency_handbook_url": null,
+      "request_portal_url": null,
+      "oversight_url": null
+    },
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_verified": true,
+      "primary_sources": [
+        "Montana Code Annotated Title 2, Chapter 6",
+        "Montana Constitution Article II, Section 9"
+      ],
+      "verification_notes": "Parsed from official statutory text file. Response time verified against canonical-values.json (5 business days). 6 exemptions parsed. Constitutional foundation: Privacy must clearly exceed public merit to justify withholding. Special provisions for some agencies effective October 1, 2025.",
+      "last_verified_date": "2025-10-03",
+      "source_url": "https://leg.mt.gov/bills/mca/title_0020/chapter_0060/parts_index.html"
+    }
+  },
+  "agencies": []
+}

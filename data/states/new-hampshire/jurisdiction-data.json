@@ -1,1 +1,142 @@
-{"jurisdiction":"","transparency_law":"","agencies":[]}
+{
+  "jurisdiction": "New Hampshire",
+  "transparency_law": {
+    "name": "New Hampshire Right-to-Know Law",
+    "statute_citation": "New Hampshire RSA \u00a7 91-A",
+    "effective_date": null,
+    "last_amended": "2025-01-09",
+    "response_requirements": {
+      "initial_response_time": 5,
+      "initial_response_unit": "business_days",
+      "initial_response_description": "Must make record available, deny request, or provide estimated date and fees within 5 business days",
+      "final_response_time": null,
+      "final_response_unit": "variable",
+      "final_response_notes": "If unable to provide within 5 days, must notify requestor with estimated date",
+      "extension_allowed": true,
+      "extension_max_days": null,
+      "extension_notes": "May extend if unable to comply within 5 business days - must provide estimated timeline"
+    },
+    "fee_structure": {
+      "search_fee": "Actual costs only",
+      "search_fee_statutory_cite": "RSA \u00a7 91-A:4 IV",
+      "copy_fee_per_page": null,
+      "copy_fee_notes": "Cannot exceed actual costs; must provide itemized charges",
+      "copy_fee_cite": "RSA \u00a7 91-A:4 IV",
+      "electronic_fee": "Actual costs only",
+      "fee_waiver_available": false,
+      "advance_payment_allowed": true
+    },
+    "exemptions": [
+      {
+        "category": "Court Records",
+        "citation": "RSA \u00a7 91-A:5 I",
+        "description": "Records of grand and petit juries",
+        "scope": "narrow"
+      },
+      {
+        "category": "Parole Records",
+        "citation": "RSA \u00a7 91-A:5 II",
+        "description": "Records of parole and pardon boards",
+        "scope": "narrow"
+      },
+      {
+        "category": "Education Records",
+        "citation": "RSA \u00a7 91-A:5 III",
+        "description": "Personal school records of pupils",
+        "scope": "narrow"
+      },
+      {
+        "category": "Personnel Records",
+        "citation": "RSA \u00a7 91-A:5 IV",
+        "description": "Records pertaining to internal personnel practices",
+        "scope": "moderate"
+      },
+      {
+        "category": "Personal Privacy",
+        "citation": "RSA \u00a7 91-A:5 VI",
+        "description": "Records which would constitute invasion of privacy",
+        "scope": "moderate"
+      },
+      {
+        "category": "Law Enforcement",
+        "citation": "RSA \u00a7 91-A:5 VII",
+        "description": "Law enforcement intelligence and investigative files",
+        "scope": "moderate"
+      },
+      {
+        "category": "Trade Secrets",
+        "citation": "RSA \u00a7 91-A:5 VIII",
+        "description": "Confidential commercial or financial information",
+        "scope": "narrow"
+      },
+      {
+        "category": "Deliberative Process",
+        "citation": "RSA \u00a7 91-A:5 X",
+        "description": "Preliminary drafts, notes, impressions, memoranda not in final form",
+        "scope": "narrow"
+      },
+      {
+        "category": "Attorney-Client Privilege",
+        "citation": "RSA \u00a7 91-A:5 XIII",
+        "description": "Correspondence and documents protected by attorney-client privilege",
+        "scope": "narrow"
+      }
+    ],
+    "appeal_process": {
+      "first_level": "Right-to-Know Ombudsman",
+      "first_level_deadline_days": null,
+      "first_level_notes": "Complaint process available through ombudsman",
+      "second_level": "Superior Court - Injunctive relief petition",
+      "second_level_deadline_days": null,
+      "second_level_cite": "RSA \u00a7 91-A:7",
+      "attorney_fees_recoverable": true,
+      "attorney_fees_cite": "RSA \u00a7 91-A:8",
+      "attorney_fees_notes": "Prevailing plaintiff may recover attorney fees and costs",
+      "civil_penalties_available": true,
+      "civil_penalties_range": "Up to $2,000",
+      "civil_penalties_cite": "RSA \u00a7 91-A:8",
+      "removal_from_office_possible": true,
+      "mandatory_training_possible": true
+    },
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "residency_requirement": false,
+      "request_format_notes": "Any citizen may request records during regular business hours",
+      "specific_format": "Must reasonably identify records sought"
+    },
+    "agency_obligations": {
+      "records_officer_required": false,
+      "business_hours_access": true,
+      "electronic_submission_accepted": true,
+      "response_format_options": "May inspect and make memoranda, abstracts, photographic or photostatic copies",
+      "denial_requirements": "Must specify legal authority for denial",
+      "presumption_of_openness": "Strong presumption favoring disclosure"
+    },
+    "oversight_body": {
+      "name": "Right-to-Know Ombudsman",
+      "role": "Provides oversight and complaint resolution",
+      "contact_info": "Room 313, State House Annex, 25 Capitol Street, Concord, NH 03301",
+      "phone": "(603) 271-3277",
+      "email": "Thomas.kehr@sos.nh.gov"
+    },
+    "official_resources": {
+      "primary_statute_url": "https://gc.nh.gov/rsa/html/VI/91-A/91-A-mrg.htm",
+      "agency_handbook_url": null,
+      "request_portal_url": null
+    },
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_url": "https://gc.nh.gov/rsa/html/VI/91-A/91-A-mrg.htm",
+      "source_verified": true,
+      "primary_sources": [
+        "New Hampshire RSA Chapter 91-A",
+        "https://gc.nh.gov/rsa/html/VI/91-A/91-A-mrg.htm",
+        "new_hampshire_transparency_law-v0.11.txt"
+      ],
+      "verification_notes": "All fields verified from official New Hampshire statute. 5 business day response requirement with extension possible. Right-to-Know Ombudsman provides oversight. Civil penalties up to $2,000. Attorney fees recoverable by prevailing plaintiff."
+    }
+  },
+  "agencies": []
+}

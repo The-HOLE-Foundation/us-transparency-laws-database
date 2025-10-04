@@ -1,1 +1,118 @@
-{"jurisdiction":"","transparency_law":"","agencies":[]}
+{
+  "jurisdiction": "Nebraska",
+  "transparency_law": {
+    "name": "Nebraska Public Records Act",
+    "statute_citation": "Neb. Rev. Stat. \u00a7\u00a7 84-712 through 84-712.09",
+    "effective_date": "2025-01-01",
+    "last_amended": "2025-01-01",
+    "response_requirements": {
+      "initial_response_time": 4,
+      "initial_response_unit": "business_days",
+      "initial_response_description": "Must provide cost estimate and access/copies of records, OR written denial with statutory citations, OR written explanation with earliest practicable date if extensive",
+      "final_response_time": null,
+      "final_response_unit": "variable",
+      "final_response_notes": "If extensive request, earliest practicable fulfillment date must be provided",
+      "extension_allowed": true,
+      "extension_max_days": null,
+      "extension_notes": "For extensive/difficult requests, written explanation with earliest practicable date required"
+    },
+    "fee_structure": {
+      "search_fee": "Staff time for search and retrieval at actual cost",
+      "search_fee_notes": "Cannot charge more than actual cost incurred",
+      "search_fee_statutory_cite": "Neb. Rev. Stat. \u00a7 84-712.03",
+      "copy_fee_per_page": null,
+      "copy_fee_notes": "Actual costs of copying - specific rates not specified in statute",
+      "copy_fee_cite": "Neb. Rev. Stat. \u00a7 84-712.03",
+      "electronic_fee": "Actual costs only",
+      "fee_waiver_available": false,
+      "fee_waiver_criteria": null
+    },
+    "exemptions": [
+      {
+        "category": "Personal Privacy",
+        "citation": "Neb. Rev. Stat. \u00a7 84-712.05",
+        "description": "Personal information in files maintained for employees/officials",
+        "scope": "moderate"
+      },
+      {
+        "category": "Medical Records",
+        "citation": "Neb. Rev. Stat. \u00a7 84-712.05",
+        "description": "Medical records and patient information",
+        "scope": "broad"
+      },
+      {
+        "category": "Trade Secrets",
+        "citation": "Neb. Rev. Stat. \u00a7 84-712.05",
+        "description": "Trade secrets and proprietary information",
+        "scope": "moderate"
+      },
+      {
+        "category": "Attorney-Client Privilege",
+        "citation": "Neb. Rev. Stat. \u00a7 84-712.05",
+        "description": "Attorney-client privileged communications",
+        "scope": "narrow"
+      },
+      {
+        "category": "Law Enforcement",
+        "citation": "Neb. Rev. Stat. \u00a7 84-712.05",
+        "description": "Law enforcement investigative records",
+        "scope": "moderate"
+      },
+      {
+        "category": "Statutory Exemptions",
+        "citation": "Neb. Rev. Stat. \u00a7 84-712.05",
+        "description": "Records specifically exempted by other statutes",
+        "scope": "variable"
+      }
+    ],
+    "appeal_process": {
+      "first_level": "District court action for mandamus relief",
+      "first_level_deadline_days": null,
+      "first_level_notes": "Administrative appeal to custodian's superior not required by statute",
+      "second_level": "Appellate courts",
+      "second_level_deadline_days": null,
+      "attorney_fees_recoverable": true,
+      "attorney_fees_notes": "Attorney fees may be available in some cases"
+    },
+    "requester_requirements": {
+      "identification_required": false,
+      "identification_notes": "No specific identification requirements in statute",
+      "reason_required": false,
+      "reason_notes": "No requirement to state purpose for request",
+      "residency_required": false,
+      "written_request_required": false,
+      "written_request_notes": "Written requests recommended for documentation but not required"
+    },
+    "agency_obligations": {
+      "response_deadline": "4 business days maximum",
+      "response_options": "Must provide one of three responses: records/cost estimate, written denial with citations, or extension with earliest practicable date",
+      "denial_requirements": "Must include description of withheld record contents and specific statutory citations",
+      "fee_estimate_required": true,
+      "fee_estimate_notes": "Must provide cost estimate before fulfilling request"
+    },
+    "oversight_body": {
+      "name": "Attorney General",
+      "role": "Provides guidance and interpretation",
+      "enforcement_authority": "Limited to guidance; enforcement through district courts",
+      "contact_info": null
+    },
+    "official_resources": {
+      "agency_guidance_url": null,
+      "request_form_url": null,
+      "statute_url": null,
+      "ag_guidance_url": null
+    },
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_url": "Nebraska Revised Statutes",
+      "source_verified": true,
+      "primary_sources": [
+        "NEBRASKA_transparency_law-v0.11.txt",
+        "Nebraska Revised Statutes \u00a7\u00a7 84-712 through 84-712.09"
+      ],
+      "notes": "Liberal construction standard particularly applies to fiscal records, audits, and public funds records"
+    }
+  },
+  "agencies": []
+}

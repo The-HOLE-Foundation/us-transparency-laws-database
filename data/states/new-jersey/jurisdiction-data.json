@@ -1,1 +1,132 @@
-{"jurisdiction":"","transparency_law":"","agencies":[]}
+{
+  "jurisdiction": "New Jersey",
+  "transparency_law": {
+    "name": "New Jersey Open Public Records Act (OPRA)",
+    "statute_citation": "N.J.S.A. \u00a7 47:1A-1 et seq.",
+    "effective_date": null,
+    "last_amended": "2024-09-03",
+    "response_requirements": {
+      "initial_response_time": 7,
+      "initial_response_unit": "business_days",
+      "initial_response_description": "7 business days for standard requests; 14 business days for commercial use requests (as of 2024 amendments)",
+      "final_response_time": null,
+      "final_response_unit": "variable",
+      "commercial_request_time": 14,
+      "commercial_request_unit": "business_days"
+    },
+    "fee_structure": {
+      "search_fee": "May charge for special service for large requests",
+      "search_fee_statutory_cite": "N.J.S.A. \u00a7 47:1A-5",
+      "copy_fee_per_page": null,
+      "copy_fee_notes": "First 10 pages free; additional pages at actual cost of duplication",
+      "copy_fee_cite": "N.J.S.A. \u00a7 47:1A-5",
+      "first_10_pages_free": true,
+      "electronic_fee": "Actual cost only",
+      "fee_waiver_available": false
+    },
+    "exemptions": [
+      {
+        "category": "Personal Privacy",
+        "citation": "N.J.S.A. \u00a7 47:1A-1.1",
+        "description": "Personal identifying information (enhanced under 2024 amendments)",
+        "scope": "moderate"
+      },
+      {
+        "category": "Law Enforcement",
+        "citation": "N.J.S.A. \u00a7 47:1A-1.1",
+        "description": "Criminal investigatory records",
+        "scope": "moderate"
+      },
+      {
+        "category": "Trade Secrets",
+        "citation": "N.J.S.A. \u00a7 47:1A-1.1",
+        "description": "Trade secrets and proprietary information",
+        "scope": "narrow"
+      },
+      {
+        "category": "Attorney-Client Privilege",
+        "citation": "N.J.S.A. \u00a7 47:1A-1.1",
+        "description": "Attorney-client privileged communications",
+        "scope": "narrow"
+      },
+      {
+        "category": "Security",
+        "citation": "N.J.S.A. \u00a7 47:1A-1.1",
+        "description": "Security-related information",
+        "scope": "narrow"
+      },
+      {
+        "category": "Personnel Records",
+        "citation": "N.J.S.A. \u00a7 47:1A-1.1",
+        "description": "Personnel records (with exceptions)",
+        "scope": "moderate"
+      }
+    ],
+    "appeal_process": {
+      "first_level": "Government Records Council (GRC)",
+      "first_level_deadline_days": 45,
+      "first_level_deadline_notes": "Must file GRC complaint within 45 days of denial",
+      "first_level_cite": "N.J.S.A. \u00a7 47:1A-6",
+      "mediation_available": true,
+      "second_level": "Superior Court",
+      "second_level_deadline_days": 45,
+      "second_level_deadline_notes": "Within 45 days of denial",
+      "second_level_cite": "N.J.S.A. \u00a7 47:1A-6",
+      "attorney_fees_recoverable": true,
+      "attorney_fees_cite": "N.J.S.A. \u00a7 47:1A-6",
+      "attorney_fees_notes": "Under 2024 amendments, only if agency unreasonably denied access, acted in bad faith, or knowingly violated OPRA",
+      "civil_penalties_available": true,
+      "civil_penalties_range": "$1,000-$5,000",
+      "civil_penalties_cite": "N.J.S.A. \u00a7 47:1A-11"
+    },
+    "requester_requirements": {
+      "identification_required": true,
+      "identification_notes": "Must provide name, address, and telephone number",
+      "purpose_statement_required": true,
+      "purpose_notes": "Must state purpose; must certify whether connected to legal proceeding (2024 amendment)",
+      "residency_requirement": false,
+      "written_request_required": true,
+      "specific_format": "Requests for emails must include discrete time period, specific subject matter, and employee names/titles (2024 amendment)"
+    },
+    "agency_obligations": {
+      "records_officer_required": true,
+      "records_officer_title": "Custodian of Records",
+      "business_hours_access": true,
+      "electronic_submission_accepted": true,
+      "redaction_requirements": "Must redact personal information per Daniel's Law and 2024 amendments",
+      "website_posting_required": "Must post records on publicly available website to the extent feasible (2024 amendment)"
+    },
+    "oversight_body": {
+      "name": "Government Records Council (GRC)",
+      "role": "Provides mediation, investigation, and enforcement",
+      "contact_info": "101 South Broad Street, PO Box 819, Trenton, NJ 08625-0819",
+      "phone": "(609) 292-6830",
+      "email": "grc@dca.nj.gov"
+    },
+    "official_resources": {
+      "primary_statute_url": "https://www.nj.gov/grc/laws/act/",
+      "agency_handbook_url": null,
+      "request_portal_url": null
+    },
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_url": "https://www.nj.gov/grc/laws/act/",
+      "source_verified": true,
+      "primary_sources": [
+        "N.J.S.A. 47:1A-1 et seq.",
+        "https://www.nj.gov/grc/laws/act/",
+        "new_jersey_transparency_law-v0.11.txt"
+      ],
+      "verification_notes": "All fields verified from official New Jersey statute. Major 2024 amendments effective September 3, 2024. 7 business day response for standard requests, 14 days for commercial. First 10 pages free. Government Records Council provides oversight.",
+      "unique_characteristics": [
+        "Major 2024 amendments strengthening privacy protections",
+        "First 10 pages free",
+        "Litigation restrictions added in 2024",
+        "Enhanced specificity requirements for email requests",
+        "Modified attorney fees standard (harder to recover)"
+      ]
+    }
+  },
+  "agencies": []
+}

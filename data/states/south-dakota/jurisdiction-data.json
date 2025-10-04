@@ -1,1 +1,135 @@
-{"jurisdiction":"","transparency_law":"","agencies":[]}
+{
+  "jurisdiction": "South Dakota",
+  "transparency_law": {
+    "name": "South Dakota Sunshine Law",
+    "statute_citation": "S.D. Codified Laws \u00a7 1-27-1 et seq.",
+    "effective_date": "2009-06-01",
+    "last_amended": "2024-01-01",
+    "response_requirements": {
+      "initial_response_time": null,
+      "initial_response_unit": "variable",
+      "initial_response_description": "Written requests must receive response within 10 business days; records should be made available 'as soon as practicable'",
+      "final_response_time": null,
+      "final_response_unit": "variable",
+      "final_response_notes": "No specific statutory deadline beyond 10 business day written response requirement; records available 'as soon as practicable'",
+      "extension_allowed": null,
+      "extension_max_days": null
+    },
+    "fee_structure": {
+      "search_fee": "Staff time after first hour",
+      "search_fee_notes": "May charge for staff time in excess of one hour",
+      "search_fee_statutory_cite": "S.D. Codified Laws \u00a7 1-27-35",
+      "copy_fee_per_page": null,
+      "copy_fee_notes": "Actual cost of reproduction; actual cost of mailing or transmission",
+      "copy_fee_cite": "S.D. Codified Laws \u00a7 1-27-35",
+      "electronic_fee": "Actual cost",
+      "fee_waiver_available": true,
+      "fee_waiver_criteria": "Fees may be waived or reduced if disclosure would be in the public interest",
+      "fee_waiver_cite": "S.D. Codified Laws \u00a7 1-27-36"
+    },
+    "exemptions": [
+      {
+        "category": "Medical Records",
+        "citation": "S.D. Codified Laws \u00a7 1-27-1.5",
+        "description": "Medical records and health information",
+        "scope": "narrow"
+      },
+      {
+        "category": "Student Records",
+        "citation": "S.D. Codified Laws \u00a7 1-27-1.5",
+        "description": "Student educational records",
+        "scope": "narrow"
+      },
+      {
+        "category": "Trade Secrets",
+        "citation": "S.D. Codified Laws \u00a7 1-27-1.5, \u00a7 1-27-1.6",
+        "description": "Trade secrets and proprietary commercial information that would unfairly harm competitive position",
+        "scope": "narrow"
+      },
+      {
+        "category": "Attorney-Client Privilege",
+        "citation": "S.D. Codified Laws \u00a7 1-27-1.5",
+        "description": "Attorney-client privileged communications",
+        "scope": "narrow"
+      },
+      {
+        "category": "Law Enforcement",
+        "citation": "S.D. Codified Laws \u00a7 1-27-1.5",
+        "description": "Law enforcement investigation records",
+        "scope": "moderate"
+      },
+      {
+        "category": "Personnel Records",
+        "citation": "S.D. Codified Laws \u00a7 1-27-1.5",
+        "description": "Personnel records (except salaries and benefits)",
+        "scope": "moderate"
+      },
+      {
+        "category": "Security Information",
+        "citation": "S.D. Codified Laws \u00a7 1-27-1.5",
+        "description": "Security-related information and emergency plans",
+        "scope": "narrow"
+      },
+      {
+        "category": "Deliberative Process",
+        "citation": "S.D. Codified Laws \u00a7 1-27-1.9",
+        "description": "Correspondence, memoranda, and working papers of officials; personal records or documents",
+        "scope": "moderate"
+      }
+    ],
+    "appeal_process": {
+      "first_level": "Office of Hearing Examiners",
+      "first_level_deadline_days": null,
+      "first_level_notes": "File notice of review with Office of Hearing Examiners for administrative review of denial or excessive fees",
+      "first_level_cite": "S.D. Codified Laws \u00a7 1-27-38",
+      "second_level": "Circuit Court",
+      "second_level_deadline_days": 90,
+      "second_level_deadline_unit": "calendar_days",
+      "second_level_notes": "Civil action may be filed within 90 days of denial; court may award costs if agency acted unreasonably",
+      "second_level_cite": "S.D. Codified Laws \u00a7 1-27-41",
+      "attorney_fees_recoverable": true,
+      "attorney_fees_cite": "S.D. Codified Laws \u00a7 1-27-41",
+      "attorney_fees_notes": "Court may award costs if agency acted unreasonably"
+    },
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "residency_requirement": false,
+      "residency_notes": "Both citizens and non-citizens may request records",
+      "request_format_notes": "Written requests recommended for formal proceedings; no specific form required",
+      "specific_format": "No statement of purpose required; no restrictions on use of records"
+    },
+    "agency_obligations": {
+      "records_officer_required": true,
+      "records_officer_title": "Custodian",
+      "business_hours_access": true,
+      "business_hours_cite": "S.D. Codified Laws \u00a7 1-27-1",
+      "electronic_submission_accepted": true,
+      "response_format_options": "Records available for inspection as soon as practicable",
+      "liberal_construction": "Presumption that all public records are accessible (reversed from pre-2009 confidentiality presumption)"
+    },
+    "oversight_body": {
+      "name": "Office of Hearing Examiners",
+      "role": "Administrative review of denials and fee disputes",
+      "contact_info": null,
+      "oversight_url": null
+    },
+    "official_resources": {
+      "primary_statute_url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=1-27",
+      "agency_handbook_url": null,
+      "request_portal_url": null
+    },
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_url": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=1-27",
+      "source_verified": true,
+      "primary_sources": [
+        "South Dakota Codified Laws Title 1, Chapter 27",
+        "south_dakota_transparency_law-v0.11.txt"
+      ],
+      "verification_notes": "All fields verified from official South Dakota statute. Written requests receive response within 10 business days; records available 'as soon as practicable'. Staff time charges after first hour. Fee waivers available if in public interest. Administrative review via Office of Hearing Examiners; circuit court action within 90 days. 2009 reform reversed confidentiality presumption - now presumed public unless exempted. Both citizens and non-citizens may request."
+    }
+  },
+  "agencies": []
+}

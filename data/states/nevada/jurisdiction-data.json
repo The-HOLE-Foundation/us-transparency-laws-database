@@ -1,1 +1,88 @@
-{"jurisdiction":"","transparency_law":"","agencies":[]}
+{
+  "jurisdiction": "Nevada",
+  "transparency_law": {
+    "name": "Nevada Public Records Law",
+    "statute_citation": "Nev. Rev. Stat. \u00a7 239 et seq.",
+    "effective_date": null,
+    "last_amended": null,
+    "response_requirements": {
+      "initial_response_time": 5,
+      "initial_response_unit": "business_days",
+      "initial_response_description": "Must allow inspection/copying, notify if not in custody with location, provide estimate if available within 30 days, or cite specific denial authority",
+      "final_response_time": null,
+      "final_response_unit": "variable",
+      "final_response_notes": "If available within 30 days, must provide reasonable estimate",
+      "extension_allowed": true,
+      "extension_max_days": 30,
+      "extension_notes": "Automatic deemed denial if no response within 5 business days"
+    },
+    "fee_structure": {
+      "search_fee": "Not specified",
+      "search_fee_notes": "No separate search fee provision in statute",
+      "search_fee_statutory_cite": null,
+      "copy_fee_per_page": null,
+      "copy_fee_notes": "Cannot exceed actual cost to governmental entity",
+      "copy_fee_cite": "Nev. Rev. Stat. \u00a7 239.052",
+      "electronic_fee": "Actual cost only",
+      "fee_waiver_available": true,
+      "fee_waiver_criteria": "Governmental entity may adopt policy to waive fees"
+    },
+    "exemptions": [
+      {
+        "category": "Confidential Records",
+        "citation": "Nev. Rev. Stat. \u00a7 239.008",
+        "description": "Records made confidential by other statutes - must be strictly and narrowly construed",
+        "scope": "narrow"
+      }
+    ],
+    "appeal_process": {
+      "first_level": "District court",
+      "first_level_deadline_days": null,
+      "first_level_notes": "Direct appeal to district court in county where record is located - court must prioritize proceedings",
+      "second_level": "Appellate courts",
+      "second_level_deadline_days": null,
+      "attorney_fees_recoverable": true,
+      "attorney_fees_notes": "Court may award costs and reasonable attorney's fees if requester prevails"
+    },
+    "requester_requirements": {
+      "identification_required": false,
+      "identification_notes": "No identification requirements specified in statute",
+      "reason_required": false,
+      "reason_notes": "No requirement to state purpose for request",
+      "residency_required": false,
+      "written_request_required": false,
+      "written_request_notes": "No written request requirement specified"
+    },
+    "agency_obligations": {
+      "response_deadline": "5 business days maximum",
+      "response_options": "Allow inspection/copying, notify if not in custody, provide estimate if delayed, or cite denial authority",
+      "denial_requirements": "Must cite specific statute that authorizes denial",
+      "fee_estimate_required": false,
+      "fee_estimate_notes": "Must post fee schedule conspicuously but no estimate requirement"
+    },
+    "oversight_body": {
+      "name": "No centralized oversight",
+      "role": "District courts handle enforcement",
+      "enforcement_authority": "District court jurisdiction only",
+      "contact_info": null
+    },
+    "official_resources": {
+      "agency_guidance_url": null,
+      "request_form_url": null,
+      "statute_url": "https://www.leg.state.nv.us/nrs/nrs-239.html",
+      "ag_guidance_url": null
+    },
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_url": "https://www.leg.state.nv.us/nrs/nrs-239.html",
+      "source_verified": true,
+      "primary_sources": [
+        "NEVADA_transparency_law-v0.11.txt",
+        "Nevada Revised Statutes Chapter 239"
+      ],
+      "notes": "Strong democratic principles foundation; strict narrow construction of confidentiality exemptions; burden of proof on government to prove confidentiality"
+    }
+  },
+  "agencies": []
+}

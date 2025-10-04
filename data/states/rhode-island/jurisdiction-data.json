@@ -1,1 +1,128 @@
-{"jurisdiction":"","transparency_law":"","agencies":[]}
+{
+  "jurisdiction": "Rhode Island",
+  "transparency_law": {
+    "name": "Access to Public Records Act",
+    "statute_citation": "R.I. Gen. Laws \u00a7 38-2-1 et seq.",
+    "effective_date": "1979-01-01",
+    "last_amended": "2008-01-01",
+    "response_requirements": {
+      "initial_response_time": 10,
+      "initial_response_unit": "business_days",
+      "initial_response_description": "Public body must permit inspection or copying within 10 business days of receiving request",
+      "final_response_time": 20,
+      "final_response_unit": "business_days",
+      "final_response_notes": "If not permitted within 10 business days, public body must explain need for additional time in writing; may have additional 20 business days if voluminous/difficult request",
+      "extension_allowed": true,
+      "extension_max_days": 20,
+      "extension_notes": "Additional 20 business days permitted if voluminous nature, number of pending requests, or difficulty in searching/retrieving makes additional time necessary to avoid undue burden"
+    },
+    "fee_structure": {
+      "search_fee": "$15/hour after first hour",
+      "search_fee_notes": "May charge $15/hour for search and retrieval time (based on lowest paid employee capable of task); first hour free",
+      "search_fee_statutory_cite": "R.I. Gen. Laws \u00a7 38-2-4(b)",
+      "copy_fee_per_page": 0.15,
+      "copy_fee_notes": "Maximum $0.15 per page for copies",
+      "copy_fee_cite": "R.I. Gen. Laws \u00a7 38-2-4(a)",
+      "electronic_fee": "Actual cost of delivery",
+      "fee_waiver_available": false
+    },
+    "exemptions": [
+      {
+        "category": "Personal Privacy",
+        "citation": "R.I. Gen. Laws \u00a7 38-2-2(4)(i)",
+        "description": "Personnel and medical files and similar files where disclosure would constitute clearly unwarranted invasion of personal privacy",
+        "scope": "moderate"
+      },
+      {
+        "category": "Preliminary Drafts",
+        "citation": "R.I. Gen. Laws \u00a7 38-2-2(4)(ii)",
+        "description": "Preliminary drafts, notes, or interagency/intra-agency memoranda not retained in ordinary course of business",
+        "scope": "narrow"
+      },
+      {
+        "category": "Statutory Exemptions",
+        "citation": "R.I. Gen. Laws \u00a7 38-2-2(4)(iii)",
+        "description": "Records specifically exempted from disclosure by statute",
+        "scope": "broad"
+      },
+      {
+        "category": "Trade Secrets",
+        "citation": "R.I. Gen. Laws \u00a7 38-2-2(4)(iv)",
+        "description": "Trade secrets and commercial or financial information obtained from person and privileged or confidential",
+        "scope": "narrow"
+      },
+      {
+        "category": "Advisory Communications",
+        "citation": "R.I. Gen. Laws \u00a7 38-2-2(4)(v)",
+        "description": "Communications within or between public bodies of advisory nature covering non-factual materials preliminary to policy/action determination",
+        "scope": "moderate"
+      },
+      {
+        "category": "Library Records",
+        "citation": "R.I. Gen. Laws \u00a7 38-2-2(4)(vi)",
+        "description": "Library records required by law to be kept confidential",
+        "scope": "narrow"
+      },
+      {
+        "category": "Safety Information",
+        "citation": "R.I. Gen. Laws \u00a7 38-2-2(4)(vii)",
+        "description": "Information that would jeopardize safety of personnel or public if disclosed",
+        "scope": "narrow"
+      }
+    ],
+    "appeal_process": {
+      "first_level": "Attorney General complaint process",
+      "first_level_deadline_days": null,
+      "first_level_notes": "May file complaint with Attorney General who investigates and may institute proceedings to compel access",
+      "first_level_cite": "R.I. Gen. Laws \u00a7 38-2-8",
+      "second_level": "Superior Court - Writ of Mandamus",
+      "second_level_deadline_days": null,
+      "second_level_cite": "R.I. Gen. Laws \u00a7 38-2-5, \u00a7 38-2-9",
+      "attorney_fees_recoverable": true,
+      "attorney_fees_notes": "Court may award attorney fees and costs; civil fine up to $1,000 per violation for arbitrary or capricious denials"
+    },
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "purpose_statement_prohibited": true,
+      "purpose_notes": "Public body may not require statement of purpose as condition for making records available",
+      "residency_requirement": false,
+      "request_format_notes": "Written request preferred but not required on specific form; must be readily identifiable as records request",
+      "specific_format": "Request must be readily identifiable as public records request"
+    },
+    "agency_obligations": {
+      "records_officer_required": true,
+      "records_officer_notes": "Must designate public records officer or unit",
+      "records_officer_cite": "R.I. Gen. Laws \u00a7 38-2-3(d)",
+      "business_hours_access": true,
+      "business_hours_cite": "R.I. Gen. Laws \u00a7 38-2-3(a)",
+      "electronic_submission_accepted": true,
+      "response_format_options": "May provide electronically, by facsimile, or by mail per requester's choice unless unduly burdensome",
+      "segregation_required": "Must provide reasonably segregable portions of partially exempt records",
+      "written_procedures_required": "Must adopt written procedures for public access and post on website"
+    },
+    "oversight_body": {
+      "name": "Attorney General",
+      "role": "Investigates complaints and may institute court proceedings to compel access",
+      "contact_info": "Rhode Island Office of Attorney General",
+      "oversight_url": null
+    },
+    "official_resources": {
+      "primary_statute_url": "https://webserver.rilegislature.gov/Statutes/",
+      "agency_handbook_url": null,
+      "request_portal_url": null
+    },
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_url": "https://webserver.rilegislature.gov/Statutes/",
+      "source_verified": true,
+      "primary_sources": [
+        "Rhode Island General Laws Chapter 38-2",
+        "RHODE_ISLAND_transparency_law-v0.11.txt"
+      ],
+      "verification_notes": "All fields verified from official Rhode Island statute. 10 business day response required; additional 20 business days for voluminous/difficult requests. Attorney General complaint process available. Superior court mandamus action. Civil fines up to $1,000 for arbitrary denials. Maximum $0.15/page copies, $15/hour search fees after first hour. Purpose statements prohibited. Written procedures and designated records officer required."
+    }
+  },
+  "agencies": []
+}

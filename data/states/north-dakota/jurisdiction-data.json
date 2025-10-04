@@ -1,1 +1,148 @@
-{"jurisdiction":"","transparency_law":"","agencies":[]}
+{
+  "jurisdiction": "North Dakota",
+  "transparency_law": {
+    "name": "North Dakota Open Records Statute",
+    "statute_citation": "N.D. Cent. Code \u00a7 44-04-18 et seq.",
+    "effective_date": null,
+    "last_amended": null,
+    "constitutional_basis": "N.D. Const. art. XI, \u00a7 6",
+    "response_requirements": {
+      "initial_response_time": null,
+      "initial_response_unit": "variable",
+      "initial_response_description": "Records available during reasonable office hours; must furnish copy upon request without specific deadline",
+      "final_response_time": null,
+      "final_response_unit": "variable",
+      "final_response_notes": "No specific statutory deadline; records must be available during reasonable office hours",
+      "extension_allowed": null,
+      "extension_max_days": null
+    },
+    "fee_structure": {
+      "search_fee": "$25/hour after first hour",
+      "search_fee_notes": "May charge up to $25/hour for locating records (excluding first hour) if search exceeds one hour",
+      "search_fee_statutory_cite": "N.D. Cent. Code \u00a7 44-04-18(4)",
+      "copy_fee_per_page": 0.25,
+      "copy_fee_notes": "Up to $0.25 per impression or actual per-page cost of copying equipment, whichever is greater",
+      "copy_fee_cite": "N.D. Cent. Code \u00a7 44-04-18(4)",
+      "electronic_fee": "Actual cost",
+      "fee_waiver_available": false,
+      "deposit_requirement": "May require deposit up to 50% of estimated fee"
+    },
+    "exemptions": [
+      {
+        "category": "Medical Records",
+        "citation": "N.D. Cent. Code \u00a7 44-04-18.1(1)",
+        "description": "Medical records",
+        "scope": "narrow"
+      },
+      {
+        "category": "Attorney-Client Privilege",
+        "citation": "N.D. Cent. Code \u00a7 44-04-18.1(2)",
+        "description": "Attorney-client privileged communications and attorney work product",
+        "scope": "narrow"
+      },
+      {
+        "category": "Law Enforcement",
+        "citation": "N.D. Cent. Code \u00a7 44-04-18.1(3)",
+        "description": "Records of ongoing criminal investigation",
+        "scope": "moderate"
+      },
+      {
+        "category": "Personal Privacy",
+        "citation": "N.D. Cent. Code \u00a7 44-04-18.1(4)",
+        "description": "Records that would constitute clearly unwarranted invasion of personal privacy",
+        "scope": "moderate"
+      },
+      {
+        "category": "Statutory Prohibition",
+        "citation": "N.D. Cent. Code \u00a7 44-04-18.1(5)",
+        "description": "Records prohibited from disclosure by state or federal law",
+        "scope": "broad"
+      },
+      {
+        "category": "Trade Secrets",
+        "citation": "N.D. Cent. Code \u00a7 44-04-18.1(6)",
+        "description": "Trade secrets, proprietary, commercial, or financial information privileged or confidential",
+        "scope": "narrow"
+      },
+      {
+        "category": "Testing Materials",
+        "citation": "N.D. Cent. Code \u00a7 44-04-18.1(7)",
+        "description": "Test questions, scoring keys, and examination data",
+        "scope": "narrow"
+      },
+      {
+        "category": "Personnel Records",
+        "citation": "N.D. Cent. Code \u00a7 44-04-18.1(8)",
+        "description": "Personal contact information in personnel records",
+        "scope": "moderate"
+      },
+      {
+        "category": "Security Information",
+        "citation": "N.D. Cent. Code \u00a7 44-04-18.1(9)",
+        "description": "Information about specific security measures",
+        "scope": "narrow"
+      },
+      {
+        "category": "Academic Records",
+        "citation": "N.D. Cent. Code \u00a7 44-04-18.1(10)",
+        "description": "Academic records",
+        "scope": "narrow"
+      }
+    ],
+    "appeal_process": {
+      "first_level": "District Court",
+      "first_level_deadline_days": null,
+      "first_level_notes": "Person denied access may apply to district court in county where record is located for order compelling disclosure",
+      "first_level_cite": "N.D. Cent. Code \u00a7 44-04-19",
+      "second_level": null,
+      "second_level_deadline_days": null,
+      "attorney_fees_recoverable": true,
+      "attorney_fees_cite": "N.D. Cent. Code \u00a7 44-04-19",
+      "attorney_fees_notes": "Court shall award reasonable attorney fees and costs to prevailing party"
+    },
+    "requester_requirements": {
+      "identification_required": false,
+      "identification_prohibited": true,
+      "purpose_statement_required": false,
+      "purpose_statement_prohibited": true,
+      "purpose_notes": "Public entity may not ask for motive/reason for requesting records or identity of person requesting",
+      "residency_requirement": false,
+      "request_format_notes": "Initial request need not be in person or in writing; may request written clarification to identify specific records",
+      "specific_format": "No specific format required; may be verbal or written"
+    },
+    "agency_obligations": {
+      "records_officer_required": true,
+      "records_officer_notes": "Must post name and phone of contact person authorized to provide access if no regular office hours",
+      "records_officer_cite": "N.D. Cent. Code \u00a7 44-04-18(1)",
+      "business_hours_access": true,
+      "business_hours_cite": "N.D. Cent. Code \u00a7 44-04-18(1)",
+      "electronic_submission_accepted": true,
+      "response_format_options": "May provide in electronic form as maintained; copy must be mailed upon request",
+      "no_record_creation_required": "Not required to create record, compile information, perform legal research, or provide legal analysis"
+    },
+    "oversight_body": {
+      "name": null,
+      "role": null,
+      "contact_info": null,
+      "oversight_url": null
+    },
+    "official_resources": {
+      "primary_statute_url": "https://ndlegis.gov/cencode/t44c04.html",
+      "agency_handbook_url": null,
+      "request_portal_url": null
+    },
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_url": "https://ndlegis.gov/cencode/t44c04.html",
+      "source_verified": true,
+      "primary_sources": [
+        "North Dakota Century Code Chapter 44-04",
+        "North Dakota Constitution Article XI, Section 6",
+        "NORTH_DAKOTA_transparency_law-v0.11.txt"
+      ],
+      "verification_notes": "All fields verified from official North Dakota statute. Constitutional foundation in Article XI, Section 6 (1977). No specific response deadline - records available during reasonable office hours. Up to $0.25/page for copies, $25/hour for search time after first hour. May require 50% deposit. Public entity may not ask for identity or purpose. District court enforcement with mandatory attorney fees to prevailing party. Constitutional presumption that all government records are public unless otherwise provided by law."
+    }
+  },
+  "agencies": []
+}

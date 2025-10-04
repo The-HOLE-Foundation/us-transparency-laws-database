@@ -1,1 +1,148 @@
-{"jurisdiction":"","transparency_law":"","agencies":[]}
+{
+  "jurisdiction": "Oregon",
+  "transparency_law": {
+    "name": "Oregon Public Records Law",
+    "statute_citation": "ORS \u00a7 192.311 to 192.478",
+    "effective_date": null,
+    "last_amended": "2025-01-01",
+    "constitutional_basis": null,
+    "response_requirements": {
+      "initial_response_time": 15,
+      "initial_response_unit": "business_days",
+      "initial_response_description": "Respond within 15 business days unless written justification provided for longer period (acknowledgment within 5 business days)",
+      "final_response_time": 15,
+      "final_response_unit": "business_days",
+      "final_response_notes": "Respond within 15 business days unless written justification provided for longer period",
+      "extension_allowed": true,
+      "extension_max_days": null,
+      "extension_notes": "Extensions permitted with written justification for longer response period",
+      "good_faith_standard": "Respond as soon as practicable and without unreasonable delay",
+      "prompt_acknowledgment_required": true
+    },
+    "fee_structure": {
+      "search_fee": "May charge actual costs if reasonable",
+      "search_fee_notes": "Fees reasonably calculated to reimburse actual cost of making records available",
+      "search_fee_statutory_cite": "ORS \u00a7 192.324(3)",
+      "copy_fee_per_page": null,
+      "copy_fee_notes": "Actual cost of making copies; no specific per-page rate in statute",
+      "copy_fee_cite": "ORS \u00a7 192.324(3)",
+      "electronic_fee": null,
+      "fee_waiver_available": true,
+      "fee_waiver_notes": "May provide copies without charge or at reduced fee if in public interest",
+      "reasonableness_standard": "Fees reasonably calculated to reimburse actual costs; may require advance payment"
+    },
+    "exemptions": [
+      {
+        "category": "Personal Privacy",
+        "citation": "ORS \u00a7 192.345(1)",
+        "description": "Information of personal nature if disclosure would constitute unreasonable invasion of privacy, unless public interest requires disclosure",
+        "scope": "moderate"
+      },
+      {
+        "category": "Confidential Submissions",
+        "citation": "ORS \u00a7 192.345(2)",
+        "description": "Information submitted in confidence when disclosure would prejudice government position or impair ability to obtain information",
+        "scope": "narrow"
+      },
+      {
+        "category": "Criminal Investigations",
+        "citation": "ORS \u00a7 192.345(3)",
+        "description": "Records concerning ongoing investigations, prosecutions, or criminal complaints",
+        "scope": "moderate"
+      },
+      {
+        "category": "Trade Secrets",
+        "citation": "ORS \u00a7 192.345(4)",
+        "description": "Trade secrets with independent economic value not generally known, subject to reasonable secrecy efforts, with written exemption request",
+        "scope": "narrow"
+      },
+      {
+        "category": "Court Orders",
+        "citation": "ORS \u00a7 192.355(1)",
+        "description": "Records specifically exempt from public inspection by court order",
+        "scope": "narrow"
+      },
+      {
+        "category": "Statutory Confidentiality",
+        "citation": "ORS \u00a7 192.355(2)",
+        "description": "Records prohibited or restricted from disclosure under Oregon law",
+        "scope": "broad"
+      }
+    ],
+    "appeal_process": {
+      "first_level": "District Attorney or Attorney General review",
+      "first_level_deadline_days": null,
+      "first_level_cite": "ORS \u00a7 192.450",
+      "first_level_notes": "May petition District Attorney or Attorney General to review denial",
+      "mediation_available": true,
+      "mediation_provider": "District Attorney or Attorney General",
+      "second_level": "District Court - injunctive relief",
+      "second_level_deadline_days": null,
+      "second_level_deadline_notes": "No specific deadline specified in statute",
+      "second_level_cite": "ORS \u00a7 192.450(3)",
+      "attorney_fees_recoverable": true,
+      "attorney_fees_cite": "ORS \u00a7 192.450(4)",
+      "attorney_fees_notes": "Reasonable attorney fees awarded if court determines unlawful refusal",
+      "civil_penalties_available": false,
+      "criminal_penalties_available": false,
+      "criminal_penalties_notes": null
+    },
+    "requester_requirements": {
+      "identification_required": true,
+      "purpose_statement_required": false,
+      "purpose_notes": "Request must contain requester's name and address but no purpose statement required",
+      "residency_requirement": false,
+      "request_format_notes": "Written request required with name, address, and description of records",
+      "specific_format": "Written request with name, mailing/email address, and record description",
+      "constitutional_right": null
+    },
+    "agency_obligations": {
+      "records_officer_required": true,
+      "records_officer_title": "Custodian",
+      "business_hours_access": true,
+      "business_hours_notes": "Records open to inspection by any person",
+      "electronic_submission_accepted": true,
+      "electronic_submission_notes": "May request records via email address",
+      "response_format_options": "Public body may provide copies in database format if reasonably described",
+      "good_faith_effort_required": true,
+      "reasonable_efforts_to_locate": true,
+      "redaction_requirements": "Must describe what portion is available and what is exempt with specific legal basis",
+      "liberal_interpretation": "Strong presumption of disclosure - every person has right to inspect except as expressly provided"
+    },
+    "oversight_body": {
+      "name": "District Attorney or Attorney General",
+      "role": "Reviews denials and may order disclosure or petition court for injunctive relief",
+      "contact_info": null,
+      "oversight_url": null
+    },
+    "official_resources": {
+      "primary_statute_url": "https://www.oregonlegislature.gov/bills_laws/ors/ors192.html",
+      "statute_chapter_119": null,
+      "statute_chapter_286": null,
+      "agency_handbook_url": null,
+      "request_portal_url": null,
+      "request_portal_notes": null,
+      "constitutional_foundation": null
+    },
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_url": "https://www.oregonlegislature.gov/bills_laws/ors/ors192.html",
+      "source_verified": true,
+      "primary_sources": [
+        "Oregon Revised Statutes Chapter 192",
+        "https://www.oregonlegislature.gov/bills_laws/ors/ors192.html"
+      ],
+      "verification_notes": "All fields verified from official Oregon statutes. Response time: acknowledge within 5 business days, respond within 15 business days unless justified extension. Written request required with name and address. Fees based on actual costs, may be waived if in public interest. Written estimate required if fees exceed $25. District Attorney or Attorney General review available, with court enforcement and attorney fees for unlawful denials.",
+      "unique_characteristics": [
+        "5 business day acknowledgment requirement",
+        "15 business day response deadline with justified extensions",
+        "Written request required with specific elements",
+        "Fee waiver available if in public interest",
+        "Written estimate required if fees exceed $25",
+        "DA or AG review process before court action"
+      ]
+    }
+  },
+  "agencies": []
+}

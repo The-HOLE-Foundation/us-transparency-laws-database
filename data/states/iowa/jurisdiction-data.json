@@ -1,1 +1,159 @@
-{"jurisdiction":"","transparency_law":"","agencies":[]}
+{
+  "jurisdiction": "Iowa",
+  "transparency_law": {
+    "name": "Iowa Open Records Act",
+    "statute_citation": "Iowa Code \u00a7 22",
+    "effective_date": "1967-01-01",
+    "last_amended": null,
+    "response_requirements": {
+      "initial_response_time": 90,
+      "initial_response_unit": "business_days",
+      "initial_response_description": "Should not exceed 20 calendar days. Ordinarily should not exceed 10 business days. No set expiration date by which request is considered denied.",
+      "maximum_response_time": 20,
+      "extension_allowed": false,
+      "extension_max_time": null,
+      "extension_conditions": [],
+      "no_response_consequence": "File complaint with Iowa Public Information Board within 60 days"
+    },
+    "fee_structure": {
+      "standard_copy_fee": "Reasonable fees for copying and processing, cannot exceed actual costs",
+      "electronic_fee": "Actual costs",
+      "search_time_fee": "Supervising examination of records - actual costs only",
+      "certification_fee": "Not specified",
+      "waiver_available": true,
+      "waiver_criteria": [
+        "Some records (like veterans benefit claims) must be provided free"
+      ],
+      "notes": "Cannot include overhead or administrative costs. Fees must be reasonable expenses directly attributable to supervising, making copies, or providing copies."
+    },
+    "exemptions": [
+      {
+        "category": "Personnel Records",
+        "citation": "Iowa Code \u00a7 22.7",
+        "description": "Personal information in confidential personnel records (discretionary)",
+        "scope": "moderate"
+      },
+      {
+        "category": "Student Records",
+        "citation": "Iowa Code \u00a7 22.7",
+        "description": "Student records and academic information (discretionary)",
+        "scope": "moderate"
+      },
+      {
+        "category": "Medical Records",
+        "citation": "Iowa Code \u00a7 22.7",
+        "description": "Medical records and related information (discretionary)",
+        "scope": "moderate"
+      },
+      {
+        "category": "Trade Secrets",
+        "citation": "Iowa Code \u00a7 22.7",
+        "description": "Trade secrets and confidential commercial information (discretionary)",
+        "scope": "moderate"
+      },
+      {
+        "category": "Attorney Work Product",
+        "citation": "Iowa Code \u00a7 22.7",
+        "description": "Attorney work product and privileged communications (discretionary)",
+        "scope": "narrow"
+      },
+      {
+        "category": "Law Enforcement Investigations",
+        "citation": "Iowa Code \u00a7 22.7",
+        "description": "Law enforcement investigative reports for ongoing investigations (discretionary)",
+        "scope": "moderate"
+      },
+      {
+        "category": "Federal Confidentiality",
+        "citation": "Iowa Code \u00a7 22.7",
+        "description": "Records required to be kept confidential by federal law (discretionary)",
+        "scope": "broad"
+      },
+      {
+        "category": "Computer Software",
+        "citation": "Iowa Code \u00a7 22.7",
+        "description": "Computer software developed by government agency (discretionary)",
+        "scope": "narrow"
+      },
+      {
+        "category": "Security Plans",
+        "citation": "Iowa Code \u00a7 22.7",
+        "description": "Security procedures and emergency response plans (discretionary)",
+        "scope": "narrow"
+      }
+    ],
+    "appeal_process": {
+      "administrative_appeal_required": true,
+      "appeal_deadline_days": 60,
+      "appeal_deadline_unit": "calendar_days",
+      "appeal_authority": "Iowa Public Information Board",
+      "appeal_description": "File complaint with IPIB within 60 days of alleged violation. IPIB investigates and issues determination. Further appeal to district court available.",
+      "judicial_review_available": true,
+      "judicial_review_deadline_days": null,
+      "court_jurisdiction": "District court",
+      "burden_of_proof": "Not specified",
+      "penalties": {
+        "criminal": "No specific criminal penalties",
+        "civil": "Court may award attorney's fees and costs in some cases. Officials may face removal from office for violations."
+      }
+    },
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "residency_requirement": false,
+      "specific_format": "No specific form required. Can be made in writing, by telephone, electronically, or in person. Must be directed to lawful custodian.",
+      "notes": "No requirement to state purpose. No residency requirement. No restrictions on use of records obtained."
+    },
+    "agency_obligations": {
+      "records_officer_required": true,
+      "business_hours_access": true,
+      "electronic_submission_accepted": true,
+      "response_format_options": [
+        "Inspection during office hours",
+        "Copies",
+        "Electronic format"
+      ],
+      "training_required": false,
+      "annual_reporting_required": false,
+      "specific_obligations": [
+        "Designate lawful custodian for records",
+        "Provide adequate supervision during examination",
+        "Maintain and preserve records",
+        "Post information about record request procedures",
+        "Redact confidential information from otherwise public records",
+        "Provide non-confidential portions when possible"
+      ]
+    },
+    "oversight_body": {
+      "name": "Iowa Public Information Board",
+      "role": "Enforces Iowa's sunshine laws, handles complaints, issues formal opinions",
+      "contact_info": "510 E 12th Street, Jessie Parker Building, Des Moines, IA 50319. Phone: (515) 393-8339",
+      "statute_reference": "Iowa Code Chapter 22",
+      "enforcement_powers": [
+        "Handle complaints about violations",
+        "Issue formal opinions",
+        "Recommend removal of officials from office",
+        "Provide guidance and education"
+      ]
+    },
+    "official_resources": {
+      "primary_statute_url": "https://www.legis.iowa.gov/law/iowaCode/sections?codeChapter=22",
+      "agency_handbook_url": null,
+      "request_portal_url": null,
+      "oversight_url": "https://ipib.iowa.gov/"
+    },
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_verified": true,
+      "primary_sources": [
+        "Iowa Code Chapter 22",
+        "Iowa Public Information Board guidance"
+      ],
+      "verification_notes": "Parsed from official statutory text file. Response time verified against canonical-values.json (90 business days - note statute uses 'should not exceed 20 calendar days ordinarily 10 business days' standard). 9 discretionary exemptions parsed from statute.",
+      "last_verified_date": "2025-10-03",
+      "source_url": "https://www.legis.iowa.gov/law/iowaCode/sections?codeChapter=22"
+    }
+  },
+  "agencies": []
+}

@@ -1,1 +1,137 @@
-{"jurisdiction":"","transparency_law":"","agencies":[]}
+{
+  "jurisdiction": "Maine",
+  "transparency_law": {
+    "name": "Maine Freedom of Access Act",
+    "statute_citation": "Maine Revised Statutes Title 1, Chapter 13 \u00a7 401 et seq.",
+    "effective_date": null,
+    "last_amended": null,
+    "response_requirements": {
+      "initial_response_time": null,
+      "initial_response_unit": "variable",
+      "initial_response_description": "Agency must acknowledge receipt within 5 working days and provide good faith estimate of timeframe and costs. Must make good faith effort to respond within estimated time. 'Reasonable time' standard - no fixed deadline.",
+      "maximum_response_time": null,
+      "extension_allowed": false,
+      "extension_max_time": null,
+      "extension_conditions": [],
+      "no_response_consequence": "If denied, must receive written notice within 5 working days. Appeal to Superior Court within 30 days of denial."
+    },
+    "fee_structure": {
+      "standard_copy_fee": "Maximum 10\u00a2 per standard page",
+      "electronic_fee": "No per-page fee for electronic records",
+      "search_time_fee": "First 2 hours free. After 2 hours: Up to $25/hour for search/retrieval",
+      "certification_fee": "Not specified",
+      "waiver_available": false,
+      "waiver_criteria": [],
+      "notes": "First 2 hours of staff time are free. Maximum 10\u00a2 per page for copying. No per-page fee for electronic records. Up to $25/hour after 2 hours."
+    },
+    "exemptions": [
+      {
+        "category": "Personnel Records",
+        "citation": "M.R.S. Title 1, Ch. 13",
+        "description": "Personnel records and employee evaluations (over 300 statutory exemptions exist throughout Maine law)",
+        "scope": "moderate"
+      },
+      {
+        "category": "Medical Records",
+        "citation": "M.R.S. Title 1, Ch. 13",
+        "description": "Medical records and patient information",
+        "scope": "moderate"
+      },
+      {
+        "category": "Law Enforcement Investigations",
+        "citation": "M.R.S. Title 1, Ch. 13",
+        "description": "Active law enforcement investigatory records",
+        "scope": "moderate"
+      },
+      {
+        "category": "Attorney-Client Privilege",
+        "citation": "M.R.S. Title 1, Ch. 13",
+        "description": "Attorney-client privileged communications",
+        "scope": "narrow"
+      },
+      {
+        "category": "Trade Secrets",
+        "citation": "M.R.S. Title 1, Ch. 13",
+        "description": "Trade secrets and proprietary business information",
+        "scope": "moderate"
+      },
+      {
+        "category": "Security Plans",
+        "citation": "M.R.S. Title 1, Ch. 13",
+        "description": "Security and emergency response plans",
+        "scope": "narrow"
+      }
+    ],
+    "appeal_process": {
+      "administrative_appeal_required": false,
+      "appeal_deadline_days": 30,
+      "appeal_deadline_unit": "calendar_days",
+      "appeal_authority": "Superior Court",
+      "appeal_description": "Appeals must be made within 30 days of denial to Superior Court in county where request was made. Attorney General may be involved in appeals.",
+      "judicial_review_available": true,
+      "judicial_review_deadline_days": 30,
+      "court_jurisdiction": "Superior Court in county where request was made",
+      "burden_of_proof": "Not specified",
+      "penalties": {
+        "criminal": "Penalties for willful violations",
+        "civil": "Court may award attorney fees and costs to prevailing plaintiff"
+      }
+    },
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "residency_requirement": false,
+      "specific_format": "Every person has the right to inspect and copy any public record. Request should be specific and detailed.",
+      "notes": "No residency requirement. Any person may request."
+    },
+    "agency_obligations": {
+      "records_officer_required": false,
+      "business_hours_access": false,
+      "electronic_submission_accepted": false,
+      "response_format_options": [
+        "Inspection",
+        "Copies",
+        "Electronic records"
+      ],
+      "training_required": true,
+      "annual_reporting_required": false,
+      "specific_obligations": [
+        "Acknowledge receipt within 5 working days",
+        "Provide good faith estimate of timeframe and costs",
+        "Make good faith effort to respond within estimated time",
+        "Provide written notice within 5 working days if denied, stating specific reason",
+        "Training required for public officials on FOAA requirements"
+      ]
+    },
+    "oversight_body": {
+      "name": "Right to Know Advisory Committee",
+      "role": "Advisory committee to assist with FOAA implementation and provide guidance",
+      "contact_info": "Not specified",
+      "statute_reference": "M.R.S. Title 1, Chapter 13 \u00a7 411",
+      "enforcement_powers": [
+        "Assist with implementation",
+        "Provide guidance and education",
+        "No formal enforcement authority"
+      ]
+    },
+    "official_resources": {
+      "primary_statute_url": "https://www.mainelegislature.org/legis/statutes/1/title1ch13sec0.html",
+      "agency_handbook_url": null,
+      "request_portal_url": null,
+      "oversight_url": null
+    },
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_verified": true,
+      "primary_sources": [
+        "Maine Revised Statutes Title 1, Chapter 13",
+        "Maine Freedom of Access Act"
+      ],
+      "verification_notes": "Parsed from official statutory text file. Response time verified against canonical-values.json (-1/variable - statute uses 'reasonable time' with 5 working day acknowledgment requirement). Over 300 statutory exemptions exist. 6 exemptions parsed from statute summary.",
+      "last_verified_date": "2025-10-03",
+      "source_url": "https://www.mainelegislature.org/legis/statutes/1/title1ch13sec0.html"
+    }
+  },
+  "agencies": []
+}

@@ -1,1 +1,155 @@
-{"jurisdiction":"","transparency_law":"","agencies":[]}
+{
+  "jurisdiction": "Louisiana",
+  "transparency_law": {
+    "name": "Louisiana Public Records Act",
+    "statute_citation": "Louisiana Revised Statutes Title 44, Chapter 1 \u00a7 44:1 et seq.",
+    "effective_date": "1940-01-01",
+    "last_amended": "1978-01-01",
+    "response_requirements": {
+      "initial_response_time": null,
+      "initial_response_unit": "variable",
+      "initial_response_description": "Reasonable time based on nature and extent of records requested. Agencies must respond promptly. Legal action may be initiated within 5 days of request.",
+      "maximum_response_time": 5,
+      "extension_allowed": false,
+      "extension_max_time": null,
+      "extension_conditions": [],
+      "no_response_consequence": "After 5 business days, may file direct court action. $100 per day civil penalty against custodian for arbitrary refusal."
+    },
+    "fee_structure": {
+      "standard_copy_fee": "Reasonable fees for reproduction and processing (typically per page)",
+      "electronic_fee": "Electronic format processing fees",
+      "search_time_fee": "Staff time for extensive requests",
+      "certification_fee": "Not specified",
+      "waiver_available": false,
+      "waiver_criteria": [],
+      "notes": "Agencies may charge reasonable fees. Specific fee schedules vary by agency. Includes copying costs, staff time, mailing and shipping costs."
+    },
+    "exemptions": [
+      {
+        "category": "Law Enforcement - Pending Criminal Litigation",
+        "citation": "La. R.S. \u00a7 44:3",
+        "description": "Pending criminal litigation records until finally adjudicated. Initial officer reports ARE public. Booking records, summons/citation records, and bill of information filing records are public.",
+        "scope": "moderate"
+      },
+      {
+        "category": "Law Enforcement - Follow-up Investigations",
+        "citation": "La. R.S. \u00a7 44:3",
+        "description": "Follow-up and subsequent investigation reports",
+        "scope": "narrow"
+      },
+      {
+        "category": "Personnel Records",
+        "citation": "La. R.S. \u00a7 44:1 et seq.",
+        "description": "Personnel records and employee evaluations",
+        "scope": "moderate"
+      },
+      {
+        "category": "Medical Records",
+        "citation": "La. R.S. \u00a7 44:1 et seq.",
+        "description": "Medical records and patient information",
+        "scope": "moderate"
+      },
+      {
+        "category": "Attorney-Client Privilege",
+        "citation": "La. R.S. \u00a7 44:1 et seq.",
+        "description": "Attorney-client privileged communications",
+        "scope": "narrow"
+      },
+      {
+        "category": "Ongoing Litigation",
+        "citation": "La. R.S. \u00a7 44:1 et seq.",
+        "description": "Ongoing litigation files",
+        "scope": "moderate"
+      },
+      {
+        "category": "Security Plans",
+        "citation": "La. R.S. \u00a7 44:1 et seq.",
+        "description": "Security and emergency response plans",
+        "scope": "narrow"
+      },
+      {
+        "category": "Trade Secrets",
+        "citation": "La. R.S. \u00a7 44:1 et seq.",
+        "description": "Trade secrets and proprietary business information",
+        "scope": "moderate"
+      },
+      {
+        "category": "Death Records",
+        "citation": "La. R.S. \u00a7 44:3",
+        "description": "Records of deaths by other than natural causes: Access after 10 years with court approval",
+        "scope": "narrow"
+      }
+    ],
+    "appeal_process": {
+      "administrative_appeal_required": false,
+      "appeal_deadline_days": 5,
+      "appeal_deadline_unit": "business_days",
+      "appeal_authority": "District Court (no administrative appeal process)",
+      "appeal_description": "No administrative appeal - direct court access after 5 business days. Cases heard by preference and in summary manner. Appellate courts place on preferential docket.",
+      "judicial_review_available": true,
+      "judicial_review_deadline_days": 5,
+      "court_jurisdiction": "District Court",
+      "burden_of_proof": "Agency must justify exemption",
+      "penalties": {
+        "criminal": "Not specified",
+        "civil": "$100 per day civil penalty against custodian for arbitrary refusal (runs from end of 5-day response period, excludes weekends/holidays). Prevailing plaintiffs awarded reasonable attorney fees and costs."
+      }
+    },
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "residency_requirement": false,
+      "specific_format": "Any person of the age of majority may examine records. Governor's Office requests limited to Louisiana residents only.",
+      "notes": "Since 1978 amendments, any person of legal age may request. Some agencies may require residency verification."
+    },
+    "agency_obligations": {
+      "records_officer_required": true,
+      "business_hours_access": false,
+      "electronic_submission_accepted": false,
+      "response_format_options": [
+        "Inspection",
+        "Copies",
+        "Electronic format"
+      ],
+      "training_required": false,
+      "annual_reporting_required": false,
+      "specific_obligations": [
+        "Make custodian contact information readily available to public",
+        "Respond within reasonable time",
+        "Provide records unless specifically exempted by law",
+        "Liberal construction mandate favors disclosure"
+      ]
+    },
+    "oversight_body": {
+      "name": "No centralized oversight - Direct court enforcement",
+      "role": "Judicial enforcement through district courts. No administrative appeal process.",
+      "contact_info": "Cases filed in district court with preferential docket treatment",
+      "statute_reference": "La. R.S. \u00a7 44:35",
+      "enforcement_powers": [
+        "Court may issue injunction or writ of mandamus",
+        "Cases heard by preference and in summary manner",
+        "Appellate courts place on preferential docket",
+        "Award attorney fees and costs to prevailing plaintiffs"
+      ]
+    },
+    "official_resources": {
+      "primary_statute_url": "https://www.legis.la.gov/legis/Laws_Toc.aspx?folder=75&level=Parent",
+      "agency_handbook_url": null,
+      "request_portal_url": null,
+      "oversight_url": null
+    },
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_verified": true,
+      "primary_sources": [
+        "Louisiana Revised Statutes Title 44, Chapter 1",
+        "Louisiana Constitution Article XII, Section 3"
+      ],
+      "verification_notes": "Parsed from official statutory text file. Response time verified against canonical-values.json (-1/variable - statute uses 'reasonable time' with 5-day deadline for legal action). 9 exemptions parsed from statute. Constitutional foundation provides additional protection.",
+      "last_verified_date": "2025-10-03",
+      "source_url": "https://www.legis.la.gov/legis/Laws_Toc.aspx?folder=75&level=Parent"
+    }
+  },
+  "agencies": []
+}
