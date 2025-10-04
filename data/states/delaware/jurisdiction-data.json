@@ -1,1 +1,130 @@
-{"jurisdiction":"","transparency_law":"","agencies":[]}
+{
+  "jurisdiction": "Delaware",
+  "transparency_law": {
+    "name": "Delaware Freedom of Information Act",
+    "statute_citation": "29 Del. C. § 10001 et seq.",
+    "effective_date": null,
+    "last_amended": null,
+
+    "response_requirements": {
+      "initial_response_time": 15,
+      "initial_response_unit": "business_days",
+      "initial_response_description": "Public body must respond within 15 business days by providing access, denying access, or advising additional time needed",
+      "final_response_time": 10,
+      "final_response_unit": "business_days",
+      "final_response_notes": "May extend 10 additional business days if voluminous material or requires legal review (total 25 business days max)",
+      "extension_allowed": true,
+      "extension_max_days": 10,
+      "extension_notes": "Must provide written notice within initial 15-day period stating reason for extension",
+      "deemed_denial": "Failure to respond within applicable timeframe deemed denial"
+    },
+
+    "fee_structure": {
+      "search_fee": "May charge reasonable fees",
+      "search_fee_notes": "May charge reasonable fees for staff time and materials",
+      "search_fee_statutory_cite": "29 Del. C. § 10003",
+      "copy_fee_per_page": null,
+      "copy_fee_notes": "Reasonable fees for copying",
+      "copy_fee_cite": "29 Del. C. § 10003",
+      "electronic_fee": "Reasonable fees",
+      "fee_waiver_available": false
+    },
+
+    "exemptions": [
+      {
+        "category": "Trade Secrets",
+        "citation": "29 Del. C. § 10004(a)",
+        "description": "Trade secrets and commercial or financial information of privileged or confidential nature",
+        "scope": "narrow"
+      },
+      {
+        "category": "Personal Privacy",
+        "citation": "29 Del. C. § 10004(b)",
+        "description": "Information of personal nature where disclosure would constitute unreasonable invasion of privacy",
+        "scope": "moderate"
+      },
+      {
+        "category": "Statutory Exemption",
+        "citation": "29 Del. C. § 10004(c)",
+        "description": "Information specifically exempted from disclosure by statute or common law",
+        "scope": "broad"
+      },
+      {
+        "category": "Law Enforcement",
+        "citation": "29 Del. C. § 10004",
+        "description": "Law enforcement investigative records",
+        "scope": "moderate"
+      },
+      {
+        "category": "Attorney-Client Privilege",
+        "citation": "29 Del. C. § 10004",
+        "description": "Attorney-client privileged communications",
+        "scope": "narrow"
+      },
+      {
+        "category": "Medical Records",
+        "citation": "29 Del. C. § 10004",
+        "description": "Medical and health records",
+        "scope": "narrow"
+      }
+    ],
+
+    "appeal_process": {
+      "first_level": "Court of Chancery or Superior Court",
+      "first_level_deadline_days": null,
+      "first_level_notes": "No administrative appeal; direct court action",
+      "first_level_cite": "29 Del. C. § 10005",
+      "second_level": null,
+      "second_level_deadline_days": null,
+      "attorney_fees_recoverable": true,
+      "attorney_fees_cite": "29 Del. C. § 10005",
+      "attorney_fees_notes": "Court may award reasonable attorney fees and costs"
+    },
+
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "residency_requirement": true,
+      "residency_notes": "Must be citizen of Delaware",
+      "request_format_notes": "Written request required; must use standard AG form via web portal",
+      "specific_format": "Written request to public body; web portal with standard form required"
+    },
+
+    "agency_obligations": {
+      "records_officer_required": false,
+      "business_hours_access": true,
+      "business_hours_cite": "29 Del. C. § 10003",
+      "electronic_submission_accepted": true,
+      "web_portal_required": "All state agencies and public bodies must develop web portal for FOIA requests",
+      "standard_form_required": "Must utilize standard request form promulgated by Attorney General",
+      "liberal_construction": "Shall be liberally construed to promote underlying purposes",
+      "liberal_construction_cite": "29 Del. C. § 10001"
+    },
+
+    "oversight_body": {
+      "name": "Attorney General",
+      "role": "Promulgates standard request form for web portals",
+      "contact_info": null,
+      "oversight_url": null
+    },
+
+    "official_resources": {
+      "primary_statute_url": "https://delcode.delaware.gov/title29/c100/",
+      "agency_handbook_url": null,
+      "request_portal_url": null
+    },
+
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_url": "https://delcode.delaware.gov/title29/c100/",
+      "source_verified": true,
+      "primary_sources": [
+        "29 Del. C. Chapter 100",
+        "DELAWARE_transparency_law-v0.11.txt"
+      ],
+      "verification_notes": "All fields manually verified from official Delaware statute. 15 business day response with 10 day extension possible (25 max). Deemed denial if no response. Web portal with AG standard form required. Residency requirement - Delaware citizens only. Liberal construction to promote openness. Court enforcement with attorney fees."
+    }
+  },
+  "agencies": []
+}
