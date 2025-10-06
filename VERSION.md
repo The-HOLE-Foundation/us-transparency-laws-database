@@ -24,8 +24,9 @@ This release marks the completion of **Layer 2 structured metadata** for all 52 
 | **Layer 1** | Statutory Text | ✅ Complete | 52/52 (100%) |
 | **Layer 2** | Structured Metadata | ✅ Complete | 52/52 (100%) |
 | **Layer 3** | Process Maps | ✅ Complete | 52+ maps |
-| **Layer 4** | Agency Data | ⏸️  Deferred | 0/52 (v0.12) |
-| **Layer 5** | Request Templates | ⏸️  Deferred | 0/52 (v0.12) |
+| **Supabase Integration** | Database Setup | 🚧 IN PROGRESS | Next step |
+| **Layer 4** | Agency Data | ⏸️  Future | 0/52 (v0.12+) |
+| **Layer 5** | Request Templates | ⏸️  Future | 0/52 (v0.12+) |
 
 ### What's Included in v0.11.0
 
@@ -50,14 +51,19 @@ This release marks the completion of **Layer 2 structured metadata** for all 52 
 - ✅ Standardized JSON schema
 - ✅ Manual human review of all 52 jurisdictions
 
-### What's NOT Included (By Design)
+### Current Production Status
 
-The following are intentionally excluded from v0.11.0 and planned for v0.12:
-- ❌ Agency contact databases
-- ❌ Custom FOIA request templates
-- ❌ AI training examples
-- ❌ Supabase database integration
-- ❌ API endpoints
+**v0.11.0 Data**: ✅ Complete and production-ready
+**Supabase Integration**: 🚧 Required for deployment (current phase)
+**Platform Integration**: 🔜 Depends on Supabase completion
+
+### Deferred to Future Versions (v0.12+)
+
+The following enhancements are planned for future releases:
+- ⏸️  Agency contact databases (Layer 4)
+- ⏸️  Custom FOIA request templates (Layer 5)
+- ⏸️  AI training examples
+- ⏸️  Public API endpoints
 
 ### Version Naming Convention
 
@@ -83,17 +89,28 @@ MAJOR.MINOR.PATCH
 - No breaking changes
 - No data migration required
 
-#### Planned: v0.11.0 → v0.12.0
-- Add agency contact databases (Layer 4)
-- Add request templates (Layer 5)
-- Add AI training examples
-- Begin Supabase integration
+#### v0.11.0 → v0.11.1 (Current Phase - Immediate)
+**Supabase Integration & Deployment**
+- Design database schema from JSON structure
+- Create Supabase migrations
+- Generate TypeScript types
+- Test data import and integrity
+- Deploy to production Supabase instance
+- Integrate with TheHoleTruth.org platform
 
-#### Planned: v0.12.x → v1.0.0
-- Complete Supabase database deployment
-- Full integration with TheHoleTruth.org platform
-- Public API endpoints
-- Production monitoring
+#### v0.11.1 → v0.12.0 (Future Enhancement)
+**Extended Features**
+- Add agency contact databases (Layer 4)
+- Add custom request templates (Layer 5)
+- Add AI training examples
+- Enhanced data enrichment
+
+#### v0.12.x → v1.0.0 (Long-term)
+**Public API & Advanced Features**
+- Public REST API endpoints
+- GraphQL API
+- Automated statute monitoring
+- Real-time update notifications
 
 ### Data Freshness
 
@@ -143,22 +160,24 @@ Total Size:                  ~2.5 MB
 
 None identified. All validation tests passing.
 
-### Next Milestone: v0.12.0
+### Next Immediate Priority: v0.11.1
 
-**Target**: Q4 2025 / Q1 2026
-**Focus**: Agency data and request templates
+**Target**: Q4 2025 (Immediate)
+**Focus**: Supabase Integration & Production Deployment
 **Scope**:
-- Populate agency contact databases for 52 jurisdictions
-- Create custom FOIA templates per jurisdiction
-- Add AI training examples
-- Begin Supabase schema design
+- Design Supabase database schema from existing JSON
+- Create database migrations
+- Generate TypeScript types for type-safe queries
+- Import v0.11.0 data into Supabase
+- Deploy production Supabase instance
+- Integrate with TheHoleTruth.org platform
+- Enable Map and Wiki features
 
-### Long-term Roadmap
+### Future Enhancements Roadmap
 
-- **v0.13**: Supabase integration & migrations
-- **v0.14**: API endpoint development
-- **v0.15**: Platform integration testing
-- **v1.0**: Full production deployment with TheHoleTruth.org
+- **v0.12.0**: Agency contact databases + custom templates
+- **v0.13.0**: AI training examples + enhanced metadata
+- **v1.0.0**: Public API + automated monitoring
 
 ---
 
