@@ -1,0 +1,38 @@
+{
+  "recommendations": [
+    // JSON & Data
+    "vscode.json-language-features",
+    "ZainChen.json",
+    
+    // Python Development
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-python.debugpy",
+    "ms-python.isort",
+    
+    // Markdown & Documentation
+    "davidanson.vscode-markdownlint",
+    "yzhang.markdown-all-in-one",
+    
+    // Web Development (Next.js prep)
+    "esbenp.prettier-vscode",
+    "bradlc.vscode-tailwindcss",
+    "ms-vscode.vscode-typescript-next",
+    
+    // Supabase Development
+    "supabase.supabase",
+    
+    // Code Quality
+    "streetsidesoftware.code-spell-checker",
+    "usernamehw.errorlens",
+    "oderwat.indent-rainbow",
+    
+    // Git & Collaboration
+    "github.copilot",
+    "github.copilot-chat",
+    "github.vscode-pull-request-github"
+  ],
+  "unwantedRecommendations": [
+    "ms-vscode.vscode-json"
+  ]
+}

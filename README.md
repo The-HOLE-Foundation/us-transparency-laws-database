@@ -5,12 +5,21 @@
 [![Jurisdictions](https://img.shields.io/badge/jurisdictions-52%2F52-brightgreen.svg)](data/consolidated/master_tracking_table-template.json)
 [![Layer 2](https://img.shields.io/badge/Layer%202-100%25-success.svg)](CHANGELOG.md)
 
+**Part of [The HOLE Truth Project](https://theholetruth.org)** - A comprehensive government transparency platform by [The HOLE Foundation](https://theholefoundation.org)
+
+---
+
 ## 🚀 **PROJECT STATUS: v0.11.0 RELEASED**
 
 **Release Date**: October 3, 2025
 **Milestone**: Complete Layer 2 structured metadata for all 52 US jurisdictions
+**Role**: **Data backbone** for TheHoleTruth.org platform and TheHOLEFoundation.org authentication
 
-This repository contains comprehensive, verified transparency law data (FOIA/public records laws) for Federal + 50 States + DC, ready for production deployment as static JSON data.
+This repository is the **canonical source of truth** for US transparency law data (FOIA/public records laws) covering Federal + 50 States + DC. It serves as the foundational data layer for:
+
+- **TheHoleTruth.org**: Public transparency platform (Transparency Map, Wiki, FOIA Generator)
+- **TheHOLEFoundation.org**: Foundation website with unified authentication
+- **Future Applications**: Any tools requiring verified transparency law data
 
 ## 📊 **v0.11.0 COMPLETION SUMMARY**
 
