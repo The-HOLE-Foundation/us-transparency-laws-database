@@ -40,23 +40,40 @@ This repository is the **canonical source of truth** for US transparency law dat
 
 ```
 us-transparency-laws-database/
-├── data/
-│   ├── federal/
-│   │   └── jurisdiction-data.json           # Federal FOIA (5 U.S.C. § 552)
-│   ├── states/
-│   │   ├── {state}/jurisdiction-data.json   # 51 state directories (50 + DC)
-│   │   └── [alabama, alaska, ... wyoming]
-│   └── consolidated/
-│       └── master_tracking_table.json       # 52/52 completion tracking
-├── consolidated-transparency-data/
-│   └── verified-process-maps/               # 52+ visual workflows
-├── reference/
-│   ├── holidays-matrix.csv                  # Business day calculations
-│   └── statute-names-reference.md           # All 52 statute names
-├── scripts/validation/                      # Data validation tools
-├── documentation/                           # Project documentation
+│
+├── releases/v0.11.0/                        # 🎯 PRODUCTION DATA (deploy to Supabase)
+│   ├── jurisdictions/                       # 52 jurisdiction JSON files ✅
+│   ├── process-maps/                        # 52+ verified workflow diagrams ✅
+│   ├── metadata/                            # Tracking table ✅
+│   └── README.md                            # Release documentation
+│
+├── supabase/                                # 🚀 SUPABASE INTEGRATION (v0.11.1 work)
+│   ├── migrations/                          # Database migrations (ready)
+│   ├── functions/                           # Edge Functions (template created)
+│   └── config.toml                          # Supabase configuration
+│
+├── future/                                  # 🔮 FUTURE ENHANCEMENTS
+│   ├── v0.12/                               # Agency data + templates
+│   └── v0.13/                               # AI training examples
+│
+├── dev/                                     # 🛠️ DEVELOPMENT TOOLS
+│   ├── scripts/                             # Validation scripts
+│   └── workflows/                           # Development workflows
+│
+├── archive/                                 # 📦 HISTORICAL (reference only)
+│   ├── process-artifacts/                   # Old Transparency-Data, etc.
+│   ├── duplicates/                          # Consolidated-Datasets
+│   ├── quarantine/                          # Old unverified data
+│   └── sessions/                            # Session notes
+│
+├── docs/                                    # 📚 DOCUMENTATION
+│   ├── releases/                            # Release notes
+│   └── archive/                             # Old documentation
+│
+├── PROJECT_ECOSYSTEM.md                     # Complete architecture
+├── VERSION.md                               # Current version info
 ├── CHANGELOG.md                             # Version history
-└── VERSION.md                               # Current version info
+└── README.md                                # Main project README
 ```
 
 ## 📋 **What's Included in v0.11.0**

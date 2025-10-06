@@ -1,6 +1,16 @@
 {
   // JSON Configuration
-  "json.validate.enable": true,
+  "json.validate.e  // Markdown Configuration
+  "markdownlint.config": {
+    "MD001": true,
+    "MD009": {
+      "br_spaces": 2
+    },
+    "MD022": true,
+    "MD024": false,
+    "MD032": true,
+    "MD040": true
+  },
   "json.format.enable": true,
   "json.format.keepLines": false,
   "json.schemaDownload.enable": true,
