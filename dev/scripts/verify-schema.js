@@ -3,8 +3,8 @@
  * Verify schema deployment using service role key (bypasses RLS)
  */
 
-const SUPABASE_URL = 'https://ctxhmgmeflnemjfzyabr.supabase.co';
-const SUPABASE_SERVICE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImN0eGhtZ21lZmxuZW1qZnp5YWJyIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTczMzQ0MTAxMywiZXhwIjoyMDQ5MDE3MDEzfQ.g514q99y5JzPao41EAaR1NtLg_HjXVhIan9iEiq';
+const SUPABASE_URL = 'https://befpnwcokngtrljxskfz.supabase.co';
+const SUPABASE_SERVICE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJlZnBud2Nva25ndHJsanhza2Z6Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1OTc4MDc2MCwiZXhwIjoyMDc1MzU2NzYwfQ.gLO-Zlt4aeU3xFMe9iBo99JKtQ6CKSraOf9X57Wcbc0';
 
 const tables = [
   'jurisdictions',
@@ -34,6 +34,7 @@ async function checkTable(tableName) {
 
     if (!response.ok) {
       const errorText = await response.text();
+      console.log(`Status ${response.status} for ${tableName}:`, errorText.substring(0, 200));
       if (errorText.includes('does not exist') || errorText.includes('relation')) {
         return { exists: false, count: 0 };
       }

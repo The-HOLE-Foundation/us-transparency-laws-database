@@ -11,6 +11,21 @@
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 
 -- ============================================================================
+-- CLEAN SLATE: Drop all tables if they exist (from incomplete prior deployments)
+-- ============================================================================
+
+DROP TABLE IF EXISTS agencies CASCADE;
+DROP TABLE IF EXISTS oversight_bodies CASCADE;
+DROP TABLE IF EXISTS agency_obligations CASCADE;
+DROP TABLE IF EXISTS requester_requirements CASCADE;
+DROP TABLE IF EXISTS appeal_processes CASCADE;
+DROP TABLE IF EXISTS exemptions CASCADE;
+DROP TABLE IF EXISTS fee_structures CASCADE;
+DROP TABLE IF EXISTS response_requirements CASCADE;
+DROP TABLE IF EXISTS transparency_laws CASCADE;
+DROP TABLE IF EXISTS jurisdictions CASCADE;
+
+-- ============================================================================
 -- TABLE: jurisdictions
 -- ============================================================================
 -- Core table for jurisdiction metadata (Federal + 50 States + DC)

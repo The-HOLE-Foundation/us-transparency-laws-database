@@ -48,29 +48,68 @@ us-transparency-laws-database/
 
 ## Data Architecture
 
-### Three-Layer Data Model
+### Four-Layer Data Model (v0.11.1)
 
-1. **Raw Statutory Data** (`statutory-data/`)
+1. **Raw Statutory Data** (`statutory-data/`, `releases/v0.11.0/`)
    - Full statute text files
    - Official statutory citations
    - Ground truth from official sources only
+   - v0.11.0: Complete JSON files for all 52 jurisdictions
 
-2. **Structured Jurisdiction Data** (`data/states/`, `data/federal/`)
-   - Parsed statute information in JSON format
-   - Agency contact databases
-   - Request templates
-   - Each state has its own directory with `jurisdiction-data.json`
+2. **Supabase PostgreSQL Database** (`supabase/` - **PRODUCTION READY**)
+   - **10 Core Tables**: jurisdictions, transparency_laws, response_requirements, fee_structures, exemptions, appeal_processes, requester_requirements, agency_obligations, oversight_bodies, agencies
+   - **1 Optimized View**: `transparency_map_display` for interactive map
+   - **365 exemptions** with automatic jurisdiction context
+   - **52 jurisdictions** fully imported (Federal + 50 States + DC)
+   - **JSONB additional_fields** preserves jurisdiction-specific variations
+   - **7 migrations** successfully deployed to development branch
 
-3. **Consolidated Resources** (`data/consolidated/`, `consolidated-transparency-data/`)
-   - Master tracking table for all 51 jurisdictions
-   - Consolidated master database
-   - Verified process maps for each jurisdiction
+3. **Structured Source Data** (`releases/v0.11.0/jurisdictions/`)
+   - 52 JSON files (one per jurisdiction)
+   - Nested structure with transparency_law object
+   - Source of truth for Supabase imports
+   - Each file contains: response_requirements, fee_structure, exemptions, appeal_process, requester_requirements, agency_obligations, oversight_body, validation_metadata
 
-### Key Data Files (Currently Templates)
+4. **Transparency Map Dataset** (`Transparency-Map-Dataset/`)
+   - Curated 181KB JSON optimized for map display
+   - Timeline code system (negative integers for flexible deadlines)
+   - Now superseded by `transparency_map_display` VIEW in database
 
-- **`data/consolidated/master_tracking_table-template.json`**: Tracks completion status for all 51 jurisdictions, including priority levels, statute collection status, agency data collection status, and template creation status
-- **`templates/json/STANDARD_JURISDICTION_TEMPLATE_template-v0.11.json`**: Standard schema for jurisdiction data including statute details, response requirements, appeal process, fee structure, exemptions, requester requirements, agency obligations, oversight body, and validation metadata
-- **State agencies files**: `data/states/{state-name}/jurisdiction-data.json` - Contains jurisdiction info, transparency law details, and agency contact information
+### Key Database Tables (v0.11.1)
+
+**Core Tables**:
+- **`jurisdictions`** (52 records): id, slug, name, jurisdiction_type
+- **`transparency_laws`** (52 records): jurisdiction_id, name, statute_citation, effective_date, last_amended, official_resources (JSONB), validation_metadata (JSONB)
+- **`response_requirements`** (52 records): transparency_law_id, initial_response_time, initial_response_unit, final_response_time, final_response_unit, extension_allowed, extension_max_days, extension_conditions, tolling_allowed, tolling_notes, **additional_fields (JSONB)**
+- **`fee_structures`** (52 records): transparency_law_id, search_fee, copy_fee_per_page, electronic_fee, fee_waiver_available, fee_waiver_criteria, **additional_fields (JSONB)**
+- **`exemptions`** (365 records): transparency_law_id, category, citation, description, scope, **jurisdiction_name, jurisdiction_slug, jurisdiction_code** (auto-populated via trigger)
+- **`appeal_processes`** (52 records): transparency_law_id, first_level, first_level_deadline_days, second_level, attorney_fees_recoverable, **additional_fields (JSONB)**
+- **`requester_requirements`** (52 records): transparency_law_id, identification_required, purpose_statement_required, residency_requirement, **additional_fields (JSONB)**
+- **`agency_obligations`** (52 records): transparency_law_id, records_officer_required, business_hours_access, electronic_submission_accepted, **additional_fields (JSONB)**
+- **`oversight_bodies`** (38 records): transparency_law_id, name, role, contact_info, oversight_url, **additional_fields (JSONB)**
+- **`agencies`** (0 records): Deferred to v0.12
+
+**Optimized View**:
+- **`transparency_map_display`**: Single-query access to all map data, flattens normalized schema, auto-generates key_features_tags
+
+### Querying the Database
+
+**Example 1: Get all jurisdictions for map**
+```sql
+SELECT jurisdiction_name, jurisdiction_code, response_timeline_days, key_features_tags
+FROM transparency_map_display
+ORDER BY jurisdiction_name;
+```
+
+**Example 2: Get California exemptions (no joins!)**
+```sql
+SELECT category, description FROM exemptions WHERE jurisdiction_name = 'California';
+```
+
+**Example 3: Count exemptions by jurisdiction**
+```sql
+SELECT jurisdiction_name, COUNT(*) FROM exemptions GROUP BY jurisdiction_name ORDER BY COUNT(*) DESC;
+```
 
 ## Data Validation Rules (CRITICAL)
 
@@ -97,64 +136,129 @@ us-transparency-laws-database/
 
 ## Working with This Repository
 
-### Adding New Jurisdiction Data
+### Querying v0.11.1 Database (Current)
 
-1. Start with the template: `templates/json/STANDARD_JURISDICTION_TEMPLATE_template-v0.11.json`
-2. Locate official state statute from acceptable sources only
-3. Fill in all fields following validation methodology in `documentation/VALIDATION_METHODOLOGY.md`
-4. Update tracking table: `data/consolidated/master_tracking_table-template.json`
-5. Create corresponding process map in `consolidated-transparency-data/verified-process-maps/`
+**Development Branch**: `https://befpnwcokngtrljxskfz.supabase.co`
+
+All 52 jurisdictions are now deployed to Supabase. Use these patterns:
+
+**JavaScript/TypeScript (Supabase Client)**
+```javascript
+import { createClient } from '@supabase/supabase-js'
+
+const supabase = createClient(
+  'https://befpnwcokngtrljxskfz.supabase.co',
+  'YOUR_ANON_KEY'
+)
+
+// Get all jurisdictions for transparency map
+const { data: jurisdictions } = await supabase
+  .from('transparency_map_display')
+  .select('jurisdiction_name, jurisdiction_code, response_timeline_days, key_features_tags')
+
+// Get California exemptions (no joins needed!)
+const { data: exemptions } = await supabase
+  .from('exemptions')
+  .select('category, description, legal_cite')
+  .eq('jurisdiction_name', 'California')
+
+// Get jurisdiction details
+const { data: california } = await supabase
+  .from('jurisdictions')
+  .select(`
+    *,
+    transparency_laws(*),
+    response_requirements(*),
+    fee_structures(*),
+    appeal_processes(*)
+  `)
+  .eq('slug', 'california')
+  .single()
+```
+
+**Direct SQL Access**
+```sql
+-- Get states with fast response times
+SELECT jurisdiction_name, response_timeline_days
+FROM transparency_map_display
+WHERE response_timeline_days <= 5 AND response_timeline_days > 0
+ORDER BY response_timeline_days;
+
+-- Find jurisdictions with attorney fee recovery
+SELECT j.name, ap.attorney_fees_notes
+FROM jurisdictions j
+JOIN transparency_laws tl ON tl.jurisdiction_id = j.id
+JOIN appeal_processes ap ON ap.transparency_law_id = tl.id
+WHERE ap.attorney_fees_recoverable = true;
+
+-- Analyze exemption categories across all jurisdictions
+SELECT category, COUNT(*) as count, ARRAY_AGG(DISTINCT jurisdiction_name)
+FROM exemptions
+GROUP BY category
+ORDER BY count DESC;
+```
+
+### Adding New Jurisdiction Data (Future Updates)
+
+1. Update source JSON in `releases/v0.11.0/jurisdictions/{jurisdiction-slug}.json`
+2. Verify data against official .gov sources only
+3. Run import script: `node dev/scripts/smart-import.js`
+4. Validate with: `node dev/scripts/verify-schema.js`
+5. Update process map in `releases/v0.11.0/process-maps/`
 
 ### Data Migration Tools
 
-- **`scripts/migrate_data_files.sh`**: Shell script for bulk data migration
+- **`dev/scripts/smart-import.js`**: Import v0.11.0 JSON to Supabase with flexible schema handling
+- **`dev/scripts/verify-schema.js`**: Verify all 10 tables deployed correctly
 - **`scripts/complete_migration.py`**: Python script for data processing and validation
 
 ### Version Naming Convention
 
-All templates use the suffix `_template-v0.11` to indicate:
-- Data has been cleared (template mode)
-- Version 0.11 of the template schema
-- Ready for population with verified data
+- **v0.11.0**: JSON data release (52 jurisdictions, process maps) - **COMPLETE**
+- **v0.11.1**: Supabase integration with flexible schema - **CURRENT VERSION**
+- **v0.12.0+**: Agency data, templates, AI training (future)
 
 ## Integration Points
 
 This repository is part of the HOLE Foundation ecosystem:
-- **theholetruth-platform**: React application consuming this database
+- **theholetruth-platform**: React application consuming this database via Supabase
 - **foundation-meta**: Central coordination repository
-- Database is structured for Supabase compatibility
-- JSON structure designed for direct API consumption
+- **Supabase Backend**: PostgreSQL database with PostgREST API (Development: befpnwcokngtrljxskfz)
+- **Authentication**: Supabase Auth (to be configured for theholetruth.org and theholefoundation.org)
 
 ## Development Commands
 
-### Supabase Development
+### Supabase Database Management (v0.11.1)
 ```bash
-# Start Supabase local development
-cd supabase && pnpm setup:cli
+# Link to development branch
+npx supabase link --project-ref befpnwcokngtrljxskfz
 
-# Generate TypeScript types from database
-pnpm generate:types
+# View migration status
+npx supabase migration list --linked
 
-# Run development server
-pnpm dev
+# Push migrations to development
+npx supabase db push --linked
 
-# Build for production
-pnpm build
+# Generate TypeScript types
+npx supabase gen types typescript --linked > types/supabase.ts
 
-# Run linting and formatting
-pnpm lint
-pnpm typecheck
-pnpm test:prettier
-pnpm format
+# Verify schema deployment
+node dev/scripts/verify-schema.js
+
+# Import v0.11.0 data to Supabase
+node dev/scripts/smart-import.js
 ```
 
-### Data Migration and Validation
+### Data Validation (v0.11.1)
 ```bash
-# Run data migration scripts
-./scripts/migrate_data_files.sh
-python3 scripts/complete_migration.py
+# Verify all 10 tables deployed
+node dev/scripts/verify-schema.js
 
-# Find and resolve duplicates
+# Check data completeness
+# See documentation/DATA_COMPLETENESS_AUDIT_v0.11.1.md
+
+# Validate migration integrity
+npx supabase migration list --linked
 python3 scripts/find_duplicates.py
 
 # Extract and process map data
