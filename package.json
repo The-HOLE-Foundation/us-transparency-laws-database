@@ -1,0 +1,65 @@
+{
+  "name": "us-transparency-laws-database",
+  "version": "0.11.0",
+  "description": "Production-ready database of US transparency laws (FOIA/public records) for all 51 jurisdictions",
+  "type": "module",
+  "scripts": {
+    "validate:json": "node scripts/validate-json-files.js",
+    "lint:json": "jsonlint data/**/*.json templates/**/*.json",
+    "format:json": "prettier --write '**/*.json'",
+    "validate:schemas": "ajv validate -s schemas/jurisdiction-data-schema.json -d 'data/states/*/jurisdiction-data.json' -d 'data/federal/jurisdiction-data.json'",
+    "validate:python": "python -m mypy scripts/ --strict",
+    "lint:python": "flake8 scripts/ --max-line-length=88",
+    "format:python": "black scripts/",
+    "lint:markdown": "markdownlint documentation/ README.md",
+    "fix:markdown": "markdownlint --fix documentation/ README.md",
+    "validate:all": "npm run validate:json && npm run validate:schemas && npm run validate:python",
+    "lint:all": "npm run lint:json && npm run lint:python && npm run lint:markdown",
+    "format:all": "npm run format:json && npm run format:python",
+    "prepare": "npm run validate:all",
+    "test": "npm run validate:all && python -m pytest scripts/tests/"
+  },
+  "keywords": [
+    "transparency",
+    "foia",
+    "public-records",
+    "government",
+    "legal",
+    "database",
+    "ai-training",
+    "ground-truth"
+  ],
+  "author": "The HOLE Foundation",
+  "license": "CC0-1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/The-HOLE-Foundation/us-transparency-laws-database.git"
+  },
+  "bugs": {
+    "url": "https://github.com/The-HOLE-Foundation/us-transparency-laws-database/issues"
+  },
+  "homepage": "https://github.com/The-HOLE-Foundation/us-transparency-laws-database#readme",
+  "dependencies": {
+    "ajv": "^8.12.0",
+    "jsonschema": "^1.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "eslint": "^8.55.0",
+    "eslint-config-prettier": "^9.1.0",
+    "jsonlint": "^1.6.3",
+    "markdownlint-cli": "^0.38.0",
+    "prettier": "^3.1.0",
+    "typescript": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "volta": {
+    "node": "20.10.0",
+    "npm": "10.2.3"
+  }
+}

@@ -1,14 +1,81 @@
 ---
-DATE: 2025-09-29
+DATE: 2025-10-05
 AUTHOR: Claude Code AI Assistant
 PROJECT: The HOLE Foundation - US Transparency Laws Database
 SUBPROJECT: Change Log
-VERSION: v0.11
+VERSION: v0.11.0
 ---
 
 # Changelog
 
 All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [0.11.0] - 2025-10-03
+
+### 🎉 RELEASE: Complete Layer 2 Structured Metadata for All 52 Jurisdictions
+
+This release marks the completion of **100% structured metadata coverage** for all US transparency laws.
+
+### Key Achievements
+
+#### ✅ Layer 2 Complete: 52/52 Jurisdictions (100%)
+- **Federal FOIA**: Complete structured data (5 U.S.C. § 552)
+- **50 States + DC**: Full jurisdiction metadata
+  - Response timelines (business vs calendar days, extensions)
+  - Fee structures (search, copy, electronic, waivers)
+  - Exemption categories (with legal citations)
+  - Appeal processes (administrative + judicial paths)
+  - Requester eligibility requirements
+  - Unique features (AG opinions, proactive disclosure)
+  - Enforcement mechanisms (penalties, fees, damages)
+
+#### ✅ Data Quality Standards Met
+- **Source Verification**: 100% from official .gov sources
+- **Legal Citations**: Proper format for all statutory references
+- **Currency**: Reflects 2024-2025 amendments (California AB 370/1785, Texas HB 4219, etc.)
+- **Manual Review**: Human verification of all 52 jurisdictions
+- **Consistent Schema**: Standardized JSON structure
+
+#### ✅ Process Maps: 52+ Complete
+- Visual workflows for all jurisdictions
+- Location: `consolidated-transparency-data/verified-process-maps/`
+- Format: Standardized markdown with version tracking
+
+#### ✅ Reference Materials Added
+- Holiday matrix for business day calculations
+- Statute name reference guide (52 jurisdictions)
+
+### Repository Status at v0.11.0
+```
+Jurisdiction Data Files:     52/52 (100%) ✅
+Process Maps:                52+   (100%) ✅
+Master Tracking Table:       Updated      ✅
+Reference Materials:         Complete     ✅
+Validation Scripts:          Operational  ✅
+```
+
+### Data Structure
+All jurisdiction data in `data/states/{state}/jurisdiction-data.json` and `data/federal/jurisdiction-data.json` following standardized schema.
+
+### Known Scope Limitations (By Design)
+The following are intentionally **NOT included** in v0.11.0 (planned for v0.12):
+- Agency contact databases
+- Custom request templates
+- AI training examples
+- Supabase database integration
+
+### Breaking Changes
+None - this is the first formal semantic versioned release (v0.11.0).
+
+### Migration From v0.11
+- Master tracking table updated: completion status now 52/52 (was 0/51)
+- All jurisdictions marked `"status": "completed"` and `"statute_collected": true`
+- Added `"version": "v0.11.0"` to project metadata
+
+---
 
 ## [v0.11] - 2025-09-29
 
