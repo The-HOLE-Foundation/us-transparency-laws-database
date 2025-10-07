@@ -1,15 +1,19 @@
 #!/usr/bin/env node
 /**
  * Import data to currently linked Supabase project
- * Uses credentials from .env or environment variables
+ * Reads from releases/v0.11.0/jurisdictions/*.json
  */
 
-// Main branch credentials (from supabase link)
-const SUPABASE_URL = process.env.SUPABASE_URL || 'https://ctxhmgmeflnemjfzyabr.supabase.co';
-const SUPABASE_SERVICE_KEY = process.env.SUPABASE_SERVICE_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImN0eGhtZ21lZmxuZW1qZnp5YWJyIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1OTc4OTg5NywiZXhwIjoyMDc1MzY1ODk3fQ.OEuMc9gBdIf-fqJsccBnbJr-gTt5_swvPBpOPnZ69iU';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
-const fs = require('fs');
-const path = require('path');
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// Vercel-connected production project credentials
+const SUPABASE_URL = process.env.SUPABASE_URL || 'https://rggwmedruufdbuifxbov.supabase.co';
+const SUPABASE_SERVICE_KEY = process.env.SUPABASE_SERVICE_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJnZ3dtZWRydXVmZGJ1aWZ4Ym92Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1OTgxNTY5MiwiZXhwIjoyMDc1MzkxNjkyfQ.rBtfHxgXDeKdseV91w1qJnkaKwgF40p2ABYE1DEqXBM';
 
 console.log('================================================================================');
 console.log('IMPORTING DATA TO LINKED SUPABASE PROJECT');
@@ -18,23 +22,14 @@ console.log(`Target: ${SUPABASE_URL}\n`);
 
 const RELEASE_DIR = path.join(__dirname, '../../releases/v0.11.0/jurisdictions');
 
-async function importJurisdiction(jurisdictionSlug) {
-  const filePath = path.join(RELEASE_DIR, jurisdictionSlug, 'jurisdiction-data.json');
-
-  if (!fs.existsSync(filePath)) {
-    return { success: false, error: 'File not found' };
-  }
-
+async function importJurisdiction(filePath) {
   const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
-  // Import jurisdiction
+  // Import jurisdiction (matching actual schema: slug, name, jurisdiction_type only)
   const jurisdictionData = {
     slug: data.jurisdiction.slug,
     name: data.jurisdiction.name,
-    type: data.jurisdiction.type,
-    abbreviation: data.jurisdiction.abbreviation || null,
-    population: data.jurisdiction.population || null,
-    capital: data.jurisdiction.capital || null
+    jurisdiction_type: data.jurisdiction.type
   };
 
   try {
@@ -56,15 +51,18 @@ async function importJurisdiction(jurisdictionSlug) {
 
     const [jurisdiction] = await jResp.json();
 
-    // Import transparency_laws
+    // Import transparency_laws (schema: name, statute_citation, effective_date, last_amended, official_resources, validation_metadata)
     const lawData = {
       jurisdiction_id: jurisdiction.id,
-      statute_name: data.transparency_law.statute_name,
+      name: data.transparency_law.statute_name,
       statute_citation: data.transparency_law.statute_citation,
-      statute_url: data.transparency_law.statute_url,
       effective_date: data.transparency_law.effective_date || null,
       last_amended: data.transparency_law.last_amended || null,
-      scope: data.transparency_law.scope || null
+      official_resources: {
+        primary_statute_url: data.transparency_law.statute_url || null,
+        scope: data.transparency_law.scope || null
+      },
+      validation_metadata: data.transparency_law.validation_metadata || {}
     };
 
     const lawResp = await fetch(`${SUPABASE_URL}/rest/v1/transparency_laws`, {
@@ -231,23 +229,23 @@ async function importJurisdiction(jurisdictionSlug) {
 }
 
 async function main() {
-  const jurisdictions = fs.readdirSync(RELEASE_DIR).filter(f =>
-    fs.statSync(path.join(RELEASE_DIR, f)).isDirectory()
-  );
+  const files = fs.readdirSync(RELEASE_DIR).filter(f => f.endsWith('.json'));
 
-  console.log(`Found ${jurisdictions.length} jurisdictions to import\n`);
+  console.log(`Found ${files.length} jurisdiction files to import\n`);
 
   let successCount = 0;
   let failCount = 0;
 
-  for (const jSlug of jurisdictions) {
-    const result = await importJurisdiction(jSlug);
+  for (const file of files) {
+    const filePath = path.join(RELEASE_DIR, file);
+    const result = await importJurisdiction(filePath);
+    const name = file.replace('.json', '');
 
     if (result.success) {
-      console.log(`✅ ${jSlug}`);
+      console.log(`✅ ${name}`);
       successCount++;
     } else {
-      console.log(`❌ ${jSlug} - ${result.error}`);
+      console.log(`❌ ${name} - ${result.error}`);
       failCount++;
     }
   }

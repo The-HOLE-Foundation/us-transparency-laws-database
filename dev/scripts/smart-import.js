@@ -9,8 +9,8 @@ import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-const SUPABASE_URL = 'https://befpnwcokngtrljxskfz.supabase.co';
-const SUPABASE_SERVICE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJlZnBud2Nva25ndHJsanhza2Z6Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1OTc4MDc2MCwiZXhwIjoyMDc1MzU2NzYwfQ.gLO-Zlt4aeU3xFMe9iBo99JKtQ6CKSraOf9X57Wcbc0';
+const SUPABASE_URL = 'https://rggwmedruufdbuifxbov.supabase.co';
+const SUPABASE_SERVICE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJnZ3dtZWRydXVmZGJ1aWZ4Ym92Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1OTgxNTY5MiwiZXhwIjoyMDc1MzkxNjkyfQ.rBtfHxgXDeKdseV91w1qJnkaKwgF40p2ABYE1DEqXBM';
 
 const DATA_DIR = 'releases/v0.11.0/jurisdictions';
 
