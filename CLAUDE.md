@@ -12,7 +12,7 @@ DATE: [YYYY-MM-DD]
 AUTHOR: [Author Name or "Claude Code AI Assistant"]
 PROJECT: The HOLE Foundation - US Transparency Laws Database
 SUBPROJECT: [Specific component, e.g., "Supabase Schema Design", "Data Validation", "Process Maps"]
-VERSION: v0.11
+VERSION: v0.11 or v0.12 (depending on context)
 ---
 ```
 
@@ -20,7 +20,11 @@ This applies to all markdown files, documentation, reports, schemas, and any oth
 
 ## Project Overview
 
-This repository is a comprehensive database of US transparency laws (FOIA and public records laws) for all 51 jurisdictions (50 states + DC + Federal). The project is currently in **template mode (v0.11)** - all data files have been cleared and replaced with empty templates ready to be populated with verified data.
+This repository is a comprehensive database of US transparency laws (FOIA and public records laws) for all 52 jurisdictions (50 states + DC + Federal).
+
+**Current Status**:
+- **v0.11.1**: PRODUCTION READY - Supabase database deployed with 52 jurisdictions, 365 exemptions
+- **v0.12**: IN DEVELOPMENT - Rights of Access table to complement exemptions
 
 **Critical**: This database serves as ground truth for AI training. **100% accuracy is mandatory**. All data must be verified from official government sources only (state legislature websites, official state code databases, official AG offices, official agency .gov sites).
 
@@ -89,8 +93,16 @@ us-transparency-laws-database/
 - **`oversight_bodies`** (38 records): transparency_law_id, name, role, contact_info, oversight_url, **additional_fields (JSONB)**
 - **`agencies`** (0 records): Deferred to v0.12
 
-**Optimized View**:
-- **`transparency_map_display`**: Single-query access to all map data, flattens normalized schema, auto-generates key_features_tags
+**v0.12 New Table (In Development)**:
+- **`rights_of_access`** (0 records - to be populated): Affirmative rights to public records
+  - Fields: transparency_law_id, jurisdiction_slug, jurisdiction_name, category, subcategory, statute_citation, description, conditions, applies_to, implementation_notes, request_tips
+  - Categories: Proactive Disclosure, Enhanced Access Rights, Technology Rights, Requester-Specific Rights, Inspection Rights, Timeliness Rights
+  - **Purpose**: Enable FOIA Generator to assert specific statutory rights in requests
+  - **Documentation**: See [v0.12-RIGHTS_OF_ACCESS_DESIGN.md](documentation/v0.12-RIGHTS_OF_ACCESS_DESIGN.md)
+
+**Optimized Views**:
+- **`transparency_map_display`** (v0.11.1): Single-query access to all map data, flattens normalized schema, auto-generates key_features_tags
+- **`transparency_landscape`** (v0.12): Combines rights_of_access and exemptions for complete transparency picture across all jurisdictions
 
 ### Querying the Database
 
@@ -109,6 +121,29 @@ SELECT category, description FROM exemptions WHERE jurisdiction_name = 'Californ
 **Example 3: Count exemptions by jurisdiction**
 ```sql
 SELECT jurisdiction_name, COUNT(*) FROM exemptions GROUP BY jurisdiction_name ORDER BY COUNT(*) DESC;
+```
+
+**Example 4 (v0.12): Get California's proactive disclosure rights**
+```sql
+SELECT category, description, statute_citation, request_tips
+FROM rights_of_access
+WHERE jurisdiction_slug = 'california' AND category = 'Proactive Disclosure'
+ORDER BY subcategory;
+```
+
+**Example 5 (v0.12): Compare rights vs exemptions for all states**
+```sql
+SELECT jurisdiction_name, total_rights, total_exemptions, transparency_ratio, data_status
+FROM transparency_landscape
+ORDER BY transparency_ratio DESC;
+```
+
+**Example 6 (v0.12): Get all technology rights across jurisdictions**
+```sql
+SELECT jurisdiction_name, description, statute_citation
+FROM rights_of_access
+WHERE category = 'Technology Rights'
+ORDER BY jurisdiction_name;
 ```
 
 ## Data Validation Rules (CRITICAL)

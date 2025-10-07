@@ -128,13 +128,27 @@ MAJOR.MINOR.PATCH
 - ✅ Enhanced exemptions with jurisdiction context
 - ✅ Ready for TheHoleTruth.org platform integration
 
-#### v0.11.1 → v0.12.0 (Future Enhancement)
+#### v0.11.1 → v0.12.0 (In Development)
 
-##### Extended Features
+##### Rights of Access Feature 🚧
 
-- Add agency contact databases (Layer 4)
-- Add custom request templates (Layer 5)
-- Add AI training examples
+**Primary Addition**: `rights_of_access` table to complement exemptions
+- Catalogs affirmative rights to public records (what you CAN access)
+- Categories: Proactive Disclosure, Enhanced Access, Technology Rights, Requester-Specific Rights, Inspection Rights, Timeliness Rights
+- Enables FOIA Generator to assert specific statutory rights in requests
+- Provides complete transparency picture when combined with exemptions
+- Creates `transparency_landscape` view for rights vs exemptions analysis
+
+**Design Documentation**: [v0.12-RIGHTS_OF_ACCESS_DESIGN.md](documentation/v0.12-RIGHTS_OF_ACCESS_DESIGN.md)
+
+**Migration Status**: ✅ Schema designed, migration file ready
+**Data Collection**: 🔜 Pending (Federal + 10 priority states first)
+**Timeline**: Q4 2025 - Q1 2026
+
+##### Additional v0.12 Features
+
+- Agency contact databases (Layer 4) - deferred
+- Custom request templates (Layer 5) - deferred
 - Enhanced data enrichment
 
 #### v0.12.x → v1.0.0 (Long-term)
@@ -210,7 +224,8 @@ None identified. All validation tests passing.
 
 ### Future Enhancements Roadmap
 
-- **v0.12.0**: Agency contact databases + custom templates
+- **v0.12.0** (In Development): Rights of Access table + data collection (Q4 2025 - Q1 2026)
+- **v0.12.1**: Agency contact databases + custom templates
 - **v0.13.0**: AI training examples + enhanced metadata
 - **v1.0.0**: Public API + automated monitoring
 

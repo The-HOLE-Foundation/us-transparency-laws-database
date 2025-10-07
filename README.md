@@ -1,6 +1,6 @@
 # US Transparency Laws Database
 
-[![Version](https://img.shields.io/badge/version-v0.11.1-blue.svg)](VERSION.md)
+[![Version](https://img.shields.io/badge/version-v0.11.1%20%7C%20v0.12%20in%20development-blue.svg)](VERSION.md)
 [![License](https://img.shields.io/badge/license-CC0%201.0-green.svg)](LICENSE)
 [![Jurisdictions](https://img.shields.io/badge/jurisdictions-52%2F52-brightgreen.svg)](data/consolidated/master_tracking_table-template.json)
 [![Supabase](https://img.shields.io/badge/Supabase-Deployed-success.svg)](documentation/v0.11.1_SUPABASE_INTEGRATION_COMPLETE.md)
@@ -61,7 +61,7 @@ us-transparency-laws-database/
 │   └── config.toml                          # Supabase configuration
 │
 ├── future/                                  # 🔮 FUTURE ENHANCEMENTS
-│   ├── v0.12/                               # Agency data + templates
+│   ├── v0.12/                               # Rights of Access + Agency data
 │   └── v0.13/                               # AI training examples
 │
 ├── dev/                                     # 🛠️ DEVELOPMENT TOOLS
@@ -98,6 +98,14 @@ Complete PostgreSQL deployment with:
 - **`agency_obligations`** (52 records) - Agency responsibilities
 - **`oversight_bodies`** (38 records) - Enforcement and oversight
 - **`agencies`** (0 records) - Deferred to v0.12
+
+### **🚧 v0.12 Development: Rights of Access Table**
+New feature in development to complement exemptions:
+- **`rights_of_access`** - Affirmative rights to public records (what you CAN access)
+- **Categories**: Proactive Disclosure, Enhanced Access, Technology Rights, Requester-Specific Rights
+- **Purpose**: Enable FOIA Generator to assert specific statutory rights in requests
+- **Status**: Design complete, migration ready, data collection pending
+- **Documentation**: [v0.12 Rights of Access Design](documentation/v0.12-RIGHTS_OF_ACCESS_DESIGN.md)
 - **`transparency_map_display`** (VIEW) - Optimized for interactive map
 
 ### **Key Features**
