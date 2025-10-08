@@ -256,33 +256,34 @@ ORDER BY count DESC;
 ## Integration Points
 
 This repository is part of the HOLE Foundation ecosystem:
-- **theholetruth-platform**: React application consuming this database via Supabase
+- **THEHOLETRUTH.ORG**: React/Next.js application consuming this database via Neon PostgreSQL
 - **foundation-meta**: Central coordination repository
-- **Supabase Backend**: PostgreSQL database with PostgREST API (Development: befpnwcokngtrljxskfz)
-- **Authentication**: Supabase Auth (to be configured for theholetruth.org and theholefoundation.org)
+- **Neon Database**: PostgreSQL database hosted on Neon (AWS us-east-1)
+- **Authentication**: Stack Auth (configured for theholetruth.org and theholefoundation.org)
+- **Deployment**: Vercel (integrated with Neon database)
 
 ## Development Commands
 
-### Supabase Database Management (v0.11.1)
+### Neon Database Management (v0.12+)
 ```bash
-# Link to development branch
-npx supabase link --project-ref befpnwcokngtrljxskfz
+# Direct PostgreSQL connection (for migrations and admin)
+psql "$DATABASE_URL_UNPOOLED"
 
-# View migration status
-npx supabase migration list --linked
+# Apply migration to Neon
+psql "$DATABASE_URL_UNPOOLED" -f supabase/migrations/YOUR_MIGRATION.sql
 
-# Push migrations to development
-npx supabase db push --linked
+# Query database
+psql "$DATABASE_URL" -c "SELECT * FROM jurisdictions;"
 
-# Generate TypeScript types
-npx supabase gen types typescript --linked > types/supabase.ts
+# Import v0.12 rights data to Neon
+node dev/scripts/import-rights-neon.js data/v0.12/rights/federal-rights.json
 
 # Verify schema deployment
-node dev/scripts/verify-schema.js
-
-# Import v0.11.0 data to Supabase
-node dev/scripts/smart-import.js
+psql "$DATABASE_URL" -c "\dt public.*"
+psql "$DATABASE_URL" -c "SELECT * FROM transparency_landscape LIMIT 5;"
 ```
+
+**Note**: We migrated from Supabase to Neon in October 2025. See `documentation/NEON_MIGRATION.md` for details.
 
 ### Data Validation (v0.11.1)
 ```bash

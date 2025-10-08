@@ -41,7 +41,8 @@
   "homepage": "https://github.com/The-HOLE-Foundation/us-transparency-laws-database#readme",
   "dependencies": {
     "ajv": "^8.12.0",
-    "jsonschema": "^1.4.1"
+    "jsonschema": "^1.4.1",
+    "pg": "^8.16.3"
   },
   "devDependencies": {
     "@types/node": "^20.10.0",

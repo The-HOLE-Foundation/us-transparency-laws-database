@@ -1,20 +1,21 @@
 # US Transparency Laws Database
 
-[![Version](https://img.shields.io/badge/version-v0.11.1%20%7C%20v0.12%20in%20development-blue.svg)](VERSION.md)
+[![Version](https://img.shields.io/badge/version-v0.12%20in%20development-blue.svg)](VERSION.md)
 [![License](https://img.shields.io/badge/license-CC0%201.0-green.svg)](LICENSE)
 [![Jurisdictions](https://img.shields.io/badge/jurisdictions-52%2F52-brightgreen.svg)](data/consolidated/master_tracking_table-template.json)
-[![Supabase](https://img.shields.io/badge/Supabase-Deployed-success.svg)](documentation/v0.11.1_SUPABASE_INTEGRATION_COMPLETE.md)
-[![Database](https://img.shields.io/badge/database-365%20exemptions-informational.svg)](documentation/DATA_COMPLETENESS_AUDIT_v0.11.1.md)
+[![Database](https://img.shields.io/badge/database-Neon%20PostgreSQL-success.svg)](documentation/NEON_MIGRATION.md)
+[![Exemptions](https://img.shields.io/badge/exemptions-365-informational.svg)](documentation/DATA_COMPLETENESS_AUDIT_v0.11.1.md)
+[![Rights](https://img.shields.io/badge/rights-Federal%20FOIA%20(15)-orange.svg)](data/v0.12/rights/federal-rights.json)
 
 **Part of [The HOLE Truth Project](https://theholetruth.org)** - A comprehensive government transparency platform by [The HOLE Foundation](https://theholefoundation.org)
 
 ---
 
-## 🚀 **PROJECT STATUS: v0.11.1 SUPABASE INTEGRATION COMPLETE**
+## 🚀 **PROJECT STATUS: v0.12 RIGHTS OF ACCESS - IN DEVELOPMENT**
 
-**Release Date**: October 7, 2025
-**Milestone**: Complete Supabase database deployment with optimized views and enhancements
-**Status**: ✅ **PRODUCTION READY** (Development Branch)
+**Release Date**: October 2025 (in progress)
+**Milestone**: Rights of Access table + Neon database migration
+**Status**: 🔄 **DEVELOPMENT PHASE**
 
 This repository is the **canonical source of truth** for US transparency law data (FOIA/public records laws) covering Federal + 50 States + DC. It serves as the foundational data layer for:
 
@@ -22,27 +23,35 @@ This repository is the **canonical source of truth** for US transparency law dat
 - **TheHOLEFoundation.org**: Foundation website with unified authentication
 - **Future Applications**: Any tools requiring verified transparency law data
 
-### **What's New in v0.11.1**
-✅ **Supabase Database Deployment** - All 52 jurisdictions imported to PostgreSQL
-✅ **Transparency Map View** - Optimized single-query access for interactive map
-✅ **Enhanced Exemptions** - Jurisdiction context without complex joins
-✅ **Flexible Schema** - JSONB fields preserve jurisdiction-specific variations
-✅ **100% Data Preservation** - Zero loss during v0.11.0 → v0.11.1 migration
+### **What's New in v0.12**
+✅ **Neon Database Migration** - Migrated from Supabase to Neon PostgreSQL (AWS us-east-1)
+✅ **Rights of Access Table** - Document affirmative rights to complement exemptions
+✅ **Federal FOIA Rights** - 15 key access rights documented with request tips
+✅ **Transparency Landscape View** - Combined rights + exemptions analysis
+✅ **Vector Database Ready** - pgvector installed for v0.13 semantic search
+🔄 **State Rights Collection** - In progress for all 52 jurisdictions
 
-## 📊 **v0.11.1 DATABASE SUMMARY**
+## 📊 **v0.12 DATABASE SUMMARY**
 
-### **✅ Layer 2 Structured Metadata: 52/52 (100%)**
-- **Federal + 50 States + DC** - Complete structured jurisdiction data
-- **Response timelines** with business/calendar day specifications
-- **Fee structures** including search, copy, electronic delivery, and waivers
-- **Exemption categories** with legal citations and scope classifications
-- **Appeal processes** covering administrative and judicial review paths
+### **✅ Core Data (52/52 jurisdictions - 100%)**
+- **Jurisdictions**: Federal + 50 States + DC
+- **Transparency Laws**: Statute citations and metadata
+- **Response Requirements**: Timelines with business/calendar day specs
+- **Fee Structures**: Search, copy, electronic delivery, waivers
+- **Exemptions**: 365 exemptions with legal citations
+- **Appeal Processes**: Administrative and judicial review paths
+
+### **🔄 v0.12 Enhancements (In Progress)**
+- **Rights of Access**: ✅ Federal (15 rights) | 🔄 States (0/51)
+- **Transparency Landscape**: ✅ VIEW deployed
+- **Neon Integration**: ✅ Migration complete
+- **Vector Database**: ✅ Schema ready (v0.13)
 
 ### **✅ Professional Organization**
-- **Consistent naming conventions** across all files
-- **Logical directory structure** for scalability
-- **Comprehensive documentation** and coordination
-- **Cross-repository tracking** system established
+- **Neon PostgreSQL** - Production database (AWS us-east-1)
+- **Vercel Deployment** - Integrated with THEHOLETRUTH.ORG
+- **Stack Auth** - Unified authentication across platforms
+- **Comprehensive Documentation** - Migration guides and workflows
 
 ## 🗂️ **Repository Structure**
 
@@ -55,10 +64,9 @@ us-transparency-laws-database/
 │   ├── metadata/                            # Tracking table ✅
 │   └── README.md                            # Release documentation
 │
-├── supabase/                                # 🚀 SUPABASE INTEGRATION ✅ DEPLOYED
-│   ├── migrations/                          # 7 migrations applied successfully
-│   ├── functions/                           # Edge Functions (ready for auth)
-│   └── config.toml                          # Supabase configuration
+├── supabase/                                # 🗄️ DATABASE MIGRATIONS (Neon PostgreSQL)
+│   ├── migrations/                          # 9 migrations applied (v0.11 + v0.12 + v0.13)
+│   └── config.toml                          # Legacy Supabase config (archived)
 │
 ├── future/                                  # 🔮 FUTURE ENHANCEMENTS
 │   ├── v0.12/                               # Rights of Access + Agency data
@@ -84,9 +92,9 @@ us-transparency-laws-database/
 └── README.md                                # Main project README
 ```
 
-## 📋 **What's Included in v0.11.1**
+## 📋 **What's Included in v0.12**
 
-### **Supabase Database (10 Core Tables + 1 View)**
+### **Neon PostgreSQL Database (11 Core Tables + 2 Views)**
 Complete PostgreSQL deployment with:
 - **`jurisdictions`** (52 records) - Federal + 50 States + DC
 - **`transparency_laws`** (52 records) - Statute details and citations
@@ -97,7 +105,8 @@ Complete PostgreSQL deployment with:
 - **`requester_requirements`** (52 records) - Identity, residency, eligibility
 - **`agency_obligations`** (52 records) - Agency responsibilities
 - **`oversight_bodies`** (38 records) - Enforcement and oversight
-- **`agencies`** (0 records) - Deferred to v0.12
+- **`agencies`** (0 records) - Deferred to future version
+- **`rights_of_access`** (15 records) - ✅ Federal FOIA rights | 🔄 State rights in progress
 
 ### **🚧 v0.12 Development: Rights of Access Table**
 New feature in development to complement exemptions:
