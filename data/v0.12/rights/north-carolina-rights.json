@@ -1,0 +1,180 @@
+{
+  "jurisdiction": {
+    "slug": "north_carolina",
+    "name": "North Carolina"
+  },
+  "rights_of_access": [
+    {
+      "category": "Proactive Disclosure",
+      "subcategory": "Public Records Are Property of the People",
+      "statute_citation": "N.C. Gen. Stat. § 132-1",
+      "description": "Public records and information compiled by North Carolina government agencies are the property of the people. The law establishes that people may obtain copies of their public records free or at minimal cost.",
+      "conditions": "Applies to all government agencies in North Carolina",
+      "applies_to": "General public",
+      "implementation_notes": "This foundational principle establishes public ownership of government records. Agencies are stewards, not owners.",
+      "request_tips": "Cite N.C. Gen. Stat. § 132-1: 'Public records are the property of the people. I have a right to obtain copies free or at minimal cost.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Prompt Response Required",
+      "statute_citation": "N.C. Gen. Stat. § 132-6",
+      "description": "Custodians must respond to requests as promptly as possible. If the request is granted, copies shall be provided as soon as reasonably possible.",
+      "conditions": "No specific deadline, but must be prompt and reasonable",
+      "applies_to": "All requesters",
+      "implementation_notes": "While no exact timeframe is specified, unreasonable delays violate the law. Courts have found that 'promptly' and 'reasonably' mean without unnecessary delay.",
+      "request_tips": "If response is delayed, send follow-up: 'N.C. Gen. Stat. § 132-6 requires you to respond as promptly as possible. Please provide the records or explain the specific reason for any delay.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Minimal Cost Standard",
+      "statute_citation": "N.C. Gen. Stat. § 132-6.2",
+      "description": "Public records must be provided free or at minimal cost unless otherwise specifically provided by law. 'Minimal cost' means the actual cost of reproducing the record.",
+      "conditions": "Fees limited to actual reproduction costs",
+      "applies_to": "All requesters",
+      "implementation_notes": "The minimal cost standard is protective of requesters. Agencies cannot charge more than actual costs and cannot charge for staff time in most cases.",
+      "request_tips": "Challenge excessive fees by citing N.C. Gen. Stat. § 132-6.2: 'The law requires minimal cost, defined as actual cost of reproduction. Please provide an itemized breakdown showing actual costs only.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "No Fee for Separating Confidential Records",
+      "statute_citation": "N.C. Gen. Stat. § 132-6.2",
+      "description": "If an agency must separate confidential from nonconfidential information, the agency shall bear the cost. No public agency may assess an extra fee for identifying confidential records to be withheld and producing those that are not confidential.",
+      "conditions": "Mandatory - agencies cannot charge for redaction or review",
+      "applies_to": "All requesters",
+      "implementation_notes": "This is a powerful protection. Even if extensive redaction is needed, the agency cannot charge for that work.",
+      "request_tips": "If charged for redaction, object: 'Under N.C. Gen. Stat. § 132-6.2, you must bear the cost of separating confidential from public information. Remove all charges for review, redaction, or identifying records to withhold.'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Choice of Medium",
+      "statute_citation": "N.C. Gen. Stat. § 132-6.2(b)",
+      "description": "Requesters may elect to obtain records in any and all media in which the agency is capable of providing them. Requests for copies in a particular medium cannot be denied on grounds that the custodian prefers another medium.",
+      "conditions": "Agency must provide in requested medium if capable",
+      "applies_to": "All requesters",
+      "implementation_notes": "This gives requesters control over format. If the agency can produce in the requested medium, they must honor that request.",
+      "request_tips": "Request: 'I elect to receive records in electronic format per N.C. Gen. Stat. § 132-6.2(b). You may not deny this request on grounds that you prefer to provide paper copies.'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "No Requirement to Create Electronic Records",
+      "statute_citation": "N.C. Gen. Stat. § 132-6.2(b)",
+      "description": "Agencies are not required to put records into electronic medium if they are not kept electronically. However, if records exist electronically, they must be provided electronically upon request.",
+      "conditions": "Applies to records maintained in electronic form",
+      "applies_to": "All requesters",
+      "implementation_notes": "This clarifies the limit - agencies don't have to scan paper records, but must provide electronic records electronically.",
+      "request_tips": "Ask: 'Are these records maintained electronically? If so, I request them in electronic format per N.C. Gen. Stat. § 132-6.2(b).'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Special Service Charges Must Be Reasonable",
+      "statute_citation": "N.C. Gen. Stat. § 132-6.2(b)",
+      "description": "If a request requires extensive use of IT resources or extensive clerical/supervisory assistance, agencies may charge a special service charge. However, this charge must be reasonable and based on actual cost incurred.",
+      "conditions": "Only when request requires extensive resources; must be reasonable and based on actual cost",
+      "applies_to": "All requesters",
+      "implementation_notes": "Special charges are the exception, not the rule. Agencies must justify that resources are truly extensive, and charges must be actual costs, not arbitrary amounts.",
+      "request_tips": "If a special service charge is proposed, request: 'Please provide detailed documentation showing why this request requires extensive resources and how the proposed charge reflects actual costs incurred per N.C. Gen. Stat. § 132-6.2(b).'"
+    },
+    {
+      "category": "Proactive Disclosure",
+      "subcategory": "Broad Definition of Public Records",
+      "statute_citation": "N.C. Gen. Stat. § 132-1",
+      "description": "Public records include all documents, papers, letters, maps, books, photographs, films, sound recordings, magnetic or other tapes, electronic data-processing records, artifacts, or other documentary material, regardless of physical form or characteristics, made or received in connection with governmental transaction.",
+      "conditions": "Covers all formats and media types",
+      "applies_to": "All requesters",
+      "implementation_notes": "The definition is intentionally broad to encompass new technologies and formats. Emails, texts, and social media on government business are covered.",
+      "request_tips": "If an agency claims something is not a record, cite the broad definition in N.C. Gen. Stat. § 132-1 including 'electronic data-processing records' and 'regardless of physical form or characteristics.'"
+    },
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "No Purpose Statement Required",
+      "statute_citation": "N.C. Gen. Stat. § 132-6",
+      "description": "North Carolina law does not require requesters to state the purpose of their request or explain why they want records. The public records law is requester-blind.",
+      "conditions": "No conditions on purpose or identity",
+      "applies_to": "All requesters",
+      "implementation_notes": "While agencies may ask for contact information to respond, they cannot demand justification for the request.",
+      "request_tips": "If asked why you want records: 'North Carolina law does not require me to state my purpose. The right to access public records does not depend on the requester's reason for seeking them.'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Right to Inspect Records",
+      "statute_citation": "N.C. Gen. Stat. § 132-6",
+      "description": "Every person has a right to inspect and examine public records during regular business hours. This allows requesters to review records before deciding what to copy.",
+      "conditions": "During regular business hours at convenient location",
+      "applies_to": "All requesters",
+      "implementation_notes": "Inspection is free. This is valuable for large record sets where you want to select specific documents to copy.",
+      "request_tips": "Request: 'I wish to exercise my right under N.C. Gen. Stat. § 132-6 to inspect the records during regular business hours before determining which I wish to copy.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Certified Copies Available",
+      "statute_citation": "N.C. Gen. Stat. § 132-6",
+      "description": "Custodians may furnish certified copies of public records upon request. The fee for certification may be charged in addition to copying costs.",
+      "conditions": "Certification is optional; additional fee allowed for certification",
+      "applies_to": "Requesters needing certified copies",
+      "implementation_notes": "Certified copies may be needed for legal proceedings. The certification fee is in addition to, but distinct from, copying costs.",
+      "request_tips": "If you need certified copies for court or official purposes, request: 'Please provide certified copies per N.C. Gen. Stat. § 132-6. Please inform me of the certification fee separately from copying costs.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Judicial Review Available",
+      "statute_citation": "N.C. Gen. Stat. § 132-9",
+      "description": "Any person denied access to public records may apply to a court for an order compelling disclosure. Courts can order production and award attorney fees in appropriate cases.",
+      "conditions": "Available when access is improperly denied",
+      "applies_to": "All requesters",
+      "implementation_notes": "North Carolina courts have consistently supported broad public access. Attorney fees may be available to prevailing plaintiffs.",
+      "request_tips": "If considering legal action, document all denials. Consult an attorney about seeking a court order under N.C. Gen. Stat. § 132-9 and potential fee recovery."
+    },
+    {
+      "category": "Proactive Disclosure",
+      "subcategory": "Preservation of Public Records",
+      "statute_citation": "N.C. Gen. Stat. § 132-3",
+      "description": "No public official may mutilate, destroy, sell, loan, or otherwise dispose of any public record without proper authorization. This ensures records remain available for public inspection.",
+      "conditions": "Applies to all public officials and employees",
+      "applies_to": "Public (indirect benefit through preservation)",
+      "implementation_notes": "This preservation requirement supports the right of access. Records cannot be destroyed to avoid disclosure.",
+      "request_tips": "If you suspect records have been destroyed, note: 'N.C. Gen. Stat. § 132-3 prohibits destruction of public records without authorization. Please confirm these records were properly retained or provide documentation of authorized disposal.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Access During Regular Business Hours",
+      "statute_citation": "N.C. Gen. Stat. § 132-6",
+      "description": "Public records shall be open to inspection and examination by any person during regular business hours at a convenient place. Agencies must make records reasonably accessible.",
+      "conditions": "During regular business hours; convenient location",
+      "applies_to": "All requesters",
+      "implementation_notes": "Agencies cannot make access unreasonably difficult by requiring visits at inconvenient times or locations. Business hours must be reasonable.",
+      "request_tips": "If access is difficult, request: 'N.C. Gen. Stat. § 132-6 requires access during regular business hours at a convenient place. Please provide access at a reasonable time and location or provide electronic delivery.'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Electronic Records Included",
+      "statute_citation": "N.C. Gen. Stat. § 132-1",
+      "description": "The statutory definition of public records explicitly includes 'electronic data-processing records,' ensuring that digital records receive the same treatment as paper records.",
+      "conditions": "Covers all electronic formats",
+      "applies_to": "All requesters",
+      "implementation_notes": "Emails, database records, and other electronic files are public records subject to disclosure like any other record type.",
+      "request_tips": "For electronic records, cite N.C. Gen. Stat. § 132-1: 'Electronic data-processing records are explicitly defined as public records and must be provided upon request.'"
+    }
+  ],
+  "validation_metadata": {
+    "parsed_date": "2025-10-07",
+    "source_url": "https://www.ncleg.gov/Laws/GeneralStatuteSections/Chapter132",
+    "source_verified": true,
+    "primary_sources": [
+      "North Carolina General Statutes Chapter 132 (ncleg.gov)",
+      "North Carolina Judicial Branch Public Records Information",
+      "Reporters Committee for Freedom of the Press - North Carolina Guide",
+      "UNC School of Government Public Records Resources"
+    ],
+    "verification_notes": "All rights verified against N.C. Gen. Stat. Chapter 132 as of October 2025. North Carolina has strong protections including the 'minimal cost' standard and prohibition on charging for redaction work. The 'property of the people' principle is foundational.",
+    "rights_count": 15,
+    "categories_covered": [
+      "Proactive Disclosure",
+      "Timeliness Rights",
+      "Enhanced Access Rights",
+      "Technology Rights",
+      "Requester-Specific Rights",
+      "Inspection Rights",
+      "Appeal Rights"
+    ]
+  }
+}
