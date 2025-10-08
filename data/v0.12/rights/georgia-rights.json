@@ -1,0 +1,199 @@
+{
+  "jurisdiction": {
+    "slug": "georgia",
+    "name": "Georgia"
+  },
+  "rights_of_access": [
+    {
+      "category": "Proactive Disclosure",
+      "subcategory": "Strong Presumption of Openness",
+      "statute_citation": "O.C.G.A. § 50-18-70(a)",
+      "description": "Georgia law establishes a strong presumption that all public records shall be made available for public inspection without delay. The statute declares that 'open government is essential to a free, open, and democratic society' and must be broadly construed to allow inspection of governmental records.",
+      "conditions": "Applies to all public records unless specifically exempted by statute or court order",
+      "applies_to": "General public",
+      "implementation_notes": "Exemptions must be interpreted narrowly in favor of disclosure. The burden is on the agency to justify any withholding.",
+      "request_tips": "Cite O.C.G.A. § 50-18-70(a) to emphasize the strong presumption of openness. Remind agencies that exemptions are to be narrowly construed and the Act must be broadly construed in favor of access."
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Three Business Day Response",
+      "statute_citation": "O.C.G.A. § 50-18-71(b)",
+      "description": "Agencies must respond to open records requests within three business days following receipt. The response must either produce the records, provide a description of responsive records with a timeline for availability, or deny the request with specific justification.",
+      "conditions": "Three business days from receipt of request by custodian",
+      "applies_to": "All requesters",
+      "implementation_notes": "If records exist but are not immediately available, the agency must describe them and provide a reasonable timeline for production within the three-day window.",
+      "request_tips": "Mark your calendar for three business days after your request is received. If no response by then, send a follow-up citing O.C.G.A. § 50-18-71(b) and noting the statutory deadline has passed."
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Electronic Format Choice",
+      "statute_citation": "O.C.G.A. § 50-18-71(f)",
+      "description": "Requesters have the right to receive records in electronic format if the agency maintains them electronically. Agencies must provide records in the format they are kept, in a standard export format (such as ASCII), or as printouts. Agencies cannot refuse electronic production on grounds that exporting would require entering search terms.",
+      "conditions": "Applies when records are maintained electronically; agency must have existing programs capable of producing the requested format",
+      "applies_to": "All requesters",
+      "implementation_notes": "Agencies may direct requesters to a website where records are posted or provide electronic downloads. The agency cannot claim burden if the export function already exists.",
+      "request_tips": "Request: 'I request responsive records in electronic format as maintained by the agency, or in a standard export format such as CSV, Excel, or PDF. Under O.C.G.A. § 50-18-71(f), the agency may not refuse electronic production if existing programs can handle this request.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Fee Limitations - First Quarter Hour Free",
+      "statute_citation": "O.C.G.A. § 50-18-71(c)(1)",
+      "description": "Agencies may not charge for the first quarter hour (15 minutes) of search, retrieval, and redaction time. This ensures minimal requests can be fulfilled at no cost to the requester.",
+      "conditions": "Applies to all requests; first 15 minutes of labor is free",
+      "applies_to": "All requesters",
+      "implementation_notes": "If an agency claims the search will take exactly 16 minutes, question whether this is accurate or if they're trying to impose fees.",
+      "request_tips": "If you receive a fee estimate, verify that the agency is not charging for the first 15 minutes of search and retrieval time as required by O.C.G.A. § 50-18-71(c)(1)."
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Fee Cap - 10 Cents Per Page",
+      "statute_citation": "O.C.G.A. § 50-18-71(c)(2)",
+      "description": "Paper copies are capped at 10 cents per page. For electronic records, agencies may only charge the actual cost of the media (CD, flash drive) used to provide the records.",
+      "conditions": "Statutory maximum for paper copies; electronic media at actual cost only",
+      "applies_to": "All requesters",
+      "implementation_notes": "Many agencies incorrectly charge more than 10 cents per page or add 'administrative fees' beyond the statutory cap. These charges are not authorized.",
+      "request_tips": "If charged more than 10 cents per page, object and cite O.C.G.A. § 50-18-71(c)(2). For electronic records, request records via email or download to avoid media costs entirely."
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Most Economical Means Requirement",
+      "statute_citation": "O.C.G.A. § 50-18-71(c)",
+      "description": "Agencies must utilize 'the most economical means reasonably calculated to identify and produce responsive, nonexcluded documents.' Agencies cannot inflate costs or use inefficient methods to discourage requests.",
+      "conditions": "Applies to all fee determinations",
+      "applies_to": "All requesters",
+      "implementation_notes": "If an agency quotes a high fee, ask them to explain how their method is the 'most economical.' Consider suggesting alternative methods that would be less costly.",
+      "request_tips": "If fees seem excessive, challenge them under O.C.G.A. § 50-18-71(c) by stating: 'Please explain how your estimated cost represents the most economical means of production as required by statute. I suggest [alternative method] which would be more cost-effective.'"
+    },
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "No Purpose Statement Required",
+      "statute_citation": "O.C.G.A. § 50-18-70",
+      "description": "Requesters are not required to state the purpose of their request or explain why they want the records. Georgia's Open Records Act is requester-blind and does not condition access on the requester's identity or motivation.",
+      "conditions": "No conditions - purpose statement is not required or relevant",
+      "applies_to": "All requesters",
+      "implementation_notes": "Some agencies improperly demand to know why records are sought. This is not authorized by law and should be refused.",
+      "request_tips": "If an agency asks for your purpose, respond: 'Under Georgia's Open Records Act, I am not required to state the purpose of my request. The Act is requester-blind and my reason for seeking records is not relevant to your obligation to produce them.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Fee Estimate Notification",
+      "statute_citation": "O.C.G.A. § 50-18-71(d)",
+      "description": "If the estimated cost to fulfill a request exceeds $25, the agency must notify the requester within three business days and allow the requester to modify or withdraw the request before incurring costs.",
+      "conditions": "Notification required when estimated costs exceed $25",
+      "applies_to": "All requesters",
+      "implementation_notes": "This protects requesters from surprise fees. The agency must provide the estimate promptly so the requester can decide whether to proceed, narrow the request, or withdraw it.",
+      "request_tips": "If you receive a high fee estimate, you have the right to modify your request to reduce costs. Ask: 'Can you suggest ways to narrow this request to bring the cost below $25?' or 'Please provide a detailed breakdown of your fee estimate.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Prepayment Threshold - $500",
+      "statute_citation": "O.C.G.A. § 50-18-71(c)",
+      "description": "Agencies may require prepayment only if the estimated cost exceeds $500. For requests under $500, agencies must produce records first and invoice the requester afterward.",
+      "conditions": "Prepayment allowed only when estimated cost exceeds $500",
+      "applies_to": "All requesters",
+      "implementation_notes": "Many agencies improperly demand prepayment for smaller amounts. Georgia law protects requesters from having to pay upfront unless costs are substantial.",
+      "request_tips": "If an agency demands prepayment for an amount under $500, cite O.C.G.A. § 50-18-71(c) and state: 'Prepayment is only authorized when estimated costs exceed $500. Please produce the records and invoice me afterward.'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Website Access as Alternative",
+      "statute_citation": "O.C.G.A. § 50-18-71(f)",
+      "description": "Instead of producing copies, agencies may direct requesters to a publicly accessible website where the records are posted. This allows for efficient electronic access without duplication costs.",
+      "conditions": "Website must be publicly accessible; records must be readily locatable",
+      "applies_to": "All requesters",
+      "implementation_notes": "If directed to a website, verify that the specific records you requested are actually available there. If not, the agency must still produce them.",
+      "request_tips": "If directed to a website, confirm the exact URL and verify the records are present. If they're not, respond: 'The records I requested are not available at the URL provided. Under O.C.G.A. § 50-18-71, you must produce responsive records that are not already publicly accessible.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Attorney General Enforcement",
+      "statute_citation": "O.C.G.A. § 50-18-73(a)",
+      "description": "The Attorney General has authority to bring enforcement actions to compel agency compliance with the Open Records Act. Requesters can file complaints with the AG's office for assistance with noncompliant agencies.",
+      "conditions": "Available when agency violates the Act",
+      "applies_to": "All requesters",
+      "implementation_notes": "The AG's Open Government Hotline can be contacted for assistance: (404) 458-3000. While the AG cannot represent private individuals, they can investigate and take action against agencies.",
+      "request_tips": "If an agency refuses to comply, contact the AG's Open Government office at (404) 458-3000 or via their website. Provide details of the request, the agency's response, and why you believe the denial violates the law."
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Private Right of Action",
+      "statute_citation": "O.C.G.A. § 50-18-73",
+      "description": "Private citizens may file lawsuits in superior court to enforce the Open Records Act. Courts can order agencies to produce records and may award attorney fees to prevailing plaintiffs.",
+      "conditions": "Must exhaust administrative remedies (if any) before filing suit",
+      "applies_to": "All requesters",
+      "implementation_notes": "Georgia courts have held that the Open Records Act is remedial legislation and should be liberally construed in favor of disclosure. Successful plaintiffs can recover attorney fees and litigation costs.",
+      "request_tips": "If considering litigation, document all communications with the agency. Courts look favorably on requesters who made good faith efforts to obtain records before suing. Consult an attorney about potential fee recovery."
+    },
+    {
+      "category": "Proactive Disclosure",
+      "subcategory": "Narrow Interpretation of Exemptions",
+      "statute_citation": "O.C.G.A. § 50-18-70(a)",
+      "description": "The Open Records Act requires that exemptions be interpreted narrowly. If there is any doubt about whether an exemption applies, the presumption is in favor of disclosure.",
+      "conditions": "Applies whenever an agency claims an exemption",
+      "applies_to": "All requesters",
+      "implementation_notes": "Agencies often broadly interpret exemptions to withhold more than necessary. Georgia law requires the opposite: exemptions must be strictly and narrowly construed.",
+      "request_tips": "When an agency claims an exemption, challenge it by stating: 'Under O.C.G.A. § 50-18-70(a), exemptions must be narrowly interpreted and the Act must be broadly construed to allow inspection. Please explain specifically how this exemption applies and why no reasonably segregable portions can be disclosed.'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Right to Inspect Before Copying",
+      "statute_citation": "O.C.G.A. § 50-18-71(a)",
+      "description": "Requesters have the right to inspect public records before deciding which records to copy. This allows requesters to review voluminous records and select only what they need, minimizing copying costs.",
+      "conditions": "Inspection must be allowed during regular business hours; agency may require supervision",
+      "applies_to": "All requesters",
+      "implementation_notes": "Agencies must make records available for inspection in a manner that does not unreasonably interfere with their operations. Bringing a phone or camera to photograph records during inspection may be permitted.",
+      "request_tips": "Include in your request: 'I request the opportunity to inspect responsive records in person before determining which records I wish to receive in copy form. This will minimize costs for both parties. Please advise when the records will be available for inspection.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Same-Day Access for Simple Requests",
+      "statute_citation": "O.C.G.A. § 50-18-70(a) (policy of access 'without delay')",
+      "description": "While agencies have three business days to respond, the Act's policy of access 'without delay' means simple requests for readily available records should be fulfilled immediately or within hours, not days.",
+      "conditions": "Applies to routine requests for existing, readily accessible records",
+      "applies_to": "All requesters",
+      "implementation_notes": "For requests like 'a copy of my business license' or 'the approved meeting minutes from last month,' agencies should not take three days. The law expects prompt access for simple matters.",
+      "request_tips": "For simple requests, include: 'This is a routine request for readily accessible records. Under the policy of access without delay per O.C.G.A. § 50-18-70(a), I expect these records to be available immediately or within a few hours, not the full three business days.'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "No Additional Fee for Email Delivery",
+      "statute_citation": "O.C.G.A. § 50-18-71(c) (actual cost only)",
+      "description": "Agencies may not charge a 'delivery fee' or 'electronic transmission fee' for emailing records. Electronic transmission costs essentially zero and are considered part of the agency's normal operations.",
+      "conditions": "Applies to records delivered via email or download",
+      "applies_to": "All requesters",
+      "implementation_notes": "Some agencies try to charge for 'staff time' to email records. This is not authorized. The statute only allows charges for search, retrieval, redaction, copying, and actual media costs.",
+      "request_tips": "Request records via email and note: 'Please provide records electronically via email. Under O.C.G.A. § 50-18-71(c), there is no cost for electronic transmission, as agencies may only charge actual costs and email delivery is cost-free.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Partial Production Allowed",
+      "statute_citation": "O.C.G.A. § 50-18-71(b)",
+      "description": "If some responsive records are immediately available while others require more time, agencies should produce the available records without delay while continuing to search for the remainder. Requesters are entitled to rolling or partial production.",
+      "conditions": "Applies when records are located at different times",
+      "applies_to": "All requesters",
+      "implementation_notes": "Agencies sometimes hold all records until the search is complete. Georgia's policy of access without delay supports partial, rolling production as records become available.",
+      "request_tips": "If an agency says some records will take time to locate, request: 'Please produce the records you have located immediately while continuing to search for the others. The Act's policy of access without delay supports rolling production as records become available.'"
+    }
+  ],
+  "validation_metadata": {
+    "parsed_date": "2025-10-07",
+    "source_url": "https://law.georgia.gov/key-issues/open-government/law",
+    "source_verified": true,
+    "primary_sources": [
+      "Official Code of Georgia Annotated (O.C.G.A.) § 50-18-70 through 50-18-77",
+      "Georgia Attorney General's Office Open Government resources (law.georgia.gov)",
+      "Reporters Committee for Freedom of the Press - Georgia Guide (rcfp.org)"
+    ],
+    "verification_notes": "All rights verified against O.C.G.A. Title 50, Chapter 18, Article 4 as of October 2025. Cross-referenced with Georgia Attorney General guidance and RCFP Open Government Guide. Georgia has strong proactive disclosure policies and requester-friendly fee limitations.",
+    "rights_count": 17,
+    "categories_covered": [
+      "Proactive Disclosure",
+      "Timeliness Rights",
+      "Technology Rights",
+      "Enhanced Access Rights",
+      "Requester-Specific Rights",
+      "Appeal Rights",
+      "Inspection Rights"
+    ]
+  }
+}
