@@ -20,13 +20,34 @@ This applies to all markdown files, documentation, reports, schemas, and any oth
 
 ## Project Overview
 
-This repository is a comprehensive database of US transparency laws (FOIA and public records laws) for all 52 jurisdictions (50 states + DC + Federal).
+This repository is a comprehensive database of US transparency laws (FOIA and public records laws) for all US jurisdictions, including states, territories, and federal government.
 
 **Current Status**:
-- **v0.11.1**: PRODUCTION READY - Supabase database deployed with 52 jurisdictions, 365 exemptions
-- **v0.12**: IN DEVELOPMENT - Rights of Access table to complement exemptions
+- **v0.11.1**: PRODUCTION READY - Supabase database deployed with 52 jurisdictions (50 states + DC + Federal), 365 exemptions
+- **v0.12**: IN DEVELOPMENT - Territory Expansion + Rights of Access
+  - **Territory Coverage**: Expanding to 56+ jurisdictions by adding US territories (Puerto Rico, Guam, US Virgin Islands, Northern Mariana Islands, American Samoa)
+  - **Rights of Access**: Complementary table to exemptions, documenting affirmative transparency rights
+  - **Research Status**: 5 territories under investigation; ~90-117 hours estimated research needed
 
-**Critical**: This database serves as ground truth for AI training. **100% accuracy is mandatory**. All data must be verified from official government sources only (state legislature websites, official state code databases, official AG offices, official agency .gov sites).
+**Critical**: This database serves as ground truth for AI training. **100% accuracy is mandatory**. All data must be verified from official government sources only (state/territory legislature websites, official code databases, official AG offices, official agency .gov sites).
+
+### v0.12 Territory Expansion Overview
+
+**Why Territories Matter**: 5.4 million US residents live in territories with distinct legal frameworks for accessing government records. Federal FOIA covers federal agencies only—not territorial governments. This creates a **two-tier transparency system** where territorial residents depend entirely on local FOIA statutes.
+
+**Territory FOIA Status**:
+- ✅ **3 territories with confirmed laws**: Puerto Rico (Act 141-2019), Guam (Sunshine Reform Act 1999), US Virgin Islands (Public Records Act)
+- ❌ **2 territories unconfirmed**: Northern Mariana Islands and American Samoa require critical research
+- 🔴 **Transparency gap identified**: Territories without local FOIA leave ~96,000 residents with no guaranteed access rights
+
+**Research Priorities**:
+1. 🔴 **CRITICAL**: CNMI comprehensive code search and AG inquiry (22-28 hours)
+2. 🔴 **CRITICAL**: American Samoa cultural research and code search (28-35 hours) - requires fa'a Samoa cultural competency
+3. 🔴 **HIGH**: Puerto Rico bilingual statutory text (Spanish + English) (18-24 hours)
+4. 🔴 **HIGH**: Guam full statutory analysis (12-16 hours)
+5. 🟡 **MEDIUM**: USVI implementing regulations research (10-14 hours)
+
+**Documentation**: See `documentation/V0.12_TERRITORY_EXPANSION_RESEARCH_MEMO.md` for comprehensive findings.
 
 ## Repository Structure
 
@@ -40,12 +61,27 @@ us-transparency-laws-database/
 ├── data/
 │   ├── federal/                       # Federal FOIA data (jurisdiction-data.json, templates.json)
 │   ├── states/                        # 50 state directories, each with jurisdiction-data.json
+│   ├── territories/                   # NEW v0.12: 5 territory directories
+│   │   ├── puerto-rico/               # Bilingual jurisdiction (Spanish + English)
+│   │   ├── guam/                      # Hybrid FOIA/sunshine statute
+│   │   ├── us-virgin-islands/         # Brief statute (4 sections)
+│   │   ├── northern-mariana-islands/  # Research critical - FOIA status unconfirmed
+│   │   └── american-samoa/            # Research critical - fa'a Samoa cultural context
 │   └── consolidated/                  # Master database and tracking table
+│       └── master_tracking_table-v0.12.json  # NEW: Updated with territories
 ├── consolidated-transparency-data/
 │   ├── verified-process-maps/         # Jurisdiction-specific process maps
 │   └── statutory-text-files/          # Full statutory text (currently empty)
 ├── documentation/                      # Validation methodology, verification guides
+│   ├── V0.12_TERRITORY_EXPANSION_RESEARCH_MEMO.md  # NEW: Comprehensive territory research
+│   └── VALIDATION_METHODOLOGY.md
 ├── statutory-data/                     # Ground truth data organized by version
+│   └── v0.12/                         # NEW: Territory statutory text files
+│       ├── puerto-rico/               # Spanish + English statutory text
+│       ├── guam/
+│       ├── us-virgin-islands/
+│       ├── northern-mariana-islands/  # Transparency gap documentation if no statute
+│       └── american-samoa/            # Transparency gap + cultural context
 ├── schemas/                           # Data validation schemas (currently empty)
 └── scripts/                           # Migration scripts (Python and shell)
 ```
@@ -166,8 +202,33 @@ ORDER BY jurisdiction_name;
 - All legal citations must be verified from official sources
 - Response timelines must distinguish between business days and calendar days
 - Fee structures must reflect exact statutory language
-- All URLs must link directly to official .gov sites
+- All URLs must link directly to official .gov sites (or territory equivalents: .gov.pr, .gov.gu, .gov.vi, .gov.mp, .gov.as)
 - Validation metadata must document verification date and primary sources
+
+### Territory-Specific Validation (v0.12):
+
+**Puerto Rico Bilingual Requirements**:
+- Obtain both Spanish (authoritative) and English statutory text
+- UTF-8 encoding for Spanish characters (á, é, í, ó, ú, ñ, ü)
+- Native Spanish speaker verification required
+- Source: LexJuris.com (https://www.lexjuris.com/) for official legal database
+- OGPE (https://ogpe.pr.gov/) for English translations
+
+**American Samoa Cultural Competency**:
+- Fa'a Samoa traditional governance context required
+- Cultural expert consultation mandatory
+- Avoid imposing inappropriate Western legal frameworks
+- Document both formal and informal access mechanisms
+- US nationals (not citizens) - note citizenship status
+- Source: Pacific Islands Legal Information Institute (https://www.paclii.org/)
+
+**Transparency Gap Documentation** (CNMI, American Samoa if applicable):
+- Confirm absence of FOIA through systematic code search
+- Contact Attorney General for official guidance
+- Research common law access rights
+- Document federal FOIA coverage boundaries
+- Explain democratic accountability implications
+- Include legislative advocacy recommendations
 
 ## Working with This Repository
 
@@ -250,8 +311,16 @@ ORDER BY count DESC;
 ### Version Naming Convention
 
 - **v0.11.0**: JSON data release (52 jurisdictions, process maps) - **COMPLETE**
-- **v0.11.1**: Supabase integration with flexible schema - **CURRENT VERSION**
-- **v0.12.0+**: Agency data, templates, AI training (future)
+- **v0.11.1**: Supabase integration with flexible schema - **PRODUCTION**
+- **v0.12.0**: Territory Expansion + Rights of Access - **IN DEVELOPMENT**
+  - Adds 5 US territories (Puerto Rico, Guam, USVI, CNMI, American Samoa)
+  - Expands from 52 to 56+ jurisdictions
+  - Bilingual support (Spanish/English for Puerto Rico)
+  - Cultural context documentation (fa'a Samoa for American Samoa)
+  - Transparency gap identification and advocacy
+  - Rights of Access table population
+  - Estimated completion: 12-14 weeks from research start
+- **v0.13.0+**: Tribal nations, implementation effectiveness (future)
 
 ## Integration Points
 
