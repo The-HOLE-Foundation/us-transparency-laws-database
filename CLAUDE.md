@@ -717,6 +717,69 @@ Weekly review of:
 
 ---
 
+## Autonomous Work Mode
+
+### Activation
+
+When user uses ANY of these phrases:
+- "continue until complete"
+- "work all night"
+- "don't stop until done"
+- "finish everything"
+- "complete all tasks"
+- "do them all"
+- "work autonomously"
+- "keep going"
+
+**→ AUTONOMOUS MODE IS ACTIVATED**
+
+A hook will inject a reminder, but you must follow these rules regardless.
+
+### Autonomous Mode Rules
+
+**✅ DO:**
+- Work through entire task list without stopping
+- Mark tasks complete using TodoWrite as you go
+- Move IMMEDIATELY to next task after completing previous
+- Log brief progress updates ("✅ X done, moving to Y...")
+- Create comprehensive final report at END
+- Make reasonable assumptions when guidance exists in CLAUDE.md
+
+**❌ DON'T:**
+- Ask "want me to continue?" between tasks
+- Ask "should I move to next item?"
+- Stop to report interim progress as if waiting for response
+- Wait for approval to proceed to next task
+- Stop after completing just one subtask in a sequence
+
+**⚠️ ONLY STOP IF:**
+- All tasks complete (report results comprehensively)
+- Critical error blocking all progress
+- Genuinely ambiguous requirement with no guidance in documentation
+
+### Progress Reporting Format
+
+**✅ Good (keeps momentum):**
+```
+✅ Federal validation complete (1/4). Moving to California...
+✅ California validation complete (2/4). Moving to Texas...
+```
+
+**❌ Bad (breaks momentum):**
+```
+Federal validation complete. Ready for California?
+I've finished Federal. Should I continue to California?
+```
+
+### Exiting Autonomous Mode
+
+**Auto-exit when:**
+- All tasks in todo list marked complete
+- Critical error requires user decision
+- User sends new message with "stop", "pause", "wait"
+
+---
+
 ## Emergency Procedures
 
 ### If Claude Goes Off Track
