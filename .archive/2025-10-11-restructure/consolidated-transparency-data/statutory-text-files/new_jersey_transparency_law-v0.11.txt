@@ -1,0 +1,127 @@
+NEW JERSEY OPEN PUBLIC RECORDS ACT (OPRA)
+Collection Date: January 9, 2025
+Source: New Jersey Government Records Council (https://www.nj.gov/grc/laws/act/)
+Statute Citation: N.J.S.A. 47:1A-1 et seq.
+
+MAJOR 2024 AMENDMENTS - EFFECTIVE SEPTEMBER 3, 2024
+
+Senate Bill 2930, signed by Governor Phil Murphy in June 2024, significantly amended OPRA with new requirements and restrictions.
+
+LEGISLATIVE PURPOSE
+
+N.J.S.A. 47:1A-1 - Statement of public policy
+a. The Legislature finds and declares it to be the public policy of this State that government records shall be readily accessible for inspection, copying, or examination by the citizens of this State, with certain exceptions, for the protection of the public interest, and any limitations on the right of access accorded by this act or any other law of this State shall be construed in favor of the public's right of access.
+
+REQUEST PROCEDURES
+
+N.J.S.A. 47:1A-5 - Procedures for requesting records
+a. All requests for access to a government record shall be in writing and shall be presented to the custodian of the record.
+
+b. The requestor shall provide the name, address, and telephone number of the person requesting the record and the purpose for which the record is sought.
+
+c. A custodian shall disclose portions of a record which are not exempt under this act.
+
+RESPONSE REQUIREMENTS (2024 AMENDMENTS)
+
+N.J.S.A. 47:1A-5 - Response timeframes
+- Standard requests: 7 business days
+- Commercial use requests: 14 business days (as of 2024)
+- Must provide written response even if denying
+
+NEW REQUIREMENTS UNDER 2024 AMENDMENTS:
+
+1. CERTIFICATION REQUIREMENT:
+Requestors must certify whether the request is connected to any legal proceeding.
+
+2. ENHANCED SPECIFICITY FOR EMAIL/CORRESPONDENCE:
+Requests for emails or correspondence must include:
+- Discrete and limited time period
+- Specific subject matter
+- Government employee names and/or titles
+
+3. WEBSITE POSTING REQUIREMENT:
+Public agencies must keep records on publicly available website "to the extent feasible" with search functionality.
+
+4. LITIGATION RESTRICTION:
+Parties to legal proceedings cannot request records that are subject to court orders or pending discovery.
+
+EXEMPTIONS FROM DISCLOSURE
+
+N.J.S.A. 47:1A-1.1 - Exempt records include:
+- Personal identifying information (enhanced under 2024 amendments)
+- Criminal investigatory records
+- Trade secrets and proprietary information
+- Attorney-client privileged communications
+- Security-related information
+- Personnel records (with exceptions)
+- Records protected by Daniel's Law (addresses/phone numbers of covered persons)
+
+REDACTION REQUIREMENTS (2024 AMENDMENTS):
+All documents must be redacted to remove personal information of government officials per Daniel's Law.
+
+APPEALS PROCESS
+
+N.J.S.A. 47:1A-6 - Denial of access
+Any person denied access to a government record may:
+
+1. Institute a proceeding to challenge the custodian's decision by filing an action in Superior Court
+2. File a complaint with the Government Records Council (GRC)
+
+GOVERNMENT RECORDS COUNCIL PROCESS:
+- Mediation services available
+- If mediation fails, formal investigation conducted
+- Decision issued within prescribed timeframes
+- Decisions appealable to Appellate Division
+
+ATTORNEY'S FEES (MODIFIED IN 2024):
+
+N.J.S.A. 47:1A-6 - Attorney's fees
+Under 2024 amendments, prevailing requestor entitled to attorney's fees only if public agency:
+- Unreasonably denied access
+- Acted in bad faith
+- Knowingly and willfully violated OPRA
+
+EXCEPTION: If agency provides records within 7 days of being served with lawsuit, attorney's fees only if agency "knew or should have known" denial violated OPRA.
+
+PENALTIES
+
+N.J.S.A. 47:1A-11 - Penalties
+- Public agencies: $1,000-$5,000 civil penalties for knowing violations
+- Requestors: Penalties for misrepresenting request purposes
+
+FEES
+
+N.J.S.A. 47:1A-5 - Fees for copies
+- First 10 pages: No charge
+- Additional pages: Actual cost of duplication
+- Special service charges permitted for large requests
+- Electronic records: Actual cost only
+
+KEY 2024 CHANGES SUMMARY:
+
+1. Enhanced Privacy Protection: Stronger redaction requirements for personal information
+2. Litigation Restrictions: Cannot use OPRA during pending legal proceedings
+3. Specificity Requirements: More detailed requirements for email/correspondence requests
+4. Website Requirements: Agencies must post records online when feasible
+5. Modified Attorney's Fees: Higher burden for recovering attorney's fees
+6. Commercial Request Timeline: Extended to 14 business days
+
+GOVERNMENT RECORDS COUNCIL CONTACT:
+101 South Broad Street, PO Box 819
+Trenton, NJ 08625-0819
+Phone: (609) 292-6830
+Fax: (609) 633-6337
+Email: grc@dca.nj.gov
+
+RESPONSE TIMEFRAMES:
+- Standard requests: 7 business days
+- Commercial requests: 14 business days
+- GRC complaints: File within 45 days of denial
+- Appeals to court: Within 45 days of denial
+
+ENFORCEMENT:
+- Government Records Council mediation and investigation
+- Superior Court jurisdiction for enforcement actions
+- Appellate Division review of GRC decisions
+- Civil penalties for knowing violations
+- Attorney's fees for qualifying prevailing requestors (with 2024 restrictions)

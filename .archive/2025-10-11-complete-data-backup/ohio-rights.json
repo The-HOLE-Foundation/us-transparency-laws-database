@@ -1,0 +1,97 @@
+{
+  "jurisdiction": {
+    "name": "Ohio",
+    "slug": "ohio",
+    "type": "state",
+    "transparency_law": "Ohio Public Records Act"
+  },
+  "validation_metadata": {
+    "parsed_date": "2025-10-10",
+    "source_url": "https://codes.ohio.gov/ohio-revised-code/section-149.43",
+    "verified_by": "Claude Code AI Assistant",
+    "verification_method": "Direct review of ORC 149.43",
+    "statutory_text_file": "OHIO_transparency_law-v0.11.txt"
+  },
+  "rights_of_access": [
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Prompt Preparation and Availability",
+      "statute_citation": "ORC 149.43(A)(2)",
+      "description": "Upon request, all public records responsive to the request shall be promptly prepared and made available for inspection to any person at all reasonable times during regular business hours. Copies shall be made available at cost within a reasonable period of time.",
+      "conditions": "Must be prepared promptly; available at reasonable times during business hours; copies at cost within reasonable period; applies to any person",
+      "applies_to": "All public records in Ohio",
+      "implementation_notes": "No residency requirement - 'any person' includes non-residents; dual obligation to prepare promptly AND make available; reasonable time standard provides flexibility",
+      "request_tips": "Assert: 'ORC 149.43(A)(2) requires you to promptly prepare and make [records] available to any person at reasonable times. Please confirm when I may inspect these records.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "1-Business-Day Acknowledgment",
+      "statute_citation": "ORC 149.43(B)(7)",
+      "description": "Public offices shall acknowledge receipt of request prior to any other response. The acknowledgment shall be made within one business day of receiving the request. For clearly existing public records within custody/control, office shall produce records or state grounds for denial within reasonable period not exceeding days stated in office's policy.",
+      "conditions": "1 business day for acknowledgment; fastest in nation; must acknowledge before substantive response; production timeframe per agency policy but must be reasonable",
+      "applies_to": "All public records requests in Ohio",
+      "implementation_notes": "Nation's fastest acknowledgment requirement; ensures requests processed immediately; reasonable period tied to agency's adopted policy creates transparency",
+      "request_tips": "Follow up immediately: 'ORC 149.43(B)(7) requires acknowledgment within 1 business day. Please confirm receipt of my request submitted [date/time].'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Request Clarification Assistance",
+      "statute_citation": "ORC 149.43(B)(2)",
+      "description": "If requester makes ambiguous or overly broad request or has difficulty making request, the public office shall inform requester of manner in which records are maintained and provide assistance in revising request to facilitate obtaining the public records sought.",
+      "conditions": "Mandatory assistance for ambiguous/broad/difficult requests; must explain record organization; must help revise request; facilitates access rather than denying",
+      "applies_to": "All requests needing clarification",
+      "implementation_notes": "Strong requester support - agencies cannot simply deny ambiguous requests but must actively assist; explains record systems to enable effective requesting",
+      "request_tips": "Request assistance: 'ORC 149.43(B)(2) requires you to assist me in revising this request if ambiguous or overly broad. Please explain how records are maintained and help me refine my request to obtain the information sought.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "No Identity/Use Requirements",
+      "statute_citation": "ORC 149.43(B)(4)",
+      "description": "Unless specifically required by law, no public office or person responsible for public records may limit or condition availability of public records by requiring disclosure of requester's identity or intended use.",
+      "conditions": "Cannot require identity disclosure or use explanation unless specific law requires; prevents discrimination based on requester or purpose",
+      "applies_to": "All public records requests in Ohio",
+      "implementation_notes": "Strong anonymity protection; prevents agencies from treating requesters differently based on who they are or why they want records",
+      "request_tips": "Assert anonymity: 'ORC 149.43(B)(4) prohibits you from requiring disclosure of my identity or intended use unless specifically required by law. Please process this request without such requirements.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Optional Written Request / Optional Identity Disclosure",
+      "statute_citation": "ORC 149.43(B)(5)",
+      "description": "Public office may ask requester to make request in writing and may ask for requester's identity and intended use, but only after disclosing that written request is not mandatory and requester not required to reveal identity or intended use.",
+      "conditions": "May request written form/identity/use ONLY after disclosing these are optional; requester controls whether to provide; must explain when disclosure would benefit requester",
+      "applies_to": "Agency requests for information from requesters",
+      "implementation_notes": "Protects requester choice - agencies can ask but must first explain it's voluntary; can only ask when it would help requester (e.g., to locate records better)",
+      "request_tips": "Assert voluntary nature: 'If you ask for written request or my identity/use, ORC 149.43(B)(5) requires you to first disclose these are not mandatory and explain how providing them would benefit me in obtaining records.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Denial Explanation Requirement",
+      "statute_citation": "ORC 149.43(B)(3), (B)(6)",
+      "description": "Any denial of public records must be accompanied by an explanation, including legal authority. This applies to all denials whether initial or after clarification.",
+      "conditions": "Must provide written explanation; must cite specific legal authority for denial; applies to all denials",
+      "applies_to": "All record denials in Ohio",
+      "implementation_notes": "Prevents vague denials; requires agencies to justify with specific law; facilitates meaningful challenge to improper denials",
+      "request_tips": "Challenge inadequate denial: 'ORC 149.43(B)(3) and (B)(6) require written explanation with specific legal authority for any denial. Please provide detailed explanation citing exact statutory exemptions.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Mandatory Public Records Policy and Training",
+      "statute_citation": "ORC 149.43(E)",
+      "description": "All elected officials must attend training on public records requirements. All public offices must adopt public records policy for responding to requests, including statement that office will not limit number of requests per person or items per request.",
+      "conditions": "Elected officials must be trained; written policy required; policy must prohibit limiting request numbers or items; ensures institutional compliance",
+      "applies_to": "All Ohio public offices",
+      "implementation_notes": "Systematic compliance infrastructure - training ensures knowledge, policy ensures procedures, anti-limitation language prevents harassment defenses",
+      "request_tips": "Reference policy: 'ORC 149.43(E) requires you to adopt a public records policy stating you will not limit number of requests I make. Please provide copy of your adopted policy and confirm compliance.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Mandamus with Statutory Damages",
+      "statute_citation": "ORC 149.43(C)",
+      "description": "Person allegedly aggrieved may commence mandamus action to obtain judgment ordering compliance, awarding court costs and reasonable attorney fees, and if statutory damages requested in written request, fixing damages of $100 per business day (up to $1,000 maximum) from day mandamus filed.",
+      "conditions": "Mandamus available; automatic attorney fees if substantially prevails; statutory damages available if specifically requested in original written request; $100/day up to $1,000 maximum; runs from mandamus filing date",
+      "applies_to": "Public records violations in Ohio",
+      "implementation_notes": "Powerful enforcement - mandatory fees for prevailing party, statutory damages incentivize prompt compliance, must request damages in original request to be eligible",
+      "request_tips": "Include in request: 'I specifically request statutory damages under ORC 149.43(C) for any violation. If I file mandamus and prevail, I am entitled to attorney fees plus $100 per business day in statutory damages up to $1,000 from filing date.'"
+    }
+  ]
+}

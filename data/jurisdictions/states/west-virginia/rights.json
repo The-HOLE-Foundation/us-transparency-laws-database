@@ -1,0 +1,136 @@
+{
+  "jurisdiction_slug": "west-virginia",
+  "jurisdiction_name": "West Virginia",
+  "data_model_version": "v0.12",
+  "last_updated": "2025-10-09",
+  "rights": [
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Mandatory Response Deadline",
+      "statute_citation": "W. Va. Code § 29B-1-3",
+      "description": "Custodian must respond within 5 business days by furnishing copies, advising time/place for inspection, or denying in writing with specific reasons",
+      "conditions": "No exceptions - hard 5 business day deadline",
+      "applies_to": "All public bodies",
+      "implementation_notes": "One of the fastest mandatory response times in the nation",
+      "request_tips": "Track submission date - agency must respond within 5 business days or is in violation"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Search Fee Prohibition",
+      "statute_citation": "W. Va. Code § 29B-1-3",
+      "description": "Public body may NOT charge search or retrieval fee",
+      "conditions": "Absolute prohibition on search fees",
+      "applies_to": "All requesters",
+      "implementation_notes": "UNIQUE: West Virginia is one of few states that completely prohibits search fees",
+      "request_tips": "If charged search/retrieval fees, cite absolute prohibition in statute - only reproduction costs allowed"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Fee Limitations",
+      "statute_citation": "W. Va. Code § 29B-1-3",
+      "description": "May charge reasonable fees for reproduction not to exceed actual cost",
+      "conditions": "Fees cannot exceed actual reproduction cost",
+      "applies_to": "All requesters",
+      "implementation_notes": "Only actual, direct reproduction costs permitted - no markup or overhead",
+      "request_tips": "Challenge any fees exceeding actual reproduction cost; request itemized invoice"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Attorney Fees",
+      "statute_citation": "W. Va. Code § 29B-1-5",
+      "description": "Court may award reasonable attorney fees and costs to substantially prevailing petitioner",
+      "conditions": "Must substantially prevail in mandamus action",
+      "applies_to": "Requesters who successfully litigate",
+      "implementation_notes": "Creates strong disincentive for unlawful denials",
+      "request_tips": "If considering litigation, attorney fees are recoverable if you substantially prevail"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Priority Court Calendar",
+      "statute_citation": "W. Va. Code § 29B-1-5",
+      "description": "Mandamus proceedings given priority on circuit court calendar",
+      "conditions": "Applies to all FOIA mandamus cases",
+      "applies_to": "All requesters filing mandamus actions",
+      "implementation_notes": "Ensures faster judicial resolution than typical civil cases",
+      "request_tips": "FOIA cases receive expedited treatment - not subject to normal court delays"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Civil Penalties",
+      "statute_citation": "W. Va. Code § 29B-1-5",
+      "description": "Willful violation may result in removal from office",
+      "conditions": "Violation must be willful",
+      "applies_to": "Public officials who willfully violate FOIA",
+      "implementation_notes": "Strongest possible penalty - creates powerful deterrent",
+      "request_tips": "If denial appears willful and intentional, this penalty may apply to responsible official"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Criminal Penalties",
+      "statute_citation": "W. Va. Code § 29B-1-5",
+      "description": "Criminal penalties apply for willful destruction of public records",
+      "conditions": "Destruction must be willful",
+      "applies_to": "Public officials who willfully destroy records",
+      "implementation_notes": "Protects records from intentional destruction to avoid disclosure",
+      "request_tips": "If records destroyed after request, criminal penalties may apply"
+    },
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "No Identification or Purpose Required",
+      "statute_citation": "W. Va. Code § 29B-1-3",
+      "description": "No identification or purpose statement required; may be oral or written (written recommended)",
+      "conditions": "Must state with reasonable specificity the information sought",
+      "applies_to": "All requesters",
+      "implementation_notes": "Oral requests accepted but written recommended for documentation",
+      "request_tips": "You do not need to identify yourself or explain why you want records"
+    },
+    {
+      "category": "Proactive Disclosure",
+      "subcategory": "Public FOIA Database",
+      "statute_citation": "W. Va. Code § 29B-1-3",
+      "description": "All FOIA requests must be reported to Secretary of State for publicly accessible database (since 2016)",
+      "conditions": "Applies to all public bodies",
+      "applies_to": "All requesters and public bodies",
+      "implementation_notes": "UNIQUE: Creates transparency about FOIA usage and agency responsiveness; searchable at erls.wvsos.gov/FOIA_Database/Search",
+      "request_tips": "Search Secretary of State FOIA database to see how your agency has responded to similar requests"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Liberal Construction",
+      "statute_citation": "W. Va. Code § 29B-1-1",
+      "description": "Provisions shall be liberally construed with view of carrying out public policy declaration",
+      "conditions": "Applies to all statutory interpretation",
+      "applies_to": "All requests and exemptions",
+      "implementation_notes": "Creates strong presumption in favor of disclosure",
+      "request_tips": "Cite liberal construction mandate when challenging restrictive agency interpretations"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Reasonable Opportunities",
+      "statute_citation": "W. Va. Code § 29B-1-3",
+      "description": "Custodian must furnish proper and reasonable opportunities for inspection during business hours",
+      "conditions": "Must be during regular business hours",
+      "applies_to": "All requesters",
+      "implementation_notes": "Agencies must accommodate in-person inspection",
+      "request_tips": "Request in-person inspection to avoid reproduction fees entirely (search fees already prohibited)"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Electronic Submission",
+      "statute_citation": "W. Va. Code § 29B-1-3",
+      "description": "Electronic submission of requests accepted",
+      "conditions": "Agency discretion on electronic format for responses",
+      "applies_to": "All requesters",
+      "implementation_notes": "Enables convenient remote submission",
+      "request_tips": "Submit requests electronically for faster delivery and documentation"
+    }
+  ],
+  "validation_metadata": {
+    "source_file": "data/states/west-virginia/jurisdiction-data.json",
+    "extraction_date": "2025-10-09",
+    "verified_by": "Claude Code AI Assistant",
+    "primary_statute": "W. Va. Code § 29B-1-1 et seq.",
+    "confidence_level": "high",
+    "notes": "All rights extracted from verified jurisdiction-data.json file. West Virginia has exceptionally strong requester protections including: (1) absolute prohibition on search fees (unique), (2) 5 business day response deadline (very fast), (3) public FOIA database (unique), (4) removal from office for willful violations, and (5) criminal penalties for records destruction."
+  }
+}

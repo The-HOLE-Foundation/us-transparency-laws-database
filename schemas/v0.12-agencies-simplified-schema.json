@@ -1,0 +1,576 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Simplified State Government Agencies Schema",
+  "description": "Main state agencies only - for FOIA request routing and government structure visualization",
+  "version": "v0.12",
+  "last_updated": "2025-10-08",
+
+  "type": "object",
+  "required": ["jurisdiction", "government_structure", "metadata"],
+
+  "properties": {
+    "jurisdiction": {
+      "type": "object",
+      "required": ["slug", "name"],
+      "properties": {
+        "slug": {
+          "type": "string",
+          "description": "URL-friendly jurisdiction identifier",
+          "example": "texas"
+        },
+        "name": {
+          "type": "string",
+          "description": "Full jurisdiction name",
+          "example": "Texas"
+        }
+      }
+    },
+
+    "government_structure": {
+      "type": "object",
+      "required": ["executive_branch", "legislative_branch", "judicial_branch", "independent_agencies"],
+      "properties": {
+
+        "executive_branch": {
+          "type": "object",
+          "required": ["chief_executive", "major_agencies"],
+          "properties": {
+            "chief_executive": {
+              "$ref": "#/definitions/executive_official"
+            },
+            "major_agencies": {
+              "type": "array",
+              "description": "Main cabinet-level or principal state agencies only",
+              "items": {
+                "$ref": "#/definitions/state_agency"
+              }
+            }
+          }
+        },
+
+        "legislative_branch": {
+          "type": "object",
+          "required": ["upper_chamber", "lower_chamber"],
+          "properties": {
+            "upper_chamber": {
+              "$ref": "#/definitions/legislative_chamber"
+            },
+            "lower_chamber": {
+              "$ref": "#/definitions/legislative_chamber"
+            }
+          }
+        },
+
+        "judicial_branch": {
+          "type": "object",
+          "required": ["highest_court"],
+          "properties": {
+            "highest_court": {
+              "$ref": "#/definitions/court"
+            },
+            "appellate_courts": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/court"
+              }
+            }
+          }
+        },
+
+        "independent_agencies": {
+          "type": "array",
+          "description": "Key independent agencies (AG, Secretary of State, etc.)",
+          "items": {
+            "$ref": "#/definitions/independent_agency"
+          }
+        }
+      }
+    },
+
+    "metadata": {
+      "type": "object",
+      "required": ["created_date", "created_by", "valid_as_of", "last_verified", "verification_source"],
+      "properties": {
+        "created_date": {
+          "type": "string",
+          "format": "date",
+          "description": "Date this data was created",
+          "example": "2025-10-08"
+        },
+        "created_by": {
+          "type": "string",
+          "description": "Person or system that created this data",
+          "example": "Claude Code AI Assistant"
+        },
+        "valid_as_of": {
+          "type": "string",
+          "format": "date",
+          "description": "Date this data was verified accurate",
+          "example": "2025-10-08"
+        },
+        "last_verified": {
+          "type": "string",
+          "format": "date",
+          "description": "Most recent verification check",
+          "example": "2025-10-08"
+        },
+        "verification_source": {
+          "type": "string",
+          "description": "Official .gov source used for verification",
+          "example": "https://texas.gov"
+        },
+        "next_verification_due": {
+          "type": "string",
+          "format": "date",
+          "description": "When this data should be re-verified",
+          "example": "2026-01-08"
+        },
+        "maintenance_protocol": {
+          "type": "string",
+          "description": "Instructions for updating this data in the future",
+          "example": "Verify agency heads after each election cycle (Nov even years). Check contact info quarterly."
+        }
+      }
+    }
+  },
+
+  "definitions": {
+    "executive_official": {
+      "type": "object",
+      "required": ["title", "current_officeholder", "term_info", "contact"],
+      "properties": {
+        "title": {
+          "type": "string",
+          "example": "Governor"
+        },
+        "current_officeholder": {
+          "type": "object",
+          "required": ["name", "assumed_office"],
+          "properties": {
+            "name": {
+              "type": "string",
+              "example": "Greg Abbott"
+            },
+            "party": {
+              "type": "string",
+              "example": "Republican"
+            },
+            "assumed_office": {
+              "type": "string",
+              "format": "date",
+              "example": "2015-01-20"
+            },
+            "term_ends": {
+              "type": "string",
+              "format": "date",
+              "example": "2027-01-20",
+              "description": "When current term ends - CRITICAL for maintenance scheduling"
+            }
+          }
+        },
+        "term_info": {
+          "type": "object",
+          "properties": {
+            "length_years": {
+              "type": "integer",
+              "example": 4
+            },
+            "term_limits": {
+              "type": "string",
+              "example": "None"
+            },
+            "next_election": {
+              "type": "string",
+              "format": "date",
+              "example": "2026-11-03",
+              "description": "Next scheduled election - triggers data update"
+            }
+          }
+        },
+        "contact": {
+          "$ref": "#/definitions/contact_info"
+        }
+      }
+    },
+
+    "state_agency": {
+      "type": "object",
+      "required": ["agency_name", "agency_abbreviation", "primary_function", "contact"],
+      "properties": {
+        "agency_name": {
+          "type": "string",
+          "example": "Texas Department of Transportation"
+        },
+        "agency_abbreviation": {
+          "type": "string",
+          "example": "TxDOT"
+        },
+        "primary_function": {
+          "type": "string",
+          "description": "What this agency handles (for FOIA request routing)",
+          "example": "Transportation, highways, motor vehicles"
+        },
+        "agency_head": {
+          "type": "object",
+          "required": ["title", "current_officeholder"],
+          "properties": {
+            "title": {
+              "type": "string",
+              "example": "Executive Director"
+            },
+            "current_officeholder": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "example": "Marc Williams"
+                },
+                "assumed_office": {
+                  "type": "string",
+                  "format": "date",
+                  "example": "2023-01-15"
+                },
+                "term_ends": {
+                  "type": "string",
+                  "format": "date",
+                  "description": "If known - helps schedule data updates"
+                },
+                "appointment_type": {
+                  "type": "string",
+                  "enum": ["gubernatorial_appointment", "elected", "board_appointed", "career_position"],
+                  "example": "gubernatorial_appointment"
+                }
+              }
+            }
+          }
+        },
+        "contact": {
+          "$ref": "#/definitions/contact_info"
+        },
+        "foia_officer": {
+          "type": "object",
+          "description": "Dedicated FOIA/public records contact if different from main contact",
+          "properties": {
+            "name": {
+              "type": "string",
+              "example": "Jane Smith"
+            },
+            "title": {
+              "type": "string",
+              "example": "Public Information Officer"
+            },
+            "contact": {
+              "$ref": "#/definitions/contact_info"
+            }
+          }
+        }
+      }
+    },
+
+    "independent_agency": {
+      "type": "object",
+      "description": "Elected officials or independent agencies (AG, SOS, etc.)",
+      "required": ["agency_name", "agency_type", "current_head", "contact"],
+      "properties": {
+        "agency_name": {
+          "type": "string",
+          "example": "Office of the Attorney General"
+        },
+        "agency_abbreviation": {
+          "type": "string",
+          "example": "OAG"
+        },
+        "agency_type": {
+          "type": "string",
+          "enum": ["elected_official", "independent_agency", "oversight_body"],
+          "example": "elected_official"
+        },
+        "primary_function": {
+          "type": "string",
+          "example": "Legal representation of state, consumer protection, FOIA appeals"
+        },
+        "current_head": {
+          "$ref": "#/definitions/executive_official"
+        },
+        "contact": {
+          "$ref": "#/definitions/contact_info"
+        },
+        "special_roles": {
+          "type": "array",
+          "description": "Special functions relevant to FOIA (e.g., 'FOIA appeals authority')",
+          "items": {
+            "type": "string"
+          },
+          "example": ["FOIA appeals authority", "Open meetings law enforcement"]
+        }
+      }
+    },
+
+    "legislative_chamber": {
+      "type": "object",
+      "required": ["chamber_name", "presiding_officer", "contact"],
+      "properties": {
+        "chamber_name": {
+          "type": "string",
+          "example": "Texas Senate"
+        },
+        "presiding_officer": {
+          "type": "object",
+          "required": ["title", "name"],
+          "properties": {
+            "title": {
+              "type": "string",
+              "example": "Lieutenant Governor / President of the Senate"
+            },
+            "name": {
+              "type": "string",
+              "example": "Dan Patrick"
+            },
+            "term_ends": {
+              "type": "string",
+              "format": "date"
+            }
+          }
+        },
+        "contact": {
+          "$ref": "#/definitions/contact_info"
+        },
+        "clerk_office": {
+          "type": "object",
+          "description": "For legislative records requests",
+          "properties": {
+            "title": {
+              "type": "string",
+              "example": "Secretary of the Senate"
+            },
+            "contact": {
+              "$ref": "#/definitions/contact_info"
+            }
+          }
+        }
+      }
+    },
+
+    "court": {
+      "type": "object",
+      "required": ["court_name", "contact"],
+      "properties": {
+        "court_name": {
+          "type": "string",
+          "example": "Texas Supreme Court"
+        },
+        "chief_justice": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "term_ends": {
+              "type": "string",
+              "format": "date"
+            }
+          }
+        },
+        "contact": {
+          "$ref": "#/definitions/contact_info"
+        },
+        "clerk_office": {
+          "type": "object",
+          "description": "For court records requests",
+          "properties": {
+            "title": {
+              "type": "string",
+              "example": "Clerk of the Supreme Court"
+            },
+            "contact": {
+              "$ref": "#/definitions/contact_info"
+            }
+          }
+        }
+      }
+    },
+
+    "contact_info": {
+      "type": "object",
+      "required": ["website", "primary_contact_method"],
+      "properties": {
+        "website": {
+          "type": "string",
+          "format": "uri",
+          "description": "Main official website (.gov only)",
+          "example": "https://www.txdot.gov"
+        },
+        "primary_contact_method": {
+          "type": "string",
+          "enum": ["email", "phone", "fax", "web_form", "mail"],
+          "description": "Preferred method for FOIA requests",
+          "example": "email"
+        },
+        "email": {
+          "type": "string",
+          "format": "email",
+          "description": "Primary contact email",
+          "example": "pio@txdot.gov"
+        },
+        "phone": {
+          "type": "string",
+          "description": "Main phone number",
+          "example": "512-463-8700"
+        },
+        "fax": {
+          "type": "string",
+          "description": "Fax number if available",
+          "example": "512-463-8701"
+        },
+        "mailing_address": {
+          "type": "object",
+          "properties": {
+            "street": {
+              "type": "string",
+              "example": "125 E. 11th Street"
+            },
+            "city": {
+              "type": "string",
+              "example": "Austin"
+            },
+            "state": {
+              "type": "string",
+              "example": "TX"
+            },
+            "zip": {
+              "type": "string",
+              "example": "78701"
+            }
+          }
+        },
+        "foia_portal": {
+          "type": "string",
+          "format": "uri",
+          "description": "Online FOIA request portal if available",
+          "example": "https://www.txdot.gov/open-records"
+        },
+        "contact_verified_date": {
+          "type": "string",
+          "format": "date",
+          "description": "When contact info was last verified",
+          "example": "2025-10-08"
+        },
+        "contact_verification_source": {
+          "type": "string",
+          "format": "uri",
+          "description": "Where this contact info was verified",
+          "example": "https://www.txdot.gov/contact"
+        }
+      }
+    }
+  },
+
+  "examples": [
+    {
+      "jurisdiction": {
+        "slug": "texas",
+        "name": "Texas"
+      },
+      "government_structure": {
+        "executive_branch": {
+          "chief_executive": {
+            "title": "Governor",
+            "current_officeholder": {
+              "name": "Greg Abbott",
+              "party": "Republican",
+              "assumed_office": "2015-01-20",
+              "term_ends": "2027-01-20"
+            },
+            "term_info": {
+              "length_years": 4,
+              "term_limits": "None",
+              "next_election": "2026-11-03"
+            },
+            "contact": {
+              "website": "https://gov.texas.gov",
+              "primary_contact_method": "web_form",
+              "phone": "512-463-2000",
+              "email": "opinionrequests@oag.texas.gov",
+              "mailing_address": {
+                "street": "P.O. Box 12428",
+                "city": "Austin",
+                "state": "TX",
+                "zip": "78711"
+              }
+            }
+          },
+          "major_agencies": [
+            {
+              "agency_name": "Texas Department of Transportation",
+              "agency_abbreviation": "TxDOT",
+              "primary_function": "Transportation, highways, motor vehicles, driver licensing",
+              "agency_head": {
+                "title": "Executive Director",
+                "current_officeholder": {
+                  "name": "Marc Williams",
+                  "assumed_office": "2023-01-15",
+                  "appointment_type": "gubernatorial_appointment"
+                }
+              },
+              "contact": {
+                "website": "https://www.txdot.gov",
+                "primary_contact_method": "email",
+                "email": "pio@txdot.gov",
+                "phone": "512-463-8700",
+                "foia_portal": "https://www.txdot.gov/open-records",
+                "contact_verified_date": "2025-10-08",
+                "contact_verification_source": "https://www.txdot.gov/contact"
+              }
+            }
+          ]
+        },
+        "independent_agencies": [
+          {
+            "agency_name": "Office of the Attorney General",
+            "agency_abbreviation": "OAG",
+            "agency_type": "elected_official",
+            "primary_function": "Legal representation of state, FOIA appeals, consumer protection",
+            "current_head": {
+              "title": "Attorney General",
+              "current_officeholder": {
+                "name": "Ken Paxton",
+                "party": "Republican",
+                "assumed_office": "2015-01-05",
+                "term_ends": "2027-01-05"
+              },
+              "term_info": {
+                "length_years": 4,
+                "next_election": "2026-11-03"
+              },
+              "contact": {
+                "website": "https://www.texasattorneygeneral.gov",
+                "primary_contact_method": "email",
+                "email": "publicinfo@oag.texas.gov"
+              }
+            },
+            "contact": {
+              "website": "https://www.texasattorneygeneral.gov",
+              "primary_contact_method": "email",
+              "email": "publicinfo@oag.texas.gov",
+              "phone": "512-463-2100"
+            },
+            "special_roles": [
+              "FOIA appeals authority",
+              "Open meetings law enforcement",
+              "Public Information Act rulings"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "created_date": "2025-10-08",
+        "created_by": "Claude Code AI Assistant",
+        "valid_as_of": "2025-10-08",
+        "last_verified": "2025-10-08",
+        "verification_source": "https://texas.gov/agencies",
+        "next_verification_due": "2026-01-08",
+        "maintenance_protocol": "Verify after each election cycle (Nov of even years). Verify agency heads quarterly. Check contact info semi-annually. Update immediately if website changes detected."
+      }
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "jurisdiction": {
+    "name": "Connecticut",
+    "slug": "connecticut",
+    "type": "state",
+    "transparency_law": "Connecticut Freedom of Information Act (FOIA)"
+  },
+  "validation_metadata": {
+    "parsed_date": "2025-10-10",
+    "source_url": "https://www.cga.ct.gov/current/pub/chap_014.htm",
+    "verified_by": "Claude Code AI Assistant",
+    "verification_method": "Direct review of Connecticut General Statutes Title 1, Chapter 14, Sections 1-200 through 1-241",
+    "statutory_text_file": "CONNECTICUT_transparency_law-v0.11.txt"
+  },
+  "rights_of_access": [
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Triple Right - Inspect, Copy, or Receive",
+      "statute_citation": "Conn. Gen. Stat. § 1-210(a)",
+      "description": "Every person shall have the right to (1) inspect such records promptly during regular office or business hours, (2) copy such records in accordance with subsection (g) of section 1-212, or (3) receive a copy of such records in accordance with section 1-212. This establishes Connecticut's three-pronged approach to public access.",
+      "conditions": "Must be during regular office or business hours; applies to all public records unless exempt",
+      "applies_to": "All public records maintained by Connecticut public agencies",
+      "implementation_notes": "Connecticut uniquely grants three distinct rights - to inspect, to self-copy, or to receive copies - giving requesters maximum flexibility in access method",
+      "request_tips": "Assert all three rights: 'Under Conn. Gen. Stat. § 1-210(a), I have the right to (1) inspect [records] promptly, (2) make my own copies, or (3) receive copies. Please accommodate my preferred access method.'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Prompt Inspection Standard",
+      "statute_citation": "Conn. Gen. Stat. § 1-210(a)",
+      "description": "Public records must be made available for inspection 'promptly' during regular office or business hours. 'Promptly' means quickly and without undue delay, typically interpreted as within 4 business days.",
+      "conditions": "Inspection during regular office/business hours; prompt access standard interpreted as 4 business days in practice",
+      "applies_to": "All public records inspection requests",
+      "implementation_notes": "Connecticut uses 'promptly' rather than specific day count, but FOIC guidance and practice establish 4 business days as standard; delays beyond this require justification",
+      "request_tips": "Cite standard: 'Conn. Gen. Stat. § 1-210(a) requires prompt inspection. Connecticut FOIC guidance interprets this as 4 business days. Please provide access within this timeframe.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Agency Assistance Obligations",
+      "statute_citation": "Conn. Gen. Stat. § 1-213(a)",
+      "description": "Each public agency shall: (1) Maintain records to make them reasonably accessible for convenient use; (2) Provide information on procedures for gaining access; (3) Provide assistance to members of the public who wish to inspect public records; and (4) Explain technical terms or abbreviated notations upon request.",
+      "conditions": "Applies upon request; agencies must affirmatively assist requesters; includes explaining technical content",
+      "applies_to": "All public agencies in Connecticut",
+      "implementation_notes": "Strong requester support requirement - agencies cannot simply provide access but must actively assist in understanding and using records; includes explaining technical terminology",
+      "request_tips": "Assert assistance right: 'Under Conn. Gen. Stat. § 1-213, you must provide assistance with inspecting these records and explain any technical terms or abbreviations. Please assign staff to assist me.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Records Maintenance Standards",
+      "statute_citation": "Conn. Gen. Stat. § 1-213(a)(1)",
+      "description": "Each public agency shall maintain its records in such manner as to make them reasonably accessible for convenient use.",
+      "conditions": "Ongoing obligation to maintain records accessibility; agencies cannot claim disorganization as excuse for denial or delay",
+      "applies_to": "All public agencies' record-keeping practices",
+      "implementation_notes": "Prevents agencies from using poor records management as excuse to deny or delay access; establishes affirmative duty to organize records for public accessibility",
+      "request_tips": "Challenge disorganization excuse: 'Conn. Gen. Stat. § 1-213(a)(1) requires you to maintain records to make them reasonably accessible. Please organize records to enable prompt access as required by statute.'"
+    },
+    {
+      "category": "Fee Waiver",
+      "subcategory": "No Inspection Fees",
+      "statute_citation": "Conn. Gen. Stat. § 1-212(e)",
+      "description": "No fee shall be charged for the inspection of public records. This ensures that simply reviewing records is always free.",
+      "conditions": "Applies to all inspection; no exceptions; agencies cannot charge for staff time during inspection",
+      "applies_to": "All public records inspection in Connecticut",
+      "implementation_notes": "Absolute prohibition on inspection fees - agencies cannot charge for room use, supervision, or staff time during inspection; only copying fees permitted",
+      "request_tips": "Assert free inspection: 'Under Conn. Gen. Stat. § 1-212(e), no fee may be charged for inspection. I wish to inspect [records] at no cost before deciding whether to request copies.'"
+    },
+    {
+      "category": "Fee Waiver",
+      "subcategory": "Capped Copying Fees - State Agencies",
+      "statute_citation": "Conn. Gen. Stat. § 1-212(b)(1)",
+      "description": "For state agencies, the fee for copies of public records, printouts or photographs shall be not more than twenty-five cents per page.",
+      "conditions": "Applies to state agencies only (not municipalities); 25¢ per page maximum; covers printouts and photographs",
+      "applies_to": "State agency copy fees",
+      "implementation_notes": "State agencies have lower fee cap than municipalities; applies to all copy formats including electronic printouts and photographs",
+      "request_tips": "For state agencies: 'Under Conn. Gen. Stat. § 1-212(b)(1), state agencies may charge no more than 25¢ per page. Please ensure your fees comply with this statutory cap.'"
+    },
+    {
+      "category": "Fee Waiver",
+      "subcategory": "Capped Copying Fees - Other Public Agencies",
+      "statute_citation": "Conn. Gen. Stat. § 1-212(b)(2)",
+      "description": "For all other public agencies (municipalities, etc.), the fee for copies shall be not more than fifty cents per page.",
+      "conditions": "Applies to non-state public agencies; 50¢ per page maximum",
+      "applies_to": "Municipal and other non-state agency copy fees",
+      "implementation_notes": "Municipalities have higher fee cap than state (50¢ vs 25¢) but still capped to prevent excessive fees",
+      "request_tips": "For municipalities: 'Conn. Gen. Stat. § 1-212(b)(2) caps your copy fees at 50¢ per page. Please adjust your estimate to comply with statutory limits.'"
+    },
+    {
+      "category": "Fee Waiver",
+      "subcategory": "Judicial Department Fee Structure",
+      "statute_citation": "Conn. Gen. Stat. § 1-212(c)",
+      "description": "For copies provided by the Judicial Department, the fee shall be fifty cents per page for the first twenty pages and twenty-five cents per page for each page thereafter. This provides a graduated fee structure for court records.",
+      "conditions": "Applies to Judicial Department only; 50¢ for pages 1-20, 25¢ for pages 21+",
+      "applies_to": "Court records from Connecticut Judicial Department",
+      "implementation_notes": "Special graduated fee structure for courts incentivizes electronic access and reduces costs for larger requests",
+      "request_tips": "For court records: 'Conn. Gen. Stat. § 1-212(c) establishes graduated fees - 50¢ for first 20 pages, 25¢ thereafter. Please calculate fees using this statutory structure.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Special Scheduling for Voluminous Requests",
+      "statute_citation": "Conn. Gen. Stat. § 1-212(d)",
+      "description": "If the nature or volume of a records request is such that it would clearly interfere with the normal duties of public personnel, the public agency may establish a special schedule or location for providing the public records.",
+      "conditions": "Only when request clearly interferes with normal duties; must still provide access; can adjust timing/location but cannot deny",
+      "applies_to": "Large or complex records requests",
+      "implementation_notes": "Allows agencies flexibility in how they provide access but does not permit denial; agencies must still fulfill request on modified schedule",
+      "request_tips": "If special schedule proposed: 'Under Conn. Gen. Stat. § 1-212(d), you may establish a special schedule for voluminous requests but must still provide full access. Please propose a reasonable alternative schedule.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "FOIC Appeal Process",
+      "statute_citation": "Conn. Gen. Stat. § 1-214(a)-(b)",
+      "description": "Any person denied the right to inspect or receive copies of public records may appeal to the Freedom of Information Commission (FOIC) by filing notice of appeal within 30 days after the mailing of denial. Appeal includes prescribed information and must be served on the public agency.",
+      "conditions": "Must file within 30 days of denial; must provide copies to agency; FOIC consists of 9 members; cannot appeal General Assembly denials through this process",
+      "applies_to": "Denials of FOIA requests (except legislative records)",
+      "implementation_notes": "FOIC provides independent oversight; 30-day deadline is strict; creates administrative remedy before judicial review",
+      "request_tips": "If denied: 'Under Conn. Gen. Stat. § 1-214, I may appeal this denial to the Freedom of Information Commission within 30 days. Please reconsider or I will exercise this appeal right.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Mediation Option",
+      "statute_citation": "Conn. Gen. Stat. § 1-214(c)",
+      "description": "Upon receipt of an appeal concerning denial of public records, the FOIC may order mediation in accordance with section 1-206c. This provides informal resolution opportunity before formal hearing.",
+      "conditions": "FOIC has discretion to order mediation; parties encouraged to resolve disputes informally",
+      "applies_to": "FOIC appeals before formal hearing",
+      "implementation_notes": "Mediation allows faster, less adversarial resolution; preserves formal hearing rights if mediation fails; reduces burden on FOIC and parties",
+      "request_tips": "Request mediation: 'I am appealing this denial to FOIC and request mediation under Conn. Gen. Stat. § 1-214(c) to resolve this matter quickly and informally.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Burden of Proof on Agency",
+      "statute_citation": "Conn. Gen. Stat. § 1-215(b)",
+      "description": "In any proceeding under FOIA, the burden shall be upon the public agency to prove that the disclosure of such public record or any part thereof is not required. This shifts the burden to the government to justify withholding.",
+      "conditions": "Applies in all FOIC contested cases; agency must affirmatively prove exemption applies; requester does not have to prove right of access",
+      "applies_to": "All FOIC hearings on records denials",
+      "implementation_notes": "Strong presumption of openness - agency must prove exemption, not requester prove entitlement; makes improper denials difficult to sustain",
+      "request_tips": "At hearing, emphasize: 'Under Conn. Gen. Stat. § 1-215(b), you bear the burden of proving disclosure is not required. Please present evidence supporting each claimed exemption.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "FOIC Orders and Civil Penalties",
+      "statute_citation": "Conn. Gen. Stat. § 1-216",
+      "description": "If the FOIC finds a public agency has violated FOIA, it may: (1) Order access to or copies of records, (2) Order future compliance, (3) Provide other appropriate relief, and (4) Impose civil penalty of up to $1,000.",
+      "conditions": "FOIC has broad remedial authority; penalties up to $1,000 per violation",
+      "applies_to": "FOIA violations found by FOIC",
+      "implementation_notes": "FOIC has meaningful enforcement power including monetary penalties; penalties incentivize compliance and provide accountability",
+      "request_tips": "Warn of consequences: 'Conn. Gen. Stat. § 1-216 authorizes FOIC to order compliance and impose penalties up to $1,000 for violations. Please reconsider this denial to avoid potential penalties.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Judicial Review of FOIC Decisions",
+      "statute_citation": "Conn. Gen. Stat. § 1-217",
+      "description": "Any party may appeal the final FOIC decision by filing a petition in Hartford Superior Court within 45 days of the decision. Court hears appeals on the record of the commission.",
+      "conditions": "Must file in Hartford Superior Court within 45 days; must serve FOIC and all parties; court reviews on commission record",
+      "applies_to": "Final FOIC decisions",
+      "implementation_notes": "Provides judicial review safety valve; 45-day deadline is strict; court review limited to commission record (not de novo)",
+      "request_tips": "If FOIC rules against you: 'I may appeal this FOIC decision to Hartford Superior Court within 45 days under Conn. Gen. Stat. § 1-217. I am evaluating whether to exercise this right.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Criminal Penalties for Violations",
+      "statute_citation": "Conn. Gen. Stat. § 1-218",
+      "description": "Failure to comply with FOIC order is a class B misdemeanor. Willful violation of FOIA or destruction of public records without approval is a class A misdemeanor.",
+      "conditions": "Class B misdemeanor for noncompliance with FOIC order; Class A misdemeanor for willful violations or records destruction",
+      "applies_to": "Public agency members and personnel who violate FOIA",
+      "implementation_notes": "Criminal penalties provide strong enforcement mechanism; willful violations and records destruction treated more seriously (Class A vs Class B)",
+      "request_tips": "Warn of serious consequences: 'Conn. Gen. Stat. § 1-218 makes FOIA violations criminal offenses. Failure to comply with FOIC order is a class B misdemeanor. Please comply to avoid criminal liability.'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Right to Self-Copy",
+      "statute_citation": "Conn. Gen. Stat. § 1-210(a)(2)",
+      "description": "Every person has the right to copy public records themselves in accordance with subsection (g) of section 1-212. This allows requesters to make their own copies rather than paying agency fees.",
+      "conditions": "Subject to reasonable agency policies under § 1-212(g); may use own equipment or agency equipment if permitted",
+      "applies_to": "Public records that requester chooses to copy themselves",
+      "implementation_notes": "Self-copying option avoids agency fees and allows requester to control copying process; agencies must accommodate within reasonable operational constraints",
+      "request_tips": "Assert self-copy right: 'Under Conn. Gen. Stat. § 1-210(a)(2), I have the right to copy these records myself. Please allow me to make my own copies to avoid fees.'"
+    }
+  ]
+}

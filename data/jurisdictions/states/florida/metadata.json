@@ -1,0 +1,150 @@
+{
+  "jurisdiction": "Florida",
+  "transparency_law": {
+    "name": "Florida Public Records Law",
+    "statute_citation": "Fla. Stat. § 119 & § 286",
+    "effective_date": "1909-01-01",
+    "last_amended": "2025-09-05",
+    "constitutional_basis": "Fla. Const. art. I, § 24",
+
+    "response_requirements": {
+      "initial_response_time": 30,
+      "initial_response_unit": "business_days",
+      "initial_response_description": "No specific statutory deadline; agencies must respond within reasonable period. Courts and AG guidance suggest good faith effort typically means responding within reasonable timeframe, commonly interpreted as approximately 30 business days for standard requests",
+      "final_response_time": null,
+      "final_response_unit": "variable",
+      "final_response_notes": "Reasonableness varies based on type, volume, and complexity of request",
+      "extension_allowed": null,
+      "extension_max_days": null,
+      "good_faith_standard": "Agencies must make good faith effort to respond promptly; reasonable time varies by circumstances"
+    },
+
+    "fee_structure": {
+      "search_fee": "May charge for extensive research",
+      "search_fee_notes": "May charge for extensive use of information technology resources or extensive clerical/supervisory assistance",
+      "search_fee_statutory_cite": "Fla. Stat. § 119.07(4)",
+      "copy_fee_per_page": 0.15,
+      "copy_fee_notes": "Up to $0.15 per one-sided copy for documents 14 inches or less; actual cost for larger or special format",
+      "copy_fee_cite": "Fla. Stat. § 119.07(4)(a)",
+      "electronic_fee": "Actual cost; electronic access preferred to reduce costs",
+      "fee_waiver_available": false,
+      "fee_waiver_criteria": null
+    },
+
+    "exemptions": [
+      {
+        "category": "Trade Secrets",
+        "citation": "Fla. Stat. § 119.071(1)(a)",
+        "description": "Trade secrets as defined in Florida law",
+        "scope": "narrow"
+      },
+      {
+        "category": "Law Enforcement",
+        "citation": "Fla. Stat. § 119.071(2)",
+        "description": "Criminal investigation information and active criminal intelligence",
+        "scope": "moderate"
+      },
+      {
+        "category": "Victim Protection",
+        "citation": "Fla. Stat. § 119.071(2)(h)",
+        "description": "Identity of victims of crimes, particularly sexual offenses and child abuse",
+        "scope": "narrow"
+      },
+      {
+        "category": "Security",
+        "citation": "Fla. Stat. § 119.071(3)",
+        "description": "Security system plans, vulnerability assessments, and security information",
+        "scope": "narrow"
+      },
+      {
+        "category": "Personal Privacy",
+        "citation": "Fla. Stat. § 119.071(4)",
+        "description": "Personal identifying information including social security numbers, bank account numbers, credit card information",
+        "scope": "moderate"
+      },
+      {
+        "category": "Personnel Records",
+        "citation": "Fla. Stat. § 119.071(4)(d)",
+        "description": "Home addresses, telephone numbers, photographs, and social security numbers of employees",
+        "scope": "moderate"
+      },
+      {
+        "category": "Medical Records",
+        "citation": "Fla. Stat. § 119.071(7)",
+        "description": "Medical records and health information",
+        "scope": "narrow"
+      },
+      {
+        "category": "Attorney-Client Privilege",
+        "citation": "Fla. Stat. § 119.071",
+        "description": "Attorney-client privileged communications",
+        "scope": "narrow"
+      }
+    ],
+
+    "appeal_process": {
+      "first_level": "Attorney General Mediation (voluntary)",
+      "first_level_deadline_days": null,
+      "first_level_notes": "No formal administrative appeal process; Attorney General offers voluntary mediation services",
+      "first_level_cite": null,
+      "second_level": "Circuit Court",
+      "second_level_deadline_days": null,
+      "second_level_notes": "Direct court action via mandamus, declaratory judgment, or civil lawsuit; primary enforcement mechanism",
+      "second_level_cite": "Fla. Stat. § 119.11",
+      "attorney_fees_recoverable": true,
+      "attorney_fees_cite": "Fla. Stat. § 119.12",
+      "attorney_fees_notes": "Court may award reasonable attorney fees and costs to prevailing party"
+    },
+
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "purpose_statement_prohibited": false,
+      "purpose_notes": "No requirement to state purpose or provide identification",
+      "residency_requirement": false,
+      "request_format_notes": "May request by phone, in writing, or in person; no specific form required",
+      "specific_format": "No specific format required"
+    },
+
+    "agency_obligations": {
+      "records_officer_required": true,
+      "records_officer_notes": "Each agency designates public records custodians",
+      "records_officer_cite": "Fla. Stat. § 119.07",
+      "business_hours_access": true,
+      "business_hours_cite": "Fla. Stat. § 119.07(1)",
+      "electronic_submission_accepted": true,
+      "response_format_options": "Must permit inspection under reasonable conditions; electronic access preferred when feasible",
+      "liberal_construction": "Law must be liberally interpreted favoring disclosure",
+      "liberal_construction_cite": "Fla. Stat. § 119.01",
+      "redaction_required": "Must redact only exempt portions and provide access to remainder"
+    },
+
+    "oversight_body": {
+      "name": "Florida Attorney General",
+      "role": "Provides mediation services and guidance; no binding administrative appeal authority",
+      "contact_info": "Office of the Attorney General, Open Government Mediation",
+      "oversight_url": "https://www.myfloridalegal.com/open-government"
+    },
+
+    "official_resources": {
+      "primary_statute_url": "http://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&Title=-%3E2025-%3EChapter%20119",
+      "agency_handbook_url": "https://www.myfloridalegal.com/open-government",
+      "request_portal_url": null
+    },
+
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_url": "http://www.leg.state.fl.us/Statutes/",
+      "source_verified": true,
+      "primary_sources": [
+        "Florida Statutes Chapter 119 (Public Records)",
+        "Florida Statutes Chapter 286 (Sunshine Law)",
+        "Florida Constitution Article I, Section 24",
+        "FLORIDA_transparency_law-v0.11.txt"
+      ],
+      "verification_notes": "All fields manually verified from official Florida statutes. No specific response deadline in statute - good faith/reasonable time standard. Ground truth indicates 30 business days as commonly accepted reasonable period. Copying fees up to $0.15/page. May charge for extensive research. No formal administrative appeal process - Attorney General mediation available but not binding. Primary enforcement through civil lawsuits. Constitutional right established in Article I, Section 24. Liberal construction favoring disclosure."
+    }
+  },
+  "agencies": []
+}

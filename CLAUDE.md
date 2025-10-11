@@ -11,7 +11,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 DATE: [YYYY-MM-DD]
 AUTHOR: [Author Name or "Claude Code AI Assistant"]
 PROJECT: The HOLE Foundation - US Transparency Laws Database
-SUBPROJECT: [Specific component, e.g., "Supabase Schema Design", "Data Validation", "Process Maps"]
+SUBPROJECT: [Specific component, e.g., "Neon Schema Design", "Data Validation", "Process Maps"]
 VERSION: v0.11 or v0.12 (depending on context)
 ---
 ```
@@ -23,7 +23,7 @@ This applies to all markdown files, documentation, reports, schemas, and any oth
 This repository is a comprehensive database of US transparency laws (FOIA and public records laws) for all 52 jurisdictions (50 states + DC + Federal).
 
 **Current Status**:
-- **v0.11.1**: PRODUCTION READY - Supabase database deployed with 52 jurisdictions, 365 exemptions
+- **v0.11.1**: PRODUCTION READY - Neon database deployed with 52 jurisdictions, 365 exemptions
 - **v0.12**: IN DEVELOPMENT - Rights of Access table to complement exemptions
 
 **Critical**: This database serves as ground truth for AI training. **100% accuracy is mandatory**. All data must be verified from official government sources only (state legislature websites, official state code databases, official AG offices, official agency .gov sites).
@@ -60,7 +60,7 @@ us-transparency-laws-database/
    - Ground truth from official sources only
    - v0.11.0: Complete JSON files for all 52 jurisdictions
 
-2. **Supabase PostgreSQL Database** (`supabase/` - **PRODUCTION READY**)
+2. **Neon PostgreSQL Database** (`neon/` - **PRODUCTION READY**)
    - **10 Core Tables**: jurisdictions, transparency_laws, response_requirements, fee_structures, exemptions, appeal_processes, requester_requirements, agency_obligations, oversight_bodies, agencies
    - **1 Optimized View**: `transparency_map_display` for interactive map
    - **365 exemptions** with automatic jurisdiction context
@@ -71,7 +71,7 @@ us-transparency-laws-database/
 3. **Structured Source Data** (`releases/v0.11.0/jurisdictions/`)
    - 52 JSON files (one per jurisdiction)
    - Nested structure with transparency_law object
-   - Source of truth for Supabase imports
+   - Source of truth for Neon imports
    - Each file contains: response_requirements, fee_structure, exemptions, appeal_process, requester_requirements, agency_obligations, oversight_body, validation_metadata
 
 4. **Transparency Map Dataset** (`Transparency-Map-Dataset/`)
@@ -173,32 +173,32 @@ ORDER BY jurisdiction_name;
 
 ### Querying v0.11.1 Database (Current)
 
-**Development Branch**: `https://befpnwcokngtrljxskfz.supabase.co`
+**Development Branch**: `https://befpnwcokngtrljxskfz.neon.co`
 
-All 52 jurisdictions are now deployed to Supabase. Use these patterns:
+All 52 jurisdictions are now deployed to Neon. Use these patterns:
 
-**JavaScript/TypeScript (Supabase Client)**
+**JavaScript/TypeScript (Neon Client)**
 ```javascript
-import { createClient } from '@supabase/supabase-js'
+import { createClient } from '@neon/neon-js'
 
-const supabase = createClient(
-  'https://befpnwcokngtrljxskfz.supabase.co',
+const neon = createClient(
+  'https://befpnwcokngtrljxskfz.neon.co',
   'YOUR_ANON_KEY'
 )
 
 // Get all jurisdictions for transparency map
-const { data: jurisdictions } = await supabase
+const { data: jurisdictions } = await neon
   .from('transparency_map_display')
   .select('jurisdiction_name, jurisdiction_code, response_timeline_days, key_features_tags')
 
 // Get California exemptions (no joins needed!)
-const { data: exemptions } = await supabase
+const { data: exemptions } = await neon
   .from('exemptions')
   .select('category, description, legal_cite')
   .eq('jurisdiction_name', 'California')
 
 // Get jurisdiction details
-const { data: california } = await supabase
+const { data: california } = await neon
   .from('jurisdictions')
   .select(`
     *,
@@ -243,14 +243,14 @@ ORDER BY count DESC;
 
 ### Data Migration Tools
 
-- **`dev/scripts/smart-import.js`**: Import v0.11.0 JSON to Supabase with flexible schema handling
+- **`dev/scripts/smart-import.js`**: Import v0.11.0 JSON to Neon with flexible schema handling
 - **`dev/scripts/verify-schema.js`**: Verify all 10 tables deployed correctly
 - **`scripts/complete_migration.py`**: Python script for data processing and validation
 
 ### Version Naming Convention
 
 - **v0.11.0**: JSON data release (52 jurisdictions, process maps) - **COMPLETE**
-- **v0.11.1**: Supabase integration with flexible schema - **CURRENT VERSION**
+- **v0.11.1**: Neon integration with flexible schema - **CURRENT VERSION**
 - **v0.12.0+**: Agency data, templates, AI training (future)
 
 ## Integration Points
@@ -270,7 +270,7 @@ This repository is part of the HOLE Foundation ecosystem:
 psql "$DATABASE_URL_UNPOOLED"
 
 # Apply migration to Neon
-psql "$DATABASE_URL_UNPOOLED" -f supabase/migrations/YOUR_MIGRATION.sql
+psql "$DATABASE_URL_UNPOOLED" -f neon/migrations/YOUR_MIGRATION.sql
 
 # Query database
 psql "$DATABASE_URL" -c "SELECT * FROM jurisdictions;"
@@ -283,7 +283,7 @@ psql "$DATABASE_URL" -c "\dt public.*"
 psql "$DATABASE_URL" -c "SELECT * FROM transparency_landscape LIMIT 5;"
 ```
 
-**Note**: We migrated from Supabase to Neon in October 2025. See `documentation/NEON_MIGRATION.md` for details.
+**Note**: We migrated from Neon to Neon in October 2025. See `documentation/NEON_MIGRATION.md` for details.
 
 ### Data Validation (v0.11.1)
 ```bash
@@ -294,7 +294,7 @@ node dev/scripts/verify-schema.js
 # See documentation/DATA_COMPLETENESS_AUDIT_v0.11.1.md
 
 # Validate migration integrity
-npx supabase migration list --linked
+npx neon migration list --linked
 python3 scripts/find_duplicates.py
 
 # Extract and process map data
@@ -312,14 +312,14 @@ scripts/verify_jurisdictions.sh
 # Validate JSON schema compliance
 scripts/validate_data.py
 
-# Check Supabase compatibility
-scripts/check_supabase.sh
+# Check Neon compatibility
+scripts/check_neon.sh
 ```
 
 ## Architecture Overview
 
 ### Database Design
-- **Supabase Backend**: Full Supabase integration with TypeScript types generated from schema
+- **Neon Backend**: Full Neon integration with TypeScript types generated from schema
 - **Three-Layer Architecture**: Raw statutory → Structured jurisdiction → Consolidated resources
 - **Cross-Repository Integration**: Designed to serve theholetruth-platform React application
 
@@ -333,7 +333,7 @@ scripts/check_supabase.sh
 1. **Data Entry**: Start with templates in `templates/json/`
 2. **Validation**: Use official government sources only (see validation rules)
 3. **Migration**: Run migration scripts to organize data
-4. **Integration**: Sync with Supabase schema using `pnpm generate:types`
+4. **Integration**: Sync with Neon schema using `pnpm generate:types`
 5. **Quality Checks**: All PRs require Claude Code review and custom validation scripts
 
 ## Important Notes
@@ -342,7 +342,7 @@ scripts/check_supabase.sh
 - Current state: All data files are empty templates awaiting verified data
 - Priority jurisdictions: Federal (priority 1), major states including CA, FL, IL, NY, TX (priority 2), all others (priority 3)
 - Target: 51 total jurisdictions (50 states + DC + Federal)
-- **Package Manager**: Use `pnpm` (required by Supabase setup, engines requirement: pnpm >=10.16)
+- **Package Manager**: Use `pnpm` (required by Neon setup, engines requirement: pnpm >=10.16)
 
 ---
 
@@ -363,13 +363,13 @@ This database is one component of a coordinated ecosystem supporting government 
 - **Transparency Map**: Interactive US map powered by this database
 - **Transparency Wiki**: Full statutory analysis for all 51 jurisdictions
 - **FOIA Generator**: AI-powered request generation tool
-- All tools consume data from this repository via Supabase
-- Authentication: Supabase
+- All tools consume data from this repository via Neon
+- Authentication: Neon
 
 **This Repository** (us-transparency-laws-database)
 - Ground truth data source for TheHoleTruth.org
 - 100% accuracy requirement for legal data
-- Supabase-compatible JSON structure
+- Neon-compatible JSON structure
 - Serves both map visualization and wiki content
 
 ### Integration Architecture
@@ -378,7 +378,7 @@ Official .gov Sources
         ↓
 This Database (Ground Truth)
         ↓
-Supabase Backend
+Neon Backend
         ↓
 TheHoleTruth.org React Platform (THEHOLETRUTH.ORG repo)
         ├─→ Interactive US Map
@@ -410,7 +410,7 @@ These tasks can run with `shift+tab` auto-accept enabled:
 
 #### 2. SUPERVISED TASKS (Real-Time Oversight Required)
 These require monitoring during execution:
-- **Supabase Schema Changes**: Database structure modifications
+- **Neon Schema Changes**: Database structure modifications
 - **Authentication Implementation**: Security-sensitive code
 - **React Component Integration**: UI components connecting to database
 - **Map Visualization Logic**: Interactive map functionality
@@ -493,10 +493,10 @@ Executes complete workflow to add new state transparency law data:
 4. Updates master_tracking_table.json
 5. Prepares validation checklist
 
-### `/sync-supabase`
+### `/sync-neon`
 Synchronizes database schema with current JSON structure:
 1. Analyzes JSON templates
-2. Generates/updates Supabase migrations
+2. Generates/updates Neon migrations
 3. Updates TypeScript types
 4. Runs validation tests
 
@@ -524,7 +524,7 @@ Creates standardized process map from template:
 
 ### `/verify-integration`
 Checks integration status with THEHOLETRUTH.ORG platform:
-- Confirms Supabase connectivity
+- Confirms Neon connectivity
 - Tests data schema compatibility
 - Validates API endpoints
 - Reports any integration issues
@@ -533,7 +533,7 @@ Checks integration status with THEHOLETRUTH.ORG platform:
 
 ## Integration Workflows
 
-### Workflow 1: Notion → Claude Code → GitHub → Supabase
+### Workflow 1: Notion → Claude Code → GitHub → Neon
 
 **Planning Phase** (Notion)
 - Document requirements and research
@@ -550,7 +550,7 @@ Checks integration status with THEHOLETRUTH.ORG platform:
 - Create PRs for review
 - Maintain change history
 
-**Deployment** (Supabase)
+**Deployment** (Neon)
 - Sync database schema
 - Update TypeScript types
 - Deploy to production
@@ -570,7 +570,7 @@ Checks integration status with THEHOLETRUTH.ORG platform:
 
 **Implementation Phase** (React Platform)
 - Integrate components into theholetruth-platform
-- Connect to Supabase backend
+- Connect to Neon backend
 - Implement with this database
 - Deploy to production
 
@@ -579,12 +579,12 @@ Checks integration status with THEHOLETRUTH.ORG platform:
 **THEHOLETRUTH.ORG Platform Integration**
 - Three tools: Map, Wiki, FOIA Generator
 - All consume data from this repository
-- Integration via Supabase backend
+- Integration via Neon backend
 
 **Integration Pattern**:
 1. Dataset updates committed to this repo
-2. Supabase schema synced with dataset structure
-3. Platform tools query Supabase for data
+2. Neon schema synced with dataset structure
+3. Platform tools query Neon for data
 4. TypeScript types generated from schema
 5. Platform deployed with latest data
 6. Continuous integration pipeline
@@ -595,11 +595,11 @@ Checks integration status with THEHOLETRUTH.ORG platform:
 
 Following Anthropic security best practices, use MCP servers instead of direct CLI access:
 
-### Supabase MCP Server (Recommended)
-Instead of using Supabase CLI directly:
+### Neon MCP Server (Recommended)
+Instead of using Neon CLI directly:
 ```bash
 # NOT RECOMMENDED: Direct CLI
-supabase db push
+neon db push
 
 # RECOMMENDED: MCP Server
 # Configure MCP server with controlled access
@@ -626,7 +626,7 @@ supabase db push
 - Generates quality reports
 
 #### 3. Integration Status MCP
-- Monitors Supabase sync status
+- Monitors Neon sync status
 - Tracks platform deployment status
 - Reports data freshness and version
 
@@ -797,7 +797,7 @@ I've finished Federal. Should I continue to California?
 5. **Document the issue**: Add to validation methodology
 
 ### If Integration Breaks
-1. **Check Supabase status**: Is database accessible?
+1. **Check Neon status**: Is database accessible?
 2. **Verify API endpoints**: Are connections working?
 3. **Review recent changes**: What changed before break?
 4. **Roll back if needed**: Return to working state
@@ -816,7 +816,7 @@ I've finished Federal. Should I continue to California?
 
 ### Integration Roadmap
 - **Phase 1**: Complete v0.11 dataset population (in progress)
-- **Phase 2**: Supabase schema finalization and migration
+- **Phase 2**: Neon schema finalization and migration
 - **Phase 3**: THEHOLETRUTH.ORG platform integration
 - **Phase 4**: Interactive map, wiki, and FOIA generator deployment
 - **Phase 5**: Monitoring, analytics, and maintenance automation

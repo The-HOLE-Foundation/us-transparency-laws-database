@@ -1,0 +1,77 @@
+{
+  "jurisdiction": {
+    "name": "New Jersey",
+    "slug": "new-jersey",
+    "type": "state",
+    "transparency_law": "New Jersey Open Public Records Act (OPRA)"
+  },
+  "validation_metadata": {
+    "parsed_date": "2025-10-10",
+    "source_url": "https://www.nj.gov/grc/laws/act/",
+    "verified_by": "Claude Code AI Assistant",
+    "verification_method": "Direct review of N.J.S.A. 47:1A-1 et seq. including 2024 amendments",
+    "statutory_text_file": "new_jersey_transparency_law-v0.11.txt"
+  },
+  "rights_of_access": [
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Readily Accessible Government Records",
+      "statute_citation": "N.J.S.A. 47:1A-1",
+      "description": "Legislature declares government records shall be readily accessible for inspection, copying, or examination by citizens, with limitations construed in favor of public's right of access.",
+      "conditions": "Records must be readily accessible; limitations construed favoring access; applies to citizens of New Jersey",
+      "applies_to": "All government records in New Jersey",
+      "implementation_notes": "'Readily accessible' requires affirmative agency efforts; construction favoring access resolves ambiguities for requesters; citizenship requirement may limit enforcement",
+      "request_tips": "Assert: 'N.J.S.A. 47:1A-1 declares records shall be readily accessible with limitations construed favoring public access. Please provide [records] under this presumption.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "7-Business-Day Standard Response",
+      "statute_citation": "N.J.S.A. 47:1A-5",
+      "description": "Standard requests must receive response within 7 business days. Commercial use requests extended to 14 business days under 2024 amendments.",
+      "conditions": "7 business days for standard requests; 14 business days for commercial use (effective Sept 2024); must provide written response",
+      "applies_to": "OPRA requests in New Jersey",
+      "implementation_notes": "2024 amendments differentiated commercial vs non-commercial timelines; commercial users face longer wait",
+      "request_tips": "Cite timeline: 'N.J.S.A. 47:1A-5 requires response within 7 business days for standard requests (14 for commercial). This is a [standard/commercial] request. Please respond by [date].'"
+    },
+    {
+      "category": "Fee Waiver",
+      "subcategory": "First 10 Pages Free",
+      "statute_citation": "N.J.S.A. 47:1A-5",
+      "description": "First 10 pages of copies provided at no charge. Additional pages charged at actual cost of duplication.",
+      "conditions": "First 10 pages always free; subsequent pages at actual duplication cost; electronic records at actual cost only",
+      "applies_to": "All OPRA copy requests",
+      "implementation_notes": "Ensures small requests cost nothing; actual cost standard prevents inflated fees",
+      "request_tips": "Cite free pages: 'N.J.S.A. 47:1A-5 provides first 10 pages free. Please provide at no cost, charging only actual duplication costs for additional pages.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Segregability Requirement",
+      "statute_citation": "N.J.S.A. 47:1A-5(c)",
+      "description": "Custodian shall disclose portions of a record which are not exempt under OPRA.",
+      "conditions": "Mandatory segregation; must disclose non-exempt portions; cannot withhold entire document when portions are public",
+      "applies_to": "Partially exempt records in New Jersey",
+      "implementation_notes": "Prevents overbroad withholding; agencies must perform redaction analysis and produce public portions",
+      "request_tips": "Assert segregability: 'N.J.S.A. 47:1A-5(c) requires you to disclose non-exempt portions. Please produce all non-exempt information with only specific exempt portions redacted.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Government Records Council Review",
+      "statute_citation": "N.J.S.A. 47:1A-6",
+      "description": "Person denied access may file complaint with Government Records Council (GRC). GRC provides mediation services and formal investigation with prescribed decision timeframes.",
+      "conditions": "File complaint with GRC; mediation available; formal investigation if mediation fails; appealable to Appellate Division",
+      "applies_to": "Denied OPRA requests",
+      "implementation_notes": "Specialized oversight body; mediation encourages informal resolution; formal process available if needed",
+      "request_tips": "Assert GRC appeal: 'I may file a complaint with the Government Records Council under N.J.S.A. 47:1A-6. Please reconsider to avoid GRC mediation and investigation.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Attorney Fees (2024 Amendments - Restricted)",
+      "statute_citation": "N.J.S.A. 47:1A-6",
+      "description": "Under 2024 amendments, prevailing requester entitled to attorney fees only if agency unreasonably denied access, acted in bad faith, or knowingly/willfully violated OPRA. Exception: If agency provides records within 7 days of being served, fees only if agency knew or should have known denial violated OPRA.",
+      "conditions": "Requires unreasonable denial, bad faith, or knowing violation; 7-day cure provision limits fees; more restrictive than pre-2024 law",
+      "applies_to": "OPRA litigation post-September 2024",
+      "implementation_notes": "2024 amendments significantly raised bar for attorney fees; encourages quick curing of denials within 7 days; protects agencies making good faith errors",
+      "request_tips": "Note 2024 standard: 'Under 2024 OPRA amendments, I may recover attorney fees if your denial is unreasonable, in bad faith, or knowing/willful violation. Please reconsider promptly to avoid potential fee liability.'"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "jurisdiction": {
+    "name": "Hawaii",
+    "slug": "hawaii",
+    "type": "state",
+    "transparency_law": "Uniform Information Practices Act (UIPA)"
+  },
+  "validation_metadata": {
+    "parsed_date": "2025-10-10",
+    "source_url": "https://www.capitol.hawaii.gov/hrs browsehrs/hrs_chapter/HRS_092F/",
+    "verified_by": "Claude Code AI Assistant",
+    "verification_method": "Direct review of Hawaii Revised Statutes Chapter 92F",
+    "statutory_text_file": "hawaii_transparency_law-v0.11.txt"
+  },
+  "rights_of_access": [
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Presumption of Openness",
+      "statute_citation": "HRS § 92F-11",
+      "description": "All government records are open to public inspection unless access is restricted or closed by law. This establishes Hawaii's foundational presumption favoring public access.",
+      "conditions": "Applies unless specifically restricted or closed by law; burden on government to justify withholding",
+      "applies_to": "All government records in Hawaii",
+      "implementation_notes": "Strong presumption of openness; no citizenship or residency requirement; requesters can remain anonymous; no purpose statement required",
+      "request_tips": "Assert: 'Under HRS § 92F-11, all government records are presumed open unless restricted by law. Please provide access to [records] under this statutory presumption.'"
+    },
+    {
+      "category": "Proactive Disclosure",
+      "subcategory": "16 Mandatory Disclosure Categories",
+      "statute_citation": "HRS § 92F-12",
+      "description": "Hawaii mandates disclosure of 16 categories of records including: rules and procedures, final opinions and orders, government purchasing information, land ownership records, environmental test results, meeting minutes, employee rosters, licensing information, and government contract details.",
+      "conditions": "These records must be disclosed regardless of request; agencies must make readily accessible; covers comprehensive categories of public interest information",
+      "applies_to": "All Hawaii agencies maintaining these categories of records",
+      "implementation_notes": "Unique comprehensive mandatory disclosure - one of most extensive proactive disclosure requirements in US; requesters can cite specific category when requesting",
+      "request_tips": "Cite mandatory category: 'This request seeks [category name] which HRS § 92F-12 mandates for disclosure. Please provide these records as statutorily required disclosures.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "10-Business-Day Disclosure for Public Records",
+      "statute_citation": "HRS § 92F-11",
+      "description": "Agencies must disclose government records that will be disclosed in their entirety within 10 business days of receiving the request.",
+      "conditions": "10 business days for records disclosed in entirety; applies to general public records",
+      "applies_to": "Public records requests in Hawaii",
+      "implementation_notes": "Business days, not calendar days; straightforward 10-day timeline when no redactions needed",
+      "request_tips": "Cite deadline: 'HRS § 92F-11 requires disclosure within 10 business days for records provided in their entirety. Please confirm you will meet this statutory deadline.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "10 + 5 Day Timeline for Partially Public Records",
+      "statute_citation": "HRS § 92F-11",
+      "description": "For partially public records, agencies must provide notice of segregation within 10 business days, then disclose public portions within 5 business days of the notice.",
+      "conditions": "Two-step process: 10 days to notify of segregation + 5 days to disclose public portions (total 15 business days); applies when records contain both public and exempt information",
+      "applies_to": "Requests resulting in partially disclosable records",
+      "implementation_notes": "Segregability requirement built into timeline; agencies must identify and separate public from exempt portions; total 15-day maximum for partial disclosure",
+      "request_tips": "For partial disclosure: 'HRS § 92F-11 requires notice within 10 business days if segregating records, then disclosure of public portions within 5 business days. Please comply with this two-step timeline.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Extended Timeline for Complex Requests",
+      "statute_citation": "HRS § 92F-11",
+      "description": "With extenuating circumstances, agencies must provide: (1) Written acknowledgment within 10 business days, (2) Notice of determination within 20 business days, then (3) Disclosure of public portions within 5 business days of notice.",
+      "conditions": "Requires extenuating circumstances; three-step process: 10 days acknowledgment + 20 days determination + 5 days disclosure (total 35 business days maximum); must provide written explanation",
+      "applies_to": "Complex or voluminous requests with extenuating circumstances",
+      "implementation_notes": "Extended timeline still structured and capped; agencies must justify extenuating circumstances; requesters receive acknowledgment, notice, then records in defined sequence",
+      "request_tips": "If extended timeline needed: 'Under HRS § 92F-11, extenuating circumstances permit extended timeline but require written acknowledgment within 10 days, determination within 20 days, then disclosure within 5 days. Please confirm compliance with each deadline.'"
+    },
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "Personal Records Access Rights",
+      "statute_citation": "HRS § 92F-13",
+      "description": "Individuals have the right to access their own personal records maintained by agencies, with agencies required to permit review and copying within 10 working days (extendable 20 working days for unusual circumstances).",
+      "conditions": "10 working days for personal records access; may be extended 20 additional working days with written explanation of unusual circumstances; applies to records about the requesting individual",
+      "applies_to": "Individuals seeking their own personal records from Hawaii agencies",
+      "implementation_notes": "Separate timeline for personal records; provides individuals special access to information about themselves; supports privacy and accuracy rights",
+      "request_tips": "For personal records: 'HRS § 92F-13 grants me the right to review and copy my personal records within 10 working days. Please provide access within this statutory timeframe.'"
+    },
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "Right to Correct Personal Records",
+      "statute_citation": "HRS § 92F-23 to 92F-27",
+      "description": "Individuals have the right to correct factual errors in their personal records maintained by agencies. Agencies must respond to correction requests and make corrections when warranted.",
+      "conditions": "Applies to factual information in personal records; requester must demonstrate error; agency must respond to correction request",
+      "applies_to": "Individuals seeking to correct inaccurate personal information",
+      "implementation_notes": "Unique correction right - individuals can ensure accuracy of government records about themselves; supports data integrity and privacy protection",
+      "request_tips": "Request correction: 'Under HRS §§ 92F-23 to 92F-27, I have the right to correct factual errors in my personal records. Please review the evidence I have provided and make the requested corrections.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Office of Information Practices Appeal",
+      "statute_citation": "HRS § 92F-42",
+      "description": "Individuals may appeal denials to the Office of Information Practices (OIP), an independent oversight body created to administer UIPA. OIP provides expert review of denials.",
+      "conditions": "Administrative appeal to OIP; independent expert review; OIP provides advisory opinions and enforcement",
+      "applies_to": "Denied UIPA requests in Hawaii",
+      "implementation_notes": "Hawaii's unique independent oversight agency - OIP provides specialized UIPA expertise; administrative appeal before judicial review; free process for requesters",
+      "request_tips": "Assert appeal right: 'Under HRS § 92F-42, I may appeal this denial to the Office of Information Practices. Please reconsider or I will pursue an OIP appeal.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Judicial Review and Attorney Fees",
+      "statute_citation": "HRS § 92F-15",
+      "description": "Judicial review is available for agency denials. Courts may award attorney's fees and damages for wrongful denials.",
+      "conditions": "Judicial review available; court may award attorney fees; potential damages for violations",
+      "applies_to": "UIPA violations in Hawaii",
+      "implementation_notes": "Fee-shifting and damages provisions make judicial enforcement financially viable; strengthens accountability for improper denials",
+      "request_tips": "Warn of litigation: 'HRS § 92F-15 provides for attorney fees and damages if I prevail in court. This makes pursuing judicial review financially feasible.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "No Purpose Requirement",
+      "statute_citation": "HRS § 92F (general provisions)",
+      "description": "Hawaii does not require requesters to state purpose for requesting records. No restrictions on how public records can be used. Requesters can typically remain anonymous.",
+      "conditions": "No purpose statement needed; anonymous requests permitted; no use restrictions",
+      "applies_to": "All UIPA requests",
+      "implementation_notes": "Removes common barrier to access - requesters need not justify or explain their interest; supports accountability journalism and citizen oversight",
+      "request_tips": "Assert right: 'Hawaii UIPA does not require me to state my purpose or identify myself. Please process this request without requiring purpose justification or identification.'"
+    }
+  ]
+}

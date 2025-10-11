@@ -1,0 +1,87 @@
+{
+  "jurisdiction": {
+    "name": "New Mexico",
+    "slug": "new-mexico",
+    "type": "state",
+    "transparency_law": "New Mexico Inspection of Public Records Act (IPRA)"
+  },
+  "validation_metadata": {
+    "parsed_date": "2025-10-10",
+    "source_url": "https://nmonesource.com/nmos/nmsa/en/item/4340/index.do",
+    "verified_by": "Claude Code AI Assistant",
+    "verification_method": "Direct review of NMSA 1978, Sections 14-2-1 to 14-2-12",
+    "statutory_text_file": "new_mexico_transparency_law-v0.11.txt"
+  },
+  "rights_of_access": [
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Greatest Possible Information Right",
+      "statute_citation": "NMSA 14-2-1",
+      "description": "Legislature declares it the public policy of New Mexico that all persons are entitled to the greatest possible information regarding the affairs of government and the official acts of public officers and employees. Providing persons with such information is an essential function of representative government and an integral part of routine duties of public officers.",
+      "conditions": "Applies to all persons; 'greatest possible information' standard; essential government function; routine duty of officials",
+      "applies_to": "All government information in New Mexico",
+      "implementation_notes": "Strongest policy statement - not just access but 'greatest possible information'; elevates transparency to essential government function and routine official duty",
+      "request_tips": "Assert: 'NMSA 14-2-1 declares I am entitled to the greatest possible information about government. Providing information is your essential function and routine duty. Please provide [records] under this statutory mandate.'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Every Person Has Right to Inspect",
+      "statute_citation": "NMSA 14-2-1",
+      "description": "Every person has a right to inspect public records of this state except as provided in the Inspection of Public Records Act.",
+      "conditions": "Applies to every person; no residency requirement; no purpose requirement; applies unless specific IPRA exemption",
+      "applies_to": "All public records in New Mexico",
+      "implementation_notes": "Universal access - no citizenship, residency, or identification requirements; burden on government to prove specific exemption",
+      "request_tips": "Assert: 'NMSA 14-2-1 grants every person the right to inspect public records. Please provide access to [records] unless you can cite specific IPRA exemption.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Immediate or As Soon As Practicable",
+      "statute_citation": "NMSA 14-2-8",
+      "description": "Records custodians must permit inspection immediately or as soon as practicable, with maximum response time of 15 calendar days. If not permitted within 3 business days, written response required explaining when available.",
+      "conditions": "Immediate or ASAP preferred; 3 business days triggers written explanation requirement; 15 calendar days absolute maximum",
+      "applies_to": "All IPRA requests",
+      "implementation_notes": "Dual standard - encourages immediate access, requires explanation after 3 days, caps at 15 calendar days; progressive accountability",
+      "request_tips": "Cite timeline: 'NMSA 14-2-8 requires immediate inspection or as soon as practicable, maximum 15 calendar days. If not available within 3 business days, please provide written explanation of when records will be available.'"
+    },
+    {
+      "category": "Fee Waiver",
+      "subcategory": "No Search Fees Permitted",
+      "statute_citation": "NMSA 14-2-9",
+      "description": "New Mexico explicitly prohibits search fees. Agencies may only charge reasonable fees for copies, limited to actual cost of copying.",
+      "conditions": "Search fees absolutely prohibited; copying fees limited to actual cost only; no labor charges for locating or reviewing records",
+      "applies_to": "All fee charges in New Mexico",
+      "implementation_notes": "Strong fee limitation - one of few states explicitly prohibiting search fees; prevents cost from being barrier to access",
+      "request_tips": "Assert no-search-fee rule: 'NMSA 14-2-9 prohibits search fees in New Mexico. You may only charge actual copying costs. Please confirm no search fees will be charged for this request.'"
+    },
+    {
+      "category": "Fee Waiver",
+      "subcategory": "Actual Cost Standard",
+      "statute_citation": "NMSA 14-2-9",
+      "description": "Agencies may charge reasonable fees for copies but fees must be kept to actual cost of copying. Typical fee is $0.25 per side.",
+      "conditions": "Must be reasonable; limited to actual copying cost; cannot include overhead or labor beyond copying",
+      "applies_to": "Copying fees in New Mexico",
+      "implementation_notes": "Actual cost standard prevents inflated fees; 25¢ per side typical rate keeps costs minimal",
+      "request_tips": "Challenge excessive fees: 'NMSA 14-2-9 limits copy fees to actual copying cost only. Please provide fee breakdown showing actual costs, not estimates or overhead.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Attorney General Enforcement Authority",
+      "statute_citation": "NMSA 14-2-11",
+      "description": "Attorney General has statutory authority to enforce IPRA. AG's Government Counsel & Accountability team reviews complaints, attempts informal resolution, and can file lawsuit if violation found and informal resolution fails.",
+      "conditions": "File complaint with AG; AG investigates; AG may litigate on behalf of requester; provides free expert enforcement",
+      "applies_to": "IPRA violations in New Mexico",
+      "implementation_notes": "Powerful enforcement - AG acts as advocate for requesters; expert review; can pursue litigation at state expense; accessible remedy for citizens",
+      "request_tips": "Assert AG complaint: 'NMSA 14-2-11 authorizes the Attorney General to enforce IPRA. I may file a complaint with the AG's office, which can investigate and pursue legal action on my behalf. Please reconsider to avoid AG involvement.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "District Court Mandamus with Attorney Fees",
+      "statute_citation": "NMSA 14-2-11",
+      "description": "Individual requesters may file mandamus actions in district court to compel disclosure. Courts may award attorney's fees to prevailing requesters. Injunctive relief also available.",
+      "conditions": "District court jurisdiction; mandamus and injunctive relief available; attorney fees discretionary for prevailing requesters",
+      "applies_to": "IPRA enforcement litigation",
+      "implementation_notes": "Direct judicial remedy available; fee provision helps offset litigation costs; mandamus provides swift relief mechanism",
+      "request_tips": "Warn of litigation: 'NMSA 14-2-11 permits mandamus actions with potential attorney fee awards. I am prepared to pursue judicial enforcement if you continue denying lawful access.'"
+    }
+  ]
+}

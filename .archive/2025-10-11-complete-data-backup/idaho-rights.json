@@ -1,0 +1,97 @@
+{
+  "jurisdiction": {
+    "name": "Idaho",
+    "slug": "idaho",
+    "type": "state",
+    "transparency_law": "Idaho Public Records Act"
+  },
+  "validation_metadata": {
+    "parsed_date": "2025-10-10",
+    "source_url": "https://legislature.idaho.gov/statutesrules/idstat/title74/t74ch1/",
+    "verified_by": "Claude Code AI Assistant",
+    "verification_method": "Direct review of Idaho Code Title 74, Chapter 1",
+    "statutory_text_file": "idaho_transparency_law-v0.11.txt"
+  },
+  "rights_of_access": [
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Universal Right to Examine and Copy",
+      "statute_citation": "Idaho Code § 74-102",
+      "description": "Every person has a right to examine and take a copy of any public record of this state. All public records are open to public inspection unless specifically exempted by statute.",
+      "conditions": "Applies to any person (individual or entity); open at all reasonable times; must be specifically exempted by statute to withhold",
+      "applies_to": "All public records in Idaho",
+      "implementation_notes": "Broad definition of 'person' includes corporations and other entities; strong presumption toward disclosure; no purpose requirement",
+      "request_tips": "Assert: 'Idaho Code § 74-102 grants every person the right to examine and copy public records. Please provide access to [records] under this statutory right.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "3-Working-Day Response for Residents",
+      "statute_citation": "Idaho Code § 74-103",
+      "description": "For Idaho residents, agencies must grant or deny request for examination or copying within 3 working days. If longer time needed, must notify in writing and provide records within 10 working days.",
+      "conditions": "3 working days for initial response (residents only); may extend to 10 working days with written notice; working days exclude weekends/holidays",
+      "applies_to": "Requests by Idaho residents",
+      "implementation_notes": "Fast response timeline for residents; total maximum 10 working days with extension; creates accountability for timely production",
+      "request_tips": "Cite resident timeline: 'As an Idaho resident, Idaho Code § 74-103 requires you to respond within 3 working days or notify me of extension up to 10 working days total. Please confirm compliance.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Non-Resident Access",
+      "statute_citation": "Idaho Code § 74-103",
+      "description": "Non-residents may request Idaho public records but response timeline is up to 35 days following request.",
+      "conditions": "Up to 35 days for non-residents (no residency verification typically required); longer timeline than residents",
+      "applies_to": "Requests by non-Idaho residents",
+      "implementation_notes": "Idaho distinguishes residents from non-residents in response time; however, agencies typically don't verify residency unless specifically challenged",
+      "request_tips": "For non-residents: 'Idaho Code § 74-103 permits up to 35 days for non-resident requests. I request production as soon as feasible within this timeframe.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Separability Requirement",
+      "statute_citation": "Idaho Code § 74-112",
+      "description": "When a record contains both exempt and non-exempt material, the custodian shall separate the exempt and non-exempt material and make the non-exempt material available for examination.",
+      "conditions": "Mandatory segregation of exempt from non-exempt; custodian cannot withhold entire document when portions are public",
+      "applies_to": "Records containing both public and exempt information",
+      "implementation_notes": "Prevents overbroad withholding; agencies must perform redaction analysis; supports maximum disclosure principle",
+      "request_tips": "Assert segregability: 'Idaho Code § 74-112 requires you to segregate exempt from non-exempt material. Please produce all non-exempt portions with only specific exempt information redacted.'"
+    },
+    {
+      "category": "Fee Waiver",
+      "subcategory": "Public Interest Fee Waiver",
+      "statute_citation": "Idaho Code § 74-102",
+      "description": "Agencies may waive fees if request contributes significantly to public understanding of government operations or activities. This recognizes public benefit from transparency.",
+      "conditions": "Discretionary waiver; must demonstrate request serves public understanding; agencies evaluate public interest significance",
+      "applies_to": "Requests serving public understanding in Idaho",
+      "implementation_notes": "Public interest fee waiver encourages accountability journalism and citizen oversight; requesters should explain public benefit when seeking waiver",
+      "request_tips": "Request waiver: 'This request contributes significantly to public understanding of [government operations]. Idaho Code § 74-102 permits fee waiver for such requests. Please waive fees given the public interest.'"
+    },
+    {
+      "category": "Fee Waiver",
+      "subcategory": "Actual Cost Standard",
+      "statute_citation": "Idaho Code § 74-102",
+      "description": "Fees cannot exceed actual labor and copying costs, calculated based on lowest-paid staff member capable of performing the task.",
+      "conditions": "Limited to actual costs only; must use lowest-paid capable staff member for calculation; prevents inflated fees",
+      "applies_to": "All copying and labor fees in Idaho",
+      "implementation_notes": "Cost calculation standard prevents agencies from overcharging; using lowest-paid capable staff keeps fees reasonable",
+      "request_tips": "Challenge excessive fees: 'Idaho Code § 74-102 limits fees to actual costs using lowest-paid capable staff. Please provide fee breakdown showing actual costs only.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Judicial Review with Burden on Agency",
+      "statute_citation": "Idaho Code § 74-115 through 74-117",
+      "description": "Denied requesters may file suit in district court. Burden of proof is on the agency to justify withholding. Court may order disclosure and award attorney fees if request not frivolously pursued.",
+      "conditions": "File in district court of county where records located; agency bears burden to prove exemption; attorney fees available for non-frivolous requests",
+      "applies_to": "Denied public records requests in Idaho",
+      "implementation_notes": "Burden-shifting empowers requesters; attorney fee provision (even for non-prevailing requests if not frivolous) encourages access",
+      "request_tips": "Warn of judicial review: 'Idaho Code §§ 74-115 to 74-117 grant me the right to judicial review where you bear the burden of proving exemptions apply. Attorney fees may be awarded.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Penalties for Improper Denial",
+      "statute_citation": "Idaho Code § 74-117",
+      "description": "Penalties up to $1,000 for public officials who deliberately refuse access improperly. This provides accountability for willful violations.",
+      "conditions": "Requires deliberate improper refusal; penalties up to $1,000; applies to public officials",
+      "applies_to": "Public officials who improperly deny access",
+      "implementation_notes": "Penalty provision deters bad faith denials; focuses on deliberate rather than negligent violations",
+      "request_tips": "Warn of penalties: 'Idaho Code § 74-117 provides penalties up to $1,000 for deliberately refusing access improperly. Please ensure your decision complies with the law.'"
+    }
+  ]
+}

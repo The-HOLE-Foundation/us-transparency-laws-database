@@ -1,0 +1,107 @@
+{
+  "jurisdiction": {
+    "name": "Pennsylvania",
+    "slug": "pennsylvania",
+    "type": "state",
+    "transparency_law": "Pennsylvania Right-to-Know Law"
+  },
+  "validation_metadata": {
+    "parsed_date": "2025-10-10",
+    "source_url": "https://www.legis.state.pa.us/WU01/LI/LI/US/HTM/2008/0/0003..HTM",
+    "verified_by": "Claude Code AI Assistant",
+    "verification_method": "Direct review of 65 P.S. §§ 67.101-67.3104",
+    "statutory_text_file": "PENNSYLVANIA_transparency_law-v0.11.txt"
+  },
+  "rights_of_access": [
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Maximize Access / Minimize Denials Intent",
+      "statute_citation": "65 P.S. § 67.102(b)",
+      "description": "It is the intent of the General Assembly that this act be construed to maximize access to records maintained by agencies and to minimize the reasons for denying access to records. This establishes Pennsylvania's strong pro-access framework.",
+      "conditions": "Applies to all Right-to-Know Law interpretations; courts and agencies must construe to maximize access and minimize denial reasons",
+      "applies_to": "All interpretations of Pennsylvania Right-to-Know Law",
+      "implementation_notes": "Explicit maximize/minimize mandate - stronger than typical liberal construction language; requires affirmative bias toward disclosure",
+      "request_tips": "Cite intent: '65 P.S. § 67.102(b) requires this law be construed to maximize access and minimize denial reasons. Please interpret any ambiguity in favor of providing [records].'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Presumption of Public Access",
+      "statute_citation": "65 P.S. § 67.102(c) and § 67.301(a)",
+      "description": "This act shall be construed with a presumption that the records of an agency are accessible to the public. All records in possession of agencies shall be presumed to be public records.",
+      "conditions": "Strong presumption favoring access; burden on agency to prove exemption; applies unless record specifically exempt or privileged",
+      "applies_to": "All agency records in Pennsylvania",
+      "implementation_notes": "Dual presumption - statute construed for access AND records presumed public; shifts burden entirely to government to justify withholding",
+      "request_tips": "Assert presumption: '65 P.S. §§ 67.102(c) and 67.301(a) create presumption that agency records are public. Please provide [records] under this statutory presumption unless you can prove specific exemption applies.'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Right to Inspection and Duplication",
+      "statute_citation": "65 P.S. § 67.301(b)",
+      "description": "A public record shall be accessible for inspection and duplication by a requester in accordance with this act.",
+      "conditions": "Dual right to inspect AND duplicate; applies to all public records; requester chooses access method",
+      "applies_to": "All public records in Pennsylvania",
+      "implementation_notes": "Requester controls whether to inspect, duplicate, or both; agencies must accommodate either form of access",
+      "request_tips": "Assert: '65 P.S. § 67.301(b) grants me the right to inspect and duplicate [records]. Please provide access for [inspection/duplication/both] as I elect.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Designated Open-Records Officer",
+      "statute_citation": "65 P.S. § 67.502",
+      "description": "Each agency shall designate an open-records officer who shall be responsible for ensuring compliance with this act.",
+      "conditions": "Mandatory designation; officer responsible for compliance; provides accountability contact point",
+      "applies_to": "All Pennsylvania agencies",
+      "implementation_notes": "Creates clear point of contact and accountability; open-records officer must know and enforce the law",
+      "request_tips": "Request officer info: '65 P.S. § 67.502 requires you to designate an open-records officer. Please direct this request to your designated officer and provide their contact information.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "5-Business-Day Response Requirement",
+      "statute_citation": "65 P.S. § 67.901(b)",
+      "description": "Except as otherwise provided, an agency shall respond within five business days of receipt of the request. The response shall inform the requester whether the request is granted or denied.",
+      "conditions": "5 business days for response; must grant or deny (not just acknowledge); business days exclude weekends/holidays",
+      "applies_to": "All Right-to-Know requests in Pennsylvania",
+      "implementation_notes": "Fast response timeline; substantive response required (not mere acknowledgment); deemed denied if no timely response",
+      "request_tips": "Cite deadline: '65 P.S. § 67.901(b) requires response within 5 business days informing me whether request is granted or denied. Please respond by [specific date].'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Deemed Denial for Non-Response",
+      "statute_citation": "65 P.S. § 67.901(c)",
+      "description": "If an agency fails to respond within five business days of receipt of the request, the request shall be deemed denied.",
+      "conditions": "Automatic deemed denial after 5 business days; creates basis for appeal without waiting indefinitely",
+      "applies_to": "Unanswered requests in Pennsylvania",
+      "implementation_notes": "Strong accountability - silence equals denial; prevents indefinite delays; requester can immediately pursue appeal",
+      "request_tips": "After deadline: '65 P.S. § 67.901(c) deems this request denied due to your failure to respond within 5 business days. I am treating this as a denial and may pursue available remedies.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "30-Day Production After Grant",
+      "statute_citation": "65 P.S. § 67.901(d)",
+      "description": "Upon granting a request for access, the agency shall fulfill the request as soon as possible, but no later than 30 days from the date of the response, unless access cannot be provided within 30 days due to the total scope of the request.",
+      "conditions": "30 days maximum from grant date; must fulfill as soon as possible within this cap; extension permitted only for total scope issues",
+      "applies_to": "Granted requests in Pennsylvania",
+      "implementation_notes": "Clear production deadline after approval; 'as soon as possible' requires production before 30 days when feasible; scope-based extensions must be justified",
+      "request_tips": "After grant: '65 P.S. § 67.901(d) requires you to fulfill this granted request within 30 days, as soon as possible. Please confirm production date within this statutory timeframe.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Office of Open Records Appeal",
+      "statute_citation": "65 P.S. § 67.1101 and § 67.1301",
+      "description": "Requester denied access may file appeal with Office of Open Records (OOR) within 15 business days of denial or deemed denial. Appeals officer shall issue final determination within 30 days unless extension necessary.",
+      "conditions": "Must file within 15 business days; OOR issues final determination in 30 days (extendable); provides independent expert administrative review",
+      "applies_to": "Denied Right-to-Know requests",
+      "implementation_notes": "Pennsylvania's dedicated oversight office; expert appeals officers; faster and cheaper than court; 15-day deadline is strict",
+      "request_tips": "Assert appeal: 'I may appeal this denial to the Office of Open Records within 15 business days under 65 P.S. §§ 67.1101 and 67.1301. Please reconsider or I will pursue OOR review.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Court Review of OOR Determinations",
+      "statute_citation": "65 P.S. § 67.1302",
+      "description": "A requester or agency aggrieved by a final OOR determination may file petition for review with court of common pleas within 30 days of the mailing date of the final determination.",
+      "conditions": "Must file within 30 days of OOR final determination; court of common pleas jurisdiction; available to requesters and agencies",
+      "applies_to": "OOR final determinations",
+      "implementation_notes": "Judicial review safety valve; 30-day deadline is strict; two-tier system (OOR then court) provides thorough review",
+      "request_tips": "For adverse OOR decision: 'I may petition the court of common pleas within 30 days under 65 P.S. § 67.1302 for review of this OOR determination.'"
+    }
+  ]
+}

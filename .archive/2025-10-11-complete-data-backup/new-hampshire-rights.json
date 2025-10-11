@@ -1,0 +1,67 @@
+{
+  "jurisdiction": {
+    "name": "New Hampshire",
+    "slug": "new-hampshire",
+    "type": "state",
+    "transparency_law": "New Hampshire Right-to-Know Law"
+  },
+  "validation_metadata": {
+    "parsed_date": "2025-10-10",
+    "source_url": "https://gencourt.state.nh.us/rsa/html/VI/91-A/91-A-mrg.htm",
+    "verified_by": "Claude Code AI Assistant",
+    "verification_method": "Direct review of RSA Chapter 91-A",
+    "statutory_text_file": "new_hampshire_transparency_law-v0.11.txt"
+  },
+  "rights_of_access": [
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Citizen Right to Inspect and Copy",
+      "statute_citation": "RSA 91-A:4-I",
+      "description": "Every citizen during regular or business hours has the right to inspect all governmental records in possession, custody, or control of public bodies, and to make memoranda, abstracts, photographic or photostatic copies of records or portions thereof.",
+      "conditions": "Applies to citizens; during regular/business hours; right to inspect AND make various types of copies/abstracts",
+      "applies_to": "All governmental records in New Hampshire",
+      "implementation_notes": "Citizenship requirement may limit enforcement; flexible copying methods (memoranda, abstracts, photos, photostats) ensure access regardless of technology",
+      "request_tips": "Assert: 'As a citizen, RSA 91-A:4-I grants me the right to inspect [records] and make copies, memoranda, or abstracts during your business hours. Please accommodate this access.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "5-Business-Day Response Requirement",
+      "statute_citation": "RSA 91-A:4-II",
+      "description": "After receiving request, public body shall make record available no later than 5 business days. Body may make immediately available, deny request, or if unable to determine, notify requester with estimated date/time and any fees.",
+      "conditions": "5 business days maximum; three response options (provide, deny, or estimate); estimate must include timeline and fees",
+      "applies_to": "All Right-to-Know requests",
+      "implementation_notes": "Clear deadline; estimate option provides flexibility while maintaining transparency about delays and costs",
+      "request_tips": "Cite deadline: 'RSA 91-A:4-II requires you to respond within 5 business days by providing records, denying, or giving estimated timeline with fees. Please respond by [date].'"
+    },
+    {
+      "category": "Fee Waiver",
+      "subcategory": "Actual Cost Standard",
+      "statute_citation": "RSA 91-A:4-IV",
+      "description": "Custodian may charge for copies but fees cannot exceed actual costs. Must provide itemized list of charges. Payment may be required in advance.",
+      "conditions": "Limited to actual costs only; itemized billing required; advance payment permitted",
+      "applies_to": "All copying fees in New Hampshire",
+      "implementation_notes": "Actual cost limitation prevents inflated fees; itemization requirement ensures transparency in fee calculation",
+      "request_tips": "Request itemization: 'RSA 91-A:4-IV limits fees to actual costs and requires itemized charges. Please provide itemized fee breakdown showing only actual costs incurred.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Right-to-Know Ombudsman",
+      "statute_citation": "RSA 91-A:7",
+      "description": "Any person aggrieved by a violation may file a complaint with the Right-to-Know Ombudsman. Ombudsman provides accessible oversight and assistance.",
+      "conditions": "File complaint with Ombudsman; provides investigation and guidance; accessible administrative remedy",
+      "applies_to": "Right-to-Know violations in New Hampshire",
+      "implementation_notes": "Unique ombudsman system provides accessible expert assistance; informal resolution option before litigation",
+      "request_tips": "Assert ombudsman option: 'I may file a complaint with the Right-to-Know Ombudsman under RSA 91-A:7. Please reconsider to avoid ombudsman involvement.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Superior Court with Attorney Fees and Penalties",
+      "statute_citation": "RSA 91-A:7, 91-A:8",
+      "description": "Person aggrieved may petition superior court for injunctive relief. Court may award attorney fees and costs to prevailing plaintiff, impose civil penalties up to $2,000, and order mandatory training for officials.",
+      "conditions": "Superior court jurisdiction; injunctive relief available; attorney fees for prevailing plaintiffs; civil penalties up to $2,000; mandatory training orders possible",
+      "applies_to": "Right-to-Know violations requiring judicial intervention",
+      "implementation_notes": "Comprehensive remedies - fees, penalties, AND training orders; knowing and willful violations may result in removal from office",
+      "request_tips": "Warn of consequences: 'RSA 91-A:8 authorizes court to award attorney fees, impose civil penalties up to $2,000, and order mandatory training. Knowing violations may result in removal from office. Please comply.'"
+    }
+  ]
+}

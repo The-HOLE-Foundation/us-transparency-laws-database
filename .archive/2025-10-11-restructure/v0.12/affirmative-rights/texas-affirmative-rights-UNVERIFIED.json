@@ -1,0 +1,345 @@
+{
+  "jurisdiction": {
+    "slug": "texas",
+    "name": "Texas"
+  },
+  "statute_name": "Texas Public Information Act",
+  "extraction_date": "2025-10-08",
+  "extraction_method": "automated_pattern_matching",
+  "requires_manual_verification": true,
+  "affirmative_rights": [
+    {
+      "right_id": "texas-001",
+      "section": "552.021",
+      "assertion_type": "affirmative_disclosure",
+      "foia_template": "As per 552.021 of the Texas Public Information Act, [RECORD_TYPE] is public information and cannot be exempted from disclosure.",
+      "statutory_basis": "Added by Acts 1993, 73rd Leg., ch. 268, Sec. 1, eff. Sept. 1, 1993. Amended by Acts 1995, 74th Leg., ch. 1035, Sec. 2, eff. Sept. 1, 1995. Sec. 552.0215. RIGHT OF ACCESS TO CERTAIN INFORMATION AFTER 75 YEARS. (a) Except as provided by Section 552.147, the confidentiality provisions of this chapter, or other law, information that is not confidential but is excepted from required disclosure under Subchapter C is public information and is available to the public on or after the 75th anniversary of ",
+      "source_verified": false,
+      "verification_notes": "Auto-extracted from line 368, requires manual verification"
+    },
+    {
+      "right_id": "texas-002",
+      "section": "552.021",
+      "assertion_type": "affirmative_disclosure",
+      "foia_template": "As per 552.021 of the Texas Public Information Act, [RECORD_TYPE] is public information and cannot be exempted from disclosure.",
+      "statutory_basis": "Added by Acts 2011, 82nd Leg., R.S., Ch. 462 (S.B. 1907), Sec. 1, eff. September 1, 2011. Sec. 552.022. CATEGORIES OF PUBLIC INFORMATION; EXAMPLES. (a) Without limiting the amount or kind of information that is public information under this chapter, the following categories of information are public information and not excepted from required disclosure unless made confidential under this chapter or other law: (1) a completed report, audit, evaluation, or investigation made of, for, or by a gover",
+      "source_verified": false,
+      "verification_notes": "Auto-extracted from line 374, requires manual verification"
+    },
+    {
+      "right_id": "texas-003",
+      "section": "552.0221",
+      "assertion_type": "affirmative_disclosure",
+      "foia_template": "As per 552.0221 of the Texas Public Information Act, [RECORD_TYPE] is public information and cannot be exempted from disclosure.",
+      "statutory_basis": "Acts 2011, 82nd Leg., R.S., Ch. 1229 (S.B. 602), Sec. 2, eff. September 1, 2011. Sec. 552.0221. EMPLOYEE OR TRUSTEE OF PUBLIC EMPLOYEE PENSION SYSTEM. (a) Information concerning the employment of an employee of a public employee pension system is public information under the terms of this chapter, including information concerning the income, salary, benefits, and bonuses received from the pension system by the employee in the person's capacity as an employee of the system, and is not removed fro",
+      "source_verified": false,
+      "verification_notes": "Auto-extracted from line 404, requires manual verification"
+    },
+    {
+      "right_id": "texas-004",
+      "section": "552.0221",
+      "assertion_type": "affirmative_disclosure",
+      "foia_template": "As per 552.0221 of the Texas Public Information Act, [RECORD_TYPE] is public information and cannot be exempted from disclosure.",
+      "statutory_basis": "Sec. 552.0221. EMPLOYEE OR TRUSTEE OF PUBLIC EMPLOYEE PENSION SYSTEM. (a) Information concerning the employment of an employee of a public employee pension system is public information under the terms of this chapter, including information concerning the income, salary, benefits, and bonuses received from the pension system by the employee in the person's capacity as an employee of the system, and is not removed from the application of this chapter, made confidential, or otherwise excepted from ",
+      "source_verified": false,
+      "verification_notes": "Auto-extracted from line 405, requires manual verification"
+    },
+    {
+      "right_id": "texas-005",
+      "section": "552.103",
+      "assertion_type": "affirmative_disclosure",
+      "foia_template": "As per 552.103 of the Texas Public Information Act, [RECORD_TYPE] is public information and cannot be exempted from disclosure.",
+      "statutory_basis": "Sec. 552.104. EXCEPTION: INFORMATION RELATED TO COMPETITION OR BIDDING. (a) Information is excepted from the requirements of Section 552.021 if a governmental body demonstrates that release of the information would harm its interests by providing an advantage to a competitor or bidder in a particular ongoing competitive situation or in a particular competitive situation where the governmental body establishes the situation at issue is set to reoccur or there is a specific and demonstrable intent",
+      "source_verified": false,
+      "verification_notes": "Auto-extracted from line 574, requires manual verification"
+    },
+    {
+      "right_id": "texas-006",
+      "section": "552.112",
+      "assertion_type": "affirmative_disclosure",
+      "foia_template": "As per 552.112 of the Texas Public Information Act, [RECORD_TYPE] is public information and cannot be exempted from disclosure.",
+      "statutory_basis": "(B) in compliance with the requirements of any law, rule, lease, or agreement. (2) \"Electric logs\" has the same meaning as it has in Chapter 91, Natural Resources Code. (3) \"Administrative applications\" and \"administrative proceedings\" include applications for pooling or unitization, review of shut-in royalty payments, review of leases or other agreements to determine their validity, review of any plan of operations, review of the obligation to drill offset wells, or an application to pay compen",
+      "source_verified": false,
+      "verification_notes": "Auto-extracted from line 755, requires manual verification"
+    },
+    {
+      "right_id": "texas-007",
+      "section": "552.114",
+      "assertion_type": "affirmative_disclosure",
+      "foia_template": "As per 552.114 of the Texas Public Information Act, [RECORD_TYPE] is public information and cannot be exempted from disclosure.",
+      "statutory_basis": "Sec. 552.115. EXCEPTION: CONFIDENTIALITY OF BIRTH AND DEATH RECORDS. (a) A birth or death record maintained by the vital statistics unit of the Department of State Health Services or a local registration official is excepted from the requirements of Section 552.021, except that: (1) a birth record is public information and available to the public on and after the 75th anniversary of the date of birth as shown on the record filed with the vital statistics unit or local registration official; (2) ",
+      "source_verified": false,
+      "verification_notes": "Auto-extracted from line 794, requires manual verification"
+    },
+    {
+      "right_id": "texas-008",
+      "section": "552.114",
+      "assertion_type": "affirmative_disclosure",
+      "foia_template": "As per 552.114 of the Texas Public Information Act, [RECORD_TYPE] is public information and cannot be exempted from disclosure.",
+      "statutory_basis": "Sec. 552.115. EXCEPTION: CONFIDENTIALITY OF BIRTH AND DEATH RECORDS. (a) A birth or death record maintained by the vital statistics unit of the Department of State Health Services or a local registration official is excepted from the requirements of Section 552.021, except that: (1) a birth record is public information and available to the public on and after the 75th anniversary of the date of birth as shown on the record filed with the vital statistics unit or local registration official; (2) ",
+      "source_verified": false,
+      "verification_notes": "Auto-extracted from line 795, requires manual verification"
+    },
+    {
+      "right_id": "texas-009",
+      "section": "7.38",
+      "assertion_type": "affirmative_disclosure",
+      "foia_template": "As per 7.38 of the Texas Public Information Act, [RECORD_TYPE] is public information and cannot be exempted from disclosure.",
+      "statutory_basis": "Sec. 552.115. EXCEPTION: CONFIDENTIALITY OF BIRTH AND DEATH RECORDS. (a) A birth or death record maintained by the vital statistics unit of the Department of State Health Services or a local registration official is excepted from the requirements of Section 552.021, except that: (1) a birth record is public information and available to the public on and after the 75th anniversary of the date of birth as shown on the record filed with the vital statistics unit or local registration official; (2) ",
+      "source_verified": false,
+      "verification_notes": "Auto-extracted from line 796, requires manual verification"
+    },
+    {
+      "right_id": "texas-010",
+      "section": "7.38",
+      "assertion_type": "affirmative_disclosure",
+      "foia_template": "As per 7.38 of the Texas Public Information Act, [RECORD_TYPE] is public information and cannot be exempted from disclosure.",
+      "statutory_basis": "(1) a birth record is public information and available to the public on and after the 75th anniversary of the date of birth as shown on the record filed with the vital statistics unit or local registration official; (2) a death record is public information and available to the public on and after the 25th anniversary of the date of death as shown on the record filed with the vital statistics unit or local registration official, except that if the decedent is unidentified, the death record is pub",
+      "source_verified": false,
+      "verification_notes": "Auto-extracted from line 797, requires manual verification"
+    },
+    {
+      "right_id": "texas-011",
+      "section": "UNKNOWN",
+      "assertion_type": "affirmative_disclosure",
+      "foia_template": "As per UNKNOWN of the Texas Public Information Act, [RECORD_TYPE] is public information and cannot be exempted from disclosure.",
+      "statutory_basis": "(1) a municipally owned utility's rate review process; (2) the method a municipality or municipally owned utility uses to set rates for retail electric service; or (3) the method a municipality or municipally owned utility uses to set rates for a chilled water program described by Subsection (a-1)(3)(P). (c) The requirement of Section 552.022 that a category of information listed under Section 552.022(a) is public information and not excepted from required disclosure under this chapter unless ex",
+      "source_verified": false,
+      "verification_notes": "Auto-extracted from line 1278, requires manual verification"
+    },
+    {
+      "right_id": "texas-012",
+      "section": "552.2211",
+      "assertion_type": "affirmative_disclosure",
+      "foia_template": "As per 552.2211 of the Texas Public Information Act, [RECORD_TYPE] is public information and cannot be exempted from disclosure.",
+      "statutory_basis": "Sec. 552.2211. PRODUCTION OF PUBLIC INFORMATION WHEN ADMINISTRATIVE OFFICES CLOSED. (a) Except as provided by Section 552.233, if a governmental body closes its physical offices, but requires staff to work, including remotely, then the governmental body shall make a good faith effort to continue responding to applications for public information, to the extent staff have access to public information responsive to an application, pursuant to this chapter while its administrative offices are closed",
+      "source_verified": false,
+      "verification_notes": "Auto-extracted from line 1811, requires manual verification"
+    },
+    {
+      "right_id": "texas-013",
+      "section": "552.301",
+      "assertion_type": "affirmative_disclosure",
+      "foia_template": "As per 552.301 of the Texas Public Information Act, [RECORD_TYPE] is public information and cannot be exempted from disclosure.",
+      "statutory_basis": "(e-1) A governmental body that submits written comments to the attorney general under Subsection (e)(1)(A) shall send a copy of those comments to the person who requested the information from the governmental body not later than the 15th business day after the date of receiving the written request. If the written comments disclose or contain the substance of the information requested, the copy of the comments provided to the person must be a redacted copy. (f) A governmental body must release th",
+      "source_verified": false,
+      "verification_notes": "Auto-extracted from line 2230, requires manual verification"
+    },
+    {
+      "right_id": "texas-014",
+      "section": "552.309",
+      "assertion_type": "affirmative_disclosure",
+      "foia_template": "As per 552.309 of the Texas Public Information Act, [RECORD_TYPE] is public information and cannot be exempted from disclosure.",
+      "statutory_basis": "SUBCHAPTER H. CIVIL ENFORCEMENT; COMPLAINT Sec. 552.321. SUIT FOR WRIT OF MANDAMUS. (a) A requestor or the attorney general may file suit for a writ of mandamus compelling a governmental body to make information available for public inspection if the governmental body refuses to request an attorney general's decision as provided by Subchapter G or refuses to supply public information or information that the attorney general has determined is public information that is not excepted from disclosur",
+      "source_verified": false,
+      "verification_notes": "Auto-extracted from line 2370, requires manual verification"
+    },
+    {
+      "right_id": "texas-015",
+      "section": "552.021",
+      "assertion_type": "general_right",
+      "foia_template": "Under 552.021 of the Texas Public Information Act, [RIGHT_DESCRIPTION].",
+      "statutory_basis": "Added by Acts 2011, 82nd Leg., R.S., Ch. 462 (S.B. 1907), Sec. 1, eff. September 1, 2011. Sec. 552.022. CATEGORIES OF PUBLIC INFORMATION; EXAMPLES. (a) Without limiting the amount or kind of information that is public information under this chapter, the following categories of information are public information and not excepted from required disclosure unless made confidential under this chapter or other law: (1) a completed report, audit, evaluation, or investigation made of, for, or by a gover",
+      "source_verified": false,
+      "verification_notes": "Auto-extracted from line 374, requires manual verification"
+    },
+    {
+      "right_id": "texas-016",
+      "section": "552.0225",
+      "assertion_type": "general_right",
+      "foia_template": "Under 552.0225 of the Texas Public Information Act, [RIGHT_DESCRIPTION].",
+      "statutory_basis": "Sec. 552.0225. RIGHT OF ACCESS TO INVESTMENT INFORMATION. (a) Under the fundamental philosophy of American government described by Section 552.001, it is the policy of this state that investments of government are investments of and for the people and the people are entitled to information regarding those investments. The provisions of this section shall be liberally construed to implement this policy. (b) The following categories of information held by a governmental body relating to its invest",
+      "source_verified": false,
+      "verification_notes": "Auto-extracted from line 442, requires manual verification"
+    },
+    {
+      "right_id": "texas-017",
+      "section": "2.19",
+      "assertion_type": "general_right",
+      "foia_template": "Under 2.19 of the Texas Public Information Act, [RIGHT_DESCRIPTION].",
+      "statutory_basis": "(1) five years from the filing date of the confidential material; or (2) one year from the expiration, termination, or forfeiture of the lease in connection with which the confidential material was filed. (e) Electric logs filed in the General Land Office on or after September 1, 1985, are either public information or confidential material to the same extent and for the same periods provided for the same logs by Chapter 91, Natural Resources Code. A person may request that an electric log that h",
+      "source_verified": false,
+      "verification_notes": "Auto-extracted from line 759, requires manual verification"
+    },
+    {
+      "right_id": "texas-018",
+      "section": "552.1315",
+      "assertion_type": "general_right",
+      "foia_template": "Under 552.1315 of the Texas Public Information Act, [RIGHT_DESCRIPTION].",
+      "statutory_basis": "(b) The following information held by the attorney general's office in connection with an application for compensation under Chapter 56B or 56C, Code of Criminal Procedure, is confidential: (1) the name, social security number, address, or telephone number of a crime victim or claimant; or (2) any other information the disclosure of which would identify or tend to identify the crime victim or claimant. (c) If the crime victim or claimant is awarded compensation under Article 56B.103, 56B.104, or",
+      "source_verified": false,
+      "verification_notes": "Auto-extracted from line 1209, requires manual verification"
+    },
+    {
+      "right_id": "texas-019",
+      "section": "552.154",
+      "assertion_type": "general_right",
+      "foia_template": "Under 552.154 of the Texas Public Information Act, [RIGHT_DESCRIPTION].",
+      "statutory_basis": "Sec. 552.156. EXCEPTION: CONFIDENTIALITY OF CONTINUITY OF OPERATIONS PLAN. (a) Except as otherwise provided by this section, the following information is excepted from disclosure under this chapter: (1) a continuity of operations plan developed under Section 412.054, Labor Code; and (2) all records written, produced, collected, assembled, or maintained as part of the development or review of a continuity of operations plan developed under Section 412.054, Labor Code. (b) Forms, standards, and ot",
+      "source_verified": false,
+      "verification_notes": "Auto-extracted from line 1670, requires manual verification"
+    },
+    {
+      "right_id": "texas-020",
+      "section": "552.323",
+      "assertion_type": "general_right",
+      "foia_template": "Under 552.323 of the Texas Public Information Act, [RIGHT_DESCRIPTION].",
+      "statutory_basis": "Sec. 552.324. SUIT BY GOVERNMENTAL BODY. (a) The only suit a governmental body may file seeking to withhold information from a requestor is a suit that: (1) is filed in a Travis County district court against the attorney general in accordance with Section 552.325; and (2) seeks declaratory relief from compliance with a decision by the attorney general issued under Subchapter G. (b) The governmental body must bring the suit not later than the 30th calendar day after the date the governmental body",
+      "source_verified": false,
+      "verification_notes": "Auto-extracted from line 2443, requires manual verification"
+    },
+    {
+      "right_id": "texas-021",
+      "section": "552.308",
+      "assertion_type": "general_right",
+      "foia_template": "Under 552.308 of the Texas Public Information Act, [RIGHT_DESCRIPTION].",
+      "statutory_basis": "Added by Acts 2011, 82nd Leg., R.S., Ch. 552 (H.B. 2866), Sec. 2, eff. June 17, 2011. Sec. 552.310. SEARCHABLE DATABASE. (a) The office of the attorney general shall make available on the office's Internet website an easily accessible and searchable database consisting of: (1) information identifying each request for an attorney general decision made under this subchapter; and (2) the attorney general's opinion issued for the request. (b) The database at a minimum must allow a person to search f",
+      "source_verified": false,
+      "verification_notes": "Auto-extracted from line 2357, requires manual verification"
+    },
+    {
+      "right_id": "texas-022",
+      "section": "552.001",
+      "assertion_type": "general_right",
+      "foia_template": "Under 552.001 of the Texas Public Information Act, [RIGHT_DESCRIPTION].",
+      "statutory_basis": "(1) by a governmental body; (2) for a governmental body and the governmental body: (A) owns the information; (B) has a right of access to the information; or (C) spends or contributes public money for the purpose of writing, producing, collecting, assembling, or maintaining the information; or (3) by an individual officer or employee of a governmental body in the officer's or employee's official capacity and the information pertains to official business of the governmental body. (a-1) Informatio",
+      "source_verified": false,
+      "verification_notes": "Auto-extracted from line 100, requires manual verification"
+    },
+    {
+      "right_id": "texas-023",
+      "section": "UNKNOWN",
+      "assertion_type": "general_right",
+      "foia_template": "Under UNKNOWN of the Texas Public Information Act, [RIGHT_DESCRIPTION].",
+      "statutory_basis": "Acts 2023, 88th Leg., R.S., Ch. 847 (H.B. 3033), Sec. 2, eff. September 1, 2023. SUBCHAPTER B. RIGHT OF ACCESS TO PUBLIC INFORMATION Sec. 552.021. AVAILABILITY OF PUBLIC INFORMATION. Public information is available to the public at a minimum during the normal business hours of the governmental body.",
+      "source_verified": false,
+      "verification_notes": "Auto-extracted from line 361, requires manual verification"
+    },
+    {
+      "right_id": "texas-024",
+      "section": "552.021",
+      "assertion_type": "general_right",
+      "foia_template": "Under 552.021 of the Texas Public Information Act, [RIGHT_DESCRIPTION].",
+      "statutory_basis": "Added by Acts 1993, 73rd Leg., ch. 268, Sec. 1, eff. Sept. 1, 1993. Amended by Acts 1995, 74th Leg., ch. 1035, Sec. 2, eff. Sept. 1, 1995. Sec. 552.0215. RIGHT OF ACCESS TO CERTAIN INFORMATION AFTER 75 YEARS. (a) Except as provided by Section 552.147, the confidentiality provisions of this chapter, or other law, information that is not confidential but is excepted from required disclosure under Subchapter C is public information and is available to the public on or after the 75th anniversary of ",
+      "source_verified": false,
+      "verification_notes": "Auto-extracted from line 368, requires manual verification"
+    },
+    {
+      "right_id": "texas-025",
+      "section": "552.0225",
+      "assertion_type": "general_right",
+      "foia_template": "Under 552.0225 of the Texas Public Information Act, [RIGHT_DESCRIPTION].",
+      "statutory_basis": "Added by Acts 2019, 86th Leg., R.S., Ch. 1216 (S.B. 943), Sec. 2, eff. January 1, 2020. Sec. 552.0225. RIGHT OF ACCESS TO INVESTMENT INFORMATION. (a) Under the fundamental philosophy of American government described by Section 552.001, it is the policy of this state that investments of government are investments of and for the people and the people are entitled to information regarding those investments. The provisions of this section shall be liberally construed to implement this policy. (b) Th",
+      "source_verified": false,
+      "verification_notes": "Auto-extracted from line 441, requires manual verification"
+    },
+    {
+      "right_id": "texas-026",
+      "section": "552.023",
+      "assertion_type": "general_right",
+      "foia_template": "Under 552.023 of the Texas Public Information Act, [RIGHT_DESCRIPTION].",
+      "statutory_basis": "Added by Acts 2005, 79th Leg., Ch. 1338 (S.B. 121), Sec. 1, eff. June 18, 2005. Sec. 552.023. SPECIAL RIGHT OF ACCESS TO CONFIDENTIAL INFORMATION. (a) A person or a person's authorized representative has a special right of access, beyond the right of the general public, to information held by a governmental body that relates to the person and that is protected from public disclosure by laws intended to protect that person's privacy interests. (b) A governmental body may not deny access to inform",
+      "source_verified": false,
+      "verification_notes": "Auto-extracted from line 465, requires manual verification"
+    },
+    {
+      "right_id": "texas-027",
+      "section": "552.027",
+      "assertion_type": "general_right",
+      "foia_template": "Under 552.027 of the Texas Public Information Act, [RIGHT_DESCRIPTION].",
+      "statutory_basis": "Added by Acts 1995, 74th Leg., ch. 302, Sec. 1, eff. June 5, 1995. Renumbered from Government Code Sec. 552.027 by Acts 1997, 75th Leg., ch. 165, Sec. 31.01(44), eff. Sept. 1, 1997; Acts 1997, 75th Leg., ch. 1231, Sec. 6, eff. Sept. 1, 1997. Amended by Acts 1999, 76th Leg., ch. 154, Sec. 1, eff. May 21, 1999; Acts 2001, 77th Leg., ch. 735, Sec. 1, eff. June 13, 2001; Acts 2003, 78th Leg., ch. 283, Sec. 45, eff. Sept. 1, 2003. Sec. 552.029. RIGHT OF ACCESS TO CERTAIN INFORMATION RELATING TO INMAT",
+      "source_verified": false,
+      "verification_notes": "Auto-extracted from line 530, requires manual verification"
+    },
+    {
+      "right_id": "texas-028",
+      "section": "552.227",
+      "assertion_type": "general_right",
+      "foia_template": "Under 552.227 of the Texas Public Information Act, [RIGHT_DESCRIPTION].",
+      "statutory_basis": "Acts 2009, 81st Leg., R.S., Ch. 962 (H.B. 3544), Sec. 8, eff. September 1, 2009. Sec. 552.229. CONSENT TO RELEASE INFORMATION UNDER SPECIAL RIGHT OF ACCESS. (a) Consent for the release of information excepted from disclosure to the general public but available to a specific person under Sections 552.023 and 552.307 must be in writing and signed by the specific person or the person's authorized representative. (b) An individual under 18 years of age may consent to the release of information under",
+      "source_verified": false,
+      "verification_notes": "Auto-extracted from line 1875, requires manual verification"
+    },
+    {
+      "right_id": "texas-029",
+      "section": "552.307",
+      "assertion_type": "general_right",
+      "foia_template": "Under 552.307 of the Texas Public Information Act, [RIGHT_DESCRIPTION].",
+      "statutory_basis": "Acts 2023, 88th Leg., R.S., Ch. 847 (H.B. 3033), Sec. 10, eff. September 1, 2023. Sec. 552.307. SPECIAL RIGHT OF ACCESS; ATTORNEY GENERAL DECISIONS. (a) If a governmental body determines that information subject to a special right of access under Section 552.023 is exempt from disclosure under an exception of Subchapter C, other than an exception intended to protect the privacy interest of the requestor or the person whom the requestor is authorized to represent, the governmental body shall, bef",
+      "source_verified": false,
+      "verification_notes": "Auto-extracted from line 2330, requires manual verification"
+    },
+    {
+      "right_id": "texas-030",
+      "section": "552.307",
+      "assertion_type": "general_right",
+      "foia_template": "Under 552.307 of the Texas Public Information Act, [RIGHT_DESCRIPTION].",
+      "statutory_basis": "Sec. 552.307. SPECIAL RIGHT OF ACCESS; ATTORNEY GENERAL DECISIONS. (a) If a governmental body determines that information subject to a special right of access under Section 552.023 is exempt from disclosure under an exception of Subchapter C, other than an exception intended to protect the privacy interest of the requestor or the person whom the requestor is authorized to represent, the governmental body shall, before disclosing the information, submit a written request for a decision to the att",
+      "source_verified": false,
+      "verification_notes": "Auto-extracted from line 2331, requires manual verification"
+    },
+    {
+      "right_id": "texas-031",
+      "section": "552.375",
+      "assertion_type": "general_right",
+      "foia_template": "Under 552.375 of the Texas Public Information Act, [RIGHT_DESCRIPTION].",
+      "statutory_basis": "Added by Acts 2019, 86th Leg., R.S., Ch. 1216 (S.B. 943), Sec. 9, eff. January 1, 2020. SUBCHAPTER K. SPECIAL RIGHT OF ACCESS BY MEMBER OF GOVERNING BOARD Sec. 552.401. DEFINITIONS. In this subchapter: (1) \"Member of a governing board\" means any individual who is appointed, designated, or elected to direct or serve on a board or other group of individuals that directs a governmental body or a nongovernmental entity, including a member of the governing body of a municipality and a county commissi",
+      "source_verified": false,
+      "verification_notes": "Auto-extracted from line 2604, requires manual verification"
+    },
+    {
+      "right_id": "texas-032",
+      "section": "552.376",
+      "assertion_type": "general_right",
+      "foia_template": "Under 552.376 of the Texas Public Information Act, [RIGHT_DESCRIPTION].",
+      "statutory_basis": "Added by Acts 2025, 89th Leg., R.S., Ch. 1045 (H.B. 4310), Sec. 1, eff. September 1, 2025. Sec. 552.403. SPECIAL RIGHT OF ACCESS FOR MEMBER OF GOVERNING BOARD. (a) A member of the governing board of a governmental body or nongovernmental entity may inspect, duplicate, or inspect and duplicate public information maintained by the governmental body or the nongovernmental entity if the member is acting in the member's official capacity. (b) Public information requested under this section shall be p",
+      "source_verified": false,
+      "verification_notes": "Auto-extracted from line 2619, requires manual verification"
+    },
+    {
+      "right_id": "texas-033",
+      "section": "552.1391",
+      "assertion_type": "fee_protection",
+      "foia_template": "According to 552.1391 of the Texas Public Information Act, [ACTION] must be provided at no cost.",
+      "statutory_basis": "Sec. 552.140. EXCEPTION: CONFIDENTIALITY OF MILITARY DISCHARGE RECORDS. (a) This section applies only to a military veteran's Department of Defense Form DD-214 or other military discharge record that is first recorded with or that otherwise first comes into the possession of a governmental body on or after September 1, 2003. (b) The record is confidential for the 75 years following the date it is recorded with or otherwise first comes into the possession of a governmental body. During that perio",
+      "source_verified": false,
+      "verification_notes": "Auto-extracted from line 1447, requires manual verification"
+    },
+    {
+      "right_id": "texas-034",
+      "section": "552.268",
+      "assertion_type": "fee_protection",
+      "foia_template": "According to 552.268 of the Texas Public Information Act, [ACTION] must be provided at no cost.",
+      "statutory_basis": "Sec. 552.270. CHARGE FOR GOVERNMENT PUBLICATION. (a) This subchapter does not apply to a publication that is compiled and printed by or for a governmental body for public dissemination. If the cost of the publication is not determined by state law, a governmental body may determine the charge for providing the publication. (b) This section does not prohibit a governmental body from providing a publication free of charge if state law does not require that a certain charge be made. Added by Acts 1",
+      "source_verified": false,
+      "verification_notes": "Auto-extracted from line 2119, requires manual verification"
+    },
+    {
+      "right_id": "texas-035",
+      "section": "27.01",
+      "assertion_type": "fee_protection",
+      "foia_template": "According to 27.01 of the Texas Public Information Act, [ACTION] must be provided at no cost.",
+      "statutory_basis": "(2) otherwise assumes the person's duties as a public official, if the person is not required to take an oath of office to assume the person's duties. (b-1) The attorney general may require each public official of a governmental body to complete the course of training if the attorney general determines that the governmental body has failed to comply with a requirement of this chapter. The attorney general must notify each public official in writing of the attorney general's determination and the",
+      "source_verified": false,
+      "verification_notes": "Auto-extracted from line 345, requires manual verification"
+    },
+    {
+      "right_id": "texas-036",
+      "section": "552.372",
+      "assertion_type": "fee_protection",
+      "foia_template": "According to 552.372 of the Texas Public Information Act, [ACTION] must be provided at no cost.",
+      "statutory_basis": "(1) preserve all contracting information related to the contract as provided by the records retention requirements applicable to the governmental body for the duration of the contract; (2) promptly provide to the governmental body any contracting information related to the contract that is in the custody or possession of the entity on request of the governmental body; and (3) on completion of the contract, either: (A) provide at no cost to the governmental body all contracting information relate",
+      "source_verified": false,
+      "verification_notes": "Auto-extracted from line 2565, requires manual verification"
+    },
+    {
+      "right_id": "texas-037",
+      "section": "552.262",
+      "assertion_type": "general_right",
+      "foia_template": "Under 552.262 of the Texas Public Information Act, [RIGHT_DESCRIPTION].",
+      "statutory_basis": "Acts 2005, 79th Leg., Ch. 716 (S.B. 452), Sec. 5, eff. September 1, 2005. Sec. 552.262. RULES OF THE ATTORNEY GENERAL. (a) The attorney general shall adopt rules for use by each governmental body in determining charges for providing copies of public information under this subchapter and in determining the charge, deposit, or bond required for making public information that exists in a paper record available for inspection as authorized by Sections 552.271(c) and (d). The rules adopted by the att",
+      "source_verified": false,
+      "verification_notes": "Auto-extracted from line 2046, requires manual verification"
+    }
+  ]
+}

@@ -64,7 +64,7 @@ us-transparency-laws-database/
 │   ├── metadata/                            # Tracking table ✅
 │   └── README.md                            # Release documentation
 │
-├── supabase/                                # 🗄️ DATABASE MIGRATIONS (Neon PostgreSQL)
+├── neon/                                # 🗄️ DATABASE MIGRATIONS (Neon PostgreSQL)
 │   ├── migrations/                          # 9 migrations applied (v0.11 + v0.12 + v0.13)
 │   └── config.toml                          # Legacy Supabase config (archived)
 │
@@ -218,20 +218,20 @@ v0.11.0 (✅ Done)          v0.11.1 (🚧 Current)       v0.12.0+ (🔜 Future)
 
 ### **Query the Database**
 ```javascript
-import { createClient } from '@supabase/supabase-js'
+import { createClient } from '@neon/neon-js'
 
-const supabase = createClient(
-  'https://befpnwcokngtrljxskfz.supabase.co',
+const neon = createClient(
+  'https://befpnwcokngtrljxskfz.neon.co',
   'YOUR_ANON_KEY'
 )
 
 // Get all jurisdictions for the map
-const { data } = await supabase
+const { data } = await neon
   .from('transparency_map_display')
   .select('jurisdiction_name, jurisdiction_code, response_timeline_days, key_features_tags')
 
 // Get California exemptions (no joins needed!)
-const { data: exemptions } = await supabase
+const { data: exemptions } = await neon
   .from('exemptions')
   .select('category, description')
   .eq('jurisdiction_name', 'California')
@@ -239,7 +239,7 @@ const { data: exemptions } = await supabase
 
 ### **Generate TypeScript Types**
 ```bash
-npx supabase gen types typescript --linked > types/supabase.ts
+npx neon gen types typescript --linked > types/neon.ts
 ```
 
 ### **Development Setup**
@@ -249,10 +249,10 @@ git clone https://github.com/The-HOLE-Foundation/us-transparency-laws-database.g
 cd us-transparency-laws-database
 
 # Link to Supabase (development branch)
-npx supabase link --project-ref befpnwcokngtrljxskfz
+npx neon link --project-ref befpnwcokngtrljxskfz
 
 # View migrations
-npx supabase migration list --linked
+npx neon migration list --linked
 ```
 
 **Documentation**: See [v0.11.1 Supabase Integration Complete](documentation/v0.11.1_SUPABASE_INTEGRATION_COMPLETE.md) for full API reference.

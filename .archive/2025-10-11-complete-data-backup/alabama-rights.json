@@ -1,0 +1,137 @@
+{
+  "jurisdiction": {
+    "name": "Alabama",
+    "slug": "alabama",
+    "type": "state",
+    "transparency_law": "Alabama Open Records Act"
+  },
+  "validation_metadata": {
+    "parsed_date": "2025-10-09",
+    "source_url": "https://codes.findlaw.com/al/title-36-public-officers-and-employees/",
+    "verified_by": "Claude Code AI Assistant",
+    "verification_method": "Direct review of Alabama Code Sections 36-12-40 through 36-12-46",
+    "statutory_text_file": "ALABAMA_transparency_law-v0.11.txt"
+  },
+  "rights_of_access": [
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Citizen Right to Inspect",
+      "statute_citation": "Ala. Code § 36-12-40",
+      "description": "Every citizen has a right to inspect and take a copy of any public writing of this state, except as otherwise expressly provided by statute. This establishes the fundamental right of Alabama citizens to access government records.",
+      "conditions": "Must be an Alabama citizen; applies to all public writings unless specifically exempted by statute; record must not be confidential by law",
+      "applies_to": "All public writings of Alabama state government and political subdivisions",
+      "implementation_notes": "Alabama limits this right to citizens (residency requirement). Public writings include any writing made in connection with public business or performance of a public function.",
+      "request_tips": "Establish your status: 'As an Alabama citizen, I request to inspect [specific records] under Ala. Code § 36-12-40.'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Right to Copy Records",
+      "statute_citation": "Ala. Code § 36-12-43",
+      "description": "Any person having a right to inspect a public writing may make or obtain a copy thereof. Once inspection rights are established, copying rights automatically follow.",
+      "conditions": "Must have right to inspect; person making/obtaining copy pays reasonable fees",
+      "applies_to": "All public writings that citizen has right to inspect",
+      "implementation_notes": "Copying is a natural extension of inspection rights - if you can inspect it, you can copy it",
+      "request_tips": "Assert: 'Under Ala. Code § 36-12-43, I request copies of [specific records] that I have the right to inspect.'"
+    },
+    {
+      "category": "Fee Waiver",
+      "subcategory": "Fee Cap - First 50 Pages",
+      "statute_citation": "Ala. Code § 36-12-43",
+      "description": "For copies of not more than 50 pages, the fee charged shall not exceed one dollar ($1) per page. This cap protects requesters from excessive fees on smaller requests.",
+      "conditions": "Applies to first 50 pages only; fee covers actual cost of reproduction",
+      "applies_to": "Requests for 50 pages or fewer",
+      "implementation_notes": "Maximum fee is $50 for a 50-page request ($1/page cap)",
+      "request_tips": "Cite cap: 'Under Ala. Code § 36-12-43, fees for my request of [X pages, if 50 or fewer] cannot exceed $1 per page.'"
+    },
+    {
+      "category": "Fee Waiver",
+      "subcategory": "Fee Cap - Over 50 Pages",
+      "statute_citation": "Ala. Code § 36-12-43",
+      "description": "For copies in excess of 50 pages, the fee charged shall not exceed fifty cents (50¢) per page. This reduced rate for larger requests prevents cost from becoming prohibitive barrier.",
+      "conditions": "Applies only to pages beyond the first 50; total fee = (50 pages × $1) + (additional pages × $0.50)",
+      "applies_to": "Requests exceeding 50 pages",
+      "implementation_notes": "For 100-page request: first 50 pages at $1/page ($50), next 50 pages at $0.50/page ($25) = $75 total maximum",
+      "request_tips": "For large requests, note: 'Ala. Code § 36-12-43 caps fees at 50¢ per page for pages 51 and beyond.'"
+    },
+    {
+      "category": "Fee Waiver",
+      "subcategory": "Actual Cost Standard",
+      "statute_citation": "Ala. Code § 36-12-43",
+      "description": "The fee charged by agencies shall not exceed the actual cost of reproduction. Agencies cannot profit from providing public records or charge inflated fees.",
+      "conditions": "Fees must be reasonable; must reflect actual reproduction costs only; cannot include administrative overhead, search time, or review time",
+      "applies_to": "All copying fees for public records",
+      "implementation_notes": "This prevents agencies from using fees as barrier to access by charging inflated or arbitrary amounts",
+      "request_tips": "Challenge excessive fees: 'Ala. Code § 36-12-43 limits fees to actual cost of reproduction. Please provide itemized breakdown showing actual costs.'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Computerized Database Fee Cap",
+      "statute_citation": "Ala. Code § 36-12-43",
+      "description": "When copies are requested from a computerized database, the fee charged shall be the actual cost of producing the copies, but not more than the fee that would be charged for hard copies. Electronic records cannot be more expensive than paper.",
+      "conditions": "Applies to records maintained in computerized databases; fee limited to lesser of: (1) actual cost of electronic production, or (2) equivalent hard copy fee",
+      "applies_to": "Electronic records and database extracts",
+      "implementation_notes": "This prevents agencies from using electronic format as excuse to charge higher fees; electronic delivery should typically be cheaper",
+      "request_tips": "Request electronic format: 'Under Ala. Code § 36-12-43, please provide these database records electronically at a cost not exceeding the hard copy equivalent.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Standard Request - 3-Day Acknowledgment",
+      "statute_citation": "Ala. Code § 36-12-44(c)",
+      "description": "For standard requests (those requiring 8 hours or less to fulfill), executive agencies must acknowledge receipt within 3 business days. This ensures requesters receive timely confirmation.",
+      "conditions": "Applies to executive agencies only; standard request is one that can be completed within 8 hours (one working day)",
+      "applies_to": "Requests to executive agencies estimated to require 8 hours or less",
+      "implementation_notes": "Acknowledgment must be provided within 3 business days; full response due within 15 business days",
+      "request_tips": "For simple requests: 'As a standard request under Ala. Code § 36-12-44, please acknowledge receipt within 3 business days.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Standard Request - 15-Day Response",
+      "statute_citation": "Ala. Code § 36-12-44(c)",
+      "description": "Executive agencies must provide a substantive response to standard requests within 15 business days of receipt. Substantive response means providing records, partial response with explanation, or denial with reasons.",
+      "conditions": "Applies to standard requests to executive agencies; 15 business days from receipt; agency may charge reasonable fee before responding",
+      "applies_to": "Standard requests (8 hours or less to fulfill) to Alabama executive agencies",
+      "implementation_notes": "Substantive response options: (1) provide records, (2) provide partial response with explanation of what's withheld and why, (3) deny with explanation",
+      "request_tips": "Cite deadline: 'Ala. Code § 36-12-44(c) requires a substantive response within 15 business days of receipt.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Time-Intensive Request - 3-Day Acknowledgment",
+      "statute_citation": "Ala. Code § 36-12-44(d)",
+      "description": "For time-intensive requests (those requiring more than 8 hours to fulfill), executive agencies must acknowledge receipt within 3 business days and notify requester that it is a time-intensive request.",
+      "conditions": "Applies to executive agencies; time-intensive requests require more than 8 hours to fulfill; agency must explain why request is time-intensive",
+      "applies_to": "Complex or voluminous requests to Alabama executive agencies",
+      "implementation_notes": "Agency must categorize request as time-intensive and provide notification within 3 business days",
+      "request_tips": "If categorized as time-intensive, ask: 'Please explain under Ala. Code § 36-12-44(d) why this request requires more than 8 hours to fulfill.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Time-Intensive Request - 45-Day Response (Extendable)",
+      "statute_citation": "Ala. Code § 36-12-44(d)",
+      "description": "Executive agencies must provide substantive response to time-intensive requests within 45 business days of receipt, or may extend to a maximum of 180 business days or 270 calendar days, whichever is shorter.",
+      "conditions": "Applies to time-intensive requests; agency must notify of extension; extension limited to 180 business days or 270 calendar days, whichever comes first; agency must require payment of fee before responding to time-intensive requests",
+      "applies_to": "Time-intensive requests to Alabama executive agencies",
+      "implementation_notes": "Maximum timeline: the shorter of 180 business days (~8-9 months) or 270 calendar days (~9 months). Agency must require fee payment before providing records for time-intensive requests.",
+      "request_tips": "Monitor deadline: 'Under Ala. Code § 36-12-44(d), please provide response within 45 business days or notify me of extension with specific completion date.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Deemed Denial for Non-Response",
+      "statute_citation": "Ala. Code § 36-12-44(f)",
+      "description": "If an executive agency does not respond to a records request or produce the records within the applicable time frames specified in this section, the person making the request may assume that the request is denied.",
+      "conditions": "Applies to executive agencies only; agency must have failed to respond within statutory deadlines (15 days for standard, 45 days minimum for time-intensive); provides basis for legal challenge",
+      "applies_to": "Requests to Alabama executive agencies where deadlines have passed without response",
+      "implementation_notes": "Silence after deadline = constructive denial, giving requester standing to pursue legal remedies",
+      "request_tips": "After deadline: 'Your failure to respond within the Ala. Code § 36-12-44 deadline constitutes a denial of my request. I request immediate compliance or formal written denial.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Required Record-Keeping",
+      "statute_citation": "Ala. Code § 36-12-41",
+      "description": "All public officers and servants must correctly make and accurately keep all books, documents, files, papers, letters and copies of letters as shall afford full and detailed information regarding activities or business of their office. This mandates comprehensive documentation.",
+      "conditions": "Applies to all Alabama public officers and servants at state, county, city, town, and other political subdivision levels",
+      "applies_to": "All public offices and officials in Alabama",
+      "implementation_notes": "This provision requires government officials to maintain detailed records, establishing duty to document public business. Records created under this duty are public writings subject to inspection.",
+      "request_tips": "If agency claims records don't exist: 'Ala. Code § 36-12-41 requires your office to maintain detailed records of [specific activities]. Please verify compliance with this record-keeping requirement.'"
+    }
+  ]
+}

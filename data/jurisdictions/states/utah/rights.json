@@ -1,0 +1,166 @@
+{
+  "jurisdiction_slug": "utah",
+  "jurisdiction_name": "Utah",
+  "data_model_version": "v0.12",
+  "last_updated": "2025-10-09",
+  "rights": [
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "Constitutional Right of Access",
+      "statute_citation": "Utah Constitution Article I, Section 27",
+      "description": "Constitutional right of access to government records",
+      "conditions": "No conditions - constitutional right",
+      "applies_to": "All citizens and persons",
+      "implementation_notes": "UNIQUE: Constitutional protection at highest level of state law",
+      "request_tips": "Cite constitutional right when challenging denials - fundamental right"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Standard Response Deadline",
+      "statute_citation": "Utah Code § 63G-2-204",
+      "description": "Records officers must respond within 10 business days of receipt; should respond as soon as reasonably possible",
+      "conditions": "10 business day maximum for standard requests",
+      "applies_to": "All governmental entities",
+      "implementation_notes": "Response should be sooner when feasible",
+      "request_tips": "Agency must respond within 10 business days; cite 'as soon as reasonably possible' for faster response"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Expedited Response",
+      "statute_citation": "Utah Code § 63G-2-204",
+      "description": "For expedited requests: 5 business days maximum when information benefits public",
+      "conditions": "Must demonstrate public benefit",
+      "applies_to": "Requests serving public interest",
+      "implementation_notes": "Half the standard response time for public benefit requests",
+      "request_tips": "Request expedited processing if information serves public interest; response reduced to 5 business days"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Fee Protections",
+      "statute_citation": "Utah Code § 63G-2-203",
+      "description": "First 10 single-sided copies free; searches taking 15 minutes or less free",
+      "conditions": "No conditions - automatic protection",
+      "applies_to": "All requesters",
+      "implementation_notes": "GENEROUS: Both search and copy protections reduce costs",
+      "request_tips": "First 10 pages and first 15 minutes of search are always free"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Fee Estimate Requirement",
+      "statute_citation": "Utah Code § 63G-2-203",
+      "description": "Must provide fee estimate if costs exceed $50",
+      "conditions": "Required when fees exceed $50 threshold",
+      "applies_to": "All requesters",
+      "implementation_notes": "Prevents surprise bills for large requests",
+      "request_tips": "If fees will exceed $50, demand written estimate before work begins"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Multi-Level Appeal Process",
+      "statute_citation": "Utah Code §§ 63G-2-401, 63G-2-403",
+      "description": "Three-tier appeal: Chief Administrative Officer (10 days) → State Records Committee (binding order) → District Court",
+      "conditions": "Must appeal within 30 days of denial",
+      "applies_to": "All requesters",
+      "implementation_notes": "UNIQUE: Most comprehensive administrative appeal system in nation",
+      "request_tips": "Appeal denials to CAO within 30 days; CAO must respond in 10 business days"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Government Records Ombudsman",
+      "statute_citation": "Utah Code § 63G-2-604",
+      "description": "Government Records Ombudsman mediates disputes between requesters and agencies",
+      "conditions": "Free mediation services available",
+      "applies_to": "All requesters and agencies",
+      "implementation_notes": "Alternative to litigation - informal dispute resolution",
+      "request_tips": "Contact Government Records Ombudsman for mediation before litigation"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Statewide Online Portal",
+      "statute_citation": "Utah Code § 63G-2-204",
+      "description": "Centralized statewide online Open Records Portal available at archives.utah.gov/opengovernment/",
+      "conditions": "Available for all state and local requests",
+      "applies_to": "All requesters",
+      "implementation_notes": "UNIQUE: Centralized portal for entire state",
+      "request_tips": "Use statewide portal for convenient tracking and submission"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Electronic Submission",
+      "statute_citation": "Utah Code § 63G-2-204",
+      "description": "Electronic submission accepted via portal, email, or fax",
+      "conditions": "Multiple electronic options available",
+      "applies_to": "All requesters",
+      "implementation_notes": "Flexible submission methods",
+      "request_tips": "Submit electronically for faster delivery and documentation"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Electronic Access Preference",
+      "statute_citation": "Utah Code § 63G-2-204",
+      "description": "Electronic access should be provided when feasible",
+      "conditions": "Agency must provide electronic format when feasible",
+      "applies_to": "All requesters",
+      "implementation_notes": "Reduces costs and speeds delivery",
+      "request_tips": "Request electronic format to reduce fees and expedite delivery"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Attorney Fees and Damages",
+      "statute_citation": "Utah Code § 63G-2-405",
+      "description": "District court may award attorney fees to prevailing party; damages for willful and knowing violations",
+      "conditions": "Must prevail in court; willful violations for damages",
+      "applies_to": "Requesters who successfully litigate",
+      "implementation_notes": "Damages for willful violations create strong deterrent",
+      "request_tips": "If wrongfully denied, attorney fees and damages recoverable for willful violations"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Criminal Penalties",
+      "statute_citation": "Utah Code § 63G-2-801",
+      "description": "Willful and knowing violation is misdemeanor",
+      "conditions": "Violation must be willful and knowing",
+      "applies_to": "Public officials who willfully violate GRAMA",
+      "implementation_notes": "Criminal prosecution possible for egregious violations",
+      "request_tips": "If denial appears intentional and willful, misdemeanor prosecution possible"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Burden of Proof",
+      "statute_citation": "Utah Code § 63G-2-403",
+      "description": "Burden of proof on governmental entity for non-disclosure",
+      "conditions": "Applies in all appeals",
+      "applies_to": "All requesters challenging denials",
+      "implementation_notes": "Requester does not need to prove entitlement",
+      "request_tips": "Agency bears burden to prove exemption applies"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Redaction Requirement",
+      "statute_citation": "Utah Code § 63G-2-201",
+      "description": "Must redact exempt portions only; cannot withhold entire record if part is public",
+      "conditions": "Applies to all partially exempt records",
+      "applies_to": "All governmental entities",
+      "implementation_notes": "Prevents over-broad withholding",
+      "request_tips": "If denied, ask whether any portion is disclosable; agency must segregate"
+    },
+    {
+      "category": "Proactive Disclosure",
+      "subcategory": "Presumption of Public Access",
+      "statute_citation": "Utah Code § 63G-2-201",
+      "description": "All records are public unless otherwise expressly provided by statute",
+      "conditions": "Applies to all records",
+      "applies_to": "All governmental entities",
+      "implementation_notes": "Strong presumption in favor of disclosure",
+      "request_tips": "Cite presumption of public access - records public unless specific exemption applies"
+    }
+  ],
+  "validation_metadata": {
+    "source_file": "data/states/utah/jurisdiction-data.json",
+    "extraction_date": "2025-10-09",
+    "verified_by": "Claude Code AI Assistant",
+    "primary_statute": "Utah Code § 63G-2-101 et seq.; Utah Constitution Article I, Section 27",
+    "confidence_level": "high",
+    "notes": "All rights extracted from verified jurisdiction-data.json file. Utah has exceptionally comprehensive requester protections including: (1) constitutional right of access, (2) three-tier appeal system (unique), (3) Government Records Ombudsman for mediation, (4) statewide online portal (unique), (5) expedited 5-day response for public benefit, (6) first 10 copies free + first 15 minutes search free, and (7) criminal penalties for willful violations."
+  }
+}
