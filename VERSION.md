@@ -1,21 +1,21 @@
 ---
-DATE: 2025-10-05
+DATE: 2025-10-06
 AUTHOR: Claude Code AI Assistant
 PROJECT: The HOLE Foundation - US Transparency Laws Database
 SUBPROJECT: Version Information
-VERSION: v0.11.0
+VERSION: v0.11.1
 ---
 
 # Version Information
 
-## Current Version: v0.11.0
+## Current Version: v0.11.1
 
-**Release Date**: October 3, 2025
-**Status**: Production Ready ✅
+**Release Date**: October 7, 2025
+**Status**: Production Ready ✅ (Development Branch)
 
 ### Release Summary
 
-This release marks the completion of **Layer 2 structured metadata** for all 52 US jurisdictions (Federal + 50 States + DC). The database now contains comprehensive, verified transparency law metadata suitable for production deployment.
+This release completes **Supabase database integration** for v0.11.0 data. All 52 jurisdictions are now deployed to PostgreSQL with optimized views, flexible schema, and enhanced query capabilities. The database is production-ready on the Development branch and ready for authentication integration.
 
 ### Version Components
 
@@ -24,42 +24,66 @@ This release marks the completion of **Layer 2 structured metadata** for all 52 
 | **Layer 1** | Statutory Text | ✅ Complete | 52/52 (100%) |
 | **Layer 2** | Structured Metadata | ✅ Complete | 52/52 (100%) |
 | **Layer 3** | Process Maps | ✅ Complete | 52+ maps |
-| **Supabase Integration** | Database Setup | 🚧 IN PROGRESS | Next step |
+| **Supabase Integration** | Database Deployed | ✅ Complete | 10 tables, 1 view |
+| **Supabase Authentication** | Auth Setup | 🔜 Next | theholetruth.org + theholefoundation.org |
 | **Layer 4** | Agency Data | ⏸️  Future | 0/52 (v0.12+) |
 | **Layer 5** | Request Templates | ⏸️  Future | 0/52 (v0.12+) |
 
-### What's Included in v0.11.0
+### What's Included in v0.11.1
 
-#### Core Data (52/52 Jurisdictions)
+#### Supabase Database (10 Core Tables + 1 View)
+
+**Production Tables**:
+- ✅ `jurisdictions` (52 records) - Federal + 50 States + DC
+- ✅ `transparency_laws` (52 records) - Statute details and citations
+- ✅ `response_requirements` (52 records) - Timelines, extensions, tolling
+- ✅ `fee_structures` (52 records) - Search/copy fees, waivers
+- ✅ `exemptions` (365 records) - Categories with jurisdiction context
+- ✅ `appeal_processes` (52 records) - Administrative and judicial paths
+- ✅ `requester_requirements` (52 records) - Identity, residency, eligibility
+- ✅ `agency_obligations` (52 records) - Agency responsibilities
+- ✅ `oversight_bodies` (38 records) - Enforcement and oversight
+- ✅ `agencies` (0 records) - Deferred to v0.12
+
+**Optimized View**:
+- ✅ `transparency_map_display` - Single-query map interface
+
+#### Key Features
+
+- ✅ **Smart Exemptions**: Query by jurisdiction without joins
+- ✅ **Flexible Timelines**: 10 states use "reasonable time" (-1 code)
+- ✅ **JSONB Additional Fields**: Jurisdiction-specific variations preserved
+- ✅ **Transparency Map View**: Optimized for interactive map
+- ✅ **Type Safety Ready**: Generate TypeScript types for React
+
+#### v0.11.0 Source Data
+
+All data imported from `releases/v0.11.0/jurisdictions/`:
 - ✅ Response requirements & timelines
 - ✅ Fee structures & waiver criteria
-- ✅ Exemption categories with citations
+- ✅ Exemption categories with citations (365 total)
 - ✅ Appeal processes (administrative + judicial)
 - ✅ Requester eligibility requirements
 - ✅ Enforcement mechanisms
-- ✅ Unique jurisdiction features
-
-#### Supporting Materials
 - ✅ Process maps for all 52 jurisdictions
-- ✅ Holiday matrix for business day calculations
-- ✅ Statute name reference guide
-- ✅ Validation scripts
 
 #### Data Quality
+
 - ✅ 100% verification from official .gov sources
 - ✅ Current as of 2024-2025 legislative sessions
-- ✅ Standardized JSON schema
+- ✅ Zero data loss during migration (additional_fields JSONB)
 - ✅ Manual human review of all 52 jurisdictions
 
 ### Current Production Status
 
-**v0.11.0 Data**: ✅ Complete and production-ready
-**Supabase Integration**: 🚧 Required for deployment (current phase)
-**Platform Integration**: 🔜 Depends on Supabase completion
+**v0.11.1 Database**: ✅ Complete and deployed (Development branch)
+**Supabase Authentication**: 🔜 Next immediate priority
+**Platform Integration**: ✅ Ready (awaiting auth configuration)
 
 ### Deferred to Future Versions (v0.12+)
 
 The following enhancements are planned for future releases:
+
 - ⏸️  Agency contact databases (Layer 4)
 - ⏸️  Custom FOIA request templates (Layer 5)
 - ⏸️  AI training examples
@@ -78,6 +102,7 @@ MAJOR.MINOR.PATCH
 ```
 
 **v0.11.0 Interpretation**:
+
 - `0` - Pre-1.0 (not yet fully integrated with platform)
 - `11` - Version 11 milestone (Layer 2 completion)
 - `0` - Initial release of v0.11 series
@@ -85,28 +110,51 @@ MAJOR.MINOR.PATCH
 ### Upgrade Path
 
 #### From v0.11 → v0.11.0
+
 - Master tracking table updated (completion status)
 - No breaking changes
 - No data migration required
 
-#### v0.11.0 → v0.11.1 (Current Phase - Immediate)
-**Supabase Integration & Deployment**
-- Design database schema from JSON structure
-- Create Supabase migrations
-- Generate TypeScript types
-- Test data import and integrity
-- Deploy to production Supabase instance
-- Integrate with TheHoleTruth.org platform
+#### v0.11.0 → v0.11.1 ✅ COMPLETE
 
-#### v0.11.1 → v0.12.0 (Future Enhancement)
-**Extended Features**
-- Add agency contact databases (Layer 4)
-- Add custom request templates (Layer 5)
-- Add AI training examples
+**Supabase Integration & Deployment**
+
+- ✅ Designed database schema from JSON structure
+- ✅ Created 7 Supabase migrations
+- ✅ Generated flexible schema with JSONB additional_fields
+- ✅ Imported all 52 jurisdictions with zero data loss
+- ✅ Deployed to Development Supabase instance
+- ✅ Created transparency_map_display view
+- ✅ Enhanced exemptions with jurisdiction context
+- ✅ Ready for TheHoleTruth.org platform integration
+
+#### v0.11.1 → v0.12.0 (In Development)
+
+##### Rights of Access Feature 🚧
+
+**Primary Addition**: `rights_of_access` table to complement exemptions
+- Catalogs affirmative rights to public records (what you CAN access)
+- Categories: Proactive Disclosure, Enhanced Access, Technology Rights, Requester-Specific Rights, Inspection Rights, Timeliness Rights
+- Enables FOIA Generator to assert specific statutory rights in requests
+- Provides complete transparency picture when combined with exemptions
+- Creates `transparency_landscape` view for rights vs exemptions analysis
+
+**Design Documentation**: [v0.12-RIGHTS_OF_ACCESS_DESIGN.md](documentation/v0.12-RIGHTS_OF_ACCESS_DESIGN.md)
+
+**Migration Status**: ✅ Schema designed, migration file ready
+**Data Collection**: 🔜 Pending (Federal + 10 priority states first)
+**Timeline**: Q4 2025 - Q1 2026
+
+##### Additional v0.12 Features
+
+- Agency contact databases (Layer 4) - deferred
+- Custom request templates (Layer 5) - deferred
 - Enhanced data enrichment
 
 #### v0.12.x → v1.0.0 (Long-term)
-**Public API & Advanced Features**
+
+##### Public API & Advanced Features
+
 - Public REST API endpoints
 - GraphQL API
 - Automated statute monitoring
@@ -125,12 +173,14 @@ MAJOR.MINOR.PATCH
 ### Compatibility
 
 #### Platform Requirements
+
 - **Storage Format**: JSON (UTF-8)
 - **Schema Version**: STANDARD_JURISDICTION_TEMPLATE v0.11
 - **Minimum Node.js** (for validation): v18+
 - **Minimum Python** (for scripts): 3.9+
 
 #### Integration Status
+
 - ✅ Static JSON consumption: Ready
 - ✅ File-based integrations: Ready
 - ⏸️  Supabase: Not yet integrated (v0.12)
@@ -160,22 +210,22 @@ Total Size:                  ~2.5 MB
 
 None identified. All validation tests passing.
 
-### Next Immediate Priority: v0.11.1
+### Next Immediate Priority: Authentication
 
-**Target**: Q4 2025 (Immediate)
-**Focus**: Supabase Integration & Production Deployment
-**Scope**:
-- Design Supabase database schema from existing JSON
-- Create database migrations
-- Generate TypeScript types for type-safe queries
-- Import v0.11.0 data into Supabase
-- Deploy production Supabase instance
-- Integrate with TheHoleTruth.org platform
-- Enable Map and Wiki features
+- **Target**: Q4 2025 (Immediate)
+- **Focus**: Supabase Authentication Configuration
+- **Scope**:
+  - Configure Supabase Auth for theholetruth.org
+  - Configure Supabase Auth for theholefoundation.org
+  - Set up OAuth providers (Google, GitHub, etc.)
+  - Implement Row Level Security (RLS) policies
+  - Generate TypeScript types for authenticated queries
+  - Test authentication flow with React platform
 
 ### Future Enhancements Roadmap
 
-- **v0.12.0**: Agency contact databases + custom templates
+- **v0.12.0** (In Development): Rights of Access table + data collection (Q4 2025 - Q1 2026)
+- **v0.12.1**: Agency contact databases + custom templates
 - **v0.13.0**: AI training examples + enhanced metadata
 - **v1.0.0**: Public API + automated monitoring
 
@@ -185,6 +235,7 @@ None identified. All validation tests passing.
 
 | Version | Date | Milestone |
 |---------|------|-----------|
+| v0.11.1 | 2025-10-07 | Supabase integration complete ✅ |
 | v0.11.0 | 2025-10-03 | Layer 2 complete (52/52) ✅ |
 | v0.11 | 2025-09-29 | Transparency map dataset |
 | v0.10 | 2025-09-26 | Validation & process maps |
@@ -192,8 +243,8 @@ None identified. All validation tests passing.
 
 ---
 
-**Current Version**: v0.11.0
-**Status**: Production Ready (Static Data)
-**Next Release**: v0.12.0 (Agency Data)
+**Current Version**: v0.11.1
+**Status**: Production Ready (Development Branch)
+**Next Priority**: Supabase Authentication
 
 For detailed changes, see [CHANGELOG.md](CHANGELOG.md).

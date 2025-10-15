@@ -61,6 +61,7 @@ laws-database              │                   │
 **Location**: `/Volumes/HOLE-RAID-DRIVE/HOLE/Github/us-transparency-laws-database`
 
 **Responsibilities**:
+
 - Maintain verified transparency law data for all 52 jurisdictions
 - Provide structured JSON metadata (Layer 2)
 - Generate database schemas for Supabase
@@ -68,6 +69,7 @@ laws-database              │                   │
 - Validate data accuracy and completeness
 
 **Contents**:
+
 - 52 jurisdiction data files (`data/federal/`, `data/states/`)
 - Process maps (52+ visual workflows)
 - Reference materials (holidays matrix, statute names)
@@ -75,6 +77,7 @@ laws-database              │                   │
 - Migration tools
 
 **Consumers**:
+
 - Supabase database (direct import)
 - TheHoleTruth.org platform (via Supabase)
 - TheHOLEFoundation.org (via Supabase for auth context)
@@ -88,6 +91,7 @@ laws-database              │                   │
 **Location**: `/Volumes/HOLE-RAID-DRIVE/HOLE/Github/THEHOLETRUTH.ORG`
 
 **Responsibilities**:
+
 - Interactive Transparency Map (state-by-state visualization)
 - Comprehensive Transparency Wiki (legal education)
 - AI-Powered FOIA Generator (Azure AI / Microsoft AI Foundry)
@@ -95,6 +99,7 @@ laws-database              │                   │
 - Document library (future: liberated documents)
 
 **Tech Stack**:
+
 - **Framework**: Next.js 15 (App Router, SSR/SEO-first)
 - **Styling**: Tailwind CSS + Shadcn/ui
 - **Database**: Supabase PostgreSQL
@@ -103,6 +108,7 @@ laws-database              │                   │
 - **Deployment**: Vercel (or similar edge platform)
 
 **Key Features**:
+
 ```
 theholetruth.org/
 ├── /map                  # Interactive US map with jurisdiction data
@@ -116,6 +122,7 @@ theholetruth.org/
 ```
 
 **Data Flow**:
+
 1. Consumes data from Supabase
 2. Supabase populated from this database
 3. Users create/track FOIA requests
@@ -131,6 +138,7 @@ theholetruth.org/
 **Location**: `/Volumes/HOLE-RAID-DRIVE/HOLE/Github/Theholefoundation.org`
 
 **Responsibilities**:
+
 - Foundation mission, team, funding transparency
 - Unified authentication for all HOLE Foundation services
 - User account management
@@ -138,11 +146,13 @@ theholetruth.org/
 - Blog/news (foundation updates)
 
 **Tech Stack**:
+
 - **Framework**: Next.js or static site
 - **Auth**: Supabase Auth (shared with TheHoleTruth.org)
 - **CMS**: Markdown-based or headless CMS
 
 **Key Features**:
+
 ```
 theholefoundation.org/
 ├── /                     # About the foundation
@@ -154,6 +164,7 @@ theholefoundation.org/
 ```
 
 **Authentication Integration**:
+
 - Single sign-on (SSO) with TheHoleTruth.org
 - Shared Supabase auth backend
 - Unified user profiles
@@ -168,6 +179,7 @@ theholefoundation.org/
 ### Database Schema
 
 #### From This Repository (Transparency Laws)
+
 ```sql
 -- Populated from us-transparency-laws-database
 CREATE TABLE jurisdictions (
@@ -178,8 +190,8 @@ CREATE TABLE jurisdictions (
   law_name TEXT NOT NULL,
   statute_citation TEXT NOT NULL,
   metadata JSONB NOT NULL,
-  created_at TIMESTAMPTZ DEFAULT NOW(),
-  updated_at TIMESTAMPTZ DEFAULT NOW()
+  created_at TIMESTAMP DEFAULT NOW(),
+  updated_at TIMESTAMP DEFAULT NOW()
 );
 
 CREATE TABLE response_requirements (
@@ -204,6 +216,7 @@ CREATE TABLE exemptions (
 ```
 
 #### Platform Features (TheHoleTruth.org)
+
 ```sql
 -- User-generated content
 CREATE TABLE foia_requests (
@@ -214,7 +227,7 @@ CREATE TABLE foia_requests (
   subject_matter TEXT NOT NULL,
   request_text TEXT NOT NULL,
   status TEXT DEFAULT 'draft',
-  created_at TIMESTAMPTZ DEFAULT NOW(),
+  created_at TIMESTAMP DEFAULT NOW(),
   submitted_at TIMESTAMPTZ,
   response_received_at TIMESTAMPTZ
 );
@@ -243,17 +256,20 @@ CREATE TABLE user_analytics (
 ### Authentication (Unified)
 
 **Supabase Auth Configuration**:
+
 - Shared auth across theholetruth.org and theholefoundation.org
 - Same Supabase project for both domains
 - OAuth providers: Google, GitHub, Email/Password
 - Row Level Security (RLS) for user data
 
 **User Roles**:
+
 - `public`: Anonymous visitors (read-only map, wiki, basic generator)
 - `registered`: Authenticated users (full generator, tracker, analytics)
 - `admin`: HOLE Foundation team (content management, analytics)
 
 ### Storage Buckets
+
 ```
 supabase-storage/
 ├── foia-requests/        # User-generated FOIA requests (private)
@@ -263,6 +279,7 @@ supabase-storage/
 ```
 
 ### Edge Functions
+
 ```
 supabase/functions/
 ├── generate-foia/        # Azure AI integration for FOIA generation
@@ -282,12 +299,14 @@ supabase/functions/
 **Status**: Minimally configured, working for basic generation
 
 **Components**:
+
 - **AI Project**: Pre-configured Azure AI Foundry project
 - **Training Data**: FOIA examples from this database (future: Layer 5)
 - **Prompt Engineering**: Jurisdiction-specific optimization
 - **API Integration**: Called via Supabase Edge Functions
 
 **Workflow**:
+
 1. User selects jurisdiction (from this database)
 2. User describes request subject
 3. Azure AI generates optimized request using:
@@ -298,6 +317,7 @@ supabase/functions/
 4. Request returned to user with explanation
 
 **Future Enhancements** (v0.12+):
+
 - Custom training examples per jurisdiction
 - Success rate tracking and optimization
 - Multi-jurisdiction request coordination
@@ -306,6 +326,7 @@ supabase/functions/
 
 **Role**: Statute analysis and legal interpretation
 **Use Cases**:
+
 - Wiki content generation from statutory text
 - Natural language search across laws
 - Legal concept explanations
@@ -315,6 +336,7 @@ supabase/functions/
 
 **Role**: Complex legal document analysis
 **Use Cases**:
+
 - Long-form statute interpretation
 - Appeal strategy development
 - Response analysis (for tracker feature)
@@ -381,6 +403,7 @@ User (theholetruth.org/generator)
 ## 🏛️ Complete Technology Stack
 
 ### Layer 1: Data Foundation (THIS REPO)
+
 - **Data Format**: JSON (UTF-8)
 - **Schema**: STANDARD_JURISDICTION_TEMPLATE v0.11
 - **Validation**: Python 3.9+ scripts
@@ -388,6 +411,7 @@ User (theholetruth.org/generator)
 - **Quality Assurance**: Manual verification + automated tests
 
 ### Layer 2: Database & Backend (Supabase)
+
 - **Database**: PostgreSQL 15+
 - **Auth**: Supabase Auth (OAuth, Email/Password)
 - **Storage**: Supabase Storage (S3-compatible)
@@ -398,6 +422,7 @@ User (theholetruth.org/generator)
 ### Layer 3: Application Platforms
 
 #### TheHoleTruth.org
+
 - **Framework**: Next.js 15 (App Router)
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS + Shadcn/ui
@@ -407,18 +432,21 @@ User (theholetruth.org/generator)
 - **Deployment**: Vercel Edge Network
 
 #### TheHOLEFoundation.org
+
 - **Framework**: Next.js or Astro (TBD)
 - **CMS**: Markdown-based or Sanity.io
 - **Styling**: Tailwind CSS
 - **Deployment**: Vercel or Netlify
 
 ### Layer 4: AI & Processing
+
 - **Azure AI**: FOIA request generation (Microsoft AI Foundry)
 - **OpenAI**: GPT-4 for analysis and wiki content
 - **Claude**: Complex legal interpretation (Anthropic)
 - **Vector DB**: Pinecone or Supabase pgvector (semantic search)
 
 ### Layer 5: DevOps & Monitoring
+
 - **Version Control**: GitHub
 - **CI/CD**: GitHub Actions
 - **Monitoring**: Vercel Analytics + Supabase Dashboard
@@ -430,6 +458,7 @@ User (theholetruth.org/generator)
 ## 🚀 Deployment Sequence
 
 ### Phase 1: Data Foundation ✅ COMPLETE (v0.11.0)
+
 - [x] Collect and verify all 52 jurisdictions
 - [x] Structure data in standardized JSON
 - [x] Create process maps and reference materials
@@ -437,6 +466,7 @@ User (theholetruth.org/generator)
 - [x] Release v0.11.0 with formal documentation
 
 ### Phase 2: Supabase Integration 🚧 CURRENT (v0.11.1)
+
 - [ ] Design PostgreSQL schema from JSON structure
 - [ ] Create Supabase project (production)
 - [ ] Write database migrations
@@ -448,6 +478,7 @@ User (theholetruth.org/generator)
 - [ ] Test data integrity and queries
 
 ### Phase 3: Platform Development 🔜 NEXT
+
 - [ ] Build TheHoleTruth.org core pages
   - [ ] Transparency Map (interactive visualization)
   - [ ] Transparency Wiki (legal education)
@@ -462,6 +493,7 @@ User (theholetruth.org/generator)
 - [ ] User testing and feedback
 
 ### Phase 4: AI Enhancement 🔮 FUTURE
+
 - [ ] Fine-tune Azure AI with jurisdiction-specific examples
 - [ ] Add request tracker with status notifications
 - [ ] Build analytics dashboard for obstruction metrics
@@ -470,6 +502,7 @@ User (theholetruth.org/generator)
 - [ ] Create document analysis tools
 
 ### Phase 5: Public Launch 🎯 GOAL
+
 - [ ] Production deployment (both domains)
 - [ ] Public announcement
 - [ ] SEO optimization
@@ -482,18 +515,21 @@ User (theholetruth.org/generator)
 ## 📊 Success Metrics
 
 ### Data Layer (This Repo)
+
 - Jurisdiction coverage: 52/52 (100%) ✅
 - Data accuracy: 100% official source verification ✅
 - Update frequency: Quarterly reviews (planned)
 - Schema stability: v0.11 template standardized ✅
 
 ### Platform Layer (TheHoleTruth.org)
+
 - User registration: Target 1,000 in first month
 - FOIA requests generated: Target 100 in first month
 - Map interactions: Track engagement with visualization
 - Wiki page views: Measure legal education reach
 
 ### Foundation Layer (TheHOLEFoundation.org)
+
 - Transparency rating: Achieve Candid.org Seal
 - Unified auth adoption: 80%+ users with cross-platform accounts
 - Community engagement: Newsletter signups, social media
@@ -503,6 +539,7 @@ User (theholetruth.org/generator)
 ## 🔐 Security & Privacy
 
 ### Data Protection
+
 - All personally identifiable information (PII) in Supabase
 - Row Level Security (RLS) on all user tables
 - Encrypted at rest and in transit
@@ -510,6 +547,7 @@ User (theholetruth.org/generator)
 - GDPR/CCPA compliance for user data
 
 ### Authentication Security
+
 - OAuth 2.0 for third-party auth
 - JWT tokens with short expiration
 - Refresh token rotation
@@ -517,6 +555,7 @@ User (theholetruth.org/generator)
 - Session management and logout
 
 ### API Security
+
 - Rate limiting on all endpoints
 - API key authentication for external use
 - CORS properly configured
@@ -544,6 +583,7 @@ Azure AI Foundry      Shared Auth            Public API
 ```
 
 ### External Integrations
+
 - **Azure AI Foundry**: FOIA request generation
 - **OpenAI API**: Statute analysis
 - **Anthropic Claude**: Legal interpretation
@@ -592,17 +632,20 @@ Azure AI Foundry      Shared Auth            Public API
 ## 📚 Documentation Links
 
 ### This Repository
+
 - [VERSION.md](VERSION.md) - Current version and roadmap
 - [CHANGELOG.md](CHANGELOG.md) - Version history
 - [CLAUDE.md](CLAUDE.md) - Development guidelines
 - [README.md](README.md) - Project overview
 
 ### Platform Repository (THEHOLETRUTH.ORG)
+
 - PLATFORM_ARCHITECTURE.md - Detailed platform design
 - Integration guides (to be created)
 - Component documentation (to be created)
 
 ### Supabase Documentation
+
 - Schema documentation (to be created in this repo)
 - API documentation (auto-generated from schema)
 - Edge Function documentation (to be created)
@@ -612,17 +655,20 @@ Azure AI Foundry      Shared Auth            Public API
 ## 🤝 Collaboration & Coordination
 
 ### Repository Ownership
+
 - **us-transparency-laws-database**: Data team (maintains accuracy)
 - **THEHOLETRUTH.ORG**: Platform team (builds user experience)
 - **TheHOLEFoundation.org**: Foundation team (organizational content)
 - **Supabase**: Shared responsibility (both platform and data teams)
 
 ### Communication Channels
+
 - GitHub Issues: Feature requests and bug reports
 - GitHub Projects: Sprint planning and task tracking
 - Documentation: Centralized in each repository
 
 ### Release Coordination
+
 - Data releases (this repo) should precede platform releases
 - Breaking schema changes require platform updates
 - Semantic versioning for all components

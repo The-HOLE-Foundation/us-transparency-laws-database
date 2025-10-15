@@ -1,22 +1,9 @@
 {
-  // JSON Configuration
-  "json.validate.e  // Markdown Configuration
-  "markdownlint.config": {
-    "MD001": true,
-    "MD009": {
-      "br_spaces": 2
-    },
-    "MD022": true,
-    "MD024": false,
-    "MD032": true,
-    "MD040": true
-  },
+  "json.validate.enable": true,
   "json.format.enable": true,
   "json.format.keepLines": false,
   "json.schemaDownload.enable": true,
   "json.maxItemsComputed": 10000,
-  
-  // JSON Schemas for project files
   "json.schemas": [
     {
       "fileMatch": [
@@ -38,21 +25,15 @@
       "url": "./schemas/ground-truth-schema.json"
     }
   ],
-  
-  // Python Configuration
   "python.linting.enabled": true,
   "python.linting.pylintEnabled": false,
   "python.linting.flake8Enabled": true,
   "python.linting.mypyEnabled": true,
   "python.formatting.provider": "black",
   "python.sortImports.args": ["--profile", "black"],
-  
-  // Pylance Configuration
   "python.analysis.typeCheckingMode": "strict",
   "python.analysis.autoImportCompletions": true,
   "python.analysis.autoFormatStrings": true,
-  
-  // Markdown Configuration
   "markdownlint.config": {
     "MD001": true,
     "MD009": {
@@ -65,8 +46,6 @@
     "MD032": true,
     "MD040": true
   },
-  
-  // TypeScript/JavaScript Configuration (for Next.js prep)
   "typescript.preferences.importModuleSpecifier": "relative",
   "typescript.suggest.autoImports": true,
   "javascript.suggest.autoImports": true,
@@ -76,34 +55,24 @@
     "typescript",
     "typescriptreact"
   ],
-  
-  // Editor Configuration
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
     "source.fixAll.markdownlint": "explicit",
     "source.organizeImports": "explicit"
   },
-  
-  // File Associations
   "files.associations": {
     "*.json": "jsonc",
     "*template*.json": "json",
     ".env.local": "dotenv",
     ".env.example": "dotenv"
   },
-  
-  // Supabase Configuration
   "supabase.projectId": "",
-  
-  // Extensions Configuration
   "prettier.configPath": "./.prettierrc.json",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "typescript": "typescriptreact"
   },
-  
-  // Git Configuration
   "git.ignoreLimitWarning": true,
   "git.autofetch": true
 }

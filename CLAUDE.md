@@ -12,7 +12,7 @@ DATE: [YYYY-MM-DD]
 AUTHOR: [Author Name or "Claude Code AI Assistant"]
 PROJECT: The HOLE Foundation - US Transparency Laws Database
 SUBPROJECT: [Specific component, e.g., "Supabase Schema Design", "Data Validation", "Process Maps"]
-VERSION: v0.11
+VERSION: v0.11 or v0.12 (depending on context)
 ---
 ```
 
@@ -20,9 +20,34 @@ This applies to all markdown files, documentation, reports, schemas, and any oth
 
 ## Project Overview
 
-This repository is a comprehensive database of US transparency laws (FOIA and public records laws) for all 51 jurisdictions (50 states + DC + Federal). The project is currently in **template mode (v0.11)** - all data files have been cleared and replaced with empty templates ready to be populated with verified data.
+This repository is a comprehensive database of US transparency laws (FOIA and public records laws) for all US jurisdictions, including states, territories, and federal government.
 
-**Critical**: This database serves as ground truth for AI training. **100% accuracy is mandatory**. All data must be verified from official government sources only (state legislature websites, official state code databases, official AG offices, official agency .gov sites).
+**Current Status**:
+- **v0.11.1**: PRODUCTION READY - Supabase database deployed with 52 jurisdictions (50 states + DC + Federal), 365 exemptions
+- **v0.12**: IN DEVELOPMENT - Territory Expansion + Rights of Access
+  - **Territory Coverage**: Expanding to 56+ jurisdictions by adding US territories (Puerto Rico, Guam, US Virgin Islands, Northern Mariana Islands, American Samoa)
+  - **Rights of Access**: Complementary table to exemptions, documenting affirmative transparency rights
+  - **Research Status**: 5 territories under investigation; ~90-117 hours estimated research needed
+
+**Critical**: This database serves as ground truth for AI training. **100% accuracy is mandatory**. All data must be verified from official government sources only (state/territory legislature websites, official code databases, official AG offices, official agency .gov sites).
+
+### v0.12 Territory Expansion Overview
+
+**Why Territories Matter**: 5.4 million US residents live in territories with distinct legal frameworks for accessing government records. Federal FOIA covers federal agencies only—not territorial governments. This creates a **two-tier transparency system** where territorial residents depend entirely on local FOIA statutes.
+
+**Territory FOIA Status**:
+- ✅ **3 territories with confirmed laws**: Puerto Rico (Act 141-2019), Guam (Sunshine Reform Act 1999), US Virgin Islands (Public Records Act)
+- ❌ **2 territories unconfirmed**: Northern Mariana Islands and American Samoa require critical research
+- 🔴 **Transparency gap identified**: Territories without local FOIA leave ~96,000 residents with no guaranteed access rights
+
+**Research Priorities**:
+1. 🔴 **CRITICAL**: CNMI comprehensive code search and AG inquiry (22-28 hours)
+2. 🔴 **CRITICAL**: American Samoa cultural research and code search (28-35 hours) - requires fa'a Samoa cultural competency
+3. 🔴 **HIGH**: Puerto Rico bilingual statutory text (Spanish + English) (18-24 hours)
+4. 🔴 **HIGH**: Guam full statutory analysis (12-16 hours)
+5. 🟡 **MEDIUM**: USVI implementing regulations research (10-14 hours)
+
+**Documentation**: See `documentation/V0.12_TERRITORY_EXPANSION_RESEARCH_MEMO.md` for comprehensive findings.
 
 ## Repository Structure
 
@@ -36,41 +61,126 @@ us-transparency-laws-database/
 ├── data/
 │   ├── federal/                       # Federal FOIA data (jurisdiction-data.json, templates.json)
 │   ├── states/                        # 50 state directories, each with jurisdiction-data.json
+│   ├── territories/                   # NEW v0.12: 5 territory directories
+│   │   ├── puerto-rico/               # Bilingual jurisdiction (Spanish + English)
+│   │   ├── guam/                      # Hybrid FOIA/sunshine statute
+│   │   ├── us-virgin-islands/         # Brief statute (4 sections)
+│   │   ├── northern-mariana-islands/  # Research critical - FOIA status unconfirmed
+│   │   └── american-samoa/            # Research critical - fa'a Samoa cultural context
 │   └── consolidated/                  # Master database and tracking table
+│       └── master_tracking_table-v0.12.json  # NEW: Updated with territories
 ├── consolidated-transparency-data/
 │   ├── verified-process-maps/         # Jurisdiction-specific process maps
 │   └── statutory-text-files/          # Full statutory text (currently empty)
 ├── documentation/                      # Validation methodology, verification guides
+│   ├── V0.12_TERRITORY_EXPANSION_RESEARCH_MEMO.md  # NEW: Comprehensive territory research
+│   └── VALIDATION_METHODOLOGY.md
 ├── statutory-data/                     # Ground truth data organized by version
+│   └── v0.12/                         # NEW: Territory statutory text files
+│       ├── puerto-rico/               # Spanish + English statutory text
+│       ├── guam/
+│       ├── us-virgin-islands/
+│       ├── northern-mariana-islands/  # Transparency gap documentation if no statute
+│       └── american-samoa/            # Transparency gap + cultural context
 ├── schemas/                           # Data validation schemas (currently empty)
 └── scripts/                           # Migration scripts (Python and shell)
 ```
 
 ## Data Architecture
 
-### Three-Layer Data Model
+### Four-Layer Data Model (v0.11.1)
 
-1. **Raw Statutory Data** (`statutory-data/`)
+1. **Raw Statutory Data** (`statutory-data/`, `releases/v0.11.0/`)
    - Full statute text files
    - Official statutory citations
    - Ground truth from official sources only
+   - v0.11.0: Complete JSON files for all 52 jurisdictions
 
-2. **Structured Jurisdiction Data** (`data/states/`, `data/federal/`)
-   - Parsed statute information in JSON format
-   - Agency contact databases
-   - Request templates
-   - Each state has its own directory with `jurisdiction-data.json`
+2. **Supabase PostgreSQL Database** (`supabase/` - **PRODUCTION READY**)
+   - **10 Core Tables**: jurisdictions, transparency_laws, response_requirements, fee_structures, exemptions, appeal_processes, requester_requirements, agency_obligations, oversight_bodies, agencies
+   - **1 Optimized View**: `transparency_map_display` for interactive map
+   - **365 exemptions** with automatic jurisdiction context
+   - **52 jurisdictions** fully imported (Federal + 50 States + DC)
+   - **JSONB additional_fields** preserves jurisdiction-specific variations
+   - **7 migrations** successfully deployed to development branch
 
-3. **Consolidated Resources** (`data/consolidated/`, `consolidated-transparency-data/`)
-   - Master tracking table for all 51 jurisdictions
-   - Consolidated master database
-   - Verified process maps for each jurisdiction
+3. **Structured Source Data** (`releases/v0.11.0/jurisdictions/`)
+   - 52 JSON files (one per jurisdiction)
+   - Nested structure with transparency_law object
+   - Source of truth for Supabase imports
+   - Each file contains: response_requirements, fee_structure, exemptions, appeal_process, requester_requirements, agency_obligations, oversight_body, validation_metadata
 
-### Key Data Files (Currently Templates)
+4. **Transparency Map Dataset** (`Transparency-Map-Dataset/`)
+   - Curated 181KB JSON optimized for map display
+   - Timeline code system (negative integers for flexible deadlines)
+   - Now superseded by `transparency_map_display` VIEW in database
 
-- **`data/consolidated/master_tracking_table-template.json`**: Tracks completion status for all 51 jurisdictions, including priority levels, statute collection status, agency data collection status, and template creation status
-- **`templates/json/STANDARD_JURISDICTION_TEMPLATE_template-v0.11.json`**: Standard schema for jurisdiction data including statute details, response requirements, appeal process, fee structure, exemptions, requester requirements, agency obligations, oversight body, and validation metadata
-- **State agencies files**: `data/states/{state-name}/jurisdiction-data.json` - Contains jurisdiction info, transparency law details, and agency contact information
+### Key Database Tables (v0.11.1)
+
+**Core Tables**:
+- **`jurisdictions`** (52 records): id, slug, name, jurisdiction_type
+- **`transparency_laws`** (52 records): jurisdiction_id, name, statute_citation, effective_date, last_amended, official_resources (JSONB), validation_metadata (JSONB)
+- **`response_requirements`** (52 records): transparency_law_id, initial_response_time, initial_response_unit, final_response_time, final_response_unit, extension_allowed, extension_max_days, extension_conditions, tolling_allowed, tolling_notes, **additional_fields (JSONB)**
+- **`fee_structures`** (52 records): transparency_law_id, search_fee, copy_fee_per_page, electronic_fee, fee_waiver_available, fee_waiver_criteria, **additional_fields (JSONB)**
+- **`exemptions`** (365 records): transparency_law_id, category, citation, description, scope, **jurisdiction_name, jurisdiction_slug, jurisdiction_code** (auto-populated via trigger)
+- **`appeal_processes`** (52 records): transparency_law_id, first_level, first_level_deadline_days, second_level, attorney_fees_recoverable, **additional_fields (JSONB)**
+- **`requester_requirements`** (52 records): transparency_law_id, identification_required, purpose_statement_required, residency_requirement, **additional_fields (JSONB)**
+- **`agency_obligations`** (52 records): transparency_law_id, records_officer_required, business_hours_access, electronic_submission_accepted, **additional_fields (JSONB)**
+- **`oversight_bodies`** (38 records): transparency_law_id, name, role, contact_info, oversight_url, **additional_fields (JSONB)**
+- **`agencies`** (0 records): Deferred to v0.12
+
+**v0.12 New Table (In Development)**:
+- **`rights_of_access`** (0 records - to be populated): Affirmative rights to public records
+  - Fields: transparency_law_id, jurisdiction_slug, jurisdiction_name, category, subcategory, statute_citation, description, conditions, applies_to, implementation_notes, request_tips
+  - Categories: Proactive Disclosure, Enhanced Access Rights, Technology Rights, Requester-Specific Rights, Inspection Rights, Timeliness Rights
+  - **Purpose**: Enable FOIA Generator to assert specific statutory rights in requests
+  - **Documentation**: See [v0.12-RIGHTS_OF_ACCESS_DESIGN.md](documentation/v0.12-RIGHTS_OF_ACCESS_DESIGN.md)
+
+**Optimized Views**:
+- **`transparency_map_display`** (v0.11.1): Single-query access to all map data, flattens normalized schema, auto-generates key_features_tags
+- **`transparency_landscape`** (v0.12): Combines rights_of_access and exemptions for complete transparency picture across all jurisdictions
+
+### Querying the Database
+
+**Example 1: Get all jurisdictions for map**
+```sql
+SELECT jurisdiction_name, jurisdiction_code, response_timeline_days, key_features_tags
+FROM transparency_map_display
+ORDER BY jurisdiction_name;
+```
+
+**Example 2: Get California exemptions (no joins!)**
+```sql
+SELECT category, description FROM exemptions WHERE jurisdiction_name = 'California';
+```
+
+**Example 3: Count exemptions by jurisdiction**
+```sql
+SELECT jurisdiction_name, COUNT(*) FROM exemptions GROUP BY jurisdiction_name ORDER BY COUNT(*) DESC;
+```
+
+**Example 4 (v0.12): Get California's proactive disclosure rights**
+```sql
+SELECT category, description, statute_citation, request_tips
+FROM rights_of_access
+WHERE jurisdiction_slug = 'california' AND category = 'Proactive Disclosure'
+ORDER BY subcategory;
+```
+
+**Example 5 (v0.12): Compare rights vs exemptions for all states**
+```sql
+SELECT jurisdiction_name, total_rights, total_exemptions, transparency_ratio, data_status
+FROM transparency_landscape
+ORDER BY transparency_ratio DESC;
+```
+
+**Example 6 (v0.12): Get all technology rights across jurisdictions**
+```sql
+SELECT jurisdiction_name, description, statute_citation
+FROM rights_of_access
+WHERE category = 'Technology Rights'
+ORDER BY jurisdiction_name;
+```
 
 ## Data Validation Rules (CRITICAL)
 
@@ -92,69 +202,167 @@ us-transparency-laws-database/
 - All legal citations must be verified from official sources
 - Response timelines must distinguish between business days and calendar days
 - Fee structures must reflect exact statutory language
-- All URLs must link directly to official .gov sites
+- All URLs must link directly to official .gov sites (or territory equivalents: .gov.pr, .gov.gu, .gov.vi, .gov.mp, .gov.as)
 - Validation metadata must document verification date and primary sources
+
+### Territory-Specific Validation (v0.12):
+
+**Puerto Rico Bilingual Requirements**:
+- Obtain both Spanish (authoritative) and English statutory text
+- UTF-8 encoding for Spanish characters (á, é, í, ó, ú, ñ, ü)
+- Native Spanish speaker verification required
+- Source: LexJuris.com (https://www.lexjuris.com/) for official legal database
+- OGPE (https://ogpe.pr.gov/) for English translations
+
+**American Samoa Cultural Competency**:
+- Fa'a Samoa traditional governance context required
+- Cultural expert consultation mandatory
+- Avoid imposing inappropriate Western legal frameworks
+- Document both formal and informal access mechanisms
+- US nationals (not citizens) - note citizenship status
+- Source: Pacific Islands Legal Information Institute (https://www.paclii.org/)
+
+**Transparency Gap Documentation** (CNMI, American Samoa if applicable):
+- Confirm absence of FOIA through systematic code search
+- Contact Attorney General for official guidance
+- Research common law access rights
+- Document federal FOIA coverage boundaries
+- Explain democratic accountability implications
+- Include legislative advocacy recommendations
 
 ## Working with This Repository
 
-### Adding New Jurisdiction Data
+### Querying v0.11.1 Database (Current)
 
-1. Start with the template: `templates/json/STANDARD_JURISDICTION_TEMPLATE_template-v0.11.json`
-2. Locate official state statute from acceptable sources only
-3. Fill in all fields following validation methodology in `documentation/VALIDATION_METHODOLOGY.md`
-4. Update tracking table: `data/consolidated/master_tracking_table-template.json`
-5. Create corresponding process map in `consolidated-transparency-data/verified-process-maps/`
+**Development Branch**: `https://befpnwcokngtrljxskfz.supabase.co`
+
+All 52 jurisdictions are now deployed to Supabase. Use these patterns:
+
+**JavaScript/TypeScript (Supabase Client)**
+```javascript
+import { createClient } from '@supabase/supabase-js'
+
+const supabase = createClient(
+  'https://befpnwcokngtrljxskfz.supabase.co',
+  'YOUR_ANON_KEY'
+)
+
+// Get all jurisdictions for transparency map
+const { data: jurisdictions } = await supabase
+  .from('transparency_map_display')
+  .select('jurisdiction_name, jurisdiction_code, response_timeline_days, key_features_tags')
+
+// Get California exemptions (no joins needed!)
+const { data: exemptions } = await supabase
+  .from('exemptions')
+  .select('category, description, legal_cite')
+  .eq('jurisdiction_name', 'California')
+
+// Get jurisdiction details
+const { data: california } = await supabase
+  .from('jurisdictions')
+  .select(`
+    *,
+    transparency_laws(*),
+    response_requirements(*),
+    fee_structures(*),
+    appeal_processes(*)
+  `)
+  .eq('slug', 'california')
+  .single()
+```
+
+**Direct SQL Access**
+```sql
+-- Get states with fast response times
+SELECT jurisdiction_name, response_timeline_days
+FROM transparency_map_display
+WHERE response_timeline_days <= 5 AND response_timeline_days > 0
+ORDER BY response_timeline_days;
+
+-- Find jurisdictions with attorney fee recovery
+SELECT j.name, ap.attorney_fees_notes
+FROM jurisdictions j
+JOIN transparency_laws tl ON tl.jurisdiction_id = j.id
+JOIN appeal_processes ap ON ap.transparency_law_id = tl.id
+WHERE ap.attorney_fees_recoverable = true;
+
+-- Analyze exemption categories across all jurisdictions
+SELECT category, COUNT(*) as count, ARRAY_AGG(DISTINCT jurisdiction_name)
+FROM exemptions
+GROUP BY category
+ORDER BY count DESC;
+```
+
+### Adding New Jurisdiction Data (Future Updates)
+
+1. Update source JSON in `releases/v0.11.0/jurisdictions/{jurisdiction-slug}.json`
+2. Verify data against official .gov sources only
+3. Run import script: `node dev/scripts/smart-import.js`
+4. Validate with: `node dev/scripts/verify-schema.js`
+5. Update process map in `releases/v0.11.0/process-maps/`
 
 ### Data Migration Tools
 
-- **`scripts/migrate_data_files.sh`**: Shell script for bulk data migration
+- **`dev/scripts/smart-import.js`**: Import v0.11.0 JSON to Supabase with flexible schema handling
+- **`dev/scripts/verify-schema.js`**: Verify all 10 tables deployed correctly
 - **`scripts/complete_migration.py`**: Python script for data processing and validation
 
 ### Version Naming Convention
 
-All templates use the suffix `_template-v0.11` to indicate:
-- Data has been cleared (template mode)
-- Version 0.11 of the template schema
-- Ready for population with verified data
+- **v0.11.0**: JSON data release (52 jurisdictions, process maps) - **COMPLETE**
+- **v0.11.1**: Supabase integration with flexible schema - **PRODUCTION**
+- **v0.12.0**: Territory Expansion + Rights of Access - **IN DEVELOPMENT**
+  - Adds 5 US territories (Puerto Rico, Guam, USVI, CNMI, American Samoa)
+  - Expands from 52 to 56+ jurisdictions
+  - Bilingual support (Spanish/English for Puerto Rico)
+  - Cultural context documentation (fa'a Samoa for American Samoa)
+  - Transparency gap identification and advocacy
+  - Rights of Access table population
+  - Estimated completion: 12-14 weeks from research start
+- **v0.13.0+**: Tribal nations, implementation effectiveness (future)
 
 ## Integration Points
 
 This repository is part of the HOLE Foundation ecosystem:
-- **theholetruth-platform**: React application consuming this database
+- **theholetruth-platform**: React application consuming this database via Supabase
 - **foundation-meta**: Central coordination repository
-- Database is structured for Supabase compatibility
-- JSON structure designed for direct API consumption
+- **Supabase Backend**: PostgreSQL database with PostgREST API (Development: befpnwcokngtrljxskfz)
+- **Authentication**: Supabase Auth (to be configured for theholetruth.org and theholefoundation.org)
 
 ## Development Commands
 
-### Supabase Development
+### Supabase Database Management (v0.11.1)
 ```bash
-# Start Supabase local development
-cd supabase && pnpm setup:cli
+# Link to development branch
+npx supabase link --project-ref befpnwcokngtrljxskfz
 
-# Generate TypeScript types from database
-pnpm generate:types
+# View migration status
+npx supabase migration list --linked
 
-# Run development server
-pnpm dev
+# Push migrations to development
+npx supabase db push --linked
 
-# Build for production
-pnpm build
+# Generate TypeScript types
+npx supabase gen types typescript --linked > types/supabase.ts
 
-# Run linting and formatting
-pnpm lint
-pnpm typecheck
-pnpm test:prettier
-pnpm format
+# Verify schema deployment
+node dev/scripts/verify-schema.js
+
+# Import v0.11.0 data to Supabase
+node dev/scripts/smart-import.js
 ```
 
-### Data Migration and Validation
+### Data Validation (v0.11.1)
 ```bash
-# Run data migration scripts
-./scripts/migrate_data_files.sh
-python3 scripts/complete_migration.py
+# Verify all 10 tables deployed
+node dev/scripts/verify-schema.js
 
-# Find and resolve duplicates
+# Check data completeness
+# See documentation/DATA_COMPLETENESS_AUDIT_v0.11.1.md
+
+# Validate migration integrity
+npx supabase migration list --linked
 python3 scripts/find_duplicates.py
 
 # Extract and process map data

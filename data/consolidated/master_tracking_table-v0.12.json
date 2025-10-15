@@ -1,0 +1,689 @@
+{
+  "metadata": {
+    "version": "0.12",
+    "last_updated": "2025-10-07",
+    "description": "Master tracking table for US Transparency Laws Database v0.12 - Territory Expansion Release",
+    "total_jurisdictions": 56,
+    "jurisdictions_by_type": {
+      "states": 50,
+      "district": 1,
+      "federal": 1,
+      "territories": 5
+    },
+    "territories_with_confirmed_foia": 3,
+    "territories_without_confirmed_foia": 2,
+    "transparency_gap_jurisdictions": [
+      "Northern Mariana Islands",
+      "American Samoa"
+    ],
+    "jurisdictions_validated": 0,
+    "jurisdictions_in_progress": 5,
+    "jurisdictions_not_started": 51,
+    "research_hours_estimated": {
+      "puerto_rico": "18-24",
+      "guam": "12-16",
+      "us_virgin_islands": "10-14",
+      "northern_mariana_islands": "22-28",
+      "american_samoa": "28-35",
+      "total": "90-117"
+    }
+  },
+  "jurisdictions": [
+    {
+      "name": "Alabama",
+      "slug": "alabama",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "Alaska",
+      "slug": "alaska",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "American Samoa",
+      "slug": "american-samoa",
+      "type": "territory",
+      "has_foia": false,
+      "transparency_gap": true,
+      "traditional_governance": true,
+      "population": 49000,
+      "capital": "Pago Pago",
+      "official_languages": ["Samoan", "English"],
+      "citizenship_status": "us_nationals",
+      "constitutional_status": "unincorporated_unorganized",
+      "status": "research_critical",
+      "priority": 1,
+      "research_confidence": "very_low",
+      "notes": "No FOIA statute identified as of 2025-10-07. Fa'a Samoa traditional governance considerations require cultural expert consultation. Limited online legal resources. Estimated 28-35 hours research needed.",
+      "research_tasks": [
+        "Contact American Samoa Attorney General for official guidance",
+        "Obtain access to American Samoa Code (online or physical)",
+        "Consult with legal scholars familiar with fa'a Samoa",
+        "Research High Court decisions on public access",
+        "Document traditional governance mechanisms",
+        "Determine practical procedures for accessing records"
+      ],
+      "official_sources": {
+        "government": "https://www.americansamoa.gov/",
+        "high_court": "https://ashighcourt.org/",
+        "paclii": "https://www.paclii.org/"
+      }
+    },
+    {
+      "name": "Arizona",
+      "slug": "arizona",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "Arkansas",
+      "slug": "arkansas",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "California",
+      "slug": "california",
+      "type": "state",
+      "status": "not_started",
+      "priority": 1,
+      "has_foia": true,
+      "notes": "Priority jurisdiction - largest state by population"
+    },
+    {
+      "name": "Colorado",
+      "slug": "colorado",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "Connecticut",
+      "slug": "connecticut",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "Delaware",
+      "slug": "delaware",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "District of Columbia",
+      "slug": "district-of-columbia",
+      "type": "district",
+      "status": "not_started",
+      "priority": 1,
+      "has_foia": true,
+      "notes": "Federal district - unique jurisdiction"
+    },
+    {
+      "name": "Federal",
+      "slug": "federal",
+      "type": "federal",
+      "status": "not_started",
+      "priority": 1,
+      "has_foia": true,
+      "notes": "5 U.S.C. § 552 - Federal Freedom of Information Act"
+    },
+    {
+      "name": "Florida",
+      "slug": "florida",
+      "type": "state",
+      "status": "not_started",
+      "priority": 1,
+      "has_foia": true,
+      "notes": "Priority jurisdiction - strong sunshine laws"
+    },
+    {
+      "name": "Georgia",
+      "slug": "georgia",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "Guam",
+      "slug": "guam",
+      "type": "territory",
+      "has_foia": true,
+      "population": 171000,
+      "capital": "Hagåtña",
+      "official_languages": ["English", "Chamorro"],
+      "citizenship_status": "us_citizens",
+      "constitutional_status": "unincorporated_organized",
+      "status": "research_in_progress",
+      "priority": 1,
+      "research_confidence": "medium",
+      "notes": "Sunshine Reform Act of 1999 (5 GCA §§ 10101-10118). Hybrid FOIA/open meetings statute. Full statutory text pending. Estimated 12-16 hours research needed.",
+      "statute": {
+        "name": "Sunshine Reform Act of 1999",
+        "codification": "5 Guam Code Annotated §§ 10101-10118",
+        "effective_date": "1999",
+        "type": "hybrid_foia_sunshine"
+      },
+      "research_tasks": [
+        "Obtain full text of 5 GCA Chapter 10 (18 sections)",
+        "Separate FOIA provisions from open meetings provisions",
+        "Identify designated FOIA officer or responsible agency",
+        "Map all agencies subject to Sunshine Reform Act",
+        "Research Guam Supreme Court interpretive decisions",
+        "Document implementing regulations if any"
+      ],
+      "official_sources": {
+        "legislature": "https://www.guamlegislature.com/",
+        "courts": "https://www.guamcourts.org/",
+        "governor": "https://governor.guam.gov/",
+        "attorney_general": "https://www.guamag.org/"
+      }
+    },
+    {
+      "name": "Hawaii",
+      "slug": "hawaii",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "Idaho",
+      "slug": "idaho",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "Illinois",
+      "slug": "illinois",
+      "type": "state",
+      "status": "not_started",
+      "priority": 1,
+      "has_foia": true,
+      "notes": "Priority jurisdiction"
+    },
+    {
+      "name": "Indiana",
+      "slug": "indiana",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "Iowa",
+      "slug": "iowa",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "Kansas",
+      "slug": "kansas",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "Kentucky",
+      "slug": "kentucky",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "Louisiana",
+      "slug": "louisiana",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "Maine",
+      "slug": "maine",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "Maryland",
+      "slug": "maryland",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "Massachusetts",
+      "slug": "massachusetts",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "Michigan",
+      "slug": "michigan",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "Minnesota",
+      "slug": "minnesota",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "Mississippi",
+      "slug": "mississippi",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "Missouri",
+      "slug": "missouri",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "Montana",
+      "slug": "montana",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "Nebraska",
+      "slug": "nebraska",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "Nevada",
+      "slug": "nevada",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "New Hampshire",
+      "slug": "new-hampshire",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "New Jersey",
+      "slug": "new-jersey",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "New Mexico",
+      "slug": "new-mexico",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "New York",
+      "slug": "new-york",
+      "type": "state",
+      "status": "not_started",
+      "priority": 1,
+      "has_foia": true,
+      "notes": "Priority jurisdiction"
+    },
+    {
+      "name": "North Carolina",
+      "slug": "north-carolina",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "North Dakota",
+      "slug": "north-dakota",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "Northern Mariana Islands",
+      "slug": "northern-mariana-islands",
+      "type": "territory",
+      "has_foia": false,
+      "transparency_gap": true,
+      "population": 47000,
+      "capital": "Saipan",
+      "official_languages": ["English", "Chamorro", "Carolinian"],
+      "citizenship_status": "us_citizens",
+      "constitutional_status": "unincorporated_organized",
+      "status": "research_critical",
+      "priority": 1,
+      "research_confidence": "low",
+      "notes": "No comprehensive FOIA statute identified as of 2025-10-07. CNMI Constitution Article I Section 10 provides privacy protections but no affirmative transparency right. Represents potential transparency crisis for 47,000 US citizens. Estimated 22-28 hours research needed.",
+      "constitutional_provision": "Article I, Section 10: 'The right of the people to privacy shall not be infringed without the showing of a compelling interest.'",
+      "research_tasks": [
+        "Systematic search of entire CNMI Commonwealth Code",
+        "Contact CNMI Attorney General for official guidance",
+        "Research CNMI Supreme Court decisions on public access",
+        "Review Administrative Procedures Act for access provisions",
+        "Document common law access rights if any",
+        "Complete transparency gap documentation"
+      ],
+      "official_sources": {
+        "legislature": "https://cnmileg.gov.mp/",
+        "law_revision": "https://cnmilaw.org/",
+        "supreme_court": "https://www.cnmisupremecourt.gov.mp/",
+        "governor": "https://governor.gov.mp/"
+      }
+    },
+    {
+      "name": "Ohio",
+      "slug": "ohio",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "Oklahoma",
+      "slug": "oklahoma",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "Oregon",
+      "slug": "oregon",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "Pennsylvania",
+      "slug": "pennsylvania",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "Puerto Rico",
+      "slug": "puerto-rico",
+      "type": "territory",
+      "has_foia": true,
+      "bilingual": true,
+      "population": 3200000,
+      "capital": "San Juan",
+      "official_languages": ["Spanish", "English"],
+      "citizenship_status": "us_citizens",
+      "constitutional_status": "unincorporated_organized",
+      "status": "research_in_progress",
+      "priority": 1,
+      "research_confidence": "medium_high",
+      "notes": "Act 141-2019 and Act 122-2019 (Open Government Data Act). Largest territory by population (3.2M - bigger than 21 US states). Bilingual jurisdiction requiring Spanish and English statutory text. Estimated 18-24 hours research needed.",
+      "statute": {
+        "name": "Act No. 141-2019",
+        "name_spanish": "Ley Núm. 141-2019",
+        "full_title": "Transparency and Expedited Procedure for Access to Public Information Act",
+        "full_title_spanish": "Ley de Transparencia y Procedimiento Expedito para el Acceso a la Información Pública",
+        "codification": "3 L.P.R.A. § 9891 et seq.",
+        "effective_date": "2019-08-02",
+        "authoritative_language": "Spanish",
+        "response_time": "10 business days",
+        "extension": "Additional 10 days allowed"
+      },
+      "supplementary_statute": {
+        "name": "Act No. 122-2019",
+        "full_title": "Puerto Rico Open Government Data Act",
+        "focus": "Proactive disclosure of machine-readable government data"
+      },
+      "research_tasks": [
+        "Obtain full Spanish statutory text (Acts 141 and 122)",
+        "Obtain official English translation from OGPE",
+        "Complete agency database (executive, legislative, judicial)",
+        "Map 78 municipalities for FOIA compliance",
+        "Document implementing regulations",
+        "Research case law interpreting Acts 141 and 122",
+        "Native Spanish speaker validation"
+      ],
+      "official_sources": {
+        "lexjuris": "https://www.lexjuris.com/lexlex/Leyes2019/lexl2019141.htm",
+        "senate": "https://senado.pr.gov/",
+        "ogpe": "https://ogpe.pr.gov/",
+        "state_dept": "https://www.estado.pr.gov/"
+      }
+    },
+    {
+      "name": "Rhode Island",
+      "slug": "rhode-island",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "South Carolina",
+      "slug": "south-carolina",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "South Dakota",
+      "slug": "south-dakota",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "Tennessee",
+      "slug": "tennessee",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "Texas",
+      "slug": "texas",
+      "type": "state",
+      "status": "not_started",
+      "priority": 1,
+      "has_foia": true,
+      "notes": "Priority jurisdiction"
+    },
+    {
+      "name": "US Virgin Islands",
+      "slug": "us-virgin-islands",
+      "type": "territory",
+      "has_foia": true,
+      "population": 87000,
+      "capital": "Charlotte Amalie",
+      "official_languages": ["English"],
+      "citizenship_status": "us_citizens",
+      "constitutional_status": "unincorporated_organized",
+      "status": "research_in_progress",
+      "priority": 2,
+      "research_confidence": "medium",
+      "notes": "Virgin Islands Public Records Act (3 V.I.C. §§ 881-884). Extremely brief statute (only 4 sections). Heavy reliance on implementing regulations expected. Estimated 10-14 hours research needed.",
+      "statute": {
+        "name": "Virgin Islands Public Records Act",
+        "codification": "3 Virgin Islands Code §§ 881-884",
+        "title": "Title 3, Chapter 33 - Public Records",
+        "statute_length": "4 sections only",
+        "brevity_concerns": "Possible gaps in procedural protections; regulations likely essential"
+      },
+      "research_tasks": [
+        "Obtain full text of 3 V.I.C. §§ 881-884 (all 4 sections)",
+        "CRITICAL: Research implementing regulations",
+        "Identify FOIA officer or responsible agency",
+        "Map all agencies subject to Public Records Act",
+        "Research case law interpreting statute",
+        "Compare with federal FOIA to identify gaps"
+      ],
+      "official_sources": {
+        "legislature": "https://www.legvi.org/",
+        "supreme_court": "https://visupremecourt.org/",
+        "governor": "https://www.vi.gov/",
+        "attorney_general": "https://doj.vi.gov/"
+      }
+    },
+    {
+      "name": "Utah",
+      "slug": "utah",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "Vermont",
+      "slug": "vermont",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "Virginia",
+      "slug": "virginia",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "Washington",
+      "slug": "washington",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "West Virginia",
+      "slug": "west-virginia",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "Wisconsin",
+      "slug": "wisconsin",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    },
+    {
+      "name": "Wyoming",
+      "slug": "wyoming",
+      "type": "state",
+      "status": "not_started",
+      "priority": 2,
+      "has_foia": true
+    }
+  ],
+  "research_priorities": {
+    "critical_path": [
+      "Northern Mariana Islands",
+      "American Samoa"
+    ],
+    "high_priority": [
+      "Puerto Rico",
+      "Guam"
+    ],
+    "medium_priority": [
+      "US Virgin Islands"
+    ],
+    "state_priorities": [
+      "California",
+      "Florida",
+      "Illinois",
+      "New York",
+      "Texas",
+      "District of Columbia",
+      "Federal"
+    ]
+  },
+  "status_definitions": {
+    "not_started": "No research conducted; jurisdiction in template state",
+    "research_in_progress": "Active research underway; partial data collected",
+    "research_critical": "Critical research gap; blocking v0.12 release",
+    "validation_pending": "Data collected; awaiting peer review and validation",
+    "validated": "Peer reviewed and validated; ready for production"
+  },
+  "transparency_gap_analysis": {
+    "confirmed_gaps": 0,
+    "potential_gaps": 2,
+    "jurisdictions_under_investigation": [
+      "Northern Mariana Islands",
+      "American Samoa"
+    ],
+    "population_potentially_affected": 96000,
+    "notes": "If CNMI and American Samoa lack comprehensive FOIA statutes, ~96,000 US residents may have no guaranteed statutory right to access local government records."
+  },
+  "next_steps": [
+    "Complete CNMI comprehensive code search and AG inquiry (22-28 hours)",
+    "Complete American Samoa cultural research and code search (28-35 hours)",
+    "Obtain Puerto Rico official English translation (3-4 hours)",
+    "Obtain Guam full statutory text (5-8 hours)",
+    "Research USVI implementing regulations (5-6 hours)",
+    "Database integration and Supabase migration (Weeks 8-9)",
+    "Validation and QA (Weeks 10-11)",
+    "Publication and release (Week 12)"
+  ],
+  "references": {
+    "research_memo": "documentation/V0.12_TERRITORY_EXPANSION_RESEARCH_MEMO.md",
+    "claude_md": "CLAUDE.md",
+    "validation_methodology": "documentation/VALIDATION_METHODOLOGY.md"
+  }
+}

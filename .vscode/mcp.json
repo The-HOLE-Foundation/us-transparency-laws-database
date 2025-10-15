@@ -1,1 +1,22 @@
-{"servers":{"MCP_DOCKER":{"command":"docker","args":["mcp","gateway","run"],"type":"stdio"}}}
+{
+	"servers": {
+		"MCP_DOCKER": {
+			"command": "docker",
+			"args": [
+				"mcp",
+				"gateway",
+				"run"
+			],
+			"type": "stdio"
+		},
+		"my-vercel-supabase-project": {
+			"url": "\"https://mcp.supabase.com/mcp?project_ref=etghkjauuqwnjojcgcqc\"",
+			"type": "http"
+		},
+		"my-development-transparency-supabase-project": {
+			"url": "\"https://mcp.supabase.com/mcp?project_ref=befpnwcokngtrljxskfz\"",
+			"type": "http"
+		}
+	},
+	"inputs": []
+}
