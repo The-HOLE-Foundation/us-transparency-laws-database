@@ -93,3 +93,4 @@ Thumbs.db
 # Session documents (archive these manually)
 S-*-*.md
 *_SESSION_*.md
+*.code-workspace

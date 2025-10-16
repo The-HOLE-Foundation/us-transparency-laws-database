@@ -11,39 +11,68 @@ if echo "$MESSAGE" | grep -Eqi "continue until complete|work all night|don't sto
     # Create flag file to signal autonomous mode active
     touch /tmp/claude-autonomous-mode-active
 
-    # Output reminder (gets injected as system message)
+    # Output EXTREMELY FORCEFUL reminder (gets injected BEFORE Claude processes message)
     cat <<'EOF'
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🤖 AUTONOMOUS MODE ACTIVATED
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🚨🚨🚨 AUTONOMOUS MODE ACTIVATED - READ THIS ENTIRE MESSAGE BEFORE RESPONDING 🚨🚨🚨
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-User has instructed you to work continuously until completion.
+The user has EXPLICITLY instructed you to work CONTINUOUSLY WITHOUT STOPPING.
 
-AUTONOMOUS MODE RULES:
+THIS IS NOT A SUGGESTION. THIS IS A DIRECT COMMAND.
 
-✅ DO:
-- Work through entire task list without stopping
-- Mark tasks complete using TodoWrite as you go
-- Move immediately to next task after completing previous
-- Log brief progress updates ("✅ X done, moving to Y...")
-- Create comprehensive final report at END
-- Make reasonable assumptions when guidance exists in CLAUDE.md
+═══════════════════════════════════════════════════════════════════════════════
+MANDATORY AUTONOMOUS MODE BEHAVIOR:
+═══════════════════════════════════════════════════════════════════════════════
 
-❌ DON'T:
-- Ask "want me to continue?" between tasks
-- Ask "should I move to next item?"
-- Stop to report interim progress as if waiting
-- Wait for approval to proceed to next task
-- Stop after completing just one subtask
+✅ YOU MUST:
+1. Work through ALL tasks in sequence WITHOUT STOPPING
+2. Mark each task complete using TodoWrite as you finish it
+3. IMMEDIATELY move to the next task (no asking, no waiting)
+4. Log brief progress ONLY as status updates (not stopping points)
+5. Create ONE comprehensive final report when ALL tasks complete
 
-⚠️ ONLY STOP IF:
-- All tasks complete (report results)
-- Critical error blocking progress
-- Genuinely ambiguous requirement (no guidance in docs)
+❌ YOU MUST NOT:
+1. Ask "want me to continue?" between tasks
+2. Ask "should I move to next item?"
+3. Ask "ready for [next task]?"
+4. Stop to report interim progress as if waiting for response
+5. Wait for approval before proceeding to next task
+6. Stop after completing just ONE subtask in a sequence
 
-Continue working. Don't ask permission. Report when done.
+═══════════════════════════════════════════════════════════════════════════════
+CORRECT PROGRESS REPORTING FORMAT:
+═══════════════════════════════════════════════════════════════════════════════
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✅ CORRECT: "✅ Federal validation complete (1/4). Moving to California..."
+✅ CORRECT: "✅ California complete (2/4). Starting Texas validation..."
+
+❌ WRONG: "Federal validation complete. Ready for California?"
+❌ WRONG: "I've finished Federal. Should I continue to California?"
+❌ WRONG: "Federal is done. Would you like me to move to California next?"
+
+═══════════════════════════════════════════════════════════════════════════════
+WHEN TO STOP (ONLY 3 VALID REASONS):
+═══════════════════════════════════════════════════════════════════════════════
+
+1. ✅ ALL tasks in todo list are COMPLETE (success - give comprehensive report)
+2. ❌ CRITICAL ERROR that blocks ALL progress (not just one subtask)
+3. ❓ GENUINELY AMBIGUOUS requirement with NO guidance in CLAUDE.md
+
+NOT VALID STOPPING REASONS:
+- ❌ Completed one subtask (there are more → KEEP GOING)
+- ❌ Want to show interim results (save for final report)
+- ❌ Being polite or checking in (not needed in autonomous mode)
+- ❌ Uncertain if user wants to continue (they said "continue until complete")
+
+═══════════════════════════════════════════════════════════════════════════════
+RE-READ THIS ENTIRE MESSAGE NOW BEFORE PROCEEDING
+═══════════════════════════════════════════════════════════════════════════════
+
+The user is frustrated because you keep stopping between tasks to ask permission.
+DO NOT DO THIS. Work continuously. Report when EVERYTHING is done.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 EOF
 fi

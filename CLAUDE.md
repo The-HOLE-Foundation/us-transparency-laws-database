@@ -23,8 +23,9 @@ This applies to all markdown files, documentation, reports, schemas, and any oth
 This repository is a comprehensive database of US transparency laws (FOIA and public records laws) for all 52 jurisdictions (50 states + DC + Federal).
 
 **Current Status**:
-- **v0.11.1**: PRODUCTION READY - Neon database deployed with 52 jurisdictions, 365 exemptions
-- **v0.12**: IN DEVELOPMENT - Rights of Access table to complement exemptions
+- **v0.12-alpha**: IN PROGRESS - Neon database with 272 rights across 14 jurisdictions (27% complete)
+- **Target v0.12**: Rights of Access for all 52 jurisdictions
+- **Schema**: v0.12-alpha deployed (12 tables + 6 views), data collection ongoing
 
 **Critical**: This database serves as ground truth for AI training. **100% accuracy is mandatory**. All data must be verified from official government sources only (state legislature websites, official state code databases, official AG offices, official agency .gov sites).
 
@@ -52,57 +53,60 @@ us-transparency-laws-database/
 
 ## Data Architecture
 
-### Four-Layer Data Model (v0.11.1)
+### Data Architecture (v0.12-alpha)
 
-1. **Raw Statutory Data** (`statutory-data/`, `releases/v0.11.0/`)
-   - Full statute text files
+1. **Raw Statutory Data** (Database: `statute_texts` table)
+   - Full statute text for all 52 jurisdictions
    - Official statutory citations
    - Ground truth from official sources only
-   - v0.11.0: Complete JSON files for all 52 jurisdictions
+   - Stored in Neon database with vector embeddings ready
 
-2. **Neon PostgreSQL Database** (`neon/` - **PRODUCTION READY**)
-   - **10 Core Tables**: jurisdictions, transparency_laws, response_requirements, fee_structures, exemptions, appeal_processes, requester_requirements, agency_obligations, oversight_bodies, agencies
-   - **1 Optimized View**: `transparency_map_display` for interactive map
-   - **365 exemptions** with automatic jurisdiction context
-   - **52 jurisdictions** fully imported (Federal + 50 States + DC)
-   - **JSONB additional_fields** preserves jurisdiction-specific variations
-   - **7 migrations** successfully deployed to development branch
+2. **Neon PostgreSQL Database** (**v0.12-alpha DEPLOYED**)
+   - **12 Core Tables**: jurisdictions, statute_texts, rights_of_access, agency_contacts, case_law, court_records_rules, donation_subscriptions, donations, payment_methods, privacy_statutes, record_types_excluded, rights_exemptions_conflicts
+   - **6 Optimized Views**: complete_transparency_landscape, rights_of_access_detailed, rights_by_category_summary, agency_contacts_detailed, donation_summary, active_subscriptions_summary
+   - **52 jurisdictions** with statute texts
+   - **272 rights** across 14 jurisdictions (27% complete)
+   - **pgvector 0.8.0** installed for semantic search
+   - Vector embeddings in rights_of_access table (vector(1536))
 
-3. **Structured Source Data** (`releases/v0.11.0/jurisdictions/`)
-   - 52 JSON files (one per jurisdiction)
-   - Nested structure with transparency_law object
-   - Source of truth for Neon imports
-   - Each file contains: response_requirements, fee_structure, exemptions, appeal_process, requester_requirements, agency_obligations, oversight_body, validation_metadata
+3. **File System Data** (`data/jurisdictions/`)
+   - Rights data for 10 jurisdictions (S-W alphabetically)
+   - 123 rights in JSON files
+   - Being synced to database progressively
+   - 41 jurisdictions have empty template files
 
-4. **Transparency Map Dataset** (`Transparency-Map-Dataset/`)
-   - Curated 181KB JSON optimized for map display
-   - Timeline code system (negative integers for flexible deadlines)
-   - Now superseded by `transparency_map_display` VIEW in database
+4. **Three Data Products** (See detailed section below)
+   - **Transparency Map**: Curated dataset from `complete_transparency_landscape` VIEW
+   - **Transparency Wiki**: Comprehensive access via all tables
+   - **FOIA Generator**: Vector store from `rights_of_access` embeddings
 
-### Key Database Tables (v0.11.1)
+### Key Database Tables (v0.12-alpha)
 
-**Core Tables**:
+**Core Tables (12 total)**:
 - **`jurisdictions`** (52 records): id, slug, name, jurisdiction_type
-- **`transparency_laws`** (52 records): jurisdiction_id, name, statute_citation, effective_date, last_amended, official_resources (JSONB), validation_metadata (JSONB)
-- **`response_requirements`** (52 records): transparency_law_id, initial_response_time, initial_response_unit, final_response_time, final_response_unit, extension_allowed, extension_max_days, extension_conditions, tolling_allowed, tolling_notes, **additional_fields (JSONB)**
-- **`fee_structures`** (52 records): transparency_law_id, search_fee, copy_fee_per_page, electronic_fee, fee_waiver_available, fee_waiver_criteria, **additional_fields (JSONB)**
-- **`exemptions`** (365 records): transparency_law_id, category, citation, description, scope, **jurisdiction_name, jurisdiction_slug, jurisdiction_code** (auto-populated via trigger)
-- **`appeal_processes`** (52 records): transparency_law_id, first_level, first_level_deadline_days, second_level, attorney_fees_recoverable, **additional_fields (JSONB)**
-- **`requester_requirements`** (52 records): transparency_law_id, identification_required, purpose_statement_required, residency_requirement, **additional_fields (JSONB)**
-- **`agency_obligations`** (52 records): transparency_law_id, records_officer_required, business_hours_access, electronic_submission_accepted, **additional_fields (JSONB)**
-- **`oversight_bodies`** (38 records): transparency_law_id, name, role, contact_info, oversight_url, **additional_fields (JSONB)**
-- **`agencies`** (0 records): Deferred to v0.12
-
-**v0.12 New Table (In Development)**:
-- **`rights_of_access`** (0 records - to be populated): Affirmative rights to public records
-  - Fields: transparency_law_id, jurisdiction_slug, jurisdiction_name, category, subcategory, statute_citation, description, conditions, applies_to, implementation_notes, request_tips
-  - Categories: Proactive Disclosure, Enhanced Access Rights, Technology Rights, Requester-Specific Rights, Inspection Rights, Timeliness Rights
+- **`statute_texts`** (52 records): Full statutory text with vector embeddings ready
+- **`rights_of_access`** (272 records): Affirmative rights across 14 jurisdictions (27% complete)
+  - Fields: jurisdiction_id, right_category, right_name, short_description, full_description, statutory_citation, conditions (JSONB), embedding (vector(1536))
+  - Categories: proactive_disclosure, enhanced_access, technology_format, requester_specific, inspection_rights, timeliness_rights, fee_waiver, aggregation_rights, privacy_protection, appeal_rights
   - **Purpose**: Enable FOIA Generator to assert specific statutory rights in requests
-  - **Documentation**: See [v0.12-RIGHTS_OF_ACCESS_DESIGN.md](documentation/v0.12-RIGHTS_OF_ACCESS_DESIGN.md)
+  - **Status**: 14/52 jurisdictions populated (California: 25, New York: 20, Texas: 20, etc.)
+- **`agency_contacts`**: Agency-specific contact information
+- **`case_law`**: Relevant court decisions and precedents
+- **`court_records_rules`**: Specialized rules for court record access
+- **`donation_subscriptions`**: Recurring donation tracking
+- **`donations`**: One-time and recurring donations
+- **`payment_methods`**: Stripe payment method storage
+- **`privacy_statutes`**: Privacy laws that may limit access
+- **`record_types_excluded`**: Specific record types excluded from access
+- **`rights_exemptions_conflicts`**: Mapping of rights vs exemptions conflicts
 
-**Optimized Views**:
-- **`transparency_map_display`** (v0.11.1): Single-query access to all map data, flattens normalized schema, auto-generates key_features_tags
-- **`transparency_landscape`** (v0.12): Combines rights_of_access and exemptions for complete transparency picture across all jurisdictions
+**Optimized Views (6 total)**:
+- **`complete_transparency_landscape`** (52 records): Combines rights, exemptions, and statutory data for comprehensive jurisdiction analysis
+- **`rights_of_access_detailed`**: Enriched rights data with jurisdiction context
+- **`rights_by_category_summary`**: Aggregated statistics by right category
+- **`agency_contacts_detailed`**: Agency contacts with jurisdiction information
+- **`donation_summary`**: Donation analytics and reporting
+- **`active_subscriptions_summary`**: Active recurring donation tracking
 
 ### Querying the Database
 
@@ -255,12 +259,114 @@ ORDER BY count DESC;
 
 ## Integration Points
 
-This repository is part of the HOLE Foundation ecosystem:
-- **THEHOLETRUTH.ORG**: React/Next.js application consuming this database via Neon PostgreSQL
-- **foundation-meta**: Central coordination repository
-- **Neon Database**: PostgreSQL database hosted on Neon (AWS us-east-1)
-- **Authentication**: Stack Auth (configured for theholetruth.org and theholefoundation.org)
-- **Deployment**: Vercel (integrated with Neon database)
+### Project Ecosystem
+
+This repository is the **data layer** for The HOLE Foundation's transparency tools ecosystem:
+
+**Repository Structure:**
+```
+foundation-meta/              # Cross-repository coordination, shared standards
+theholefoundation.org/        # Corporate website (professional presentation)
+theholetruth.org/            # User-facing tools (Map, Wiki, Generator)
+us-transparency-laws-database/ # THIS REPOSITORY (data layer)
+HOLE-Doc-Intelligence/        # Separate project (private records)
+```
+
+**Technology Stack:**
+- **Database**: Neon PostgreSQL (AWS us-east-1)
+- **Deployment**: GitHub → Vercel (automated)
+- **Environment Variables**: Managed via Vercel CLI (`vercel env pull`)
+- **Authentication**: Neon Auth (MVP), shared across both sites
+- **Payments**: Stripe (hosted checkout), shared donations
+
+### Three Data Products
+
+This database powers three distinct tools on theholetruth.org:
+
+#### 1. Transparency Map (Curated Dataset)
+**Purpose**: Quick-view jurisdiction comparison on SVG US map
+
+**Data Source**: `complete_transparency_landscape` VIEW (52 records)
+
+**Use Case**: User clicks state → sees tooltip with:
+- Response timeline (business/calendar days)
+- Fee structure summary
+- Unique features
+- Links to Wiki and Generator
+
+**Format**: Static JSON export for map tooltips
+
+#### 2. Transparency Wiki (Comprehensive Dataset)
+**Purpose**: Full statutory analysis for each jurisdiction
+
+**Data Source**: All Neon tables (dynamic queries)
+
+**Wiki Page Structure** (`/wiki/[jurisdiction]`):
+- Overview (statute name, citation, effective date)
+- Statutory Text (full text with sections)
+- Rights of Access (affirmative rights with request tips)
+- Response Requirements (timelines, extensions)
+- Fees (search, copy, electronic, waivers)
+- Exemptions (categories with legal citations)
+- Appeal Process (administrative and judicial)
+- Related Resources (official links, forms)
+
+**Format**: Next.js dynamic routes querying Neon
+
+#### 3. FOIA Generator Vector Store
+**Purpose**: Context for AI agent to generate jurisdiction-specific requests
+
+**Data Source**: `rights_of_access` table with vector embeddings
+
+**Current Approach (MVP)**:
+1. Export rights data from Neon
+2. Upload JSON to Azure AI Foundry dashboard
+3. Attach to agent as knowledge base
+4. Agent queries vector store for relevant rights
+
+**Future Approach**:
+1. Query Neon vector search directly from agent
+2. Maintain single source of truth
+3. Update rights without re-uploading
+
+**Vector Database**: pgvector 0.8.0 installed, embeddings ready in `rights_of_access.embedding` column (vector(1536))
+
+### Versioning Strategy
+
+**Database (this repo)**: Semantic versioning based on schema/data
+- `v0.12-alpha`: Current (rights collection 27% complete)
+- `v0.12`: When 52/52 jurisdictions have rights data
+- `v0.13`: When vector embeddings actively used
+- `v1.0`: Production ready (all data complete)
+
+**Frontend sites**: Independent versioning
+- `theholetruth.org v0.1.0-beta`: MVP launch
+- `theholefoundation.org v0.1.0-beta`: MVP launch
+- Can iterate independently from database version
+
+**Example**: Database at v0.12, Frontend at v0.1.0 ← Different versions OK!
+
+### Deployment Architecture
+
+```
+GitHub (push) → Vercel (build) → Production
+                    ↓
+              Neon Database (query)
+                    ↓
+              Environment Variables (Vercel keystore)
+```
+
+**Environment Management:**
+```bash
+# Pull credentials from Vercel
+vercel env pull .env.development.local
+
+# Credentials stored in Vercel project:
+# - DATABASE_URL (pooled connection)
+# - DATABASE_URL_UNPOOLED (migrations)
+# - POSTGRES_URL (Vercel alias)
+# - POSTGRES_PRISMA_URL (Prisma-specific)
+```
 
 ## Development Commands
 

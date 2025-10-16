@@ -1,35 +1,19 @@
 {
-	"folders": [
-		{
-			"name": "us-transparency-laws-database",
-			"path": "."
-		},
-		{
-			"path": "../foundation-meta"
-		},
-		{
-			"path": "../supabase"
-		},
-		{
-			"path": "../Theholefoundation.org"
-		},
-		{
-			"path": "../THEHOLETRUTH.ORG"
-		},
-		{
-			"path": "../FOIA-Generator-get-started-with-ai-chat"
-		},
-		{
-			"path": "../../../../../Users/jth/azure-doc-intelligence-police-files"
-		},
-		{
-			"path": "../HOLE-Doc-Intelligence"
-		},
-		{
-			"path": "../neon"
-		}
-	],
-	"settings": {
-		"chat.mcp.assisted.nuget.enabled": true
-	}
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "../FOIA-Generator-get-started-with-ai-chat"
+        },
+        {
+            "path": "../foundation-meta"
+        },
+        {
+            "path": "../Theholefoundation.org"
+        },
+        {
+            "path": "../THEHOLETRUTH.ORG"
+        }
+    ]
 }

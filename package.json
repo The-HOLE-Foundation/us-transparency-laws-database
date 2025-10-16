@@ -40,6 +40,7 @@
   },
   "homepage": "https://github.com/The-HOLE-Foundation/us-transparency-laws-database#readme",
   "dependencies": {
+    "@neondatabase/serverless": "^1.0.2",
     "ajv": "^8.12.0",
     "jsonschema": "^1.4.1",
     "pg": "^8.16.3"

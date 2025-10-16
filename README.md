@@ -58,7 +58,7 @@ This repository is the **canonical source of truth** for US transparency law dat
 ```
 us-transparency-laws-database/
 │
-├── releases/v0.11.0/                        # 🎯 PRODUCTION DATA (deploy to Supabase)
+├── releases/v0.11.0/                        # 🎯 PRODUCTION DATA (deploy to Neon)
 │   ├── jurisdictions/                       # 52 jurisdiction JSON files ✅
 │   ├── process-maps/                        # 52+ verified workflow diagrams ✅
 │   ├── metadata/                            # Tracking table ✅
@@ -178,7 +178,7 @@ This repository is part of the coordinated HOLE Foundation project structure:
 - **theholefoundation.org/** - Foundation website (Development Ready)
 - **shared-infrastructure/** - Common components (Setup Ready)
 
-## 🚧 **Current Phase: Supabase Integration**
+## 🚧 **Current Phase: Neon Integration**
 
 ### **v0.11.0** ✅ Complete
 - Layer 2 structured metadata for all 52 jurisdictions
@@ -186,15 +186,15 @@ This repository is part of the coordinated HOLE Foundation project structure:
 - Production-ready JSON data
 
 ### **v0.11.1** 🚧 IN PROGRESS (Next Immediate Step)
-**Supabase Integration & Production Deployment**
+**Neon Integration & Production Deployment**
 - Design database schema from JSON structure
-- Create Supabase migrations
+- Create Neon migrations
 - Generate TypeScript types
 - Import data and deploy to production
 - Integrate with TheHoleTruth.org platform
 
 ### **v0.12.0+** 🔜 Future Enhancements
-Planned for future releases (after Supabase deployment):
+Planned for future releases (after Neon deployment):
 - Agency contact databases (Layer 4)
 - Custom FOIA request templates (Layer 5)
 - AI training examples
@@ -205,7 +205,7 @@ Planned for future releases (after Supabase deployment):
 
 ```
 v0.11.0 (✅ Done)          v0.11.1 (🚧 Current)       v0.12.0+ (🔜 Future)
-├─ JSON Data Ready    →   ├─ Supabase Setup     →   ├─ Agency Data
+├─ JSON Data Ready    →   ├─ Neon Setup         →   ├─ Agency Data
 ├─ 52 Jurisdictions   →   ├─ Database Schema    →   ├─ Templates
 ├─ Process Maps       →   ├─ TypeScript Types   →   ├─ AI Training
 └─ Validation         →   ├─ Data Import        →   └─ Public APIs
@@ -248,14 +248,14 @@ npx neon gen types typescript --linked > types/neon.ts
 git clone https://github.com/The-HOLE-Foundation/us-transparency-laws-database.git
 cd us-transparency-laws-database
 
-# Link to Supabase (development branch)
+# Link to Neon (development branch)
 npx neon link --project-ref befpnwcokngtrljxskfz
 
 # View migrations
 npx neon migration list --linked
 ```
 
-**Documentation**: See [v0.11.1 Supabase Integration Complete](documentation/v0.11.1_SUPABASE_INTEGRATION_COMPLETE.md) for full API reference.
+**Documentation**: See [v0.11.1 Neon Integration Complete](documentation/v0.11.1_NEON_INTEGRATION_COMPLETE.md) for full API reference.
 
 ---
 
