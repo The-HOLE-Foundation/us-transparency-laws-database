@@ -1,34 +1,16 @@
 {
   "validation_date": "2025-10-02",
-  "total_conflicts": 3,
-  "critical_conflicts": 3,
+  "total_conflicts": 1,
+  "critical_conflicts": 1,
   "conflicts": [
     {
-      "jurisdiction": "california",
-      "field_path": "response_timeline_days",
-      "ground_truth_value": 10,
-      "new_value": null,
-      "severity": "CRITICAL",
-      "ground_truth_source": "Unknown",
-      "reason": "Value mismatch: ground truth=10, new=None"
-    },
-    {
-      "jurisdiction": "california",
-      "field_path": "response_timeline_type",
-      "ground_truth_value": "business_days",
-      "new_value": null,
-      "severity": "CRITICAL",
-      "ground_truth_source": "Unknown",
-      "reason": "Value mismatch: ground truth=business_days, new=None"
-    },
-    {
-      "jurisdiction": "california",
+      "jurisdiction": "federal",
       "field_path": "statute_citation",
-      "ground_truth_value": "California Government Code \u00a7 7920.000",
-      "new_value": null,
+      "ground_truth_value": "5 U.S.C. \u00a7 552(a)(6)(A)(i)",
+      "new_value": "",
       "severity": "CRITICAL",
-      "ground_truth_source": "Unknown",
-      "reason": "Value mismatch: ground truth=California Government Code \u00a7 7920.000, new=None"
+      "ground_truth_source": "https://www.govinfo.gov/content/pkg/USCODE-2020-title5/html/USCODE-2020-title5-partI-chap5-subchapII-sec552.htm",
+      "reason": "Value mismatch: ground truth=5 U.S.C. \u00a7 552(a)(6)(A)(i), new="
     }
   ]
 }

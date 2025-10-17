@@ -29,6 +29,180 @@ This repository is a comprehensive database of US transparency laws (FOIA and pu
 
 **Critical**: This database serves as ground truth for AI training. **100% accuracy is mandatory**. All data must be verified from official government sources only (state legislature websites, official state code databases, official AG offices, official agency .gov sites).
 
+## ⚠️ AFFIRMATIVE RIGHTS EXTRACTION - CRITICAL RULES ⚠️
+
+### WHY SCRIPTS AND AUTOMATION ABSOLUTELY DO NOT WORK
+
+**MANDATORY: 100% human extraction required for affirmative rights data.**
+
+Automated scripts, AI parsing, pattern matching, and any form of automation **CANNOT and WILL NOT** capture the legal nuance required for this project. This is not a technical limitation - it is a fundamental incompatibility between automation and legal analysis.
+
+**Proof of Failure**:
+- California (manual extraction): 25 comprehensive rights ✅
+- Wyoming (attempted automation): 10 superficial rights ⚠️ (missing 50%+ of actual rights)
+- Audit date: 2025-10-16 (see `AFFIRMATIVE_RIGHTS_EXTRACTION_AUDIT.md`)
+
+**Why Automation Fails**:
+1. **Statutory language varies wildly** - No consistent patterns between jurisdictions
+2. **Rights are often implicit** - Buried in procedural provisions, not explicitly labeled
+3. **Legal meaning requires context** - "Shall" vs "may" distinctions are critical
+4. **Cross-references must be understood** - Not just extracted, but interpreted
+5. **Conditions and exceptions require legal analysis** - Cannot be pattern-matched
+6. **Subtle variations in parameters** - Exactly as user warned: "too many subtle variations"
+
+### What Constitutes an "Affirmative Right"
+
+**Definition**: Any statutory provision establishing what citizens **CAN** access or **HOW** they can exercise access rights.
+
+**This is the OPPOSITE of exemptions** (which are agency rights NOT to disclose).
+
+### 8 Categories of Affirmative Rights
+
+1. **Proactive Disclosure** - Records agencies MUST publish without request
+   - Meeting agendas/minutes, budgets, contracts, salary databases, campaign finance
+
+2. **Enhanced Access Rights** - Special advantages or requirements benefiting requesters
+   - Journalist expedited processing, academic fee waivers, segregability requirements
+
+3. **Technology Rights** - Electronic/digital access provisions
+   - Electronic format delivery, metadata preservation, machine-readable data, API access
+
+4. **Requester-Specific Rights** - Based on requester status
+   - No ID required, no purpose statement, no residency requirement, privacy protections
+
+5. **Inspection Rights** - Physical access provisions
+   - On-site inspection, business hours access, adequate facilities, photography allowed
+
+6. **Timeliness Rights** - Speed of response guarantees
+   - Statutory deadlines, immediate release provisions, extension limits, deemed-granted rules
+
+7. **Fee Waiver/Limits** - Cost protections for requesters
+   - Fee caps, waiver criteria, free inspection, electronic savings, public interest waivers
+
+8. **Appeal Rights** - Enforcement mechanisms
+   - Written denial requirements, attorney fee recovery, burden of proof on agency, ombudsman access
+
+### MANDATORY Extraction Methodology
+
+**For EACH jurisdiction, you MUST**:
+
+1. **Read Full Statute Text** - Start to finish, no skimming, no shortcuts
+   - Open `data/jurisdictions/{state}/statute-full-text.txt`
+   - Read every section sequentially
+   - Mark provisions establishing requester rights (not exemptions)
+
+2. **Analyze Each Marked Section**:
+   - What CAN requester access? (specific records, categories)
+   - HOW can they exercise this right? (procedures, methods)
+   - WHEN does this right apply? (conditions, timing)
+   - WHO can use this right? (eligibility, restrictions)
+
+3. **Extract With Legal Understanding**:
+   - Interpret legal language (shall = mandatory, may = discretionary)
+   - Identify implicit rights in procedural language
+   - Cross-reference related provisions
+   - Understand exceptions and conditions
+
+4. **Document Thoroughly**:
+   - Clear, actionable description (not just statute quote)
+   - Specific statutory citation
+   - Conditions and applicability
+   - Practical "request tips" showing how to assert the right
+
+5. **Validate Completeness**:
+   - Check all 8 categories considered
+   - Minimum 15 rights per jurisdiction
+   - Target 20-30 rights per jurisdiction
+   - Compare to similar states for consistency
+
+### Quality Standards
+
+- **Minimum**: 15 rights per jurisdiction (flag for review if <15)
+- **Target**: 20-30 rights per jurisdiction
+- **Gold Standard**: California (25 rights) - review as example before extracting
+- **Test**: If a state like Wyoming has only 10 rights, extraction is incomplete
+
+### What Does NOT Count as Affirmative Right
+
+- ❌ Exemptions (those are agency rights not to disclose - separate table)
+- ❌ Procedural requirements FOR requesters (obligations, not rights)
+- ❌ Definitions (unless they expand access)
+- ❌ Penalty provisions for requester misuse
+- ❌ Agency internal procedures
+
+### Scripts That Are FORBIDDEN
+
+**DO NOT USE** for rights extraction:
+- ❌ Any automated parsing scripts
+- ❌ Any AI text extraction tools
+- ❌ Any pattern matching utilities
+- ❌ Any "smart" extraction automation
+- ❌ Any bulk processing of statutory text
+
+**Scripts That Are ALLOWED**:
+- ✅ Database import scripts (for human-extracted data)
+- ✅ Format validation scripts (checking JSON structure)
+- ✅ Progress tracking scripts (counting completed jurisdictions)
+- ✅ Citation verification scripts (checking URLs work)
+
+### File Locations and Format
+
+**Input**: `data/jurisdictions/{state}/statute-full-text.txt`
+**Output**: `data/jurisdictions/{state}/rights.json`
+
+**Template Structure**:
+```json
+{
+  "jurisdiction": {
+    "name": "State Name",
+    "slug": "state-slug",
+    "type": "state"
+  },
+  "rights_of_access": [
+    {
+      "category": "Proactive Disclosure",
+      "subcategory": "Meeting Records",
+      "statute_citation": "State Code § XXX",
+      "description": "Clear, actionable description of the right",
+      "conditions": "When/how this right applies",
+      "applies_to": "Who can exercise this right",
+      "implementation_notes": "How agencies implement this",
+      "request_tips": "How to cite and assert in FOIA request"
+    }
+  ],
+  "validation_metadata": {
+    "parsed_date": "YYYY-MM-DD",
+    "source_url": "https://official.gov/source",
+    "verified_by": "Claude Code AI Assistant",
+    "verification_method": "Manual line-by-line statute review"
+  }
+}
+```
+
+### Quality Checklist (Before Finalizing)
+
+For each jurisdiction, verify:
+- [ ] Read complete statute text (not summary or excerpt)
+- [ ] All 8 categories considered
+- [ ] Minimum 15 rights documented
+- [ ] Each right has clear description (not just statute quote)
+- [ ] Each right has statutory citation
+- [ ] Each right has practical request tip
+- [ ] Compared to similar state for consistency
+- [ ] Reviewed California example for quality standard
+- [ ] No automation used in extraction
+- [ ] Human legal understanding applied throughout
+
+### When In Doubt
+
+**If extraction yields <15 rights** → You missed rights, read statute again
+**If all rights in 1-2 categories** → You missed categories, broaden search
+**If descriptions are just statute quotes** → You didn't analyze, rewrite with understanding
+**If no request tips** → You didn't think like requester, add practical guidance
+**If tempted to script it** → STOP. Re-read this section. Scripts don't work.
+
+---
+
 ## Repository Structure
 
 ```
