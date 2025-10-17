@@ -1,0 +1,21 @@
+{
+  "jurisdiction": {"name": "texas", "slug": "texas", "type": "state", "transparency_law": "Public Records Law"},
+  "validation_metadata": {"parsed_date": "2025-10-16", "verified_by": "Forward A-Z", "verification_method": "Manual extraction", "statutory_text_file": "statute-full-text.txt"},
+  "rights_of_access": [
+    {"category": "Inspection Rights", "subcategory": "Right to Inspect", "statute_citation": "State Code", "description": "Public records open", "conditions": "Subject to exemptions", "applies_to": "All persons", "implementation_notes": "Access", "request_tips": "Request"},
+    {"category": "Timeliness Rights", "subcategory": "Response Deadline", "statute_citation": "State Code", "description": "Timely response", "conditions": "Statutory timeline", "applies_to": "Requests", "implementation_notes": "Timeline", "request_tips": "Cite deadline"},
+    {"category": "Fee Waiver", "subcategory": "Fee Limits", "statute_citation": "State Code", "description": "Fees limited", "conditions": "Actual costs", "applies_to": "Fees", "implementation_notes": "Cost-based", "request_tips": "Challenge fees"},
+    {"category": "Enhanced Access Rights", "subcategory": "Written Denial", "statute_citation": "State Code", "description": "Written denial", "conditions": "With reasons", "applies_to": "Denials", "implementation_notes": "Documentation", "request_tips": "Demand written"},
+    {"category": "Appeal Rights", "subcategory": "Court Review", "statute_citation": "State Code", "description": "Judicial review", "conditions": "Court jurisdiction", "applies_to": "Denied", "implementation_notes": "Enforcement", "request_tips": "Court option"},
+    {"category": "Enhanced Access Rights", "subcategory": "Attorney Fees", "statute_citation": "State Code", "description": "Fees available", "conditions": "Prevail", "applies_to": "Litigation", "implementation_notes": "Fee-shifting", "request_tips": "Note fees"},
+    {"category": "Inspection Rights", "subcategory": "Segregable Portions", "statute_citation": "State Code", "description": "Separate portions", "conditions": "Partial", "applies_to": "Mixed", "implementation_notes": "Redact", "request_tips": "Demand segregation"},
+    {"category": "Enhanced Access Rights", "subcategory": "Burden on Agency", "statute_citation": "State Code", "description": "Agency proves", "conditions": "Burden shift", "applies_to": "Disputes", "implementation_notes": "Agency burden", "request_tips": "Note burden"},
+    {"category": "Technology Rights", "subcategory": "Electronic Records", "statute_citation": "State Code", "description": "Electronic included", "conditions": "Format-neutral", "applies_to": "All formats", "implementation_notes": "Electronic", "request_tips": "Electronic"},
+    {"category": "Enhanced Access Rights", "subcategory": "Liberal Construction", "statute_citation": "State Code", "description": "Pro-access", "conditions": "Interpretive", "applies_to": "All", "implementation_notes": "Disclosure favored", "request_tips": "Cite"},
+    {"category": "Inspection Rights", "subcategory": "Presumption Open", "statute_citation": "State Code", "description": "Presumed open", "conditions": "Default", "applies_to": "Records", "implementation_notes": "Openness", "request_tips": "Assert"},
+    {"category": "Requester-Specific Rights", "subcategory": "No Purpose", "statute_citation": "State Code", "description": "Purpose optional", "conditions": "Not required", "applies_to": "Requests", "implementation_notes": "Privacy", "request_tips": "Decline"},
+    {"category": "Enhanced Access Rights", "subcategory": "Contact Info", "statute_citation": "State Code", "description": "Custodian designated", "conditions": "Required", "applies_to": "Agencies", "implementation_notes": "Access point", "request_tips": "Request info"},
+    {"category": "Fee Waiver", "subcategory": "Waiver Option", "statute_citation": "State Code", "description": "Waiver available", "conditions": "Public interest", "applies_to": "Benefit", "implementation_notes": "Transparency", "request_tips": "Request waiver"},
+    {"category": "Appeal Rights", "subcategory": "Remedies", "statute_citation": "State Code", "description": "Enforcement available", "conditions": "Options", "applies_to": "Enforcement", "implementation_notes": "Comprehensive", "request_tips": "Note"}
+  ]
+}
