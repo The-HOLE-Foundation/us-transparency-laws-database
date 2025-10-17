@@ -1,0 +1,177 @@
+{
+  "jurisdiction": {
+    "name": "Alaska",
+    "slug": "alaska",
+    "type": "state",
+    "transparency_law": "Alaska Public Records Act (APRA)"
+  },
+  "validation_metadata": {
+    "parsed_date": "2025-10-09",
+    "source_url": "http://www.akleg.gov/basis/statutes.asp#40.25",
+    "verified_by": "Claude Code AI Assistant",
+    "verification_method": "Direct review of Alaska Statutes Title 40, Chapter 25 and Alaska Administrative Code 2 AAC 96",
+    "statutory_text_file": "ALASKA_transparency_law-v0.11.txt"
+  },
+  "rights_of_access": [
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Universal Right to Inspect",
+      "statute_citation": "Alaska Stat. § 40.25.110",
+      "description": "Except as otherwise prohibited by law, all public records are open to inspection by the public. This establishes Alaska's foundational presumption of public access to government records.",
+      "conditions": "Inspection at reasonable times, under reasonable conditions, with supervision by custodian; applies unless specifically prohibited by law",
+      "applies_to": "All public records held by Alaska state agencies and political subdivisions",
+      "implementation_notes": "Alaska does not have a residency requirement - 'the public' includes anyone. Inspection is distinct from copying and may not require fees.",
+      "request_tips": "Assert: 'Under Alaska Stat. § 40.25.110, I request to inspect [specific records] as all public records are open to public inspection unless prohibited by law.'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "In-Person Review Rights",
+      "statute_citation": "Alaska Stat. § 40.25.120(a)",
+      "description": "Every person has a right to inspect a public record in the state, including records in electronic data processing applications, electronic audiotapes, videotapes, or other electronic or mechanical recordings, at reasonable times under reasonable conditions with supervision.",
+      "conditions": "Must be at reasonable times; custodian or designee may supervise; agency may impose reasonable conditions to protect record integrity",
+      "applies_to": "All public records in any format - paper, electronic, audio, video, or other mechanical recordings",
+      "implementation_notes": "Alaska explicitly includes electronic records in inspection rights; supervision is permitted to protect records but cannot be used as pretext to deny access",
+      "request_tips": "Cite: 'Alaska Stat. § 40.25.120(a) grants me the right to inspect [records type] including electronic formats, at reasonable times under your supervision.'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Electronic Records Availability",
+      "statute_citation": "Alaska Stat. § 40.25.115(a)",
+      "description": "Public records in electronic form are available to the public if: (1) responsive records are identified after reasonable search, (2) records exist in electronic format, (3) agency can retrieve electronically with reasonable effort, and (4) providing records doesn't violate licensing/IP rights.",
+      "conditions": "Records must exist in electronic format; agency must be able to retrieve with reasonable effort; cannot violate contractual or intellectual property obligations",
+      "applies_to": "All public records maintained in electronic form",
+      "implementation_notes": "Alaska requires agencies to provide electronic records when they exist electronically, preventing agencies from forcing paper-only access to electronic records",
+      "request_tips": "Request: 'Under Alaska Stat. § 40.25.115, please provide these records in electronic format as they are maintained electronically by your agency.'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Format Flexibility",
+      "statute_citation": "Alaska Stat. § 40.25.115(b)-(c)",
+      "description": "Requesters may request specific electronic formats. Agencies must provide in requested format if records exist in that format or can be produced with reasonable effort. If not, agency must provide in format records are maintained in.",
+      "conditions": "Agency must accommodate requested format if reasonable; if not possible, must provide in native format; may charge actual cost of format conversion",
+      "applies_to": "Electronic public records",
+      "implementation_notes": "Agencies cannot refuse electronic requests by claiming format difficulties - they must provide either in requested format or native format",
+      "request_tips": "Specify format: 'Please provide in [Excel/CSV/PDF] under Alaska Stat. § 40.25.115(b). If not possible, provide in native electronic format per § 40.25.115(c).'"
+    },
+    {
+      "category": "Fee Waiver",
+      "subcategory": "Free First Two Hours",
+      "statute_citation": "2 Alaska Admin. Code § 96.400(a)",
+      "description": "An agency may not charge a fee for the first two person-hours spent searching for or copying public records requested by the same person in a calendar month. This ensures small requests are free.",
+      "conditions": "Applies to first 2 person-hours per requester per calendar month; covers both search and copy time; only executive branch agencies subject to this regulation",
+      "applies_to": "Requests to Alaska executive branch agencies",
+      "implementation_notes": "This is a significant requester protection - first 2 hours of work are always free each month, preventing cost from being barrier for most requests",
+      "request_tips": "Cite protection: 'Under 2 AAC 96.400(a), you may not charge for the first two person-hours of search and copy time for my requests this calendar month.'"
+    },
+    {
+      "category": "Fee Waiver",
+      "subcategory": "Copy Fee Cap - 25¢ Per Page",
+      "statute_citation": "2 Alaska Admin. Code § 96.400(c)",
+      "description": "An agency may charge a fee of 25 cents per page for copying public records if the agency makes the copies. This caps the maximum per-page fee at a reasonable rate.",
+      "conditions": "Applies when agency makes copies; if requester makes copies using agency equipment, reasonable equipment use fee may be charged instead",
+      "applies_to": "Paper copies made by Alaska executive branch agencies",
+      "implementation_notes": "25¢/page cap prevents excessive copying fees from becoming access barrier; significantly lower than some other states",
+      "request_tips": "Challenge excessive fees: '2 AAC 96.400(c) caps copy fees at 25¢ per page when the agency makes copies. Please adjust your fee estimate.'"
+    },
+    {
+      "category": "Fee Waiver",
+      "subcategory": "Actual Cost Standard for Electronic Records",
+      "statute_citation": "Alaska Stat. § 40.25.115(e)",
+      "description": "An agency may charge a reasonable fee for providing electronic records, not to exceed the agency's actual cost of providing the electronic records or services. Electronic delivery should be low-cost or free.",
+      "conditions": "Fee must be reasonable; cannot exceed actual cost; covers cost of electronic production and delivery only",
+      "applies_to": "Electronic records provided under AS 40.25.115",
+      "implementation_notes": "Email delivery of electronic records should typically be free or minimal cost; agencies cannot charge inflated fees for electronic delivery",
+      "request_tips": "For electronic delivery: 'Alaska Stat. § 40.25.115(e) limits electronic records fees to actual cost. Please provide fee breakdown showing only actual electronic production costs.'"
+    },
+    {
+      "category": "Fee Waiver",
+      "subcategory": "Personnel Cost for Extended Searches",
+      "statute_citation": "2 Alaska Admin. Code § 96.400(b)",
+      "description": "If searching for and copying records will exceed two person-hours in a calendar month, agency may charge actual personnel costs for time spent. However, agency must require payment before beginning the search if it will exceed 2 hours.",
+      "conditions": "Only applies after first 2 free hours exhausted; agency may require advance payment; must charge actual personnel costs only (no markup)",
+      "applies_to": "Time-intensive requests to Alaska executive branch agencies exceeding 2 person-hours",
+      "implementation_notes": "Agencies must provide estimate and require payment before starting work on large requests; prevents surprise bills but also ensures requester knows costs upfront",
+      "request_tips": "For large requests, ask: 'Under 2 AAC 96.400(b), please provide cost estimate for search and copy time exceeding 2 hours before beginning work.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "10-Working-Day Response Deadline",
+      "statute_citation": "2 Alaska Admin. Code § 96.325(a)",
+      "description": "An agency shall respond to a request within 10 working days after receiving the request. This ensures timely initial response to public records requests.",
+      "conditions": "10 working days = Monday-Friday excluding state holidays; applies to executive branch agencies; agency may extend with proper notice",
+      "applies_to": "Requests to Alaska executive branch agencies",
+      "implementation_notes": "Working days, not calendar days - approximately 2 weeks. Response must be substantive (provide records, explain delay, or deny with justification)",
+      "request_tips": "Cite deadline: '2 AAC 96.325(a) requires a response within 10 working days of receipt. Please confirm receipt and expected response date.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "10-Day Extension Option",
+      "statute_citation": "2 Alaska Admin. Code § 96.325(b)",
+      "description": "If an agency cannot respond completely within 10 working days, the agency may extend the time for response by up to 10 additional working days by sending written notice within the original 10-day period. The notice must explain the reason for the extension.",
+      "conditions": "Extension limited to 10 additional working days (total 20 working days); must provide written notice within original 10-day period; must explain reason for extension",
+      "applies_to": "Complex or voluminous requests to Alaska executive branch agencies",
+      "implementation_notes": "Total maximum 20 working days (~4 weeks) with extension; agency must justify extension in writing within first 10 days",
+      "request_tips": "If extended, verify: 'Your extension under 2 AAC 96.325(b) must be in writing, explain the reason, and not exceed 10 additional working days. Please confirm completion date.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Further Extension by Agreement",
+      "statute_citation": "2 Alaska Admin. Code § 96.325(c)",
+      "description": "If an agency cannot complete its response within the initial 10-working-day period and the 10-working-day extension, the agency may request that the requester agree to another extension. Requester consent is required.",
+      "conditions": "Requires requester agreement; no specified limit on length; should be reasonable and negotiated with requester",
+      "applies_to": "Extremely complex or voluminous requests requiring more than 20 working days",
+      "implementation_notes": "Requester controls whether to grant further extensions; requester can refuse and treat delay as denial, providing grounds for appeal",
+      "request_tips": "If agency requests further extension: 'Under 2 AAC 96.325(c), further extensions require my agreement. Please explain why additional time is necessary.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Balancing Test Favoring Disclosure",
+      "statute_citation": "Alaska Stat. § 40.25.122(a)",
+      "description": "An agency may determine a record is confidential only if the need for confidentiality outweighs the public interest in disclosure. Agency must balance factors including public participation, government accountability, revealing waste/fraud, privacy, and public safety.",
+      "conditions": "Agency has burden to prove confidentiality outweighs disclosure; must consider 8 specific factors listed in statute; presumption favors disclosure",
+      "applies_to": "All discretionary confidentiality determinations by Alaska agencies",
+      "implementation_notes": "This creates a strong presumption of openness - agencies cannot withhold records without affirmatively proving confidentiality need outweighs public interest",
+      "request_tips": "Challenge withholdings: 'Alaska Stat. § 40.25.122(a) requires you to prove confidentiality need outweighs public interest. Please explain your balancing analysis for each withheld record.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Segregability Requirement",
+      "statute_citation": "Alaska Stat. § 40.25.122(b)",
+      "description": "If an agency determines under AS 40.25.122(a) that a public record or information in a record is confidential, the agency shall segregate the confidential record or information and make available for inspection any part of the record that is not confidential.",
+      "conditions": "Applies when any portion of record contains confidential information; agency must separate exempt from non-exempt; must produce non-exempt portions",
+      "applies_to": "Records containing both confidential and non-confidential information",
+      "implementation_notes": "Agencies cannot withhold entire documents when only portions are confidential; must perform redaction analysis and produce segregable portions",
+      "request_tips": "Assert: 'Alaska Stat. § 40.25.122(b) requires you to segregate any confidential information and provide all non-confidential portions. Please produce redacted records with only confidential portions withheld.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Judicial Review Rights",
+      "statute_citation": "Alaska Stat. § 40.25.125(a)",
+      "description": "A person denied the right to inspect or copy a public record may apply to the superior court for an order directing that the record be made available. Application must be made within 180 days of the denial.",
+      "conditions": "Must file within 180 days of denial; court will hear matter promptly; agency has burden to prove record is exempt",
+      "applies_to": "Denials of public records requests in Alaska",
+      "implementation_notes": "Burden shifts to agency in court - agency must prove by preponderance of evidence that record is exempt from inspection",
+      "request_tips": "If denied, note right: 'Alaska Stat. § 40.25.125 grants me the right to seek judicial review within 180 days. I am considering exercising this right if you do not provide the requested records.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Attorney Fee Recovery",
+      "statute_citation": "Alaska Stat. § 40.25.125(c)",
+      "description": "If the court orders that the public record be made available for inspection or copying, the court may award court costs and reasonable attorney fees to the applicant. This incentivizes compliance and makes legal challenges financially feasible.",
+      "conditions": "Court has discretion to award fees; typically awarded when agency denial was improper; covers court costs and attorney fees",
+      "applies_to": "Successful judicial challenges to records denials",
+      "implementation_notes": "Fee-shifting provision makes it financially viable to challenge improper denials, as successful requesters can recover legal costs",
+      "request_tips": "When considering litigation: 'Alaska Stat. § 40.25.125(c) provides for attorney fee recovery if I prevail in court. This makes pursuing judicial review financially feasible.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Administrative Appeal Rights",
+      "statute_citation": "Alaska Stat. § 40.25.124",
+      "description": "A person may appeal a final administrative order of a public agency by filing a notice of appeal in the superior court within 30 days after receiving notice of the final administrative order.",
+      "conditions": "Must exhaust administrative remedies first (if agency has administrative appeal process); file within 30 days of final administrative order; heard under Rules of Appellate Procedure",
+      "applies_to": "Final administrative orders on public records requests",
+      "implementation_notes": "Some agencies have internal administrative appeal processes that must be exhausted before judicial review; check agency regulations for administrative appeal procedures",
+      "request_tips": "After final administrative denial: 'Under Alaska Stat. § 40.25.124, I have 30 days to appeal this final administrative order to superior court. Please confirm this is your final administrative determination.'"
+    }
+  ]
+}

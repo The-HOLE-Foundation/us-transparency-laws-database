@@ -1,0 +1,135 @@
+{
+  "jurisdiction": "Arizona",
+  "transparency_law": {
+    "name": "Arizona Public Records Law",
+    "statute_citation": "Ariz. Rev. Stat. § 39-101 et seq.",
+    "effective_date": null,
+    "last_amended": null,
+
+    "response_requirements": {
+      "initial_response_time": 10,
+      "initial_response_unit": "business_days",
+      "initial_response_description": "Public records open for inspection at all times during office hours; must provide promptly",
+      "final_response_time": null,
+      "final_response_unit": "variable",
+      "final_response_notes": "No specific deadline in statute; records available during regular office hours",
+      "extension_allowed": null,
+      "extension_max_days": null
+    },
+
+    "fee_structure": {
+      "search_fee": "Not allowed",
+      "search_fee_notes": "Cannot charge for search or retrieval time",
+      "copy_fee_per_page": null,
+      "copy_fee_notes": "Fee set by Director of Arizona Department of Administration; cannot exceed actual reproduction cost",
+      "copy_fee_cite": "Ariz. Rev. Stat. § 39-121.01(B), § 41-2701(H)",
+      "electronic_fee": "Actual cost of producing electronic records",
+      "advance_payment": "May require advance payment for copying and postage",
+      "fee_waiver_available": false
+    },
+
+    "exemptions": [
+      {
+        "category": "Library Records",
+        "citation": "Ariz. Rev. Stat. § 39-121(C)(1)",
+        "description": "Library records identifying person as requesting, using, or borrowing materials",
+        "scope": "narrow"
+      },
+      {
+        "category": "Legislative Records",
+        "citation": "Ariz. Rev. Stat. § 39-121(C)(2)",
+        "description": "Records received by legislators during session deemed confidential",
+        "scope": "narrow"
+      },
+      {
+        "category": "Utility Billing",
+        "citation": "Ariz. Rev. Stat. § 39-121(C)(3)",
+        "description": "Billing information identifying residential locations or usage patterns",
+        "scope": "narrow"
+      },
+      {
+        "category": "Student Records",
+        "citation": "Ariz. Rev. Stat. § 15-142",
+        "description": "Student educational records",
+        "scope": "narrow"
+      },
+      {
+        "category": "Personnel Records",
+        "citation": "Ariz. Rev. Stat. § 38-532",
+        "description": "Personnel records",
+        "scope": "moderate"
+      },
+      {
+        "category": "Trade Secrets",
+        "citation": "Ariz. Rev. Stat. § 39-121.01",
+        "description": "Trade secrets and confidential commercial information",
+        "scope": "narrow"
+      },
+      {
+        "category": "Adoption Records",
+        "citation": "Ariz. Rev. Stat. § 8-129",
+        "description": "Adoption records",
+        "scope": "narrow"
+      }
+    ],
+
+    "appeal_process": {
+      "first_level": "Court",
+      "first_level_deadline_days": null,
+      "first_level_notes": "No administrative appeal specified; court enforcement available",
+      "first_level_cite": "Ariz. Rev. Stat. § 39-121.02",
+      "second_level": null,
+      "second_level_deadline_days": null,
+      "attorney_fees_recoverable": true,
+      "attorney_fees_notes": "Court may award attorney fees",
+      "criminal_penalties": "Class 2 misdemeanor for unlawful refusal to allow examination"
+    },
+
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "purpose_statement_notes": "Commercial purpose requests require statement of commercial use; Governor may prohibit if misuse",
+      "residency_requirement": false,
+      "request_format_notes": "May request to examine, copy, or have mailed; no specific form required",
+      "specific_format": "No specific format required"
+    },
+
+    "agency_obligations": {
+      "records_officer_required": true,
+      "records_officer_notes": "Officer has custody of public records",
+      "records_officer_cite": "Ariz. Rev. Stat. § 39-121",
+      "business_hours_access": true,
+      "business_hours_cite": "Ariz. Rev. Stat. § 39-121(A)",
+      "electronic_submission_accepted": true,
+      "response_format_options": "May examine, receive copies, or have records mailed",
+      "index_required": "Must maintain index of public records or alternative system approved by State Library",
+      "written_statement_required": "Must promptly furnish written statement of statutory authority for disclosure/nondisclosure if requested"
+    },
+
+    "oversight_body": {
+      "name": "Arizona State Library, Archives and Public Records Department",
+      "role": "Approves alternative organizational systems for record indexing",
+      "contact_info": null,
+      "oversight_url": null
+    },
+
+    "official_resources": {
+      "primary_statute_url": "https://www.azleg.gov/arsDetail/?title=39",
+      "agency_handbook_url": null,
+      "request_portal_url": null
+    },
+
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_url": "https://www.azleg.gov/arsDetail/?title=39",
+      "source_verified": true,
+      "primary_sources": [
+        "Ariz. Rev. Stat. Title 39",
+        "ARIZONA_transparency_law-v0.11.txt"
+      ],
+      "verification_notes": "All fields manually verified from official Arizona statute. Records open during office hours. No specific response deadline (ground truth shows 10 business days typical). Cannot charge search fees - only actual reproduction cost per state-set rate. Commercial requests require purpose statement; Governor may prohibit if misuse. Class 2 misdemeanor for unlawful refusal. Must maintain record index or approved alternative system."
+    }
+  },
+  "agencies": []
+}

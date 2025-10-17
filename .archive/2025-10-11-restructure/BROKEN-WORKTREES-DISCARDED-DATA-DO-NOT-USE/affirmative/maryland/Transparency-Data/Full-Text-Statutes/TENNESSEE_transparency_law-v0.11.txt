@@ -1,0 +1,120 @@
+TENNESSEE PUBLIC RECORDS ACT
+Tennessee Code Annotated Title 10, Chapter 7, Part 5, §§ 10-7-503 through 10-7-506
+
+==============================================================================
+OFFICIAL STATUTORY CITATION: T.C.A. § 10-7-503 et seq.
+EFFECTIVE DATE: Originally enacted 1957, last amended 2024
+SOURCE: Tennessee Code Annotated
+==============================================================================
+
+TENNESSEE PUBLIC RECORDS ACT - COMPREHENSIVE STATUTORY PROVISIONS
+
+§ 10-7-503. Records open to public inspection
+
+(a)(1) All state, county and municipal records shall at all times during business hours be open for personal inspection by any citizen of this state, and those in charge of such records shall not refuse such right of inspection to any citizen, unless otherwise provided by state law.
+
+(a)(2)(A) A governmental entity subject to this chapter shall promptly make available for inspection any public record not specifically exempt from disclosure. However, if the records custodian does not reasonably believe that the governmental entity is the custodian of the requested records, the custodian shall advise the requestor that the governmental entity is not the custodian of the requested records. If the custodian knows which governmental entity is the records custodian, the custodian shall advise the requestor of the correct governmental entity.
+
+(a)(2)(B) Each governmental entity subject to this chapter shall designate and identify a public records request coordinator who shall be responsible for ensuring that requests for inspection and copying are promptly and efficiently processed.
+
+(a)(3) If it is not practicable for the records to be made available promptly for inspection, then, within seven (7) business days of the receipt of the request, the custodian shall:
+(A) Make the records available to the requestor;
+(B) Deny the request in writing; or
+(C) Furnish the requestor a completed public records request response form developed by the office of open records counsel and notify the requestor of the specific time reasonably necessary to produce such record or information.
+
+RESPONSE REQUIREMENTS AND PROCEDURES:
+
+Response Timeframe: 7 business days maximum
+- Records custodians must respond within 7 business days by:
+  1. Producing the requested records
+  2. Denying the request in writing with basis for denial
+  3. Providing an estimated timeframe for record production
+
+Legal Requirements for Denial:
+- Written denial must specify legal basis for withholding records
+- Burden of proof on government officials to justify denial
+- Must cite specific statutory exemption(s)
+
+Cost and Fee Structure:
+- Inspection is free of charge
+- Copying fees may be charged at reasonable cost
+- Standard rates: $0.15 per page (black & white), $0.50 per page (color)
+- Labor charges may apply after first hour of work
+- Cost estimates must be provided before charging fees
+
+REQUESTOR REQUIREMENTS:
+
+Eligibility: Tennessee citizens only
+- Only citizens of Tennessee have right to inspect and receive public records
+- Non-residents can be denied access
+- Photo ID with address may be required
+
+Request Specifications:
+- Requests must be sufficiently detailed to identify specific records
+- No particular format required for requests
+- Can be submitted: in-person, phone, fax, mail, email, or online
+- Each agency may have specific request forms
+
+APPEALS AND ENFORCEMENT:
+
+Court Appeals Process:
+- Denied requesters may petition chancery or circuit court
+- No administrative appeal to Attorney General
+- Government bears burden of proof to justify denial by "preponderance of evidence"
+
+Legal Remedies:
+- Courts must construe Act "to give citizens fullest possible public access"
+- Attorney's fees may be awarded for willful violations
+- Potential cost assessments against government for improper denials
+- Officials providing proper access protected from civil/criminal liability
+
+EXEMPTIONS AND CONFIDENTIALITY:
+
+Statutory Exemptions: 563 exemptions as of 2018
+- Exemptions found throughout Tennessee Code
+- Records containing confidential information shall be redacted when possible
+- Redacted records must be made available for inspection
+- Redaction does not constitute creation of new record
+
+ADMINISTRATIVE OVERSIGHT:
+
+Office of Open Records Counsel:
+- Provides guidance and dispute assistance
+- Develops standard response forms
+- Does not handle individual record requests
+- Located within Tennessee Comptroller's Office
+
+ENFORCEMENT MECHANISMS:
+
+Compliance Requirements:
+- Each entity must have written public records policy
+- Must designate Public Records Request Coordinator (PRRC)
+- Policy must include: request process, response procedures, fee schedule, coordinator contact info
+
+Penalties for Non-Compliance:
+- Court-ordered production of records
+- Attorney's fees for successful requesters
+- Potential sanctions for willful violations
+- Civil liability protections for officials who comply properly
+
+LEGAL CUSTODIANS AND RESPONSIBLE PARTIES:
+
+State Level: Each state agency's designated PRRC
+County Level: County clerk or designated records custodian  
+Municipal Level: City clerk or designated records custodian
+
+KEY STATUTORY LANGUAGE:
+"All state, county and municipal records shall at all times during business hours be open for personal inspection by any citizen of this state, and those in charge of such records shall not refuse such right of inspection to any citizen, unless otherwise provided by state law."
+
+PURPOSE AND INTERPRETATION:
+Legislature's stated intent: "to give the fullest possible public access to public records"
+Courts instructed to exercise necessary remedies to ensure this purpose is fulfilled.
+
+==============================================================================
+COMPILATION NOTES:
+- Statute originally passed in 1957
+- Amended multiple times, including significant amendments in 1984 and 1991
+- Current version reflects 2024 amendments
+- 563 exemptions exist throughout Tennessee Code as of May 2018
+- Tennessee is a "citizen's only" state for public records access
+==============================================================================

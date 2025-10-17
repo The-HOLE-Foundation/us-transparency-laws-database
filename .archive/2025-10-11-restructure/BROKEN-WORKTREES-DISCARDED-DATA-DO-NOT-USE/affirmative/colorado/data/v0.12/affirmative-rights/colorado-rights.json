@@ -1,0 +1,177 @@
+{
+  "jurisdiction": {
+    "name": "Colorado",
+    "slug": "colorado",
+    "type": "state",
+    "transparency_law": "Colorado Open Records Act (CORA)"
+  },
+  "validation_metadata": {
+    "parsed_date": "2025-10-10",
+    "source_url": "https://leg.colorado.gov/sites/default/files/documents/2025A/bills/2025a_077_rer.pdf",
+    "verified_by": "Claude Code AI Assistant",
+    "verification_method": "Direct review of Colorado Revised Statutes Title 24, Article 72, Part 2",
+    "statutory_text_file": "COLORADO_transparency_law-v0.11.txt"
+  },
+  "rights_of_access": [
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Universal Right to Inspect",
+      "statute_citation": "C.R.S. § 24-72-200.1",
+      "description": "It is declared to be the public policy of Colorado that all public records shall be open for inspection by any person at reasonable times, except as provided in CORA or as otherwise specifically provided by law. This establishes Colorado's foundational presumption of public access to government records.",
+      "conditions": "Inspection at reasonable times; applies unless specifically prohibited by law or CORA exemptions",
+      "applies_to": "All public records held by Colorado state agencies and political subdivisions",
+      "implementation_notes": "Legislative declaration establishes strong presumption of openness; burden is on government to justify withholding",
+      "request_tips": "Assert: 'Under C.R.S. § 24-72-200.1, Colorado public policy declares all public records open for inspection. I request access to [specific records] as all records are presumed open unless specifically exempted.'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Right to Inspect at Reasonable Times",
+      "statute_citation": "C.R.S. § 24-72-203(1)(a)",
+      "description": "All public records shall be open for inspection by any person at reasonable times, except as provided in CORA or as otherwise specifically provided by law. Custodian shall make available a suitable place for inspection.",
+      "conditions": "Must be at reasonable times; custodian provides suitable inspection place; cannot remove originals without custodian permission",
+      "applies_to": "All public records in Colorado",
+      "implementation_notes": "No residency requirement - 'any person' includes non-residents; custodian must provide appropriate space for review",
+      "request_tips": "Request: 'Under C.R.S. § 24-72-203(1), I request to inspect [specific records] at a reasonable time. Please provide a suitable place for inspection as required by statute.'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Written Application Process",
+      "statute_citation": "C.R.S. § 24-72-203(2)",
+      "description": "Any person may inspect any public record upon written application to the custodian. Application need only describe the record requested with sufficient specificity to enable the custodian to locate the requested record.",
+      "conditions": "Must submit written application; only needs sufficient specificity for custodian to locate records; no other requirements",
+      "applies_to": "All public records requests in Colorado",
+      "implementation_notes": "Low barrier - only need enough detail to locate records; no requirement to explain purpose or justify request",
+      "request_tips": "Submit: 'This written application under C.R.S. § 24-72-203(2) requests [records with sufficient specificity]. This description enables you to locate the requested records as required by statute.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "3-Working-Day Response Deadline",
+      "statute_citation": "C.R.S. § 24-72-203(3)",
+      "description": "The custodian shall provide the requested records or shall deny the request in writing within three working days after the receipt of the application. This ensures rapid initial response to public records requests.",
+      "conditions": "3 working days from receipt; custodian must either provide records or deny in writing; SB25-077 proposal to extend to 5 days was vetoed April 17, 2025",
+      "applies_to": "All CORA requests to Colorado agencies",
+      "implementation_notes": "Working days, not calendar days; Governor Polis vetoed SB25-077 extension, keeping faster 3-day timeframe to protect transparency",
+      "request_tips": "Cite deadline: 'C.R.S. § 24-72-203(3) requires a response within 3 working days of receipt. Please confirm receipt and expected response date. Note that SB25-077 was vetoed to maintain this faster timeframe.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "7-Day Extension for Extenuating Circumstances",
+      "statute_citation": "C.R.S. § 24-72-203(3)",
+      "description": "If extenuating circumstances exist, the custodian may extend the three-day period for up to seven additional working days by providing written notice of the extension to the applicant within the initial three-working-day period and by stating the reasons for the extension.",
+      "conditions": "Extension limited to 7 additional working days (total 10 working days); must provide written notice within initial 3-day period; must state reasons; extenuating circumstances include broadly stated requests requiring numerous file searches, requests requiring legal review, voluminous records, or need to consult with other officials",
+      "applies_to": "Complex or voluminous CORA requests",
+      "implementation_notes": "SB25-077 proposed extending to 10 additional days but was vetoed; current 7-day extension limit remains to ensure timely access",
+      "request_tips": "If extended, verify: 'Your extension under C.R.S. § 24-72-203(3) must be in writing within 3 working days, explain extenuating circumstances, and not exceed 7 additional working days. Please confirm completion date and specify which extenuating circumstance applies.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Custodian Unavailability Protection",
+      "statute_citation": "C.R.S. § 24-72-203(4)",
+      "description": "If the person with custody of records is not available during the response period, the custodian must provide all other available responsive records and notify the requester of when the custodian will return or if they are not expected to return.",
+      "conditions": "Custodian unavailability does not excuse response; must provide other available records; must notify requester of custodian status",
+      "applies_to": "All CORA requests when primary custodian is unavailable",
+      "implementation_notes": "Prevents agencies from delaying response due to staff absence; ensures partial production and transparency about custodian availability",
+      "request_tips": "If custodian unavailable: 'Under C.R.S. § 24-72-203(4), custodian unavailability does not excuse response. Please provide all other available responsive records and advise when the custodian will return.'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Electronic Format Availability",
+      "statute_citation": "C.R.S. § 24-72-203(7)",
+      "description": "All public records that are maintained in electronic or digital form shall be available in that form when technologically practicable.",
+      "conditions": "Records maintained electronically must be provided electronically when technologically practicable",
+      "applies_to": "Electronic public records in Colorado",
+      "implementation_notes": "Agencies cannot force paper-only access to electronic records; must provide in native electronic format when practicable",
+      "request_tips": "Request: 'Under C.R.S. § 24-72-203(7), records maintained electronically shall be available in electronic form when technologically practicable. Please provide these records in their native electronic format.'"
+    },
+    {
+      "category": "Fee Waiver",
+      "subcategory": "First Hour Free - Research and Retrieval",
+      "statute_citation": "C.R.S. § 24-72-203(6)",
+      "description": "The custodian may charge a research and retrieval fee if more than one hour of staff time is necessary to produce the requested records for inspection or copying, except that no research and retrieval fee shall be charged for the first hour of staff time.",
+      "conditions": "First hour of staff time is always free; fees only apply after first hour; current rate is $33.58 per hour (2025 rate) for time exceeding one hour",
+      "applies_to": "All CORA requests requiring research and retrieval time",
+      "implementation_notes": "Significant requester protection - first hour of work always free, preventing cost from being barrier for most requests",
+      "request_tips": "Cite protection: 'Under C.R.S. § 24-72-203(6), no research and retrieval fee may be charged for the first hour of staff time. Please ensure your fee estimate excludes the first hour.'"
+    },
+    {
+      "category": "Fee Waiver",
+      "subcategory": "Copy Fee Cap - 25¢ Per Page After 25 Pages",
+      "statute_citation": "C.R.S. § 24-72-203 (Fee Provisions)",
+      "description": "Paper copies may be charged at $0.25 per page after the first 25 pages or actual costs, whichever is greater. The first 25 pages establish a baseline for minimal copying fees.",
+      "conditions": "First 25 pages at 25¢ per page; subsequent pages at actual cost or 25¢, whichever is greater; applies to paper copies",
+      "applies_to": "Paper copy fees for Colorado CORA requests",
+      "implementation_notes": "25¢/page standard helps keep copying costs reasonable; actual cost option allows agencies to charge true costs for large copy jobs",
+      "request_tips": "Challenge excessive fees: 'Colorado CORA fee provisions cap copy fees at 25¢ per page for the first 25 pages. Please adjust your fee estimate to comply with statutory limits.'"
+    },
+    {
+      "category": "Fee Waiver",
+      "subcategory": "Electronic Records - Actual Cost Only",
+      "statute_citation": "C.R.S. § 24-72-203(7)",
+      "description": "Electronic records fees are limited to actual cost of production. Electronic delivery should be low-cost or free when records are already maintained electronically.",
+      "conditions": "May only charge actual cost for electronic records; cannot inflate fees; email delivery typically free or minimal cost",
+      "applies_to": "Electronic records provided under CORA",
+      "implementation_notes": "Email delivery of electronic records should typically be free; agencies cannot charge inflated fees for electronic delivery",
+      "request_tips": "For electronic delivery: 'Under C.R.S. § 24-72-203(7), electronic records fees are limited to actual cost. Please provide fee breakdown showing only actual electronic production costs. Email delivery should be free.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Reconsideration Process",
+      "statute_citation": "C.R.S. § 24-72-203(5)(b)",
+      "description": "Prior to seeking judicial review of a denial, a person denied access to records may file a written request with the custodian for reconsideration of the denial. Such request for reconsideration may include an offer to meet and confer with the custodian to discuss the scope and basis of the request.",
+      "conditions": "Optional process before judicial review; can include offer to meet and confer; allows negotiation to resolve disputes without litigation",
+      "applies_to": "Denied CORA requests in Colorado",
+      "implementation_notes": "Encourages informal resolution; meet and confer option allows requesters to clarify or narrow requests to obtain records without court involvement",
+      "request_tips": "After denial: 'Under C.R.S. § 24-72-203(5)(b), I request reconsideration of this denial and offer to meet and confer to discuss the scope and basis of my request to resolve this matter without judicial review.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Written Denial Requirements",
+      "statute_citation": "C.R.S. § 24-72-203(5)(a)",
+      "description": "If the custodian denies a records request, the custodian shall provide a written statement of the grounds for denial, including the specific statutory citation to an exemption in section 24-72-204.",
+      "conditions": "Denial must be in writing; must state grounds for denial; must cite specific statutory exemption from § 24-72-204",
+      "applies_to": "All CORA denials",
+      "implementation_notes": "Prevents vague denials; requires agencies to justify withholding with specific legal authority; facilitates meaningful challenge to denials",
+      "request_tips": "Challenge inadequate denial: 'C.R.S. § 24-72-203(5)(a) requires written denial with specific statutory citation to exemption in § 24-72-204. Please provide detailed written denial citing specific exemptions.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Judicial Review Rights",
+      "statute_citation": "C.R.S. § 24-72-205(1)",
+      "description": "Any person denied the right to inspect a record may apply to the district court for an order directing the custodian to show cause why the custodian should not be ordered to permit inspection. Application may be made after person has requested reconsideration and 14 days have passed OR custodian has denied reconsideration (whichever occurs first).",
+      "conditions": "Must first request reconsideration (optional but affects timing); file within 14 days after reconsideration request or after custodian denies reconsideration; hearing held at earliest possible time",
+      "applies_to": "Denied CORA requests in Colorado",
+      "implementation_notes": "Provides judicial remedy for improper denials; show cause process puts burden on agency to justify withholding",
+      "request_tips": "If pursuing judicial review: 'Under C.R.S. § 24-72-205(1), I may seek court order directing production after requesting reconsideration. I have requested reconsideration and am prepared to file if denial continues.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Attorney Fee Recovery",
+      "statute_citation": "C.R.S. § 24-72-205(3)",
+      "description": "Upon determination that the custodian improperly withheld records, the court may award court costs and attorney fees to prevailing applicant if court finds custodian's action was arbitrary or capricious. If court finds the public entity knowingly violated CORA, may impose additional penalties.",
+      "conditions": "Court has discretion to award fees; requires finding that denial was arbitrary or capricious; additional penalties possible for knowing violations",
+      "applies_to": "Successful judicial challenges to CORA denials",
+      "implementation_notes": "Fee-shifting provision makes it financially viable to challenge improper denials; arbitrary/capricious standard protects against frivolous fee awards but ensures accountability for bad faith denials; knowing violations face enhanced penalties",
+      "request_tips": "When considering litigation: 'C.R.S. § 24-72-205(3) provides for attorney fee recovery if I prevail and your action is found arbitrary or capricious, plus additional penalties for knowing violations. This makes pursuing judicial review financially feasible.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Posting Requirements",
+      "statute_citation": "C.R.S. § 24-72-205 (Posting Requirements)",
+      "description": "Public entities should post: (1) Rules and policies adopted pursuant to CORA, (2) Records retention policies (if applicable), (3) Information on how to make public records requests, and (4) Contact information for records requests.",
+      "conditions": "Public entities should maintain publicly accessible information about CORA compliance and request procedures",
+      "applies_to": "All Colorado public entities subject to CORA",
+      "implementation_notes": "Transparency about transparency - ensures requesters know how to access their rights; facilitates informed requests",
+      "request_tips": "Request information: 'Under C.R.S. § 24-72-205, public entities should post CORA policies and request procedures. Please direct me to your posted CORA information and provide contact details for records requests.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Location Assistance for Transferred Records",
+      "statute_citation": "C.R.S. § 24-72-203(4)(a)-(b)",
+      "description": "If the requested records are not in the custodian's immediate custody or control, the custodian shall make reasonable efforts to notify the applicant where the records are located. If custodian has transferred permanent custody to state archives, shall advise applicant.",
+      "conditions": "Custodian must make reasonable efforts to locate records; must notify requester of location if not in immediate custody; specific notification required for archives transfers",
+      "applies_to": "Requests for records not in immediate custody of receiving custodian",
+      "implementation_notes": "Prevents records from being lost in bureaucracy; ensures requester can pursue records even when transferred between agencies or to archives",
+      "request_tips": "If records not with custodian: 'Under C.R.S. § 24-72-203(4), you must make reasonable efforts to notify me where the records are located. Please advise the current location so I can direct my request appropriately.'"
+    }
+  ]
+}

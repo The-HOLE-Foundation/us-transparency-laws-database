@@ -1,0 +1,23 @@
+{
+  "jurisdiction": "",
+  "transparency_law": "",
+  "legal_citation": "",
+  "effective_date": "",
+  "research_date": "",
+
+  "law_summary": {
+    "official_name": "",
+    "response_deadline_days": {
+      "acknowledgment": "",
+      "standard_requests": "",
+      "time_intensive_requests": ""
+    },
+    "appeal_process": "",
+    "appeal_deadline": "",
+    "fee_structure": "",
+    "requester_requirements": "",
+    "key_exemptions": []
+  },
+
+  "state_agencies": []
+}

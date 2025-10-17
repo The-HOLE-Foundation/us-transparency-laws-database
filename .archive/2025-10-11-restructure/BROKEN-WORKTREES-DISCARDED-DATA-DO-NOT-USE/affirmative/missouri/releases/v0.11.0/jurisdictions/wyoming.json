@@ -1,0 +1,154 @@
+{
+  "jurisdiction": "Wyoming",
+  "transparency_law": {
+    "name": "Wyoming Public Records Act",
+    "statute_citation": "W.S. \u00a7 16-4-201 et seq.",
+    "effective_date": null,
+    "last_amended": "2024-01-01",
+    "constitutional_basis": null,
+    "response_requirements": {
+      "initial_response_time": null,
+      "initial_response_unit": "variable",
+      "initial_response_description": "Designated public records person shall notify applicant within 7 business days from acknowledged receipt; all records released not later than 30 calendar days from acknowledged receipt",
+      "final_response_time": null,
+      "final_response_unit": "variable",
+      "final_response_notes": "7 business day acknowledgment + 30 calendar day maximum production (records readily available released immediately unless would impair operations)",
+      "extension_allowed": true,
+      "extension_max_days": null,
+      "extension_notes": "Extensions permitted with good cause (volume, review needs, staff limitations, operational constraints)",
+      "good_faith_standard": "Records readily available shall be released immediately unless release would impair or impede agency operations",
+      "prompt_acknowledgment_required": true
+    },
+    "fee_structure": {
+      "search_fee": "May charge reasonable fees for search and retrieval time",
+      "search_fee_notes": "May charge reasonable fees for search/retrieval time based on actual costs incurred",
+      "search_fee_statutory_cite": "W.S. \u00a7 16-4-203",
+      "copy_fee_per_page": null,
+      "copy_fee_notes": "Reasonable fees for reproduction including staff time for copying, materials and supplies",
+      "copy_fee_cite": "W.S. \u00a7 16-4-203",
+      "electronic_fee": "Additional fees for special format requests",
+      "fee_waiver_available": false,
+      "fee_waiver_notes": "May require advance payment if estimated cost exceeds reasonable amount; must provide written estimate",
+      "reasonableness_standard": "All fees must be reasonable and based on actual costs"
+    },
+    "exemptions": [
+      {
+        "category": "Privileged or Confidential by Law",
+        "citation": "W.S. \u00a7 16-4-204",
+        "description": "Public records do not include those privileged or confidential by law",
+        "scope": "broad"
+      },
+      {
+        "category": "Personal Information",
+        "citation": "W.S. \u00a7 16-4-204",
+        "description": "Personnel records with personal information, medical/health records, student educational records, personal identifiers",
+        "scope": "moderate"
+      },
+      {
+        "category": "Law Enforcement",
+        "citation": "W.S. \u00a7 16-4-204",
+        "description": "Active criminal investigation files, intelligence/investigative information, records interfering with proceedings",
+        "scope": "moderate"
+      },
+      {
+        "category": "Attorney-Client Privilege",
+        "citation": "W.S. \u00a7 16-4-204",
+        "description": "Attorney-client privileged communications",
+        "scope": "narrow"
+      },
+      {
+        "category": "Deliberative Process",
+        "citation": "W.S. \u00a7 16-4-204",
+        "description": "Internal deliberative materials during decision-making process",
+        "scope": "moderate"
+      },
+      {
+        "category": "Trade Secrets",
+        "citation": "W.S. \u00a7 16-4-204",
+        "description": "Trade secrets and proprietary information",
+        "scope": "narrow"
+      },
+      {
+        "category": "Security Plans",
+        "citation": "W.S. \u00a7 16-4-204",
+        "description": "Security plans and procedures",
+        "scope": "narrow"
+      }
+    ],
+    "appeal_process": {
+      "first_level": "District Court - Writ of Mandamus",
+      "first_level_deadline_days": null,
+      "first_level_cite": "W.S. \u00a7 16-4-205",
+      "first_level_notes": "Any person denied access may petition district court for writ of mandamus. Governmental entity bears burden of proving exemption.",
+      "mediation_available": true,
+      "mediation_provider": "Public Records Ombudsman (Governor-designated)",
+      "second_level": null,
+      "second_level_deadline_days": null,
+      "second_level_deadline_notes": null,
+      "second_level_cite": null,
+      "attorney_fees_recoverable": true,
+      "attorney_fees_cite": "W.S. \u00a7 16-4-205",
+      "attorney_fees_notes": "Court costs and reasonable attorney fees to substantially prevailing petitioner",
+      "civil_penalties_available": false,
+      "criminal_penalties_available": false,
+      "criminal_penalties_notes": null
+    },
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "purpose_notes": "Requests should be made in writing to designated records person; law does not require statement of purpose and does not restrict use of records",
+      "residency_requirement": false,
+      "request_format_notes": "Written request recommended but not strictly required; any person has right of inspection",
+      "specific_format": "No specific format required - written request recommended",
+      "constitutional_right": null
+    },
+    "agency_obligations": {
+      "records_officer_required": true,
+      "records_officer_title": "Designated Public Records Person",
+      "business_hours_access": true,
+      "business_hours_notes": "Custodian shall allow any person the right of inspection of records",
+      "electronic_submission_accepted": null,
+      "electronic_submission_notes": "Electronic records have same status as physical records; may request in electronic format",
+      "response_format_options": "May request records in electronic format; fees may apply for electronic formatting",
+      "good_faith_effort_required": true,
+      "reasonable_efforts_to_locate": true,
+      "redaction_requirements": "Personal information redacted unless specifically authorized",
+      "liberal_interpretation": "Right of inspection is fundamental; exemptions must be specifically provided by law"
+    },
+    "oversight_body": {
+      "name": "Public Records Ombudsman",
+      "role": "Governor-designated position; assists public with access, mediates disputes, provides guidance",
+      "contact_info": "Governor's office",
+      "oversight_url": null
+    },
+    "official_resources": {
+      "primary_statute_url": "https://wyoleg.gov/statutes/compress/title16.pdf",
+      "statute_chapter_119": null,
+      "statute_chapter_286": null,
+      "agency_handbook_url": null,
+      "request_portal_url": null,
+      "request_portal_notes": "Wyoming Administration and Information maintains directory of designated public records persons",
+      "constitutional_foundation": null
+    },
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_url": "https://wyoleg.gov/statutes/compress/title16.pdf",
+      "source_verified": true,
+      "primary_sources": [
+        "Wyoming Statutes Title 16, Chapter 4, Article 2, \u00a7\u00a7 16-4-201 through 16-4-205"
+      ],
+      "verification_notes": "All fields verified from official Wyoming statutes. Response time set to null/variable per ground truth (7 business day acknowledgment + 30 calendar day maximum production). Designated public records person required. Public Records Ombudsman assists. Training requirements for personnel. District court enforcement via mandamus. Attorney fees for substantially prevailing petitioners. Burden on governmental entity to prove exemption.",
+      "unique_characteristics": [
+        "7 business day acknowledgment requirement",
+        "30 calendar day maximum production",
+        "Designated public records person required",
+        "Public Records Ombudsman (Governor-designated)",
+        "Training requirements mandatory",
+        "Directory of designated persons maintained",
+        "Immediate release if readily available"
+      ]
+    }
+  },
+  "agencies": []
+}

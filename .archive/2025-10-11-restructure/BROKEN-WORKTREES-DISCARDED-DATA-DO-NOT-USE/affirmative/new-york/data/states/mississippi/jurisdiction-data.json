@@ -1,0 +1,137 @@
+{
+  "jurisdiction": "Mississippi",
+  "transparency_law": {
+    "name": "Mississippi Public Records Act of 1983",
+    "statute_citation": "Mississippi Code \u00a7\u00a7 25-61-1 to 25-61-19",
+    "effective_date": "1983-01-01",
+    "last_amended": "2024-07-01",
+    "response_requirements": {
+      "initial_response_time": 7,
+      "initial_response_unit": "working_days",
+      "initial_response_description": "If agency has written procedures: Follow those procedures. If no written procedures: Provide access within 1 working day after written request.",
+      "maximum_response_time": 1,
+      "extension_allowed": false,
+      "extension_max_time": null,
+      "extension_conditions": [],
+      "no_response_consequence": "Circuit court action for mandamus relief. Court may order production of wrongfully withheld records."
+    },
+    "fee_structure": {
+      "standard_copy_fee": "Reasonable fees for copying costs",
+      "electronic_fee": "Must follow agency's written procedures",
+      "search_time_fee": "Reasonable fees for search time",
+      "certification_fee": "Not specified",
+      "waiver_available": false,
+      "waiver_criteria": [],
+      "notes": "Agencies may charge reasonable fees for copying, search time, and administrative overhead. Must follow agency's written procedures if adopted."
+    },
+    "exemptions": [
+      {
+        "category": "Personnel Records",
+        "citation": "Miss. Code \u00a7\u00a7 25-61-1 to 25-61-19",
+        "description": "Personnel records",
+        "scope": "moderate"
+      },
+      {
+        "category": "Medical Records",
+        "citation": "Miss. Code \u00a7\u00a7 25-61-1 to 25-61-19",
+        "description": "Medical records",
+        "scope": "moderate"
+      },
+      {
+        "category": "Law Enforcement Investigative Records",
+        "citation": "Miss. Code \u00a7\u00a7 25-61-1 to 25-61-19",
+        "description": "Law enforcement investigative records",
+        "scope": "moderate"
+      },
+      {
+        "category": "Attorney-Client Privilege",
+        "citation": "Miss. Code \u00a7\u00a7 25-61-1 to 25-61-19",
+        "description": "Attorney-client privileged communications",
+        "scope": "narrow"
+      },
+      {
+        "category": "Trade Secrets",
+        "citation": "Miss. Code \u00a7\u00a7 25-61-1 to 25-61-19",
+        "description": "Trade secrets and proprietary information",
+        "scope": "moderate"
+      },
+      {
+        "category": "Statutory Exemptions",
+        "citation": "Miss. Code \u00a7\u00a7 25-61-1 to 25-61-19",
+        "description": "Records specifically exempted by other statutes",
+        "scope": "broad"
+      }
+    ],
+    "appeal_process": {
+      "administrative_appeal_required": false,
+      "appeal_deadline_days": null,
+      "appeal_deadline_unit": null,
+      "appeal_authority": "Circuit Court",
+      "appeal_description": "Administrative appeal to agency head not specifically required. Circuit court action for mandamus relief available. Court may order production of wrongfully withheld records.",
+      "judicial_review_available": true,
+      "judicial_review_deadline_days": null,
+      "court_jurisdiction": "Circuit Court",
+      "burden_of_proof": "Government must justify withholding with specific exemption",
+      "penalties": {
+        "criminal": "Not specified",
+        "civil": "Mandamus relief available"
+      }
+    },
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "residency_requirement": false,
+      "specific_format": "Written request required. Be specific about records sought. Check if agency has published access procedures.",
+      "notes": "Any person has right to inspect, copy, or mechanically reproduce public records. Broad definition of public records."
+    },
+    "agency_obligations": {
+      "records_officer_required": false,
+      "business_hours_access": false,
+      "electronic_submission_accepted": false,
+      "response_format_options": [
+        "Inspection",
+        "Copies",
+        "Mechanical reproduction"
+      ],
+      "training_required": false,
+      "annual_reporting_required": false,
+      "specific_obligations": [
+        "Public bodies encouraged to adopt reasonable written procedures",
+        "Provide public notice of procedures",
+        "All denials must be in writing",
+        "Must cite statement of specific exemption relied upon",
+        "Must cite legal authority for denial",
+        "Follow adopted procedures for cost, time, place, and method of access"
+      ]
+    },
+    "oversight_body": {
+      "name": "Mississippi Attorney General (guidance only)",
+      "role": "Provides guidance on public records law. No formal enforcement authority.",
+      "contact_info": "Not specified",
+      "statute_reference": "Miss. Code \u00a7\u00a7 25-61-1 to 25-61-19",
+      "enforcement_powers": [
+        "Provide guidance on public records law",
+        "No formal enforcement authority - enforcement through courts"
+      ]
+    },
+    "official_resources": {
+      "primary_statute_url": "https://law.justia.com/codes/mississippi/2022/title-25/chapter-61/",
+      "agency_handbook_url": null,
+      "request_portal_url": null,
+      "oversight_url": null
+    },
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_verified": true,
+      "primary_sources": [
+        "Mississippi Code Title 25, Chapter 61",
+        "Mississippi Public Records Act of 1983"
+      ],
+      "verification_notes": "Parsed from official statutory text file. Response time verified against canonical-values.json (7 working days - statute provides 1 working day if no procedures, or follow agency procedures). 6 exemptions parsed. IMPORTANT: Current law expires July 1, 2028 - sunset provision.",
+      "last_verified_date": "2025-10-03",
+      "source_url": "https://law.justia.com/codes/mississippi/2022/title-25/chapter-61/"
+    }
+  },
+  "agencies": []
+}

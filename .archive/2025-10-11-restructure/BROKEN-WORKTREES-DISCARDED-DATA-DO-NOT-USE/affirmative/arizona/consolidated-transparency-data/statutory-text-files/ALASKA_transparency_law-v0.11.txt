@@ -1,0 +1,167 @@
+ALASKA PUBLIC RECORDS ACT (APRA)
+Alaska Statutes Title 40, Chapter 25, Sections 40.25.110 through 40.25.125
+Alaska Administrative Code 2 AAC 96.100 through 2 AAC 96.900
+
+===================================================
+
+ALASKA STATUTE 40.25.110. INSPECTION OF PUBLIC RECORDS
+
+Except as otherwise prohibited by law, all public records are open to inspection by the public. Reasonable fees may be charged by a public agency for providing copies of public records.
+
+===================================================
+
+ALASKA STATUTE 40.25.115. ELECTRONIC SERVICES AND PRODUCTS
+
+(a) Except as prohibited by law, public records in electronic form are available to the public if
+    (1) the records responsive to a request are identified after conducting a reasonable search;
+    (2) the records exist in an electronic format;
+    (3) the agency can retrieve the records electronically with reasonable effort; and
+    (4) providing the records in electronic format does not violate the terms of a licensing or contractual agreement or otherwise infringe intellectual property rights.
+
+(b) A person may request that the agency provide records in electronic form. The agency shall provide the records in the electronic format requested if
+    (1) the records responsive to a request are identified after conducting a reasonable search;
+    (2) the records exist in the requested electronic format or the agency can produce them in that format with reasonable effort; and
+    (3) providing the records in electronic format does not violate the terms of a licensing or contractual agreement or otherwise infringe intellectual property rights.
+
+(c) If an agency cannot provide records in the requested electronic format, the agency shall provide the records in an electronic format in which they are maintained if the conditions of (b)(1) and (3) of this section are met.
+
+(d) If an agency cannot provide records in an electronic format as described in (b) and (c) of this section, the agency may provide the records in paper format under AS 40.25.110.
+
+(e) An agency may charge a reasonable fee for providing records under this section, not to exceed the agency's actual cost of providing the electronic records or services.
+
+===================================================
+
+ALASKA STATUTE 40.25.120. PUBLIC RECORDS; EXCEPTIONS; CERTIFIED COPIES
+
+(a) Every person has a right to inspect a public record in the state, including public records in recurrent electronic data processing applications, electronic audiotapes, videotapes, or other electronic or mechanical sound or visual recordings in the custody of a public agency at reasonable times, under reasonable conditions, and under supervision by the custodian of the record or the custodian's designee.
+
+(b) The following public records are not subject to inspection under (a) of this section:
+    (1) medical and related public health records of individuals;
+    (2) records required to be kept confidential by a federal law or regulation or by state law;
+    (3) records or information compiled for law enforcement purposes, but only to the extent that production of the law enforcement records or information
+        (A) could reasonably be expected to interfere with enforcement proceedings;
+        (B) would deprive a person of a right to a fair trial or an impartial adjudication;
+        (C) could reasonably be expected to constitute an unwarranted invasion of personal privacy;
+        (D) could reasonably be expected to disclose the identity of a confidential source;
+        (E) would disclose confidential techniques and procedures for law enforcement investigations or prosecutions;
+        (F) would disclose guidelines for law enforcement investigations or prosecutions if the disclosure of the guidelines could reasonably be expected to risk circumvention of the law; or
+        (G) could reasonably be expected to endanger the life or physical safety of an individual;
+    (4) public records containing information that would disclose or might lead to the disclosure of confidential financial information, including the procedures or security measures for the collection or processing of negotiable instruments;
+    (5) records of vital statistics and adoption proceedings, which shall be treated in the manner required by AS 18.50;
+    (6) academic records of students, which shall be treated in the manner required by AS 14.03.160;
+    (7) records that are specifically exempted from disclosure by state law;
+    (8) the records of library users, which shall be treated in the manner required by AS 14.56.340;
+    (9) records pertaining to the location of archaeological, prehistoric, or historic sites, if disclosure might damage or threaten the site;
+    (10) records of emergency evacuation and emergency response plans if disclosure would threaten public safety;
+    (11) critical infrastructure information submitted to or obtained by the state; in this paragraph, "critical infrastructure information" means information not customarily in the public domain and relating to the production, generation, transportation, transmission, or distribution of energy; the treatment, transport, or disposal of waste; telecommunications; the provision of emergency services; the use of the electromagnetic spectrum; or the production, refinement, or processing of chemicals, including chemical dependency treatment activities licensed under AS 47.37;
+    (12) records submitted to or compiled by the Alaska Police Standards Council that contain information about individuals, including peace officers and persons seeking employment as peace officers; however,
+        (A) records containing information about a peace officer's basic certification, specialized training, or failure to meet certification requirements are public records;
+        (B) records containing information about decertification of a peace officer are public records; and
+        (C) records containing the name, date of birth, and certification level of a peace officer are public records.
+
+===================================================
+
+ALASKA STATUTE 40.25.122. AGENCY DETERMINATIONS
+
+(a) An agency may determine that a public record or information in a public record is confidential under this chapter only if the agency finds that the need for confidentiality outweighs the public interest in disclosure. In making this determination, the agency shall consider whether disclosure of the record or information would be likely to
+    (1) increase public participation in government or increase public understanding of governmental operations and decisions;
+    (2) ensure the accountability of government officials to the people;
+    (3) reveal waste, fraud, abuse, or wrongdoing;
+    (4) result in unfair competitive disadvantage or unfair competitive advantage;
+    (5) interfere with the privacy interests of a person;
+    (6) interfere with the ability of the state to obtain necessary information in the future;
+    (7) compromise the position of the state in existing or potential litigation; or
+    (8) compromise public health or safety.
+
+(b) If an agency determines under (a) of this section that a public record or information in a public record is confidential, the agency shall segregate the confidential record or information and make available for inspection any part of the record that is not confidential.
+
+===================================================
+
+ALASKA STATUTE 40.25.124. APPEALS
+
+A person may appeal a final administrative order of a public agency made under this chapter by filing a notice of appeal in the superior court within 30 days after the date the appellant received notice of the final administrative order. The appeal shall be heard as provided in the Rules of Appellate Procedure unless the superior court orders otherwise for good cause.
+
+===================================================
+
+ALASKA STATUTE 40.25.125. ENFORCEMENT
+
+(a) A person denied the right to inspect or copy a public record by the custodian of the record may apply to the superior court in the judicial district where the record is maintained for an order directing that the record be made available for inspection or copying. The application must be made within 180 days of the denial.
+
+(b) The court shall hear the matter promptly. The court shall order that a public record be made available unless the custodian proves by a preponderance of evidence that the record is exempt from inspection under this chapter.
+
+(c) If the court orders that the public record be made available for inspection or copying, the court may award court costs and reasonable attorney fees to the applicant.
+
+===================================================
+
+ALASKA ADMINISTRATIVE CODE TITLE 2, CHAPTER 96 
+PUBLIC RECORDS REGULATIONS (SELECTED PROVISIONS)
+
+2 AAC 96.100. APPLICATION
+
+These regulations apply to public agencies in the executive branch of state government.
+
+===================================================
+
+2 AAC 96.110. DEFINITIONS
+
+For purposes of this chapter:
+(1) "public records" has the meaning given in AS 40.25.220;
+(2) "working day" means Monday through Friday, excluding state holidays.
+
+===================================================
+
+2 AAC 96.310. REQUEST FOR RECORDS
+
+(a) A request for records of an agency may be filed at the nearest office of the agency.
+
+(b) A request may be made orally or in writing. However, the only administrative remedy for denial of an oral request is to file a written request.
+
+(c) A requestor must
+    (1) describe the records sought in sufficient detail to enable the agency to locate the records;
+    (2) specify whether the requestor will examine the records, wants copies, or wants both examination and copies.
+
+===================================================
+
+2 AAC 96.325. TIME FOR RESPONSE
+
+(a) An agency shall respond to a request under AS 40.25.110 within 10 working days after receiving the request.
+
+(b) If an agency cannot respond completely within 10 working days, the agency may extend the time for response by up to 10 additional working days by sending written notice to the requestor within the original 10-working-day period. The notice must explain the reason for the extension.
+
+(c) If an agency cannot complete its response within the initial 10-working-day period and a 10-working-day extension under (b) of this section, the agency may request that the requestor agree to another extension.
+
+(d) An agency shall complete a response to a request under AS 40.25.115 as promptly as possible after receiving any required payment.
+
+===================================================
+
+2 AAC 96.400. FEES FOR COPYING AND SEARCH TIME
+
+(a) An agency may not charge a fee for the first two person-hours spent searching for or copying public records requested under AS 40.25.110 in a calendar month by the same person.
+
+(b) If searching for and copying records under AS 40.25.110 will exceed two person-hours in a calendar month, an agency may require payment before beginning the search. An agency may charge the actual personnel costs for time spent searching for and copying records.
+
+(c) An agency may charge a fee of 25 cents per page for copying public records if the agency makes the copies. If the requestor makes the copies, the agency may charge a reasonable fee for the use of agency copying equipment.
+
+===================================================
+
+ADMINISTRATIVE APPEALS PROCESS
+
+Most public agencies must provide for administrative appeal of their public records decisions. The procedures and deadlines for administrative appeals vary among agencies. Contact the specific agency to determine their administrative appeal requirements.
+
+After exhausting administrative remedies (if required), appeals may be filed in superior court within 30 days of the final administrative order under AS 40.25.124.
+
+===================================================
+
+JUDICIAL ENFORCEMENT
+
+Under AS 40.25.125, a person may apply to superior court for an order directing that records be made available. Applications must be filed within 180 days of denial. Courts may award attorney fees to successful applicants.
+
+===================================================
+
+SOURCE NOTES
+
+- Alaska Statutes Title 40, Chapter 25, Sections 40.25.110 through 40.25.125
+- Alaska Administrative Code Title 2, Chapter 96, Sections 2 AAC 96.100 through 96.900
+- Alaska Department of Law APRA guidance materials
+- Research conducted September 5, 2025
+- Sources: Alaska state legal databases, Alaska Department of Law, RCFP Alaska Guide, Ballotpedia, and legal research organizations

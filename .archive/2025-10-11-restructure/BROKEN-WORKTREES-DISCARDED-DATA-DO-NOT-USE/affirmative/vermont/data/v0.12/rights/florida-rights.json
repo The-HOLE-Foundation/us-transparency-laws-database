@@ -1,0 +1,216 @@
+{
+  "jurisdiction": {
+    "name": "Florida",
+    "slug": "florida",
+    "type": "state",
+    "transparency_law": "Florida Public Records Law (Sunshine Law)"
+  },
+  "validation_metadata": {
+    "parsed_date": "2025-10-07",
+    "source_url": "http://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&Title=-%3e2023-%3eChapter%20119",
+    "verified_by": "Claude Code AI Assistant",
+    "verification_method": "Direct review of Florida Statutes Chapter 119"
+  },
+  "rights_of_access": [
+    {
+      "category": "Proactive Disclosure",
+      "subcategory": "Constitutional Right",
+      "statute_citation": "Fla. Const. Art. I, § 24; Fla. Stat. § 119.01",
+      "description": "Access to public records is a constitutional right in Florida. Every person has a right to inspect or copy any public record, with the right codified in both the Florida Constitution and statutes.",
+      "conditions": "Must be public records; specific exemptions may apply",
+      "applies_to": "All public records made or received in connection with official business of any public agency",
+      "implementation_notes": "Constitutional protection provides stronger foundation than mere statutory right",
+      "request_tips": "Cite: 'Access to public records is my constitutional right under Fla. Const. Art. I, § 24 and Fla. Stat. § 119.01.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Reasonable Time Requirement",
+      "statute_citation": "Fla. Stat. § 119.07(1)(a)",
+      "description": "Agencies must permit records to be inspected or copied at any reasonable time, under reasonable conditions, and under supervision by the custodian. While no specific deadline is set, 'reasonable time' is generally interpreted as a few days for simple requests.",
+      "conditions": "Timeframe depends on request complexity, volume, and agency resources; must be objectively reasonable",
+      "applies_to": "All public records requests",
+      "implementation_notes": "Courts have found delays of weeks for simple requests unreasonable; complexity justifies longer times",
+      "request_tips": "For delays: 'Please explain what makes [timeframe] reasonable under Fla. Stat. § 119.07(1)(a) for this request. Courts generally require response within days for simple requests.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Good Faith Deposit and Completion",
+      "statute_citation": "Fla. Stat. § 119.07(1)(a)",
+      "description": "If fees are estimated to exceed $200, agencies may require a good faith deposit not exceeding half the estimated cost. Once deposit is paid, the agency must complete the request within a reasonable time.",
+      "conditions": "Deposit only if fees exceed $200; cannot exceed 50% of estimate; must complete request after deposit paid",
+      "applies_to": "High-cost requests exceeding $200 in estimated fees",
+      "implementation_notes": "Deposit requirement cannot be used to delay or obstruct access; completion still required within reasonable time",
+      "request_tips": "If deposit requested: 'I am willing to pay good faith deposit under Fla. Stat. § 119.07(1)(a). Please complete request promptly after deposit is received.'"
+    },
+    {
+      "category": "Fee Waiver",
+      "subcategory": "Statutory Fee Limits",
+      "statute_citation": "Fla. Stat. § 119.07(1)(a)",
+      "description": "Agencies may charge only the actual cost of duplication, which includes the cost of copies, labor, and materials. The actual cost may not include overhead or profit. The first 15 minutes of labor are free.",
+      "conditions": "Must be actual costs only; no overhead or profit; first 15 minutes labor free; must provide itemized estimate if requested",
+      "applies_to": "All requests for copies of public records",
+      "implementation_notes": "Many agencies charge 15 cents per page for standard copies; electronic copies typically minimal cost",
+      "request_tips": "Challenge fees: 'Fla. Stat. § 119.07(1)(a) limits charges to actual duplication costs. Please provide itemized fee breakdown excluding overhead.'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Electronic Format Rights",
+      "statute_citation": "Fla. Stat. § 119.07(1)(c)",
+      "description": "If public records are maintained in electronic format, the custodian must provide access to the electronic records in the medium requested if the agency currently maintains the record in that medium. This includes databases, emails, and digital files.",
+      "conditions": "Records must be maintained electronically; agency must currently have records in requested medium",
+      "applies_to": "All electronically maintained public records",
+      "implementation_notes": "Agencies cannot force requesters to accept paper when electronic format exists",
+      "request_tips": "Request: 'These records are maintained electronically. Please provide them in electronic format as required by Fla. Stat. § 119.07(1)(c).'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Remote Electronic Access",
+      "statute_citation": "Fla. Stat. § 119.07(2)(a)",
+      "description": "Agencies that maintain public records in electronic format must provide remote electronic access to such records when technologically feasible and cost-effective. Many agencies maintain online portals for common record types.",
+      "conditions": "Must be technologically feasible; must be cost-effective; agency discretion in implementation",
+      "applies_to": "Frequently requested electronic records",
+      "implementation_notes": "Check agency website first - many records available through online portals",
+      "request_tips": "Request: 'If remote electronic access is available under Fla. Stat. § 119.07(2)(a), please direct me to the online portal.'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Free Inspection",
+      "statute_citation": "Fla. Stat. § 119.07(1)(a)",
+      "description": "All persons have the right to inspect public records free of charge. Fees may only be charged for duplication, not for inspection or search time (beyond the first 15 minutes).",
+      "conditions": "Must be during reasonable times; agency may supervise; no inspection fees allowed",
+      "applies_to": "All public records",
+      "implementation_notes": "Inspection allows review of records without incurring copying costs",
+      "request_tips": "State: 'I request to inspect these records without charge as permitted by Fla. Stat. § 119.07(1)(a).'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Segregability Requirement",
+      "statute_citation": "Fla. Stat. § 119.07(1)(e)",
+      "description": "If only a portion of a record is exempt from disclosure, the custodian shall redact the exempt portion and produce the remainder. Partial exemptions do not justify withholding entire documents.",
+      "conditions": "Must redact only exempt portions; must produce all non-exempt portions",
+      "applies_to": "Records containing both exempt and non-exempt information",
+      "implementation_notes": "Agencies must perform redaction analysis; burden is on agency to justify each redaction",
+      "request_tips": "Demand: 'Fla. Stat. § 119.07(1)(e) requires production of all non-exempt portions after redacting exempt content. Please perform segregability review.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Written Denial Requirement",
+      "statute_citation": "Fla. Stat. § 119.07(1)(f)",
+      "description": "If a request is denied in whole or in part, the custodian must state in writing the basis for the denial, including the specific statutory citation. Generic denials without legal basis are insufficient.",
+      "conditions": "Must be in writing; must cite specific exemption statute; must explain how exemption applies",
+      "applies_to": "All denials or partial denials of records requests",
+      "implementation_notes": "This ensures transparency in denials and provides foundation for challenge",
+      "request_tips": "If denied: 'Fla. Stat. § 119.07(1)(f) requires written denial with specific statutory citations. Please provide detailed written explanation.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Attorney Fee Recovery",
+      "statute_citation": "Fla. Stat. § 119.12",
+      "description": "In litigation to enforce the Public Records Law, the prevailing party may recover reasonable attorney fees and costs. This applies to both requesters challenging denials and agencies defending proper withholdings.",
+      "conditions": "Must substantially prevail in litigation; fees awarded at court discretion",
+      "applies_to": "Public records litigation under Chapter 119",
+      "implementation_notes": "Fee shifting makes litigation viable for requesters with meritorious claims",
+      "request_tips": "For litigation: 'Fla. Stat. § 119.12 provides for attorney fee recovery if I prevail in compelling production of these records.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Mandamus Action",
+      "statute_citation": "Fla. Stat. § 119.11",
+      "description": "If access is denied, requesters may file a civil action to compel production. Courts may enjoin agencies from withholding records and award damages, attorney fees, and costs to prevailing requesters.",
+      "conditions": "Must have been denied access; must file in court with jurisdiction",
+      "applies_to": "Improperly withheld public records",
+      "implementation_notes": "Mandamus provides judicial enforcement mechanism for access rights",
+      "request_tips": "For improper denials: 'Fla. Stat. § 119.11 authorizes court action to compel production and recover fees if records are wrongfully withheld.'"
+    },
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "No Identity or Purpose Requirement",
+      "statute_citation": "Fla. Stat. § 119.01(1)",
+      "description": "Any person may inspect and copy public records without providing identification or stating the purpose of the request. The right of access does not depend on who is asking or why.",
+      "conditions": "Agency may request contact information for response purposes but cannot condition access on ID or purpose",
+      "applies_to": "All public records requests",
+      "implementation_notes": "This protects requester privacy and prevents discrimination",
+      "request_tips": "If asked for ID/purpose: 'Fla. Stat. § 119.01(1) grants access to any person without requiring identification or statement of purpose.'"
+    },
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "No Residency Requirement",
+      "statute_citation": "Fla. Stat. § 119.01(1)",
+      "description": "The Public Records Law grants access to 'any person' without regard to residency, citizenship, or connection to Florida. Out-of-state and international requesters have equal rights.",
+      "conditions": "None - right extends to all persons",
+      "applies_to": "All Florida public records requests",
+      "implementation_notes": "Residency restrictions have been consistently rejected by courts",
+      "request_tips": "If residency questioned: 'Fla. Stat. § 119.01(1) grants any person access without residency requirement.'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Digital Signature Acceptance",
+      "statute_citation": "Fla. Stat. § 119.07(1)(a)",
+      "description": "Agencies must accept digitally signed requests and cannot require physical presence or wet signatures for records requests. Electronic submission is a valid method of requesting records.",
+      "conditions": "Request must otherwise meet statutory requirements; agency must have capacity to receive electronic requests",
+      "applies_to": "Electronic submission of public records requests",
+      "implementation_notes": "Email requests are widely accepted and facilitate rapid submission",
+      "request_tips": "For electronic requests: 'This email constitutes a valid public records request under Fla. Stat. § 119.07(1)(a).'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Indexing Requirements",
+      "statute_citation": "Fla. Stat. § 119.07(1)(k)",
+      "description": "Agencies must make reasonable efforts to provide current and accurate indexes of public records to assist requesters in identifying records. These indexes help requesters make more specific and targeted requests.",
+      "conditions": "Must maintain and make available reasonable indexes; applies to ongoing records management",
+      "applies_to": "Public records maintained by Florida agencies",
+      "implementation_notes": "Well-maintained indexes facilitate access by helping requesters identify specific records",
+      "request_tips": "Request: 'Please provide any indexes available under Fla. Stat. § 119.07(1)(k) to help identify responsive records.'"
+    },
+    {
+      "category": "Proactive Disclosure",
+      "subcategory": "Public Records Liaison",
+      "statute_citation": "Fla. Stat. § 119.0701",
+      "description": "State agencies must designate a public records liaison to assist the public in accessing records. The liaison facilitates communication between requesters and records custodians.",
+      "conditions": "Required for state agencies; liaison contact information must be published",
+      "applies_to": "Florida state agencies",
+      "implementation_notes": "Liaison can help navigate complex requests and resolve issues informally",
+      "request_tips": "Request assistance: 'Please direct me to your public records liaison designated under Fla. Stat. § 119.0701 for assistance with this request.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Record Custodian Obligations",
+      "statute_citation": "Fla. Stat. § 119.07(1)",
+      "description": "Record custodians have an affirmative duty to protect public records from damage, theft, or destruction, and to make them available for inspection and copying. Custodians cannot obstruct access through negligence or delay.",
+      "conditions": "Custodian must exercise reasonable care; must facilitate access",
+      "applies_to": "All public record custodians",
+      "implementation_notes": "Custodians' duties include organizing and maintaining records for efficient access",
+      "request_tips": "If obstructed: 'As custodian, you have an affirmative duty under Fla. Stat. § 119.07(1) to facilitate access to public records, not obstruct it.'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Software and Database Access",
+      "statute_citation": "Fla. Stat. § 119.071(2)",
+      "description": "Software used to display or access public records must be provided or made available to requesters when necessary to access the records. Proprietary software cannot be a barrier to access.",
+      "conditions": "Agency may charge actual cost of software or provide access through agency equipment; cannot use proprietary formats as barrier",
+      "applies_to": "Records requiring specific software for access",
+      "implementation_notes": "Agencies must either convert to accessible format or provide means to access proprietary formats",
+      "request_tips": "If proprietary barrier: 'Fla. Stat. § 119.071(2) requires you to provide access despite proprietary format - please convert or provide software access.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "No Overbroad Requests Rejection",
+      "statute_citation": "Fla. Stat. § 119.01(1)",
+      "description": "While requests should be reasonably specific, agencies cannot categorically deny requests as 'overbroad' without working with requesters to narrow scope. Agencies must engage in good faith dialogue to facilitate access.",
+      "conditions": "Agency must demonstrate genuine effort to accommodate request; cannot reject without discussion",
+      "applies_to": "Requests agencies claim are overbroad or unduly burdensome",
+      "implementation_notes": "Courts disfavor agencies that refuse to work with requesters to craft accessible requests",
+      "request_tips": "If rejected as overbroad: 'Fla. Stat. § 119.01(1) requires good faith efforts to accommodate requests. Please discuss how we can narrow scope rather than categorically denying.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "No Indefinite Delays",
+      "statute_citation": "Fla. Stat. § 119.07(1)(a)",
+      "description": "While no specific deadline exists for complex requests, indefinite or unreasonable delays violate the Public Records Law. Courts may compel production and award damages for unreasonable delays.",
+      "conditions": "Delay must be objectively unreasonable considering request complexity and agency resources",
+      "applies_to": "All public records requests experiencing significant delays",
+      "implementation_notes": "What is reasonable varies by circumstances, but agencies cannot delay indefinitely",
+      "request_tips": "For unreasonable delays: 'Fla. Stat. § 119.07(1)(a) requires access within reasonable time. Please explain what makes [X months] reasonable for this request or provide immediate access.'"
+    }
+  ]
+}

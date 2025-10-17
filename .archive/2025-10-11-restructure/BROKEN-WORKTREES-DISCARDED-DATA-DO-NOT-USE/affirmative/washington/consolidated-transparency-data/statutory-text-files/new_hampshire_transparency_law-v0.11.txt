@@ -1,0 +1,125 @@
+NEW HAMPSHIRE REVISED STATUTES ANNOTATED CHAPTER 91-A - ACCESS TO GOVERNMENTAL RECORDS AND MEETINGS (RIGHT-TO-KNOW LAW)
+Collection Date: January 9, 2025
+Source: New Hampshire General Court (https://gc.nh.gov/rsa/html/VI/91-A/91-A-mrg.htm)
+
+LEGISLATIVE PURPOSE AND DECLARATION
+
+RSA 91-A:1 - Preamble
+Openness in the conduct of public business is essential to a democratic society. The purpose of this chapter is to ensure both the greatest possible public access to the actions, discussions and records of all public bodies, and their accountability to the people.
+
+KEY PROVISIONS FOR PUBLIC RECORDS ACCESS
+
+RSA 91-A:4 - Minutes and Records Available for Public Inspection
+I. Every citizen during the regular or business hours of such public body or agency has the right to inspect all governmental records in the possession, custody, or control of such public body or public agency, and to make memoranda, abstracts, photographic or photostatic copies of the records or portions thereof.
+
+II. After receiving a request for a governmental record, a public body or public agency shall make the record available for inspection and copying no later than 5 business days after the request. The public body or public agency may:
+   (a) Make the record immediately available;
+   (b) Deny the request;
+   (c) If the public body or agency is unable to make a determination within the time period, it shall notify the requestor and provide an estimated date and time the record will be available and any fees that may apply.
+
+RESPONSE REQUIREMENTS
+
+RSA 91-A:4 II - Five Business Day Response Requirement
+- Initial response required within 5 business days
+- Must either provide records, deny request, or provide estimate
+- If estimate given, must include timeline and potential fees
+- Failure to respond within 5 days may constitute denial
+
+FEES AND COSTS
+
+RSA 91-A:4 IV - Fees for Copies
+The custodian may charge for copies of governmental records as follows:
+- Fees cannot exceed actual costs
+- Must provide itemized list of charges
+- Payment may be required in advance
+
+EXEMPTIONS FROM DISCLOSURE
+
+RSA 91-A:5 - Exemptions
+The following governmental records are exempt from public disclosure:
+I. Records of grand and petit juries
+II. Records of parole and pardon boards
+III. Personal school records of pupils
+IV. Records pertaining to internal personnel practices
+V. Teacher certification records containing personally identifiable information
+VI. Records pertaining to matters which, if disclosed, would constitute invasion of privacy
+VII. Records of law enforcement intelligence and investigative files
+VIII. Confidential commercial or financial information
+IX. Test questions, scoring keys, and other testing data
+X. Preliminary drafts, notes, impressions, memoranda and other documents not in their final form
+XI. Videotape recordings made pursuant to RSA 106-H:9
+XII. Computer programs developed by public bodies
+XIII. Correspondence and documents protected by attorney-client privilege
+XIV. Records relating to compensation paid to negotiate the acquisition of real property
+
+MEETINGS AND MINUTES
+
+RSA 91-A:2 - Meetings Open to Public
+I. All meetings of public bodies must be open to the public
+II. 24-hour notice required for regular meetings
+III. Minutes must be recorded for all meetings
+IV. Minutes available within 5 business days of meeting
+
+RSA 91-A:3 - Nonpublic Sessions
+Limited circumstances allow for nonpublic sessions including:
+- Personnel matters
+- Legal consultation
+- Real estate acquisition discussions
+- Security matters
+
+APPEALS AND ENFORCEMENT
+
+RSA 91-A:7 - Violation; Civil Remedy
+Any person aggrieved by a violation of this chapter may:
+1. Petition the superior court for injunctive relief
+2. File a complaint with the Right-to-Know Ombudsman
+
+RSA 91-A:8 - Penalties
+I. Court may:
+   - Issue injunctive relief
+   - Award attorney's fees and costs to prevailing plaintiff
+   - Impose civil penalties up to $2,000
+   - Order mandatory training for officials
+
+II. Knowing and willful violations may result in:
+   - Removal from office
+   - Civil penalties
+
+RIGHT-TO-KNOW OMBUDSMAN
+
+Contact Information:
+- Phone: (603) 271-3277
+- Email: Thomas.kehr@sos.nh.gov
+- Address: Room 313, State House Annex, 25 Capitol Street, Concord, NH 03301
+
+KEY RESPONSE REQUIREMENTS:
+- Initial response: 5 business days
+- Available records: Immediate or as soon as practicable
+- Cannot provide: Must provide estimated timeline and costs
+- Denial: Must specify legal authority for denial
+
+APPEALS PROCESS:
+- Superior court petition for injunctive relief
+- Right-to-Know Ombudsman complaint process
+- Prevailing plaintiff may recover attorney's fees and costs
+- Civil penalties up to $2,000 for violations
+- Mandatory training may be ordered
+
+FEES:
+- Cannot exceed actual costs
+- Must provide itemized charges
+- Payment may be required in advance
+
+ENFORCEMENT:
+- Superior court jurisdiction
+- Right-to-Know Ombudsman oversight
+- Civil penalties and attorney fee awards
+- Possible removal from office for knowing violations
+- Mandatory training requirements
+
+SPECIAL FEATURES:
+- Strong presumption favoring disclosure
+- 24-hour meeting notice requirement
+- Attorney-client privilege protected
+- Computer programs specifically protected
+- Personnel matters may be discussed in nonpublic session

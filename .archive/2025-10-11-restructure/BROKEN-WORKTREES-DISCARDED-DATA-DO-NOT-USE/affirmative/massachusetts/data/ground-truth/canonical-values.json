@@ -1,0 +1,364 @@
+{
+  "_schema_version": "v0.11",
+  "_description": "Canonical ground truth values for all 51 jurisdictions",
+  "_last_updated": "2025-10-02",
+  "_verification_source": "Extracted from verified process maps v0.11",
+  "alabama": {
+    "response_timeline_days": -1,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "alaska": {
+    "response_timeline_days": -1,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "arizona": {
+    "response_timeline_days": 10,
+    "response_timeline_type": "business_days",
+    "statute_citation": "Arizona Revised Statutes \u00a7 39",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "arkansas": {
+    "response_timeline_days": 10,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "california": {
+    "response_timeline_days": 10,
+    "response_timeline_type": "business_days",
+    "statute_citation": "California Government Code \u00a7 7920.000",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "colorado": {
+    "response_timeline_days": 5,
+    "response_timeline_type": "business_days",
+    "statute_citation": "Colorado Revised Statutes \u00a7 24",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "connecticut": {
+    "response_timeline_days": 4,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "district-of-columbia": {
+    "response_timeline_days": 15,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "delaware": {
+    "response_timeline_days": 15,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "florida": {
+    "response_timeline_days": 30,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "georgia": {
+    "response_timeline_days": 3,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "hawaii": {
+    "response_timeline_days": 10,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "idaho": {
+    "response_timeline_days": 3,
+    "response_timeline_type": "working_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "illinois": {
+    "response_timeline_days": 5,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "indiana": {
+    "response_timeline_days": 5,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "iowa": {
+    "response_timeline_days": 90,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "kansas": {
+    "response_timeline_days": 3,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "kentucky": {
+    "response_timeline_days": 5,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "louisiana": {
+    "response_timeline_days": -1,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "maine": {
+    "response_timeline_days": -1,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "maryland": {
+    "response_timeline_days": 30,
+    "response_timeline_type": "business_days",
+    "statute_citation": "State Government Code \u00a7 10",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "massachusetts": {
+    "response_timeline_days": 10,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "michigan": {
+    "response_timeline_days": 5,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "minnesota": {
+    "response_timeline_days": 10,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "mississippi": {
+    "response_timeline_days": 7,
+    "response_timeline_type": "working_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "missouri": {
+    "response_timeline_days": 3,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "montana": {
+    "response_timeline_days": 5,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "nebraska": {
+    "response_timeline_days": 4,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "nevada": {
+    "response_timeline_days": 5,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "new-hampshire": {
+    "response_timeline_days": 5,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "new-jersey": {
+    "response_timeline_days": 7,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "new-york": {
+    "response_timeline_days": 5,
+    "response_timeline_type": "business_days",
+    "statute_citation": "42 U.S.C. \u00a7 1983",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "north-carolina": {
+    "response_timeline_days": -1,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "north-dakota": {
+    "response_timeline_days": -1,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "ohio": {
+    "response_timeline_days": 3,
+    "response_timeline_type": "business_days",
+    "statute_citation": "Ohio Revised Code \u00a7 149.43",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "oklahoma": {
+    "response_timeline_days": 5,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "oregon": {
+    "response_timeline_days": 15,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "pennsylvania": {
+    "response_timeline_days": 5,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "rhode-island": {
+    "response_timeline_days": 10,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "south-carolina": {
+    "response_timeline_days": 10,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "south-dakota": {
+    "response_timeline_days": -1,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "tennessee": {
+    "response_timeline_days": -1,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "texas": {
+    "response_timeline_days": 10,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "utah": {
+    "response_timeline_days": 10,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "vermont": {
+    "response_timeline_days": 2,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "virginia": {
+    "response_timeline_days": 5,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "washington": {
+    "response_timeline_days": 5,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "west-virginia": {
+    "response_timeline_days": 5,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "wisconsin": {
+    "response_timeline_days": 60,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "wyoming": {
+    "response_timeline_days": -1,
+    "response_timeline_type": "business_days",
+    "statute_citation": "",
+    "verified_date": "2025-09-26",
+    "confidence_level": "high"
+  },
+  "federal": {
+    "response_timeline_days": 20,
+    "response_timeline_type": "working_days",
+    "statute_citation": "5 U.S.C. \u00a7 552(a)(6)(A)(i)",
+    "verified_date": "2025-09-26",
+    "source_url": "https://www.govinfo.gov/content/pkg/USCODE-2020-title5/html/USCODE-2020-title5-partI-chap5-subchapII-sec552.htm",
+    "confidence_level": "high"
+  }
+}

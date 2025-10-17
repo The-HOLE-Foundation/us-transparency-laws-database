@@ -1,0 +1,135 @@
+{
+  "jurisdiction": "Washington",
+  "transparency_law": {
+    "name": "Washington Public Records Act",
+    "statute_citation": "RCW § 42.56",
+    "effective_date": "2006-01-01",
+    "last_amended": "2024-01-01",
+
+    "response_requirements": {
+      "initial_response_time": 5,
+      "initial_response_unit": "business_days",
+      "initial_response_description": "Agency must respond within 5 business days by acknowledging receipt and providing reasonable time estimate, providing records, or denying with legal basis",
+      "final_response_time": null,
+      "final_response_unit": "variable",
+      "final_response_notes": "If immediate response not possible, must provide reasonable time estimate based on nature and volume of records",
+      "extension_allowed": true,
+      "extension_max_days": null,
+      "extension_notes": "Must communicate regularly about status; estimate based on request complexity"
+    },
+
+    "fee_structure": {
+      "search_fee": "May charge for customized services",
+      "search_fee_notes": "May charge for customized services; cannot charge for staff time to search or review records for redaction",
+      "search_fee_statutory_cite": "RCW § 42.56.120",
+      "copy_fee_per_page": null,
+      "copy_fee_notes": "May charge actual cost of copying; cannot exceed actual cost",
+      "copy_fee_cite": "RCW § 42.56.120",
+      "electronic_fee": "Actual cost",
+      "fee_waiver_available": false
+    },
+
+    "exemptions": [
+      {
+        "category": "Personal Information",
+        "citation": "RCW § 42.56.230",
+        "description": "Personal information in files maintained for employees, appointees, or elected officials",
+        "scope": "moderate"
+      },
+      {
+        "category": "Law Enforcement",
+        "citation": "RCW § 42.56.240",
+        "description": "Law enforcement investigative records and intelligence information",
+        "scope": "moderate"
+      },
+      {
+        "category": "Personal Privacy",
+        "citation": "RCW § 42.56.230",
+        "description": "Personal information where disclosure would violate right to privacy",
+        "scope": "moderate"
+      },
+      {
+        "category": "Preliminary Drafts",
+        "citation": "RCW § 42.56.280",
+        "description": "Preliminary drafts, notes, and internal communications",
+        "scope": "narrow"
+      },
+      {
+        "category": "Attorney Work Product",
+        "citation": "RCW § 42.56.290",
+        "description": "Records protected by attorney-client privilege and attorney work product",
+        "scope": "narrow"
+      },
+      {
+        "category": "Commercial Information",
+        "citation": "RCW § 42.56.270",
+        "description": "Valuable commercial information including trade secrets",
+        "scope": "narrow"
+      },
+      {
+        "category": "Test Questions",
+        "citation": "RCW § 42.56.250",
+        "description": "Examination questions and answers for employment or academic testing",
+        "scope": "narrow"
+      }
+    ],
+
+    "appeal_process": {
+      "first_level": "Superior Court",
+      "first_level_deadline_days": null,
+      "first_level_notes": "No administrative appeal; direct court action for enforcement",
+      "first_level_cite": "RCW § 42.56.550",
+      "second_level": null,
+      "second_level_deadline_days": null,
+      "attorney_fees_recoverable": true,
+      "attorney_fees_cite": "RCW § 42.56.550",
+      "attorney_fees_notes": "Court shall award reasonable attorney fees and costs to prevailing requester; penalties up to $100/day for improper denials"
+    },
+
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "residency_requirement": false,
+      "request_format_notes": "No specific format required; may be made in person, by mail, or email; must request identifiable records",
+      "specific_format": "Must identify public records requested; cannot be overly broad"
+    },
+
+    "agency_obligations": {
+      "records_officer_required": true,
+      "records_officer_notes": "Must designate Public Records Officer (PRO) as primary contact",
+      "records_officer_cite": "RCW § 42.56",
+      "business_hours_access": true,
+      "electronic_submission_accepted": true,
+      "response_format_options": "Must provide reasonable time estimate if immediate response not possible",
+      "liberal_construction": "Liberally construed to promote public policy; exemptions narrowly construed",
+      "liberal_construction_cite": "RCW § 42.56.030",
+      "clarification_assistance": "May seek clarification but must provide reasonable time estimate"
+    },
+
+    "oversight_body": {
+      "name": null,
+      "role": null,
+      "contact_info": null,
+      "oversight_url": null
+    },
+
+    "official_resources": {
+      "primary_statute_url": "https://apps.leg.wa.gov/rcw/default.aspx?cite=42.56",
+      "agency_handbook_url": null,
+      "request_portal_url": null
+    },
+
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_url": "https://apps.leg.wa.gov/rcw/default.aspx?cite=42.56",
+      "source_verified": true,
+      "primary_sources": [
+        "RCW Chapter 42.56",
+        "WASHINGTON_transparency_law-v0.11.txt"
+      ],
+      "verification_notes": "All fields manually verified from official Washington statute. 5 business day response required (acknowledge and provide estimate, provide records, or deny). Cannot charge for search or redaction labor - only customized services. Public Records Officer required. No administrative appeal - direct Superior Court action. Attorney fees and penalties up to $100/day. Liberal construction favoring disclosure."
+    }
+  },
+  "agencies": []
+}

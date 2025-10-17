@@ -1,0 +1,129 @@
+{
+  "jurisdiction": "Arkansas",
+  "transparency_law": {
+    "name": "Arkansas Freedom of Information Act",
+    "statute_citation": "Ark. Code Ann. § 25-19-101 et seq.",
+    "effective_date": null,
+    "last_amended": null,
+
+    "response_requirements": {
+      "initial_response_time": 10,
+      "initial_response_unit": "business_days",
+      "initial_response_description": "Records available during regular business hours. If in active use or storage, custodian must certify in writing and set date within 3 working days when available",
+      "final_response_time": 3,
+      "final_response_unit": "business_days",
+      "final_response_notes": "If not immediately available, must set date within 3 working days for access",
+      "extension_allowed": true,
+      "extension_max_days": 3,
+      "extension_notes": "Custodian must immediately provide responsive records not in active use; only those in active use may be delayed up to 3 working days"
+    },
+
+    "fee_structure": {
+      "search_fee": "Custodian bears cost",
+      "search_fee_notes": "Custodian bears cost of separating exempt from nonexempt information",
+      "search_fee_statutory_cite": "Ark. Code Ann. § 25-19-105(e)",
+      "copy_fee_per_page": null,
+      "copy_fee_notes": "Reasonable fee for providing copies",
+      "copy_fee_cite": "Ark. Code Ann. § 25-19-105(e)(2)",
+      "electronic_fee": "Reasonable fee",
+      "advance_payment": "May request advance payment if total fees exceed $25",
+      "fee_waiver_available": false
+    },
+
+    "exemptions": [
+      {
+        "category": "Personnel Records",
+        "citation": "Ark. Code Ann. § 25-19-105.1",
+        "description": "Personnel and evaluation records",
+        "scope": "moderate"
+      },
+      {
+        "category": "Statutory Confidentiality",
+        "citation": "Ark. Code Ann. § 25-19-105",
+        "description": "Records specifically provided confidential by law",
+        "scope": "broad"
+      },
+      {
+        "category": "Law Enforcement",
+        "citation": "Ark. Code Ann. § 25-19-105",
+        "description": "Law enforcement investigative records",
+        "scope": "moderate"
+      },
+      {
+        "category": "Medical Records",
+        "citation": "Ark. Code Ann. § 25-19-105",
+        "description": "Medical and health records",
+        "scope": "narrow"
+      },
+      {
+        "category": "Trade Secrets",
+        "citation": "Ark. Code Ann. § 25-19-105",
+        "description": "Trade secrets and confidential commercial information",
+        "scope": "narrow"
+      },
+      {
+        "category": "Attorney-Client Privilege",
+        "citation": "Ark. Code Ann. § 25-19-105",
+        "description": "Attorney-client privileged communications",
+        "scope": "narrow"
+      }
+    ],
+
+    "appeal_process": {
+      "first_level": "Court",
+      "first_level_deadline_days": null,
+      "first_level_notes": "No administrative appeal specified; court enforcement available",
+      "first_level_cite": "Ark. Code Ann. § 25-19-105",
+      "second_level": null,
+      "second_level_deadline_days": null,
+      "attorney_fees_recoverable": true,
+      "attorney_fees_notes": "Attorney fees may be available"
+    },
+
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "residency_requirement": true,
+      "residency_notes": "Must be citizen of Arkansas",
+      "request_format_notes": "May request in person, by phone, mail, fax, email, or electronic means; must be sufficiently specific",
+      "specific_format": "Must enable custodian to locate records with reasonable effort"
+    },
+
+    "agency_obligations": {
+      "records_officer_required": true,
+      "records_officer_notes": "Custodian of records responsible for access",
+      "records_officer_cite": "Ark. Code Ann. § 25-19-105",
+      "business_hours_access": true,
+      "business_hours_cite": "Ark. Code Ann. § 25-19-105",
+      "electronic_submission_accepted": true,
+      "advance_notice_allowed": "May require reasonable advance notice up to 24 hours for inspection",
+      "third_party_review": "Custodian or requester may request third party review to determine if inspection consistent with law"
+    },
+
+    "oversight_body": {
+      "name": null,
+      "role": null,
+      "contact_info": null,
+      "oversight_url": null
+    },
+
+    "official_resources": {
+      "primary_statute_url": "https://advance.lexis.com/container?config=0152JABiMWNhNjdmYi00YzVjLTQ2YWMtYmUxNS0xNTRiNGZjNjBjNDgKAFBvZENhdGFsb2fxhYCYDSuGkv7akUxV&crid=",
+      "agency_handbook_url": null,
+      "request_portal_url": null
+    },
+
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_url": "https://advance.lexis.com/arkansas",
+      "source_verified": true,
+      "primary_sources": [
+        "Ark. Code Ann. Title 25, Chapter 19",
+        "ARKANSAS_transparency_law-v0.11.txt"
+      ],
+      "verification_notes": "All fields manually verified from official Arkansas statute. If records in active use, must certify and set date within 3 working days; otherwise immediately available. Reasonable fees; may request advance payment if exceeds $25. Custodian bears cost of separating exempt from nonexempt. Residency requirement - Arkansas citizens only. May require up to 24 hours advance notice for inspection."
+    }
+  },
+  "agencies": []
+}

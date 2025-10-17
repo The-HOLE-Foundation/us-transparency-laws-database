@@ -1,0 +1,137 @@
+{
+  "jurisdiction": "New Mexico",
+  "transparency_law": {
+    "name": "New Mexico Inspection of Public Records Act (IPRA)",
+    "statute_citation": "NMSA 1978, § 14-2-1 to § 14-2-12",
+    "effective_date": null,
+    "last_amended": "2025-01-09",
+    "response_requirements": {
+      "initial_response_time": null,
+      "initial_response_unit": "variable",
+      "initial_response_description": "Immediately or as soon as practicable; maximum 15 calendar days. If not within 3 business days, written response required explaining when available.",
+      "final_response_time": 15,
+      "final_response_unit": "calendar_days",
+      "final_response_notes": "Maximum 15 calendar days for written denial or notification if additional time needed",
+      "extension_allowed": true,
+      "extension_notes": "If additional time needed beyond 15 days, written notification required within 15 calendar days",
+      "immediate_access_standard": "Immediately or as soon as practicable"
+    },
+    "fee_structure": {
+      "search_fee": "Prohibited",
+      "search_fee_notes": "Search fees are NOT permitted in New Mexico",
+      "search_fee_statutory_cite": "NMSA § 14-2-9",
+      "copy_fee_per_page": 0.25,
+      "copy_fee_notes": "Reasonable fees for copies kept to actual cost; typical fee $0.25 per side",
+      "copy_fee_cite": "NMSA § 14-2-9",
+      "electronic_fee": "Actual cost only",
+      "fee_waiver_available": false
+    },
+    "exemptions": [
+      {
+        "category": "Medical Records",
+        "citation": "NMSA § 14-2-1(A)(1)",
+        "description": "Records pertaining to physical or mental examinations and medical treatment - broader than most states",
+        "scope": "broad"
+      },
+      {
+        "category": "Personnel Records",
+        "citation": "NMSA § 14-2-1(A)(3)",
+        "description": "Letters of reference and opinion memoranda in personnel or student files",
+        "scope": "moderate"
+      },
+      {
+        "category": "Law Enforcement",
+        "citation": "NMSA § 14-2-1(A)(4)",
+        "description": "Law enforcement records revealing confidential sources, methods, or unique investigative techniques",
+        "scope": "moderate"
+      },
+      {
+        "category": "Trade Secrets",
+        "citation": "NMSA § 14-2-1(A)(6)",
+        "description": "Trade secrets and confidential commercial information",
+        "scope": "narrow"
+      },
+      {
+        "category": "Personal Privacy",
+        "citation": "NMSA § 14-2-1(A)(9)",
+        "description": "Personal identifiers in combination with sensitive information",
+        "scope": "moderate"
+      },
+      {
+        "category": "Security",
+        "citation": "NMSA § 14-2-1(A)(10)",
+        "description": "Information that would compromise security systems",
+        "scope": "narrow"
+      },
+      {
+        "category": "Attorney-Client Privilege",
+        "citation": "NMSA § 14-2-1(A)(11)",
+        "description": "Pending litigation materials covered by attorney-client privilege",
+        "scope": "narrow"
+      },
+      {
+        "category": "Education Records",
+        "citation": "NMSA § 14-2-1(A)(12)",
+        "description": "Student educational records protected by federal law",
+        "scope": "narrow"
+      }
+    ],
+    "appeal_process": {
+      "first_level": "Attorney General complaint process (informal)",
+      "first_level_deadline_days": null,
+      "first_level_notes": "Government Counsel & Accountability team reviews complaints; informal resolution attempted",
+      "first_level_cite": "NMSA § 14-2-11",
+      "second_level": "District Court - Mandamus or injunctive relief",
+      "second_level_deadline_days": null,
+      "second_level_cite": "NMSA § 14-2-11",
+      "attorney_fees_recoverable": true,
+      "attorney_fees_notes": "Courts may award attorney fees to prevailing requestors",
+      "no_administrative_appeals": true
+    },
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "purpose_notes": "No requirement to state reason for inspecting records",
+      "residency_requirement": false,
+      "written_request_required": false,
+      "written_request_notes": "Written requests recommended but not required"
+    },
+    "agency_obligations": {
+      "records_officer_required": true,
+      "records_officer_title": "Records Custodian",
+      "business_hours_access": true,
+      "response_options": "Must permit inspection immediately or as soon as practicable; if not within 3 business days, written response required",
+      "denial_requirements": "Written denials must be delivered or mailed within 15 calendar days"
+    },
+    "oversight_body": {
+      "name": "New Mexico Attorney General - Government Counsel & Accountability",
+      "role": "Statutory enforcement authority; informal complaint resolution",
+      "enforcement_authority": "Can file lawsuits for IPRA violations if informal resolution fails"
+    },
+    "official_resources": {
+      "primary_statute_url": null,
+      "agency_handbook_url": null,
+      "ag_complaint_url": null
+    },
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_verified": true,
+      "primary_sources": [
+        "NMSA 1978, Sections 14-2-1 to 14-2-12",
+        "new_mexico_transparency_law-v0.11.txt",
+        "New Mexico Department of Justice"
+      ],
+      "verification_notes": "All fields verified from official New Mexico statute. Variable timeline - immediately or as soon as practicable with 15 calendar day maximum. Search fees prohibited. No fee waivers. No administrative appeals. Medical records broadly exempted.",
+      "unique_characteristics": [
+        "Search fees explicitly prohibited",
+        "No fee waivers available",
+        "No administrative appeals process",
+        "Broad medical records exemption",
+        "Variable timeline standard (immediately or as soon as practicable)",
+        "Attorney General enforcement authority"
+      ]
+    }
+  },
+  "agencies": []
+}

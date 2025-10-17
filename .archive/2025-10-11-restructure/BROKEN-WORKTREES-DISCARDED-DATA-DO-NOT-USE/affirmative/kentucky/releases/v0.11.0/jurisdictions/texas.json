@@ -1,0 +1,170 @@
+{
+  "jurisdiction": "Texas",
+  "transparency_law": {
+    "name": "Texas Public Information Act",
+    "statute_citation": "Tex. Gov't Code § 552",
+    "effective_date": "1973-01-01",
+    "last_amended": "2023-09-01",
+
+    "response_requirements": {
+      "initial_response_time": 10,
+      "initial_response_unit": "business_days",
+      "initial_response_description": "Must respond 'promptly'; if information cannot be produced within 10 business days, must notify requestor",
+      "final_response_time": null,
+      "final_response_unit": "variable",
+      "final_response_notes": "No fixed deadline; agency must provide information 'promptly' and during normal business hours",
+      "extension_allowed": true,
+      "extension_max_days": null,
+      "extension_notes": "If information cannot be produced within 10 business days, agency must notify requestor and provide information about when it can be produced",
+      "ag_review_timeline": "10 business days to request Attorney General opinion if withholding records; AG has 45 working days to decide (may extend additional 10 days)",
+      "ag_review_cite": "Tex. Gov't Code § 552.301"
+    },
+
+    "fee_structure": {
+      "search_fee": "Not allowed for labor or overhead",
+      "search_fee_notes": "Governmental body may not charge for employee time spent searching, compiling, or producing records",
+      "search_fee_statutory_cite": "Tex. Gov't Code § 552.261",
+      "copy_fee_per_page": null,
+      "copy_fee_notes": "Reasonable charges for copies and processing; varies by agency and format",
+      "copy_fee_cite": "Tex. Gov't Code § 552.261",
+      "electronic_fee": "Actual cost of medium (CD, USB, etc.) plus reasonable charges",
+      "fee_waiver_available": true,
+      "fee_waiver_criteria": "If release of information primarily benefits the general public",
+      "fee_waiver_cite": "Tex. Gov't Code § 552.267"
+    },
+
+    "exemptions": [
+      {
+        "category": "Confidential by Law",
+        "citation": "Tex. Gov't Code § 552.101",
+        "description": "Information considered confidential by constitutional, statutory, or judicial decision",
+        "scope": "broad"
+      },
+      {
+        "category": "Personal Privacy",
+        "citation": "Tex. Gov't Code § 552.102",
+        "description": "Personnel file information where disclosure would constitute clearly unwarranted invasion of personal privacy",
+        "scope": "moderate"
+      },
+      {
+        "category": "Litigation",
+        "citation": "Tex. Gov't Code § 552.103",
+        "description": "Information relating to litigation to which state or political subdivision is or may be a party",
+        "scope": "moderate"
+      },
+      {
+        "category": "Competitive Bidding",
+        "citation": "Tex. Gov't Code § 552.104",
+        "description": "Information that would harm governmental body's interests in ongoing competitive situation",
+        "scope": "narrow"
+      },
+      {
+        "category": "Law Enforcement",
+        "citation": "Tex. Gov't Code § 552.108",
+        "description": "Information dealing with detection, investigation, or prosecution of crime if disclosure would interfere with investigation or prosecution",
+        "scope": "moderate"
+      },
+      {
+        "category": "Private Communications",
+        "citation": "Tex. Gov't Code § 552.109",
+        "description": "Private correspondence or communications of elected office holder relating to matters that would constitute invasion of privacy",
+        "scope": "narrow"
+      },
+      {
+        "category": "Trade Secrets",
+        "citation": "Tex. Gov't Code § 552.110",
+        "description": "Trade secrets and confidential commercial or financial information",
+        "scope": "narrow"
+      },
+      {
+        "category": "Deliberative Process",
+        "citation": "Tex. Gov't Code § 552.111",
+        "description": "Interagency or intraagency memoranda that would not be available to party in litigation",
+        "scope": "moderate"
+      },
+      {
+        "category": "Home Address/Personal Information",
+        "citation": "Tex. Gov't Code § 552.117",
+        "description": "Home addresses, telephone numbers, emergency contacts, social security numbers of public employees and certain other officials",
+        "scope": "moderate"
+      },
+      {
+        "category": "Security Information",
+        "citation": "Tex. Gov't Code § 552.139",
+        "description": "Information related to computer network security, design, operation, or defense",
+        "scope": "narrow"
+      }
+    ],
+
+    "appeal_process": {
+      "first_level": "Texas Attorney General",
+      "first_level_deadline_days": 10,
+      "first_level_deadline_unit": "business_days",
+      "first_level_notes": "Governmental body must request Attorney General opinion within 10 business days if withholding information",
+      "first_level_cite": "Tex. Gov't Code § 552.301",
+      "second_level": "District Court",
+      "second_level_deadline_days": 45,
+      "second_level_deadline_unit": "working_days",
+      "second_level_notes": "Attorney General has 45 working days to issue decision (may extend 10 additional days); requestor may appeal AG decision to court",
+      "second_level_cite": "Tex. Gov't Code § 552.321",
+      "attorney_fees_recoverable": true,
+      "attorney_fees_cite": "Tex. Gov't Code § 552.323",
+      "attorney_fees_notes": "Court may award reasonable attorney fees and costs to substantially prevailing plaintiff"
+    },
+
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "purpose_statement_prohibited": false,
+      "purpose_notes": "Requestor identity and purpose are irrelevant to disclosure decision - equal treatment required",
+      "residency_requirement": false,
+      "request_format_notes": "Written requests required for most requests; oral requests accepted for simple requests",
+      "specific_format": "Request must identify specific records with reasonable specificity"
+    },
+
+    "agency_obligations": {
+      "records_officer_required": true,
+      "records_officer_notes": "Each governmental body must designate officer for public information",
+      "records_officer_cite": "Tex. Gov't Code § 552.201",
+      "business_hours_access": true,
+      "business_hours_cite": "Tex. Gov't Code § 552.021",
+      "electronic_submission_accepted": true,
+      "response_format_options": "Agency must provide records in requested format if available",
+      "liberal_construction": "Statute must be liberally construed in favor of granting requests",
+      "liberal_construction_cite": "Tex. Gov't Code § 552.001",
+      "third_party_notification": "Must notify third parties if proprietary information may be disclosed",
+      "training_required": true,
+      "training_cite": "Tex. Gov't Code § 552.012",
+      "training_notes": "Public officials must complete 1-2 hour training within 90 days of taking office"
+    },
+
+    "oversight_body": {
+      "name": "Office of the Texas Attorney General",
+      "role": "Issues binding opinions on withholding decisions; maintains uniformity in law interpretation",
+      "contact_info": "Public Information Division, Office of the Attorney General",
+      "oversight_url": "https://www.texasattorneygeneral.gov/open-government",
+      "advisory_committee": "Open Records Steering Committee advises AG on public information matters"
+    },
+
+    "official_resources": {
+      "primary_statute_url": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.552.htm",
+      "agency_handbook_url": "https://www.texasattorneygeneral.gov/open-government/governmental-bodies/public-information-act-overview",
+      "request_portal_url": null,
+      "ag_decisions_url": "https://www.texasattorneygeneral.gov/open-government/open-government-decisions"
+    },
+
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_url": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.552.htm",
+      "source_verified": true,
+      "primary_sources": [
+        "Texas Government Code Chapter 552",
+        "Texas Public Information Act statutory text",
+        "Texas Attorney General Public Information guidance"
+      ],
+      "verification_notes": "All fields verified from official Texas Government Code. Response deadline is 'promptly' with no fixed timeline (variable). If agency cannot produce within 10 business days, must notify requestor. For withholding decisions, agency has 10 business days to request AG opinion; AG has 45 working days to decide. Unique AG review process makes Texas distinct from most other states. Liberal construction required favoring disclosure. Training required for public officials. Fee waivers available if release primarily benefits general public."
+    }
+  },
+  "agencies": []
+}

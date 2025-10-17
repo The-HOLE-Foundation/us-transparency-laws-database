@@ -1,0 +1,178 @@
+{
+  "jurisdiction": "Alabama",
+  "transparency_law": {
+    "name": "Alabama Open Records Act",
+    "statute_citation": "Ala. Code §§ 36-12-40 through 36-12-46",
+    "effective_date": "1980-01-01",
+    "last_amended": "2024-10-01",
+
+    "response_requirements": {
+      "initial_response_time": 3,
+      "initial_response_unit": "business_days",
+      "initial_response_description": "Executive agencies must acknowledge receipt within 3 business days",
+      "final_response_time": 15,
+      "final_response_unit": "business_days",
+      "final_response_notes": "15 business days for standard requests (under 8 hours work); 45 business days for time-intensive requests",
+      "extension_allowed": true,
+      "extension_max_days": 180,
+      "extension_notes": "For time-intensive requests, agencies may extend to maximum of 180 business days or 270 calendar days, whichever is shorter",
+      "standard_request_definition": "Request estimated to take less than 8 hours (1 standard working day)",
+      "time_intensive_request_definition": "Request requiring more than 8 hours to complete",
+      "time_intensive_deadline": 45,
+      "time_intensive_deadline_unit": "business_days"
+    },
+
+    "fee_structure": {
+      "search_fee": "Reasonable fee allowed, not exceeding actual cost of reproduction",
+      "search_fee_notes": "Reasonable fee may be charged by the responsible officer/employee",
+      "search_fee_statutory_cite": "Ala. Code § 36-12-43",
+      "copy_fee_per_page": 1.00,
+      "copy_fee_notes": "Not to exceed $1.00 per page for first 50 pages; $0.50 per page for pages over 50",
+      "copy_fee_cite": "Ala. Code § 36-12-43",
+      "electronic_fee": "Actual cost of producing copies, but not more than fee for hard copies",
+      "electronic_fee_cite": "Ala. Code § 36-12-43",
+      "fee_waiver_available": false,
+      "fee_waiver_notes": "No statutory fee waiver provision",
+      "prepayment_required_for_time_intensive": true,
+      "prepayment_notes": "Executive agencies must require payment before providing substantive response to time-intensive requests; may require payment for standard requests"
+    },
+
+    "exemptions": [
+      {
+        "category": "Personal Privacy",
+        "citation": "Ala. Code § 36-12-40",
+        "description": "Records whose disclosure would constitute an unwarranted invasion of personal privacy",
+        "scope": "moderate"
+      },
+      {
+        "category": "Medical Records",
+        "citation": "Ala. Code § 36-12-40",
+        "description": "Medical records, patient records, records containing medical information, or records of Medicaid recipients",
+        "scope": "narrow"
+      },
+      {
+        "category": "Attorney-Client Privilege",
+        "citation": "Ala. Code § 36-12-40",
+        "description": "Records protected by attorney-client privilege",
+        "scope": "narrow"
+      },
+      {
+        "category": "Physician-Patient Privilege",
+        "citation": "Ala. Code § 36-12-40",
+        "description": "Records protected by physician-patient privilege",
+        "scope": "narrow"
+      },
+      {
+        "category": "Library Records",
+        "citation": "Statutory exemption",
+        "description": "Registration, circulation records, and information concerning use of public, school, or university libraries",
+        "scope": "narrow"
+      },
+      {
+        "category": "Security",
+        "citation": "Statutory exemption",
+        "description": "Security plans, procedures, assessments, measures, or systems",
+        "scope": "narrow"
+      },
+      {
+        "category": "Financial Records",
+        "citation": "Statutory exemption",
+        "description": "Banking records, tax and financial statements",
+        "scope": "moderate"
+      },
+      {
+        "category": "Juvenile Records",
+        "citation": "Statutory exemption",
+        "description": "Juvenile court records",
+        "scope": "narrow"
+      },
+      {
+        "category": "Personnel Records",
+        "citation": "Statutory exemption",
+        "description": "Personnel records",
+        "scope": "moderate"
+      },
+      {
+        "category": "Law Enforcement",
+        "citation": "Statutory exemption",
+        "description": "Probation reports",
+        "scope": "narrow"
+      }
+    ],
+
+    "appeal_process": {
+      "first_level": "No administrative appeal process",
+      "first_level_deadline_days": null,
+      "first_level_cite": null,
+      "first_level_notes": "Alabama does not provide for administrative appeals",
+      "second_level": "Circuit Court lawsuit",
+      "second_level_deadline_days": 730,
+      "second_level_deadline_notes": "Must file within 2 years of denial date",
+      "second_level_cite": "Alabama Open Records Act",
+      "attorney_fees_recoverable": null,
+      "attorney_fees_cite": null,
+      "attorney_fees_notes": "Statute does not specify attorney fee recovery provisions",
+      "judicial_remedy": "Court order requiring agency to produce records"
+    },
+
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "purpose_notes": "No requirement to state purpose",
+      "residency_requirement": true,
+      "residency_notes": "Only Alabama residents (including Alabama-based companies and organizations) may request records",
+      "request_format_notes": "No specific form required",
+      "specific_format": "Request must identify the public writing sought",
+      "constitutional_right": null
+    },
+
+    "agency_obligations": {
+      "records_officer_required": false,
+      "records_officer_title": "Public officer or employee responsible for records",
+      "business_hours_access": true,
+      "business_hours_notes": "Records available for inspection during business hours",
+      "electronic_submission_accepted": true,
+      "electronic_submission_notes": "Many agencies accept electronic requests",
+      "response_format_options": "Inspection or copies as requested",
+      "good_faith_effort_required": true,
+      "reasonable_efforts_to_locate": true,
+      "redaction_requirements": "Must redact exempt portions; provide non-exempt portions",
+      "record_maintenance": "Public officers must correctly make and accurately keep all books, documents, files, papers, and letters providing full detailed information"
+    },
+
+    "oversight_body": {
+      "name": null,
+      "role": null,
+      "contact_info": null,
+      "oversight_url": null,
+      "notes": "No central oversight body; enforcement through court system"
+    },
+
+    "official_resources": {
+      "primary_statute_url": "https://law.justia.com/codes/alabama/2021/title-36/chapter-12/article-3/",
+      "agency_handbook_url": null,
+      "request_portal_url": null,
+      "request_portal_notes": "Individual agencies may maintain their own request systems"
+    },
+
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_url": "https://law.justia.com/codes/alabama/",
+      "source_verified": true,
+      "primary_sources": [
+        "Alabama Code Sections 36-12-40 through 36-12-46",
+        "ALABAMA_transparency_law-v0.11.txt"
+      ],
+      "verification_notes": "All fields verified from statutory text. Alabama has specific response timelines for executive agencies only (3 days acknowledgment, 15 days for standard requests, 45 days for time-intensive). Residency requirement limits access to Alabama residents. No administrative appeal; only judicial remedy available within 2 years.",
+      "unique_characteristics": [
+        "Residency requirement (Alabama residents only)",
+        "Two-tier response system (standard vs time-intensive requests)",
+        "No administrative appeal process",
+        "Specific response timelines apply only to executive agencies",
+        "Prepayment required for time-intensive requests"
+      ]
+    }
+  },
+  "agencies": []
+}

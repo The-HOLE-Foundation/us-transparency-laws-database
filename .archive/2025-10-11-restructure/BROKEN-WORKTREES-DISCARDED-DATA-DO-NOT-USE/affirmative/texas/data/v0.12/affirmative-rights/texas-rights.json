@@ -1,0 +1,156 @@
+{
+  "jurisdiction_slug": "texas",
+  "jurisdiction_name": "Texas",
+  "data_model_version": "v0.12",
+  "last_updated": "2025-10-09",
+  "rights": [
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Search Fee Prohibition",
+      "statute_citation": "Tex. Gov't Code § 552.261",
+      "description": "Governmental body may not charge for employee time spent searching, compiling, or producing records - no labor or overhead charges allowed",
+      "conditions": "Absolute prohibition on search/labor fees",
+      "applies_to": "All requesters",
+      "implementation_notes": "UNIQUE: Texas completely prohibits labor charges - one of strongest fee protections in nation",
+      "request_tips": "If charged for employee time/search/labor, cite absolute prohibition - only copy costs and media allowed"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Fee Waiver",
+      "statute_citation": "Tex. Gov't Code § 552.267",
+      "description": "Fee waiver required if release of information primarily benefits the general public",
+      "conditions": "Must demonstrate public benefit",
+      "applies_to": "All requesters",
+      "implementation_notes": "Journalists, watchdog groups, and civic requests often qualify",
+      "request_tips": "Request fee waiver if information serves public interest - cite public benefit standard"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Prompt Response Standard",
+      "statute_citation": "Tex. Gov't Code § 552.221",
+      "description": "Must respond 'promptly' and provide information during normal business hours; if cannot produce within 10 business days, must notify requestor",
+      "conditions": "Prompt response required; 10-day notification if delayed",
+      "applies_to": "All governmental bodies",
+      "implementation_notes": "'Promptly' generally interpreted as within days for simple requests",
+      "request_tips": "Cite 'promptly' requirement if agency delays; demand notification if exceeding 10 days"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Attorney General Review Process",
+      "statute_citation": "Tex. Gov't Code § 552.301",
+      "description": "Agency must request Attorney General opinion within 10 business days if withholding records; AG has 45 working days to decide",
+      "conditions": "Required for all withholding decisions",
+      "applies_to": "All governmental bodies and requesters",
+      "implementation_notes": "UNIQUE: Centralized AG review ensures statewide consistency",
+      "request_tips": "If denied, agency must request AG opinion within 10 days; AG decision binding on agency"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Attorney Fees",
+      "statute_citation": "Tex. Gov't Code § 552.323",
+      "description": "Court may award reasonable attorney fees and costs to substantially prevailing plaintiff",
+      "conditions": "Must substantially prevail in litigation",
+      "applies_to": "Requesters who successfully litigate",
+      "implementation_notes": "Creates disincentive for improper denials",
+      "request_tips": "If wrongfully denied, attorney fees recoverable if you substantially prevail"
+    },
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "Identity and Purpose Irrelevant",
+      "statute_citation": "Tex. Gov't Code § 552.222",
+      "description": "Requestor identity and purpose are irrelevant to disclosure decision - equal treatment required",
+      "conditions": "Agencies cannot discriminate based on identity or purpose",
+      "applies_to": "All requesters",
+      "implementation_notes": "Strong anti-discrimination protection",
+      "request_tips": "You do not need to identify yourself or state purpose; agency cannot treat you differently"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Records Officer",
+      "statute_citation": "Tex. Gov't Code § 552.201",
+      "description": "Each governmental body must designate officer for public information",
+      "conditions": "Mandatory for all governmental bodies",
+      "applies_to": "All governmental bodies and requesters",
+      "implementation_notes": "Centralized contact ensures accountability",
+      "request_tips": "Direct requests to designated public information officer"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Mandatory Training",
+      "statute_citation": "Tex. Gov't Code § 552.012",
+      "description": "Public officials must complete 1-2 hour training within 90 days of taking office",
+      "conditions": "Required for elected and appointed officials",
+      "applies_to": "All public officials",
+      "implementation_notes": "Ensures officials understand transparency obligations",
+      "request_tips": "If official appears ignorant of PIA, cite mandatory training requirement"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Electronic Submission",
+      "statute_citation": "Tex. Gov't Code § 552.234",
+      "description": "Electronic submission of requests accepted",
+      "conditions": "Agencies must accept electronic requests",
+      "applies_to": "All requesters",
+      "implementation_notes": "Email and online submissions valid",
+      "request_tips": "Submit electronically for documentation and faster delivery"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Format Preference",
+      "statute_citation": "Tex. Gov't Code § 552.228",
+      "description": "Agency must provide records in requested format if available",
+      "conditions": "If agency has records in requested format",
+      "applies_to": "All requesters",
+      "implementation_notes": "Requester can specify electronic vs. paper format",
+      "request_tips": "Specify desired format; agency must accommodate if records exist in that format"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Liberal Construction",
+      "statute_citation": "Tex. Gov't Code § 552.001",
+      "description": "Statute must be liberally construed in favor of granting requests",
+      "conditions": "Applies to all statutory interpretation",
+      "applies_to": "All requests and exemptions",
+      "implementation_notes": "Creates strong presumption in favor of disclosure",
+      "request_tips": "Cite liberal construction mandate when challenging restrictive interpretations"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Third Party Notification",
+      "statute_citation": "Tex. Gov't Code § 552.305",
+      "description": "Must notify third parties if proprietary information may be disclosed",
+      "conditions": "Required for proprietary/trade secret claims",
+      "applies_to": "Third parties claiming confidentiality",
+      "implementation_notes": "Protects proprietary interests while enabling challenge",
+      "request_tips": "If third party claims confidentiality, they must submit evidence to AG"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Business Hours Access",
+      "statute_citation": "Tex. Gov't Code § 552.021",
+      "description": "Public information must be available during normal business hours",
+      "conditions": "During regular business hours",
+      "applies_to": "All requesters",
+      "implementation_notes": "Right to inspect in person",
+      "request_tips": "Request in-person inspection during business hours to review before requesting copies"
+    },
+    {
+      "category": "Proactive Disclosure",
+      "subcategory": "AG Decisions Database",
+      "statute_citation": "Tex. Gov't Code § 552.301",
+      "description": "Attorney General maintains searchable database of all open government decisions",
+      "conditions": "Publicly accessible at texasattorneygeneral.gov",
+      "applies_to": "All requesters and agencies",
+      "implementation_notes": "UNIQUE: Comprehensive precedent database for statewide consistency",
+      "request_tips": "Search AG decisions database for precedent on similar requests"
+    }
+  ],
+  "validation_metadata": {
+    "source_file": "data/states/texas/jurisdiction-data.json",
+    "extraction_date": "2025-10-09",
+    "verified_by": "Claude Code AI Assistant",
+    "primary_statute": "Tex. Gov't Code § 552",
+    "confidence_level": "high",
+    "notes": "All rights extracted from verified jurisdiction-data.json file. Texas has exceptionally strong requester protections including: (1) absolute prohibition on labor/search fees (unique), (2) fee waiver for public benefit, (3) centralized AG review process (unique), (4) identity/purpose irrelevant, (5) mandatory official training, (6) liberal construction mandate, and (7) AG decisions database."
+  }
+}

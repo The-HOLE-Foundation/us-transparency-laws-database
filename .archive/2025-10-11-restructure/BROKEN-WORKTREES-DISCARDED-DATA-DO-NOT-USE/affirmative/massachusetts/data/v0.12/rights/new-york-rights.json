@@ -1,0 +1,216 @@
+{
+  "jurisdiction": {
+    "name": "New York",
+    "slug": "new_york",
+    "type": "state",
+    "transparency_law": "New York Freedom of Information Law (FOIL)"
+  },
+  "validation_metadata": {
+    "parsed_date": "2025-10-07",
+    "source_url": "https://www.nysenate.gov/legislation/laws/POS",
+    "verified_by": "Claude Code AI Assistant",
+    "verification_method": "Direct review of New York Public Officers Law Article 6"
+  },
+  "rights_of_access": [
+    {
+      "category": "Proactive Disclosure",
+      "subcategory": "Right to Know",
+      "statute_citation": "N.Y. Pub. Off. Law § 84",
+      "description": "All government records are presumed open to public inspection and copying unless specifically exempted. The burden is on the agency to prove records should be withheld, not on the requester to prove they should be disclosed.",
+      "conditions": "Records must be agency records; exemptions must be properly justified by agency",
+      "applies_to": "All records of state and local government agencies in New York",
+      "implementation_notes": "NY FOIL establishes a strong presumption of access, placing the burden of proof for withholding on agencies",
+      "request_tips": "Cite: 'Under N.Y. Pub. Off. Law § 84, all records are presumed open unless you can demonstrate a specific exemption applies.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "5-Day Response Deadline",
+      "statute_citation": "N.Y. Pub. Off. Law § 89(3)(a)",
+      "description": "Agencies must respond to FOIL requests within 5 business days of receipt, either granting access, denying access with written explanation, or acknowledging receipt and providing a reasonable date for response.",
+      "conditions": "5 business days from receipt of request; if more time needed, must provide reasonable estimated completion date",
+      "applies_to": "All FOIL requests to New York agencies",
+      "implementation_notes": "One of the fastest initial response requirements in the nation - 5 business days, not 10 or 20",
+      "request_tips": "Assert: 'N.Y. Pub. Off. Law § 89(3)(a) requires you to respond within 5 business days of receiving this request.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Reasonable Time for Complex Requests",
+      "statute_citation": "N.Y. Pub. Off. Law § 89(3)(a)",
+      "description": "If records cannot be provided within 5 business days, agency must acknowledge receipt and provide a reasonable date when records will be available. What constitutes 'reasonable' depends on request complexity, volume, and agency resources.",
+      "conditions": "Agency must provide specific estimated date; cannot provide indefinite or unreasonable delays; requester can challenge unreasonable estimates",
+      "applies_to": "Complex or voluminous FOIL requests requiring more than 5 business days",
+      "implementation_notes": "Courts have found delays of several months unreasonable except for extraordinarily voluminous requests",
+      "request_tips": "If delayed beyond initial date: 'Please explain what makes [X weeks/months] a reasonable timeframe under N.Y. Pub. Off. Law § 89(3)(a) for this request.'"
+    },
+    {
+      "category": "Fee Waiver",
+      "subcategory": "25-Cent Per Page Maximum",
+      "statute_citation": "N.Y. Pub. Off. Law § 87(1)(b)(iii)",
+      "description": "For paper copies, agencies may charge no more than 25 cents per page. This statutory cap prevents excessive duplication fees and ensures affordable access to public records.",
+      "conditions": "Maximum 25 cents per page for photocopies; cannot charge for search time or review; actual postage may be charged if mailing requested",
+      "applies_to": "Paper copies of public records",
+      "implementation_notes": "This is a hard statutory maximum - agencies cannot exceed 25 cents even for color copies or special handling",
+      "request_tips": "Challenge excessive fees: 'N.Y. Pub. Off. Law § 87(1)(b)(iii) limits copying fees to 25 cents per page maximum.'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Electronic Format Upon Request",
+      "statute_citation": "N.Y. Pub. Off. Law § 87(2)",
+      "description": "If records are maintained electronically, agencies must provide them in electronic format when requested. Requesters may specify their preferred electronic format (PDF, Excel, etc.).",
+      "conditions": "Records must exist in electronic format; agency must be able to provide in requested format or explain why not feasible",
+      "applies_to": "Records maintained in electronic form",
+      "implementation_notes": "Electronic delivery often reduces or eliminates per-page fees and expedites delivery",
+      "request_tips": "Request: 'Please provide these records in electronic format as required by N.Y. Pub. Off. Law § 87(2), preferably via email as [PDF/Excel/etc.].'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Minimal Electronic Delivery Fees",
+      "statute_citation": "N.Y. Pub. Off. Law § 87(1)(b)(iii)",
+      "description": "When providing records electronically, agencies may only charge actual costs of electronic storage media or transmission. Email delivery should be free or minimal cost.",
+      "conditions": "Can only charge actual costs of media (CD, USB) or electronic transmission; cannot charge per-page fees for electronic records",
+      "applies_to": "Electronic copies of public records",
+      "implementation_notes": "Email delivery has essentially no cost to agency and should be provided without fee",
+      "request_tips": "For electronic delivery: 'Email delivery under N.Y. Pub. Off. Law § 87(1)(b)(iii) has no actual cost. Please waive any fees for electronic transmission.'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Free Record Inspection",
+      "statute_citation": "N.Y. Pub. Off. Law § 87(1)",
+      "description": "All persons have the right to inspect public records without charge during regular business hours. Inspection fees cannot be charged - only copying fees if copies are requested.",
+      "conditions": "Must be during regular business hours; agency may supervise inspection; no fees for inspection",
+      "applies_to": "All public records available for access",
+      "implementation_notes": "Inspection is always free - requesters can review records without cost, only paying if copies are needed",
+      "request_tips": "State: 'I request to inspect these records in person without charge under N.Y. Pub. Off. Law § 87(1).'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Segregability Requirement",
+      "statute_citation": "N.Y. Pub. Off. Law § 89(3)",
+      "description": "If portions of a record may be withheld, agencies must disclose any reasonably segregable portions after redacting exempt material. Partial exemptions do not justify withholding entire documents.",
+      "conditions": "Agency must identify what is redacted and legal basis; redaction must be reasonable and necessary",
+      "applies_to": "Records containing both exempt and non-exempt information",
+      "implementation_notes": "Agencies must perform redaction analysis and cannot take the easy route of withholding entire documents",
+      "request_tips": "Demand: 'Even if portions are exempt, N.Y. Pub. Off. Law § 89(3) requires you to disclose all reasonably segregable portions.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "10-Day Appeal Deadline",
+      "statute_citation": "N.Y. Pub. Off. Law § 89(4)(a)",
+      "description": "If a request is denied, requesters have the right to appeal the denial to the agency head or appeals officer within 30 days. The agency must respond to the appeal within 10 business days.",
+      "conditions": "Appeal must be filed within 30 days of denial; agency must respond within 10 business days; must be in writing",
+      "applies_to": "All denials of FOIL requests",
+      "implementation_notes": "The appeal creates opportunity for administrative review before going to court",
+      "request_tips": "For denials: 'I hereby appeal this denial under N.Y. Pub. Off. Law § 89(4)(a). Please respond within 10 business days.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Attorney Fee Recovery",
+      "statute_citation": "N.Y. Pub. Off. Law § 89(4)(c)",
+      "description": "In successful court challenges to wrongful denials, requesters may recover reasonable attorney fees and litigation costs. This provision incentivizes agency compliance and makes litigation financially feasible.",
+      "conditions": "Must substantially prevail in litigation; fees awarded at court's discretion; typically awarded when agency denial was not substantially justified",
+      "applies_to": "Successful FOIL litigation",
+      "implementation_notes": "Courts regularly award attorney fees in FOIL cases where agencies improperly withheld records",
+      "request_tips": "When considering litigation: 'N.Y. Pub. Off. Law § 89(4)(c) provides for attorney fee recovery if I prevail in court.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Written Denial Requirement",
+      "statute_citation": "N.Y. Pub. Off. Law § 89(3)",
+      "description": "All denials must be in writing, explain the reasons for denial, cite specific statutory exemptions, and inform requester of appeal rights. Generic or verbal denials are insufficient.",
+      "conditions": "Must be written; must cite specific exemption; must explain application to requested records; must advise of appeal rights",
+      "applies_to": "All full or partial denials of FOIL requests",
+      "implementation_notes": "This ensures transparency in denials and provides foundation for meaningful appeal",
+      "request_tips": "If improperly denied: 'N.Y. Pub. Off. Law § 89(3) requires written denial with specific exemption citations. Please provide proper written denial or grant access.'"
+    },
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "No Identity or Purpose Requirement",
+      "statute_citation": "N.Y. Pub. Off. Law § 89(3)",
+      "description": "Agencies cannot require requesters to provide identification, explain purpose, or justify their request. FOIL access is a right of any person regardless of identity or intended use of records.",
+      "conditions": "Agency may request contact information for response purposes only; cannot condition access on ID or purpose",
+      "applies_to": "All FOIL requests",
+      "implementation_notes": "This protects requester privacy and ensures equal access regardless of who is asking or why",
+      "request_tips": "If asked for ID or purpose: 'N.Y. Pub. Off. Law § 89(3) does not require me to identify myself or state my purpose.'"
+    },
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "No Residency Requirement",
+      "statute_citation": "N.Y. Pub. Off. Law § 84",
+      "description": "FOIL grants access to 'any person' without regard to residency, citizenship, or connection to New York. Out-of-state and international requesters have equal rights.",
+      "conditions": "None - right extends to all persons regardless of residency or citizenship",
+      "applies_to": "All FOIL requests to New York agencies",
+      "implementation_notes": "Courts have consistently rejected agency attempts to limit access based on residency",
+      "request_tips": "If residency questioned: 'N.Y. Pub. Off. Law § 84 grants access to any person without residency restrictions.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "FOIL Guidance and Training",
+      "statute_citation": "N.Y. Pub. Off. Law § 89(3)(a)",
+      "description": "The Committee on Open Government provides guidance, training, and advisory opinions to agencies and requesters. Requesters can seek assistance and agencies must consider committee guidance.",
+      "conditions": "Committee opinions are advisory but carry significant weight; agencies that ignore clear guidance face greater litigation risk",
+      "applies_to": "All FOIL matters where guidance exists",
+      "implementation_notes": "Committee on Open Government issues helpful advisory opinions on common FOIL issues",
+      "request_tips": "Reference guidance: 'The Committee on Open Government has opined that [cite advisory opinion] supports my right to these records.'"
+    },
+    {
+      "category": "Proactive Disclosure",
+      "subcategory": "Existing Records Presumption",
+      "statute_citation": "N.Y. Pub. Off. Law § 86(3)",
+      "description": "Records that existed at time of request must be provided even if subsequently deleted or destroyed (if retrievable). Agencies cannot evade FOIL by destroying records after request received.",
+      "conditions": "Records must have existed at time of request; must still be retrievable from backups or other sources",
+      "applies_to": "Records in existence when FOIL request received",
+      "implementation_notes": "This prevents agencies from using deletion to avoid disclosure after receiving requests",
+      "request_tips": "If records deleted post-request: 'These records existed when I made my request on [date]. N.Y. Pub. Off. Law § 86(3) requires their production even if subsequently deleted.'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Database Queries and Reports",
+      "statute_citation": "N.Y. Pub. Off. Law § 86(3)",
+      "description": "Requesters can request existing database queries and reports, or ask agencies to run queries on existing databases when the query is reasonably specific and the database contains public records.",
+      "conditions": "Database must exist; query must be reasonably specific; cannot require creation of new database or program; agency may charge actual costs",
+      "applies_to": "Queries of existing electronic databases containing public records",
+      "implementation_notes": "Courts have found agencies must accommodate reasonable database queries even if not previously run",
+      "request_tips": "Request: 'Please query your [database name] for records meeting the following criteria: [specify]. N.Y. Pub. Off. Law § 86(3) includes computer-generated records.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Constructive Denial",
+      "statute_citation": "N.Y. Pub. Off. Law § 89(4)(a)",
+      "description": "Failure to respond within statutory timeframes or unreasonable delay may be treated as constructive denial, allowing requester to appeal or seek judicial relief.",
+      "conditions": "Statutory deadline passed or delay is unreasonable under circumstances; requester must have properly submitted request",
+      "applies_to": "Requests where agency failed to timely respond",
+      "implementation_notes": "Requesters need not wait indefinitely - unreasonable delay triggers appeal rights",
+      "request_tips": "After unreasonable delay: 'Your failure to respond constitutes constructive denial under N.Y. Pub. Off. Law § 89(4)(a). I request immediate response or will file appeal.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Format Choice",
+      "statute_citation": "N.Y. Pub. Off. Law § 87(2)",
+      "description": "When requesting electronic records, requesters may specify the format they prefer (Excel, CSV, PDF, native database format, etc.). Agencies should accommodate format requests when reasonably feasible.",
+      "conditions": "Format request must be reasonable; agency must be able to produce in requested format without undue burden",
+      "applies_to": "Electronic records requests",
+      "implementation_notes": "Requesting data in structured formats (CSV, Excel) rather than PDF often facilitates analysis",
+      "request_tips": "Specify: 'Please provide these records in [Excel/CSV/PDF/native format] under N.Y. Pub. Off. Law § 87(2) to facilitate analysis.'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Supervised Access",
+      "statute_citation": "N.Y. Pub. Off. Law § 87(1)",
+      "description": "During record inspection, agencies may supervise to protect record integrity, but cannot unreasonably restrict access or impose conditions that defeat the purpose of inspection.",
+      "conditions": "Supervision must be reasonable; cannot prevent note-taking, photographing (where permitted), or effective review",
+      "applies_to": "In-person record inspection",
+      "implementation_notes": "Agencies can protect records but cannot make inspection so onerous that it becomes meaningless",
+      "request_tips": "If overly restrictive: 'While supervision is permitted under N.Y. Pub. Off. Law § 87(1), your restrictions unreasonably interfere with my right to meaningful inspection.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "No Creation Requirement Exception",
+      "statute_citation": "N.Y. Pub. Off. Law § 89(3)",
+      "description": "While agencies need not create new records, they must produce records that exist in any form, including compilations of existing data that require minimal processing.",
+      "conditions": "Must be existing records; agency not required to create entirely new documents or perform substantial analysis",
+      "applies_to": "Existing records in any format",
+      "implementation_notes": "The line between existing records and new creation is often contested - simple compilations or exports generally required",
+      "request_tips": "Clarify: 'I request existing records, including compilations of existing data. N.Y. Pub. Off. Law § 89(3) does not exempt existing records merely because they require minimal processing.'"
+    }
+  ]
+}

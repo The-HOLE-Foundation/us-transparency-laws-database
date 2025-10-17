@@ -1,0 +1,18 @@
+{
+  "jurisdiction": {
+    "slug": "district-of-columbia",
+    "name": "District of Columbia"
+  },
+  "rights_of_access": [],
+  "validation_metadata": {
+    "parsed_date": null,
+    "source_url": "https://code.dccouncil.gov/us/dc/council/code/titles/2/chapters/5/subchapters/II/",
+    "source_verified": false,
+    "primary_sources": [
+      "https://code.dccouncil.gov/us/dc/council/code/sections/2-532",
+      "https://code.dccouncil.gov/us/dc/council/code/sections/2-534",
+      "https://code.dccouncil.gov/us/dc/council/code/sections/2-537"
+    ],
+    "verification_notes": "TEMPLATE - Awaiting affirmative rights extraction for District of Columbia FOIA"
+  }
+}

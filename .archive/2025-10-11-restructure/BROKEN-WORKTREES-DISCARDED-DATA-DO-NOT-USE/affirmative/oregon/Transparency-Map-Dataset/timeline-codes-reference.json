@@ -1,0 +1,111 @@
+{
+  "timeline_codes": {
+    "-1": {
+      "code": -1,
+      "name": "REASONABLE_TIME",
+      "display_text": "Reasonable time",
+      "display_short": "Varies",
+      "description": "No fixed statutory deadline. Agency must respond within a reasonable time based on circumstances.",
+      "common_factors": [
+        "Request complexity",
+        "Volume of records",
+        "Agency staffing and resources",
+        "Need for legal review",
+        "Technical requirements"
+      ],
+      "typical_range": "3-30 days",
+      "jurisdictions_using": [
+        "Alabama",
+        "Delaware",
+        "Maine",
+        "Minnesota",
+        "Mississippi",
+        "New Hampshire",
+        "South Dakota",
+        "Vermont",
+        "Wyoming"
+      ],
+      "map_display_note": "Show tooltip: 'No fixed deadline - varies by request'"
+    },
+    "-2": {
+      "code": -2,
+      "name": "PROMPTLY",
+      "display_text": "Promptly",
+      "display_short": "Prompt",
+      "description": "Agency must respond 'promptly' but without a specific day count mandated by statute.",
+      "common_factors": [
+        "Nature of records",
+        "Urgency of request",
+        "Practical accessibility",
+        "Agency workload"
+      ],
+      "typical_range": "5-10 days",
+      "jurisdictions_using": [
+        "Arizona",
+        "Florida",
+        "Georgia"
+      ],
+      "map_display_note": "Show tooltip: 'Prompt response required - typically within days'"
+    },
+    "-3": {
+      "code": -3,
+      "name": "IMMEDIATE",
+      "display_text": "Immediate",
+      "display_short": "Now",
+      "description": "Certain records must be made available immediately without delay.",
+      "common_factors": [
+        "Record type (arrest logs, booking photos, etc.)",
+        "Public safety information",
+        "Emergency circumstances",
+        "Real-time records"
+      ],
+      "typical_range": "Same day",
+      "applies_to": "Specific record types only (not all requests)",
+      "map_display_note": "Show tooltip: 'Certain records available immediately'"
+    },
+    "-4": {
+      "code": -4,
+      "name": "VARIABLE_BY_TYPE",
+      "display_text": "Varies by request type",
+      "display_short": "Varies",
+      "description": "Response timeline varies based on request type, complexity, or track assignment.",
+      "common_factors": [
+        "Request track classification (simple, complex, expedited)",
+        "Record volume",
+        "Consultation requirements",
+        "Technical complexity"
+      ],
+      "typical_range": "3-30 days depending on track",
+      "jurisdictions_using": [
+        "Federal (20-day base, tracks vary)"
+      ],
+      "map_display_note": "Show tooltip: 'Timeline varies by request type'"
+    }
+  },
+  "positive_codes_interpretation": {
+    "description": "Positive integers represent fixed statutory deadlines",
+    "unit": "days (business or calendar as specified in jurisdiction data)",
+    "examples": {
+      "3": "3 days deadline",
+      "5": "5 days deadline",
+      "10": "10 days deadline",
+      "15": "15 days deadline",
+      "20": "20 days deadline"
+    }
+  },
+  "usage_notes": {
+    "map_interface": "Display response timeline with appropriate formatting based on code",
+    "tooltip_behavior": "Negative codes should trigger informational tooltips",
+    "color_coding": "Consider color-coding fixed vs flexible deadlines on map",
+    "user_education": "Link to detailed explanation for negative codes"
+  },
+  "metadata": {
+    "version": "v0.11",
+    "created_date": "2025-09-29",
+    "author": "Claude Code AI Assistant",
+    "last_updated": "2025-09-29",
+    "total_jurisdictions": 51,
+    "fixed_deadline_jurisdictions": 42,
+    "flexible_deadline_jurisdictions": 9
+  }
+}

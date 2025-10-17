@@ -1,0 +1,58 @@
+{
+  "jurisdiction_code": "CA",
+  "jurisdiction_name": "California",
+  "statute_abbreviation": "CPRA",
+  "statute_full_name": "California Public Records Act",
+  "core_principle": "The people have the right of access to information concerning the conduct of the people's business. All records are presumptively public unless specifically exempt.",
+  "recent_changes_2024_2025": "AB 370 (July 2025): Added cyberattack provisions to unusual circumstances. AB 1785 (July 2025): Enhanced privacy protections for elected officials' personal information.",
+  "response_timeline_days": 10,
+  "response_timeline_type": "calendar",
+  "response_timeline_description": "10 calendar days from receipt of request",
+  "response_timeline_extension": {
+    "allowed": true,
+    "max_days": 14,
+    "conditions": "Unusual circumstances including cyberattacks (new 2025)"
+  },
+  "public_record_categories": [
+    "Government calendars and correspondence logs",
+    "Arrest logs and booking photos (immediate)",
+    "Emergency response records (after incident)",
+    "Police reports (after investigation complete)",
+    "Contract records and agency communications"
+  ],
+  "fee_structure": {
+    "standard_copying": "$0.10-0.25 per page (direct cost of duplication only)",
+    "search_fees": "Not allowed for standard requests",
+    "electronic_records": "Cost of copying to electronic medium",
+    "programming_fees": "Allowed for specialized database queries",
+    "minimum_threshold": "$25 (no fees if under this amount)",
+    "fee_waiver_available": true,
+    "waiver_criteria": ["Indigent requesters", "Public interest", "News media (discretionary)"]
+  },
+  "appeal_process": {
+    "type": "Court (Petition for Mandamus)",
+    "venue": "Superior Court in county where agency located",
+    "timeline_days": null,
+    "timeline_description": "No specific deadline but prompt filing advised",
+    "attorney_fees_available": true,
+    "burden_of_proof": "Agency must justify withholding"
+  },
+  "key_features_tags": [
+    "2025 Amendments",
+    "Attorney Fees Available",
+    "Fee Waivers",
+    "Immediate Access (certain records)",
+    "Constitutional Right"
+  ],
+  "official_resources": {
+    "statute_url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=GOV&division=10.&title=&part=&chapter=&article=",
+    "ag_page_url": "https://oag.ca.gov/government/cpra",
+    "request_portal_url": null
+  },
+  "metadata": {
+    "version": "v0.11",
+    "verification_date": "2025-09-26",
+    "last_statutory_update": "2025-07-01",
+    "process_map_source": "California-CPRA-v0.11.md"
+  }
+}

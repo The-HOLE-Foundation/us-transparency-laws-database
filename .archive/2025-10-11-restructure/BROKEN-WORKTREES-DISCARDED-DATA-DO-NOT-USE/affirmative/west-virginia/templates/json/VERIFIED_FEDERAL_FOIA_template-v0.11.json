@@ -1,0 +1,23 @@
+{
+  "jurisdiction_info": {
+    "jurisdiction_code": "US",
+    "jurisdiction_name": "Federal",
+    "jurisdiction_type": "federal"
+  },
+  "statute_details": {
+    "official_name": "",
+    "statute_citation": "",
+    "chapter_section": "",
+    "effective_date": "",
+    "last_amended": ""
+  },
+  "response_requirements": {},
+  "appeal_process": {},
+  "fee_structure": {},
+  "exemptions": [],
+  "requester_requirements": {},
+  "agency_obligations": {},
+  "oversight_body": {},
+  "official_resources": {},
+  "validation_metadata": {}
+}

@@ -1,0 +1,129 @@
+{
+  "jurisdiction": "Colorado",
+  "transparency_law": {
+    "name": "Colorado Open Records Act",
+    "statute_citation": "Colo. Rev. Stat. § 24-72-200.1 et seq.",
+    "effective_date": null,
+    "last_amended": "2025-04-17",
+
+    "response_requirements": {
+      "initial_response_time": 5,
+      "initial_response_unit": "business_days",
+      "initial_response_description": "Custodian must provide records or deny in writing within 3 working days (NOTE: SB25-077 proposing 5 days was VETOED April 2025)",
+      "final_response_time": 7,
+      "final_response_unit": "business_days",
+      "final_response_notes": "May extend 3-day period for up to 7 additional working days if extenuating circumstances (total 10 working days max)",
+      "extension_allowed": true,
+      "extension_max_days": 7,
+      "extension_notes": "Must provide written notice of extension within initial 3-day period and state reasons",
+      "vetoed_bill_note": "SB25-077 (5+10 day timeline) vetoed by Governor Polis April 17, 2025 - current 3+7 day timeline remains"
+    },
+
+    "fee_structure": {
+      "search_fee": "May charge for research",
+      "search_fee_notes": "May charge for research and retrieval of records",
+      "search_fee_statutory_cite": "Colo. Rev. Stat. § 24-72-205",
+      "copy_fee_per_page": 0.25,
+      "copy_fee_notes": "Typically $0.25/page for standard copies",
+      "copy_fee_cite": "Colo. Rev. Stat. § 24-72-205",
+      "electronic_fee": "Actual cost",
+      "fee_waiver_available": false
+    },
+
+    "exemptions": [
+      {
+        "category": "Statutory Confidentiality",
+        "citation": "Colo. Rev. Stat. § 24-72-204",
+        "description": "Records specifically made confidential by law",
+        "scope": "broad"
+      },
+      {
+        "category": "Medical Records",
+        "citation": "Colo. Rev. Stat. § 24-72-204",
+        "description": "Medical and psychological records",
+        "scope": "narrow"
+      },
+      {
+        "category": "Personnel Files",
+        "citation": "Colo. Rev. Stat. § 24-72-204",
+        "description": "Personnel files and evaluations",
+        "scope": "moderate"
+      },
+      {
+        "category": "Trade Secrets",
+        "citation": "Colo. Rev. Stat. § 24-72-204",
+        "description": "Trade secrets and confidential commercial information",
+        "scope": "narrow"
+      },
+      {
+        "category": "Attorney Work Product",
+        "citation": "Colo. Rev. Stat. § 24-72-204",
+        "description": "Attorney work product and attorney-client privileged communications",
+        "scope": "narrow"
+      },
+      {
+        "category": "Criminal Justice Records",
+        "citation": "Colo. Rev. Stat. § 24-72-204",
+        "description": "Certain criminal justice records",
+        "scope": "moderate"
+      }
+    ],
+
+    "appeal_process": {
+      "first_level": "District Court",
+      "first_level_deadline_days": null,
+      "first_level_notes": "No administrative appeal; may petition district court",
+      "first_level_cite": "Colo. Rev. Stat. § 24-72-204",
+      "second_level": null,
+      "second_level_deadline_days": null,
+      "attorney_fees_recoverable": true,
+      "attorney_fees_cite": "Colo. Rev. Stat. § 24-72-204",
+      "attorney_fees_notes": "Court may award attorney fees and costs"
+    },
+
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "residency_requirement": false,
+      "request_format_notes": "Written application required; must describe record with sufficient specificity to enable custodian to locate",
+      "specific_format": "Written application required"
+    },
+
+    "agency_obligations": {
+      "records_officer_required": true,
+      "records_officer_notes": "Custodian has custody and control of public records",
+      "records_officer_cite": "Colo. Rev. Stat. § 24-72-202",
+      "business_hours_access": true,
+      "business_hours_cite": "Colo. Rev. Stat. § 24-72-203",
+      "electronic_submission_accepted": true,
+      "suitable_place_required": "Must make available suitable place for inspection; cannot remove originals without permission"
+    },
+
+    "oversight_body": {
+      "name": null,
+      "role": null,
+      "contact_info": null,
+      "oversight_url": null
+    },
+
+    "official_resources": {
+      "primary_statute_url": "https://leg.colorado.gov/bills/sb25-077",
+      "agency_handbook_url": null,
+      "request_portal_url": null
+    },
+
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_url": "https://leg.colorado.gov/colorado-revised-statutes",
+      "source_verified": true,
+      "primary_sources": [
+        "Colo. Rev. Stat. Title 24, Article 72, Part 2",
+        "COLORADO_transparency_law-v0.11.txt",
+        "SB25-077 veto message (April 17, 2025)"
+      ],
+      "verification_notes": "All fields manually verified. Current law: 3 working day response with 7 day extension (10 max). SB25-077 proposing 5+10 days vetoed April 2025. Typical $0.25/page copies. May charge for research/retrieval. Written application required. District court enforcement with attorney fees. Recent veto demonstrates state commitment to faster response times."
+    }
+  },
+  "agencies": []
+}

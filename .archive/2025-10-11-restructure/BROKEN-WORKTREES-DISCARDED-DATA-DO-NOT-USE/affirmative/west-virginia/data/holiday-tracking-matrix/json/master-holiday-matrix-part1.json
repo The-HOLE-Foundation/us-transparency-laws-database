@@ -1,0 +1,245 @@
+{
+  "metadata": {
+    "created_date": "2025-10-03",
+    "total_jurisdictions": 51,
+    "completed_jurisdictions": [
+      "Arizona",
+      "California",
+      "Federal",
+      "Florida",
+      "Georgia",
+      "Illinois",
+      "Michigan",
+      "New York",
+      "North Carolina",
+      "Ohio",
+      "Pennsylvania",
+      "Texas"
+    ],
+    "pending_jurisdictions": [
+      "Alabama", "Alaska", "Arkansas", "Colorado", "Connecticut", "Delaware",
+      "District of Columbia", "Hawaii", "Idaho", "Indiana", "Iowa", "Kansas",
+      "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Minnesota",
+      "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire",
+      "New Jersey", "New Mexico", "North Dakota", "Oklahoma", "Oregon",
+      "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Utah",
+      "Vermont", "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming"
+    ],
+    "completed_count": 12,
+    "pending_count": 39,
+    "data_years": [2025, 2026],
+    "notes": "This matrix consolidates all state and federal holiday data for FOIA deadline calculation. Weekend observation rules vary by jurisdiction and are critical for accurate deadline calculation."
+  },
+  "weekend_observation_rules": {
+    "if_saturday_observe_friday_if_sunday_observe_monday": {
+      "description": "Standard federal rule: Saturday holidays observed on Friday, Sunday holidays observed on Monday",
+      "jurisdictions": ["Federal", "Arizona", "Florida", "Illinois", "Michigan", "New York", "North Carolina", "Ohio", "Pennsylvania"]
+    },
+    "if_sunday_observe_monday": {
+      "description": "California rule: Only Sunday holidays are shifted to Monday; Saturday holidays are NOT shifted",
+      "jurisdictions": ["California"]
+    },
+    "no_shift_observed_on_actual_date": {
+      "description": "Texas rule: Holidays observed on actual date regardless of day of week",
+      "jurisdictions": ["Texas"]
+    },
+    "custom_see_notes": {
+      "description": "Custom rules - refer to jurisdiction-specific notes",
+      "jurisdictions": ["Georgia"]
+    }
+  },
+  "holiday_comparison": {
+    "New Year's Day": {
+      "federal": {"2025": "2025-01-01", "2026": "2026-01-01"},
+      "arizona": {"2025": "2025-01-01"},
+      "california": {"2025": "2025-01-01", "2026": "2026-01-01"},
+      "florida": {"2025": "2025-01-01"},
+      "georgia": {"2025": "2025-01-01"},
+      "illinois": {"2025": "2025-01-01", "2026": "2026-01-01"},
+      "michigan": {"2025": "2025-01-01"},
+      "new_york": {"2025": "2025-01-01", "2026": "2026-01-01"},
+      "north_carolina": {"2025": "2025-01-01", "2026": "2026-01-01"},
+      "ohio": {"2025": "2025-01-01", "2026": "2026-01-01"},
+      "pennsylvania": {"2025": "2025-01-01"},
+      "texas": {"2025": "2025-01-01", "2026": "2026-01-01"}
+    },
+    "MLK Jr. Day": {
+      "federal": {"2025": "2025-01-20", "2026": "2026-01-19"},
+      "arizona": {"2025": "2025-01-20"},
+      "california": {"2025": "2025-01-20", "2026": "2026-01-19"},
+      "florida": {"2025": "2025-01-20"},
+      "georgia": {"2025": "2025-01-20"},
+      "illinois": {"2025": "2025-01-20", "2026": "2026-01-19"},
+      "michigan": {"2025": "2025-01-20"},
+      "new_york": {"2025": "2025-01-20", "2026": "2026-01-19"},
+      "north_carolina": {"2025": "2025-01-20", "2026": "2026-01-19"},
+      "ohio": {"2025": "2025-01-20", "2026": "2026-01-19"},
+      "pennsylvania": {"2025": "2025-01-20"},
+      "texas": {"2025": "2025-01-20", "2026": "2026-01-19"}
+    },
+    "Lincoln's Birthday": {
+      "illinois": {"2025": "2025-02-12", "2026": "2026-02-12"},
+      "new_york": {"2025": "2025-02-12", "2026": "2026-02-12"}
+    },
+    "Presidents' Day": {
+      "federal": {"2025": "2025-02-17", "2026": "2026-02-16"},
+      "arizona": {"2025": "2025-02-17"},
+      "california": {"2025": "2025-02-17", "2026": "2026-02-16"},
+      "georgia": {"2025": "2025-02-17"},
+      "illinois": {"2025": "2025-02-17", "2026": "2026-02-16"},
+      "michigan": {"2025": "2025-02-17"},
+      "new_york": {"2025": "2025-02-17", "2026": "2026-02-16"},
+      "ohio": {"2025": "2025-02-17", "2026": "2026-02-16"},
+      "pennsylvania": {"2025": "2025-02-17"},
+      "texas": {"2025": "2025-02-17", "2026": "2026-02-16"}
+    },
+    "Texas Independence Day": {
+      "texas": {"2026": "2026-03-02"}
+    },
+    "Cesar Chavez Day": {
+      "california": {"2025": "2025-03-31", "2026": "2026-03-31"}
+    },
+    "Good Friday": {
+      "georgia": {"2025": "2025-04-18"},
+      "north_carolina": {"2025": "2025-04-18", "2026": "2026-04-03"}
+    },
+    "San Jacinto Day": {
+      "texas": {"2025": "2025-04-21", "2026": "2026-04-21"}
+    },
+    "Memorial Day": {
+      "federal": {"2025": "2025-05-26", "2026": "2026-05-25"},
+      "arizona": {"2025": "2025-05-26"},
+      "california": {"2025": "2025-05-26", "2026": "2026-05-25"},
+      "florida": {"2025": "2025-05-26"},
+      "georgia": {"2025": "2025-05-26"},
+      "illinois": {"2025": "2025-05-26", "2026": "2026-05-25"},
+      "michigan": {"2025": "2025-05-26"},
+      "new_york": {"2025": "2025-05-26", "2026": "2026-05-25"},
+      "north_carolina": {"2025": "2025-05-26", "2026": "2026-05-25"},
+      "ohio": {"2025": "2025-05-26", "2026": "2026-05-25"},
+      "pennsylvania": {"2025": "2025-05-26"},
+      "texas": {"2025": "2025-05-26", "2026": "2026-05-25"}
+    },
+    "Juneteenth": {
+      "federal": {"2025": "2025-06-19", "2026": "2026-06-19"},
+      "georgia": {"2025": "2025-06-19"},
+      "illinois": {"2025": "2025-06-19", "2026": "2026-06-19"},
+      "michigan": {"2025": "2025-06-19"},
+      "new_york": {"2025": "2025-06-19", "2026": "2026-06-19"},
+      "ohio": {"2025": "2025-06-19", "2026": "2026-06-19"},
+      "pennsylvania": {"2025": "2025-06-19"},
+      "texas": {"2025": "2025-06-19", "2026": "2026-06-19"}
+    },
+    "Independence Day": {
+      "federal": {"2025": "2025-07-04", "2026": "2026-07-03"},
+      "arizona": {"2025": "2025-07-04"},
+      "california": {"2025": "2025-07-04", "2026": "2026-07-03"},
+      "florida": {"2025": "2025-07-04"},
+      "georgia": {"2025": "2025-07-04"},
+      "illinois": {"2025": "2025-07-04", "2026": "2026-07-03"},
+      "michigan": {"2025": "2025-07-04"},
+      "new_york": {"2025": "2025-07-04", "2026": "2026-07-04"},
+      "north_carolina": {"2025": "2025-07-04", "2026": "2026-07-03"},
+      "ohio": {"2025": "2025-07-04", "2026": "2026-07-03"},
+      "pennsylvania": {"2025": "2025-07-04"},
+      "texas": {"2025": "2025-07-04"}
+    },
+    "Lyndon Baines Johnson Day": {
+      "texas": {"2025": "2025-08-27", "2026": "2026-08-27"}
+    },
+    "Labor Day": {
+      "federal": {"2025": "2025-09-01", "2026": "2026-09-07"},
+      "arizona": {"2025": "2025-09-01"},
+      "california": {"2025": "2025-09-01", "2026": "2026-09-07"},
+      "florida": {"2025": "2025-09-01"},
+      "georgia": {"2025": "2025-09-01"},
+      "illinois": {"2025": "2025-09-01", "2026": "2026-09-07"},
+      "michigan": {"2025": "2025-09-01"},
+      "new_york": {"2025": "2025-09-01", "2026": "2026-09-07"},
+      "north_carolina": {"2025": "2025-09-01", "2026": "2026-09-07"},
+      "ohio": {"2025": "2025-09-01", "2026": "2026-09-07"},
+      "pennsylvania": {"2025": "2025-09-01"},
+      "texas": {"2025": "2025-09-01", "2026": "2026-09-07"}
+    },
+    "Columbus Day": {
+      "federal": {"2025": "2025-10-13", "2026": "2026-10-12"},
+      "arizona": {"2025": "2025-10-13"},
+      "georgia": {"2025": "2025-10-13"},
+      "illinois": {"2025": "2025-10-13", "2026": "2026-10-12"},
+      "new_york": {"2025": "2025-10-13", "2026": "2026-10-12"},
+      "ohio": {"2025": "2025-10-13", "2026": "2026-10-12"},
+      "pennsylvania": {"2025": "2025-10-13"}
+    },
+    "Election Day": {
+      "illinois": {"2026": "2026-11-03"},
+      "new_york": {"2025": "2025-11-04", "2026": "2026-11-03"}
+    },
+    "Veterans Day": {
+      "federal": {"2025": "2025-11-11", "2026": "2026-11-11"},
+      "arizona": {"2025": "2025-11-11"},
+      "california": {"2025": "2025-11-11", "2026": "2026-11-11"},
+      "florida": {"2025": "2025-11-11"},
+      "georgia": {"2025": "2025-11-11"},
+      "illinois": {"2025": "2025-11-11", "2026": "2026-11-11"},
+      "michigan": {"2025": "2025-11-11"},
+      "new_york": {"2025": "2025-11-11", "2026": "2026-11-11"},
+      "north_carolina": {"2025": "2025-11-11", "2026": "2026-11-11"},
+      "ohio": {"2025": "2025-11-11", "2026": "2026-11-11"},
+      "pennsylvania": {"2025": "2025-11-11"},
+      "texas": {"2025": "2025-11-11", "2026": "2026-11-11"}
+    },
+    "Thanksgiving Day": {
+      "federal": {"2025": "2025-11-27", "2026": "2026-11-26"},
+      "arizona": {"2025": "2025-11-27"},
+      "california": {"2025": "2025-11-27", "2026": "2026-11-26"},
+      "florida": {"2025": "2025-11-27"},
+      "georgia": {"2025": "2025-11-27"},
+      "illinois": {"2025": "2025-11-27", "2026": "2026-11-26"},
+      "michigan": {"2025": "2025-11-27"},
+      "new_york": {"2025": "2025-11-27", "2026": "2026-11-26"},
+      "north_carolina": {"2025": "2025-11-27", "2026": "2026-11-26"},
+      "ohio": {"2025": "2025-11-27", "2026": "2026-11-26"},
+      "pennsylvania": {"2025": "2025-11-27"},
+      "texas": {"2025": "2025-11-27", "2026": "2026-11-26"}
+    },
+    "Day After Thanksgiving": {
+      "california": {"2025": "2025-11-28", "2026": "2026-11-27"},
+      "florida": {"2025": "2025-11-28"},
+      "georgia": {"2025": "2025-11-28"},
+      "illinois": {"2025": "2025-11-28", "2026": "2026-11-27"},
+      "michigan": {"2025": "2025-11-28"},
+      "north_carolina": {"2025": "2025-11-28", "2026": "2026-11-27"},
+      "pennsylvania": {"2025": "2025-11-28"},
+      "texas": {"2025": "2025-11-28", "2026": "2026-11-27"}
+    },
+    "Christmas Eve": {
+      "michigan": {"2025": "2025-12-24"},
+      "north_carolina": {"2025": "2025-12-24", "2026": "2026-12-24"},
+      "texas": {"2025": "2025-12-24", "2026": "2026-12-24"}
+    },
+    "Christmas Day": {
+      "federal": {"2025": "2025-12-25", "2026": "2026-12-25"},
+      "arizona": {"2025": "2025-12-25"},
+      "california": {"2025": "2025-12-25", "2026": "2026-12-25"},
+      "florida": {"2025": "2025-12-25"},
+      "georgia": {"2025": "2025-12-25"},
+      "illinois": {"2025": "2025-12-25", "2026": "2026-12-25"},
+      "michigan": {"2025": "2025-12-25"},
+      "new_york": {"2025": "2025-12-25", "2026": "2026-12-25"},
+      "north_carolina": {"2025": "2025-12-25", "2026": "2026-12-25"},
+      "ohio": {"2025": "2025-12-25", "2026": "2026-12-25"},
+      "pennsylvania": {"2025": "2025-12-25"},
+      "texas": {"2025": "2025-12-25", "2026": "2026-12-25"}
+    },
+    "Day after Christmas": {
+      "north_carolina": {"2025": "2025-12-26", "2026": "2026-12-28"},
+      "texas": {"2025": "2025-12-26"}
+    },
+    "New Year's Eve": {
+      "michigan": {"2025": "2025-12-31"}
+    },
+    "Inauguration Day": {
+      "federal": {"2025": "2025-01-20"}
+    }
+  }
+}

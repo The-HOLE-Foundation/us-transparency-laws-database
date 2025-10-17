@@ -1,0 +1,127 @@
+{
+  "jurisdiction": "Alaska",
+  "transparency_law": {
+    "name": "Alaska Public Records Act",
+    "statute_citation": "Alaska Stat. § 40.25.110 et seq.",
+    "effective_date": null,
+    "last_amended": null,
+
+    "response_requirements": {
+      "initial_response_time": null,
+      "initial_response_unit": "variable",
+      "initial_response_description": "Records open to inspection at reasonable times under reasonable conditions and supervision",
+      "final_response_time": null,
+      "final_response_unit": "variable",
+      "final_response_notes": "No specific statutory deadline; reasonable time standard",
+      "extension_allowed": null,
+      "extension_max_days": null
+    },
+
+    "fee_structure": {
+      "search_fee": "Reasonable fees",
+      "search_fee_notes": "May charge reasonable fees for providing copies; cannot exceed actual cost",
+      "search_fee_statutory_cite": "Alaska Stat. § 40.25.110",
+      "copy_fee_per_page": null,
+      "copy_fee_notes": "Reasonable fees; cannot exceed actual reproduction cost",
+      "copy_fee_cite": "Alaska Stat. § 40.25.110",
+      "electronic_fee": "Actual cost not to exceed agency's actual cost of providing electronic records",
+      "electronic_fee_cite": "Alaska Stat. § 40.25.115",
+      "fee_waiver_available": false
+    },
+
+    "exemptions": [
+      {
+        "category": "Medical Records",
+        "citation": "Alaska Stat. § 40.25.120(b)(1)",
+        "description": "Medical and related public health records of individuals",
+        "scope": "narrow"
+      },
+      {
+        "category": "Statutory Confidentiality",
+        "citation": "Alaska Stat. § 40.25.120(b)(2)",
+        "description": "Records required to be kept confidential by federal law or regulation or state law",
+        "scope": "broad"
+      },
+      {
+        "category": "Law Enforcement",
+        "citation": "Alaska Stat. § 40.25.120(b)(3)",
+        "description": "Records compiled for law enforcement that would interfere with proceedings, deprive fair trial, invade privacy, disclose confidential source, reveal techniques, or endanger life/safety",
+        "scope": "moderate"
+      },
+      {
+        "category": "Financial Security Information",
+        "citation": "Alaska Stat. § 40.25.120(b)(4)",
+        "description": "Confidential financial information including procedures or security for collection or processing of negotiable instruments",
+        "scope": "narrow"
+      },
+      {
+        "category": "Vital Statistics and Adoption",
+        "citation": "Alaska Stat. § 40.25.120(b)(5)",
+        "description": "Records of vital statistics and adoption proceedings per AS 18.50",
+        "scope": "narrow"
+      },
+      {
+        "category": "Trade Secrets",
+        "citation": "Alaska Stat. § 40.25.120",
+        "description": "Trade secrets and confidential commercial information",
+        "scope": "narrow"
+      }
+    ],
+
+    "appeal_process": {
+      "first_level": "Court",
+      "first_level_deadline_days": null,
+      "first_level_notes": "No administrative appeal specified; court enforcement available",
+      "first_level_cite": "Alaska Stat. § 40.25",
+      "second_level": null,
+      "second_level_deadline_days": null,
+      "attorney_fees_recoverable": true,
+      "attorney_fees_notes": "Attorney fees may be available through court action"
+    },
+
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "residency_requirement": false,
+      "request_format_notes": "Right to inspect at reasonable times under reasonable conditions",
+      "specific_format": "No specific format required"
+    },
+
+    "agency_obligations": {
+      "records_officer_required": true,
+      "records_officer_notes": "Custodian of record or designee supervises inspection",
+      "records_officer_cite": "Alaska Stat. § 40.25.120",
+      "business_hours_access": true,
+      "business_hours_cite": "Alaska Stat. § 40.25.120",
+      "electronic_submission_accepted": true,
+      "electronic_records_provision": "Must provide electronic records if they exist in electronic format, can be retrieved with reasonable effort, and doesn't violate licensing agreements",
+      "reasonable_search_required": "Must conduct reasonable search to identify responsive records"
+    },
+
+    "oversight_body": {
+      "name": null,
+      "role": null,
+      "contact_info": null,
+      "oversight_url": null
+    },
+
+    "official_resources": {
+      "primary_statute_url": "http://www.akleg.gov/basis/statutes.asp#40.25",
+      "agency_handbook_url": null,
+      "request_portal_url": null
+    },
+
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_url": "http://www.akleg.gov/basis/statutes.asp#40.25",
+      "source_verified": true,
+      "primary_sources": [
+        "Alaska Stat. Title 40, Chapter 25",
+        "ALASKA_transparency_law-v0.11.txt"
+      ],
+      "verification_notes": "All fields manually verified from official Alaska statute. Reasonable time standard with no specific deadline. Reasonable fees cannot exceed actual cost. Electronic records available if exist in format and can be retrieved with reasonable effort. 6 exemptions with specific Alaska Stat. § 40.25.120(b) subsection citations. No administrative appeal. Court enforcement."
+    }
+  },
+  "agencies": []
+}

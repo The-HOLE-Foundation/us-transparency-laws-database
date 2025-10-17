@@ -1,0 +1,97 @@
+{
+  "jurisdiction": {
+    "name": "Oklahoma",
+    "slug": "oklahoma",
+    "type": "state",
+    "transparency_law": "Oklahoma Open Records Act"
+  },
+  "validation_metadata": {
+    "parsed_date": "2025-10-10",
+    "source_url": "https://oklahoma.gov/libraries/law-legislative-reference/library-laws-and-regulations/statutes-and-rules--open-record-act.html",
+    "verified_by": "Claude Code AI Assistant",
+    "verification_method": "Direct review of 51 O.S. 24A.1 et seq.",
+    "statutory_text_file": "OKLAHOMA_transparency_law-v0.11.txt"
+  },
+  "rights_of_access": [
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Inherent Right to Know and Be Informed",
+      "statute_citation": "51 O.S. § 24A.2",
+      "description": "Oklahoma Constitution recognizes that all political power is inherent in the people. The people are vested with the inherent right to know and be fully informed about their government. This constitutional foundation ensures access to government records.",
+      "conditions": "Constitutional basis; inherent right vested in people; facilitates exercise of political power",
+      "applies_to": "All government records in Oklahoma",
+      "implementation_notes": "Unique constitutional grounding - not merely statutory right but inherent constitutional power; elevates transparency to fundamental democratic principle",
+      "request_tips": "Assert constitutional right: '51 O.S. § 24A.2 recognizes my inherent constitutional right to know and be fully informed about government. Please provide [records] under this fundamental right.'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Open Access During Business Hours",
+      "statute_citation": "51 O.S. § 24A.5",
+      "description": "All records of public bodies and public officials shall be open to any person for inspection, copying, or mechanical reproduction during regular business hours.",
+      "conditions": "Open to any person; during regular business hours; triple access method (inspect/copy/mechanically reproduce); applies unless specifically exempted",
+      "applies_to": "All public records in Oklahoma",
+      "implementation_notes": "No residency requirement; flexible access methods; business hours posting required by separate provision",
+      "request_tips": "Request access: '51 O.S. § 24A.5 opens all records to any person for inspection, copying, or mechanical reproduction during business hours. Please provide access to [records] during your posted business hours.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "No Privacy Rights Created / No Expectation of Confidentiality",
+      "statute_citation": "51 O.S. § 24A.2",
+      "description": "The Open Records Act does not create any rights of privacy. Persons who submit information to public bodies have no right to keep this information from public access nor reasonable expectation it will be kept from public access, except where specific confidential privilege exists. Burden is on party claiming privilege.",
+      "conditions": "No inherent privacy protection; submitters cannot claim confidentiality absent specific statutory privilege; burden on party claiming privilege to prove it exists",
+      "applies_to": "All information submitted to Oklahoma public bodies",
+      "implementation_notes": "Strong anti-confidentiality presumption - submitting to government presumptively makes information public; prevents third parties from blocking access",
+      "request_tips": "Counter confidentiality claims: '51 O.S. § 24A.2 provides no privacy rights or confidentiality expectations for information submitted to government absent specific privilege. Please produce [records] unless you can prove specific statutory privilege applies.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Business Hours Posting Requirement",
+      "statute_citation": "51 O.S. § 24A.6",
+      "description": "All public bodies shall post in prominent public view or announce during open public meetings the specific regular business hours during which the public body conducts business.",
+      "conditions": "Must post prominently or announce at meetings; facilitates access by informing public when records available",
+      "applies_to": "All Oklahoma public bodies",
+      "implementation_notes": "Transparency about access - public knows when to request inspection; supports planning for in-person review",
+      "request_tips": "Request hours: '51 O.S. § 24A.6 requires you to post regular business hours prominently. Please confirm your posted hours for records inspection.'"
+    },
+    {
+      "category": "Fee Waiver",
+      "subcategory": "25-Cent Per Page Cap",
+      "statute_citation": "51 O.S. § 24A.7",
+      "description": "Record copying fee may not exceed twenty-five cents ($0.25) per page for records having dimensions of eight and one-half by fourteen inches or smaller. Certified copies maximum of One Dollar ($1.00) per page.",
+      "conditions": "25¢ maximum for standard copies; $1.00 maximum for certified copies; applies to standard-sized pages",
+      "applies_to": "Copying fees in Oklahoma",
+      "implementation_notes": "Low fee caps keep costs minimal; prevents excessive fees from being access barrier",
+      "request_tips": "Cite cap: '51 O.S. § 24A.7 caps copying fees at 25¢ per page (or $1.00 for certified copies). Please ensure your fees comply with these statutory maximums.'"
+    },
+    {
+      "category": "Fee Waiver",
+      "subcategory": "No Search Fees for Public Interest Requests",
+      "statute_citation": "51 O.S. § 24A.7",
+      "description": "No search fee may be charged when the release of records is in the public interest, including but not limited to release to news media, scholars, authors and taxpayers seeking to determine whether those entrusted with government affairs are honestly, faithfully, and competently performing their duties.",
+      "conditions": "Search fees prohibited when public interest served; explicitly includes media, scholars, authors, taxpayers monitoring government performance; agencies cannot charge search fees for oversight purposes",
+      "applies_to": "Public interest requests in Oklahoma",
+      "implementation_notes": "Strong public interest protection - search fees waived for accountability purposes; encourages transparency journalism and citizen oversight; taxpayer monitoring explicitly protected",
+      "request_tips": "Assert waiver: 'This request serves the public interest as I am [news media/scholar/author/taxpayer] seeking to determine whether government officials are performing their duties competently. 51 O.S. § 24A.7 prohibits search fees for such requests.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Civil Liability for Purposeful Violations",
+      "statute_citation": "51 O.S. § 24A.17",
+      "description": "If it is found that a public official has purposely violated the provisions of the Open Records Act, such official shall be liable for damages in the amount of One Hundred Dollars ($100.00) for each violation plus court costs and reasonable attorney fees.",
+      "conditions": "Requires finding of purposeful violation; $100 per violation; plus court costs and attorney fees; applies to public officials personally",
+      "applies_to": "Purposeful violations by Oklahoma public officials",
+      "implementation_notes": "Personal liability for officials creates strong deterrent; modest damages but attorney fee provision makes enforcement viable; purposeful standard requires intentional conduct",
+      "request_tips": "Warn of liability: '51 O.S. § 24A.17 holds public officials personally liable for purposeful violations - $100 per violation plus attorney fees and costs. Please comply to avoid personal liability.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "District Court Enforcement",
+      "statute_citation": "51 O.S. § 24A.17",
+      "description": "Any person aggrieved by a violation may file suit in the district court in the county where the violation occurred to enforce the provisions of the Open Records Act.",
+      "conditions": "District court jurisdiction; venue in county of violation; available to any aggrieved person",
+      "applies_to": "Open Records Act violations in Oklahoma",
+      "implementation_notes": "Direct judicial remedy; flexible venue; enforcement mechanism supports accountability",
+      "request_tips": "Assert judicial remedy: '51 O.S. § 24A.17 grants me the right to file suit in district court to enforce the Open Records Act if you continue to violate my access rights.'"
+    }
+  ]
+}

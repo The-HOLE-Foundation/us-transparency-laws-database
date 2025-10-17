@@ -1,0 +1,222 @@
+{
+  "jurisdiction": {
+    "slug": "district-of-columbia",
+    "name": "District of Columbia"
+  },
+  "rights_of_access": [
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Right to Inspect and Copy",
+      "statute_citation": "D.C. Code § 2-532(a)",
+      "description": "Any person has a right to inspect, and at his or her discretion, to copy any public record of a public body, except as otherwise expressly provided by exemptions",
+      "conditions": "Subject to reasonable rules concerning time and place of access",
+      "applies_to": "Any person (no residency requirement)",
+      "implementation_notes": "Public bodies must issue rules after notice and comment concerning time and place of access",
+      "request_tips": "No need to state purpose or show residency. Simply request to inspect and/or copy records."
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Format Choice",
+      "statute_citation": "D.C. Code § 2-532(a-1)",
+      "description": "Public body shall provide the record in any form or format requested by the person",
+      "conditions": "Person must pay costs of reproducing the record in that form or format",
+      "applies_to": "All requesters",
+      "implementation_notes": "Agencies must provide records in requesters preferred format if readily reproducible",
+      "request_tips": "Specify your preferred format in the request (PDF, Excel, CSV, paper, etc.). Agency must comply if technically feasible."
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Electronic Search Requirement",
+      "statute_citation": "D.C. Code § 2-532(a-2)",
+      "description": "Public body shall make reasonable efforts to search for records in electronic form or format",
+      "conditions": "Except when such efforts would significantly interfere with operation of the public body's automated information system",
+      "applies_to": "All requesters",
+      "implementation_notes": "Agencies must search electronic systems unless it would significantly interfere with operations",
+      "request_tips": "Request electronic searches. Agency must justify if they refuse due to system interference."
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Contractor Records Access",
+      "statute_citation": "D.C. Code § 2-532(a-3)",
+      "description": "Records produced or collected pursuant to a contract with a private contractor to perform a public function shall be made available for inspection and copying",
+      "conditions": "Public body with programmatic responsibility for contractor must make records available",
+      "applies_to": "All requesters seeking contractor-produced records",
+      "implementation_notes": "Contractor records are treated same as if maintained by the public body itself",
+      "request_tips": "You can request records from private contractors performing public functions. Direct request to the agency with programmatic responsibility."
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Fee Waivers",
+      "statute_citation": "D.C. Code § 2-532(b)",
+      "description": "Documents may be furnished without charge or at reduced charge where public body determines that waiver or reduction is in the public interest because furnishing the information can be considered as primarily benefiting the general public",
+      "conditions": "Must demonstrate public interest benefit",
+      "applies_to": "All requesters, particularly journalists, researchers, and public interest advocates",
+      "implementation_notes": "Fee waivers discretionary based on public interest determination",
+      "request_tips": "Request fee waiver and explain how disclosure serves public interest, not just private interest."
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Limited Fee Categories",
+      "statute_citation": "D.C. Code § 2-532(b-1)",
+      "description": "Fee schedules distinguish between commercial use, educational/noncommercial scientific use, news media, and all other requests. Review costs shall not be charged except for commercial use requests.",
+      "conditions": "Different fee structures apply based on requester type and use",
+      "applies_to": "Educational institutions, news media, non-commercial requesters",
+      "implementation_notes": "Review costs (legal analysis of exemptions) cannot be charged to non-commercial requesters",
+      "request_tips": "Identify yourself as news media, educational, or non-commercial requester to avoid review charges."
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "No Advance Payment",
+      "statute_citation": "D.C. Code § 2-532(b-2)",
+      "description": "No public body shall require advance payment of any fee unless the requester has previously failed to pay fees properly charged, or the public body has determined that the fee will exceed $250",
+      "conditions": "Advance payment only if: (1) requester previously failed to pay, or (2) fee exceeds $250",
+      "applies_to": "All requesters",
+      "implementation_notes": "Agencies cannot demand upfront payment for fees under $250 from requesters in good standing",
+      "request_tips": "You cannot be required to pay in advance unless you previously failed to pay or the estimated fee exceeds $250."
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "15-Day Response Deadline",
+      "statute_citation": "D.C. Code § 2-532(c)",
+      "description": "Public body shall make a public record accessible for inspection and copying within 15 business days after a person requests the record, or shall notify the person of its determination not to disclose",
+      "conditions": "15 business days exclude Saturdays, Sundays, and legal public holidays. Body-worn camera recordings: 25 business days.",
+      "applies_to": "All requesters",
+      "implementation_notes": "Failure to respond within deadline is deemed denial, allowing immediate appeal",
+      "request_tips": "Track response deadline from date request received. If no response within 15 business days, you can immediately appeal."
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Extension Limitations",
+      "statute_citation": "D.C. Code § 2-532(d)",
+      "description": "Time limit may be extended up to 10 business days for unusual circumstances: (1) searching/collecting from separate facilities, (2) voluminous records, (3) consultation with another public body",
+      "conditions": "Extensions only for enumerated unusual circumstances. Body-worn camera: additional 15 days if redaction vendor unavailable.",
+      "applies_to": "All requesters",
+      "implementation_notes": "Agency must notify you of extension and cite specific reason from statute",
+      "request_tips": "Extensions limited to specific circumstances. Agency must explain which circumstance applies."
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Deemed Denial",
+      "statute_citation": "D.C. Code § 2-532(e)",
+      "description": "Failure to respond to a request within time limits shall be deemed a denial of the request",
+      "conditions": "Applies after expiration of initial deadline plus any valid extension",
+      "applies_to": "All requesters",
+      "implementation_notes": "No response = automatic denial. Requester may proceed directly to administrative appeal",
+      "request_tips": "If agency doesn't respond within deadline, treat as denial and file immediate administrative appeal."
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Segregable Portions",
+      "statute_citation": "D.C. Code § 2-534(b)",
+      "description": "Any reasonably segregable portion of a public record shall be provided after deletion of exempt portions",
+      "conditions": "Extent of deletion shall be indicated unless that indication would harm protected interest",
+      "applies_to": "All requesters",
+      "implementation_notes": "Agencies cannot withhold entire document if only part is exempt. Must redact and release.",
+      "request_tips": "If agency withholds entire document, challenge and demand segregable portions be released with redactions."
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Discretionary Disclosure",
+      "statute_citation": "D.C. Code § 2-534(d)",
+      "description": "Nothing in exemptions section authorizes public body to deny access when, in the public body's discretion, the public interest in disclosure outweighs considerations underlying the exemption",
+      "conditions": "Agency retains discretion to release even exempt records when public interest favors disclosure",
+      "applies_to": "All requesters",
+      "implementation_notes": "Exemptions are discretionary, not mandatory. Agencies can release if public interest outweighs harm.",
+      "request_tips": "Even if exemption applies, argue that public interest in disclosure outweighs the exemption."
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Liberal Construction",
+      "statute_citation": "D.C. Code § 2-538",
+      "description": "Provisions shall be construed liberally in favor of disclosure. In case of doubt, a record shall be disclosed unless an exemption clearly applies",
+      "conditions": "Applies to interpretation of entire FOIA statute",
+      "applies_to": "All requesters",
+      "implementation_notes": "Ambiguity or doubt resolved in favor of disclosure, not withholding",
+      "request_tips": "Cite this provision when agency claims ambiguous exemption. Doubt favors disclosure."
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Direct Judicial Review for Council Records",
+      "statute_citation": "D.C. Code § 2-537(a-1)",
+      "description": "Person denied access to records in possession of the Council may institute proceedings for injunctive or declaratory relief in Superior Court without first petitioning the Mayor",
+      "conditions": "Applies only to Council records",
+      "applies_to": "Requesters seeking Council records",
+      "implementation_notes": "Skip administrative appeal for Council records - go straight to court",
+      "request_tips": "For Council records denials, you can bypass Mayor's administrative appeal and go directly to Superior Court."
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Direct Judicial Review for Attorney General Records",
+      "statute_citation": "D.C. Code § 2-537(a-2)",
+      "description": "Person denied access to records in possession of the Office of the Attorney General may institute proceedings for injunctive or declaratory relief in Superior Court without first petitioning the Mayor",
+      "conditions": "Applies only to Office of Attorney General records",
+      "applies_to": "Requesters seeking OAG records",
+      "implementation_notes": "Skip administrative appeal for OAG records - go straight to court",
+      "request_tips": "For Attorney General records denials, bypass Mayor's administrative appeal and go directly to Superior Court."
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Administrative Appeal (10 Days)",
+      "statute_citation": "D.C. Code § 2-537(a)",
+      "description": "Mayor shall make written determination on appeal petition within 10 business days (excluding Saturdays, Sundays, and legal public holidays) after receiving petition",
+      "conditions": "Applies to most agencies (not Council or OAG). Failure to respond in 10 days allows judicial review.",
+      "applies_to": "Requesters denied access to agency records",
+      "implementation_notes": "Quick administrative review. If Mayor doesn't respond in 10 days, proceed to court.",
+      "request_tips": "File administrative appeal with Mayor within reasonable time. If no response in 10 business days, go to court."
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Burden of Proof on Agency",
+      "statute_citation": "D.C. Code § 2-537(b)",
+      "description": "In any proceedings, the burden shall be on the public body to sustain its action. Court shall determine matter de novo and may examine records in camera.",
+      "conditions": "Applies in all judicial proceedings under FOIA",
+      "applies_to": "All requesters in litigation",
+      "implementation_notes": "Agency must prove exemption applies. You don't have to prove records should be disclosed.",
+      "request_tips": "In court, agency has burden to justify withholding. Judge reviews records privately (in camera) if needed."
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Attorney Fees",
+      "statute_citation": "D.C. Code § 2-537(c)",
+      "description": "If court determines public body improperly withheld records, court may award reasonable attorney fees and other litigation costs to person who instituted proceedings if that person has substantially prevailed",
+      "conditions": "Must substantially prevail in litigation",
+      "applies_to": "Prevailing requesters in litigation",
+      "implementation_notes": "Fee-shifting provision encourages enforcement. Covers attorney fees and other reasonable costs.",
+      "request_tips": "If you win in court (even partially), request attorney fees and litigation costs."
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Criminal Penalties for Arbitrary Withholding",
+      "statute_citation": "D.C. Code § 2-537(d)",
+      "description": "Arbitrary or capricious withholding of public records by a public official is a misdemeanor punishable by fine of not more than $100 for each violation",
+      "conditions": "Withholding must be arbitrary or capricious",
+      "applies_to": "Enforcement mechanism available to all requesters",
+      "implementation_notes": "Prosecution brought by Attorney General in Superior Court",
+      "request_tips": "Report arbitrary withholding to DC Attorney General for potential criminal prosecution."
+    },
+    {
+      "category": "Proactive Disclosure",
+      "subcategory": "Record Indexes Required",
+      "statute_citation": "D.C. Code § 2-536",
+      "description": "Public bodies shall maintain and make available current indexes providing identifying information for public records",
+      "conditions": "Applies to all public bodies",
+      "applies_to": "All persons seeking to identify records",
+      "implementation_notes": "Indexes must be current and accessible to help identify relevant records",
+      "request_tips": "Request agency's record index to identify specific records before filing FOIA request."
+    }
+  ],
+  "validation_metadata": {
+    "parsed_date": "2025-10-16",
+    "source_url": "https://code.dccouncil.gov/us/dc/council/code/titles/2/chapters/5/subchapters/II/",
+    "source_verified": true,
+    "primary_sources": [
+      "https://code.dccouncil.gov/us/dc/council/code/sections/2-531",
+      "https://code.dccouncil.gov/us/dc/council/code/sections/2-532",
+      "https://code.dccouncil.gov/us/dc/council/code/sections/2-534",
+      "https://code.dccouncil.gov/us/dc/council/code/sections/2-536",
+      "https://code.dccouncil.gov/us/dc/council/code/sections/2-537",
+      "https://code.dccouncil.gov/us/dc/council/code/sections/2-538"
+    ],
+    "verification_notes": "Extracted from full statutory text file (23.5 KB) verified from official D.C. Code at code.dccouncil.gov. Includes 2024 amendments through D.C. Law 25-230 (December 10, 2024). 20 affirmative rights documented across 6 categories. All rights verified against official statute text."
+  }
+}

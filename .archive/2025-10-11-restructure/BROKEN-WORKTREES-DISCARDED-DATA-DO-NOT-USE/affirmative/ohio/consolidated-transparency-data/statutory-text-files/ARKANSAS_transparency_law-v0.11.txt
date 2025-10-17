@@ -1,0 +1,175 @@
+ARKANSAS FREEDOM OF INFORMATION ACT
+Arkansas Code Annotated Title 25, Chapter 19, Sections 25-19-101 through 25-19-109
+
+===================================================
+
+A.C.A. § 25-19-103. POLICY
+
+(a) It is vital in a democratic society that public business be performed in an open and public manner so that the electors shall be advised of the performance of public officials and of the decisions that are reached in public activity and in making public policy.
+
+(b) Toward this end, this chapter is adopted, making it possible for the electors and taxpayers to better evaluate the performance of public officials and employees and the efficiency of public agencies, and to reduce the possibility of fraud and corruption in government.
+
+===================================================
+
+A.C.A. § 25-19-105. EXAMINATION AND COPYING OF PUBLIC RECORDS
+
+(a)(1) Except as otherwise specifically provided by law, all public records shall be open to inspection and copying by any citizen of the State of Arkansas during the regular business hours of the custodian of the records.
+
+(2) A citizen may make a request to the custodian to inspect, copy, or receive copies of public records. The request may be made in person, by telephone, by mail, by facsimile transmission, by electronic mail, or by other electronic means provided by the custodian.
+
+(b)(1) If a public record is in active use or storage and therefore not available at the time a citizen asks to examine it, the custodian shall certify this fact in writing to the applicant and set a date and hour within three (3) working days at which time the record will be available for the exercise of the right given by this chapter.
+
+(2) The requirements of this subsection do not affect the obligation of a custodian to immediately provide to the requestor any responsive records not in active use or storage.
+
+(c) If the person to whom the request is directed is not the custodian of the records, the person shall so notify the requester and identify the custodian, if known to or readily ascertainable by the person.
+
+(d) The request shall be sufficiently specific to enable the custodian to locate the records with reasonable effort.
+
+(e)(1) If it is necessary to separate exempt from nonexemept information in order to permit a citizen to inspect, copy, including without limitation copying through image capture, including still and moving photography and video and digital recording, or obtain copies of public records, the custodian shall bear the cost of the separation.
+
+(2)(A) Except as provided in subdivision (e)(2)(B) of this section, the custodian may charge a reasonable fee for providing copies of public records.
+
+(B) If the total fees charged by a custodian for copies of public records requested by a citizen exceed twenty-five dollars ($25.00), the custodian may request that the citizen pay in advance for the copies.
+
+(f) A custodian may require reasonable advance notice of not more than twenty-four (24) hours for the inspection of public records.
+
+(g) The custodian or the requestor may request that a third party in interest review the public records to determine if inspection is consistent with this chapter.
+
+===================================================
+
+A.C.A. § 25-19-105.1. PERSONNEL AND EVALUATION RECORDS
+
+(a) As used in this section:
+(1) "Evaluation record" means a record that evaluates or assesses a public employee's or appointee's performance, conduct, or character.
+(2) "Personnel record" means a record that contains information concerning a person who is or was:
+(A) A public employee;
+(B) An appointee; or
+(C) An applicant for a position as a public employee or appointee.
+
+(b) Except as provided in this section, a personnel record or evaluation record is not a public record subject to disclosure under this chapter.
+
+(c)(1) A person may make a written request to inspect, copy, or receive copies of his or her own personnel records or evaluation records.
+
+(2) If a custodian denies a request made under subdivision (c)(1) of this section, either the custodian, the requester, or the subject of the records may immediately seek an opinion from the Attorney General, who, within three (3) working days of receipt of the request, shall issue an opinion stating whether the decision is consistent with this chapter.
+
+===================================================
+
+A.C.A. § 25-19-105.2. HOT CHECK FEES
+
+(a) Hot check fees charged to vendors by financial institutions on behalf of the State of Arkansas or any political subdivision of the State of Arkansas are public records subject to this chapter.
+
+(b) The aggregate amount of hot check fees paid by the State of Arkansas or any political subdivision of the State of Arkansas on a monthly and annual basis are public records subject to this chapter.
+
+===================================================
+
+A.C.A. § 25-19-106. MEETINGS TO BE OPEN TO PUBLIC
+
+(a) Except as provided in subsection (b) of this section, all meetings of a quorum of any governing body of any public agency, board, commission, or political subdivision of the state, city, county, or municipal corporation, supported wholly or in part by public funds or expending public funds, at which public business is discussed or at which action is taken on public business, are declared to be public meetings open to the public at all times, and no resolution, rule, regulation, ordinance, or formal action shall be considered binding unless taken or made at such open meeting.
+
+(b) The following types of meetings are not required to be open to the public:
+(1) Meetings the purpose of which is to discuss employment, appointment, promotion, demotion, disciplining, or resignation of any public officer or employee.
+(2) Meetings for the purpose of discussing the qualifications, competence, performance, character, or physical or mental health of any public officer, employee, staff member, individual contractor, or student.
+
+===================================================
+
+A.C.A. § 25-19-107. VIOLATION - PENALTY
+
+Any person who purposely violates this chapter commits a Class C misdemeanor and shall be subject to a fine not to exceed five hundred dollars ($500).
+
+===================================================
+
+A.C.A. § 25-19-109. ENFORCEMENT
+
+(a) Any citizen denied access to public records or public meetings may seek enforcement of this chapter in the circuit court for the county in which the public records are located or where the public meeting occurred or was to occur.
+
+(b) The burden of proof that an exemption to this chapter permits the denial of access shall be on the custodian of the public record or the governing body.
+
+(c) If the court finds that the custodian or governing body acted in bad faith in denying access to public records or a public meeting, the court may assess against the responsible custodian or governing body the costs, reasonable attorney's fees, and other reasonable expenses incurred by any person seeking disclosure.
+
+(d) If the court finds that a person acted in bad faith in seeking disclosure of public records or access to a public meeting, the court may assess against the person the costs, reasonable attorney's fees, and other reasonable expenses incurred by the custodian or governing body.
+
+===================================================
+
+EXEMPTIONS FROM DISCLOSURE (SELECTED)
+
+Arkansas Code contains numerous specific exemptions to disclosure, including:
+
+- Income tax records
+- Medical records and adoption records
+- Student academic records
+- Historical and archaeological site files maintained by Arkansas Historic Preservation Program
+- Grand jury minutes
+- Unpublished drafts of judicial opinions
+- Ongoing criminal investigations by law enforcement
+- Working papers and correspondence of Governor, legislators, judges, and Attorney General
+- Personnel and evaluation records (with exceptions)
+- Competitive advantage information
+- Identities of undercover law enforcement officers
+- Records of library users
+- Certain financial records that could affect competitive position
+
+===================================================
+
+APPEAL AND ENFORCEMENT PROCESS
+
+**No Administrative Appeal Required:**
+Arkansas does not require administrative appeals before filing suit in circuit court. Requesters may proceed directly to court if requests are denied.
+
+**Special Personnel Records Process:**
+For personnel and evaluation records, either the custodian, requester, or subject may seek immediate Attorney General opinion within 3 working days.
+
+**Circuit Court Action:**
+- File in circuit court where records are located or meeting occurred
+- Burden of proof for exemption is on custodian/governing body
+- Court may award attorney fees if bad faith is found (either side)
+- Criminal penalties: Class C misdemeanor, up to $500 fine
+
+===================================================
+
+KEY DEADLINES AND REQUIREMENTS
+
+**Response Times:**
+- Immediate access during business hours (if records available)
+- If records in active use/storage: Must be available within 3 working days
+- Advanced notice: Up to 24 hours may be required for inspection
+- Attorney General opinion on personnel records: 3 working days
+
+**Fees:**
+- Reasonable fees for copies
+- Custodian bears cost of separating exempt from non-exempt information
+- Pre-payment may be required if fees exceed $25
+
+**Citizen Requirements:**
+- Must be Arkansas citizen
+- Request must be sufficiently specific to locate records
+- May request in person, phone, mail, fax, email, or other electronic means
+
+===================================================
+
+OPEN MEETINGS PROVISIONS
+
+**General Rule:**
+All meetings of a quorum of governing bodies must be open when public business is discussed or action taken.
+
+**Exceptions:**
+- Employment/personnel matters
+- Discussions of individual qualifications, performance, character, or health
+
+**Violations:**
+Actions taken in closed meetings that should be open are not binding.
+
+===================================================
+
+SOURCE NOTES
+
+- Arkansas Code Annotated Title 25, Chapter 19, Sections 25-19-101 through 25-19-109
+- Arkansas Attorney General FOIA Handbook (19th Edition)
+- Arkansas Department of Public Safety FOIA guidance
+- Research conducted September 5, 2025
+- Sources: Arkansas state legal databases, Attorney General materials, RCFP Arkansas Guide, Ballotpedia, and official state resources
+
+===================================================
+
+HISTORICAL NOTE
+
+The Arkansas Freedom of Information Act was signed into law by Governor Winthrop Rockefeller on February 14, 1967, as Act 93 of 1967. It is widely regarded as one of the strongest open government laws in the United States and serves as a model for other states.

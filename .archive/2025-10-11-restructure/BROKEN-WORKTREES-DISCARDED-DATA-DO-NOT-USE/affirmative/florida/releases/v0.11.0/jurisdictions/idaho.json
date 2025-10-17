@@ -1,0 +1,129 @@
+{
+  "jurisdiction": "Idaho",
+  "transparency_law": {
+    "name": "Idaho Public Records Act",
+    "statute_citation": "Idaho Code § 74-101 et seq.",
+    "effective_date": "1990-01-01",
+    "last_amended": "2015-07-01",
+
+    "response_requirements": {
+      "initial_response_time": 3,
+      "initial_response_unit": "working_days",
+      "initial_response_description": "Idaho residents: 3 working days to grant or deny request; if longer needed, notify in writing and provide within 10 working days",
+      "final_response_time": 10,
+      "final_response_unit": "working_days",
+      "final_response_notes": "Idaho residents: max 10 working days if additional time needed. Non-residents: up to 35 calendar days",
+      "extension_allowed": true,
+      "extension_max_days": 10,
+      "extension_notes": "Idaho residents: 7 additional working days after initial 3 if needed. Non-residents: up to 35 calendar days total",
+      "non_resident_timeline": "Up to 35 calendar days for non-residents"
+    },
+
+    "fee_structure": {
+      "search_fee": "May charge for labor",
+      "search_fee_notes": "Cannot exceed actual labor and copying costs; based on lowest-paid staff capable of task",
+      "search_fee_statutory_cite": "Idaho Code § 74-102",
+      "copy_fee_per_page": null,
+      "copy_fee_notes": "Actual copying costs",
+      "copy_fee_cite": "Idaho Code § 74-102",
+      "electronic_fee": "Actual costs",
+      "fee_waiver_available": true,
+      "fee_waiver_criteria": "May waive if request contributes significantly to public understanding of government operations or activities",
+      "fee_waiver_cite": "Idaho Code § 74-102"
+    },
+
+    "exemptions": [
+      {
+        "category": "Statutory Exemptions",
+        "citation": "Idaho Code § 74-101",
+        "description": "Records specifically exempted by statute",
+        "scope": "broad"
+      },
+      {
+        "category": "Personal Privacy",
+        "citation": "Idaho Code § 74-101",
+        "description": "Records where disclosure would invade personal privacy",
+        "scope": "moderate"
+      },
+      {
+        "category": "Law Enforcement",
+        "citation": "Idaho Code § 74-101",
+        "description": "Law enforcement investigative records",
+        "scope": "moderate"
+      },
+      {
+        "category": "Trade Secrets",
+        "citation": "Idaho Code § 74-101",
+        "description": "Trade secrets and confidential commercial information",
+        "scope": "narrow"
+      },
+      {
+        "category": "Attorney-Client Privilege",
+        "citation": "Idaho Code § 74-101",
+        "description": "Attorney-client privileged communications",
+        "scope": "narrow"
+      }
+    ],
+
+    "appeal_process": {
+      "first_level": "District Court",
+      "first_level_deadline_days": null,
+      "first_level_notes": "No administrative appeal; direct court enforcement",
+      "first_level_cite": "Idaho Code § 74-115",
+      "second_level": null,
+      "second_level_deadline_days": null,
+      "attorney_fees_recoverable": true,
+      "attorney_fees_cite": "Idaho Code § 74-115",
+      "attorney_fees_notes": "Court may award attorney fees and costs"
+    },
+
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "purpose_statement_prohibited": true,
+      "purpose_notes": "No need to state purpose for request",
+      "residency_requirement": false,
+      "residency_affects_timeline": true,
+      "residency_notes": "Idaho residents: 3-10 working days. Non-residents: up to 35 calendar days",
+      "request_format_notes": "Written request required to designated custodian; must clearly indicate it's a public records request",
+      "specific_format": "Written request to custodian"
+    },
+
+    "agency_obligations": {
+      "records_officer_required": true,
+      "records_officer_notes": "Designated custodian for public records",
+      "records_officer_cite": "Idaho Code § 74-102",
+      "business_hours_access": true,
+      "business_hours_cite": "Idaho Code § 74-101",
+      "electronic_submission_accepted": true,
+      "presumption_of_openness": "All public records presumed open unless specifically exempted by statute",
+      "reorganization_note": "2015 reorganization consolidated transparency laws under Title 74"
+    },
+
+    "oversight_body": {
+      "name": null,
+      "role": null,
+      "contact_info": null,
+      "oversight_url": null
+    },
+
+    "official_resources": {
+      "primary_statute_url": "https://legislature.idaho.gov/statutesrules/idstat/Title74/",
+      "agency_handbook_url": null,
+      "request_portal_url": null
+    },
+
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_url": "https://legislature.idaho.gov/statutesrules/idstat/Title74/",
+      "source_verified": true,
+      "primary_sources": [
+        "Idaho Code Title 74, Chapter 1",
+        "IDAHO_transparency_law-v0.11.txt"
+      ],
+      "verification_notes": "All fields manually verified from official Idaho statute. Reorganized to Title 74 in 2015 for unified transparency law location. Idaho residents: 3 working days (10 max). Non-residents: 35 calendar days. Fee waivers if contributes to public understanding. Actual labor and copying costs only. Presumption of openness. District court enforcement with attorney fees."
+    }
+  },
+  "agencies": []
+}

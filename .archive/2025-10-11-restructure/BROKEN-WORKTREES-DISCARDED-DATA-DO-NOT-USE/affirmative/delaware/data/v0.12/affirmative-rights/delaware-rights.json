@@ -1,0 +1,177 @@
+{
+  "jurisdiction": {
+    "name": "Delaware",
+    "slug": "delaware",
+    "type": "state",
+    "transparency_law": "Delaware Freedom of Information Act"
+  },
+  "validation_metadata": {
+    "parsed_date": "2025-10-10",
+    "source_url": "https://delcode.delaware.gov/title29/c100/",
+    "verified_by": "Claude Code AI Assistant",
+    "verification_method": "Direct review of Delaware Code Title 29, Chapter 100, Sections 10001 through 10008",
+    "statutory_text_file": "DELAWARE_transparency_law-v0.11.txt"
+  },
+  "rights_of_access": [
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Liberal Construction Mandate",
+      "statute_citation": "29 Del. C. § 10001",
+      "description": "Delaware's FOIA shall be liberally construed to promote its underlying purposes. The General Assembly declares that secrecy in government is inherently inconsistent with a democratic society and openness is essential to accountability. This establishes a strong presumption favoring transparency.",
+      "conditions": "Applies to all FOIA interpretations; courts and agencies must construe law broadly in favor of disclosure",
+      "applies_to": "All interpretations and applications of Delaware FOIA",
+      "implementation_notes": "Unique liberal construction mandate - unlike most states, Delaware explicitly requires broad interpretation favoring disclosure; courts must resolve ambiguities in favor of access",
+      "request_tips": "Cite mandate: 'Delaware's FOIA must be liberally construed per 29 Del. C. § 10001 to promote openness and accountability. Any ambiguity must be resolved in favor of disclosure.'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Universal Citizen Right to Inspect and Copy",
+      "statute_citation": "29 Del. C. § 10003(a)",
+      "description": "All public records shall be subject to inspection and examination by any citizen, and any citizen may obtain copies of any public record. This establishes Delaware's dual right - both inspection and copying.",
+      "conditions": "Applies to all citizens; covers all public records unless specifically exempted; dual right to inspect AND obtain copies",
+      "applies_to": "All public records in Delaware",
+      "implementation_notes": "No residency requirement - 'citizen' includes all US citizens; explicit dual right to both inspect and copy ensures flexibility in access method",
+      "request_tips": "Assert both rights: 'Under 29 Del. C. § 10003(a), I have the right to both inspect and obtain copies of [records]. Please accommodate both forms of access.'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Web Portal Submission Requirement",
+      "statute_citation": "29 Del. C. § 10003(c)",
+      "description": "All state agencies and public bodies shall develop a web portal for receiving FOIA requests through the internet. Such portals shall utilize the standard request form promulgated by the Attorney General.",
+      "conditions": "Required for all state agencies and public bodies; must use Attorney General standard form; facilitates electronic submission",
+      "applies_to": "All Delaware state agencies and public bodies",
+      "implementation_notes": "Delaware requires online request portals using standardized forms - ensures easy, uniform access statewide; one of few states mandating web portal infrastructure",
+      "request_tips": "Use web portal: 'Per 29 Del. C. § 10003(c), you must provide a web portal for FOIA requests. Please direct me to your portal or provide the Attorney General standard request form.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "15-Business-Day Response Deadline",
+      "statute_citation": "29 Del. C. § 10003(d)",
+      "description": "The public body shall respond to a FOIA request as soon as possible, but in any event within 15 business days after receipt by either: (1) Providing access, (2) Denying access with citation to exemptions, or (3) Advising that additional time is needed pursuant to extension provisions.",
+      "conditions": "15 business days maximum for initial response; must be 'as soon as possible' within this timeframe; response must be substantive (provide, deny, or extend)",
+      "applies_to": "All FOIA requests in Delaware",
+      "implementation_notes": "Business days, not calendar days; 'as soon as possible' creates obligation to respond before 15-day deadline when feasible; deemed denial if no timely response",
+      "request_tips": "Cite deadline: '29 Del. C. § 10003(d) requires response within 15 business days, as soon as possible. Please confirm receipt and expected response date within this statutory timeframe.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "10-Day Extension for Voluminous/Legal Review",
+      "statute_citation": "29 Del. C. § 10003(e)",
+      "description": "If a public body cannot respond within 15 business days because request is for voluminous material or requires legal review, the body may extend response period for additional period not to exceed 10 business days by giving written notice within initial 15-day period and stating reason for extension.",
+      "conditions": "Extension limited to 10 additional business days (total 25 business days); only for voluminous requests or those requiring legal review; must provide written notice with reason within initial 15-day period",
+      "applies_to": "Complex or large FOIA requests in Delaware",
+      "implementation_notes": "Total maximum 25 business days (~5 weeks) with extension; must justify extension as voluminous or legal review issue; notification required within first 15 days",
+      "request_tips": "If extended, verify: 'Your extension under 29 Del. C. § 10003(e) must be in writing within 15 business days, explain whether request is voluminous or requires legal review, and not exceed 10 additional business days total.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Deemed Denial for Failure to Respond",
+      "statute_citation": "29 Del. C. § 10003(f)",
+      "description": "If a public body fails to respond within the time periods required by subsections (d) and (e), the request shall be deemed denied. This automatic denial provides remedy for non-response.",
+      "conditions": "Automatic deemed denial if no response within 15 business days (or 25 if properly extended); creates basis for appeal without waiting indefinitely",
+      "applies_to": "All unanswered FOIA requests in Delaware",
+      "implementation_notes": "Strong accountability mechanism - silence equals denial, allowing requester to pursue appeals; prevents indefinite delay tactics",
+      "request_tips": "After deadline: 'Under 29 Del. C. § 10003(f), your failure to respond within the required timeframe results in deemed denial. I am treating this as a denial and may pursue available remedies.'"
+    },
+    {
+      "category": "Fee Waiver",
+      "subcategory": "First 20 Pages Free - Standard Copies",
+      "statute_citation": "29 Del. C. § 10005(a)",
+      "description": "The first 20 pages of standard-sized, black and white material shall be provided free of charge. The charge for copying standard-sized, black and white public records for copies over and above 20 shall be $.10 per sheet ($.20 for a double-sided sheet).",
+      "conditions": "First 20 pages always free; applies to standard-sized black and white copies; subsequent pages 10¢ per sheet (20¢ double-sided)",
+      "applies_to": "All paper copy requests in Delaware",
+      "implementation_notes": "Generous free page threshold ensures most small requests cost nothing; very low per-page fees ($0.10) keep costs minimal even for larger requests",
+      "request_tips": "Cite free pages: '29 Del. C. § 10005(a) provides the first 20 pages free. Please provide these records at no cost, charging only 10¢ per page thereafter if request exceeds 20 pages.'"
+    },
+    {
+      "category": "Fee Waiver",
+      "subcategory": "First 20 Pages Free - Microfilm/Microfiche",
+      "statute_citation": "29 Del. C. § 10005(b)",
+      "description": "The first 20 pages of standard-sized, black and white material copied from microfilm and/or microfiche shall be provided free of charge. The charge for microfilm and/or microfiche printouts over and above 20 shall be $.15 per sheet.",
+      "conditions": "First 20 microfilm/microfiche pages always free; subsequent pages 15¢ per sheet; slightly higher rate than standard copies reflects conversion costs",
+      "applies_to": "Microfilm and microfiche copy requests in Delaware",
+      "implementation_notes": "Recognizes additional cost of microfilm conversion but still caps fees reasonably; maintains 20-page free threshold for equity across formats",
+      "request_tips": "For microfilm: '29 Del. C. § 10005(b) provides first 20 microfilm pages free, 15¢ per page thereafter. Please ensure your fees comply with these statutory limits.'"
+    },
+    {
+      "category": "Fee Waiver",
+      "subcategory": "Electronic Format - Actual Media Cost Only",
+      "statute_citation": "29 Del. C. § 10005(c)",
+      "description": "For public records provided in electronic format, the fee shall be the actual cost of the electronic media. This limits electronic fees to media costs only, not labor or processing.",
+      "conditions": "Limited to actual media cost (CD, USB, etc.); cannot charge for labor, processing, or staff time for electronic records",
+      "applies_to": "Electronic records provided in Delaware",
+      "implementation_notes": "Strongly favors electronic delivery - only media costs chargeable; email delivery should be free; prevents inflated electronic fees",
+      "request_tips": "Request electronic: '29 Del. C. § 10005(c) limits electronic format fees to actual media cost only. Please provide records by email at no cost, or charge only for physical media (CD/USB) if necessary.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Self-Copying Rights",
+      "statute_citation": "29 Del. C. § 10005(d)",
+      "description": "If the public body does not have the capability to copy the records, it shall allow the person requesting the records to copy them using the person's own copying equipment.",
+      "conditions": "Required when agency lacks copying capability; requester may use own equipment; avoids denying access due to agency limitations",
+      "applies_to": "Requests where agency cannot copy records",
+      "implementation_notes": "Ensures access not denied by agency's operational limitations; requester can bring equipment to copy records if agency unable to copy",
+      "request_tips": "If agency claims no copy capability: '29 Del. C. § 10005(d) requires you to allow me to copy records using my own equipment if you cannot copy them. Please provide access for self-copying.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Attorney General Petition Process",
+      "statute_citation": "29 Del. C. § 10006(c)",
+      "description": "Any citizen may petition the Attorney General for a determination of whether a public body has violated or is about to violate FOIA. The Attorney General shall respond within 30 days by issuing a written determination. The AG's determination is limited to whether a violation occurred or will occur.",
+      "conditions": "Available to any citizen; AG must respond within 30 days; AG determines violation but cannot issue injunctions or assess penalties; creates administrative remedy before court",
+      "applies_to": "Suspected FOIA violations in Delaware",
+      "implementation_notes": "Unique oversight mechanism - AG provides fast, free expert determination of violations; 30-day response provides quick resolution alternative to litigation",
+      "request_tips": "Petition AG: 'Under 29 Del. C. § 10006(c), I may petition the Attorney General for determination of whether you have violated FOIA. The AG must respond within 30 days. Please reconsider or I will exercise this right.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Judicial Review - 60 Days from Denial",
+      "statute_citation": "29 Del. C. § 10006(b)",
+      "description": "Any citizen denied access to public records may bring suit within 60 days of such denial. This provides judicial remedy for denials.",
+      "conditions": "Must file within 60 days of denial; available to any citizen; creates direct path to court without administrative exhaustion",
+      "applies_to": "Denials of FOIA requests in Delaware",
+      "implementation_notes": "60-day deadline is strict; can pursue simultaneously with AG petition; provides judicial remedy independent of AG process",
+      "request_tips": "Warn of judicial option: 'I may bring suit under 29 Del. C. § 10006(b) within 60 days of this denial. Please reconsider to avoid litigation.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Attorney Fee Recovery for Willful Violations",
+      "statute_citation": "29 Del. C. § 10006(d)",
+      "description": "If the court determines that a public body or official willfully violated FOIA, the court may assess against such public body the reasonable attorney's fees and other litigation costs reasonably incurred.",
+      "conditions": "Court has discretion to award fees; requires finding of willful violation; covers attorney fees and litigation costs",
+      "applies_to": "Successful FOIA lawsuits where willful violation found",
+      "implementation_notes": "Fee-shifting provision incentivizes compliance and makes legal challenges financially viable for citizens; 'willful' standard requires intentional or reckless violation",
+      "request_tips": "When considering litigation: '29 Del. C. § 10006(d) provides for attorney fee recovery if court finds you willfully violated FOIA. This makes pursuing my rights financially feasible.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Broader Judicial Review - 60 Days from Learning",
+      "statute_citation": "29 Del. C. § 10006(a)",
+      "description": "Any citizen may challenge the validity under FOIA of any action of a public body by filing suit within 60 days of the citizen's learning of such action but in no event later than 6 months after the date of the action.",
+      "conditions": "60 days from learning of action OR 6 months from action, whichever is earlier; allows challenge to any FOIA-related action, not just denials",
+      "applies_to": "Any public body action potentially violating FOIA",
+      "implementation_notes": "Broader than denial appeals - allows challenging any FOIA violation including procedural issues, improper fees, inadequate searches; flexible timing accommodates delayed discovery",
+      "request_tips": "For procedural violations: 'Under 29 Del. C. § 10006(a), I may challenge any FOIA violation within 60 days of learning about it. This includes procedural defects, not just outright denials.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Criminal Penalties for Violations",
+      "statute_citation": "29 Del. C. § 10007",
+      "description": "Any person who willfully violates the provisions of FOIA shall be guilty of a misdemeanor and upon conviction shall be fined not more than $500 or imprisoned for not more than 30 days, or both.",
+      "conditions": "Misdemeanor charge; requires willful violation; penalties include fine up to $500 and/or imprisonment up to 30 days",
+      "applies_to": "Public officials who willfully violate FOIA",
+      "implementation_notes": "Criminal enforcement mechanism provides serious deterrent; willful standard requires intentional violation; relatively modest penalties encourage compliance without being punitive",
+      "request_tips": "Warn of consequences: '29 Del. C. § 10007 makes willful FOIA violations a criminal misdemeanor punishable by fine and/or imprisonment. Please comply with FOIA to avoid criminal liability.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Whistleblower Protection",
+      "statute_citation": "29 Del. C. § 10008",
+      "description": "Any public employee who reports in good faith suspected wrongdoing to the Attorney General or other appropriate law-enforcement agency shall be protected from retaliation in the manner provided by state and federal whistle-blower protection laws.",
+      "conditions": "Must report in good faith; protected under state and federal whistleblower laws; applies to reports to AG or law enforcement",
+      "applies_to": "Public employees reporting government wrongdoing",
+      "implementation_notes": "Encourages internal reporting of FOIA violations and other wrongdoing; comprehensive protection under multiple whistleblower statutes",
+      "request_tips": "For agency employees: '29 Del. C. § 10008 protects you from retaliation if you report FOIA violations to the Attorney General or law enforcement in good faith. You have statutory protection for doing the right thing.'"
+    }
+  ]
+}

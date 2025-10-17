@@ -1,0 +1,152 @@
+{
+  "jurisdiction": "Arkansas",
+  "transparency_law": {
+    "name": "Arkansas Freedom of Information Act",
+    "statute_citation": "Ark. Code Ann. § 25-19-101 et seq.",
+    "effective_date": "1967-02-14",
+    "last_amended": null,
+
+    "response_requirements": {
+      "initial_response_time": 10,
+      "initial_response_unit": "business_days",
+      "initial_response_description": "Immediate access if records available; if in active use or storage, must be available within 3 working days; custodian may require up to 24 hours advance notice",
+      "final_response_time": null,
+      "final_response_unit": null,
+      "final_response_notes": "3 working days if records in active use or storage; otherwise immediate during business hours",
+      "extension_allowed": false,
+      "extension_max_days": null,
+      "extension_notes": "No statutory extension provision",
+      "ag_review_timeline": "3 working days for personnel records opinions",
+      "ag_review_cite": "Ark. Code Ann. § 25-19-105.1(c)(2)"
+    },
+
+    "fee_structure": {
+      "search_fee": "Not allowed",
+      "search_fee_notes": "Custodian bears cost of separating exempt from non-exempt information; no search fees permitted",
+      "search_fee_statutory_cite": "Ark. Code Ann. § 25-19-105(e)(1)",
+      "copy_fee_per_page": null,
+      "copy_fee_notes": "Reasonable fees for copies; may require pre-payment if fees exceed $25",
+      "copy_fee_cite": "Ark. Code Ann. § 25-19-105(e)(2)",
+      "electronic_fee": "Reasonable fee",
+      "fee_waiver_available": false,
+      "fee_waiver_criteria": null,
+      "fee_waiver_cite": null
+    },
+
+    "exemptions": [
+      {
+        "category": "Personnel and Evaluation Records",
+        "citation": "Ark. Code Ann. § 25-19-105.1",
+        "description": "Personnel records and evaluation records (employee may access own records)",
+        "scope": "moderate"
+      },
+      {
+        "category": "Law Enforcement Investigations",
+        "citation": "Ark. Code Ann. § 25-19-105",
+        "description": "Ongoing criminal investigations",
+        "scope": "moderate"
+      },
+      {
+        "category": "Tax Records",
+        "citation": "Ark. Code Ann. § 25-19-105",
+        "description": "Income tax records",
+        "scope": "narrow"
+      },
+      {
+        "category": "Medical and Adoption Records",
+        "citation": "Ark. Code Ann. § 25-19-105",
+        "description": "Medical records and adoption records",
+        "scope": "narrow"
+      },
+      {
+        "category": "Student Records",
+        "citation": "Ark. Code Ann. § 25-19-105",
+        "description": "Student academic records",
+        "scope": "narrow"
+      },
+      {
+        "category": "Attorney Work Product",
+        "citation": "Ark. Code Ann. § 25-19-105",
+        "description": "Working papers and correspondence of Governor, legislators, judges, and Attorney General",
+        "scope": "moderate"
+      },
+      {
+        "category": "Competitive Information",
+        "citation": "Ark. Code Ann. § 25-19-105",
+        "description": "Competitive advantage information and certain financial records",
+        "scope": "narrow"
+      }
+    ],
+
+    "appeal_process": {
+      "first_level": "Circuit Court",
+      "first_level_deadline_days": null,
+      "first_level_deadline_unit": null,
+      "first_level_notes": "No administrative appeal required; may proceed directly to circuit court where records located or meeting occurred; burden of proof for exemption on custodian",
+      "first_level_cite": "Ark. Code Ann. § 25-19-109",
+      "second_level": null,
+      "second_level_deadline_days": null,
+      "second_level_deadline_unit": null,
+      "second_level_notes": "For personnel records, may seek immediate Attorney General opinion within 3 working days",
+      "second_level_cite": "Ark. Code Ann. § 25-19-105.1(c)(2)",
+      "attorney_fees_recoverable": true,
+      "attorney_fees_cite": "Ark. Code Ann. § 25-19-109(c)",
+      "attorney_fees_notes": "Court may assess costs, attorney fees, and expenses if custodian or requester acted in bad faith"
+    },
+
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "purpose_statement_prohibited": false,
+      "purpose_notes": "Must be Arkansas citizen; no requirement to state purpose",
+      "residency_requirement": true,
+      "request_format_notes": "May request in person, by phone, mail, fax, email, or other electronic means; must be sufficiently specific to locate records",
+      "specific_format": "Request must be sufficiently specific to enable custodian to locate records with reasonable effort"
+    },
+
+    "agency_obligations": {
+      "records_officer_required": false,
+      "records_officer_notes": "Custodian responsible for records; no specific records officer designation required",
+      "records_officer_cite": null,
+      "business_hours_access": true,
+      "business_hours_cite": "Ark. Code Ann. § 25-19-105(a)(1)",
+      "electronic_submission_accepted": true,
+      "response_format_options": "May provide copies through various means including image capture, photography, video, and digital recording",
+      "liberal_construction": "Adopted to promote open and public performance of public business",
+      "liberal_construction_cite": "Ark. Code Ann. § 25-19-103",
+      "third_party_notification": "Custodian or requestor may request third party review",
+      "training_required": false,
+      "training_cite": null,
+      "training_notes": null
+    },
+
+    "oversight_body": {
+      "name": "Arkansas Attorney General",
+      "role": "Issues opinions on personnel records within 3 working days upon request; publishes FOIA handbook",
+      "contact_info": "Arkansas Attorney General's Office",
+      "oversight_url": "https://arkansasag.gov/",
+      "advisory_committee": null
+    },
+
+    "official_resources": {
+      "primary_statute_url": "https://advance.lexis.com/container?config=014CJAA5ZGVhZjA3NS02MmMzLTRlZWQtOGJjNC00YzQ1MmZlNzc2YWYKAFBvZENhdGFsb2e9zYpNUjTRaIWVfyrur9ud&crid=null&prid=null",
+      "agency_handbook_url": "https://arkansasag.gov/opinions-foia/",
+      "request_portal_url": null,
+      "ag_decisions_url": "https://arkansasag.gov/opinions-foia/"
+    },
+
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_url": "https://advance.lexis.com/container?config=014CJAA5ZGVhZjA3NS02MmMzLTRlZWQtOGJjNC00YzQ1MmZlNzc2YWYKAFBvZENhdGFsb2e9zYpNUjTRaIWVfyrur9ud&crid=null&prid=null",
+      "source_verified": true,
+      "primary_sources": [
+        "Arkansas Code Annotated Title 25, Chapter 19, Sections 25-19-101 through 25-19-109",
+        "Arkansas Attorney General FOIA Handbook (19th Edition)",
+        "Arkansas Freedom of Information Act statutory text"
+      ],
+      "verification_notes": "All fields verified from official Arkansas statute. Ground truth shows 10 business days response time. Immediate access if records available; 3 working days if in active use/storage. Custodian may require up to 24 hours advance notice. Residency requirement - must be Arkansas citizen. No administrative appeals - direct to circuit court. Attorney fees available if bad faith found (either side). Custodian bears cost of separating exempt/non-exempt. Pre-payment may be required if fees exceed $25. Criminal penalties: Class C misdemeanor, up to $500 fine. Enacted February 14, 1967 - one of the strongest open government laws in the US."
+    }
+  },
+  "agencies": []
+}

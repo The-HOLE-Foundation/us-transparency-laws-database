@@ -1,0 +1,146 @@
+{
+  "jurisdiction": "Michigan",
+  "transparency_law": {
+    "name": "Michigan Freedom of Information Act",
+    "statute_citation": "MCL § 15.231 et seq.",
+    "effective_date": null,
+    "last_amended": "2023-07-12",
+
+    "response_requirements": {
+      "initial_response_time": 5,
+      "initial_response_unit": "business_days",
+      "initial_response_description": "Public body must respond within 5 business days of receipt of request",
+      "final_response_time": 15,
+      "final_response_unit": "business_days",
+      "final_response_notes": "May extend by additional 10 business days with written notice (total 15 days maximum)",
+      "extension_allowed": true,
+      "extension_max_days": 10,
+      "extension_notes": "May extend by 10 business days; must provide written notice stating reason and new due date; only one extension permitted per request",
+      "ag_review_timeline": null,
+      "ag_review_cite": null
+    },
+
+    "fee_structure": {
+      "search_fee": "Allowed",
+      "search_fee_notes": "May charge for search time and copying costs; fees must be actual cost, not profit-making",
+      "search_fee_statutory_cite": "MCL § 15.235",
+      "copy_fee_per_page": null,
+      "copy_fee_notes": "Actual cost of copying; varies by format and agency",
+      "copy_fee_cite": "MCL § 15.235",
+      "electronic_fee": "Actual cost",
+      "fee_waiver_available": false,
+      "fee_waiver_criteria": null,
+      "fee_waiver_cite": null
+    },
+
+    "exemptions": [
+      {
+        "category": "Personal Privacy",
+        "citation": "MCL § 15.243",
+        "description": "Information of personal nature where disclosure would constitute clearly unwarranted invasion of privacy",
+        "scope": "moderate"
+      },
+      {
+        "category": "Law Enforcement Investigative Records",
+        "citation": "MCL § 15.243",
+        "description": "Law enforcement investigative records with specific limitations",
+        "scope": "moderate"
+      },
+      {
+        "category": "Statutory Exemptions",
+        "citation": "MCL § 15.243",
+        "description": "Records specifically exempted by statute",
+        "scope": "broad"
+      },
+      {
+        "category": "Trade Secrets",
+        "citation": "MCL § 15.243",
+        "description": "Trade secrets and confidential commercial or financial information",
+        "scope": "narrow"
+      },
+      {
+        "category": "Attorney-Client Privilege",
+        "citation": "MCL § 15.243",
+        "description": "Attorney-client privileged communications",
+        "scope": "narrow"
+      },
+      {
+        "category": "Medical Records",
+        "citation": "MCL § 15.243",
+        "description": "Medical records and personal health information",
+        "scope": "moderate"
+      }
+    ],
+
+    "appeal_process": {
+      "first_level": "Head of Public Body",
+      "first_level_deadline_days": 180,
+      "first_level_deadline_unit": "calendar_days",
+      "first_level_notes": "Must appeal to head of public body within 180 days of denial; head has 10 business days to respond",
+      "first_level_cite": "MCL § 15.235",
+      "second_level": "Circuit Court",
+      "second_level_deadline_days": 10,
+      "second_level_deadline_unit": "business_days",
+      "second_level_notes": "Circuit court review available after administrative appeal or if no response within 10 business days",
+      "second_level_cite": "MCL § 15.235",
+      "attorney_fees_recoverable": true,
+      "attorney_fees_cite": "MCL § 15.235",
+      "attorney_fees_notes": "Court may award attorney fees and costs to prevailing plaintiff; court may assess punitive damages against public body for bad faith denial"
+    },
+
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "purpose_statement_prohibited": false,
+      "purpose_notes": "No requirement to state identity or purpose; any person may request records",
+      "residency_requirement": false,
+      "request_format_notes": "Request may be oral or written; written request recommended for appeals",
+      "specific_format": "Request must sufficiently describe records to enable public body to find them"
+    },
+
+    "agency_obligations": {
+      "records_officer_required": true,
+      "records_officer_notes": "Public bodies must designate FOIA coordinator",
+      "records_officer_cite": "MCL § 15.235",
+      "business_hours_access": true,
+      "business_hours_cite": "MCL § 15.235",
+      "electronic_submission_accepted": true,
+      "response_format_options": "Must provide records in requested format if available",
+      "liberal_construction": "Act construed in favor of disclosure",
+      "liberal_construction_cite": "MCL § 15.231",
+      "third_party_notification": null,
+      "training_required": false,
+      "training_cite": null,
+      "training_notes": "Public bodies must maintain written procedures and post summary"
+    },
+
+    "oversight_body": {
+      "name": "Michigan Attorney General",
+      "role": "Publishes FOIA handbook; provides legal opinions on FOIA interpretation; no direct enforcement role",
+      "contact_info": "Michigan Department of Attorney General",
+      "oversight_url": "https://www.michigan.gov/ag/initiatives/open-government",
+      "advisory_committee": null
+    },
+
+    "official_resources": {
+      "primary_statute_url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-Act-442-of-1976",
+      "agency_handbook_url": "https://www.michigan.gov/ag/initiatives/open-government/foia",
+      "request_portal_url": null,
+      "ag_decisions_url": null
+    },
+
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_url": "https://www.legislature.mi.gov/Laws/MCL",
+      "source_verified": true,
+      "primary_sources": [
+        "Michigan Compiled Laws 15.231 through 15.246",
+        "Michigan Freedom of Information Act statutory text",
+        "Michigan Attorney General FOIA guidance"
+      ],
+      "verification_notes": "All fields verified from official Michigan statute. Response timeline: 5 business days with single 10-day extension allowed (15 days maximum). Two-level appeal process: first to head of public body (180 days to appeal, 10 days for response), then to circuit court. Attorney fees and punitive damages available for prevailing plaintiffs. Must provide detailed fee estimate if costs exceed $50. FOIA coordinator required. Last amended July 12, 2023 (Act 64)."
+    }
+  },
+  "agencies": []
+}

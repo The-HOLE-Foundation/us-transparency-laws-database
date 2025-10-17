@@ -1,0 +1,266 @@
+{
+  "jurisdiction": {
+    "name": "California",
+    "slug": "california",
+    "type": "state",
+    "transparency_law": "California Public Records Act (CPRA)"
+  },
+  "validation_metadata": {
+    "parsed_date": "2025-10-07",
+    "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=GOV",
+    "verified_by": "Claude Code AI Assistant",
+    "verification_method": "Direct review of California Government Code Title 1, Division 10"
+  },
+  "rights_of_access": [
+    {
+      "category": "Proactive Disclosure",
+      "subcategory": "Open by Default",
+      "statute_citation": "Cal. Gov't Code § 7922.525",
+      "description": "Public records are open to inspection at all times during the office hours of a state or local agency. Every person has a right to inspect any public record, establishing a presumption of openness and public access to government information.",
+      "conditions": "Records must be inspected during regular business hours; exemptions may apply under other provisions",
+      "applies_to": "All public records held by California state and local agencies",
+      "implementation_notes": "This establishes California's foundational right of public access, creating a presumption that all records are accessible unless specifically exempted",
+      "request_tips": "Cite this section to establish your fundamental right to access: 'Under Cal. Gov't Code § 7922.525, I have the right to inspect any public record during office hours.'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "In-Person Record Inspection",
+      "statute_citation": "Cal. Gov't Code § 7922.525",
+      "description": "Right to inspect public records in person at the agency during office hours. Agencies must make records available for inspection without requiring a formal written request for on-site review.",
+      "conditions": "Must be during agency office hours; agency may supervise inspection to protect record integrity",
+      "applies_to": "All non-exempt public records",
+      "implementation_notes": "Inspection is distinct from copying - you can review records without paying duplication fees",
+      "request_tips": "State: 'I request to inspect [specific records] in person under Cal. Gov't Code § 7922.525 during your regular business hours.'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Own Equipment for Copying",
+      "statute_citation": "Cal. Gov't Code § 7922.530",
+      "description": "Requesters have the right to photograph or copy public records using their own equipment on-site, without physical contact with the records, unless such copying would damage the record or compromise agency computer systems.",
+      "conditions": "Cannot physically touch records; agency may impose reasonable limits to protect record safety and prevent operational disruption; must not damage records or compromise computer systems",
+      "applies_to": "Public records available for on-site inspection",
+      "implementation_notes": "This right allows use of smartphones, cameras, or portable scanners to copy records at no cost beyond any inspection fee",
+      "request_tips": "Cite: 'Under Cal. Gov't Code § 7922.530, I request to photograph/copy these records using my own equipment without physical contact.'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Exact Copy Requirement",
+      "statute_citation": "Cal. Gov't Code § 7922.530",
+      "description": "Upon request, an exact copy of the record shall be provided unless impracticable to do so. Requesters may pay duplication fees for agency-provided copies.",
+      "conditions": "Must be practicable for agency to provide; requester pays reasonable duplication costs",
+      "applies_to": "All public records requested for duplication",
+      "implementation_notes": "Agencies must provide exact duplicates, not summaries or partial information, unless technically impracticable",
+      "request_tips": "Request: 'Please provide exact copies of [records] as required by Cal. Gov't Code § 7922.530.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Segregability Requirement",
+      "statute_citation": "Cal. Gov't Code § 7922.525",
+      "description": "If a record contains some exempt information, agencies must still provide any reasonably segregable portion of the record after removing or redacting the exempted sections. Partial exemptions do not justify withholding entire documents.",
+      "conditions": "Segregation must be reasonable and practicable; agency must identify what is withheld and the legal basis",
+      "applies_to": "Records containing both exempt and non-exempt information",
+      "implementation_notes": "This prevents agencies from withholding entire documents when only portions are exempt; agencies must perform redaction analysis",
+      "request_tips": "Assert: 'Even if portions are exempt, Cal. Gov't Code § 7922.525 requires you to provide all reasonably segregable non-exempt portions.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "10-Day Response Deadline",
+      "statute_citation": "Cal. Gov't Code § 6253(c)",
+      "description": "Agencies must determine within 10 days whether to comply with a request and communicate that decision to the requester. This deadline ensures timely initial responses to public records requests.",
+      "conditions": "Deadline may be extended up to 14 additional days in unusual circumstances with written notice and explanation",
+      "applies_to": "All California public records requests",
+      "implementation_notes": "The 10-day period begins when the agency receives the request; extensions require specific justification",
+      "request_tips": "Cite: 'Cal. Gov't Code § 6253(c) requires you to respond within 10 days of receiving this request.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "14-Day Extension Limit",
+      "statute_citation": "Cal. Gov't Code § 6253(c)",
+      "description": "If unusual circumstances justify an extension, agencies may extend the 10-day response deadline by up to 14 additional days. Extensions must be communicated in writing with specific justification.",
+      "conditions": "Only allowed for 'unusual circumstances'; must provide written notice; must state reasons making extension necessary; must provide date when records will be made available",
+      "applies_to": "Complex or voluminous requests where unusual circumstances exist",
+      "implementation_notes": "Agency must identify specific unusual circumstances - volume, need to consult other agencies, need to search and collect records from separate facilities",
+      "request_tips": "If extended, ask: 'Please provide written justification for this extension under Cal. Gov't Code § 6253(c), including the specific unusual circumstances and expected completion date.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Immediate Disclosure Requirement",
+      "statute_citation": "Cal. Gov't Code § 6253(b)",
+      "description": "Public records that are immediately disclosable must be made available for inspection or copying without delay. Agencies cannot impose unnecessary processing time for readily available records.",
+      "conditions": "Applies to records that are immediately available and do not require review or redaction",
+      "applies_to": "Public records that are readily accessible and clearly not exempt",
+      "implementation_notes": "For simple requests of clearly public information, agencies should not impose multi-day processing periods",
+      "request_tips": "For readily available records, state: 'These records are immediately disclosable under Cal. Gov't Code § 6253(b) and should be provided without delay.'"
+    },
+    {
+      "category": "Fee Waiver",
+      "subcategory": "Statutory Fee Limits",
+      "statute_citation": "Cal. Gov't Code § 6257",
+      "description": "Agencies may charge only for direct costs of duplication. Fees must be limited to actual reproduction costs and cannot include staff time for searching, reviewing, or redacting records (with narrow exceptions for certain requesters).",
+      "conditions": "Copying fees must reflect actual direct costs only; cannot charge for search/review time except for commercial requesters or those requesting copies for commercial purposes",
+      "applies_to": "All public records requests for copies",
+      "implementation_notes": "This prevents agencies from imposing excessive fees as a barrier to access; most requesters pay only per-page duplication costs",
+      "request_tips": "Challenge excessive fees: 'Cal. Gov't Code § 6257 limits fees to direct duplication costs only. Please provide a fee breakdown showing only actual copying expenses.'"
+    },
+    {
+      "category": "Fee Waiver",
+      "subcategory": "Electronic Format Cost Savings",
+      "statute_citation": "Cal. Gov't Code § 6253.9(a)",
+      "description": "Electronic records must be provided in an electronic format when requested, and agencies may charge only the actual cost of producing electronic copies (typically minimal or free). Electronic delivery saves duplication costs compared to paper.",
+      "conditions": "Requester must specifically request electronic format; agency must be able to produce records electronically",
+      "applies_to": "Records maintained in electronic format",
+      "implementation_notes": "Email delivery of PDFs or digital files should be free or very low cost; agencies cannot charge paper-level fees for electronic delivery",
+      "request_tips": "Request: 'Please provide records in electronic format via email under Cal. Gov't Code § 6253.9(a) to minimize costs.'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Native Electronic Format",
+      "statute_citation": "Cal. Gov't Code § 6253.9(a)",
+      "description": "When public records are maintained in electronic format, requesters have the right to receive them in an electronic format. Agencies must provide electronic records electronically upon request.",
+      "conditions": "Records must exist in electronic format; agency may provide in format records are maintained in or another format if requested",
+      "applies_to": "All electronically maintained public records",
+      "implementation_notes": "Requesters can specify preferred electronic format (PDF, Excel, native database format, etc.); agencies should accommodate when practicable",
+      "request_tips": "Specify: 'Please provide these electronic records in [PDF/Excel/native format] as permitted by Cal. Gov't Code § 6253.9(a).'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Metadata Preservation",
+      "statute_citation": "Cal. Gov't Code § 6253.9(a)",
+      "description": "When providing electronic records, agencies must preserve metadata associated with the records when requested. Metadata includes creation dates, author information, edit history, and other electronic properties.",
+      "conditions": "Requester must request metadata; must be technically feasible to extract and provide",
+      "applies_to": "Electronic records with associated metadata",
+      "implementation_notes": "Metadata often provides crucial context for electronic records and should be preserved in production format",
+      "request_tips": "Request: 'Please preserve and include all associated metadata when providing electronic records under Cal. Gov't Code § 6253.9(a).'"
+    },
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "No Identity Requirement",
+      "statute_citation": "Cal. Gov't Code § 6253(b)",
+      "description": "Agencies may not generally require requesters to provide identification or state the purpose of their request. The right to access public records is not conditioned on the requester's identity or intended use.",
+      "conditions": "Narrow exceptions may apply for records with specific access restrictions (e.g., certain arrest records); agencies may ask for contact information for response purposes",
+      "applies_to": "All standard public records requests",
+      "implementation_notes": "This protects requester privacy and prevents discrimination based on identity or perceived purpose",
+      "request_tips": "If asked for ID or purpose, respond: 'Cal. Gov't Code § 6253(b) does not require me to provide identification or state my purpose for requesting public records.'"
+    },
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "No Residency Requirement",
+      "statute_citation": "Cal. Gov't Code § 7922.525",
+      "description": "Any person, regardless of California residency or citizenship status, has the right to inspect and obtain public records. Agencies cannot restrict access based on residency.",
+      "conditions": "None - right extends to all persons regardless of residency",
+      "applies_to": "All public records requests to California agencies",
+      "implementation_notes": "California's law explicitly uses 'every person' rather than limiting to residents or citizens",
+      "request_tips": "If residency is questioned, cite: 'Cal. Gov't Code § 7922.525 grants every person the right to access public records, without residency restrictions.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Right to Structured Data",
+      "statute_citation": "Cal. Gov't Code § 6253.9(b)",
+      "description": "Requesters may request that electronic data be provided in a structured, machine-readable format when technically feasible. Agencies must provide data in a format that facilitates automated processing and analysis.",
+      "conditions": "Must be technically feasible; agency may charge actual costs of conversion if format conversion required",
+      "applies_to": "Structured electronic data such as databases, spreadsheets, and data files",
+      "implementation_notes": "This ensures data can be analyzed and reused; CSV, JSON, or native database formats preferred over PDFs of data",
+      "request_tips": "Request: 'Please provide this data in a structured, machine-readable format (CSV/JSON) under Cal. Gov't Code § 6253.9(b) to facilitate analysis.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Record Reconstruction Prohibition",
+      "statute_citation": "Cal. Gov't Code § 6253.9(c)",
+      "description": "Agencies are not required to create new records or reconstruct deleted records. However, they must produce records that exist, including fragmented or partial records that can be compiled without creating new information.",
+      "conditions": "Only applies to records that currently exist; agencies need not recreate destroyed or deleted records; must produce existing records even if compilation required",
+      "applies_to": "Existing public records in any format",
+      "implementation_notes": "This limits agency obligations but still requires production of all existing responsive records, even if scattered across systems",
+      "request_tips": "Clarify: 'I request all existing records responsive to this request, even if compilation is required. Cal. Gov't Code § 6253.9(c) does not exempt existing records merely because they require compilation.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Written Denial Requirement",
+      "statute_citation": "Cal. Gov't Code § 6255(b)",
+      "description": "If an agency denies a request in whole or in part, it must provide a written response citing the specific legal authority (exemption) for the denial. Generic denials without legal citations are insufficient.",
+      "conditions": "Must be in writing; must cite specific statute/exemption; must explain how exemption applies to the requested records",
+      "applies_to": "All denials or partial denials of public records requests",
+      "implementation_notes": "This ensures transparency in denials and provides requester with basis to challenge improper withholdings",
+      "request_tips": "If denied, demand: 'Cal. Gov't Code § 6255(b) requires a written response citing the specific legal authority for this denial. Please provide a detailed written explanation with statutory citations.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Attorney Fee Recovery",
+      "statute_citation": "Cal. Gov't Code § 6259(d)",
+      "description": "Requesters who successfully challenge a wrongful denial of records in court may recover attorney fees and costs. This incentivizes agencies to comply with the law and provides recourse for requesters who must litigate.",
+      "conditions": "Must prevail in litigation; court has discretion to award fees; typically awarded when agency denial was not substantially justified",
+      "applies_to": "Successful litigation challenging wrongful denial of public records",
+      "implementation_notes": "This provision makes it financially feasible to challenge improper denials, as successful requesters can recover legal costs",
+      "request_tips": "When considering litigation, note: 'Cal. Gov't Code § 6259(d) provides for attorney fee recovery if I prevail in challenging this denial.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Failure to Respond Deemed Denial",
+      "statute_citation": "Cal. Gov't Code § 6253(c)",
+      "description": "If an agency fails to respond to a request within the statutory timeframes (10 days or 24-day extension), the failure to respond may be treated as a denial, providing grounds for legal challenge.",
+      "conditions": "Statutory deadline must have passed; requester must have properly submitted request; no response received",
+      "applies_to": "Requests where agency has not responded within legal deadline",
+      "implementation_notes": "Silence is not compliance - requesters can treat non-response as denial and pursue legal remedies",
+      "request_tips": "After deadline passes: 'Your failure to respond within the Cal. Gov't Code § 6253(c) deadline constitutes a denial. I request immediate compliance or formal denial with legal justification.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Business Day Definition",
+      "statute_citation": "Cal. Gov't Code § 6253(a)",
+      "description": "The 10-day response deadline is calculated in calendar days, not business days, providing faster access. Weekends and holidays count toward the deadline.",
+      "conditions": "If 10th day falls on weekend/holiday, deadline extends to next business day",
+      "applies_to": "All CPRA response deadlines",
+      "implementation_notes": "Unlike some jurisdictions using business days, California's calendar day count provides quicker response requirements",
+      "request_tips": "Track carefully: 'The 10-day deadline under Cal. Gov't Code § 6253(c) is calculated in calendar days, not business days.'"
+    },
+    {
+      "category": "Proactive Disclosure",
+      "subcategory": "Public Records Ombudsperson",
+      "statute_citation": "Cal. Gov't Code § 6253.3",
+      "description": "Certain California state agencies must designate a public records ombudsperson to assist requesters and ensure compliance. Requesters can escalate issues to the ombudsperson for assistance.",
+      "conditions": "Applies to specified state agencies required to designate ombudsperson; local agencies may voluntarily designate",
+      "applies_to": "Requests to state agencies with designated ombudspersons",
+      "implementation_notes": "The ombudsperson can help resolve disputes and facilitate access without litigation",
+      "request_tips": "For state agencies: 'I request to speak with your public records ombudsperson as provided by Cal. Gov't Code § 6253.3 regarding this request.'"
+    },
+    {
+      "category": "Proactive Disclosure",
+      "subcategory": "Records Catalog Requirement",
+      "statute_citation": "Cal. Gov't Code § 7927.700",
+      "description": "Local agencies must maintain a catalog of enterprise systems and make it publicly available. This helps requesters identify what electronic records systems exist and what data they may request.",
+      "conditions": "Requirement phased in over time; applies to local agencies meeting specified criteria",
+      "applies_to": "Local agencies' enterprise information systems",
+      "implementation_notes": "Catalog helps requesters make targeted requests by revealing what databases and systems agencies maintain",
+      "request_tips": "Request: 'Please provide your enterprise system catalog required by Cal. Gov't Code § 7927.700 to help identify relevant records systems.'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "No Proprietary Format Barrier",
+      "statute_citation": "Cal. Gov't Code § 6253.9(a)",
+      "description": "Agencies cannot refuse to provide electronic records solely because they are maintained in a proprietary format. Agencies must either provide the proprietary format or convert to a standard format.",
+      "conditions": "Agency may charge actual cost of format conversion if required; must provide in accessible format",
+      "applies_to": "Electronic records in proprietary software formats",
+      "implementation_notes": "Prevents agencies from using proprietary software as excuse to withhold electronic records",
+      "request_tips": "If proprietary format is barrier: 'Cal. Gov't Code § 6253.9(a) requires provision of electronic records regardless of proprietary format. Please provide in native format or convert to accessible format.'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Reasonable Access Facilities",
+      "statute_citation": "Cal. Gov't Code § 6253(a)",
+      "description": "Agencies must provide reasonable access facilities for inspecting records during office hours. This includes adequate space, lighting, and supervision for public review of records.",
+      "conditions": "Must be during regular office hours; agency may supervise to protect record integrity; reasonable appointment scheduling permitted",
+      "applies_to": "In-person inspection of public records",
+      "implementation_notes": "Agencies cannot make inspection impractical by providing inadequate facilities or unreasonable restrictions",
+      "request_tips": "Request: 'Please provide reasonable facilities for inspecting these records as required by Cal. Gov't Code § 6253(a), including adequate space and lighting.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Expedited Review for Urgency",
+      "statute_citation": "Cal. Gov't Code § 6253(c)",
+      "description": "When circumstances demonstrate urgent need, requesters may request expedited processing. While not formally required, agencies should prioritize requests where delay would compromise significant public interest or cause harm.",
+      "conditions": "Requester should demonstrate urgency; agency discretion to grant; may be supported by case law regarding public interest",
+      "applies_to": "Time-sensitive requests involving significant public interest",
+      "implementation_notes": "Though not statutorily mandated like federal expedited processing, California courts recognize public interest in timely access to certain records",
+      "request_tips": "For urgent matters: 'I request expedited processing due to urgent public interest in [explain]. Timely disclosure is critical because [explain why].'"
+    }
+  ]
+}

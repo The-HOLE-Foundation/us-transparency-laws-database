@@ -1,0 +1,178 @@
+{
+  "jurisdiction": {
+    "slug": "federal",
+    "name": "Federal"
+  },
+  "rights_of_access": [
+    {
+      "category": "Proactive Disclosure",
+      "subcategory": "Agency Rules and Opinions",
+      "statute_citation": "5 U.S.C. § 552(a)(2)",
+      "description": "Federal agencies must make available for public inspection and copying: (A) final opinions, including concurring and dissenting opinions, as well as orders, made in the adjudication of cases; (B) those statements of policy and interpretations which have been adopted by the agency and are not published in the Federal Register; (C) administrative staff manuals and instructions to staff that affect a member of the public.",
+      "conditions": "Applies to all federal agencies subject to FOIA. Records created after November 1, 1996 must be available electronically.",
+      "applies_to": "General public",
+      "implementation_notes": "Most agencies maintain electronic FOIA libraries or reading rooms on their websites. Records must be indexed to permit identification and retrieval.",
+      "request_tips": "Check the agency's FOIA library or electronic reading room first. If not available online, cite 5 U.S.C. § 552(a)(2) and request access to these proactively disclosed materials."
+    },
+    {
+      "category": "Proactive Disclosure",
+      "subcategory": "Frequently Requested Records",
+      "statute_citation": "5 U.S.C. § 552(a)(2)(D)",
+      "description": "Agencies must make available records that have been requested 3 or more times. These frequently requested records must be placed in the agency's electronic reading room.",
+      "conditions": "Applies to records released after November 1, 1996 in response to FOIA requests",
+      "applies_to": "General public",
+      "implementation_notes": "Agencies maintain lists of frequently requested records in their FOIA libraries. Check the agency website before filing a new request.",
+      "request_tips": "Before filing a FOIA request, search the agency's FOIA library for similar requests. Cite this provision to encourage agencies to proactively post commonly requested materials."
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Electronic Format",
+      "statute_citation": "5 U.S.C. § 552(a)(3)(B)",
+      "description": "Requesters have the right to specify the form or format in which they prefer to receive responsive records, including electronic formats. Agencies must provide records in the requested format if readily reproducible in that form.",
+      "conditions": "Agency must honor the format request if the records are readily reproducible in that format",
+      "applies_to": "All requesters",
+      "implementation_notes": "Agencies commonly provide records as PDFs, but may provide native file formats (Word, Excel, databases) if requested and readily available.",
+      "request_tips": "Include in your request: 'I request records in electronic format, preferably as native files (Excel, Word, etc.) or searchable PDFs. If the agency maintains records in a database, I request the data in a structured, machine-readable format such as CSV or JSON.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Expedited Processing",
+      "statute_citation": "5 U.S.C. § 552(a)(6)(E)",
+      "description": "Requesters may receive expedited processing if they demonstrate a 'compelling need' or are 'a person primarily engaged in disseminating information' (journalists). Compelling need exists when failure to obtain records quickly could reasonably be expected to pose an imminent threat to life or safety, or when urgency to inform the public exists.",
+      "conditions": "Must demonstrate compelling need or journalist status working on a timely news story",
+      "applies_to": "Journalists on deadline, requesters with urgent public safety needs",
+      "implementation_notes": "Agencies must respond to expedited requests within 10 calendar days. Many agencies have specific forms or procedures for expedited processing.",
+      "request_tips": "For expedited processing, include a detailed statement explaining: (1) your journalist status and the time-sensitive nature of your story, OR (2) the compelling need involving threat to life/safety or urgent public interest. Agencies must respond to expedited requests within 10 days."
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Fee Waiver - Public Interest",
+      "statute_citation": "5 U.S.C. § 552(a)(4)(A)(iii)",
+      "description": "Agencies shall waive or reduce fees when disclosure 'is in the public interest because it is likely to contribute significantly to public understanding of the operations or activities of the government and is not primarily in the commercial interest of the requester.'",
+      "conditions": "Must demonstrate: (1) subject concerns government operations, (2) disclosure will contribute to public understanding, (3) disclosure will be made available to the general public, (4) contribution will be significant, (5) requester has no commercial interest or public interest predominates",
+      "applies_to": "Journalists, researchers, public interest organizations, general public",
+      "implementation_notes": "Strong fee waiver requests explain how the information will be disseminated to the public and why it will significantly contribute to public understanding of government operations.",
+      "request_tips": "Include this language: 'I request a fee waiver under 5 U.S.C. § 552(a)(4)(A)(iii). This request concerns [government operations/activities]. I am a [journalist/researcher/advocate] and will disseminate findings to the public through [publication/website/report]. The disclosure will significantly contribute to public understanding of [specific government activity]. I have no commercial interest in this disclosure.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Fee Waiver - Educational/Noncommercial Scientific",
+      "statute_citation": "5 U.S.C. § 552(a)(4)(A)(ii)(II)",
+      "description": "Representatives of the news media and educational or noncommercial scientific institutions receive fee waivers for search and review costs. They pay only for duplication costs exceeding 100 pages.",
+      "conditions": "Must be affiliated with a news media organization, educational institution, or noncommercial scientific institution",
+      "applies_to": "Journalists, academic researchers, scientists at nonprofits",
+      "implementation_notes": "Provide evidence of institutional affiliation and the purpose of the request related to your professional activities.",
+      "request_tips": "State: 'I am a [reporter/researcher/scientist] affiliated with [organization]. As a representative of [news media/educational institution/noncommercial scientific institution], I request waiver of search and review fees under 5 U.S.C. § 552(a)(4)(A)(ii)(II). I agree to pay duplication costs exceeding 100 pages.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "20-Day Response Deadline",
+      "statute_citation": "5 U.S.C. § 552(a)(6)(A)(i)",
+      "description": "Agencies must determine whether to comply with a FOIA request within 20 business days (excluding Saturdays, Sundays, and legal holidays) after receipt of the request.",
+      "conditions": "20 days from receipt by proper FOIA office. 10-day extension allowed in 'unusual circumstances.'",
+      "applies_to": "All requesters",
+      "implementation_notes": "Track your request. If the agency doesn't respond within 20 business days, you may seek judicial review. Many agencies are backlogged but the statutory deadline still applies.",
+      "request_tips": "Note the date you submit your request. After 20 business days without a determination, you have exhausted administrative remedies and may file suit in federal district court. Send a follow-up email citing the missed deadline."
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Deemed Exhausted - Appeal Rights",
+      "statute_citation": "5 U.S.C. § 552(a)(6)(C)(i)",
+      "description": "If an agency fails to comply with the time limits, the requester is deemed to have exhausted administrative remedies and may seek judicial review, but the agency may still process the request.",
+      "conditions": "Applies when agency misses statutory deadlines (20 days for initial response, 20 days for appeal)",
+      "applies_to": "All requesters",
+      "implementation_notes": "You can proceed to federal court while the agency continues to process your request administratively. Courts may order agencies to prioritize improperly delayed requests.",
+      "request_tips": "If deadlines are missed, send a letter noting you have exhausted administrative remedies under 5 U.S.C. § 552(a)(6)(C)(i) and may seek judicial review. This often prompts agency action."
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Record Inspection",
+      "statute_citation": "5 U.S.C. § 552(a)(3)(A)",
+      "description": "Agencies must make records 'promptly available' to any person. This includes the right to inspect records at the agency before paying for copies, if inspection is practical.",
+      "conditions": "Agency must permit inspection if feasible given the nature and volume of records",
+      "applies_to": "All requesters",
+      "implementation_notes": "Some requesters prefer to inspect voluminous records before deciding what to copy. This avoids unnecessary copying fees. Agencies must accommodate reasonable inspection requests.",
+      "request_tips": "If requesting voluminous records, include: 'I request the opportunity to inspect the responsive records at your office before determining which records I wish to receive in copy form. This will minimize duplication costs for both parties.'"
+    },
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "No Identity Requirement",
+      "statute_citation": "5 U.S.C. § 552(a)(3)",
+      "description": "FOIA does not require requesters to identify themselves, explain why they want records, or justify their request. Anyone may make a FOIA request for any reason.",
+      "conditions": "No conditions - FOIA is requester-blind",
+      "applies_to": "Any person, including foreign nationals and organizations",
+      "implementation_notes": "While you may need to provide contact information for the agency to respond, you need not explain your purpose or provide detailed personal information.",
+      "request_tips": "You are not required to explain why you want the records or provide extensive personal information beyond what's needed for the agency to respond (name, contact info). If an agency demands unnecessary information, cite this right."
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Attorney Fee Recovery",
+      "statute_citation": "5 U.S.C. § 552(a)(4)(E)",
+      "description": "Courts may award attorney fees and litigation costs to complainants who substantially prevail in FOIA lawsuits. A requester 'substantially prevails' if they obtain a favorable settlement or court judgment, or if the lawsuit causes the agency to release records.",
+      "conditions": "Must substantially prevail in litigation; court has discretion to award fees",
+      "applies_to": "Requesters who file lawsuits and substantially prevail",
+      "implementation_notes": "Fee awards are available even if the agency releases records after the lawsuit but before judgment. This incentivizes agencies to comply rather than litigate.",
+      "request_tips": "If considering litigation, consult an attorney about potential fee recovery. Document all agency delays and denials. Courts often award fees when agencies improperly withhold records."
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "No Additional Fee for Electronic Delivery",
+      "statute_citation": "5 U.S.C. § 552(a)(4)(A)(iv)(I)",
+      "description": "Agencies may not charge duplication fees for electronic records sent electronically. There is no 'duplication' cost when records are emailed or made available for download.",
+      "conditions": "Applies when records are maintained and provided electronically",
+      "applies_to": "All requesters",
+      "implementation_notes": "Many agencies incorrectly charge duplication fees for electronic records. The statute is clear: no duplication fee for electronic transmission.",
+      "request_tips": "Request records in electronic format and note: 'Under 5 U.S.C. § 552(a)(4)(A)(iv)(I), no duplication fees may be charged for records provided electronically.' If charged, appeal citing this provision."
+    },
+    {
+      "category": "Proactive Disclosure",
+      "subcategory": "Federal Register Publications",
+      "statute_citation": "5 U.S.C. § 552(a)(1)",
+      "description": "Agencies must publish in the Federal Register: (A) descriptions of their organization and office locations; (B) statements of the general course and method of their functions and operations; (C) rules of procedure and forms; (D) substantive rules of general applicability and interpretations of general applicability; (E) amendments, revisions, or repeals of the foregoing.",
+      "conditions": "Applies to all federal agencies",
+      "applies_to": "General public - Federal Register is freely available online",
+      "implementation_notes": "The Federal Register is published daily and available at federalregister.gov. This information cannot be the basis for adverse action unless the affected person had actual notice.",
+      "request_tips": "Start with the Federal Register and agency websites for policy statements and procedural rules. These are already public. FOIA is needed only for unpublished agency materials."
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Segregability Requirement",
+      "statute_citation": "5 U.S.C. § 552(a)(8)(A)(ii)(III)",
+      "description": "When an agency withholds information under a FOIA exemption, it must release any reasonably segregable portions of records after redacting exempt material. Agencies cannot withhold entire documents if portions are releasable.",
+      "conditions": "Applies whenever an exemption is claimed",
+      "applies_to": "All requesters",
+      "implementation_notes": "The segregability requirement is mandatory, not discretionary. Even heavily exempted documents must be reviewed line-by-line to release non-exempt portions.",
+      "request_tips": "When records are withheld or redacted, respond: 'I request that you release all reasonably segregable portions of any withheld records as required by 5 U.S.C. § 552(a)(8)(A)(ii)(III). Please provide a detailed justification for each withholding and confirmation that no additional segregable portions exist.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Multitrack Processing",
+      "statute_citation": "5 U.S.C. § 552(a)(6)(D)",
+      "description": "Agencies may use multitrack processing to distinguish between simple and complex requests. Simple requests in the fast track are processed more quickly than complex requests requiring consultation or voluminous records review.",
+      "conditions": "Agency may establish multiple tracks based on complexity, volume, and other factors",
+      "applies_to": "All requesters - benefits those making simple requests",
+      "implementation_notes": "If your request is placed in a slow track, consider narrowing the scope to move it to a faster track. Agencies must provide an opportunity to limit the scope.",
+      "request_tips": "If you receive notice your request is in a slow track due to volume or complexity, consider narrowing the request to expedite processing. Ask the agency to suggest ways to limit scope for faster processing."
+    }
+  ],
+  "validation_metadata": {
+    "parsed_date": "2025-10-07",
+    "source_url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title5-section552",
+    "source_verified": true,
+    "primary_sources": [
+      "U.S. Code - 5 U.S.C. § 552 (uscode.house.gov)",
+      "DOJ FOIA Guide (justice.gov/oip/doj-guide-freedom-information-act-0)",
+      "FOIA.gov (official government FOIA portal)"
+    ],
+    "verification_notes": "All rights verified against current U.S. Code Title 5 Section 552 as of October 2025. Cross-referenced with DOJ FOIA Guide for implementation guidance and request tips.",
+    "rights_count": 15,
+    "categories_covered": [
+      "Proactive Disclosure",
+      "Technology Rights",
+      "Enhanced Access Rights",
+      "Timeliness Rights",
+      "Inspection Rights",
+      "Requester-Specific Rights"
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "jurisdiction": "Pennsylvania",
+  "jurisdiction_code": "PA",
+  "year": 2025,
+  "source_url": "https://www.pa.gov/agencies/budget/programs-and-services/for-commonwealth-agencies-and-employees/for-agencies/payroll-operations/holiday-and-pay-calendars",
+  "source_type": "hr_calendar",
+  "verified_date": "2025-10-02",
+  "weekend_observation_rule": "if_saturday_observe_friday_if_sunday_observe_monday",
+  "holidays": [
+    {
+      "name": "New Year's Day",
+      "statutory_date": "2025-01-01",
+      "observed_date": "2025-01-01",
+      "day_of_week": "Wednesday",
+      "is_state_holiday": true,
+      "notes": ""
+    },
+    {
+      "name": "Martin Luther King Jr. Day",
+      "statutory_date": "2025-01-20",
+      "observed_date": "2025-01-20",
+      "day_of_week": "Monday",
+      "is_state_holiday": true,
+      "notes": ""
+    },
+    {
+      "name": "Presidents Day",
+      "statutory_date": "2025-02-17",
+      "observed_date": "2025-02-17",
+      "day_of_week": "Monday",
+      "is_state_holiday": true,
+      "notes": ""
+    },
+    {
+      "name": "Memorial Day",
+      "statutory_date": "2025-05-26",
+      "observed_date": "2025-05-26",
+      "day_of_week": "Monday",
+      "is_state_holiday": true,
+      "notes": ""
+    },
+    {
+      "name": "Juneteenth",
+      "statutory_date": "2025-06-19",
+      "observed_date": "2025-06-19",
+      "day_of_week": "Thursday",
+      "is_state_holiday": true,
+      "notes": ""
+    },
+    {
+      "name": "Independence Day",
+      "statutory_date": "2025-07-04",
+      "observed_date": "2025-07-04",
+      "day_of_week": "Friday",
+      "is_state_holiday": true,
+      "notes": ""
+    },
+    {
+      "name": "Labor Day",
+      "statutory_date": "2025-09-01",
+      "observed_date": "2025-09-01",
+      "day_of_week": "Monday",
+      "is_state_holiday": true,
+      "notes": ""
+    },
+    {
+      "name": "Columbus Day",
+      "statutory_date": "2025-10-13",
+      "observed_date": "2025-10-13",
+      "day_of_week": "Monday",
+      "is_state_holiday": true,
+      "notes": ""
+    },
+    {
+      "name": "Veterans Day",
+      "statutory_date": "2025-11-11",
+      "observed_date": "2025-11-11",
+      "day_of_week": "Tuesday",
+      "is_state_holiday": true,
+      "notes": ""
+    },
+    {
+      "name": "Thanksgiving Day",
+      "statutory_date": "2025-11-27",
+      "observed_date": "2025-11-27",
+      "day_of_week": "Thursday",
+      "is_state_holiday": true,
+      "notes": ""
+    },
+    {
+      "name": "Day after Thanksgiving",
+      "statutory_date": "2025-11-28",
+      "observed_date": "2025-11-28",
+      "day_of_week": "Friday",
+      "is_state_holiday": true,
+      "notes": ""
+    },
+    {
+      "name": "Christmas Day",
+      "statutory_date": "2025-12-25",
+      "observed_date": "2025-12-25",
+      "day_of_week": "Thursday",
+      "is_state_holiday": true,
+      "notes": ""
+    }
+  ]
+}

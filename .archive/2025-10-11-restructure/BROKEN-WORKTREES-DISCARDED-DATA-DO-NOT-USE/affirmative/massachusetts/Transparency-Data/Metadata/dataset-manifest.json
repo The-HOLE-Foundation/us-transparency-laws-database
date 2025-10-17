@@ -1,0 +1,141 @@
+{
+  "dataset_name": "US Transparency Laws Database",
+  "version": "0.11",
+  "release_date": "2025-09-26",
+  "total_jurisdictions": 51,
+  "jurisdictions_with_2025_updates": 10,
+  "jurisdictions_verified_no_changes": 41,
+  "data_formats": [
+    "markdown",
+    "json",
+    "csv",
+    "plain_text"
+  ],
+  "license": "Public Domain / CC0 1.0 Universal",
+  "maintained_by": "TransparencyDataset Project",
+  "last_verification": "2025-09-26",
+  "coverage": {
+    "federal": 1,
+    "states": 50,
+    "territories": 0
+  },
+  "files": {
+    "process_maps": {
+      "count": 51,
+      "format": "markdown",
+      "location": "Individual-Jurisdictions/"
+    },
+    "full_text_statutes": {
+      "count": 51,
+      "format": "plain_text",
+      "location": "Full-Text-Statutes/"
+    },
+    "consolidated_datasets": {
+      "comprehensive_master": {
+        "filename": "COMPREHENSIVE-MASTER-ALL-51-JURISDICTIONS-v0.11.md",
+        "format": "markdown",
+        "lines": 13681
+      },
+      "json_database": {
+        "filename": "transparency-laws-database-v0.11.json",
+        "format": "json",
+        "records": 51
+      },
+      "csv_database": {
+        "filename": "transparency-laws-database-v0.11.csv",
+        "format": "csv",
+        "records": 51
+      }
+    },
+    "documentation": {
+      "readme": "README.md",
+      "changelog": "CHANGELOG-v0.11.md",
+      "version_history": "Metadata/version-history.md"
+    }
+  },
+  "jurisdictions_with_amendments": [
+    {
+      "name": "Texas",
+      "bill": "HB 4219",
+      "effective_date": "2025-09-01",
+      "impact": "major"
+    },
+    {
+      "name": "California",
+      "bill": "AB 370 & AB 1785",
+      "effective_date": "2025-07-01",
+      "impact": "moderate"
+    },
+    {
+      "name": "Colorado",
+      "bill": "SB25-077",
+      "effective_date": "vetoed_2025-04-17",
+      "impact": "none"
+    },
+    {
+      "name": "Illinois",
+      "bill": "Multiple 2024-2025 amendments",
+      "effective_date": "various_2024-2025",
+      "impact": "moderate"
+    },
+    {
+      "name": "Washington",
+      "bill": "2025 amendments",
+      "effective_date": "2025-07-27",
+      "impact": "moderate"
+    },
+    {
+      "name": "Florida",
+      "bill": "SB 268",
+      "effective_date": "2025",
+      "impact": "minor"
+    },
+    {
+      "name": "Missouri",
+      "bill": "2025 amendments",
+      "effective_date": "2025-08",
+      "impact": "minor"
+    },
+    {
+      "name": "Montana",
+      "bill": "Administrative rules",
+      "effective_date": "2025-10",
+      "impact": "minor"
+    },
+    {
+      "name": "Virginia",
+      "bill": "Multiple 2025 FOIA amendments",
+      "effective_date": "2025",
+      "impact": "minor"
+    },
+    {
+      "name": "Wisconsin",
+      "bill": "2025 amendments",
+      "effective_date": "2025",
+      "impact": "minor"
+    }
+  ],
+  "statistics": {
+    "total_process_maps": 51,
+    "total_full_text_statutes": 51,
+    "comprehensive_master_lines": 13681,
+    "jurisdictions_major_changes": 3,
+    "jurisdictions_moderate_changes": 2,
+    "jurisdictions_minor_changes": 5,
+    "jurisdictions_no_changes": 41
+  },
+  "quality_assurance": {
+    "verification_method": "Manual statutory review",
+    "verification_date": "2025-09-26",
+    "sources_verified": true,
+    "cross_referenced": true,
+    "effective_dates_confirmed": true
+  },
+  "technical_specifications": {
+    "encoding": "UTF-8",
+    "line_endings": "Unix (LF)",
+    "markdown_flavor": "GitHub Flavored Markdown",
+    "json_indent": 2,
+    "csv_delimiter": ","
+  }
+}

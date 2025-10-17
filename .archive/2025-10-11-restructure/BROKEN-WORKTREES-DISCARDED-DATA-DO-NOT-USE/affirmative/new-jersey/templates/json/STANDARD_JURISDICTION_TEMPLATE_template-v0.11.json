@@ -1,0 +1,68 @@
+{
+  "jurisdiction_info": {
+    "jurisdiction_code": "",
+    "jurisdiction_name": "",
+    "jurisdiction_type": ""
+  },
+  "statute_details": {
+    "official_name": "",
+    "statute_citation": "",
+    "chapter_section": "",
+    "effective_date": "",
+    "last_amended": ""
+  },
+  "response_requirements": {
+    "initial_response_days": 0,
+    "initial_response_description": "",
+    "maximum_response_days": 0,
+    "extension_allowed": false,
+    "extension_max_days": 0,
+    "extension_conditions": []
+  },
+  "appeal_process": {
+    "administrative_appeal_required": false,
+    "appeal_deadline_days": 0,
+    "appeal_authority": "",
+    "judicial_review_available": false,
+    "court_jurisdiction": ""
+  },
+  "fee_structure": {
+    "standard_copy_fee": "",
+    "electronic_fee": "",
+    "search_time_fee": "",
+    "certification_fee": "",
+    "waiver_available": false,
+    "waiver_criteria": []
+  },
+  "exemptions": [],
+  "requester_requirements": {
+    "identification_required": false,
+    "purpose_statement_required": false,
+    "residency_requirement": false,
+    "specific_format": ""
+  },
+  "agency_obligations": {
+    "records_officer_required": false,
+    "business_hours_access": false,
+    "electronic_submission_accepted": false,
+    "response_format_options": []
+  },
+  "oversight_body": {
+    "name": "",
+    "role": "",
+    "contact_info": ""
+  },
+  "official_resources": {
+    "primary_statute_url": "",
+    "agency_handbook_url": "",
+    "request_portal_url": "",
+    "oversight_url": ""
+  },
+  "validation_metadata": {
+    "verification_date": "",
+    "source_verified": false,
+    "primary_sources": [],
+    "verification_notes": "",
+    "confidence_level": ""
+  }
+}

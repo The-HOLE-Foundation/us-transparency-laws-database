@@ -1,0 +1,131 @@
+{
+  "jurisdiction": "Texas",
+  "jurisdiction_code": "TX",
+  "year": 2025,
+  "source_url": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.662.htm",
+  "source_type": "statute",
+  "verified_date": "2025-10-02",
+  "weekend_observation_rule": "no_shift_observed_on_actual_date",
+  "holidays": [
+    {
+      "name": "New Year's Day",
+      "statutory_date": "2025-01-01",
+      "observed_date": "2025-01-01",
+      "day_of_week": "Wednesday",
+      "is_state_holiday": true,
+      "notes": "National holiday - mandatory closure"
+    },
+    {
+      "name": "Martin Luther King, Jr. Day",
+      "statutory_date": "2025-01-20",
+      "observed_date": "2025-01-20",
+      "day_of_week": "Monday",
+      "is_state_holiday": true,
+      "notes": "National holiday - mandatory closure; Third Monday in January"
+    },
+    {
+      "name": "Presidents' Day",
+      "statutory_date": "2025-02-17",
+      "observed_date": "2025-02-17",
+      "day_of_week": "Monday",
+      "is_state_holiday": true,
+      "notes": "National holiday - mandatory closure; Third Monday in February"
+    },
+    {
+      "name": "San Jacinto Day",
+      "statutory_date": "2025-04-21",
+      "observed_date": "2025-04-21",
+      "day_of_week": "Monday",
+      "is_state_holiday": true,
+      "notes": "State holiday - skeleton crew; Commemorates Battle of San Jacinto"
+    },
+    {
+      "name": "Memorial Day",
+      "statutory_date": "2025-05-26",
+      "observed_date": "2025-05-26",
+      "day_of_week": "Monday",
+      "is_state_holiday": true,
+      "notes": "National holiday - mandatory closure; Last Monday in May"
+    },
+    {
+      "name": "Emancipation Day in Texas (Juneteenth)",
+      "statutory_date": "2025-06-19",
+      "observed_date": "2025-06-19",
+      "day_of_week": "Thursday",
+      "is_state_holiday": true,
+      "notes": "State holiday - skeleton crew; Also federal holiday"
+    },
+    {
+      "name": "Independence Day",
+      "statutory_date": "2025-07-04",
+      "observed_date": "2025-07-04",
+      "day_of_week": "Friday",
+      "is_state_holiday": true,
+      "notes": "National holiday - mandatory closure"
+    },
+    {
+      "name": "Lyndon Baines Johnson Day",
+      "statutory_date": "2025-08-27",
+      "observed_date": "2025-08-27",
+      "day_of_week": "Wednesday",
+      "is_state_holiday": true,
+      "notes": "State holiday - skeleton crew"
+    },
+    {
+      "name": "Labor Day",
+      "statutory_date": "2025-09-01",
+      "observed_date": "2025-09-01",
+      "day_of_week": "Monday",
+      "is_state_holiday": true,
+      "notes": "National holiday - mandatory closure; First Monday in September"
+    },
+    {
+      "name": "Veterans Day",
+      "statutory_date": "2025-11-11",
+      "observed_date": "2025-11-11",
+      "day_of_week": "Tuesday",
+      "is_state_holiday": true,
+      "notes": "National holiday - mandatory closure"
+    },
+    {
+      "name": "Thanksgiving Day",
+      "statutory_date": "2025-11-27",
+      "observed_date": "2025-11-27",
+      "day_of_week": "Thursday",
+      "is_state_holiday": true,
+      "notes": "National holiday - mandatory closure; Fourth Thursday in November"
+    },
+    {
+      "name": "Friday after Thanksgiving",
+      "statutory_date": "2025-11-28",
+      "observed_date": "2025-11-28",
+      "day_of_week": "Friday",
+      "is_state_holiday": true,
+      "notes": "State holiday - skeleton crew"
+    },
+    {
+      "name": "December 24",
+      "statutory_date": "2025-12-24",
+      "observed_date": "2025-12-24",
+      "day_of_week": "Wednesday",
+      "is_state_holiday": true,
+      "notes": "State holiday - skeleton crew"
+    },
+    {
+      "name": "Christmas",
+      "statutory_date": "2025-12-25",
+      "observed_date": "2025-12-25",
+      "day_of_week": "Thursday",
+      "is_state_holiday": true,
+      "notes": "National holiday - mandatory closure"
+    },
+    {
+      "name": "December 26",
+      "statutory_date": "2025-12-26",
+      "observed_date": "2025-12-26",
+      "day_of_week": "Friday",
+      "is_state_holiday": true,
+      "notes": "State holiday - skeleton crew"
+    }
+  ]
+}

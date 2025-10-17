@@ -1,0 +1,107 @@
+name: Automated PR Review
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  data-validation:
+    name: Validate Data Integrity
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check out PR branch
+        run: |
+          git fetch origin ${{ github.head_ref }}
+          git checkout ${{ github.head_ref }}
+
+      - name: Count Jurisdictions
+        id: count
+        run: |
+          if [ -f "complete-51-states-data-VERIFIED.json" ]; then
+            COUNT=$(jq 'keys | length' complete-51-states-data-VERIFIED.json 2>/dev/null || echo "0")
+            echo "jurisdiction_count=$COUNT" >> $GITHUB_OUTPUT
+            if [ "$COUNT" -eq "51" ]; then
+              echo "✅ All 51 jurisdictions present"
+            else
+              echo "⚠️ Found $COUNT jurisdictions (expected 51)"
+              exit 1
+            fi
+          else
+            echo "📝 No consolidated data file in this branch"
+          fi
+
+      - name: Validate JSON Files
+        run: |
+          echo "🔍 Validating all JSON files..."
+          for file in $(find . -name "*.json" -type f); do
+            if ! jq empty "$file" 2>/dev/null; then
+              echo "❌ Invalid JSON: $file"
+              exit 1
+            fi
+          done
+          echo "✅ All JSON files are valid"
+
+      - name: Check Supabase Integration
+        run: |
+          if [ -d "supabase" ]; then
+            echo "🚀 Supabase integration found"
+            if [ -d "supabase/migrations" ]; then
+              MIGRATIONS=$(ls supabase/migrations/*.sql 2>/dev/null | wc -l)
+              echo "  - Migrations: $MIGRATIONS files"
+            fi
+            if [ -d "supabase/seed" ]; then
+              SEEDS=$(ls supabase/seed/*.sql 2>/dev/null | wc -l)
+              echo "  - Seeds: $SEEDS files"
+            fi
+          else
+            echo "📝 No Supabase integration in this branch"
+          fi
+
+      - name: Documentation Check
+        run: |
+          echo "📚 Checking documentation..."
+          if [ -f "README.md" ]; then
+            echo "✅ README.md present"
+          fi
+          if [ -d "documentation" ] || [ -d "docs" ]; then
+            echo "✅ Documentation folder found"
+          fi
+
+      - name: File Statistics
+        run: |
+          echo "📊 Branch Statistics:"
+          echo "  - Total files: $(git ls-tree -r HEAD --name-only | wc -l)"
+          echo "  - JSON files: $(find . -name "*.json" -type f | wc -l)"
+          echo "  - Markdown files: $(find . -name "*.md" -type f | wc -l)"
+          echo "  - SQL files: $(find . -name "*.sql" -type f | wc -l)"
+
+      - name: Comment PR Status
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const message = `## 🤖 Automated PR Review
+
+            ### ✅ Validation Results
+            - JSON Validation: Passed
+            - Documentation: Present
+            - File Count: See workflow logs
+
+            ### 📋 Manual Review Checklist
+            - [ ] Data completeness verified
+            - [ ] No sensitive information exposed
+            - [ ] Conflicts resolved appropriately
+            - [ ] Documentation updated
+
+            ### 🔄 Merge Readiness
+            This PR has passed automated checks. Please complete manual review.`;
+
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: message
+            });

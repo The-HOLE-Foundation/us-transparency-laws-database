@@ -1,0 +1,169 @@
+{
+  "jurisdiction": "Idaho",
+  "transparency_law": {
+    "name": "Idaho Public Records Act",
+    "statute_citation": "Idaho Code §§ 74-101 to 74-126",
+    "effective_date": "1990-01-01",
+    "last_amended": "2015-07-01",
+    "response_requirements": {
+      "initial_response_time": 3,
+      "initial_response_unit": "working_days",
+      "initial_response_description": "For Idaho residents: 3 working days to grant or deny request. If longer time needed: notify in writing and provide records within 10 working days. Non-residents: up to 35 days.",
+      "maximum_response_time": 10,
+      "extension_allowed": true,
+      "extension_max_time": 10,
+      "extension_conditions": [
+        "Longer time needed for Idaho residents: notify in writing within 3 working days, provide records within 10 working days total"
+      ],
+      "no_response_consequence": "May file proceedings in district court for wrongful denial"
+    },
+    "fee_structure": {
+      "standard_copy_fee": "Cannot exceed actual labor and copying costs",
+      "electronic_fee": "Actual costs",
+      "search_time_fee": "Calculated based on lowest-paid staff member capable of performing task",
+      "certification_fee": "Not specified",
+      "waiver_available": true,
+      "waiver_criteria": [
+        "Request contributes significantly to public understanding of government operations or activities"
+      ],
+      "notes": "Fees cannot exceed actual labor and copying costs. May waive fees if request serves public understanding."
+    },
+    "exemptions": [
+      {
+        "category": "Law Enforcement Records",
+        "citation": "Idaho Code § 74-105",
+        "description": "Law enforcement records and investigatory records",
+        "scope": "moderate"
+      },
+      {
+        "category": "Workers Compensation",
+        "citation": "Idaho Code § 74-101 et seq.",
+        "description": "Worker's compensation records",
+        "scope": "narrow"
+      },
+      {
+        "category": "Trade Secrets",
+        "citation": "Idaho Code § 74-101 et seq.",
+        "description": "Records containing trade secrets or commercial information",
+        "scope": "moderate"
+      },
+      {
+        "category": "Personnel Files",
+        "citation": "Idaho Code § 74-101 et seq.",
+        "description": "Personnel files and evaluation materials",
+        "scope": "moderate"
+      },
+      {
+        "category": "Medical Records",
+        "citation": "Idaho Code § 74-101 et seq.",
+        "description": "Medical records and personal information",
+        "scope": "moderate"
+      },
+      {
+        "category": "Attorney-Client Privilege",
+        "citation": "Idaho Code § 74-101 et seq.",
+        "description": "Attorney-client privileged communications",
+        "scope": "narrow"
+      },
+      {
+        "category": "Federal Confidentiality",
+        "citation": "Idaho Code § 74-101 et seq.",
+        "description": "Records required to be kept confidential by federal law",
+        "scope": "broad"
+      },
+      {
+        "category": "Computer Software",
+        "citation": "Idaho Code § 74-101 et seq.",
+        "description": "Computer software developed by agencies for their own use",
+        "scope": "narrow"
+      },
+      {
+        "category": "Security Plans",
+        "citation": "Idaho Code § 74-101 et seq.",
+        "description": "Security plans and procedures",
+        "scope": "narrow"
+      },
+      {
+        "category": "Academic Records",
+        "citation": "Idaho Code § 74-101 et seq.",
+        "description": "Academic records",
+        "scope": "moderate"
+      },
+      {
+        "category": "Adoption Records",
+        "citation": "Idaho Code § 74-101 et seq.",
+        "description": "Adoption records",
+        "scope": "narrow"
+      }
+    ],
+    "appeal_process": {
+      "administrative_appeal_required": false,
+      "appeal_deadline_days": null,
+      "appeal_deadline_unit": null,
+      "appeal_authority": "District Court",
+      "appeal_description": "File proceedings in district court of county where records are located. Court may examine records in camera.",
+      "judicial_review_available": true,
+      "judicial_review_deadline_days": null,
+      "court_jurisdiction": "District court of county where records are located",
+      "burden_of_proof": "Agency must justify withholding",
+      "penalties": {
+        "criminal": "Penalties up to $1,000 for public officials who deliberately refuse access improperly",
+        "civil": "Court may award reasonable attorney fees and costs if request not frivolously pursued"
+      }
+    },
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "residency_requirement": false,
+      "specific_format": "Request must be made in writing to designated custodian and clearly indicate it is a public records request.",
+      "notes": "No residency requirement for access, though response times vary (3 days for residents, 35 days for non-residents). Any person may request access."
+    },
+    "agency_obligations": {
+      "records_officer_required": true,
+      "business_hours_access": false,
+      "electronic_submission_accepted": false,
+      "response_format_options": [
+        "Examination",
+        "Copying"
+      ],
+      "training_required": false,
+      "annual_reporting_required": false,
+      "specific_obligations": [
+        "Designate custodian for public records",
+        "Respond within 3 working days for Idaho residents",
+        "Separate exempt and non-exempt material when applicable",
+        "Provide written notice if longer time needed",
+        "Maintain records according to established schedules"
+      ]
+    },
+    "oversight_body": {
+      "name": "None - Court Enforcement",
+      "role": "No centralized oversight. Enforcement through district court system.",
+      "contact_info": "Requests must be directed to individual agencies' designated custodians",
+      "statute_reference": "Idaho Code § 74-115 to 74-117",
+      "enforcement_powers": [
+        "District courts may order immediate disclosure",
+        "Courts may award attorney fees and costs",
+        "Courts may impose penalties on officials who improperly deny access"
+      ]
+    },
+    "official_resources": {
+      "primary_statute_url": "https://legislature.idaho.gov/statutesrules/idstat/Title74/",
+      "agency_handbook_url": null,
+      "request_portal_url": null,
+      "oversight_url": null
+    },
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_verified": true,
+      "primary_sources": [
+        "Idaho Code Title 74, Chapter 1",
+        "Idaho Public Records Act §§ 74-101 through 74-126"
+      ],
+      "verification_notes": "Parsed from official statutory text file. Response time verified against canonical-values.json (3 working days). 11 exemptions parsed from statute.",
+      "last_verified_date": "2025-10-03"
+    }
+  },
+  "agencies": []
+}

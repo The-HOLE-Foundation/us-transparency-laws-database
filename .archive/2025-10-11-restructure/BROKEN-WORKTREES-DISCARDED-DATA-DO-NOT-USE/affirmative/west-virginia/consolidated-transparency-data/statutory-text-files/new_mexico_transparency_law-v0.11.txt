@@ -1,0 +1,122 @@
+NEW MEXICO INSPECTION OF PUBLIC RECORDS ACT (IPRA)
+Collection Date: January 9, 2025
+Source: New Mexico Department of Justice
+Statute Citation: NMSA 1978, Sections 14-2-1 to 14-2-12
+
+LEGISLATIVE PURPOSE
+
+NMSA 14-2-1 - Intent and Declaration of Public Policy
+Recognizing that a representative government is dependent upon an informed electorate, the intent of the legislature in enacting the Inspection of Public Records Act is to ensure, and it is declared to be the public policy of this state, that all persons are entitled to the greatest possible information regarding the affairs of government and the official acts of public officers and employees. It is the further intent of the legislature, and it is declared to be the public policy of this state, that to provide persons with such information is an essential function of a representative government and an integral part of the routine duties of public officers and employees.
+
+RIGHT TO INSPECT RECORDS
+
+NMSA 14-2-1 - Basic Right
+Every person has a right to inspect public records of this state except as provided in the Inspection of Public Records Act.
+
+RESPONSE REQUIREMENTS
+
+NMSA 14-2-8 - Response Timeframes
+- Records custodians must permit inspection immediately or as soon as practicable
+- Maximum response time: 15 calendar days after receiving the inspection request
+- If inspection is not permitted within 3 business days, written response required explaining when records will be available
+- Written denials must be delivered or mailed within 15 calendar days
+- If additional time needed beyond 15 days, written notification required within 15 calendar days
+
+FEES
+
+NMSA 14-2-9 - Fees for Copies
+- May charge reasonable fees for copies of public records
+- Fees must be kept to actual cost of copying
+- Search fees are NOT permitted in New Mexico
+- No fee waivers available
+- Typical fee: $0.25 per side of copying
+
+REQUEST REQUIREMENTS
+
+- No requirement to state reason for inspecting records
+- No citizenship requirement
+- Written requests recommended but not required
+- No administrative appeals process available
+
+EXEMPTIONS FROM DISCLOSURE
+
+NMSA 14-2-1 - Exempt Records (approximately 12 specific exemptions):
+
+1. Records pertaining to physical or mental examinations and medical treatment of persons
+2. Letters of reference concerning employment, licensing, or permits  
+3. Letters or memoranda that are matters of opinion in personnel files or students' cumulative files
+4. Portions of law enforcement records that reveal:
+   - Confidential sources, methods, information or individuals accused but not charged
+   - Unique investigative techniques
+   - Information that would interfere with law enforcement proceedings
+5. Medical records (broader exemption than most states - covers ALL medical records)
+6. Trade secrets and confidential commercial information
+7. Discharge papers for veterans
+8. Tactical response information relating to terrorist attacks
+9. Personal identifiers in combination with sensitive information
+10. Information that would compromise security systems
+11. Pending litigation materials covered by attorney-client privilege
+12. Student educational records protected by federal law
+
+ENFORCEMENT AND APPEALS
+
+NMSA 14-2-11 - Enforcement Authority
+- Attorney General has statutory authority to enforce IPRA
+- District attorneys may also enforce IPRA
+- Individual requestors may file suits in district court
+- No administrative appeals process
+
+ATTORNEY GENERAL COMPLAINT PROCESS:
+- Government Counsel & Accountability (GCA) team reviews complaints
+- Informal resolution attempted first
+- Can file lawsuit if violation found and informal resolution fails
+- Complaint system available for potential IPRA violations
+
+COURT ENFORCEMENT:
+- District court jurisdiction for IPRA violations
+- Mandamus actions available to compel disclosure
+- Courts may award attorney's fees to prevailing requestors
+- Injunctive relief available
+
+RECENT DEVELOPMENTS (2024):
+
+1. Franklin v. Keefe Commissary Network (2024-NMCA-070):
+   - Records of private entities performing public functions subject to IPRA
+   - Expanded scope of what constitutes public records
+
+2. Albuquerque Journal v. Board of Education (October 30, 2024):
+   - Recent Court of Appeals opinion affecting IPRA interpretation
+   - Specific impacts to be determined
+
+KEY CHARACTERISTICS:
+
+- No mandatory response times beyond 15 days
+- No fee waivers available  
+- No administrative appeals process
+- No citizenship requirement
+- No requirement to state purpose
+- Search fees prohibited
+- Medical records broadly exempted
+- Opinion letters in personnel files exempted
+- Strong enforcement authority with Attorney General
+
+CONTACT FOR VIOLATIONS:
+New Mexico Attorney General
+Government Counsel & Accountability Team
+PO Drawer 1508
+Santa Fe, NM 87504-1508
+
+RESPONSE TIMEFRAMES:
+- Immediate or as soon as practicable (preferred)
+- Written response if not available within 3 business days
+- Maximum response: 15 calendar days
+- Written denial: Within 15 calendar days
+- Additional time notice: Within 15 calendar days
+
+ENFORCEMENT:
+- Attorney General complaint process
+- District attorney enforcement authority
+- Individual requester court actions
+- District court jurisdiction
+- Mandamus and injunctive relief available
+- Potential attorney's fees for prevailing requestors

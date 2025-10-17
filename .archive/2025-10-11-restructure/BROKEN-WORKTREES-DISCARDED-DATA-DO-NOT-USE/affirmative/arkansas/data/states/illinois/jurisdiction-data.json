@@ -1,0 +1,164 @@
+{
+  "jurisdiction": "Illinois",
+  "transparency_law": {
+    "name": "Illinois Freedom of Information Act",
+    "statute_citation": "5 ILCS § 140/1 et seq.",
+    "effective_date": "1984-01-01",
+    "last_amended": "2025-01-01",
+
+    "response_requirements": {
+      "initial_response_time": 5,
+      "initial_response_unit": "business_days",
+      "initial_response_description": "5 business days to respond (grant, deny, or extend)",
+      "final_response_time": 5,
+      "final_response_unit": "business_days",
+      "final_response_notes": "May extend up to additional 5 business days with written notice (total maximum 10 business days for standard requests)",
+      "extension_allowed": true,
+      "extension_max_days": 5,
+      "extension_notes": "Additional 5 business days with written notice; additional time for voluminous requests requiring compilation or extensive search",
+      "commercial_request_time": 21,
+      "commercial_request_unit": "working_days",
+      "commercial_request_notes": "Commercial requests: 21 working days with possible 10 working day extension"
+    },
+
+    "fee_structure": {
+      "search_fee": "May charge for commercial requests",
+      "search_fee_notes": "Search and review time may be charged for commercial requests only",
+      "search_fee_statutory_cite": "5 ILCS § 140/6",
+      "copy_fee_per_page": 0.15,
+      "copy_fee_notes": "First 50 pages black and white: FREE; additional b/w pages: $0.15/page; color copies at actual cost",
+      "copy_fee_cite": "5 ILCS § 140/6",
+      "electronic_fee": "Actual cost of medium",
+      "certification_fee": 1.00,
+      "certification_notes": "$1.00 per document plus copy fees",
+      "fee_waiver_available": true,
+      "fee_waiver_criteria": "When disclosure serves public interest or requestor's primary purpose is publication/broadcast",
+      "fee_waiver_cite": "5 ILCS § 140/6"
+    },
+
+    "exemptions": [
+      {
+        "category": "Statutory Prohibition",
+        "citation": "5 ILCS § 140/7(1)(a)",
+        "description": "Information specifically prohibited from disclosure by federal or state law",
+        "scope": "broad"
+      },
+      {
+        "category": "Personal Privacy",
+        "citation": "5 ILCS § 140/7(1)(b)",
+        "description": "Private information including personal, medical, and financial details",
+        "scope": "moderate"
+      },
+      {
+        "category": "Personal Records",
+        "citation": "5 ILCS § 140/7(1)(c)",
+        "description": "Personal records maintained by public bodies",
+        "scope": "moderate"
+      },
+      {
+        "category": "Law Enforcement",
+        "citation": "5 ILCS § 140/7(1)(d)",
+        "description": "Records of law enforcement investigations, intelligence information, and related materials",
+        "scope": "moderate"
+      },
+      {
+        "category": "Deliberative Process",
+        "citation": "5 ILCS § 140/7(1)(f)",
+        "description": "Preliminary drafts, notes, recommendations, and memoranda",
+        "scope": "moderate"
+      },
+      {
+        "category": "Trade Secrets",
+        "citation": "5 ILCS § 140/7(1)(g)",
+        "description": "Trade secrets and commercial or financial information",
+        "scope": "narrow"
+      },
+      {
+        "category": "Confidential Information",
+        "citation": "5 ILCS § 140/7(1)(h)",
+        "description": "Information received in confidence and disclosure would cause competitive harm",
+        "scope": "narrow"
+      },
+      {
+        "category": "Testing Materials",
+        "citation": "5 ILCS § 140/7(1)(i)",
+        "description": "Test questions and answers for academic or licensing examinations",
+        "scope": "narrow"
+      },
+      {
+        "category": "Library Records",
+        "citation": "5 ILCS § 140/7(1)(s)",
+        "description": "Library circulation records identifying users",
+        "scope": "narrow"
+      }
+    ],
+
+    "appeal_process": {
+      "first_level": "Public Access Counselor",
+      "first_level_deadline_days": 60,
+      "first_level_deadline_unit": "calendar_days",
+      "first_level_notes": "Request review by Public Access Counselor within 60 days of denial; PAC provides binding determination",
+      "first_level_cite": "5 ILCS § 140/9.5",
+      "second_level": "Circuit Court",
+      "second_level_deadline_days": null,
+      "second_level_notes": "File suit for injunctive or declaratory relief; court may award attorney fees and costs",
+      "second_level_cite": "5 ILCS § 140/11",
+      "attorney_fees_recoverable": true,
+      "attorney_fees_cite": "5 ILCS § 140/11",
+      "attorney_fees_notes": "Court may award reasonable attorney fees and costs to prevailing requester",
+      "civil_penalties": "Civil penalties $2,500-$5,000 for willful and intentional violations"
+    },
+
+    "requester_requirements": {
+      "identification_required": true,
+      "identification_notes": "Must include requester's contact information",
+      "purpose_statement_required": false,
+      "purpose_statement_prohibited": true,
+      "purpose_notes": "Public bodies cannot require purpose statement except for commercial requests",
+      "residency_requirement": false,
+      "request_format_notes": "Written request required (including electronic submission via email or fax)",
+      "specific_format": "Must clearly identify records sought; can submit via personal delivery, mail, fax, or email"
+    },
+
+    "agency_obligations": {
+      "records_officer_required": true,
+      "records_officer_notes": "Each public body must designate FOIA officer",
+      "records_officer_cite": "5 ILCS § 140/3.5",
+      "business_hours_access": true,
+      "business_hours_cite": "5 ILCS § 140/3",
+      "electronic_submission_accepted": true,
+      "electronic_submission_required": true,
+      "electronic_submission_notes": "Must accept electronic requests",
+      "response_format_options": "Must provide in electronic format when requested; cannot require specific software",
+      "liberal_construction": "Presumption that all records are open; law construed in favor of disclosure",
+      "redaction_required": "Must redact personal information before disclosure; balancing test for privacy vs public interest"
+    },
+
+    "oversight_body": {
+      "name": "Public Access Counselor - Office of the Attorney General",
+      "role": "Provides binding determinations on denials; issues advisory opinions; training",
+      "contact_info": "500 S. 2nd Street, Springfield, IL 62701; Phone: 1-877-299-FOIA; Email: public.access@ilag.gov",
+      "oversight_url": "https://illinoisattorneygeneral.gov/open-and-honest-government/pac/"
+    },
+
+    "official_resources": {
+      "primary_statute_url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=85&ChapterID=2",
+      "agency_handbook_url": "https://illinoisattorneygeneral.gov/open-and-honest-government/pac/",
+      "request_portal_url": null
+    },
+
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=85&ChapterID=2",
+      "source_verified": true,
+      "primary_sources": [
+        "5 ILCS 140/1 et seq.",
+        "Illinois General Assembly statute database",
+        "ILLINOIS_transparency_law-v0.11.txt"
+      ],
+      "verification_notes": "All fields manually verified from official Illinois statute. 5 business day response with 5 day extension possible (commercial requests: 21 working days with 10 day extension). First 50 pages free for black and white copies, then $0.15/page. Public Access Counselor provides binding administrative review within 60 days. Court enforcement with attorney fees available. Civil penalties $2,500-$5,000 for willful violations. Presumption of openness with liberal construction favoring disclosure."
+    }
+  },
+  "agencies": []
+}

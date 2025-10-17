@@ -1,0 +1,116 @@
+NEBRASKA PUBLIC RECORDS ACT
+Nebraska Revised Statutes §§ 84-712 through 84-712.09
+
+CITATION: Nebraska Revised Statutes §§ 84-712 through 84-712.09
+EFFECTIVE: Current as of 2025 (recent amendments effective January 1, 2025)
+OFFICIAL NAME: Nebraska Public Records Act
+
+KEY PROVISIONS SUMMARY:
+
+PURPOSE:
+Ensures public access to government records while protecting legitimate privacy and governmental interests.
+
+SECTION 84-712.01 - PUBLIC RECORDS ACCESS:
+
+1. PUBLIC RECORDS DEFINITION:
+   All records and documents, regardless of physical form, of or belonging to the state, any county, city, village, political subdivision, or tax-supported district in Nebraska.
+
+2. RESPONSE DEADLINE - 4 BUSINESS DAYS:
+   Upon receipt of written request, custodian must provide within four business days:
+   a) Cost estimate and access/copies of records, OR
+   b) Written denial with statutory citations if legally denied, OR  
+   c) Written explanation with earliest practicable date if request is extensive/difficult
+
+3. EXTENSIVE REQUEST PROVISIONS:
+   If entire request cannot be fulfilled within 4 business days due to significant difficulty or extensiveness, written explanation required with earliest practicable fulfillment date.
+
+SECTION 84-712.04 - DENIAL REQUIREMENTS:
+
+1. WRITTEN DENIAL REQUIRED:
+   Must include description of withheld record contents and specific reasons for denial
+
+2. STATUTORY CITATIONS:
+   Must cite particular statutes and subsections relied upon as authority for denial
+
+3. RIGHT TO APPEAL:
+   Denial notice must inform requester of appeal rights
+
+SECTION 84-712.05 - EXEMPTIONS:
+Records that may be withheld include:
+- Personal information in files maintained for employees/officials
+- Medical records and patient information
+- Trade secrets and proprietary information  
+- Attorney-client privileged communications
+- Law enforcement investigative records
+- Records specifically exempted by statute
+
+FEE STRUCTURE:
+Under § 84-712.03:
+- Actual costs of copying
+- Staff time for search and retrieval
+- Cannot charge more than actual cost incurred
+- Must provide cost estimate before fulfilling request
+
+LIBERAL CONSTRUCTION STANDARD:
+Statutes must be liberally construed when involving:
+- State, county, or political subdivision fiscal records
+- Audit, warrant, voucher, invoice, purchase order, requisition
+- Payroll, check, receipt, or other record involving public funds
+
+ENFORCEMENT:
+- Attorney General provides guidance and interpretation
+- District court jurisdiction for enforcement actions
+- Mandamus relief available for improper denials
+- Civil remedies for violations
+
+APPEALS PROCESS:
+1. Administrative appeal to custodian's superior (not required by statute)
+2. District court action for mandamus relief
+3. Court review of denials with burden on agency to justify
+4. Attorney fees may be available in some cases
+
+COMPLIANCE REQUIREMENTS:
+- Respond within 4 business days maximum
+- Provide one of three required responses (records, denial, or extension)
+- Include detailed statutory citations for denials
+- Charge only actual costs
+- Maintain records of requests and responses
+
+NOTABLE FEATURES:
+- Clear 4-day response deadline
+- Three specific response options required
+- Liberal construction for fiscal records
+- Detailed denial requirements with statutory citations
+- Cost estimate required before providing records
+
+RECENT AMENDMENTS:
+2024 Nebraska Laws LB 1074, § 98, effective January 1, 2025, may affect certain provisions.
+
+PUBLIC POLICY:
+Promotes government transparency while balancing legitimate privacy concerns and administrative efficiency.
+
+COVERAGE:
+- All state agencies and departments
+- Counties, cities, villages
+- Political subdivisions
+- Tax-supported districts
+- Any public body in Nebraska
+
+REQUEST BEST PRACTICES:
+- Submit written requests for better documentation
+- Be specific about records sought
+- Allow reasonable time for complex requests
+- Request cost estimates for large requests
+- Appeal denials that lack proper statutory citations
+
+UNIQUE ASPECTS:
+- Liberal construction standard for fiscal records
+- Specific 4-day response requirement with three options
+- Detailed denial requirements including content description
+- Recent amendments continuing to modernize the law
+
+NOTE: This is a summary of key provisions. Complete statutory text available in Nebraska Revised Statutes Chapter 84.
+
+LIBERAL CONSTRUCTION: Particularly applies to fiscal records, audits, and any records involving public funds.
+
+Last Updated: January 9, 2025

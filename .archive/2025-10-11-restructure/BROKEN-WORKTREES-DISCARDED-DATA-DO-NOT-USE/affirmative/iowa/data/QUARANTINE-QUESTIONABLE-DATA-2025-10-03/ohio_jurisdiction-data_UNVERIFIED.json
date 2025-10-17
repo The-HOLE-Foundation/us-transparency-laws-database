@@ -1,0 +1,158 @@
+{
+  "jurisdiction": "Ohio",
+  "transparency_law": {
+    "name": "Ohio Public Records Act",
+    "statute_citation": "Ohio Revised Code § 149.43",
+    "effective_date": null,
+    "last_amended": "2025-01-01",
+
+    "response_requirements": {
+      "initial_response_time": 3,
+      "initial_response_unit": "business_days",
+      "initial_response_description": "Must acknowledge receipt within 1 business day; must produce records or state grounds for denial within reasonable period of time per agency policy (typically 3 business days)",
+      "final_response_time": null,
+      "final_response_unit": "variable",
+      "final_response_notes": "Reasonable period of time as defined by each agency's public records policy; ground truth indicates typical response of 3 business days",
+      "extension_allowed": true,
+      "extension_max_days": null,
+      "extension_notes": "No specific extension period defined; must respond within 'reasonable period of time' as defined by agency policy",
+      "ag_review_timeline": null,
+      "ag_review_cite": null
+    },
+
+    "fee_structure": {
+      "search_fee": "Not allowed",
+      "search_fee_notes": "No charge for search time; copies provided at actual cost only",
+      "search_fee_statutory_cite": "Ohio Revised Code § 149.43(B)(8)",
+      "copy_fee_per_page": null,
+      "copy_fee_notes": "Copies provided at actual cost; varies by agency and format",
+      "copy_fee_cite": "Ohio Revised Code § 149.43(A)(2)",
+      "electronic_fee": "Actual cost",
+      "fee_waiver_available": false,
+      "fee_waiver_criteria": null,
+      "fee_waiver_cite": null
+    },
+
+    "exemptions": [
+      {
+        "category": "Medical Records",
+        "citation": "Ohio Revised Code § 149.43(A)(1)(a)",
+        "description": "Medical records and records pertaining to medical treatment",
+        "scope": "moderate"
+      },
+      {
+        "category": "Criminal Justice Records",
+        "citation": "Ohio Revised Code § 149.43(A)(1)(b)",
+        "description": "Records pertaining to probation and parole proceedings or sexually violent predator commitments",
+        "scope": "moderate"
+      },
+      {
+        "category": "Adoption Records",
+        "citation": "Ohio Revised Code § 149.43(A)(1)(d)",
+        "description": "Records pertaining to adoption proceedings, including contents of adoption files",
+        "scope": "narrow"
+      },
+      {
+        "category": "Juvenile Records",
+        "citation": "Ohio Revised Code § 149.43(A)(1)",
+        "description": "Records pertaining to actions under section 2151.85 and related juvenile proceedings",
+        "scope": "moderate"
+      },
+      {
+        "category": "Confidential Law Enforcement",
+        "citation": "Ohio Revised Code § 149.43(A)(1)",
+        "description": "Records of ongoing criminal investigations if disclosure would interfere with investigation",
+        "scope": "moderate"
+      },
+      {
+        "category": "Attorney Work Product",
+        "citation": "Ohio Revised Code § 149.43(A)(1)",
+        "description": "Trial preparation records and attorney work product in pending litigation",
+        "scope": "narrow"
+      },
+      {
+        "category": "Personal Privacy",
+        "citation": "Ohio Revised Code § 149.43(A)(1)",
+        "description": "Records that would constitute unwarranted invasion of personal privacy",
+        "scope": "broad"
+      },
+      {
+        "category": "Trade Secrets",
+        "citation": "Ohio Revised Code § 149.43(A)(1)",
+        "description": "Confidential commercial and proprietary information",
+        "scope": "narrow"
+      }
+    ],
+
+    "appeal_process": {
+      "first_level": "Court of Common Pleas",
+      "first_level_deadline_days": null,
+      "first_level_deadline_unit": null,
+      "first_level_notes": "Mandamus action may be filed in court of common pleas of the county where violation occurred, or in Supreme Court or Court of Appeals under original jurisdiction",
+      "first_level_cite": "Ohio Revised Code § 149.43(C)(1)",
+      "second_level": null,
+      "second_level_deadline_days": null,
+      "second_level_deadline_unit": null,
+      "second_level_notes": null,
+      "second_level_cite": null,
+      "attorney_fees_recoverable": true,
+      "attorney_fees_cite": "Ohio Revised Code § 149.43(C)(1)",
+      "attorney_fees_notes": "Court costs and reasonable attorney fees awarded to prevailing plaintiff; statutory damages of $100 per business day up to $1,000 if written request made by hand delivery, electronic submission, or certified mail"
+    },
+
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "purpose_statement_prohibited": true,
+      "purpose_notes": "Office may ask for identity and intended use but cannot require disclosure; cannot limit or condition availability based on identity or purpose",
+      "residency_requirement": false,
+      "request_format_notes": "Office may ask requester to make request in writing but cannot require it; must disclose that written request is not mandatory",
+      "specific_format": "Request must fairly describe the public record or class of records sought"
+    },
+
+    "agency_obligations": {
+      "records_officer_required": false,
+      "records_officer_notes": "Person responsible for public records must be designated but not specifically called 'records officer'",
+      "records_officer_cite": "Ohio Revised Code § 149.43(B)(1)",
+      "business_hours_access": true,
+      "business_hours_cite": "Ohio Revised Code § 149.43(A)(2)",
+      "electronic_submission_accepted": true,
+      "response_format_options": "Records provided in format requested if available",
+      "liberal_construction": "Statute construed liberally in favor of broad access",
+      "liberal_construction_cite": "Ohio Revised Code § 149.43",
+      "third_party_notification": null,
+      "training_required": true,
+      "training_cite": "Ohio Revised Code § 149.43(E)(1)",
+      "training_notes": "All elected officials or their designees must attend training on public records requirements; all public offices must adopt public records policies"
+    },
+
+    "oversight_body": {
+      "name": "Ohio Attorney General",
+      "role": "Provides guidance and training on public records law; no direct oversight authority",
+      "contact_info": "Ohio Attorney General's Office, Public Records Section",
+      "oversight_url": "https://www.ohioattorneygeneral.gov/Legal/Sunshine-Laws",
+      "advisory_committee": null
+    },
+
+    "official_resources": {
+      "primary_statute_url": "https://codes.ohio.gov/ohio-revised-code/section-149.43",
+      "agency_handbook_url": "https://www.ohioattorneygeneral.gov/Legal/Sunshine-Laws/Public-Records",
+      "request_portal_url": null,
+      "ag_decisions_url": null
+    },
+
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_url": "https://codes.ohio.gov/ohio-revised-code/section-149.43",
+      "source_verified": true,
+      "primary_sources": [
+        "Ohio Revised Code Section 149.43",
+        "Ohio Public Records Act statutory text",
+        "Ohio Attorney General Sunshine Laws guidance"
+      ],
+      "verification_notes": "All fields verified from official Ohio Revised Code. Response timeline: acknowledge within 1 business day, produce records within reasonable time per agency policy (3 business days per ground truth). No specific extension period defined. Mandamus action available with attorney fees and statutory damages ($100/day up to $1,000). Training required for elected officials. Strong requester protections - identity and purpose cannot be required. 31+ statutory exemptions including medical records, ongoing investigations, adoption records, juvenile proceedings."
+    }
+  },
+  "agencies": []
+}

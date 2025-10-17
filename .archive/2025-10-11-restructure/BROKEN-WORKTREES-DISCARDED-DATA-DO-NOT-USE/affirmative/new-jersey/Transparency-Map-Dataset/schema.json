@@ -1,0 +1,346 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://theholetruth.org/schemas/transparency-map-v0.11.json",
+  "title": "Transparency Map Dataset Schema",
+  "description": "JSON Schema for US Transparency Laws Interactive Map Dataset v0.11",
+  "type": "object",
+  "required": ["dataset_name", "version", "created_date", "total_jurisdictions", "jurisdictions"],
+  "properties": {
+    "dataset_name": {
+      "type": "string",
+      "description": "Name of the dataset"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^v\\d+\\.\\d+$",
+      "description": "Dataset version (e.g., v0.11)"
+    },
+    "created_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Date dataset was created (YYYY-MM-DD)"
+    },
+    "total_jurisdictions": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 51,
+      "description": "Total number of jurisdictions in dataset"
+    },
+    "description": {
+      "type": "string",
+      "description": "Dataset description"
+    },
+    "timeline_code_reference": {
+      "type": "object",
+      "description": "Reference for timeline code meanings"
+    },
+    "jurisdictions": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 51,
+      "description": "Array of jurisdiction data objects",
+      "items": {
+        "$ref": "#/definitions/jurisdiction"
+      }
+    }
+  },
+  "definitions": {
+    "jurisdiction": {
+      "type": "object",
+      "required": [
+        "jurisdiction_code",
+        "jurisdiction_name",
+        "statute_abbreviation",
+        "statute_full_name",
+        "core_principle",
+        "response_timeline_days",
+        "public_record_categories",
+        "fee_structure",
+        "appeal_process",
+        "key_features_tags",
+        "metadata"
+      ],
+      "properties": {
+        "jurisdiction_code": {
+          "type": "string",
+          "pattern": "^[A-Z]{2,3}$",
+          "description": "Two or three letter jurisdiction code (e.g., CA, TX, FED)",
+          "examples": ["CA", "TX", "NY", "FED"]
+        },
+        "jurisdiction_name": {
+          "type": "string",
+          "minLength": 4,
+          "maxLength": 50,
+          "description": "Full jurisdiction name",
+          "examples": ["California", "Texas", "Federal"]
+        },
+        "statute_abbreviation": {
+          "type": "string",
+          "minLength": 2,
+          "maxLength": 20,
+          "description": "Common abbreviation for the transparency statute",
+          "examples": ["CPRA", "PIA", "FOIA", "FOIL"]
+        },
+        "statute_full_name": {
+          "type": "string",
+          "minLength": 10,
+          "description": "Full official name of the statute",
+          "examples": ["California Public Records Act", "Texas Public Information Act"]
+        },
+        "core_principle": {
+          "type": "string",
+          "minLength": 20,
+          "maxLength": 500,
+          "description": "1-2 sentence summary of the law's foundational principle"
+        },
+        "recent_changes_2024_2025": {
+          "type": "string",
+          "description": "Summary of 2024-2025 legislative changes (if any)"
+        },
+        "response_timeline_days": {
+          "type": "integer",
+          "description": "Number of days for response (positive) or timeline code (negative)",
+          "oneOf": [
+            {
+              "type": "integer",
+              "minimum": 1,
+              "description": "Fixed number of days deadline"
+            },
+            {
+              "type": "integer",
+              "enum": [-1, -2, -3, -4],
+              "description": "Timeline code: -1=reasonable time, -2=promptly, -3=immediate, -4=variable"
+            }
+          ]
+        },
+        "response_timeline_type": {
+          "type": ["string", "null"],
+          "enum": ["business", "calendar", "flexible", "unspecified", null],
+          "description": "Type of days (business, calendar, or flexible)"
+        },
+        "response_timeline_description": {
+          "type": ["string", "null"],
+          "description": "Human-readable description of response timeline"
+        },
+        "response_timeline_factors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Factors affecting timeline (for flexible deadlines)"
+        },
+        "response_timeline_extension": {
+          "type": "object",
+          "properties": {
+            "allowed": {
+              "type": "boolean",
+              "description": "Whether extensions are allowed"
+            },
+            "max_days": {
+              "type": ["integer", "null"],
+              "description": "Maximum extension days"
+            },
+            "conditions": {
+              "type": "string",
+              "description": "Conditions under which extensions are allowed"
+            }
+          }
+        },
+        "public_record_categories": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 10,
+          "items": {
+            "type": "string",
+            "minLength": 5
+          },
+          "description": "Key categories of records made public by this statute"
+        },
+        "fee_structure": {
+          "type": "object",
+          "required": ["fee_waiver_available"],
+          "properties": {
+            "standard_copying": {
+              "type": "string",
+              "description": "Standard per-page copying fees"
+            },
+            "search_fees": {
+              "type": ["string", "null"],
+              "description": "Whether search/labor fees are allowed"
+            },
+            "electronic_records": {
+              "type": ["string", "null"],
+              "description": "Fees for electronic records"
+            },
+            "programming_fees": {
+              "type": ["string", "null"],
+              "description": "Fees for database programming/extraction"
+            },
+            "minimum_threshold": {
+              "type": ["string", "null"],
+              "description": "Minimum fee threshold (no charges below this)"
+            },
+            "fee_waiver_available": {
+              "type": "boolean",
+              "description": "Whether fee waivers are available"
+            },
+            "waiver_criteria": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Criteria for fee waivers"
+            }
+          }
+        },
+        "appeal_process": {
+          "type": "object",
+          "required": ["type", "attorney_fees_available"],
+          "properties": {
+            "type": {
+              "type": "string",
+              "description": "Type of appeal process",
+              "examples": ["Court action", "Attorney General review", "Administrative appeal"]
+            },
+            "venue": {
+              "type": ["string", "null"],
+              "description": "Court or body where appeals are filed"
+            },
+            "timeline_days": {
+              "type": ["integer", "null"],
+              "description": "Deadline for filing appeal (in days)"
+            },
+            "timeline_description": {
+              "type": ["string", "null"],
+              "description": "Description of appeal timeline"
+            },
+            "attorney_fees_available": {
+              "type": "boolean",
+              "description": "Whether prevailing requesters can recover attorney fees"
+            },
+            "burden_of_proof": {
+              "type": ["string", "null"],
+              "description": "Who bears burden of proof in appeals"
+            }
+          }
+        },
+        "key_features_tags": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 10,
+          "items": {
+            "type": "string",
+            "minLength": 3
+          },
+          "description": "Quick reference feature tags for map display"
+        },
+        "official_resources": {
+          "type": "object",
+          "properties": {
+            "statute_url": {
+              "type": ["string", "null"],
+              "format": "uri",
+              "description": "URL to official statute text"
+            },
+            "ag_page_url": {
+              "type": ["string", "null"],
+              "format": "uri",
+              "description": "URL to Attorney General FOIA page"
+            },
+            "request_portal_url": {
+              "type": ["string", "null"],
+              "format": "uri",
+              "description": "URL to online request portal (if available)"
+            }
+          }
+        },
+        "metadata": {
+          "type": "object",
+          "required": ["version", "process_map_source"],
+          "properties": {
+            "version": {
+              "type": "string",
+              "pattern": "^v\\d+\\.\\d+$",
+              "description": "Data version"
+            },
+            "verification_date": {
+              "type": "string",
+              "format": "date",
+              "description": "Date data was last verified"
+            },
+            "last_statutory_update": {
+              "type": ["string", "null"],
+              "description": "Date of last statutory update"
+            },
+            "process_map_source": {
+              "type": "string",
+              "description": "Source process map filename"
+            },
+            "extraction_date": {
+              "type": "string",
+              "format": "date",
+              "description": "Date data was extracted"
+            },
+            "timeline_code_reference": {
+              "type": "integer",
+              "description": "Timeline code if negative integer used"
+            }
+          }
+        }
+      }
+    }
+  },
+  "examples": [
+    {
+      "dataset_name": "US Transparency Laws - Interactive Map Dataset",
+      "version": "v0.11",
+      "created_date": "2025-09-29",
+      "total_jurisdictions": 51,
+      "jurisdictions": [
+        {
+          "jurisdiction_code": "CA",
+          "jurisdiction_name": "California",
+          "statute_abbreviation": "CPRA",
+          "statute_full_name": "California Public Records Act",
+          "core_principle": "The people have the right of access to information concerning the conduct of the people's business.",
+          "recent_changes_2024_2025": "AB 370 (July 2025): Added cyberattack provisions.",
+          "response_timeline_days": 10,
+          "response_timeline_type": "calendar",
+          "response_timeline_description": "10 calendar days from receipt of request",
+          "response_timeline_factors": [],
+          "public_record_categories": [
+            "Government calendars and correspondence logs",
+            "Arrest logs and booking photos"
+          ],
+          "fee_structure": {
+            "standard_copying": "$0.10-0.25 per page",
+            "search_fees": "Not allowed",
+            "fee_waiver_available": true,
+            "waiver_criteria": ["Public interest", "Indigent requesters"]
+          },
+          "appeal_process": {
+            "type": "Court (Petition for Mandamus)",
+            "attorney_fees_available": true,
+            "timeline_days": null
+          },
+          "key_features_tags": [
+            "2025 Amendments",
+            "Attorney Fees Available",
+            "10-Day Deadline"
+          ],
+          "official_resources": {
+            "statute_url": "https://leginfo.legislature.ca.gov/",
+            "ag_page_url": "https://oag.ca.gov/",
+            "request_portal_url": null
+          },
+          "metadata": {
+            "version": "v0.11",
+            "verification_date": "2025-09-26",
+            "process_map_source": "California-CPRA-v0.11.md",
+            "extraction_date": "2025-09-29"
+          }
+        }
+      ]
+    }
+  ]
+}

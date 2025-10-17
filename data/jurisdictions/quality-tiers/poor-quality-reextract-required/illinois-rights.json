@@ -1,0 +1,87 @@
+{
+  "jurisdiction": {
+    "name": "Illinois",
+    "slug": "illinois",
+    "type": "state",
+    "transparency_law": "Illinois Freedom of Information Act (FOIA)"
+  },
+  "validation_metadata": {
+    "parsed_date": "2025-10-10",
+    "source_url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=85",
+    "verified_by": "Claude Code AI Assistant",
+    "verification_method": "Direct review of 5 ILCS 140/1 et seq.",
+    "statutory_text_file": "illinois_transparency_law-v0.11.txt"
+  },
+  "rights_of_access": [
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Universal Right to Complete Information",
+      "statute_citation": "5 ILCS 140/1",
+      "description": "All persons are entitled to full and complete information regarding the affairs of government and the official acts of public officials and employees. All records in custody of public body are presumed open to inspection or copying.",
+      "conditions": "Applies to all persons; strong presumption of openness; burden on agency to prove exemption",
+      "applies_to": "All public records in Illinois",
+      "implementation_notes": "Declaration establishes fundamental right to government information; explicit presumption of openness shifts burden to government",
+      "request_tips": "Assert: '5 ILCS 140/1 declares all persons entitled to complete information about government. All records are presumed open. Please provide [records] under this presumption.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "5-Business-Day Response",
+      "statute_citation": "5 ILCS 140/3",
+      "description": "Public bodies must respond to FOIA requests within 5 business days by granting, denying, or extending the response period. May extend up to additional 5 business days with written notice.",
+      "conditions": "5 business days for initial response; may extend 5 additional business days (total 10) with written notice; business days exclude weekends/holidays",
+      "applies_to": "Standard (non-commercial) FOIA requests in Illinois",
+      "implementation_notes": "Relatively fast timeline; extension limited to 5 days; total maximum 10 business days for standard requests",
+      "request_tips": "Cite deadline: '5 ILCS 140/3 requires response within 5 business days. You may extend up to 5 additional days with written notice. Please confirm expected response date.'"
+    },
+    {
+      "category": "Fee Waiver",
+      "subcategory": "First 50 Pages Free",
+      "statute_citation": "5 ILCS 140/6",
+      "description": "The first 50 pages of black and white copies must be provided free of charge. Additional pages charged at $0.15 per page. This is one of the most generous free page thresholds in the nation.",
+      "conditions": "First 50 pages always free; applies to standard black and white copies; subsequent pages 15¢ each",
+      "applies_to": "All FOIA copy requests in Illinois",
+      "implementation_notes": "Exceptionally generous - ensures most requests cost nothing; very low per-page fees after 50 pages keep costs minimal even for large requests",
+      "request_tips": "Cite free pages: '5 ILCS 140/6 provides the first 50 pages free. Please provide these records at no cost, charging only 15¢ per page if request exceeds 50 pages.'"
+    },
+    {
+      "category": "Fee Waiver",
+      "subcategory": "Public Interest Fee Waiver",
+      "statute_citation": "5 ILCS 140/6",
+      "description": "Fee waivers are available when disclosure serves the public interest, particularly when the requester's primary purpose is to access information for publication or broadcast to the public.",
+      "conditions": "Discretionary; considers whether disclosure serves public interest; favors requests for public dissemination",
+      "applies_to": "Requests serving public interest, especially for publication/broadcast",
+      "implementation_notes": "Encourages public interest journalism and transparency advocacy; agencies should liberally grant waivers for public benefit requests",
+      "request_tips": "Request waiver: 'My primary purpose is [publication/broadcast/public dissemination]. 5 ILCS 140/6 provides for fee waivers when disclosure serves public interest. Please waive fees given this public benefit.'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Electronic Format Requirement",
+      "statute_citation": "5 ILCS 140/6",
+      "description": "Public bodies must provide records in requested electronic format when records are maintained electronically. Cannot require specific software to access records.",
+      "conditions": "Must provide in electronic format when maintained electronically; requester's format preference must be accommodated; cannot impose software requirements on requesters",
+      "applies_to": "Electronic records in Illinois",
+      "implementation_notes": "Prevents agencies from forcing paper access to electronic records; protects against proprietary software barriers to access",
+      "request_tips": "Request electronic: '5 ILCS 140/6 requires you to provide records in electronic format when maintained electronically. Please provide in [preferred format] without requiring me to use specific software.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Public Access Counselor Review",
+      "statute_citation": "5 ILCS 140/11",
+      "description": "Denied requesters may request review by the Public Access Counselor within 60 days of denial. PAC provides binding determination with limited exceptions. This provides free, expert administrative review.",
+      "conditions": "Must file within 60 days of denial; PAC determination is binding (with limited exceptions for factual findings); provides faster, cheaper alternative to court",
+      "applies_to": "Denied FOIA requests in Illinois",
+      "implementation_notes": "Unique binding administrative review - PAC determinations have force of law unless appealed; provides accessible remedy without litigation costs",
+      "request_tips": "Assert PAC appeal: '5 ILCS 140/11 grants me the right to Public Access Counselor review within 60 days. The PAC can issue binding determinations. Please reconsider or I will pursue PAC review.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Attorney Fees and Civil Penalties",
+      "statute_citation": "5 ILCS 140/11",
+      "description": "Courts may award reasonable attorney's fees and costs to prevailing requesters. Civil penalties of $2,500-$5,000 for willful and intentional violations.",
+      "conditions": "Attorney fees available for prevailing requesters; civil penalties for willful violations range $2,500-$5,000; court determines willfulness",
+      "applies_to": "FOIA litigation in Illinois",
+      "implementation_notes": "Robust enforcement mechanisms; meaningful penalties deter violations; fee-shifting makes litigation financially viable",
+      "request_tips": "Warn of litigation: '5 ILCS 140/11 provides for attorney fees and civil penalties up to $5,000 for willful violations. This makes pursuing my rights through court financially feasible.'"
+    }
+  ]
+}

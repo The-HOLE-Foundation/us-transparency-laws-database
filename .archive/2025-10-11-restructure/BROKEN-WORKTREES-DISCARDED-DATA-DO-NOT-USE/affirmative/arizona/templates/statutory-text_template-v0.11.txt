@@ -1,0 +1,12 @@
+[JURISDICTION NAME] [LAW NAME]
+[Legal Citation]
+
+===================================================
+
+[Full statutory text goes here]
+
+===================================================
+
+Source: [Official source URL]
+Retrieved: [Date]
+Verification: [Verification method]

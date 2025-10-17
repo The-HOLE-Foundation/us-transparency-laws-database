@@ -1,0 +1,140 @@
+{
+  "jurisdiction": "Missouri",
+  "transparency_law": {
+    "name": "Missouri Sunshine Law",
+    "statute_citation": "Missouri Revised Statutes \u00a7 610",
+    "effective_date": null,
+    "last_amended": "2025-01-01",
+    "response_requirements": {
+      "initial_response_time": 3,
+      "initial_response_unit": "business_days",
+      "initial_response_description": "Must respond as soon as possible, no later than end of third business day following receipt. If immediate access not granted, must explain delay and provide anticipated availability date.",
+      "maximum_response_time": 3,
+      "extension_allowed": true,
+      "extension_max_time": null,
+      "extension_conditions": [
+        "Must explain reason for delay beyond immediate access and provide earliest date/time records will be available"
+      ],
+      "no_response_consequence": "File complaint with Attorney General or circuit court action for mandamus relief"
+    },
+    "fee_structure": {
+      "standard_copy_fee": "Maximum 10 cents per page for standard copies",
+      "electronic_fee": "Actual cost of providing electronic copies (cannot exceed copy cost)",
+      "search_time_fee": "Average hourly clerical rate using lowest-paid employee capable of fulfilling request. Cannot charge for first hour of research time.",
+      "certification_fee": "Not specified",
+      "waiver_available": false,
+      "waiver_criteria": [],
+      "notes": "Actual cost for non-standard reproduction. Cannot charge for first hour of research time. Must use lowest-paid employee capable of fulfilling request."
+    },
+    "exemptions": [
+      {
+        "category": "Personnel Matters",
+        "citation": "Mo. Rev. Stat. \u00a7 610.021",
+        "description": "Personnel matters and employee records",
+        "scope": "moderate"
+      },
+      {
+        "category": "Legal Actions and Attorney-Client Privilege",
+        "citation": "Mo. Rev. Stat. \u00a7 610.021",
+        "description": "Legal actions and attorney-client privileged communications",
+        "scope": "moderate"
+      },
+      {
+        "category": "Individual Privacy Protection",
+        "citation": "Mo. Rev. Stat. \u00a7 610.021",
+        "description": "Records that would violate individual privacy protection",
+        "scope": "moderate"
+      },
+      {
+        "category": "Real Estate Transactions",
+        "citation": "Mo. Rev. Stat. \u00a7 610.021",
+        "description": "Real estate transactions prior to disclosure or purchase",
+        "scope": "narrow"
+      },
+      {
+        "category": "Security Systems",
+        "citation": "Mo. Rev. Stat. \u00a7 610.021",
+        "description": "Security systems and infrastructure",
+        "scope": "narrow"
+      },
+      {
+        "category": "Trade Secrets",
+        "citation": "Mo. Rev. Stat. \u00a7 610.021",
+        "description": "Proprietary information and trade secrets",
+        "scope": "moderate"
+      }
+    ],
+    "appeal_process": {
+      "administrative_appeal_required": false,
+      "appeal_deadline_days": null,
+      "appeal_deadline_unit": null,
+      "appeal_authority": "Attorney General or Circuit Court",
+      "appeal_description": "Direct complaint to Attorney General for guidance or circuit court action for mandamus relief. Court may void actions taken in violation.",
+      "judicial_review_available": true,
+      "judicial_review_deadline_days": null,
+      "court_jurisdiction": "Circuit Court",
+      "burden_of_proof": "Not specified",
+      "penalties": {
+        "criminal": "Not specified",
+        "civil": "Civil penalties up to $1,000 for individuals, up to $5,000 for governmental bodies for intentional violations. Attorney fees may be awarded. Penalties only for knowing or purposeful violations."
+      }
+    },
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "residency_requirement": false,
+      "specific_format": "Written request preferred. Be specific about records sought.",
+      "notes": "Any person may request. No residency requirement."
+    },
+    "agency_obligations": {
+      "records_officer_required": false,
+      "business_hours_access": false,
+      "electronic_submission_accepted": false,
+      "response_format_options": [
+        "Inspection",
+        "Copies",
+        "Electronic copies"
+      ],
+      "training_required": false,
+      "annual_reporting_required": false,
+      "specific_obligations": [
+        "Respond within 3 business days maximum",
+        "Explain any delays with specific timeline",
+        "Use lowest-cost reproduction methods",
+        "Cite specific exemptions for denials",
+        "Maintain detailed records of requests and responses"
+      ]
+    },
+    "oversight_body": {
+      "name": "Missouri Attorney General",
+      "role": "Provides guidance and interpretation, investigates complaints, issues opinions, maintains public education resources",
+      "contact_info": "Missouri Attorney General's Office",
+      "statute_reference": "Mo. Rev. Stat. \u00a7 610",
+      "enforcement_powers": [
+        "Provide guidance and interpretation",
+        "Investigate complaints",
+        "Issue opinions on Sunshine Law matters",
+        "Maintain public education resources"
+      ]
+    },
+    "official_resources": {
+      "primary_statute_url": "https://revisor.mo.gov/main/ViewChapter.aspx?chapter=610",
+      "agency_handbook_url": null,
+      "request_portal_url": null,
+      "oversight_url": null
+    },
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_verified": true,
+      "primary_sources": [
+        "Missouri Revised Statutes Chapter 610",
+        "Missouri Attorney General Sunshine Law guidance"
+      ],
+      "verification_notes": "Parsed from official statutory text file. Response time verified against canonical-values.json (3 business days). 6 exemptions parsed from statute. Recently amended by 2025 H.B. 145 & 59.",
+      "last_verified_date": "2025-10-03",
+      "source_url": "https://revisor.mo.gov/main/ViewChapter.aspx?chapter=610"
+    }
+  },
+  "agencies": []
+}

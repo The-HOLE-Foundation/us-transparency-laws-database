@@ -77,9 +77,9 @@ async function importRights(filePath) {
     await client.connect();
     console.log(`\n✅ Connected to Neon database`);
 
-    // Look up jurisdiction ID
+    // Look up jurisdiction ID (jurisdictions table only has 'id' column, no 'slug')
     const jurisdictionQuery = `
-      SELECT id FROM jurisdictions WHERE id = $1 OR slug = $1
+      SELECT id FROM jurisdictions WHERE id = $1
     `;
     const jurisdictionResult = await client.query(jurisdictionQuery, [jurisdictionSlug]);
 

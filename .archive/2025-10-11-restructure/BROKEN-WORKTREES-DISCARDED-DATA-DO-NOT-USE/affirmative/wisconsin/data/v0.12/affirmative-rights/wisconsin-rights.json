@@ -1,0 +1,136 @@
+{
+  "jurisdiction_slug": "wisconsin",
+  "jurisdiction_name": "Wisconsin",
+  "data_model_version": "v0.12",
+  "last_updated": "2025-10-09",
+  "rights": [
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Prompt Response Standard",
+      "statute_citation": "Wis. Stat. § 19.35(4)",
+      "description": "Authority must permit inspection or provide copies as soon as practicable and without delay",
+      "conditions": "Standard applies to all requests",
+      "applies_to": "All governmental authorities",
+      "implementation_notes": "Generally interpreted as within 10 business days for simple requests; complex requests may require additional reasonable time with notice",
+      "request_tips": "Cite 'as soon as practicable and without delay' standard if agency delays unreasonably"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Fee Limitations",
+      "statute_citation": "Wis. Stat. § 19.35(3)(d)",
+      "description": "May only charge for location costs if cost exceeds $50; must provide written estimate",
+      "conditions": "Location costs must exceed $50 threshold before charges apply",
+      "applies_to": "All requesters",
+      "implementation_notes": "This protects requesters from search fees on most requests",
+      "request_tips": "If charged for search/location, verify costs exceed $50 and request written cost estimate"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "No Inspection Fees",
+      "statute_citation": "Wis. Stat. § 19.35(3)(c)",
+      "description": "Cannot charge for inspection; cannot require prepayment for inspection",
+      "conditions": "No conditions - inspection is always free",
+      "applies_to": "All requesters",
+      "implementation_notes": "Only copy/reproduction fees may be charged, not inspection",
+      "request_tips": "Request in-person inspection to avoid all fees; agency cannot charge for viewing records"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Attorney Fees and Damages",
+      "statute_citation": "Wis. Stat. § 19.37(1)(b)",
+      "description": "Reasonable attorney fees, damages, and costs awarded to requester if substantially prevails; minimum $100 damages for arbitrary denials",
+      "conditions": "Must substantially prevail in mandamus action",
+      "applies_to": "Requesters who successfully litigate denials",
+      "implementation_notes": "This creates strong disincentive for arbitrary denials",
+      "request_tips": "If considering litigation, know that you can recover attorney fees plus minimum $100 if denial was arbitrary"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Burden of Proof",
+      "statute_citation": "Wis. Stat. § 19.37(1)",
+      "description": "Authority bears burden to prove record is exempt from disclosure",
+      "conditions": "Applies in all mandamus proceedings",
+      "applies_to": "All requesters challenging denials",
+      "implementation_notes": "Requester does not need to prove entitlement - agency must justify denial",
+      "request_tips": "If denied, agency must prove exemption applies; you do not have burden to justify request"
+    },
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "No Identification or Purpose Required",
+      "statute_citation": "Wis. Stat. § 19.35(1)(a)",
+      "description": "No specific form required; requests may be oral or written; no identification or purpose statement required",
+      "conditions": "Must adequately describe records sought",
+      "applies_to": "All requesters except committed/incarcerated persons (unless requesting own records)",
+      "implementation_notes": "Written requests recommended for documentation purposes",
+      "request_tips": "You do not need to identify yourself or state why you want records; oral requests are acceptable"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Electronic Format",
+      "statute_citation": "Wis. Stat. § 19.35(1)(i)",
+      "description": "If information stored electronically, authority must create electronic record if creation doesn't unduly burden authority",
+      "conditions": "Creation must be feasible and not unduly burdensome",
+      "applies_to": "All electronic records",
+      "implementation_notes": "Agencies cannot refuse electronic format if technically feasible",
+      "request_tips": "Request electronic format for records stored electronically; cite this provision if denied"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Liberal Construction",
+      "statute_citation": "Wis. Stat. § 19.31",
+      "description": "Law construed with presumption of complete public access; denial contrary to public interest except in exceptional cases",
+      "conditions": "Applies to all statutory interpretation",
+      "applies_to": "All requests and exemptions",
+      "implementation_notes": "This creates strong presumption in favor of disclosure",
+      "request_tips": "Cite presumption of complete public access when challenging exemption claims"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Records Preservation",
+      "statute_citation": "Wis. Stat. § 19.35(5)",
+      "description": "Authority cannot destroy records for at least 60 days after denying access to requested record",
+      "conditions": "Applies to all denials",
+      "applies_to": "All denied records",
+      "implementation_notes": "Protects ability to litigate denials by preserving records during appeal period",
+      "request_tips": "If denied, records cannot be destroyed for 60 days - providing time to challenge denial"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Balancing Test",
+      "statute_citation": "Wis. Stat. § 19.36(6)",
+      "description": "For records designated confidential by statute, balancing test may permit access if public interest in disclosure outweighs confidentiality interest",
+      "conditions": "Applies to statutorily confidential records",
+      "applies_to": "Requesters seeking confidential records",
+      "implementation_notes": "Even confidential records may be disclosed if public interest outweighs confidentiality",
+      "request_tips": "If denied based on confidentiality statute, argue public interest outweighs confidentiality concern"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Redaction Requirement",
+      "statute_citation": "Wis. Stat. § 19.36(6)",
+      "description": "If only part of record subject to disclosure, authority must delete confidential information and provide access to remainder",
+      "conditions": "Applies when record contains both public and exempt information",
+      "applies_to": "All partially exempt records",
+      "implementation_notes": "Agencies cannot withhold entire record if only portion is exempt",
+      "request_tips": "If denied, ask whether any portion is disclosable; agency must segregate and redact rather than withhold entirely"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Posted Notice Requirement",
+      "statute_citation": "Wis. Stat. § 19.34",
+      "description": "Authority must post notice describing organization, access times/places, methods, and responsible officers/employees",
+      "conditions": "Mandatory for all authorities",
+      "applies_to": "All governmental authorities",
+      "implementation_notes": "Provides transparency about how to submit requests",
+      "request_tips": "Check posted notice to identify designated records officer and submission procedures"
+    }
+  ],
+  "validation_metadata": {
+    "source_file": "data/states/wisconsin/jurisdiction-data.json",
+    "extraction_date": "2025-10-09",
+    "verified_by": "Claude Code AI Assistant",
+    "primary_statute": "Wis. Stat. §§ 19.31-19.39",
+    "confidence_level": "high",
+    "notes": "All rights extracted from verified jurisdiction-data.json file. Wisconsin has particularly strong requester protections including presumption of complete public access, minimum damages for arbitrary denials, and balancing test for confidential records."
+  }
+}

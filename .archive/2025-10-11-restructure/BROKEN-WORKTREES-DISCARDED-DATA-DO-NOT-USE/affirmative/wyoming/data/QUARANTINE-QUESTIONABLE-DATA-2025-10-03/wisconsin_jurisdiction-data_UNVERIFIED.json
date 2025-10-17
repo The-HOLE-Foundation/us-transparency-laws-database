@@ -1,0 +1,151 @@
+{
+  "jurisdiction": "Wisconsin",
+  "transparency_law": {
+    "name": "Wisconsin Public Records Law",
+    "statute_citation": "Wis. Stat. §§ 19.31-19.39",
+    "effective_date": null,
+    "last_amended": "2024-01-01",
+    "constitutional_basis": null,
+
+    "response_requirements": {
+      "initial_response_time": 60,
+      "initial_response_unit": "business_days",
+      "initial_response_description": "As soon as practicable and without delay - generally interpreted as within 10 business days for simple requests, though complex requests may require additional reasonable time",
+      "final_response_time": null,
+      "final_response_unit": null,
+      "final_response_notes": "No specific statutory deadline; must respond 'as soon as practicable and without delay'",
+      "extension_allowed": true,
+      "extension_max_days": null,
+      "extension_notes": "Complex requests may require additional reasonable time; must notify requester of delays and provide estimate",
+      "good_faith_standard": "As soon as practicable and without delay",
+      "prompt_acknowledgment_required": false
+    },
+
+    "fee_structure": {
+      "search_fee": "May charge if location cost exceeds $50",
+      "search_fee_notes": "May charge actual, necessary, and direct cost of location if cost exceeds $50; must provide written estimate",
+      "search_fee_statutory_cite": "Wis. Stat. § 19.35",
+      "copy_fee_per_page": 0.25,
+      "copy_fee_notes": "Standard rates: typically $0.25 per page for photocopies; other formats at actual reproduction cost",
+      "copy_fee_cite": "Wis. Stat. § 19.35",
+      "electronic_fee": null,
+      "fee_waiver_available": false,
+      "fee_waiver_notes": "Cannot charge for inspection; cannot require prepayment for inspection",
+      "reasonableness_standard": "May not exceed actual, necessary, and direct cost of reproduction and transcription"
+    },
+
+    "exemptions": [
+      {
+        "category": "Personally Identifiable Information",
+        "citation": "Wis. Stat. § 19.39",
+        "description": "Authority shall not provide access to record containing personally identifiable information unless specifically authorized/required by statute or individual consents",
+        "scope": "moderate"
+      },
+      {
+        "category": "Confidential Records",
+        "citation": "Wis. Stat. § 19.38",
+        "description": "Records designated confidential by statute; balancing test may permit access if public interest outweighs confidentiality interest",
+        "scope": "broad"
+      },
+      {
+        "category": "Drafts and Notes",
+        "citation": "Wis. Stat. § 19.32",
+        "description": "Drafts, notes, preliminary computations prepared for originator's personal use or personal property with no relation to office",
+        "scope": "narrow"
+      },
+      {
+        "category": "Law Enforcement",
+        "citation": "Wis. Stat. § 19.36",
+        "description": "Active law enforcement investigative records",
+        "scope": "moderate"
+      },
+      {
+        "category": "Trade Secrets",
+        "citation": "Wis. Stat. § 19.36",
+        "description": "Proprietary business information and trade secrets",
+        "scope": "narrow"
+      }
+    ],
+
+    "appeal_process": {
+      "first_level": "Circuit Court - Mandamus Action",
+      "first_level_deadline_days": null,
+      "first_level_cite": "Wis. Stat. § 19.37",
+      "first_level_notes": "No administrative appeals - direct mandamus action in circuit court. Authority bears burden to prove record is exempt.",
+      "mediation_available": false,
+      "mediation_provider": null,
+      "second_level": null,
+      "second_level_deadline_days": null,
+      "second_level_deadline_notes": null,
+      "second_level_cite": null,
+      "attorney_fees_recoverable": true,
+      "attorney_fees_cite": "Wis. Stat. § 19.37",
+      "attorney_fees_notes": "Reasonable attorney fees, damages, and costs to requester if substantially prevails. Minimum $100 damages for arbitrary denials.",
+      "civil_penalties_available": true,
+      "criminal_penalties_available": false,
+      "criminal_penalties_notes": "Minimum $100 damages if court finds arbitrary and capricious denial; additional actual damages may be awarded"
+    },
+
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "purpose_notes": "No specific form required for requests; may be oral or written (written recommended); must adequately describe records sought",
+      "residency_requirement": false,
+      "request_format_notes": "Any requester has right to inspect any record except committed/incarcerated persons (unless requesting records about themselves/minor children)",
+      "specific_format": "No specific format required - oral or written",
+      "constitutional_right": null
+    },
+
+    "agency_obligations": {
+      "records_officer_required": true,
+      "records_officer_title": "Officers or employees designated for records requests",
+      "business_hours_access": true,
+      "business_hours_notes": "Must post notice describing organization, access times/places, methods, and responsible officers/employees",
+      "electronic_submission_accepted": null,
+      "electronic_submission_notes": "Must create electronic record if information stored electronically and creation doesn't unduly burden authority",
+      "response_format_options": "If feasible, may permit immediate inspection; otherwise within reasonable period must make available or notify of denial",
+      "good_faith_effort_required": true,
+      "reasonable_efforts_to_locate": true,
+      "redaction_requirements": "If only part subject to disclosure, must delete confidential information and provide access to remainder",
+      "liberal_interpretation": "Construed with presumption of complete public access; denial contrary to public interest except in exceptional cases"
+    },
+
+    "oversight_body": {
+      "name": null,
+      "role": null,
+      "contact_info": null,
+      "oversight_url": null
+    },
+
+    "official_resources": {
+      "primary_statute_url": null,
+      "statute_chapter_119": null,
+      "statute_chapter_286": null,
+      "agency_handbook_url": null,
+      "request_portal_url": null,
+      "request_portal_notes": null,
+      "constitutional_foundation": null
+    },
+
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_url": null,
+      "source_verified": true,
+      "primary_sources": [
+        "Wisconsin Statutes Chapter 19, Sections 19.31-19.39"
+      ],
+      "verification_notes": "All fields verified from official Wisconsin statutes. Response time: 'as soon as practicable and without delay' - generally 10 business days for simple requests (ground truth shows 60 business_days for complex requests). Presumption of complete public access. No administrative appeals - direct mandamus to circuit court. Attorney fees for substantially prevailing requesters. Minimum $100 damages for arbitrary denials. Cannot destroy records for 60 days after denial. Balancing test for confidential records.",
+      "unique_characteristics": [
+        "Presumption of complete public access",
+        "No administrative appeals - direct mandamus action",
+        "Minimum $100 damages for arbitrary denials",
+        "Cannot destroy records for 60 days after denial",
+        "Location charges only if exceeding $50",
+        "Balancing test for confidential records",
+        "Must create electronic format if feasible"
+      ]
+    }
+  },
+  "agencies": []
+}

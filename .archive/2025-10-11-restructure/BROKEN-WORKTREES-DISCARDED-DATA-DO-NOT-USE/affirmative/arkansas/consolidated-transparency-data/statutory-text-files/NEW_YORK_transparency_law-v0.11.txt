@@ -1,0 +1,83 @@
+NEW YORK FREEDOM OF INFORMATION LAW (FOIL) - PUBLIC OFFICERS LAW ARTICLE 6, §§84-90
+Last Updated: September 5, 2025
+Source: https://opengovernment.ny.gov/freedom-information-law
+
+SUMMARY:
+New York State's Freedom of Information Law (FOIL) allows members of the public the right to access government records, with certain enumerated exceptions in §87(2). Records are broadly defined as any information kept, held, filed, produced or reproduced by agencies.
+
+RESPONSE DEADLINES:
+- Initial Response: 5 business days to grant, deny, or acknowledge receipt
+- Extended Response: Up to 20 additional business days from acknowledgment
+- Extensions: Available for reasonable circumstances with deadline date provided
+- Total Maximum: 25 business days (5 + 20)
+
+APPEAL PROCESS:
+- Administrative appeal within 30 days of denial
+- Appeal to designated appeals officer
+- Further appeal to Committee on Open Government or courts
+
+FEE STRUCTURE:
+- Standard copying fee: $0.25 per page (up to 9"x14")
+- Actual cost for larger documents or special formats
+- Different fees may be prescribed by statute
+- Electronic transmission preferred when possible
+
+KEY EXEMPTIONS (§87(2)):
+- Records specifically exempted by state or federal statute
+- Records compiled for law enforcement purposes
+- Personal privacy information
+- Trade secrets and commercial information
+- Inter-agency and intra-agency materials (deliberative process)
+- Computer access codes and security records
+- Records related to security of correctional facilities
+
+REQUESTER RIGHTS:
+- Right to access records during regular business hours
+- Right to receive copies of records
+- Right to appeal denials within 30 days
+- Right to specify format preference
+- No requirement to state purpose or identity
+
+AGENCY REQUIREMENTS:
+- Respond within 5 business days
+- Acknowledge receipt if more time needed
+- Provide approximate date for response
+- Accept electronic submissions if capable
+- Maintain records access policies
+- Designate Records Access Officer
+
+LEGAL CUSTODIANS:
+Each state agency must designate a Records Access Officer
+
+SUBMISSION METHODS:
+- Electronic submission (required if agency capable)
+- Mail, fax, in-person delivery
+- Must reasonably describe requested records
+
+PERFORMANCE STANDARDS:
+- 5 business day initial response requirement
+- 20 business day response after acknowledgment
+- Liberal construction favoring disclosure
+
+CLARIFICATION PROCEDURES:
+Agencies may seek clarification to identify specific records
+
+APPEALS PROCESS WORKFLOW:
+1. Submit FOIL request to agency Records Access Officer
+2. Agency responds within 5 business days (grant/deny/acknowledge)
+3. If acknowledged, agency responds within 20 business days
+4. If denied, file administrative appeal within 30 days
+5. Appeals officer reviews and responds
+6. Further appeal to Committee on Open Government or court
+
+STATUTORY CITATION: Public Officers Law, Article 6, §§84-90
+EFFECTIVE DATE: 1974, with amendments
+
+RECORD DEFINITION:
+"Any information kept, held, filed, produced or reproduced by, with or for an agency or the state legislature, in any physical form whatsoever including, but not limited to, reports, statements, examinations, memoranda, opinions, folders, files, books, manuals, pamphlets, forms, papers, designs, drawings, maps, photos, letters, microfilms, computer tapes or discs, rules, regulations or codes."
+
+ELECTRONIC REQUIREMENTS:
+Every agency with email capability must accept and respond to FOIL requests electronically
+
+OVERSIGHT:
+New York State Committee on Open Government provides guidance and handles certain appeals

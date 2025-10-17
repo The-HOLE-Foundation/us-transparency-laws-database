@@ -1,0 +1,144 @@
+ARIZONA PUBLIC RECORDS LAW
+Arizona Revised Statutes Title 39, Sections 39-101 through 39-161
+
+===================================================
+
+A.R.S. § 39-121. INSPECTION OF PUBLIC RECORDS; DEFINITION OF PUBLIC RECORDS; CLASSIFICATION
+
+A. Public records and other matters in the custody of any officer shall be open to inspection by any person at all times during office hours.
+
+B. For the purposes of this section, "public records" means all books, papers, maps, photographs or other documentary materials, regardless of physical form or characteristics, including prints or copies of such items produced or reproduced on film or electronic media pursuant to section 41-151.16, made or received by any governmental agency in pursuance of law or in connection with the transaction of public business and preserved or appropriate for preservation by the agency or its legitimate successor as evidence of the organization, functions, policies, decisions, procedures, operations or other activities of the government, or because of the informational and historical value of data contained in the record.
+
+C. Notwithstanding any other law, this section does not apply to:
+1. Library records that identify a person as having requested, used or borrowed materials from a library.
+2. Records received by members of the legislature during sessions that are deemed confidential.
+3. Billing information and records of public utilities or telephone corporations that identify residential locations of customers or reveal patterns of use.
+
+===================================================
+
+A.R.S. § 39-121.01. DEFINITIONS; COPIES, PRINTOUTS AND PHOTOGRAPHS OF PUBLIC RECORDS; EXAMINATION BY MAIL; INDEX
+
+A. In this article, unless the context otherwise requires:
+1. "Officer" means any person elected or appointed to hold any elective or appointive office of any public body and any chief administrative officer, head, director, superintendent or chairman of any public body.
+2. "Public body" means this state, any county, city, town, school district, political subdivision or other governmental entity operating at state, county or local level.
+
+B. Any person may request to examine or be furnished copies, printouts or photographs of any public record during regular office hours or may request that the custodian mail a copy of any public record not otherwise available on the public body's website to the requesting person. The custodian may require any person requesting that copies, printouts or photographs of public records be mailed to pay in advance for any copying and postage charges. The custodian of such records may charge a fee if the fee is clearly set forth and if the fee does not exceed the amount necessary to reimburse the public body for its actual costs to reproduce the record, except that:
+
+1. The fee for copies, printouts or photographs of public records, unless otherwise provided by law, shall not exceed the amount per page established by the director of the Arizona department of administration pursuant to section 41-2701, subsection H.
+2. Public bodies that maintain their records in electronic format may charge for copies of records provided in electronic format the actual cost of producing the records.
+
+C. If requested, the custodian of the records of any public body shall promptly furnish a written statement indicating the specific statutory authority for the disclosure or nondisclosure of information contained in any record.
+
+D. All public bodies shall maintain records reasonably necessary to provide knowledge of their activities. All public bodies shall maintain an index of their public records, except that any public body may establish a different organizational system in lieu of an index if approved by the director of the Arizona state library, archives and public records department.
+
+===================================================
+
+A.R.S. § 39-121.02. OFFICERS CHARGED WITH VIOLATION OF DUTY; CLASSIFICATION
+
+Any officer who has custody of any public record who unlawfully refuses to allow the examination and copying of such record is guilty of a class 2 misdemeanor.
+
+===================================================
+
+A.R.S. § 39-121.03. COMMERCIAL PURPOSES; DEFINITION
+
+A. Any person requesting to examine or copy public records for a commercial purpose shall provide a statement setting forth the commercial purpose for which the public records will be used.
+
+B. Upon receiving a request pursuant to subsection A, the custodian of public records may apply to the governor requesting that the governor by executive order prohibit the furnishing of copies, printouts or photographs of public records for the stated commercial purpose if the custodian determines that such commercial purpose would constitute a misuse of public records or would be an abuse of the right to receive public records. If the governor does not issue an executive order prohibiting the disclosure within thirty days after the application date, the custodian of such public records shall provide the copies, printouts or photographs upon being paid the fees prescribed in section 39-121.01.
+
+C. For the purposes of this section, "commercial purpose" means the use of a public record for the purpose of sale or resale or for the purpose of producing a document containing all or part of the copy, printout or photograph for sale.
+
+===================================================
+
+A.R.S. § 39-122. CONFIDENTIAL RECORDS; SEALED RECORDS; DEFINITION
+
+A. The legislature finds that it is necessary to allow inspection of public records with exceptions only as expressly provided by statute or as necessarily implied by the statutory purpose or classification for the record or information.
+
+B. This article does not apply to:
+1. Records that are specifically required by federal law, federal regulation, state statute, rule adopted under the state administrative procedure act, the rules of the supreme court, the rules of the court of appeals or the rules of the superior court to be maintained as confidential records or sealed records.
+2. Records or information the disclosure of which is prohibited by federal law.
+
+===================================================
+
+A.R.S. § 39-123. TIME PERIODS; VIOLATION; CLASSIFICATION
+
+A. If a public record is requested in writing and involves a personnel matter, criminal investigative information or is requested for a commercial purpose, the custodian of such record shall respond within twenty business days stating:
+1. Such record is available for inspection or certified copies will be provided.
+2. Such record is not a public record.
+3. All or part of such record is confidential pursuant to statute or rule and cannot be disclosed and citing the statute or rule.
+
+B. The custodian of public records who fails to comply with the provisions of subsection A is guilty of a class 2 misdemeanor, except that compliance is not required if an unusual or unforeseen circumstance occurs that would prevent compliance.
+
+===================================================
+
+A.R.S. § 39-127. RIGHTS AND REMEDIES CUMULATIVE
+
+The rights and remedies provided by this article are cumulative, and the use of one right or remedy by any person does not preclude the person from using other rights or remedies.
+
+===================================================
+
+RECENT LEGISLATIVE AMENDMENTS (2023)
+
+A.R.S. § 39-132. RESPONSE REQUIREMENTS (NEW)
+
+A. Beginning on January 1, 2023, if a public record is requested in writing, the custodian of public records or a designated contact person shall acknowledge receipt of the request within five business days after receiving the request. The acknowledgment shall include:
+1. The date the request was received.
+2. A unique identification number or other identifier for the request.
+3. A statement that the request will be processed in accordance with the law.
+4. The name and contact information of the person or office responsible for responding to the request.
+
+B. If the public record will not be provided within fifteen business days after the request is received, the custodian shall provide an estimated date that the request will be completed and reasons for the delay.
+
+C. The custodian shall make reasonable efforts to provide public records in the format requested if the records exist in that format.
+
+===================================================
+
+EXEMPTIONS FROM DISCLOSURE (SELECTED)
+
+While A.R.S. § 39-121 establishes the general right to inspect public records, Arizona law contains numerous specific exemptions, including:
+
+- Student records (A.R.S. § 15-142)
+- Adoption records (A.R.S. § 8-129)
+- Personnel records of public employees (A.R.S. § 38-532)
+- Trade secrets and commercial information (A.R.S. § 39-121.01)
+- Medical records (Various statutes)
+- Criminal investigative records (A.R.S. § 39-123)
+- Bank examination records
+- Insurance company examination records
+- Records that would constitute an invasion of privacy
+- Records detrimental to the best interests of the state
+
+===================================================
+
+APPEALS AND ENFORCEMENT
+
+Administrative Appeals:
+- Citizens may complain to the Office of the Ombudsman-Citizens Aide regarding agency actions (A.R.S. §§ 41-1371 to -1378)
+- The Ombudsman has power to investigate and make recommendations
+
+Criminal Penalties:
+- Unlawful refusal to allow examination is a class 2 misdemeanor (A.R.S. § 39-121.02)
+- Failure to comply with written request response requirements is a class 2 misdemeanor (A.R.S. § 39-123)
+
+Civil Remedies:
+- Rights and remedies are cumulative (A.R.S. § 39-127)
+- Special actions may be filed in superior court
+- Attorney fees may be available in some cases
+
+===================================================
+
+KEY DEADLINES SUMMARY
+
+- Acknowledgment of written request: 5 business days
+- Response for personnel, criminal investigation, or commercial requests: 20 business days
+- General inspection: During office hours immediately
+- Extended response notification: If not completed within 15 business days, provide estimated completion date
+
+===================================================
+
+SOURCE NOTES
+
+- Arizona Revised Statutes Title 39, Chapter 1, Sections 39-101 through 39-161
+- Arizona Ombudsman-Citizens Aide guidance materials
+- Arizona Attorney General opinions and interpretations
+- Research conducted September 5, 2025
+- Sources: Arizona state legal databases, RCFP Arizona Guide, Ballotpedia, NFOIC, and official state publications

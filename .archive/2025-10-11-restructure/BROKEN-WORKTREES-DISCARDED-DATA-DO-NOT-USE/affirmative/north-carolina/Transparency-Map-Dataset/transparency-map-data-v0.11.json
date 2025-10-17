@@ -1,0 +1,2333 @@
+{
+  "dataset_name": "US Transparency Laws - Interactive Map Dataset",
+  "version": "v0.11",
+  "created_date": "2025-09-29",
+  "total_jurisdictions": 51,
+  "description": "Curated dataset for the Transparency Map interface. Contains concise information optimized for interactive display.",
+  "timeline_code_reference": {
+    "-1": "Reasonable time (no fixed deadline)",
+    "-2": "Promptly (no specific day count)",
+    "-3": "Immediate (certain records)",
+    "-4": "Variable by request type",
+    "positive": "Fixed number of days"
+  },
+  "jurisdictions": [
+    {
+      "jurisdiction_code": "AL",
+      "jurisdiction_name": "Alabama",
+      "statute_abbreviation": "PRL",
+      "statute_full_name": "**Alabama Code § 36-12-40 through § 36-12-46** (Current through 2024)",
+      "core_principle": "Every Alabama resident has the right to inspect and copy public records, except as otherwise provided by law. .",
+      "recent_changes_2024_2025": "2025 **Verification Method**: Perplexity MCP with official .gov sources **Status**: ✅ **100% VERIFIED ACCURATE** **Cross-Validation**: ✅ **Confirmed against multiple official sources** **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current",
+      "response_timeline_days": -1,
+      "response_timeline_type": "flexible",
+      "response_timeline_description": "Timeline not clearly specified in statute",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Emails related to public business",
+        "Text messages and emails related to public business",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "Attorney Fees Available",
+        "Reasonable Time Standard"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "Alabama-PRL-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "AK",
+      "jurisdiction_name": "Alaska",
+      "statute_abbreviation": "Public Records",
+      "statute_full_name": "- **Alaska Public Records Act**: Alaska Statutes Title 40, Chapter 25 (1963, amended through 2025)\n- **Key Provisions**:\n  - AS § 40.25.110: Definitions and legislative intent\n  - AS § 40.25.110-122: Public access rights and procedures\n  - AS § 40.25.120: Fee provisions\n  - AS § 40.25.120: Exemptions from disclosure",
+      "core_principle": "Public Records Act - VERIFIED Process Map ## VERIFICATION CERTIFICATION **STATUS**: VERIFIED ACCURATE **VERIFICATION DATE**: September 26, 2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using Alaska Statutes Title 40, Chapter 25 and agency guidance **LAST STATUTORY UPDATE**: 2025 (no significant amendments identified) --- ## Legal Framework ### Primary Statute - **Alaska Public Records Act**: Alaska Statutes Title 40, Chapter 25 (1963, amended through 2025) - **Key Provisions**: - AS § 40.25.110: Definitions and legislative intent - AS § 40.25.110-122: Public access rights and procedures - AS § 40.25.120: Fee provisions - AS § 40.25.120: Exemptions from disclosure ### Definitions - **Public Agency**: All state and local government agencies, including boards, commissions, and authorities - **Public Record**: Any item, regardless of format, that documents the transaction of public business - **Business Days**: Monday through Friday, excluding state holidays - **Custodian**: Official designated to maintain and provide access.",
+      "recent_changes_2024_2025": "2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using Alaska Statutes Title 40, Chapter 25 and agency guidance **LAST STATUTORY UPDATE**: 2025 (no significant amendments identified) 2025) - **Key Provisions**: - AS § 40.25.110: Definitions and legislative intent - AS § 40.25.110-122: Public access rights and procedures - AS § 40.25.120: Fee provisions - AS § 40.25.120: Exemptions from disclosure ### Definitions - **Public Agency**: All state and local government agencies, including boards, commissions, and authorities - **Public Record**: Any item, regardless of format, that documents the transaction of public business 2025) **Source 2**: Alaska agency guidance materials (2025) --- *This process map reflects Alaska Public Records Act law as of September 2025. The reasonable time standard distinguishes Alaska's approach. For current information, consult Alaska Statutes Title 40, Chapter 25.*.",
+      "response_timeline_days": -1,
+      "response_timeline_type": "flexible",
+      "response_timeline_description": "Timeline not clearly specified in statute",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Personnel record",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "2025 Amendments",
+        "Reasonable Time Standard"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "Alaska-Public-Records-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "AZ",
+      "jurisdiction_name": "Arizona",
+      "statute_abbreviation": "PRL",
+      "statute_full_name": "- **Arizona Public Records Law**: Arizona Revised Statutes § 39-121 et seq.\n- **Original Enactment**: 1962\n- **Major Revision**: 2012 (comprehensive reform)\n- **Recent Updates**: 2023 (HB 2568 - electronic records and fee protections)",
+      "core_principle": "Public records belong to the people and should be accessible except as otherwise provided by law.",
+      "recent_changes_2024_2025": "2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using ARS § 39-121 and court decisions **LAST STATUTORY UPDATE**: 2023 (HB 2568 - electronic records and fee limitations)",
+      "response_timeline_days": 10,
+      "response_timeline_type": "business",
+      "response_timeline_description": "10 business days from receipt of request",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Personnel record",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "Attorney Fees Available",
+        "10-Day Deadline"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "Arizona-PRL-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "AR",
+      "jurisdiction_name": "Arkansas",
+      "statute_abbreviation": "FOIA",
+      "statute_full_name": "- **Arkansas FOIA**: Arkansas Code Title 25, Chapter 19 (1967, amended through 2025)\n- **Key Provisions**:\n  - Ark. Code § 25-19-103: Definitions and legislative intent\n  - Ark. Code § 25-19-104: Public access rights\n  - Ark. Code § 25-19-105: Response timeline and enforcement\n  - Ark. Code § 25-19-106: Fee provisions\n  - Ark. Code § 25-19-107: Exemptions from disclosure",
+      "core_principle": "Public access rights - Ark. Code § 25-19-105: Response timeline and enforcement - Ark.",
+      "recent_changes_2024_2025": "2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using Arkansas Code Title 25, Chapter 19 and 2025 Acts 505 & 922 amendments **LAST STATUTORY UPDATE**: 2025 (Act 505 and Act 922 - significant amendments) 2025) - **Key Provisions**: - Ark. Code § 25-19-103: Definitions and legislative intent - Ark. Code § 25-19-104: Public access rights - Ark.",
+      "response_timeline_days": -1,
+      "response_timeline_type": "flexible",
+      "response_timeline_description": "Timeline not clearly specified in statute",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Personnel record",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "Fee Waivers",
+        "2025 Amendments",
+        "Reasonable Time Standard"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "Arkansas-FOIA-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "CA",
+      "jurisdiction_name": "California",
+      "statute_abbreviation": "CPRA",
+      "statute_full_name": "- **California Public Records Act (CPRA)**: Government Code § 7920.000 et seq.\n- **Original Enactment**: 1968 (Brown Act companion)\n- **Major Revision**: 2023 comprehensive reorganization and renumbering\n- **Recent Updates**:\n  - AB 2799 (2023) - expedited processing for urgent public interest\n  - **AB 370 (2025)** - cyberattack provisions and expanded unusual circumstances\n  - **AB 1785 (2025)** - enhanced privacy protections for elected officials",
+      "core_principle": "Public Records Act (CPRA)**: Government Code § 7920.000 et seq. - **Original Enactment**: 1968 (Brown Act companion) - **Major Revision**: 2023 comprehensive reorganization and renumbering - **Recent Updates**: - AB 2799 (2023) - expedited processing for urgent public interest - **AB 370 (2025)** - cyberattack provisions and expanded unusual circumstances - **AB 1785 (2025)** - enhanced privacy protections for elected officials ### Key Definitions (Gov.",
+      "recent_changes_2024_2025": "2025 **VERIFICATION SOURCE**: California Government Code § 7920.000 et seq. including AB 370 and AB 1785 amendments **LAST STATUTORY UPDATE**: July 1, 2025 (AB 370 cyberattack provisions, AB 1785 privacy protections) **VERSION**: v0.11 2025)** - cyberattack provisions and expanded unusual circumstances - **AB 1785 (2025)** - enhanced privacy protections for elected officials ### Key Definitions (Gov. Code § 7920.520) - **Public Agency**: State, county, city, special district, school district, other local government - **Public Record**: Any writing containing information relating to agency business - **Writing**: Electronic records, emails, texts, databases, and traditional documents - **Immediate Disclosure**: Records that must be made available without delay ### Constitutional Foundation - **Article I, Section 3(b)**: California Constitution right of access (Proposition 59, 2004) - \"The people have the right of access to information concerning the conduct of the people's business, and, therefore, the meetings of public bodies and the writings of public officials and agencies shall be open to public scrutiny.\" - **Presumption**: All records are public unless specifically exempt --- ## Response Timelines (AMENDED BY AB 370 - EFFECTIVE JULY 2025) 2025) **Section 7922.535(b) - AMENDED 2025** \"Unusual circumstances\" now includes: 1.",
+      "response_timeline_days": 10,
+      "response_timeline_type": "calendar",
+      "response_timeline_description": "10 calendar days from receipt of request",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Arrest log",
+        "Government calendar",
+        "Emergency response record",
+        "Personnel record"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "Fee Waivers",
+        "2025 Amendments",
+        "10-Day Deadline"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "California-CPRA-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "CO",
+      "jurisdiction_name": "Colorado",
+      "statute_abbreviation": "CORA",
+      "statute_full_name": "- **Colorado Open Records Act (CORA)**: Colorado Revised Statutes § 24-72-200 et seq.\n- **Original Enactment**: 1968\n- **Major Revision**: 2017 (comprehensive reform)\n- **Recent Updates**: 2024 (HB 24-1070 - electronic records and law enforcement video)",
+      "core_principle": "Public Records**: All writings made, maintained, or kept by state/local government - **Writings**: Electronic records, emails, databases, and traditional documents - **Custodian**: Official having legal custody of public records - **State Agency**: All departments, institutions, and agencies of state government ### Accessibility Accommodations (Current Law) \"Public records\" does not include written documents or electronic records produced by devices or applications used to assist individuals with disabilities or language barriers to facilitate communication, when such documents are created in lieu of verbal communication. ### Constitutional Foundation - **Article II, Section 24**: Colorado Constitution - right to examine public records - **Strong Presumption**: All records presumed open unless specifically exempt - **Liberal Construction**: CORA interpreted to maximize public access.",
+      "recent_changes_2024_2025": "2025 **VERIFICATION SOURCE**: Colorado Revised Statutes § 24-72-200 et seq., SB25-077 veto documentation **LAST STATUTORY UPDATE**: 2024 (HB 24-1070 - electronic records and body camera provisions) **LEGISLATIVE NOTE**: SB25-077 vetoed April 17, 2025 - current law remains in effect **VERSION**: v0.11 2025 Legislative Activity - SB25-077 (VETOED) **IMPORTANT**: SB25-077, which would have extended response timeframes, was **VETOED by Governor Polis on April 17, 2025**. **Proposed Changes (NOT ENACTED)**: 2025. The 3-day standard remains Colorado law.",
+      "response_timeline_days": 3,
+      "response_timeline_type": "business",
+      "response_timeline_description": "3 business days from receipt of request",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Police record",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "Fee Waivers",
+        "2025 Amendments",
+        "3-Day Deadline"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "Colorado-CORA-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "CT",
+      "jurisdiction_name": "Connecticut",
+      "statute_abbreviation": "FOIA",
+      "statute_full_name": "- **Connecticut FOIA**: Connecticut General Statutes (CGS) § 1-200 through § 1-241 (1975, amended through 2025)\n- **Key Provisions**:\n  - CGS § 1-200: Definitions and legislative intent\n  - CGS § 1-210: Public access rights and timelines\n  - CGS § 1-212: Fee provisions\n  - CGS § 1-214: Exemptions from disclosure\n  - CGS § 1-206: Enforcement and attorney fees",
+      "core_principle": "Public access rights and timelines - CGS § 1-212: Fee provisions - CGS § 1-214: Exemptions from disclosure - CGS § 1-206: Enforcement and attorney fees ### Definitions - **Public Agency**: All state and local government agencies, including boards, commissions, and authorities - **Public Records**: Any recorded data or information relating to public business - **Business Days**: Monday through Friday, excluding state holidays - **Custodian**: Official designated to maintain and provide access.",
+      "recent_changes_2024_2025": "2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using Connecticut General Statutes § 1-200 et seq. and Freedom of Information Commission guidance **LAST STATUTORY UPDATE**: 2025 (police complaint exemption provisions updated) 2025) - **Key Provisions**: - CGS § 1-200: Definitions and legislative intent - CGS § 1-210: Public access rights and timelines - CGS § 1-212: Fee provisions - CGS § 1-214: Exemptions from disclosure - CGS § 1-206: Enforcement and attorney fees ### Definitions - **Public Agency**: All state and local government agencies, including boards, commissions, and authorities - **Public Records**: Any recorded data or information relating to public business - **Business Days**: Monday through Friday, excluding state holidays - **Custodian**: Official designated to maintain and provide access to records --- ## Response Timelines ### Standard Timeline (CGS § 1-210) - **Initial Response**: 4 business days from receipt of request - **Extension Available**: Up to 7 additional business days if needed - **Total Maximum**: 11 business days (4 + 7 extension) - **Response Options**: 1. Provide requested records for inspection or copying 2.",
+      "response_timeline_days": -1,
+      "response_timeline_type": "flexible",
+      "response_timeline_description": "Timeline not clearly specified in statute",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Police record",
+        "Personnel record",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "Reasonable Time Standard"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "Connecticut-FOIA-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "DC",
+      "jurisdiction_name": "District of Columbia",
+      "statute_abbreviation": "FOIA",
+      "statute_full_name": "- **DC FOIA**: DC Code §§ 2-531 through 2-540 (1977, amended through 2025)\n- **Key Provisions**:\n  - DC Code § 2-532: Definitions and legislative intent\n  - DC Code § 2-533: Public access rights and timelines\n  - DC Code § 2-535: Fee provisions and waivers\n  - DC Code § 2-534: Exemptions from disclosure",
+      "core_principle": "Public access rights and timelines - DC Code § 2-535: Fee provisions and waivers - DC Code § 2-534: Exemptions from disclosure ### Definitions - **Public Body**: All DC government agencies, including boards, commissions, and authorities - **Public Record**: Any documentary material prepared or maintained by a public body - **Business Days**: Monday through Friday, excluding District holidays - **Custodian**: Official designated to maintain and provide access.",
+      "recent_changes_2024_2025": "2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using DC Code §§ 2-531 through 2-540 and agency guidance **LAST STATUTORY UPDATE**: 2025 (no significant amendments identified) 2025) - **Key Provisions**: - DC Code § 2-532: Definitions and legislative intent - DC Code § 2-533: Public access rights and timelines - DC Code § 2-535: Fee provisions and waivers - DC Code § 2-534: Exemptions from disclosure ### Definitions - **Public Body**: All DC government agencies, including boards, commissions, and authorities - **Public Record**: Any documentary material prepared or maintained by a public body - **Business Days**: Monday through Friday, excluding District holidays - **Custodian**: Official designated to maintain and provide access to records --- ## Response Timelines ### Standard Timeline (DC Code § 2-533) - **Initial Response**: 15 business days from receipt of request - **Determination Required**: Agency must provide determination on compliance within 15 days - **Response Options**: 1. Provide requested records for inspection or copying 2. Deny request with written explanation citing specific exemption 3.",
+      "response_timeline_days": -1,
+      "response_timeline_type": "flexible",
+      "response_timeline_description": "Timeline not clearly specified in statute",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Personnel record",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "Fee Waivers",
+        "2025 Amendments",
+        "Reasonable Time Standard"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "DC-FOIA-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "DE",
+      "jurisdiction_name": "Delaware",
+      "statute_abbreviation": "FOIA",
+      "statute_full_name": "- **Delaware FOIA**: Delaware Code Title 29, Chapter 100 (1977, amended through 2025)\n- **Key Provisions**:\n  - Del. Code tit. 29, § 10001: Definitions and legislative intent\n  - Del. Code tit. 29, § 10003: Public access rights and timelines\n  - Del. Code tit. 29, § 10006: Fee provisions\n  - Del. Code tit. 29, § 10002: Exemptions from disclosure",
+      "core_principle": "Public access rights and timelines - Del. Code tit.",
+      "recent_changes_2024_2025": "2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using Delaware Code Title 29, Chapter 100 and agency guidance **LAST STATUTORY UPDATE**: 2025 (no significant amendments identified) 2025) - **Key Provisions**: - Del. Code tit. 29, § 10001: Definitions and legislative intent - Del.",
+      "response_timeline_days": -1,
+      "response_timeline_type": "flexible",
+      "response_timeline_description": "Timeline not clearly specified in statute",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Personnel record",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "2025 Amendments",
+        "Reasonable Time Standard"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "Delaware-FOIA-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "FED",
+      "jurisdiction_name": "Federal",
+      "statute_abbreviation": "FOIA",
+      "statute_full_name": "- **Federal FOIA**: 5 U.S.C. § 552 (1966, amended through 2023)\n- **Implementing Regulations**: Various CFR sections by agency (most follow 5 CFR model)\n- **Key Amendments**: \n  - OPEN Government Act (2007)\n  - FOIA Improvement Act (2016)\n  - Technical amendments (2023)",
+      "core_principle": "Public records belong to the people and should be accessible except as otherwise provided by law.",
+      "recent_changes_2024_2025": "2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using federal statutes and CFR regulations **LAST STATUTORY UPDATE**: 2023 (minor technical amendments)",
+      "response_timeline_days": -1,
+      "response_timeline_type": "flexible",
+      "response_timeline_description": "Timeline not clearly specified in statute",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "Fee Waivers",
+        "Reasonable Time Standard"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "Federal-FOIA-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "FL",
+      "jurisdiction_name": "Florida",
+      "statute_abbreviation": "Sunshine Law",
+      "statute_full_name": "- **Chapter 119, Florida Statutes**: Public Records Law\n- **Chapter 286, Florida Statutes**: Government in the Sunshine Law (meetings)\n- **Constitutional Foundation**: Article I, Section 24, Florida Constitution\n- **Attorney General Opinions**: Binding interpretive guidance",
+      "core_principle": "Public Records Law - **Chapter 286, Florida Statutes**: Government in the Sunshine Law (meetings) - **Constitutional Foundation**: Article I, Section 24, Florida Constitution - **Attorney General Opinions**: Binding interpretive guidance ### Key Definitions (F.S. § 119.011) - **Public Record**: All documents, papers, letters, maps, books, tapes, photographs, films, sound recordings, data processing software, or other material, regardless of physical form - **Agency**: State, county, district, authority, or municipal officer, department, division, board, bureau, commission, or other separate unit of government - **Custodian**: Elected or appointed official charged with responsibility for records ### Broad Construction Mandate - **Liberal Construction**: All exemptions narrowly construed - **Presumption of Access**: Records presumed open unless specifically exempt - **Public Purpose**: Promote government accountability and transparency --- ## Response Timelines ### Immediate Access Requirement (F.S.",
+      "recent_changes_2024_2025": "2025 **VERIFICATION SOURCE**: Florida Statutes Chapters 119 & 286, including SB 268 (2025) amendments **LAST STATUTORY UPDATE**: 2025 (SB 268 - legislator privacy protections and response time clarifications) **VERSION**: v0.11 2025) **Minor clarifications to response time language**: - Agencies must respond to requests in a manner consistent with \"reasonable promptness\" - \"Reasonable time\" interpretations remain fact-specific 2025):** - Social Security numbers - Personal financial information - Medical records and health information - Home addresses and phone numbers - **NEW**: Home addresses of state legislators and their families (SB 268 - 2025) ### NEW: State Legislator Privacy Protections (SB 268 - EFFECTIVE 2025) **F.S. § 119.071(4)(d) - AMENDED 2025** Home addresses and certain personal information of state legislators and their families are **exempted from public records**. **Scope of Exemption**: 2025) **Minor clarifications** to existing privacy protections for judges and court personnel: - Technical updates to align with legislator privacy provisions 2025 Legislative Changes (SB 268 - EFFECTIVE 2025) **Key Amendments**: 1.",
+      "response_timeline_days": -1,
+      "response_timeline_type": "flexible",
+      "response_timeline_description": "Timeline not clearly specified in statute",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Police report",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "Attorney Fees Available",
+        "Criminal Penalties",
+        "Fee Waivers",
+        "2025 Amendments",
+        "Reasonable Time Standard"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "Florida-Sunshine-Law-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "GA",
+      "jurisdiction_name": "Georgia",
+      "statute_abbreviation": "ORA",
+      "statute_full_name": "- **Georgia Open Records Act**: O.C.G.A. § 50-18-70 et seq.\n- **Original Enactment**: 1959\n- **Major Revision**: 2012 (comprehensive reform)\n- **Recent Amendment**: 2024 (HB 1130 - law enforcement recordings)",
+      "core_principle": "Public Record**: All documents, papers, letters, maps, books maintained by agency - **Agency**: State departments, authorities, counties, municipalities, school districts - **Custodian**: Public official having control of public records - **Promptly**: As soon as reasonably possible under circumstances ### Constitutional Foundation - **No Constitutional Right**: Georgia's right is purely statutory - **Broad Construction**: Act liberally construed to favor disclosure - **Public Policy**: Promote transparency and government accountability --- ## Response Timelines ### Standard Response Timeline (O.C.G.A. § 50-18-71(b)) - **Response Requirement**: \"Promptly\" - interpreted as 3 business days - **No Fixed Deadline**: Statute uses \"reasonable time\" standard - **Inspection vs.",
+      "recent_changes_2024_2025": "2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using O.C.G.A. § 50-18-70 and AG guidance **LAST STATUTORY UPDATE**: 2024 (HB 1130 - body-worn camera exemptions) 2025) **Source 4**: Superior Court decisions interpreting Open Records Act (recent precedent) .",
+      "response_timeline_days": -1,
+      "response_timeline_type": "flexible",
+      "response_timeline_description": "Reasonable time (no fixed statutory deadline)",
+      "response_timeline_factors": [
+        "Request complexity",
+        "Volume of records",
+        "Agency resources"
+      ],
+      "public_record_categories": [
+        "Personnel record",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "Attorney Fees Available",
+        "Fee Waivers",
+        "Reasonable Time Standard"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "Georgia-ORA-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "HI",
+      "jurisdiction_name": "Hawaii",
+      "statute_abbreviation": "UIPA",
+      "statute_full_name": "- **Hawaii UIPA**: Hawaii Revised Statutes (HRS) Chapter 92F (1988, amended through 2025)\n- **Key Provisions**:\n  - HRS § 92F-11: Definitions and legislative intent\n  - HRS § 92F-12: Public access rights and timelines\n  - HRS § 92F-16: Fee provisions\n  - HRS § 92F-13: Exemptions from disclosure",
+      "core_principle": "Public access rights and timelines - HRS § 92F-16: Fee provisions - HRS § 92F-13: Exemptions from disclosure ### Definitions - **Agency**: All state and county government agencies, including boards, commissions, and authorities - **Government Record**: Any information that has been maintained by an agency in written, auditory, visual, electronic, or other physical form - **Business Days**: Monday through Friday, excluding state holidays - **Personal Record**: Any item, collection, or grouping of information about an individual --- ## Response Timelines ### Standard Timeline (HRS § 92F-12) - **Initial Response**: 10 business days from receipt of request - **Response Options**: 1. Provide requested records for inspection or copying 2.",
+      "recent_changes_2024_2025": "2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using Hawaii Revised Statutes Chapter 92F and agency guidance **LAST STATUTORY UPDATE**: 2025 (no significant amendments identified) 2025) - **Key Provisions**: - HRS § 92F-11: Definitions and legislative intent - HRS § 92F-12: Public access rights and timelines - HRS § 92F-16: Fee provisions - HRS § 92F-13: Exemptions from disclosure ### Definitions - **Agency**: All state and county government agencies, including boards, commissions, and authorities - **Government Record**: Any information that has been maintained by an agency in written, auditory, visual, electronic, or other physical form - **Business Days**: Monday through Friday, excluding state holidays - **Personal Record**: Any item, collection, or grouping of information about an individual --- ## Response Timelines ### Standard Timeline (HRS § 92F-12) - **Initial Response**: 10 business days from receipt of request - **Response Options**: 1. Provide requested records for inspection or copying 2. Deny request with written explanation citing specific exemption 3.",
+      "response_timeline_days": -1,
+      "response_timeline_type": "flexible",
+      "response_timeline_description": "Timeline not clearly specified in statute",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Personnel record",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "2025 Amendments",
+        "Reasonable Time Standard"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "Hawaii-UIPA-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "ID",
+      "jurisdiction_name": "Idaho",
+      "statute_abbreviation": "Public Records",
+      "statute_full_name": "- **Idaho Public Records Act**: Idaho Code Title 74, Chapter 1 (1974, amended through 2025)\n- **Key Provisions**:\n  - Idaho Code § 74-101: Definitions and legislative intent\n  - Idaho Code § 74-102: Public access rights and timelines\n  - Idaho Code § 74-104: Fee provisions\n  - Idaho Code § 74-105: Exemptions from disclosure",
+      "core_principle": "Public Records Act - VERIFIED Process Map ## VERIFICATION CERTIFICATION **STATUS**: VERIFIED ACCURATE **VERIFICATION DATE**: September 26, 2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using Idaho Code Title 74, Chapter 1 and agency guidance **LAST STATUTORY UPDATE**: 2025 (no significant amendments identified) --- ## Legal Framework ### Primary Statute - **Idaho Public Records Act**: Idaho Code Title 74, Chapter 1 (1974, amended through 2025) - **Key Provisions**: - Idaho Code § 74-101: Definitions and legislative intent - Idaho Code § 74-102: Public access rights and timelines - Idaho Code § 74-104: Fee provisions - Idaho Code § 74-105: Exemptions from disclosure ### Definitions - **Public Agency**: All state and local government agencies, including boards, commissions, and authorities - **Public Record**: Any writing containing information prepared or owned by a public agency - **Working Days**: Monday through Friday, excluding state holidays - **Custodian**: Official designated to maintain and provide access.",
+      "recent_changes_2024_2025": "2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using Idaho Code Title 74, Chapter 1 and agency guidance **LAST STATUTORY UPDATE**: 2025 (no significant amendments identified) 2025) - **Key Provisions**: - Idaho Code § 74-101: Definitions and legislative intent - Idaho Code § 74-102: Public access rights and timelines - Idaho Code § 74-104: Fee provisions - Idaho Code § 74-105: Exemptions from disclosure ### Definitions - **Public Agency**: All state and local government agencies, including boards, commissions, and authorities - **Public Record**: Any writing containing information prepared or owned by a public agency - **Working Days**: Monday through Friday, excluding state holidays - **Custodian**: Official designated to maintain and provide access to records --- ## Response Timelines ### Standard Timeline (Idaho Code § 74-102) - **Initial Response**: 3 working days from receipt of request - **Response Options**: 1. Provide requested records for inspection or copying 2. Deny request with written explanation citing specific exemption 3.",
+      "response_timeline_days": -1,
+      "response_timeline_type": "flexible",
+      "response_timeline_description": "Timeline not clearly specified in statute",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Personnel record",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "2025 Amendments",
+        "Reasonable Time Standard"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "Idaho-Public-Records-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "IL",
+      "jurisdiction_name": "Illinois",
+      "statute_abbreviation": "FOIA",
+      "statute_full_name": "- **Illinois Freedom of Information Act (FOIA)**: 5 ILCS 140/1 et seq.\n- **Original Enactment**: 1984\n- **Major Revision**: January 1, 2010\n- **Recent Amendments**:\n  - 2023 (PA 103-0472 - electronic records and fee limitations)\n  - **2024 (privacy and settlement disclosure)**\n  - **2025 (cybersecurity and training requirements)**\n- **Administrative Rules**: 44 Ill. Admin. Code Part 5 (Attorney General regulations)",
+      "core_principle": "Public Body**: State agencies, local governments, school districts, public universities **Public Record**: Any writing, recording, map, book, paper, photograph maintained by public body **Unduly Burdensome**: Request unreasonably expensive or disruptive to operations **Commercial Purpose**: Request primarily for commercial, trade, or profit purposes **NEW: Private Information (EXPANDED DEFINITION - EFFECTIVE JANUARY 1, 2024)**: Unique identifiers including: - Social security number, driver's license number, employee identification number - **NEW**: Biometric identifiers including DNA profiles, retina or iris scans, fingerprints, voiceprints, and scans of hand or face geometry - **NEW**: Electronic medical records and health information - **NEW**: Personal financial account information - **NEW**: Home addresses of public employees (with limited exceptions for certain officials) - **NEW**: Personal cellular phone numbers and personal email addresses - Passwords or other access codes - Medical records, home or personal telephone numbers, and personal email addresses - Home addresses and personal license plates (except as otherwise provided by law) ### Legislative Intent - **Presumption of Disclosure**: All records presumed open unless specifically exempt - **Strict Construction**: Exemptions narrowly interpreted - **Government Accountability**: Promote public oversight of government operations --- ## Response Timelines ### Standard Response Timeline (5 ILCS 140/3(d)) - **Initial Response**: 5 business days from receipt - **Extension**: Additional 5 business days for complex requests - **Commercial Requests**: 21 business days - **Voluminous Requests**: Extended timeline negotiable with requester ### NEW: Cybersecurity Amendment (EFFECTIVE 2025) **Section 3(a) - ELECTRONIC REQUEST SECURITY PROVISIONS**: Electronic requests for public records **must appear in their entirety within the body of the electronic submission**. **No public body shall be required to open electronically attached files or hyperlinks** to view or access the details of such a request for security purposes.",
+      "recent_changes_2024_2025": "2025 **VERIFICATION SOURCE**: 5 ILCS 140/1 et seq. including 2024-2025 amendments **LAST STATUTORY UPDATE**: January 1, 2025 (cybersecurity and training amendments) **VERSION**: v0.11 2025 (cybersecurity and training requirements)** - **Administrative Rules**: 44 Ill. Admin.",
+      "response_timeline_days": 5,
+      "response_timeline_type": "business",
+      "response_timeline_description": "5 business days from receipt of request",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "Criminal Penalties",
+        "Fee Waivers",
+        "2025 Amendments",
+        "5-Day Deadline"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "Illinois-FOIA-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "IN",
+      "jurisdiction_name": "Indiana",
+      "statute_abbreviation": "APRA",
+      "statute_full_name": "- **Indiana APRA**: Indiana Code § 5-14-3 (1995, amended through 2025)\n- **Key Provisions**:\n  - IC 5-14-3-1: Definitions and legislative intent\n  - IC 5-14-3-3: Public access rights and timelines\n  - IC 5-14-3-8: Fee provisions\n  - IC 5-14-3-4: Exemptions from disclosure",
+      "core_principle": "Public Records Act (APRA) - VERIFIED Process Map ## VERIFICATION CERTIFICATION **STATUS**: VERIFIED ACCURATE **VERIFICATION DATE**: September 26, 2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using Indiana Code § 5-14-3 and 2025 enforcement cases **LAST STATUTORY UPDATE**: 2025 (active enforcement and litigation) --- ## Legal Framework ### Primary Statute - **Indiana APRA**: Indiana Code § 5-14-3 (1995, amended through 2025) - **Key Provisions**: - IC 5-14-3-1: Definitions and legislative intent - IC 5-14-3-3: Public access rights and timelines - IC 5-14-3-8: Fee provisions - IC 5-14-3-4: Exemptions from disclosure ### **2025 Enforcement Activity** - **Active Litigation**: Recent cases against agencies for delayed or denied responses - **Court Enforcement**: 2025 lawsuits highlighting importance of timely compliance - **Legal Precedent**: Enhanced judicial scrutiny of agency compliance ### Definitions - **Public Agency**: All state and local government agencies, including boards, commissions, and authorities - **Public Record**: Any writing, paper, report, study, map, photograph, book, card, tape, recording, or other material that is created, received, retained, maintained, or filed by or with a public agency - **Reasonable Time**: Timely response based on request complexity and agency resources - **Custodian**: Official designated to maintain and provide access.",
+      "recent_changes_2024_2025": "2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using Indiana Code § 5-14-3 and 2025 enforcement cases **LAST STATUTORY UPDATE**: 2025 (active enforcement and litigation) 2025) - **Key Provisions**: - IC 5-14-3-1: Definitions and legislative intent - IC 5-14-3-3: Public access rights and timelines - IC 5-14-3-8: Fee provisions - IC 5-14-3-4: Exemptions from disclosure ### **2025 Enforcement Activity** 2025 lawsuits highlighting importance of timely compliance - **Legal Precedent**: Enhanced judicial scrutiny of agency compliance ### Definitions - **Public Agency**: All state and local government agencies, including boards, commissions, and authorities - **Public Record**: Any writing, paper, report, study, map, photograph, book, card, tape, recording, or other material that is created, received, retained, maintained, or filed by or with a public agency - **Reasonable Time**: Timely response based on request complexity and agency resources - **Custodian**: Official designated to maintain and provide access to records --- ## Response Timelines ### **\"Reasonable Time\" Standard (IC 5-14-3-3)** - **No Fixed Deadline**: APRA requires response within \"reasonable time\" - **Prompt Response**: Generally interpreted as 1-5 business days for simple requests - **Complex Requests**: Additional time permitted for voluminous or complex requests - **Agency Discretion**: Timeline varies based on request scope and available resources ### **2025 Enforcement Considerations** - **Legal Accountability**: Recent litigation emphasizing importance of timely response - **Court Scrutiny**: Enhanced judicial review of agency timeline compliance - **Best Practice**: Agencies adopting shorter response times to avoid litigation 2025 Precedent**: Recent cases showing court willingness to enforce APRA - **Relief**: Mandamus, injunctive relief, potential attorney fees - **Standard**: Review of agency compliance with reasonable time requirement **Available Relief:** - **Mandamus**: Court order requiring disclosure - **Injunctive Relief**: Ongoing compliance orders - **Attorney Fees**: Potential recovery for successful enforcement - **Damages**: Possible compensation for willful violations --- ## Classification System and Exemptions ### **Specific Exemptions (IC 5-14-3-4(b))** **Confidential by Law**: Records specifically made confidential by statute **Voter Registration**: Certain voter registration information protected **Public Safety**: Records that would jeopardize public safety or security **Personal Privacy**: Information constituting invasion of personal privacy **Law Enforcement**: Investigatory records and confidential sources ### Additional Protected Categories - **Personnel Records**: Employee evaluations, disciplinary records - **Medical Records**: Protected health information - **Educational Records**: Student records protected under FERPA - **Attorney-Client Privilege**: Legal advice and privileged communications - **Trade Secrets**: Proprietary business information ### **2025 Enforcement Focus** - **Specific Citations**: Agencies must cite specific exemption under IC 5-14-3-4(b) - **Burden of Proof**: Agency bears burden to justify withholding - **Narrow Construction**: Courts applying exemptions narrowly - **Legal Scrutiny**: Enhanced judicial review of exemption claims --- ## **2025 Legal Environment** ### Active Enforcement Cases **Recent Litigation**: 2025 cases against agencies for APRA violations **Court Precedent**: Enhanced judicial enforcement of compliance requirements **Legal Accountability**: Increased likelihood of successful legal challenges **Public Interest**: Strong judicial support for transparency 2025)** **Active Enforcement**: Recent court cases demonstrating judicial support **Legal Precedent**: Successful challenges to agency non-compliance **Attorney Fees**: Potential recovery for successful APRA enforcement **Rapid Relief**: Courts providing timely resolution of APRA disputes 2025 Advantages** - **Court Support**: Recent cases showing judicial willingness to enforce APRA - **Legal Precedent**: Successful challenges creating favorable environment - **Enhanced Accountability**: Agencies more cautious due to litigation risk - **Public Awareness**: Increased attention to transparency issues --- ## Verification Sources **Source 1**: Indiana Code § 5-14-3 (current through 2025 session) **Source 2**: 2025 APRA enforcement litigation and court decisions **Source 3**: Indiana Attorney General opinions on public records (2020-2025) **Source 4**: Recent APRA compliance cases and legal precedent (2025) --- *This process map reflects Indiana APRA law as of September 2025, including active enforcement litigation. The \"reasonable time\" standard with enhanced judicial scrutiny distinguishes Indiana's current environment. Recent 2025 court cases demonstrate strong judicial support for APRA enforcement.",
+      "response_timeline_days": -1,
+      "response_timeline_type": "flexible",
+      "response_timeline_description": "Timeline not clearly specified in statute",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Personnel record",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "2025 Amendments",
+        "Reasonable Time Standard"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "Indiana-APRA-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "IA",
+      "jurisdiction_name": "Iowa",
+      "statute_abbreviation": "Open Records",
+      "statute_full_name": "- **Iowa Open Records Law**: Iowa Code Chapter 22 (1967, amended through 2024)\n- **Key Provisions**:\n  - Iowa Code § 22.1: Legislative intent and policy\n  - Iowa Code § 22.2: Public examination rights and procedures\n  - Iowa Code § 22.3: Copying and fee provisions\n  - Iowa Code § 22.7: Exemptions and confidential records",
+      "core_principle": "Public Information Board guidance **LAST STATUTORY UPDATE**: 2024 (digital records and enforcement amendments) --- ## Legal Framework ### Primary Statute - **Iowa Open Records Law**: Iowa Code Chapter 22 (1967, amended through 2024) - **Key Provisions**: - Iowa Code § 22.1: Legislative intent and policy - Iowa Code § 22.2: Public examination rights and procedures - Iowa Code § 22.3: Copying and fee provisions - Iowa Code § 22.7: Exemptions and confidential records ### Enforcement and Oversight - **Iowa Public Information Board (IPIB)**: Independent oversight and enforcement authority - **IPIB Powers**: Investigate complaints, issue binding orders, assess penalties - **Advisory Opinions**: Guidance on law interpretation and best practices - **Training**: Required education for government officials ### Definitions - **Government Body**: All state and local government agencies, boards, commissions - **Public Record**: Any writing, tape, electronic data, or similar record kept by government - **Custodian**: Person lawfully entrusted with custody of public records - **Examination**: Inspection of records without necessarily obtaining copies --- ## Response Timelines ### **Iowa Standard**: \"Without Delay\" or \"Reasonable Time\" - **Statutory Language**: Records must be available for examination \"without delay\" (Iowa Code § 22.2) - **Practical Standard**: Response required within \"reasonable time\" given circumstances - **No Fixed Deadline**: Iowa law does not specify exact number of days - **IPIB Guidance**: Agencies should respond as soon as practicable ### Reasonable Time Factors - **Simple Requests**: Should receive same-day or next-day response - **Complex Requests**: May require additional time but with communication - **Volume**: Large requests may justify extended but reasonable timeline - **Legal Review**: Time needed for exemption analysis and redaction ### Communication Requirements - **Prompt Acknowledgment**: Best practice to acknowledge receipt immediately - **Delay Notification**: Must explain reasons for any delays - **Estimated Completion**: Provide realistic timeline for complex requests - **Interim Updates**: Regular status communication for ongoing requests --- ## Fee Structure ### Allowable Fees (Iowa Code § 22.3) - **Actual Costs**: Limited to actual cost of searching, examining, and copying - **Reasonable Standard**: Fees must be reasonable and not excessive - **Search Time**: May charge for staff time locating records - **Examination**: May charge for time reviewing records for exemptions - **Copying**: Physical duplication and materials costs ### Fee Components - **Search Fees**: Staff hourly rate for locating records - **Examination Fees**: Time spent reviewing for exemptions and redactions - **Copying Costs**: Per-page charges for duplication - **Electronic Processing**: Programming time for database queries - **Postage**: If mailed delivery requested ### Fee Limitations and Practices - **Reasonableness Test**: Fees cannot be excessive or prohibitive - **Advance Estimates**: Should provide cost estimate for large requests - **Fee Waiver**: Some agencies waive fees for public interest requests - **Payment Timing**: May require advance payment for expensive requests --- ## Standard Process Flow ### Phase 1: Request Submission **Requester Actions:** - Submit request to appropriate custodian - Provide reasonable description of records - No specific form required (written preferred) - May specify preferred format **Agency Actions:** - Accept requests during business hours - Forward to appropriate custodian - Begin processing without delay - Provide contact information for follow-up ### Phase 2: Processing **Agency Actions:** - Locate responsive records across relevant systems - Review records for exemptions under Iowa Code § 22.7 - Redact confidential information as required - Calculate fees for searching, examination, and copying **Custodian Responsibilities:** - Ensure compliance with Chapter 22 requirements - Make exemption determinations - Coordinate with legal counsel when needed - Maintain records of access.",
+      "recent_changes_2024_2025": "2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using Iowa Code Chapter 22 and Iowa Public Information Board guidance **LAST STATUTORY UPDATE**: 2024 (digital records and enforcement amendments) 2025) **Source 3**: Iowa appellate court decisions interpreting Open Records Law (2020-2025) **Source 4**: IPIB enforcement actions and compliance guidance (2020-2025) .",
+      "response_timeline_days": -1,
+      "response_timeline_type": "flexible",
+      "response_timeline_description": "Timeline not clearly specified in statute",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Personnel record",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "Fee Waivers",
+        "Reasonable Time Standard"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "Iowa-Open-Records-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "KS",
+      "jurisdiction_name": "Kansas",
+      "statute_abbreviation": "KORA",
+      "statute_full_name": "- **Kansas Open Records Act (KORA)**: KSA 45-215 through 45-223 (1984, amended through 2025)\n- **Key Provisions**:\n  - KSA 45-215: Definitions and legislative intent\n  - KSA 45-217: Public access rights\n  - KSA 45-218: Response timeline requirements\n  - KSA 45-219: Fee provisions\n  - KSA 45-221: Exemptions from disclosure\n  - KSA 45-222: Enforcement and attorney fees",
+      "core_principle": "Public access rights - KSA 45-218: Response timeline requirements - KSA 45-219: Fee provisions - KSA 45-221: Exemptions from disclosure - KSA 45-222: Enforcement and attorney fees ### Definitions - **Public Agency**: All state and local government agencies, including boards, commissions, and authorities - **Public Record**: Any recorded information prepared or possessed by a public agency - **Business Days**: Monday through Friday, excluding state holidays - **Custodian**: Official designated to maintain and provide access.",
+      "recent_changes_2024_2025": "2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using Kansas Statutes Annotated 45-215 through 45-223 and official agency guidance **LAST STATUTORY UPDATE**: 2025 (no significant amendments identified) 2025) - **Key Provisions**: - KSA 45-215: Definitions and legislative intent - KSA 45-217: Public access rights - KSA 45-218: Response timeline requirements - KSA 45-219: Fee provisions - KSA 45-221: Exemptions from disclosure - KSA 45-222: Enforcement and attorney fees ### Definitions - **Public Agency**: All state and local government agencies, including boards, commissions, and authorities - **Public Record**: Any recorded information prepared or possessed by a public agency - **Business Days**: Monday through Friday, excluding state holidays - **Custodian**: Official designated to maintain and provide access to records --- ## Response Timelines ### Standard Timeline (KSA 45-218(a)) - **Initial Response**: 3 business days from receipt of request - **Response Options**: 1. Provide requested records for inspection or copying 2. Deny request with written explanation citing specific exemption 3.",
+      "response_timeline_days": -1,
+      "response_timeline_type": "flexible",
+      "response_timeline_description": "Timeline not clearly specified in statute",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Personnel record",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "2025 Amendments",
+        "Reasonable Time Standard"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "Kansas-Open-Records-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "KY",
+      "jurisdiction_name": "Kentucky",
+      "statute_abbreviation": "Open Records",
+      "statute_full_name": "- **Kentucky Open Records Act**: Kentucky Revised Statutes (KRS) Chapter 61 (1976, amended through 2025)\n- **Key Provisions**:\n  - KRS 61.870: Definitions and legislative intent\n  - KRS 61.872: Public access rights and timelines\n  - KRS 61.874: Fee provisions\n  - KRS 61.878: Exemptions from disclosure",
+      "core_principle": "Public access rights and timelines - KRS 61.874: Fee provisions - KRS 61.878: Exemptions from disclosure ### **CRITICAL 2025 DEVELOPMENTS** - **Supreme Court Case**: Kentucky Supreme Court deciding if public officials can hide business on personal devices - **Legislative Resistance**: Attempts to exempt text messages/communications have failed due to public opposition - **Broad Interpretation**: Courts maintaining expansive view of public records including digital communications ### Definitions - **Public Agency**: All state and local government agencies, including boards, commissions, and authorities - **Public Record**: Any documentary material prepared or owned by a public agency - **Business Days**: Monday through Friday, excluding state holidays - **Public Business**: Official government business regardless of device used --- ## Response Timelines ### Standard Timeline (KRS 61.872) - **Initial Response**: 5 business days from receipt of request - **Response Options**: 1. Provide requested records for inspection or copying 2.",
+      "recent_changes_2024_2025": "2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using Kentucky Revised Statutes Chapter 61 and 2025 Supreme Court cases **LAST STATUTORY UPDATE**: 2025 (pending Supreme Court decision on private device records) 2025) - **Key Provisions**: - KRS 61.870: Definitions and legislative intent - KRS 61.872: Public access rights and timelines - KRS 61.874: Fee provisions - KRS 61.878: Exemptions from disclosure ### **CRITICAL 2025 DEVELOPMENTS** - **Supreme Court Case**: Kentucky Supreme Court deciding if public officials can hide business on personal devices - **Legislative Resistance**: Attempts to exempt text messages/communications have failed due to public opposition - **Broad Interpretation**: Courts maintaining expansive view of public records including digital communications ### Definitions - **Public Agency**: All state and local government agencies, including boards, commissions, and authorities - **Public Record**: Any documentary material prepared or owned by a public agency - **Business Days**: Monday through Friday, excluding state holidays - **Public Business**: Official government business regardless of device used --- ## Response Timelines ### Standard Timeline (KRS 61.872) - **Initial Response**: 5 business days from receipt of request - **Response Options**: 1. Provide requested records for inspection or copying 2. Deny request with written explanation citing specific exemption 3.",
+      "response_timeline_days": -1,
+      "response_timeline_type": "flexible",
+      "response_timeline_description": "Timeline not clearly specified in statute",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Personnel record",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "2025 Amendments",
+        "Reasonable Time Standard"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "Kentucky-Open-Records-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "LA",
+      "jurisdiction_name": "Louisiana",
+      "statute_abbreviation": "Public Records",
+      "statute_full_name": "- **Louisiana Public Records Act**: Louisiana Revised Statutes (LSA-R.S.) Title 44, Chapters 1-37 (1940, amended through 2025)\n- **Key Provisions**:\n  - LSA-R.S. 44:1: Definitions and legislative intent\n  - LSA-R.S. 44:31: Public access rights and procedures\n  - LSA-R.S. 44:32: Fee provisions\n  - LSA-R.S. 44:3-30: Specific exemptions from disclosure",
+      "core_principle": "Public Records Act - VERIFIED Process Map ## VERIFICATION CERTIFICATION **STATUS**: VERIFIED ACCURATE **VERIFICATION DATE**: September 26, 2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using Louisiana Revised Statutes Title 44, Chapters 1-37 and agency guidance **LAST STATUTORY UPDATE**: 2025 (no significant amendments identified) --- ## Legal Framework ### Primary Statute - **Louisiana Public Records Act**: Louisiana Revised Statutes (LSA-R.S.) Title 44, Chapters 1-37 (1940, amended through 2025) - **Key Provisions**: - LSA-R.S. 44:1: Definitions and legislative intent - LSA-R.S.",
+      "recent_changes_2024_2025": "2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using Louisiana Revised Statutes Title 44, Chapters 1-37 and agency guidance **LAST STATUTORY UPDATE**: 2025 (no significant amendments identified) 2025) - **Key Provisions**: - LSA-R.S. 44:1: Definitions and legislative intent - LSA-R.S. 44:31: Public access rights and procedures - LSA-R.S.",
+      "response_timeline_days": -1,
+      "response_timeline_type": "flexible",
+      "response_timeline_description": "Timeline not clearly specified in statute",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Personnel record",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "Fee Waivers",
+        "2025 Amendments",
+        "Reasonable Time Standard"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "Louisiana-Public-Records-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "ME",
+      "jurisdiction_name": "Maine",
+      "statute_abbreviation": "FOAA",
+      "statute_full_name": "- **Maine FOAA**: Maine Title 1, Chapter 13 (1975, amended through 2025)\n- **Key Provisions**:\n  - 1 M.R.S. § 401: Definitions and legislative intent\n  - 1 M.R.S. § 408: Public access rights and timelines\n  - 1 M.R.S. § 409: Fee provisions\n  - 1 M.R.S. § 405: Exemptions from disclosure",
+      "core_principle": "Public access rights and timelines - 1 M.R.S. § 409: Fee provisions - 1 M.R.S.",
+      "recent_changes_2024_2025": "2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using Maine Title 1, Chapter 13 and 2025 legislative oversight **LAST STATUTORY UPDATE**: 2025 (ongoing legislative attention to DHHS response issues) 2025) - **Key Provisions**: - 1 M.R.S. § 401: Definitions and legislative intent - 1 M.R.S. § 408: Public access rights and timelines - 1 M.R.S.",
+      "response_timeline_days": -1,
+      "response_timeline_type": "flexible",
+      "response_timeline_description": "Timeline not clearly specified in statute",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Personnel record",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "2025 Amendments",
+        "Reasonable Time Standard"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "Maine-FOAA-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "MD",
+      "jurisdiction_name": "Maryland",
+      "statute_abbreviation": "PIA",
+      "statute_full_name": "- **Maryland MPIA**: Maryland State Government Code §§ 10-611 through 10-630 (1970, amended through 2025)\n- **Key Provisions**:\n  - SG § 10-612: Definitions and scope\n  - SG § 10-613: Public access rights\n  - SG § 10-614: Response timeline requirements\n  - SG § 10-621: Fee provisions\n  - SG § 10-615 through 10-619: Exemptions",
+      "core_principle": "Public Information Act (MPIA) - VERIFIED Process Map ## VERIFICATION CERTIFICATION **STATUS**: VERIFIED ACCURATE **VERIFICATION DATE**: September 26, 2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using Maryland State Government Code §§ 10-611 through 10-630 and Maryland.gov official guidance **LAST STATUTORY UPDATE**: 2025 (no significant amendments identified) --- ## Legal Framework ### Primary Statute - **Maryland MPIA**: Maryland State Government Code §§ 10-611 through 10-630 (1970, amended through 2025) - **Key Provisions**: - SG § 10-612: Definitions and scope - SG § 10-613: Public access rights - SG § 10-614: Response timeline requirements - SG § 10-621: Fee provisions - SG § 10-615 through 10-619: Exemptions ### Definitions - **Public Body**: All state and local government agencies, including boards, commissions, and authorities - **Public Record**: Any documentary material prepared by or for a public body - **Business Days**: Monday through Friday, excluding state holidays - **Custodian**: Official designated to maintain and provide access.",
+      "recent_changes_2024_2025": "2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using Maryland State Government Code §§ 10-611 through 10-630 and Maryland.gov official guidance **LAST STATUTORY UPDATE**: 2025 (no significant amendments identified) 2025) - **Key Provisions**: - SG § 10-612: Definitions and scope - SG § 10-613: Public access rights - SG § 10-614: Response timeline requirements - SG § 10-621: Fee provisions - SG § 10-615 through 10-619: Exemptions ### Definitions - **Public Body**: All state and local government agencies, including boards, commissions, and authorities - **Public Record**: Any documentary material prepared by or for a public body - **Business Days**: Monday through Friday, excluding state holidays - **Custodian**: Official designated to maintain and provide access to records --- ## Response Timelines ### Standard Timeline (SG § 10-614) - **Initial Response**: 30 calendar days from receipt of request - **Response Options**: 1. Provide requested records 2. Deny request with written explanation citing specific exemption 3.",
+      "response_timeline_days": -1,
+      "response_timeline_type": "flexible",
+      "response_timeline_description": "Timeline not clearly specified in statute",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Personnel record",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "Fee Waivers",
+        "2025 Amendments",
+        "Reasonable Time Standard"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "Maryland-MPIA-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "MA",
+      "jurisdiction_name": "Massachusetts",
+      "statute_abbreviation": "PRL",
+      "statute_full_name": "- **Massachusetts Public Records Law**: Massachusetts General Laws Chapter 66, Sections 10, 10A, and 10B\n- **Original Enactment**: 1973\n- **Major Reform**: 2016 (comprehensive overhaul)\n- **Recent Updates**: 2023 (Chapter 107 - electronic records and enhanced fee protections)",
+      "core_principle": "Public Records Law - VERIFIED Process Map ## VERIFICATION CERTIFICATION **STATUS**: VERIFIED ACCURATE **VERIFICATION DATE**: September 26, 2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using MGL Ch. 66 and SJC decisions **LAST STATUTORY UPDATE**: 2023 (Chapter 107 - electronic records and fee limitations) --- ## Legal Framework ### Primary Statute - **Massachusetts Public Records Law**: Massachusetts General Laws Chapter 66, Sections 10, 10A, and 10B - **Original Enactment**: 1973 - **Major Reform**: 2016 (comprehensive overhaul) - **Recent Updates**: 2023 (Chapter 107 - electronic records and enhanced fee protections) ### Key Definitions (MGL Ch.",
+      "recent_changes_2024_2025": "2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using MGL Ch. 66 and SJC decisions **LAST STATUTORY UPDATE**: 2023 (Chapter 107 - electronic records and fee limitations) 2025) - **Appeal Filing**: Electronic submission preferred through state portal - **Training Programs**: Available through Secretary of State's office - **Legal Assistance**: Pro bono representation available through bar programs --- ## Verification Sources **Source 1**: Massachusetts General Laws Chapter 66, Sections 10, 10A, 10B (current through 2023) **Source 2**: Chapter 107 of the Acts of 2023 (Electronic records and fee limitation amendments) **Source 3**: Supervisor of Records determinations and guidance (2024-2025) **Source 4**: Massachusetts Supreme Judicial Court decisions interpreting public records law (recent precedent) .",
+      "response_timeline_days": 10,
+      "response_timeline_type": "business",
+      "response_timeline_description": "10 business days from receipt of request",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "Attorney Fees Available",
+        "Fee Waivers",
+        "10-Day Deadline"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "Massachusetts-PRL-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "MI",
+      "jurisdiction_name": "Michigan",
+      "statute_abbreviation": "FOIA",
+      "statute_full_name": "- **Michigan Freedom of Information Act (FOIA)**: MCL 15.231 et seq.\n- **Original Enactment**: 1976\n- **Major Revision**: 2014 (comprehensive reform)\n- **Historic 2025 Amendment**: PA 8 & PA 9 - extends FOIA to Legislature and Governor's office",
+      "core_principle": "Public records belong to the people and should be accessible except as otherwise provided by law.",
+      "recent_changes_2024_2025": "2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using MCL 15.231 and 2025 amendments **LAST STATUTORY UPDATE**: 2025 (PA 8 & PA 9 - expansion to Legislature and Governor) 2025 Amendment**: PA 8 & PA 9 - extends FOIA to Legislature and Governor's office 2025 Expansion Coverage ⚠️ **HISTORIC CHANGE** **Now Subject to FOIA (Effective 2025):** 2025-2026 - **Limited Exemptions**: Certain legislative privilege and executive communications --- ## Response Timelines ### Standard Response Timeline (MCL 15.235) - **Initial Response**: 5 business days from receipt - **Extension**: Additional 10 business days with written justification - **Complex Requests**: Extended timeline with detailed explanation - **Fees Over $50**: Additional time for fee calculation and approval ### Extension Criteria (MCL 15.235(2)) - **Voluminous Records**: Large number of documents to review - **Separate Locations**: Records stored at multiple facilities - **Consultation Required**: Need to contact other agencies or parties 2025 Legislative/Executive Timeline Considerations - **New Procedures**: Implementation of FOIA processes ongoing - **Training Period**: Enhanced timelines during initial implementation - **Consultation Requirements**: Coordination between branches may extend processing - **Precedent Development**: New exemption interpretations evolving --- ## Fee Structure ### Allowable Charges (MCL 15.234) - **Labor Costs**: Searching, reviewing, redacting at actual hourly rates 2025 Legislative/Executive Processing **New Procedures for Legislature/Governor:** - **Coordination**: Between FOIA coordinators and branch officials - **Privilege Review**: Enhanced analysis of executive/legislative privilege - **Consultation**: With legal counsel and affected parties - **Precedent Development**: Establishing new exemption applications ### Phase 4: Fee Assessment and Payment **Fee Estimate Process:** - Required for estimated costs over $50 - Detailed breakdown of labor and materials - 50% deposit may be required before processing - Fee dispute resolution procedures available ### Phase 5: Production or Appeal **Record Production:** - Electronic format preferred when available - Redactions clearly marked with exemption citations 2025 Legislative/Executive Exemptions **Legislative Privilege:** - Legislative deliberative process communications - Caucus and committee confidential discussions - Constituent communications (limited) - Legislative strategy and policy development **Executive Privilege:** - Confidential gubernatorial communications - Policy deliberation and decision-making process - Inter-governmental and political communications - Executive advisory and consultation materials ### Balancing Test Evolution - **2025 Precedent Development**: New interpretations for political branches - **Public Interest Standard**: Enhanced analysis for governmental accountability - **Separation of Powers**: Constitutional considerations in exemption application --- ## Common Agency Tactics and Workarounds 2025 Implementation Delays:** - **Expected**: Initial implementation challenges for Legislature/Governor - **Response**: Request specific timeline and regular status updates 2025 Historic Expansion (PA 8 & PA 9) - **Legislative Coverage**: First-time inclusion of Michigan Legislature - **Executive Coverage**: Governor's office now subject to FOIA - **Implementation**: Ongoing development of procedures and training - **Constitutional Questions**: Separation of powers issues being resolved ### Technology Integration - **Electronic Records**: Enhanced requirements for digital searches - **Online Portals**: Improved request submission systems - **Automated Processing**: Streamlined workflows for routine requests - **Document Management**: Digital retention and production capabilities ### Court Interpretation Trends - **Broad Construction**: Continued favor toward disclosure - **Technology Cases**: Email, text, social media inclusion - **Fee Scrutiny**: Stricter limits on labor charges - **2025 Exemptions**: New precedent for political branch records --- ## Strategic Recommendations ### For Effective 2025 Michigan Practice 1. **2025 Timing**: Allow extra processing time for Legislature/Governor requests 2. **Specificity**: Craft precise requests to avoid fee escalation 3.",
+      "response_timeline_days": 5,
+      "response_timeline_type": "business",
+      "response_timeline_description": "5 business days from receipt of request",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Personnel record",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "Attorney Fees Available",
+        "2025 Amendments",
+        "5-Day Deadline"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "Michigan-FOIA-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "MN",
+      "jurisdiction_name": "Minnesota",
+      "statute_abbreviation": "Data Practices",
+      "statute_full_name": "- **Minnesota Government Data Practices Act (MGDPA)**: Minn. Stat. Chapter 13 (1974, amended through 2024)\n- **Key Provisions**:\n  - Minn. Stat. § 13.03: Response procedures and timelines\n  - Minn. Stat. § 13.04: Classification and access rights\n  - Minn. Stat. § 13.05: Duties of responsible authority\n  - Minn. Stat. § 13.08: Remedies and enforcement",
+      "core_principle": "public and private sectors - **Digital Focus**: Increased emphasis on electronic data management ### Definitions - **Government Data**: All data collected, created, received, maintained, or disseminated by a government entity - **Responsible Authority**: Government official designated to implement MGDPA compliance - **Public Data**: Information accessible to any member of the public - **Nonpublic Data**: Information with restricted access under statute --- ## Response Timelines ### **Minnesota Standard**: \"Immediately\" or \"As Soon as Reasonably Possible\" - **Statutory Language**: Response required \"immediately\" or \"as soon as reasonably possible\" (Minn. Stat.",
+      "recent_changes_2024_2025": "2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using Minn. Stat. Chapter 13 and Minnesota Department of Administration guidance **LAST STATUTORY UPDATE**: 2024 (digital records and privacy amendments) 2025 Privacy Law Context** - **Minnesota Consumer Data Privacy Act**: Effective July 31, 2025 (applies to private sector) 2025 Updates 2025 edition) **Source 3**: Minnesota appellate court decisions interpreting MGDPA (2020-2025) **Source 4**: Data Practices Compliance Official advisory opinions (2020-2025) 2025.",
+      "response_timeline_days": -1,
+      "response_timeline_type": "flexible",
+      "response_timeline_description": "Timeline not clearly specified in statute",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Meeting minute",
+        "Personnel record",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "2025 Amendments",
+        "Reasonable Time Standard"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "Minnesota-Data-Practices-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "MS",
+      "jurisdiction_name": "Mississippi",
+      "statute_abbreviation": "Public Records",
+      "statute_full_name": "- **Mississippi Public Records Act**: Mississippi Code § 25-61-1 et seq. (1983, amended through 2025)\n- **Key Provisions**:\n  - Miss. Code § 25-61-3: Definitions and legislative intent\n  - Miss. Code § 25-61-5: Public access rights and timelines\n  - Miss. Code § 25-61-7: Fee provisions\n  - Miss. Code § 25-61-9: Exemptions and confidentiality\n  - Miss. Code § 25-61-15: Enforcement and attorney fees",
+      "core_principle": "Public Records Act - VERIFIED Process Map ## VERIFICATION CERTIFICATION **STATUS**: VERIFIED ACCURATE **VERIFICATION DATE**: September 26, 2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using Mississippi Code § 25-61 and official agency guidance **LAST STATUTORY UPDATE**: 2025 (no significant amendments identified) --- ## Legal Framework ### Primary Statute - **Mississippi Public Records Act**: Mississippi Code § 25-61-1 et seq. (1983, amended through 2025) - **Key Provisions**: - Miss.",
+      "recent_changes_2024_2025": "2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using Mississippi Code § 25-61 and official agency guidance **LAST STATUTORY UPDATE**: 2025 (no significant amendments identified) 2025) - **Key Provisions**: - Miss. Code § 25-61-3: Definitions and legislative intent - Miss. Code § 25-61-5: Public access rights and timelines - Miss.",
+      "response_timeline_days": -1,
+      "response_timeline_type": "flexible",
+      "response_timeline_description": "Timeline not clearly specified in statute",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Personnel record",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "2025 Amendments",
+        "Reasonable Time Standard"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "Mississippi-Public-Records-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "MO",
+      "jurisdiction_name": "Missouri",
+      "statute_abbreviation": "Sunshine Law",
+      "statute_full_name": "- **Missouri Sunshine Law**: Missouri Revised Statutes Chapter 610 (1973, amended through 2025)\n- **Key Provisions**:\n  - RSMo § 610.010: Definitions and legislative intent\n  - RSMo § 610.021: Public access rights\n  - RSMo § 610.023: Response timeline requirements\n  - RSMo § 610.026: Fee provisions\n  - RSMo § 610.027: Enforcement and attorney fees",
+      "core_principle": "Public access rights - RSMo § 610.023: Response timeline requirements - RSMo § 610.026: Fee provisions - RSMo § 610.027: Enforcement and attorney fees ### Definitions - **Public Governmental Body**: All state and local government agencies, including boards, commissions, and authorities - **Public Record**: Any record maintained by a public governmental body - **Business Days**: Monday through Friday, excluding state holidays - **Custodian**: Official designated to maintain and provide access.",
+      "recent_changes_2024_2025": "2025 **VERIFICATION SOURCE**: Dual-source validation using Missouri Revised Statutes Chapter 610 and official agency guidance **LAST STATUTORY UPDATE**: August 2025 (minor amendments - see 2025 Legislative Updates section) 2025) - **Key Provisions**: - RSMo § 610.010: Definitions and legislative intent - RSMo § 610.021: Public access rights - RSMo § 610.023: Response timeline requirements - RSMo § 610.026: Fee provisions - RSMo § 610.027: Enforcement and attorney fees ### Definitions - **Public Governmental Body**: All state and local government agencies, including boards, commissions, and authorities - **Public Record**: Any record maintained by a public governmental body - **Business Days**: Monday through Friday, excluding state holidays - **Custodian**: Official designated to maintain and provide access to records --- ## Response Timelines ### Standard Timeline (RSMo § 610.023) - **Initial Response**: 3 business days from receipt of request - **Response Options**: 1. Provide requested records 2. Deny request with written explanation citing specific exemption 3.",
+      "response_timeline_days": -1,
+      "response_timeline_type": "flexible",
+      "response_timeline_description": "Timeline not clearly specified in statute",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Personnel record",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "2025 Amendments",
+        "Reasonable Time Standard"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "Missouri-Sunshine-Law-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "MT",
+      "jurisdiction_name": "Montana",
+      "statute_abbreviation": "Right to Know",
+      "statute_full_name": "- **Montana Right to Know Act**: Montana Code Annotated Title 2, Chapter 6 (1963, amended through 2025)\n- **Key Provisions**:\n  - MCA § 2-6-101: Definitions and legislative intent\n  - MCA § 2-6-102: Public access rights and timelines\n  - MCA § 2-6-105: Fee provisions\n  - MCA § 2-6-111: Exemptions from disclosure",
+      "core_principle": "Public access rights and timelines - MCA § 2-6-105: Fee provisions - MCA § 2-6-111: Exemptions from disclosure ### Definitions - **Public Agency**: All state and local government agencies, including boards, commissions, and authorities - **Public Information**: Information in any form prepared or owned by a public agency - **Working Days**: Monday through Friday, excluding state holidays - **Custodian**: Official designated to maintain and provide access.",
+      "recent_changes_2024_2025": "2025 **VERIFICATION SOURCE**: Dual-source validation using Montana Code Annotated Title 2, Chapter 6 and agency guidance **LAST STATUTORY UPDATE**: October 2025 (agency-level procedure changes - see 2025 Administrative Updates section) 2025) - **Key Provisions**: - MCA § 2-6-101: Definitions and legislative intent - MCA § 2-6-102: Public access rights and timelines - MCA § 2-6-105: Fee provisions - MCA § 2-6-111: Exemptions from disclosure ### Definitions - **Public Agency**: All state and local government agencies, including boards, commissions, and authorities - **Public Information**: Information in any form prepared or owned by a public agency - **Working Days**: Monday through Friday, excluding state holidays - **Custodian**: Official designated to maintain and provide access to records --- ## Response Timelines ### Standard Timeline (MCA § 2-6-102) - **Initial Response**: 5 working days from receipt of request - **Response Options**: 1. Provide requested records for inspection or copying 2. Deny request with written explanation citing specific exemption 3.",
+      "response_timeline_days": -1,
+      "response_timeline_type": "flexible",
+      "response_timeline_description": "Timeline not clearly specified in statute",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Personnel record",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "Reasonable Time Standard"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "Montana-Right-to-Know-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "NE",
+      "jurisdiction_name": "Nebraska",
+      "statute_abbreviation": "Public Records",
+      "statute_full_name": "- **Nebraska Public Records Act**: Nebraska Revised Statutes Chapter 84, Article 7 (1961, amended through 2025)\n- **Key Provisions**:\n  - Neb. Rev. Stat. § 84-712: Definitions and legislative intent\n  - Neb. Rev. Stat. § 84-712.01: Public access rights and timelines\n  - Neb. Rev. Stat. § 84-712.02: Fee provisions\n  - Neb. Rev. Stat. § 84-712.05: Exemptions from disclosure",
+      "core_principle": "Public Records Act - VERIFIED Process Map ## VERIFICATION CERTIFICATION **STATUS**: VERIFIED ACCURATE **VERIFICATION DATE**: September 26, 2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using Nebraska Revised Statutes Chapter 84, Article 7 and agency guidance **LAST STATUTORY UPDATE**: 2025 (no significant amendments identified) --- ## Legal Framework ### Primary Statute - **Nebraska Public Records Act**: Nebraska Revised Statutes Chapter 84, Article 7 (1961, amended through 2025) - **Key Provisions**: - Neb. Rev.",
+      "recent_changes_2024_2025": "2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using Nebraska Revised Statutes Chapter 84, Article 7 and agency guidance **LAST STATUTORY UPDATE**: 2025 (no significant amendments identified) 2025) - **Key Provisions**: - Neb. Rev. Stat.",
+      "response_timeline_days": -1,
+      "response_timeline_type": "flexible",
+      "response_timeline_description": "Timeline not clearly specified in statute",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Personnel record",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "2025 Amendments",
+        "Reasonable Time Standard"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "Nebraska-Public-Records-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "NV",
+      "jurisdiction_name": "Nevada",
+      "statute_abbreviation": "Public Records",
+      "statute_full_name": "- **Nevada Public Records Act**: Nevada Revised Statutes (NRS) Chapter 239 (1975, amended through 2025)\n- **Key Provisions**:\n  - NRS 239.010: Definitions and legislative intent\n  - NRS 239.0105: Public access rights\n  - NRS 239.011: Response timeline requirements\n  - NRS 239.052: Fee provisions\n  - NRS 239.010: Exemptions and confidentiality",
+      "core_principle": "Public Records Act - VERIFIED Process Map ## VERIFICATION CERTIFICATION **STATUS**: VERIFIED ACCURATE **VERIFICATION DATE**: September 26, 2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using Nevada Revised Statutes Chapter 239 and official agency guidance **LAST STATUTORY UPDATE**: 2025 (no significant amendments identified) --- ## Legal Framework ### Primary Statute - **Nevada Public Records Act**: Nevada Revised Statutes (NRS) Chapter 239 (1975, amended through 2025) - **Key Provisions**: - NRS 239.010: Definitions and legislative intent - NRS 239.0105: Public access rights - NRS 239.011: Response timeline requirements - NRS 239.052: Fee provisions - NRS 239.010: Exemptions and confidentiality ### Supporting Regulations - **Nevada Administrative Code (NAC) 239.926**: Records retention schedules - **NAC 239**: Administrative rules for records management - **Local Ordinances**: Municipal and county implementation rules ### Definitions - **Public Body**: All state and local government agencies, including boards, commissions, and authorities - **Public Record**: Any written or electronic information prepared or maintained by a public body - **Business Days**: Monday through Friday, excluding state holidays - **Custodian**: Official designated to maintain and provide access.",
+      "recent_changes_2024_2025": "2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using Nevada Revised Statutes Chapter 239 and official agency guidance **LAST STATUTORY UPDATE**: 2025 (no significant amendments identified) 2025) - **Key Provisions**: - NRS 239.010: Definitions and legislative intent - NRS 239.0105: Public access rights - NRS 239.011: Response timeline requirements - NRS 239.052: Fee provisions - NRS 239.010: Exemptions and confidentiality ### Supporting Regulations - **Nevada Administrative Code (NAC) 239.926**: Records retention schedules - **NAC 239**: Administrative rules for records management - **Local Ordinances**: Municipal and county implementation rules ### Definitions - **Public Body**: All state and local government agencies, including boards, commissions, and authorities - **Public Record**: Any written or electronic information prepared or maintained by a public body - **Business Days**: Monday through Friday, excluding state holidays - **Custodian**: Official designated to maintain and provide access to records --- ## Response Timelines ### Standard Timeline (NRS 239.0105) - **Initial Response**: 5 business days from receipt of request - **Response Options**: 1. Provide access to records for inspection or copying 2. Provide copies of records upon payment of fees 3.",
+      "response_timeline_days": -1,
+      "response_timeline_type": "flexible",
+      "response_timeline_description": "Timeline not clearly specified in statute",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Personnel record",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "Fee Waivers",
+        "2025 Amendments",
+        "Reasonable Time Standard"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "Nevada-Public-Records-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "NH",
+      "jurisdiction_name": "New Hampshire",
+      "statute_abbreviation": "Right-to-Know",
+      "statute_full_name": "- **New Hampshire Right-to-Know Law**: New Hampshire RSA Chapter 91-A (1967, amended through 2025)\n- **Key Provisions**:\n  - RSA 91-A:1: Definitions and legislative intent\n  - RSA 91-A:4: Public access rights and timelines\n  - RSA 91-A:4-c: Fee provisions\n  - RSA 91-A:5: Exemptions from disclosure",
+      "core_principle": "Public access rights and timelines - RSA 91-A:4-c: Fee provisions - RSA 91-A:5: Exemptions from disclosure ### Definitions - **Public Body**: All state and local government agencies, including boards, commissions, and authorities - **Public Record**: Any information in any physical form prepared or owned by a public body - **Business Days**: Monday through Friday, excluding state holidays - **Custodian**: Official designated to maintain and provide access.",
+      "recent_changes_2024_2025": "2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using New Hampshire RSA Chapter 91-A and agency guidance **LAST STATUTORY UPDATE**: 2025 (no significant amendments identified) 2025) - **Key Provisions**: - RSA 91-A:1: Definitions and legislative intent - RSA 91-A:4: Public access rights and timelines - RSA 91-A:4-c: Fee provisions - RSA 91-A:5: Exemptions from disclosure ### Definitions - **Public Body**: All state and local government agencies, including boards, commissions, and authorities - **Public Record**: Any information in any physical form prepared or owned by a public body - **Business Days**: Monday through Friday, excluding state holidays - **Custodian**: Official designated to maintain and provide access to records --- ## Response Timelines ### Standard Timeline (RSA 91-A:4) - **Initial Response**: 5 business days from receipt of request - **Response Options**: 1. Provide requested records for inspection or copying 2. Deny request with written explanation citing specific exemption 3.",
+      "response_timeline_days": -1,
+      "response_timeline_type": "flexible",
+      "response_timeline_description": "Timeline not clearly specified in statute",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Personnel record",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "2025 Amendments",
+        "Reasonable Time Standard"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "New-Hampshire-Right-to-Know-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "NJ",
+      "jurisdiction_name": "New Jersey",
+      "statute_abbreviation": "OPRA",
+      "statute_full_name": "**New Jersey Statutes Annotated (N.J.S.A.) 47:1A-1 et seq.** (Current through 2024 reforms)",
+      "core_principle": "Public Records Act (OPRA) - VERIFIED Process Map **VERSION**: v0.11 **Verification Date: September 26, 2025** **Verification Method: Perplexity Search with Recent Recency Filter** **Status: 100% CURRENT AND ACCURATE** **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current --- ## 🚨 MAJOR UPDATE NOTICE **New Jersey OPRA underwent its first major overhaul in over 20 years, with significant changes effective September 3, 2024. This process map reflects all current reforms.** --- ## Legal Framework ### Primary Statute **New Jersey Statutes Annotated (N.J.S.A.) 47:1A-1 et seq.** (Current through 2024 reforms) ### 2024 Major Reforms (Effective September 3, 2024) - **Signed into Law**: June 5, 2024 by Governor Phil Murphy - **First Major Update**: In over 20 years - **Scope**: Comprehensive procedural and substantive changes --- ## Response Timeline Framework (UPDATED 2024) ### Standard Response Period - **Initial Deadline**: **7 business days** from receipt of request - **Commercial Requests**: **14 business days** - **Calculation**: Business days exclude weekends and state holidays ### 2024 Website Posting Requirements ⭐ **NEW** - **Agency Obligation**: Must make records available on public websites where feasible - **Requester Assistance**: Agencies must help locate records already posted online - **Impact**: Reduces need for formal requests for commonly sought records --- ## Fee Structure (2024 REFORMS) ### Photocopy Fees (Confirmed Current) - **First 10 pages**: $0.75 per page - **Next 10 pages**: $0.50 per page - **Additional pages**: $0.25 per page - **Electronic Records**: Actual cost for electronic media ### Special Service Charges - **Definition**: Complex searches, programming, or special formatting - **Rate**: Actual cost of service - **Estimate Required**: For requests exceeding standard copying ### New Cost Considerations (2024) - **Website Posting Costs**: Agencies may factor online availability costs - **Digital Format Preference**: Electronic delivery encouraged to reduce fees --- ## Process Flow (2024 VERIFIED) ### Phase 1: Request Submission (UPDATED) **Submission Methods** (New 2024 Standards): - **Form**: Official OPRA request form - **Letter**: Traditional written request - **Email**: Electronic submission accepted - **Requirement**: Must include all necessary information without excessive clarification burden **Required Elements**: - Specific description of requested records - Contact information for response - Preferred format (electronic encouraged) - Fee limitation if applicable ### Phase 2: Agency Response (2024 PROCEDURES) **7-Day Response Window**: - Acknowledge receipt of request - Determine availability of records - Provide estimate if special services required - Direct to website if records already posted online **Website Check Requirement** ⭐ **NEW 2024**: - Agency must assist in locating records on public website - May fulfill request by directing to online resources - Reduces formal processing burden ### Phase 3: Record Production or Denial **Production Timeline**: - **Standard Records**: Within 7-day response period - **Complex Requests**: Additional time with justification - **Electronic Preferred**: Agencies encouraged to provide digital copies **Denial Requirements**: - Must cite specific exemption - Must be in writing with legal justification - Must provide information about appeal rights ### Phase 4: Fee Assessment and Payment **New Fee Framework (2024)**: - **Estimate Provided**: For any charges beyond standard copying - **Payment Terms**: May require prepayment for extensive work - **Website Alternative**: May reduce or eliminate fees through online access.",
+      "recent_changes_2024_2025": "2025** **Verification Method: Perplexity Search with Recent Recency Filter** **Status: 100% CURRENT AND ACCURATE** **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current 2025) 1. **N.J.S.A. 47:1A-1 et seq.** (Current through 2024 reforms) 2.",
+      "response_timeline_days": 7,
+      "response_timeline_type": "business",
+      "response_timeline_description": "7 business days from receipt of request",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Meeting minute",
+        "Financial record",
+        "Personnel record"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "7-Day Deadline"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "New-Jersey-OPRA-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "NY",
+      "jurisdiction_name": "New York",
+      "statute_abbreviation": "FOIL",
+      "statute_full_name": "- **Freedom of Information Law (FOIL)**: Public Officers Law § 84 et seq.\n- **Original Enactment**: 1974\n- **Major Amendments**: 2008 (expanded coverage), 2023 (electronic records)\n- **Implementing Regulations**: 21 NYCRR Part 1401",
+      "core_principle": "Public Officers Law and COOG guidance **LAST STATUTORY UPDATE**: 2023 (Chapter 56 - electronic records provisions) --- ## Legal Framework ### Primary Statute - **Freedom of Information Law (FOIL)**: Public Officers Law § 84 et seq. - **Original Enactment**: 1974 - **Major Amendments**: 2008 (expanded coverage), 2023 (electronic records) - **Implementing Regulations**: 21 NYCRR Part 1401 ### Key Definitions (POL § 86) - **Agency**: State executive agencies, legislature, judiciary, local governments, public authorities, public corporations - **Record**: Any information kept, held, filed, produced, or reproduced in any format - **Available**: Records that exist and are reasonably accessible - **Public Access**: Presumption of openness for all government records ### Constitutional Context - **No Constitutional Right**: FOIL is statutory, not constitutional - **Legislative Intent**: Promote government transparency and accountability - **Narrow Construction**: Exemptions strictly construed --- ## Response Timelines ### Standard Timeline (POL § 89(3)) - **Initial Response**: 5 business days from receipt - **Production Deadline**: \"Reasonable time\" after determination to release - **Extension**: \"Reasonable\" additional time for voluminous/complex requests ### Response Requirements **Within 5 Business Days, Agency Must:** - Acknowledge receipt of request - Determine whether to grant or deny access.",
+      "recent_changes_2024_2025": "2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using Public Officers Law and COOG guidance **LAST STATUTORY UPDATE**: 2023 (Chapter 56 - electronic records provisions) 2025) **Source 3**: Chapter 56 of the Laws of 2023 (Electronic Records Amendments) **Source 4**: 21 NYCRR Part 1401 (FOIL Implementing Regulations, current through 2025) .",
+      "response_timeline_days": -1,
+      "response_timeline_type": "flexible",
+      "response_timeline_description": "Timeline not clearly specified in statute",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Personnel record",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "Fee Waivers",
+        "Reasonable Time Standard"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "New-York-FOIL-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "NC",
+      "jurisdiction_name": "North Carolina",
+      "statute_abbreviation": "Public Records",
+      "statute_full_name": "- **North Carolina Public Records Act**: NCGS Chapter 132 (1975, amended through 2023)\n- **Key Provisions**:\n  - NCGS § 132-1: Definitions and public policy\n  - NCGS § 132-6: Inspection and copying procedures\n  - NCGS § 132-6.2: Fee provisions\n  - NCGS § 132-1.4A: Law enforcement recordings (2016)",
+      "core_principle": "Public Records Act - VERIFIED Process Map ## VERIFICATION CERTIFICATION **STATUS**: VERIFIED ACCURATE **VERIFICATION DATE**: September 26, 2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using NCGS Chapter 132 and official state guidance **LAST STATUTORY UPDATE**: 2023 (body-worn camera provisions updated) --- ## Legal Framework ### Primary Statute - **North Carolina Public Records Act**: NCGS Chapter 132 (1975, amended through 2023) - **Key Provisions**: - NCGS § 132-1: Definitions and public policy - NCGS § 132-6: Inspection and copying procedures - NCGS § 132-6.2: Fee provisions - NCGS § 132-1.4A: Law enforcement recordings (2016) ### Definitions - **Public Record**: Any document, paper, letter, map, book, photograph, film, sound recording, magnetic or other tape, electronic data-processing record, or other documentary material regardless of physical form or characteristics - **Public Agency**: All state and local government entities - **Custodian**: Public official charged with custody of public records --- ## Response Timelines ### **CRITICAL CORRECTION**: No Fixed Deadline - **Response Requirement**: \"As promptly as possible\" (NCGS § 132-6) - **No Statutory Deadline**: North Carolina law does NOT specify a fixed number of days - **Practical Standard**: Agencies must act without undue delay, balancing promptness with record location/preparation needs - **Communication Requirement**: Agencies should notify requesters of delays and provide estimated completion dates ### Factors Affecting Timeline - Volume and complexity of request - Location of records (multiple offices) - Need for legal review - Redaction requirements - Staff availability --- ## Fee Structure ### Allowable Fees (NCGS § 132-6.2) - **Inspection**: Free on-site review of records - **Copies**: Actual cost of duplication including materials and labor - **No Search Fees**: Agencies cannot charge for time spent locating records - **Electronic Records**: May charge for programming or format conversion ### Common Fee Rates - **Paper Copies**: Typically $0.25-$1.00 per page - **Electronic Media**: Cost of CD/DVD plus staff time - **Large Format**: Actual reproduction costs - **Certification**: Additional fee for certified copies ### Fee Limitations - Must be based on actual costs - Cannot include overhead or administrative costs - No charge for first inspection - Advance payment may be required for large requests --- ## Standard Process Flow ### Phase 1: Request Submission **Requester Actions:** - Submit oral or written request to appropriate custodian - Provide reasonable description of records sought - Specify preferred format (paper, electronic) - Identify self and purpose (optional but recommended) **Agency Actions:** - Accept request during normal business hours - No specific form required - May ask for clarification of request - Begin search process immediately ### Phase 2: Processing **Agency Actions:** - Locate responsive records across relevant departments - Review for exemptions and redactions - Calculate duplication costs if copies requested - Determine if records exist in requested format **Timeline Management:** - Begin processing \"as promptly as possible\" - Communicate with requester about delays - Provide realistic timeline estimates ### Phase 3: Initial Response **Agency Must Provide:** - Access to records for inspection (free) - Copies upon payment of fees - Explanation of any redactions or exemptions - Information about appeal rights - Written denial with specific statutory basis if applicable ### Phase 4: Appeal Process **Administrative Options:** - **Informal Resolution**: Contact agency head or records officer - **No Formal Administrative Appeal**: NCGS 132 does not establish formal appeal process - **Political Remedies**: Contact elected officials, media, citizen advocacy groups ### Phase 5: Judicial Review **Superior Court Action:** - **Venue**: County where agency is located - **Standard**: Agency bears burden to justify withholding - **Relief**: Mandamus to compel disclosure, attorney fees in some cases - **Timeline**: No specific deadline, but prompt filing advised --- ## Exemptions and Common Barriers ### Statutory Exemptions **Personnel Records** (NCGS § 126-22): Employee privacy information **Law Enforcement Records**: Active investigations, certain techniques **Attorney-Client Privileged**: Legal advice communications **Medical Records**: HIPAA and state privacy protections **Educational Records**: FERPA-protected student information **Trade Secrets**: Proprietary business information ### Special Categories **Body-Worn Camera Recordings** (NCGS § 132-1.4A): - Not public records - Limited release to depicted persons - Court order required for broader access.",
+      "recent_changes_2024_2025": "2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using NCGS Chapter 132 and official state guidance **LAST STATUTORY UPDATE**: 2023 (body-worn camera provisions updated)",
+      "response_timeline_days": -1,
+      "response_timeline_type": "flexible",
+      "response_timeline_description": "Timeline not clearly specified in statute",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Personnel record",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "Reasonable Time Standard"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "North-Carolina-Public-Records-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "ND",
+      "jurisdiction_name": "North Dakota",
+      "statute_abbreviation": "Open Records",
+      "statute_full_name": "- **North Dakota Open Records Law**: North Dakota Century Code Chapter 44-04 (1957, amended through 2025)\n- **Key Provisions**:\n  - N.D.C.C. § 44-04-18: Definitions and legislative intent\n  - N.D.C.C. § 44-04-18.1: Public access rights and timelines\n  - N.D.C.C. § 44-04-18.7: Fee provisions\n  - N.D.C.C. § 44-04-18.1 through 44-04-18.27: Exemptions from disclosure",
+      "core_principle": "Public access rights and timelines - N.D.C.C. § 44-04-18.7: Fee provisions - N.D.C.C.",
+      "recent_changes_2024_2025": "2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using North Dakota Century Code Chapter 44-04 and agency guidance **LAST STATUTORY UPDATE**: 2025 (no significant amendments identified) 2025) - **Key Provisions**: - N.D.C.C. § 44-04-18: Definitions and legislative intent - N.D.C.C. § 44-04-18.1: Public access rights and timelines - N.D.C.C.",
+      "response_timeline_days": -1,
+      "response_timeline_type": "flexible",
+      "response_timeline_description": "Timeline not clearly specified in statute",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Personnel record",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "2025 Amendments",
+        "Reasonable Time Standard"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "North-Dakota-Open-Records-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "OH",
+      "jurisdiction_name": "Ohio",
+      "statute_abbreviation": "PRL",
+      "statute_full_name": "- **Ohio Public Records Law**: Ohio Revised Code § 149.43\n- **Original Enactment**: 1963\n- **Major Revision**: 2007 (comprehensive reform)\n- **Critical 2024 Amendment**: HB 462 - mandatory pre-litigation notice requirements",
+      "core_principle": "Public records belong to the people and should be accessible except as otherwise provided by law.",
+      "recent_changes_2024_2025": "2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using ORC 149.43 and 2024 amendments **LAST STATUTORY UPDATE**: 2024 (HB 462 - pre-litigation notice requirements)",
+      "response_timeline_days": -1,
+      "response_timeline_type": "flexible",
+      "response_timeline_description": "Reasonable time (no fixed statutory deadline)",
+      "response_timeline_factors": [
+        "Request complexity",
+        "Volume of records",
+        "Agency resources"
+      ],
+      "public_record_categories": [
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "Attorney Fees Available",
+        "Fee Waivers",
+        "Reasonable Time Standard"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "Ohio-PRL-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "OK",
+      "jurisdiction_name": "Oklahoma",
+      "statute_abbreviation": "Open Records",
+      "statute_full_name": "- **Oklahoma Open Records Act**: Oklahoma Statutes Title 51 (1985, amended through 2025)\n- **Key Provisions**:\n  - Title 51 § 24A.1: Definitions and legislative intent\n  - Title 51 § 24A.5: Public access rights and timelines\n  - Title 51 § 24A.8: Fee provisions\n  - Title 51 § 24A.17: Exemptions from disclosure",
+      "core_principle": "Public access rights and timelines - Title 51 § 24A.8: Fee provisions - Title 51 § 24A.17: Exemptions from disclosure ### Definitions - **Public Body**: All state and local government agencies, including boards, commissions, and authorities - **Public Record**: Any record prepared or maintained by a public body - **Prompt Response**: Timely response within reasonable period (typically 3-5 business days) - **Custodian**: Official designated to maintain and provide access.",
+      "recent_changes_2024_2025": "2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using Oklahoma Statutes Title 51 and court decisions **LAST STATUTORY UPDATE**: 2025 (no significant amendments identified) 2025) - **Key Provisions**: - Title 51 § 24A.1: Definitions and legislative intent - Title 51 § 24A.5: Public access rights and timelines - Title 51 § 24A.8: Fee provisions - Title 51 § 24A.17: Exemptions from disclosure ### Definitions - **Public Body**: All state and local government agencies, including boards, commissions, and authorities - **Public Record**: Any record prepared or maintained by a public body - **Prompt Response**: Timely response within reasonable period (typically 3-5 business days) - **Custodian**: Official designated to maintain and provide access to records --- ## Response Timelines ### Standard Timeline (Title 51 § 24A.5) - **Prompt Response Required**: Must respond \"promptly\" without unreasonable delay - **Reasonable Time**: Generally interpreted as 3-5 business days by courts - **Response Options**: 1. Provide requested records for inspection or copying 2. Deny request with written explanation citing specific exemption 3.",
+      "response_timeline_days": -1,
+      "response_timeline_type": "flexible",
+      "response_timeline_description": "Timeline not clearly specified in statute",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Arrest record",
+        "Personnel record",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "2025 Amendments",
+        "Reasonable Time Standard"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "Oklahoma-Open-Records-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "OR",
+      "jurisdiction_name": "Oregon",
+      "statute_abbreviation": "Public Records",
+      "statute_full_name": "- **Oregon Public Records Law**: Oregon Revised Statutes (ORS) Chapter 192 (1973, amended through 2025)\n- **Key Provisions**:\n  - ORS 192.311: Definitions and legislative intent\n  - ORS 192.324: Public access rights and timelines\n  - ORS 192.440: Fee provisions\n  - ORS 192.345: Exemptions from disclosure",
+      "core_principle": "Public Records Law - VERIFIED Process Map ## VERIFICATION CERTIFICATION **STATUS**: VERIFIED ACCURATE **VERIFICATION DATE**: September 26, 2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using Oregon Revised Statutes Chapter 192 and Portland updated rules (January 2025) **LAST STATUTORY UPDATE**: 2025 (Portland rules update effective January 2025) --- ## Legal Framework ### Primary Statute - **Oregon Public Records Law**: Oregon Revised Statutes (ORS) Chapter 192 (1973, amended through 2025) - **Key Provisions**: - ORS 192.311: Definitions and legislative intent - ORS 192.324: Public access rights and timelines - ORS 192.440: Fee provisions - ORS 192.345: Exemptions from disclosure ### **2025 Updates** - **Portland Rules**: Updated public records rules effective January 2025 - **Fee Notification**: Enhanced requirements for fee disclosure over $25 - **Transparency Initiatives**: Counties implementing new transparency policies ### Definitions - **Public Body**: All state and local government agencies, including boards, commissions, and authorities - **Public Record**: Any writing containing information prepared or owned by a public body - **Reasonable Time**: Timeline based on request complexity, volume, and agency workload - **Custodian**: Official designated to maintain and provide access.",
+      "recent_changes_2024_2025": "2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using Oregon Revised Statutes Chapter 192 and Portland updated rules (January 2025) **LAST STATUTORY UPDATE**: 2025 (Portland rules update effective January 2025) 2025) - **Key Provisions**: - ORS 192.311: Definitions and legislative intent - ORS 192.324: Public access rights and timelines - ORS 192.440: Fee provisions - ORS 192.345: Exemptions from disclosure ### **2025 Updates** 2025 - **Fee Notification**: Enhanced requirements for fee disclosure over $25 - **Transparency Initiatives**: Counties implementing new transparency policies ### Definitions - **Public Body**: All state and local government agencies, including boards, commissions, and authorities - **Public Record**: Any writing containing information prepared or owned by a public body - **Reasonable Time**: Timeline based on request complexity, volume, and agency workload - **Custodian**: Official designated to maintain and provide access to records --- ## Response Timelines ### **\"Reasonable Time\" Standard (ORS 192.324)** - **No Fixed Deadline**: Oregon law requires response within \"reasonable time\" - **Factors Considered**: Request complexity, volume, agency workload, available resources 2025 Transparency Initiatives** - **County Improvements**: Enhanced policies after transparency issues - **Faster Response**: Some jurisdictions implementing quicker response protocols - **Public Accountability**: Increased focus on reasonable timeline compliance --- ## Fee Structure ### **Comprehensive Fee System (ORS 192.440)** **Allowable Costs:** - **Staff Time**: Locating, reviewing, redacting, copying, supervising inspection 2025 Fee Notification Requirements** - **$25 Threshold**: Must notify requester and obtain approval if estimated fees exceed $25 - **Deposit Requirement**: Often require 50% deposit before beginning work - **Detailed Estimates**: Must provide breakdown of anticipated costs - **Written Approval**: Requester consent required before proceeding with costly requests ### Fee Schedule Components - **Hourly Rates**: Staff and attorney time at applicable hourly rates - **Copying Costs**: Per-page charges for paper duplication - **Electronic Media**: Cost of disks, drives, or other electronic storage - **Supervision**: Staff time for supervising record inspection --- ## Standard Process Flow ### Phase 1: Request Submission **Requester Actions:** 2025 Special Considerations** - **Digital Records**: Electronic records subject to same disclosure requirements - **Remote Work**: Records created in remote work environments covered - **Transparency Policies**: Enhanced focus on proactive disclosure 2025 transparency initiatives requiring faster response - Document delays that exceed truly reasonable timeframes ### Excessive Fee Estimates **Problem**: Inflated fee estimates to discourage requests **Workarounds**: - Challenge fee estimates as exceeding actual costs 2025 transparency initiatives requiring comprehensive searches - Appeal with evidence records should exist --- ## Enforcement Mechanisms ### Administrative Remedies 1. **Internal Appeal**: Discuss with custodian or agency head 2. **Attorney General**: Guidance on public records interpretation 3.",
+      "response_timeline_days": -1,
+      "response_timeline_type": "flexible",
+      "response_timeline_description": "Timeline not clearly specified in statute",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Personnel record",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "2025 Amendments",
+        "Reasonable Time Standard"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "Oregon-Public-Records-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "PA",
+      "jurisdiction_name": "Pennsylvania",
+      "statute_abbreviation": "RTKL",
+      "statute_full_name": "- **Right-to-Know Law (RTKL)**: 65 Pa.C.S. §§ 67.101 et seq.\n- **Effective Date**: January 1, 2009 (replaced prior Right-to-Know Act)\n- **Major Amendments**: 2023 (Act 65 - law enforcement records)\n- **Administrative Code**: Title 1 Pa. Code Chapter 33 (OOR regulations)",
+      "core_principle": "Public Record**: Record in possession of Commonwealth/local agency documenting transaction or activity - **Record**: Information regardless of physical form or characteristics - **Requester**: Resident of Commonwealth, agency of Commonwealth, news media ### Legislative Intent - **Presumption of Openness**: All records presumed public unless exempt - **Liberal Construction**: RTKL construed to maximize access - **Government Accountability**: Promote transparency in decision-making --- ## Response Timelines ### Standard Response Timeline (65 Pa.C.S. § 67.901) - **Initial Response**: 5 business days from receipt - **Extension**: Additional 30 calendar days if request requires redaction, legal review, or involves voluminous records - **Complex Requests**: May negotiate longer timeline with requester agreement ### Response Requirements **Within 5 Business Days:** - Grant access and provide records - Deny access with specific exemption citations - Notify of need for extension with explanation **Extension Criteria:** - Request requires redaction of exempt information - Request requires retrieval from remote storage - Request involves voluminous records - Legal review necessary --- ## Fee Structure ### Allowable Fees (65 Pa.C.S.",
+      "recent_changes_2024_2025": "2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using 65 Pa.C.S. and OOR decisions **LAST STATUTORY UPDATE**: 2023 (Act 65 - law enforcement exemption modifications) 2025) **Source 3**: Act 65 of 2023 (Law enforcement exemption modifications) **Source 4**: Title 1 Pa. Code Chapter 33 (OOR procedural regulations, current through 2025) .",
+      "response_timeline_days": 5,
+      "response_timeline_type": "business",
+      "response_timeline_description": "5 business days from receipt of request",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Police record",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "Fee Waivers",
+        "5-Day Deadline"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "Pennsylvania-RTKL-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "RI",
+      "jurisdiction_name": "Rhode Island",
+      "statute_abbreviation": "APRA",
+      "statute_full_name": "- **Rhode Island APRA**: Rhode Island General Laws Chapter 38-2 (1979, amended through 2025)\n- **Key Provisions**:\n  - R.I. Gen. Laws § 38-2-1: Definitions and legislative intent\n  - R.I. Gen. Laws § 38-2-3: Public access rights and timelines\n  - R.I. Gen. Laws § 38-2-4: Fee provisions\n  - R.I. Gen. Laws § 38-2-2: Exemptions from disclosure",
+      "core_principle": "Public Records Act (APRA) - VERIFIED Process Map ## VERIFICATION CERTIFICATION **STATUS**: VERIFIED ACCURATE **VERIFICATION DATE**: September 26, 2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using Rhode Island General Laws Chapter 38-2 and agency guidance **LAST STATUTORY UPDATE**: 2025 (no significant amendments identified) --- ## Legal Framework ### Primary Statute - **Rhode Island APRA**: Rhode Island General Laws Chapter 38-2 (1979, amended through 2025) - **Key Provisions**: - R.I. Gen.",
+      "recent_changes_2024_2025": "2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using Rhode Island General Laws Chapter 38-2 and agency guidance **LAST STATUTORY UPDATE**: 2025 (no significant amendments identified) 2025) - **Key Provisions**: - R.I. Gen. Laws § 38-2-1: Definitions and legislative intent - R.I.",
+      "response_timeline_days": -1,
+      "response_timeline_type": "flexible",
+      "response_timeline_description": "Timeline not clearly specified in statute",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Personnel record",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "2025 Amendments",
+        "Reasonable Time Standard"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "Rhode-Island-APRA-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "SC",
+      "jurisdiction_name": "South Carolina",
+      "statute_abbreviation": "FOIA",
+      "statute_full_name": "- **South Carolina FOIA**: South Carolina Code Title 30, Chapter 4 (1978, amended through 2025)\n- **Key Provisions**:\n  - S.C. Code § 30-4-10: Definitions and legislative intent\n  - S.C. Code § 30-4-15: Public access rights\n  - S.C. Code § 30-4-30: Response timeline requirements\n  - S.C. Code § 30-4-40: Exemptions from disclosure\n  - S.C. Code § 30-4-60: Fees and costs",
+      "core_principle": "Public access rights - S.C. Code § 30-4-30: Response timeline requirements - S.C.",
+      "recent_changes_2024_2025": "2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using South Carolina Code Title 30, Chapter 4 and official agency FOIA responses **LAST STATUTORY UPDATE**: 2025 (no significant amendments identified) 2025) - **Key Provisions**: - S.C. Code § 30-4-10: Definitions and legislative intent - S.C. Code § 30-4-15: Public access rights - S.C.",
+      "response_timeline_days": -1,
+      "response_timeline_type": "flexible",
+      "response_timeline_description": "Timeline not clearly specified in statute",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Personnel record",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "2025 Amendments",
+        "Reasonable Time Standard"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "South-Carolina-FOIA-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "SD",
+      "jurisdiction_name": "South Dakota",
+      "statute_abbreviation": "Open Records",
+      "statute_full_name": "- **South Dakota Open Records Law**: South Dakota Codified Laws Chapter 1-27 (1978, amended through 2025)\n- **Key Provisions**:\n  - SDCL § 1-27-1: Definitions and legislative intent\n  - SDCL § 1-27-1.5: Public access rights and timelines\n  - SDCL § 1-27-35: Fee provisions\n  - SDCL § 1-27-1.1 through 1-27-34: Exemptions from disclosure",
+      "core_principle": "Public access rights and timelines - SDCL § 1-27-35: Fee provisions - SDCL § 1-27-1.1 through 1-27-34: Exemptions from disclosure ### Definitions - **Public Body**: All state and local government agencies, including boards, commissions, and authorities - **Public Record**: Any file, document, or item regardless of storage medium, prepared or owned by a public body - **Business Days**: Monday through Friday, excluding state holidays - **Custodian**: Official designated to maintain and provide access.",
+      "recent_changes_2024_2025": "2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using South Dakota Codified Laws Chapter 1-27 and agency guidance **LAST STATUTORY UPDATE**: 2025 (no significant amendments identified) 2025) - **Key Provisions**: - SDCL § 1-27-1: Definitions and legislative intent - SDCL § 1-27-1.5: Public access rights and timelines - SDCL § 1-27-35: Fee provisions - SDCL § 1-27-1.1 through 1-27-34: Exemptions from disclosure ### Definitions - **Public Body**: All state and local government agencies, including boards, commissions, and authorities - **Public Record**: Any file, document, or item regardless of storage medium, prepared or owned by a public body - **Business Days**: Monday through Friday, excluding state holidays - **Custodian**: Official designated to maintain and provide access to records --- ## Response Timelines ### Standard Timeline (SDCL § 1-27-1.5) - **Initial Response**: Reasonable time from receipt of request - **Factors Considered**: Request complexity, volume, agency resources.",
+      "response_timeline_days": -1,
+      "response_timeline_type": "flexible",
+      "response_timeline_description": "Timeline not clearly specified in statute",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Personnel record",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "2025 Amendments",
+        "Reasonable Time Standard"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "South-Dakota-Open-Records-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "TN",
+      "jurisdiction_name": "Tennessee",
+      "statute_abbreviation": "TPRA",
+      "statute_full_name": "- **Tennessee Public Records Act**: TCA § 10-7-503 et seq. (1957, amended through 2023)\n- **Key Provisions**:\n  - TCA § 10-7-503: Public inspection rights and procedures\n  - TCA § 10-7-504: Privacy protection and redaction requirements\n  - TCA § 8-21-401: Fee provisions for record duplication\n  - TCA § 10-7-505: Enforcement and penalties",
+      "core_principle": "Public Records Act - VERIFIED Process Map ## VERIFICATION CERTIFICATION **STATUS**: VERIFIED ACCURATE **VERIFICATION DATE**: September 26, 2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using TCA 10-7-503/504 and state administrative guidance **LAST STATUTORY UPDATE**: 2023 (privacy protection amendments) --- ## Legal Framework ### Primary Statute - **Tennessee Public Records Act**: TCA § 10-7-503 et seq. (1957, amended through 2023) - **Key Provisions**: - TCA § 10-7-503: Public inspection rights and procedures - TCA § 10-7-504: Privacy protection and redaction requirements - TCA § 8-21-401: Fee provisions for record duplication - TCA § 10-7-505: Enforcement and penalties ### Definitions - **Public Record**: Any document, paper, letter, map, book, photograph, microfilm, magnetic tape, electronic data processing record, or other documentary material - **Governmental Entity**: All state and local government agencies, departments, and officials - **Tennessee Citizen**: Any person seeking records access.",
+      "recent_changes_2024_2025": "2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using TCA 10-7-503/504 and state administrative guidance **LAST STATUTORY UPDATE**: 2023 (privacy protection amendments) 2025 session) **Source 2**: Tennessee Attorney General opinions on public records law (2020-2025) **Source 3**: Tennessee appellate court decisions interpreting Public Records Act (2020-2025) **Source 4**: Tennessee Press Association, Public Records Handbook (2025 edition) .",
+      "response_timeline_days": -1,
+      "response_timeline_type": "flexible",
+      "response_timeline_description": "Timeline not clearly specified in statute",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Personnel record",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "Fee Waivers",
+        "Reasonable Time Standard"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "Tennessee-Public-Records-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "TX",
+      "jurisdiction_name": "Texas",
+      "statute_abbreviation": "PIA",
+      "statute_full_name": "**Texas Government Code Chapter 552** (Current through September 1, 2025)",
+      "core_principle": "Public information belongs to the people and governmental bodies are trustees of this information. .",
+      "recent_changes_2024_2025": "2025 **VERIFICATION SOURCE**: Texas Government Code Chapter 552 including HB 4219 amendments **LAST STATUTORY UPDATE**: September 1, 2025 (HB 4219 effective date) **VERSION**: v0.11 2025) ### Core Principle Public information belongs to the people and governmental bodies are trustees of this information. ### 2025 Legislative Updates - HB 4219 (EFFECTIVE SEPTEMBER 1, 2025) 2025) --- ## Response Timeline Framework (2025 - AMENDED BY HB 4219) ### Standard Response Period - **Initial Deadline**: **10 business days** from receipt of request - **Calculation**: Excludes weekends, state holidays, and days the office is closed - **Start Date**: Day after request is received ### NEW: \"No Records\" Notification Requirement (HB 4219) **Section 552.221(b) - EFFECTIVE SEPTEMBER 1, 2025** If a governmental body determines either: 1. **No responsive records exist**, OR 2.",
+      "response_timeline_days": 10,
+      "response_timeline_type": "business",
+      "response_timeline_description": "10 business days from receipt of request",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Personnel record",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "Attorney Fees Available",
+        "AG Review Available",
+        "Criminal Penalties",
+        "Fee Waivers",
+        "2025 Amendments"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "Texas-PIA-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "UT",
+      "jurisdiction_name": "Utah",
+      "statute_abbreviation": "GRAMA",
+      "statute_full_name": "- **Utah GRAMA**: Utah Code Annotated § 63G-2 (1991, amended through 2025)\n- **Key Provisions**:\n  - UCA § 63G-2-101: Definitions and legislative intent\n  - UCA § 63G-2-201: Classification of records\n  - UCA § 63G-2-203: Response timeline requirements\n  - UCA § 63G-2-204: Fee provisions",
+      "core_principle": "public, protected, private) - Redact protected information as required - Calculate fees for duplication and processing **Timeline Management:** - Monitor 10-business-day deadline - Provide written notice if extension needed - Communicate regularly with requester about status ### Phase 3: Initial Response **Agency Must Provide:** - Written response within 10 business days - Access to public records or copies upon payment - Specific explanation for any denials or redactions - Citation to applicable GRAMA exemption - Information about appeal rights ### Phase 4: Appeal Process **Administrative Appeal:** - **Deadline**: No specific deadline in statute - **Authority**: Government entity head or designee - **Scope**: Review of denial, fees, adequacy of search - **Timeline**: No statutory deadline for appeal decision **State Records Committee:** - **Option**: Appeal to State Records Committee - **Jurisdiction**: State agency records only - **Process**: Formal administrative proceeding - **Authority**: Binding decisions on state agencies ### Phase 5: Judicial Review **District Court Action:** - **Venue**: District court in county where entity is located - **Standard**: De novo review of agency decision - **Burden**: Government bears burden to justify withholding - **Relief**: Mandamus, attorney fees, injunctive relief --- ## Classification System and Exemptions ### Record Classifications (UCA § 63G-2-201) **Public Records**: Default classification, available for inspection **Protected Records**: Limited access.",
+      "recent_changes_2024_2025": "2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using UCA 63G-2 and Utah State Archives guidance **LAST STATUTORY UPDATE**: 2025 (SB277 amendments pending) 2025) - **Key Provisions**: - UCA § 63G-2-101: Definitions and legislative intent - UCA § 63G-2-201: Classification of records - UCA § 63G-2-203: Response timeline requirements - UCA § 63G-2-204: Fee provisions ### **CRITICAL ALERT**: 2025 Legislative Developments - **SB277 (2025)**: \"Government Records Management Amendments\" by Sen. Keith Grover 2025 Special Note**: School Guardian Program - **House Bill 84 (2025)**: Armed school guardian identities protected 2025 Legislative Session - **SB277**: Pending amendments to records management procedures 2025 - **Training Requirements**: Enhanced GRAMA education mandates ### Technology Integration - **Electronic Processing**: Increased digital record production - **Online Portals**: Some agencies implementing web-based request systems - **Database Queries**: Improved search capabilities for electronic records - **Redaction Technology**: Automated protection of sensitive information 2025 Monitoring Requirements** - **Track SB277**: Monitor final passage and implementation - **Privacy Compliance**: Watch for new government privacy program requirements - **Training Updates**: Stay current with Utah State Archives guidance 2025 session) **Source 2**: Utah State Archives and Records Service, GRAMA Training Materials (2025 edition) **Source 3**: Utah Attorney General opinions on GRAMA interpretation (2020-2025) **Source 4**: Utah appellate court decisions interpreting GRAMA (2020-2025) --- *This process map reflects Utah GRAMA law as of September 2025, including pending SB277 amendments. The standard 10-business-day response timeline distinguishes Utah from states with longer or indefinite deadlines.",
+      "response_timeline_days": -1,
+      "response_timeline_type": "flexible",
+      "response_timeline_description": "Timeline not clearly specified in statute",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Police report",
+        "Personnel record",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "2025 Amendments",
+        "Reasonable Time Standard"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "Utah-GRAMA-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "VT",
+      "jurisdiction_name": "Vermont",
+      "statute_abbreviation": "Public Records",
+      "statute_full_name": "- **Vermont Public Records Act**: Vermont Statutes Title 1, Chapter 5 (1977, amended through 2025)\n- **Key Provisions**:\n  - 1 V.S.A. § 315: Definitions and legislative intent\n  - 1 V.S.A. § 316: Public access rights and timelines\n  - 1 V.S.A. § 317: Fee provisions\n  - 1 V.S.A. § 318: Exemptions from disclosure",
+      "core_principle": "Public Records Act - VERIFIED Process Map ## VERIFICATION CERTIFICATION **STATUS**: VERIFIED ACCURATE **VERIFICATION DATE**: September 26, 2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using Vermont Statutes Title 1, Chapter 5 and recent court decisions **LAST STATUTORY UPDATE**: 2025 (2-day response timeline confirmed) --- ## Legal Framework ### Primary Statute - **Vermont Public Records Act**: Vermont Statutes Title 1, Chapter 5 (1977, amended through 2025) - **Key Provisions**: - 1 V.S.A. § 315: Definitions and legislative intent - 1 V.S.A.",
+      "recent_changes_2024_2025": "2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using Vermont Statutes Title 1, Chapter 5 and recent court decisions **LAST STATUTORY UPDATE**: 2025 (2-day response timeline confirmed) 2025) - **Key Provisions**: - 1 V.S.A. § 315: Definitions and legislative intent - 1 V.S.A. § 316: Public access rights and timelines - 1 V.S.A.",
+      "response_timeline_days": -1,
+      "response_timeline_type": "flexible",
+      "response_timeline_description": "Timeline not clearly specified in statute",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Personnel record",
+        "Emails subject to public business",
+        "Text messages and emails subject to public business"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "2025 Amendments",
+        "Reasonable Time Standard"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "Vermont-Public-Records-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "VA",
+      "jurisdiction_name": "Virginia",
+      "statute_abbreviation": "FOIA",
+      "statute_full_name": "**Virginia Code § 2.2-3700 et seq.** (Current through 2025 amendments)",
+      "core_principle": "public defenders and agencies - **Electronic Meetings**: Continued authorization under emergency declarations --- ## Response Timeline Framework (VERIFIED 2025) ### Standard Response Period - **Initial Deadline**: **5 business days** from receipt of request - **Extension Authority**: Additional **7 business days** with written justification - **Citizen Requirement**: **Virginia citizenship required** for FOIA requests - **Calculation**: Business days exclude weekends and state holidays ### Response Requirements **Agency Must Either**: - Provide requested records - Deny request with specific exemption citations - Notify of need for additional time with explanation --- ## Fee Structure (VERIFIED 2025) ### Permitted Charges - **Search Costs**: Actual cost of staff time for searching - **Review Costs**: Actual cost of legal/administrative review - **Duplication Costs**: Actual copying and materials costs - **Electronic Media**: Cost of CDs, USB drives, etc. ### Fee Limitations - **Itemized Billing**: Required for all charges - **Actual Costs Only**: No profit or overhead allowed - **Advance Estimates**: Required for requests exceeding $200 ### Virginia's Broad Fee Authority Unlike many states, Virginia allows charging for: - Staff search time at actual hourly rates - Legal review and redaction time - Administrative processing costs - This creates higher potential costs than \"direct costs only\" states --- ## Citizenship Requirement (UNIQUE TO VIRGINIA) ### Legal Requirement - **Virginia Residents Only**: Non-residents have no FOIA rights - **Verification**: Agencies may require proof of Virginia residence - **Exception**: Media representatives and attorneys may have access.",
+      "recent_changes_2024_2025": "2025** **Verification Method: Perplexity Search with Recent Recency Filter + 2025 FOIA Council Updates** **Status: 100% CURRENT AND ACCURATE** 2025 UPDATE NOTICE **Virginia FOIA has significant 2025 amendments affecting sealed/expunged criminal records with new secure portal requirements by October 2026.** 2025 amendments) 2025 Legislative Changes 2025) - **Secure Portal Mandate**: Required by October 1, 2026 for verification - **Training Requirements**: Enhanced for public defenders and agencies - **Electronic Meetings**: Continued authorization under emergency declarations --- ## Response Timeline Framework (VERIFIED 2025) ### Standard Response Period - **Initial Deadline**: **5 business days** from receipt of request - **Extension Authority**: Additional **7 business days** with written justification - **Citizen Requirement**: **Virginia citizenship required** for FOIA requests - **Calculation**: Business days exclude weekends and state holidays ### Response Requirements **Agency Must Either**: - Provide requested records - Deny request with specific exemption citations - Notify of need for additional time with explanation --- ## Fee Structure (VERIFIED 2025) ### Permitted Charges - **Search Costs**: Actual cost of staff time for searching 2025 VERIFIED) ### Phase 1: Request Submission **Eligibility Verification**: - Confirm Virginia residency status - Provide acceptable proof if requested - Submit to proper custodian/FOIA officer **Request Requirements**: - Written submission (email acceptable) - Specific description of records sought - Contact information for response 2025 Sealed Records Check** ⭐ **NEW**: - Agencies must verify sealed/expunged status - Cannot release prohibited criminal records - Secure portal verification required by October 2026 ### Phase 3: Fee Assessment and Payment **Cost Estimate**: - Required for requests exceeding $200 - Itemized breakdown of all charges - Prepayment may be required **Fee Categories**: - Search time: Actual staff hourly rates 2025 UPDATED) 2025 Sealed Records Exemption ⭐ - **Sealed Criminal Records**: Cannot be disclosed under any circumstances - **Expunged Records**: Removal required, secure verification mandated - **Portal Requirement**: Agencies must use secure system by October 2026 - **Training Mandate**: Public defenders and agencies must receive education --- ## 2025 Additional Amendments (v0.11) 2025 Update Document 2025 FOIA Legislative Updates](https://foiacouncil.dls.virginia.gov/2025updt.pdf) 2025 (most provisions) - **Total Bills**: 13 bills with minor amendments addressing specific issues **Enhanced FOIA Officer Training Requirements** 2025) 1. **Virginia Code § 2.2-3700 et seq.** (Current through 2025 session) 2. **2025 FOIA Amendments** (Multiple bills, effective July 1, 2025) 3.",
+      "response_timeline_days": 5,
+      "response_timeline_type": "business",
+      "response_timeline_description": "5 business days from receipt of request",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Personnel record",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "2025 Amendments",
+        "5-Day Deadline"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "Virginia-FOIA-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "WA",
+      "jurisdiction_name": "Washington",
+      "statute_abbreviation": "PRA",
+      "statute_full_name": "- **Public Records Act (PRA)**: RCW 42.56 et seq.\n- **Original Enactment**: 1972 (Initiative 276)\n- **Major Revision**: 2005 (comprehensive recodification)\n- **Recent Updates**:\n  - 2023 (SB 5432 - electronic records and fee structures)\n  - **2025 (July 27 - workplace investigation voice alteration requirements)**",
+      "core_principle": "Public Records Act - VERIFIED Process Map ## VERIFICATION CERTIFICATION **STATUS**: VERIFIED ACCURATE **VERIFICATION DATE**: September 26, 2025 **VERIFICATION SOURCE**: RCW 42.56 et seq. including July 27, 2025 amendments **LAST STATUTORY UPDATE**: July 27, 2025 (workplace investigation voice alteration requirements) **VERSION**: v0.11 --- ## Legal Framework ### Primary Statute - **Public Records Act (PRA)**: RCW 42.56 et seq.",
+      "recent_changes_2024_2025": "2025 **VERIFICATION SOURCE**: RCW 42.56 et seq. including July 27, 2025 amendments **LAST STATUTORY UPDATE**: July 27, 2025 (workplace investigation voice alteration requirements) **VERSION**: v0.11 2025 (July 27 - workplace investigation voice alteration requirements)** ### Key Definitions (RCW 42.56.010) - **Public Record**: Any writing containing information relating to agency business - **Writing**: Electronic records, emails, texts, databases, and traditional documents - **Agency**: State agencies, local governments, special purpose districts - **Public Interest**: Benefit to general public in disclosure ### Legislative Intent (RCW 42.56.030) The people of this state do not yield their sovereignty to the agencies that serve them. The people, in delegating authority, do not give their public servants the right to decide what is good for the people to know and what is not good for them to know.",
+      "response_timeline_days": 5,
+      "response_timeline_type": "business",
+      "response_timeline_description": "5 business days from receipt of request",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "Fee Waivers",
+        "2025 Amendments",
+        "5-Day Deadline"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "Washington-PRA-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "VA",
+      "jurisdiction_name": "Virginia",
+      "statute_abbreviation": "FOIA",
+      "statute_full_name": "- **West Virginia FOIA**: West Virginia Code Chapter 29B (1977, amended through 2025)\n- **Key Provisions**:\n  - W. Va. Code § 29B-1-1: Definitions and legislative intent\n  - W. Va. Code § 29B-1-3: Public access rights and timelines\n  - W. Va. Code § 29B-1-6: Fee provisions\n  - W. Va. Code § 29B-1-4: Exemptions from disclosure",
+      "core_principle": "Public access rights and timelines - W. Va.",
+      "recent_changes_2024_2025": "2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using West Virginia Code Chapter 29B and agency guidance **LAST STATUTORY UPDATE**: 2025 (no significant amendments identified) 2025) - **Key Provisions**: - W. Va. Code § 29B-1-1: Definitions and legislative intent - W.",
+      "response_timeline_days": -1,
+      "response_timeline_type": "flexible",
+      "response_timeline_description": "Timeline not clearly specified in statute",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Personnel record",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "2025 Amendments",
+        "Reasonable Time Standard"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "West-Virginia-FOIA-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "WI",
+      "jurisdiction_name": "Wisconsin",
+      "statute_abbreviation": "Open Records",
+      "statute_full_name": "- **Wisconsin Open Records Law**: Wis. Stat. §§ 19.32-19.39 (1973, amended through 2025)\n- **Key Provisions**:\n  - Wis. Stat. § 19.32: Definitions and policy declaration\n  - Wis. Stat. § 19.35: Access procedures and deadlines\n  - Wis. Stat. § 19.36: Exemptions and limitations\n  - Wis. Stat. § 19.37: Enforcement and attorney fees",
+      "core_principle": "Public interest in disclosure vs. harm from release - **Segregability**: Release non-exempt portions of records ### Phase 3: Initial Response **Agency Must Provide:** - Access to records for inspection (free) - Copies upon payment of reasonable fees - Written explanation of any denials with specific statutory citation - Information about redactions made and legal basis - Notice of appeal rights ### Phase 4: Appeal Process **Administrative Remedies:** - **No Formal Administrative Appeal**: Wisconsin law does not establish formal process - **Informal Resolution**: Contact agency head or legal counsel - **District Attorney**: May intervene in local government disputes - **Attorney General**: May provide guidance on state agency matters ### Phase 5: Judicial Review **Circuit Court Action:** - **Venue**: Circuit court in county where records are located - **Standard**: De novo review with strong presumption of openness - **Burden**: Government must justify withholding with clear and convincing evidence - **Relief**: Mandamus, injunctions, attorney fees for prevailing requesters --- ## Exemptions and Protected Information ### Statutory Exemptions (Wis.",
+      "recent_changes_2024_2025": "2025 **VERIFICATION SOURCE**: Dual-source validation using Wis. Stat. 19.32-19.35 and Wisconsin DOJ guidance **LAST STATUTORY UPDATE**: 2025 Wisconsin Acts (effective August 13, 2025 - see 2025 Clarifications section) 2025) - **Key Provisions**: - Wis.",
+      "response_timeline_days": -1,
+      "response_timeline_type": "flexible",
+      "response_timeline_description": "Timeline not clearly specified in statute",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Personnel record",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "2025 Amendments",
+        "Reasonable Time Standard"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "Wisconsin-Open-Records-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    },
+    {
+      "jurisdiction_code": "WY",
+      "jurisdiction_name": "Wyoming",
+      "statute_abbreviation": "Public Records",
+      "statute_full_name": "- **Wyoming Public Records Act**: Wyoming Statutes §§ 16-4-201 through 16-4-205 (1982, amended through 2025)\n- **Key Provisions**:\n  - Wyo. Stat. § 16-4-201: Definitions and legislative intent\n  - Wyo. Stat. § 16-4-202: Public access rights and procedures\n  - Wyo. Stat. § 16-4-203: Response requirements\n  - Wyo. Stat. § 16-4-204: Fee provisions\n  - Wyo. Stat. § 16-4-205: Exemptions from disclosure",
+      "core_principle": "Public Records Act - VERIFIED Process Map ## VERIFICATION CERTIFICATION **STATUS**: VERIFIED ACCURATE **VERIFICATION DATE**: September 26, 2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using Wyoming Statutes §§ 16-4-201 through 16-4-205 and ongoing legislative review **LAST STATUTORY UPDATE**: 2025 (legislative review ongoing) --- ## Legal Framework ### Primary Statute - **Wyoming Public Records Act**: Wyoming Statutes §§ 16-4-201 through 16-4-205 (1982, amended through 2025) - **Key Provisions**: - Wyo. Stat.",
+      "recent_changes_2024_2025": "2025 **VERSION**: v0.11 **NOTE**: No statutory changes between v0.10 and v0.11 - content verified as current **VERIFICATION SOURCE**: Dual-source validation using Wyoming Statutes §§ 16-4-201 through 16-4-205 and ongoing legislative review **LAST STATUTORY UPDATE**: 2025 (legislative review ongoing) 2025) - **Key Provisions**: - Wyo. Stat. § 16-4-201: Definitions and legislative intent - Wyo.",
+      "response_timeline_days": -1,
+      "response_timeline_type": "flexible",
+      "response_timeline_description": "Timeline not clearly specified in statute",
+      "response_timeline_factors": [],
+      "public_record_categories": [
+        "Personnel record",
+        "Government agency records",
+        "Public official communications",
+        "Financial and budgetary documents"
+      ],
+      "fee_structure": {
+        "standard_copying": "Actual cost of reproduction",
+        "search_fees": null,
+        "electronic_records": null,
+        "fee_waiver_available": false,
+        "waiver_criteria": []
+      },
+      "appeal_process": {
+        "type": "Court action",
+        "attorney_fees_available": false,
+        "timeline_days": null
+      },
+      "key_features_tags": [
+        "2025 Amendments",
+        "Reasonable Time Standard"
+      ],
+      "official_resources": {
+        "statute_url": null,
+        "ag_page_url": null,
+        "request_portal_url": null
+      },
+      "metadata": {
+        "version": "v0.11",
+        "verification_date": "2025-09-26",
+        "process_map_source": "Wyoming-Public-Records-v0.11.md",
+        "extraction_date": "2025-09-29"
+      }
+    }
+  ]
+}

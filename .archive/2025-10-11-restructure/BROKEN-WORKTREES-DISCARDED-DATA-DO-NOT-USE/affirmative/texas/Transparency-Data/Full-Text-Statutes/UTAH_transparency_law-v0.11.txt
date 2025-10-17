@@ -1,0 +1,208 @@
+UTAH GOVERNMENT RECORDS ACCESS AND MANAGEMENT ACT (GRAMA)
+Utah Code Title 63G, Chapter 2, §§ 63G-2-101 through 63G-2-901
+
+==============================================================================
+OFFICIAL STATUTORY CITATION: Utah Code § 63G-2-101 et seq.
+EFFECTIVE DATE: Originally enacted 1991, last amended 2024
+SOURCE: Utah Code Annotated
+==============================================================================
+
+UTAH GOVERNMENT RECORDS ACCESS AND MANAGEMENT ACT (GRAMA) - COMPREHENSIVE STATUTORY PROVISIONS
+
+LEGISLATIVE PURPOSE AND INTENT:
+GRAMA balances three competing interests:
+1. The public's constitutional right of access to information concerning conduct of public business
+2. The individual's constitutional right of privacy in relation to personal data gathered by government
+3. The public policy interest in allowing government to restrict access to certain records for the public good
+
+DEFINITIONS AND SCOPE:
+
+"Record" means a book, letter, document, paper, map, plan, photograph, film, card, tape, recording, electronic data, or other documentary material regardless of physical form or characteristics made or received by a governmental entity in connection with the transaction of official business.
+
+"Governmental entity" means the state, county, municipality, higher education institution, local district, special service district, limited purpose entity, or other political subdivision of the state.
+
+RESPONSE REQUIREMENTS AND PROCEDURES:
+
+Response Timeframe: 10 business days maximum
+- Records officers must respond within 10 business days of receipt
+- Should respond "as soon as reasonably possible"
+- For expedited requests: 5 business days maximum
+
+Expedited Response Criteria:
+- Information benefits the public rather than just the individual
+- Persons requesting for publication/broadcast to general public are presumed to benefit public
+- Requester must demonstrate expedited decision benefits public
+
+REQUEST REQUIREMENTS:
+
+Written Request Elements:
+- Requester's name, mailing address, and telephone number
+- Specific description of records requested
+- Must be submitted to the specific governmental entity believed to have custody
+
+Submission Methods:
+1. Open Records Portal (online system)
+2. Email to designated records officer
+3. Facsimile transmission
+4. U.S. mail
+5. Hand delivery
+
+No specific format required, but must be in writing.
+
+RECORD CLASSIFICATIONS:
+
+Public Records (Default):
+- Records not classified as private, controlled, or protected are public
+- Must be disclosed upon request
+
+Private Records:
+- May not be disclosed to any person except the subject of the record
+- Includes personal information in certain circumstances
+
+Controlled Records:
+- May not be disclosed except as provided by statute
+- Includes sensitive government information
+
+Protected Records:
+- May be disclosed at discretion of records custodian
+- Includes certain investigative records, drafts, etc.
+
+APPEALS PROCESS:
+
+Three-Tier Appeal System:
+
+1. Chief Administrative Officer (CAO) Appeal:
+- Must appeal within 30 days of initial denial
+- CAO has 10 business days to respond (5 for expedited, 12 if confidentiality involved)
+- Appeal must be to CAO of the governmental entity
+
+2. State Records Committee Appeal:
+- May appeal CAO denial to State Records Committee
+- Committee schedules hearing within 5 days of request
+- Issues binding order after hearing
+- Parties must comply within 30 days of order
+
+3. Judicial Appeal:
+- Either party may appeal State Records Committee decision to district court
+- Must be filed within 30 days of committee order
+- District court reviews de novo
+
+EXTRAORDINARY CIRCUMSTANCES:
+
+May extend response deadline if:
+- Request requires search of large number of records
+- Request requires search of records not maintained in organized fashion
+- Request would unreasonably interfere with operations
+- Request involves legal review for protected information
+
+Must notify requester of extension and estimated completion time.
+
+FEES AND COSTS:
+
+General Fee Structure:
+- Filling/processing request: Free
+- Actual cost of providing records may be charged
+- Includes staff time for compiling, searching, retrieving, and producing records
+
+Standard Fee Examples:
+- First 10 single-sided copies: Free
+- Searches taking 15 minutes or less: Free
+- Additional searches: Hourly rate
+- Photocopying: Reasonable actual cost
+
+Must provide fee estimate if costs exceed $50.
+
+GOVERNMENT RECORDS OMBUDSMAN:
+
+Independent Oversight Role:
+- Mediates disputes between requesters and agencies
+- Provides guidance on GRAMA compliance
+- Does not make binding decisions
+- Available for consultation during request process
+
+ENFORCEMENT AND REMEDIES:
+
+Civil Enforcement:
+- District court may order production of records
+- Attorney's fees may be awarded to prevailing party
+- Injunctive relief available
+- Damages for willful and knowing violations
+
+Criminal Penalties:
+- Willful and knowing violation is misdemeanor
+- Applies to officials who improperly deny access
+
+OPEN RECORDS PORTAL:
+
+Centralized System:
+- Statewide online portal for submitting requests
+- Automatically routes to appropriate records officer
+- Tracks request status and responses
+- Available at archives.utah.gov/opengovernment/
+
+AGENCY REQUIREMENTS:
+
+Records Officer Designation:
+- Each entity must appoint a records officer
+- Officer responsible for receiving and responding to requests
+- Must maintain current contact information
+- Listed in Open Records Portal
+
+Written Policies Required:
+- Each entity must adopt written access policies
+- Must include procedures, fees, and contact information
+- Policies must be readily available to public
+
+RECORD RETENTION AND MANAGEMENT:
+
+Retention Schedules:
+- Records must be retained according to approved schedules
+- Cannot be destroyed while subject to request or appeal
+- Electronic records have same status as paper records
+
+Access During Business Hours:
+- Public records available for inspection during regular business hours
+- Reasonable facilities must be provided for examination
+
+SPECIAL PROVISIONS:
+
+Law Enforcement Records:
+- Investigative records protected during active investigation
+- Certain records remain protected permanently
+
+Personnel Records:
+- Employee records generally private
+- Some information may be public (name, title, salary range)
+
+Medical Records:
+- Health information generally private
+- Limited exceptions for public health purposes
+
+CONSTITUTIONAL CONSIDERATIONS:
+
+Privacy Protections:
+- Individual privacy rights balanced against public access
+- Personal information protected unless public interest served
+
+Due Process:
+- Notice and hearing requirements for appeals
+- Right to counsel in proceedings
+- Burden of proof on governmental entity for non-disclosure
+
+KEY STATUTORY AUTHORITY:
+Utah Code § 63G-2-201: "All records are public unless otherwise expressly provided by statute."
+
+OVERSIGHT AGENCY:
+Utah Division of Archives and Records Service
+- Maintains Open Records Portal
+- Provides GRAMA training and guidance
+- Houses State Records Committee
+
+==============================================================================
+COMPILATION NOTES:
+- GRAMA enacted 1991 as comprehensive records access law
+- Replaced earlier, more limited open records provisions
+- Regular legislative amendments to address technology and privacy concerns
+- Utah Constitution Article I, Section 27 provides constitutional right of access
+- State Records Committee has issued hundreds of precedential decisions since 1992
+==============================================================================

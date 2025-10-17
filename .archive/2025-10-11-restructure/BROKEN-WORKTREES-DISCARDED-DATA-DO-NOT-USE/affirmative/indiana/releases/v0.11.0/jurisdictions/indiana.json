@@ -1,0 +1,129 @@
+{
+  "jurisdiction": "Indiana",
+  "transparency_law": {
+    "name": "Indiana Access to Public Records Act",
+    "statute_citation": "Ind. Code § 5-14-3-1 et seq.",
+    "effective_date": null,
+    "last_amended": null,
+
+    "response_requirements": {
+      "initial_response_time": 5,
+      "initial_response_unit": "business_days",
+      "initial_response_description": "In-person/phone: 24 hours to acknowledge. Mail/fax/email: 7 days to acknowledge. Then provide within reasonable time",
+      "final_response_time": null,
+      "final_response_unit": "variable",
+      "final_response_notes": "Reasonable time depends on agency size, request size/complexity, pending requests, operational considerations",
+      "extension_allowed": true,
+      "extension_max_days": null,
+      "extension_notes": "Reasonable time standard; no fixed maximum"
+    },
+
+    "fee_structure": {
+      "search_fee": "May charge for labor",
+      "search_fee_notes": "May charge for labor to produce copies",
+      "search_fee_statutory_cite": "Ind. Code § 5-14-3-8",
+      "copy_fee_per_page": null,
+      "copy_fee_notes": "Cannot exceed actual cost; typically $0.10/page",
+      "copy_fee_cite": "Ind. Code § 5-14-3-8",
+      "electronic_fee": "Actual cost",
+      "fee_waiver_available": false
+    },
+
+    "exemptions": [
+      {
+        "category": "Trade Secrets",
+        "citation": "Ind. Code § 5-14-3-4(a)(1)",
+        "description": "Trade secrets and confidential commercial information",
+        "scope": "narrow"
+      },
+      {
+        "category": "Educational Records",
+        "citation": "Ind. Code § 5-14-3-4(b)(6)",
+        "description": "Student educational records",
+        "scope": "narrow"
+      },
+      {
+        "category": "Medical Records",
+        "citation": "Ind. Code § 5-14-3-4(a)",
+        "description": "Medical and health records",
+        "scope": "narrow"
+      },
+      {
+        "category": "Personnel Files",
+        "citation": "Ind. Code § 5-14-3-4(b)(8)",
+        "description": "Personnel file information",
+        "scope": "moderate"
+      },
+      {
+        "category": "Law Enforcement Investigations",
+        "citation": "Ind. Code § 5-14-3-4(b)(1)",
+        "description": "Investigatory records of law enforcement agencies",
+        "scope": "moderate"
+      },
+      {
+        "category": "Attorney Work Product",
+        "citation": "Ind. Code § 5-14-3-4(b)(2)",
+        "description": "Attorney work product and attorney-client communications",
+        "scope": "narrow"
+      }
+    ],
+
+    "appeal_process": {
+      "first_level": "Public Access Counselor",
+      "first_level_deadline_days": null,
+      "first_level_notes": "Informal review by Public Access Counselor; provides opinions and guidance",
+      "first_level_cite": "Ind. Code § 5-14-4",
+      "second_level": "Court",
+      "second_level_deadline_days": null,
+      "second_level_cite": "Ind. Code § 5-14-3-9",
+      "attorney_fees_recoverable": true,
+      "attorney_fees_cite": "Ind. Code § 5-14-3-9",
+      "attorney_fees_notes": "Court may award attorney fees and costs"
+    },
+
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "purpose_statement_prohibited": true,
+      "purpose_notes": "No requirement to state purpose for request",
+      "residency_requirement": false,
+      "request_format_notes": "May be oral or written; must reasonably describe records sought",
+      "specific_format": "No specific form required"
+    },
+
+    "agency_obligations": {
+      "records_officer_required": false,
+      "business_hours_access": true,
+      "business_hours_cite": "Ind. Code § 5-14-3-3",
+      "electronic_submission_accepted": true,
+      "response_format_options": "24 hour acknowledgment for in-person/phone; 7 days for written requests",
+      "presumption_of_openness": "All records presumed open unless exempted by statute"
+    },
+
+    "oversight_body": {
+      "name": "Indiana Public Access Counselor",
+      "role": "Provides informal review, opinions, guidance on public access issues",
+      "contact_info": "Office of the Governor, 200 W. Washington Street, Room 212, Indianapolis, IN 46204; Phone: (317) 234-0906; Email: pac@gov.in.gov",
+      "oversight_url": "https://www.in.gov/pac/"
+    },
+
+    "official_resources": {
+      "primary_statute_url": "http://iga.in.gov/legislative/laws/2021/ic/titles/005#5-14-3",
+      "agency_handbook_url": "https://www.in.gov/pac/",
+      "request_portal_url": null
+    },
+
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_url": "http://iga.in.gov/legislative/laws/2021/ic/titles/005#5-14-3",
+      "source_verified": true,
+      "primary_sources": [
+        "Ind. Code Title 5, Article 14, Chapter 3",
+        "INDIANA_transparency_law-v0.11.txt"
+      ],
+      "verification_notes": "All fields manually verified from official Indiana statute. 24 hour ack for in-person/phone; 7 days for written. Reasonable time for production. Public Access Counselor provides oversight and informal review. No purpose statement required. May charge actual labor and copying costs. Presumption of openness. Court enforcement with attorney fees."
+    }
+  },
+  "agencies": []
+}

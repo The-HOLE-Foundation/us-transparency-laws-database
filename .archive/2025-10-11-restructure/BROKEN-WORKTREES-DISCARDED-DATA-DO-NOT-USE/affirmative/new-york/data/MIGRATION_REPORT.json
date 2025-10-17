@@ -1,0 +1,72 @@
+{
+  "migration_date": "2024-09-24",
+  "migration_summary": {
+    "federal_files": 2,
+    "state_files": 51,
+    "consolidated_files": 2,
+    "total_files": 55
+  },
+  "state_coverage": {
+    "missouri": 1,
+    "north-carolina": 1,
+    "north-dakota": 1,
+    "alaska": 1,
+    "illinois": 1,
+    "virginia": 1,
+    "washington": 1,
+    "vermont": 1,
+    "georgia": 1,
+    "connecticut": 1,
+    "alabama": 1,
+    "new-mexico": 1,
+    "oklahoma": 1,
+    "colorado": 1,
+    "ohio": 1,
+    "maine": 1,
+    "mississippi": 1,
+    "utah": 1,
+    "delaware": 1,
+    "indiana": 1,
+    "arkansas": 1,
+    "iowa": 1,
+    "new-york": 1,
+    "new-hampshire": 1,
+    "rhode-island": 1,
+    "west-virginia": 1,
+    "wisconsin": 1,
+    "michigan": 1,
+    "arizona": 1,
+    "south-dakota": 1,
+    "south-carolina": 1,
+    "massachusetts": 1,
+    "montana": 1,
+    "wyoming": 1,
+    "minnesota": 1,
+    "florida": 1,
+    "kentucky": 1,
+    "louisiana": 1,
+    "maryland": 1,
+    "texas": 1,
+    "hawaii": 1,
+    "kansas": 1,
+    "pennsylvania": 1,
+    "nebraska": 1,
+    "tennessee": 1,
+    "new-jersey": 1,
+    "idaho": 1,
+    "oregon": 1,
+    "nevada": 1,
+    "california": 1,
+    "district-of-columbia": 1
+  },
+  "file_inventory": {
+    "federal": [
+      "agencies.json",
+      "templates.json"
+    ],
+    "consolidated": [
+      "master-database.json",
+      "master_tracking_table.json"
+    ]
+  }
+}

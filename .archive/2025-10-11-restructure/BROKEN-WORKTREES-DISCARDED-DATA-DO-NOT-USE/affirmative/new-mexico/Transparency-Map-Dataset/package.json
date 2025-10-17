@@ -1,0 +1,28 @@
+{
+  "name": "transparency-map-dataset",
+  "version": "0.11.0",
+  "description": "Curated dataset for The HOLE Foundation Transparency Map",
+  "main": "import-to-supabase.js",
+  "scripts": {
+    "import": "node import-to-supabase.js",
+    "validate": "node validate-data.js"
+  },
+  "keywords": [
+    "transparency",
+    "foia",
+    "public-records",
+    "government",
+    "data"
+  ],
+  "author": "The HOLE Foundation",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0"
+  },
+  "devDependencies": {
+    "ajv": "^8.12.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

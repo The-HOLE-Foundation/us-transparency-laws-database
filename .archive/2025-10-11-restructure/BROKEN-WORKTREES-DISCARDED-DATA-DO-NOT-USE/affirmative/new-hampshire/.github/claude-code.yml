@@ -1,0 +1,79 @@
+# Claude Code GitHub App Configuration
+# For US Transparency Laws Database
+
+# PR Review Settings
+pr_review:
+  enabled: true
+  auto_approve: false
+  review_checklist:
+    - data_integrity
+    - schema_consistency
+    - documentation_completeness
+    - test_coverage
+    - security_review
+
+# Merge Conflict Resolution
+merge_assistance:
+  enabled: true
+  priority_rules:
+    - prefer_verified_data: true
+    - prefer_newer_timestamps: true
+    - preserve_supabase_integration: true
+    - maintain_backward_compatibility: true
+
+# Data Validation Rules
+data_validation:
+  jurisdictions_required: 51
+  required_fields:
+    - state_code
+    - state_name
+    - law_name
+    - statute_citation
+    - response_time_days
+    - validation_status
+
+# Documentation Standards
+documentation:
+  auto_generate_changelog: true
+  update_readme_on_merge: true
+  maintain_api_docs: true
+
+# Code Quality Gates
+quality_gates:
+  min_test_coverage: 80
+  max_complexity: 10
+  require_type_definitions: true
+  enforce_naming_conventions: true
+
+# Branch Protection Integration
+branch_protection:
+  require_claude_review: true
+  dismiss_stale_reviews: false
+  require_up_to_date: true
+
+# Custom Checks for Transparency Database
+custom_checks:
+  - name: "Jurisdiction Coverage"
+    description: "Verify all 51 jurisdictions present"
+    script: "scripts/verify_jurisdictions.sh"
+
+  - name: "Data Validation"
+    description: "Validate JSON schema compliance"
+    script: "scripts/validate_data.py"
+
+  - name: "Supabase Compatibility"
+    description: "Ensure Supabase integration intact"
+    script: "scripts/check_supabase.sh"
+
+# AI Enhancement Settings
+ai_features:
+  suggest_improvements: true
+  detect_patterns: true
+  optimize_queries: true
+  generate_tests: true
+
+# Notification Settings
+notifications:
+  slack_webhook: "${SLACK_WEBHOOK_URL}"
+  email_on_merge: true
+  alert_on_conflicts: true

@@ -1,0 +1,71 @@
+FEDERAL FREEDOM OF INFORMATION ACT - 5 U.S.C. § 552
+Last Updated: September 5, 2025
+Source: https://www.law.cornell.edu/uscode/text/5/552
+
+SUMMARY:
+The Freedom of Information Act (FOIA), 5 U.S.C. § 552, provides any person with the statutory right to request access to federal agency records or information from executive branch agencies of the U.S. Government.
+
+RESPONSE DEADLINES:
+- Primary Response: 20 business days (excluding Saturdays, Sundays, and legal holidays)
+- Extensions: Up to 10 additional working days in "unusual circumstances"
+- Tolling: Limited to one request for clarification or fee assessment issues
+
+APPEAL PROCESS:
+- Administrative appeal to agency head required before court action
+- Court review available in U.S. District Court
+- Attorney fees may be awarded to substantially prevailing plaintiffs
+
+FEE STRUCTURE:
+- Search fees may be waived if agency fails to meet time limits
+- Different fee categories for commercial, media, educational, and other requesters
+- Fee waivers available for public interest requests
+
+NINE FOIA EXEMPTIONS:
+1. National defense/foreign policy classified information (b)(1)
+2. Internal agency personnel rules and practices (b)(2)
+3. Information specifically exempted by other statutes (b)(3)
+4. Trade secrets and confidential commercial information (b)(4)
+5. Inter-agency or intra-agency memorandums or letters (b)(5)
+6. Personal privacy information in personnel/medical files (b)(6)
+7. Law enforcement records (b)(7)
+8. Financial institution examination reports (b)(8)
+9. Geological and geophysical information concerning wells (b)(9)
+
+REQUESTER RIGHTS:
+- Right to request records in specific format
+- Right to administrative appeal
+- Right to court review
+- Right to attorney fees if substantially prevailing
+- Protection from search/duplication fees if agency misses deadlines
+
+AGENCY REQUIREMENTS:
+- Designate Chief FOIA Officer
+- Maintain electronic FOIA request portal
+- Publish organization, procedures, and rules in Federal Register
+- Make certain records available for public inspection
+- Provide annual FOIA reports to Congress
+- Process requests within statutory timeframes
+
+LEGAL CUSTODIANS:
+Each federal agency maintains its own FOIA office and processing procedures
+
+SUBMISSION METHODS:
+- Online portals (required)
+- Mail, email, fax (agency-dependent)
+- In-person delivery where permitted
+
+PERFORMANCE STANDARDS:
+Agencies must meet statutory deadlines or lose ability to charge certain fees
+
+CLARIFICATION PROCEDURES:
+Agencies may make one request for clarification, which tolls the response deadline
+
+APPEALS PROCESS WORKFLOW:
+1. Submit FOIA request to agency
+2. Receive agency determination (20 business days)
+3. If denied, submit administrative appeal to agency head
+4. If appeal denied, may file lawsuit in federal court
+5. Court may award attorney fees to substantially prevailing plaintiffs
+
+STATUTORY CITATION: 5 U.S.C. § 552 (Freedom of Information Act)
+EFFECTIVE DATE: 1967, with major amendments through 2016 FOIA Improvement Act

@@ -1,0 +1,188 @@
+CALIFORNIA PUBLIC RECORDS ACT - GOVERNMENT CODE SECTION 7920 ET SEQ.
+Last Updated: September 26, 2025
+Version: 0.11
+Source: California Government Code, California Legislature
+Effective: Includes 2025 legislative amendments (AB 370, AB 1785, AB 134)
+
+SUMMARY:
+The California Public Records Act (CPRA) declares that "access to information concerning the conduct of the people's business is a fundamental and necessary right of every person in this state." Originally enacted in 1968, reorganized in 2023 to Government Code section 7920 et seq.
+
+CONSTITUTIONAL FOUNDATION (PROPOSITION 59, 2004):
+"The people have the right of access to information concerning the conduct of the people's business, and, therefore, the meetings of public bodies and the writings of public officials and agencies shall be open to public scrutiny." (Cal. Const., art. I, § 3(b)(1))
+
+RESPONSE DEADLINES:
+- Initial Response: 10 days to determine if records exist and will be disclosed
+- Extension: Additional 14 days in "unusual circumstances" (no further extensions allowed)
+- Access: Records must be made "promptly available" (no specific deadline)
+- Unusual circumstances (EXPANDED 2025 - AB 370): 
+  * Need to search separate facilities
+  * Voluminous records
+  * Consultation with other agencies
+  * Compiling electronic records
+  * CYBERATTACK (NEW 2025): Inability to access electronic servers/systems due to cyberattack
+
+CYBERATTACK PROVISIONS (NEW 2025 - AB 370, EFFECTIVE JULY 14, 2025):
+When a public agency experiences a cyberattack that prevents access to electronic systems:
+- Agency may invoke 14-day extension for affected records
+- Must provide written notice explaining the nature of the cyberattack impact
+- Must provide alternative formats or methods if available
+- Extension applies only to records maintained on affected systems
+- Agency must provide records from unaffected systems within normal timeframes
+- Sponsored by City of Hesperia
+
+APPEAL PROCESS:
+- Petition for Writ of Mandate in court
+- No administrative appeal process
+- Courts may award attorney fees and costs
+- NOTE: AB 541 (pending 2025) proposes creation of California Public Records Act Ombudsperson for mediation
+
+FEE STRUCTURE:
+- Direct costs of duplication: Actual cost
+- Computer programming time: Actual cost
+- Search time: Generally not chargeable unless voluminous
+- Electronic format: Cost of medium
+- No search fees (unlike federal FOIA)
+
+KEY EXEMPTIONS:
+- Categorical exemptions in Government Code sections 7923.600-7929.610
+- General balancing test: public interest in withholding clearly outweighs public interest in disclosure
+- Personnel records
+- Investigation files
+- Attorney-client privileged communications
+- Trade secrets
+- Preliminary drafts and interagency memoranda not retained in ordinary course
+- Records pertaining to pending litigation
+- Personnel, medical files where disclosure would constitute unwarranted privacy invasion
+- Records prohibited by state or federal law
+- Law enforcement investigatory records in specified circumstances
+
+PRIVACY PROTECTIONS (ENHANCED 2025 - AB 1785):
+ELECTED OFFICIALS' PERSONAL INFORMATION:
+The home address and assessor parcel number of elected officials are exempt from disclosure when:
+- The official makes a written request for confidentiality
+- The request is filed with the appropriate public agency
+- The exemption applies to current and former elected officials
+- Family members residing at the same address are also protected
+
+This exemption applies to:
+- State legislators and constitutional officers
+- Local elected officials (mayors, city council members, county supervisors, school board members)
+- Judicial officers
+- Other elected positions as defined by law
+
+PEACE OFFICER INFORMATION (ENHANCED 2025 - AB 134):
+SECTION 832.7 COORDINATION:
+Records related to peace officer investigations held by POST Commission:
+- Investigation records are not public while held by POST
+- POST must forward requests to originating law enforcement agency
+- Originating agency must respond under standard CPRA timeframes
+- Does not limit public access to misconduct records under Penal Code 832.7
+- Temporary provision expires January 1, 2027
+
+REQUESTER RIGHTS:
+- Right to inspect public records during office hours
+- Right to receive copies of records
+- Right to court enforcement via writ of mandate
+- Records must be provided in accessible format when possible
+- May not be required to explain why records are requested or intended use
+
+AGENCY REQUIREMENTS:
+- Respond within 10 days to requests
+- State legal basis for any denials or redactions
+- Make records "promptly available"
+- Provide records during normal office hours
+- Cannot require specific forms for requests
+- Must provide written notice for cyberattack-related extensions
+- Must document cyberattack impacts thoroughly
+- Provide alternative access methods when possible during cyberattack
+
+LEGAL CUSTODIANS:
+Each state agency maintains its own public records responsibilities
+
+SUBMISSION METHODS:
+- Written requests (mail, email, fax, in-person)
+- Oral requests (in-person or phone)
+- No specific form required
+
+PERFORMANCE STANDARDS:
+- 10-day response requirement (not delivery requirement)
+- Prompt access to records
+- Liberal construction favoring disclosure
+
+CLARIFICATION PROCEDURES:
+Agencies may seek clarification to identify specific records
+
+APPEALS PROCESS WORKFLOW:
+1. Submit public records request to agency
+2. Agency responds within 10 days (may extend 14 days for unusual circumstances including cyberattack)
+3. If denied or delayed, file Petition for Writ of Mandate in court
+4. Court reviews and may order disclosure
+5. Court may award attorney fees and costs to successful petitioners
+
+ENFORCEMENT AND PENALTIES:
+SECTION 7923.000. ENFORCEMENT
+- Any person may institute proceedings for injunctive or declarative relief or writ of mandate
+- Court shall award reasonable attorney's fees and other litigation costs to substantially prevailing plaintiff
+
+SECTION 7924.000. CRIMINAL PENALTIES
+- Legislative body members who attend meetings where action is taken in violation of CPRA
+- When member intends to deprive public of information they know or should know public is entitled to
+- Guilty of misdemeanor
+
+TECHNOLOGY AND ELECTRONIC RECORDS:
+ELECTRONIC FORMAT REQUIREMENTS:
+- Provide records in electronic format when requested and available
+- Format should be commonly used and machine-readable
+- May charge actual cost of programming for database extracts
+- Consider accessibility requirements for disabled requesters
+
+SOCIAL MEDIA AND DIGITAL COMMUNICATIONS:
+- Official social media accounts are subject to CPRA
+- Text messages and emails on personal devices may be public records
+- Metadata may be subject to disclosure
+- Retention policies must comply with public records requirements
+
+BEST PRACTICES FOR AGENCIES (2025):
+RESPONSE PROCEDURES:
+- Acknowledge requests promptly (within 10 days)
+- Provide detailed explanations for any denials
+- Offer to meet and confer on unclear requests
+- Maintain detailed logs of requests and responses
+- Train staff on current legal requirements
+
+CYBERSECURITY CONSIDERATIONS:
+- Document cyberattack impacts thoroughly
+- Provide alternative access methods when possible
+- Coordinate with IT security teams on disclosure timing
+- Maintain backup systems for critical public records
+
+STATUTORY CITATION: California Government Code Section 7920 et seq. (formerly sections 6250-6270)
+ORIGINAL EFFECTIVE DATE: 1968 (reorganized 2023)
+2025 AMENDMENTS EFFECTIVE DATES:
+- AB 370 (Cyberattack provisions): July 14, 2025
+- AB 1785 (Elected officials privacy): 2025
+- AB 134 (POST Commission records): 2025, expires January 1, 2027
+
+APPLICABILITY:
+- Applies to all state and local agencies
+- Does NOT apply to Legislature (governed by Legislative Open Records Act)
+- Does NOT apply to courts
+- Applies to records in physical custody of agencies
+
+PHILOSOPHY:
+"Access to information concerning the conduct of the people's business is a fundamental and necessary right of every person in this state" - designed to monitor government functioning and ensure accountability
+
+KEY 2025 CHANGES SUMMARY (v0.11):
+1. Cyberattack added as "unusual circumstance" for response extensions (AB 370)
+2. Enhanced privacy protections for elected officials' home addresses and assessor parcel numbers (AB 1785)
+3. Clarified POST Commission records procedures and forwarding requirements (AB 134)
+4. Proposed CPRA Ombudsperson position for mediation services (AB 541 - pending appropriation)
+5. Improved coordination between CPRA and peace officer misconduct records laws
+
+OFFICIAL RESOURCES:
+- California Legislative Information: https://leginfo.legislature.ca.gov
+- Attorney General's Office: https://oag.ca.gov
+- First Amendment Coalition: https://firstamendmentcoalition.org
+- California Newspaper Publishers Association CPRA resources
+
+NEXT REVIEW DATE: January 2026 legislative session

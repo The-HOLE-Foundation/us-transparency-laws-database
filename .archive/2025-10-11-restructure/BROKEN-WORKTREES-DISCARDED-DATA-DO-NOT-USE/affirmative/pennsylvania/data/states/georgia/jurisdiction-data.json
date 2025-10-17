@@ -1,0 +1,160 @@
+{
+  "jurisdiction": "Georgia",
+  "transparency_law": {
+    "name": "Georgia Open Records Act",
+    "statute_citation": "O.C.G.A. § 50-18-70 et seq.",
+    "effective_date": null,
+    "last_amended": null,
+
+    "response_requirements": {
+      "initial_response_time": 3,
+      "initial_response_unit": "business_days",
+      "initial_response_description": "Custodian has reasonable time to determine if records are subject to access and permit inspection; cannot exceed 3 business days",
+      "final_response_time": null,
+      "final_response_unit": "variable",
+      "final_response_notes": "If oral and written request made for same records, written request controls and 3-day period starts when written request received",
+      "extension_allowed": false,
+      "extension_max_days": null
+    },
+
+    "fee_structure": {
+      "search_fee": "Hourly rate after first 15 minutes",
+      "search_fee_notes": "May charge for research, retrieval, redaction at lowest paid employee rate; first quarter hour free",
+      "search_fee_statutory_cite": "O.C.G.A. § 50-18-71(c)",
+      "copy_fee_per_page": 0.10,
+      "copy_fee_notes": "Maximum $0.10/page for 8.5x14 or smaller; actual cost for larger",
+      "copy_fee_cite": "O.C.G.A. § 50-18-71(c)",
+      "electronic_fee": "Actual cost of electronic media",
+      "fee_estimate_required": "If estimated cost exceeds $25, must notify requester within 3 days",
+      "deposit_requirement": "May require 50% deposit if estimated cost exceeds $500",
+      "fee_waiver_available": false
+    },
+
+    "exemptions": [
+      {
+        "category": "Statutory Confidentiality",
+        "citation": "O.C.G.A. § 50-18-72(a)(1)",
+        "description": "Records specifically required by federal or state statute to be kept confidential",
+        "scope": "broad"
+      },
+      {
+        "category": "Medical Records",
+        "citation": "O.C.G.A. § 50-18-72(a)(2)",
+        "description": "Medical or veterinary records where disclosure would be invasion of personal privacy",
+        "scope": "narrow"
+      },
+      {
+        "category": "Law Enforcement - Confidential Sources",
+        "citation": "O.C.G.A. § 50-18-72(a)(3)",
+        "description": "Records compiled for law enforcement that would disclose confidential source, investigative material, or endanger life/safety",
+        "scope": "moderate"
+      },
+      {
+        "category": "Law Enforcement - Pending Investigations",
+        "citation": "O.C.G.A. § 50-18-72(a)(4)",
+        "description": "Specific investigative files concerning pending investigations (suspended investigations become public)",
+        "scope": "moderate"
+      },
+      {
+        "category": "Personal Identifiers",
+        "citation": "O.C.G.A. § 50-18-72(a)(5)",
+        "description": "Social security numbers, credit/debit card info, bank accounts, passwords, financial data, unlisted phone numbers, personal email",
+        "scope": "moderate"
+      },
+      {
+        "category": "Security Codes",
+        "citation": "O.C.G.A. § 50-18-72(a)(6)",
+        "description": "Passwords, keys, alarm codes, entry codes for secured areas",
+        "scope": "narrow"
+      },
+      {
+        "category": "Trade Secrets",
+        "citation": "O.C.G.A. § 50-18-72(a)(8)",
+        "description": "Trade secrets or commercially valuable information of private entities",
+        "scope": "narrow"
+      },
+      {
+        "category": "Attorney-Client Privilege",
+        "citation": "O.C.G.A. § 50-18-72(a)(12)",
+        "description": "Records developed for litigation covered by attorney-client privilege",
+        "scope": "narrow"
+      },
+      {
+        "category": "Personnel Records",
+        "citation": "O.C.G.A. § 50-18-72(a)(17)",
+        "description": "Personnel records",
+        "scope": "moderate"
+      },
+      {
+        "category": "Preliminary Drafts",
+        "citation": "O.C.G.A. § 50-18-72(a)(22)",
+        "description": "Preliminary drafts and notes",
+        "scope": "narrow"
+      },
+      {
+        "category": "Intragovernmental Communications",
+        "citation": "O.C.G.A. § 50-18-72(a)(23)",
+        "description": "Intragovernmental communications",
+        "scope": "moderate"
+      }
+    ],
+
+    "appeal_process": {
+      "first_level": "Superior Court",
+      "first_level_deadline_days": null,
+      "first_level_notes": "No administrative appeal; direct court action for enforcement",
+      "first_level_cite": "O.C.G.A. § 50-18-73",
+      "second_level": null,
+      "second_level_deadline_days": null,
+      "attorney_fees_recoverable": true,
+      "attorney_fees_cite": "O.C.G.A. § 50-18-73(b)",
+      "attorney_fees_notes": "Reasonable attorney fees and expenses of litigation awarded if requester substantially prevails"
+    },
+
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "residency_requirement": true,
+      "residency_notes": "Must be citizen of Georgia",
+      "request_format_notes": "May submit orally or in writing; written request controls if both submitted",
+      "specific_format": "No specific form required"
+    },
+
+    "agency_obligations": {
+      "records_officer_required": false,
+      "business_hours_access": true,
+      "business_hours_cite": "O.C.G.A. § 50-18-71(a)",
+      "electronic_submission_accepted": true,
+      "response_format_options": "May provide electronic copies or printouts from databases; must use existing programs",
+      "liberal_construction": "Broadly construed to allow inspection; exceptions interpreted narrowly",
+      "liberal_construction_cite": "O.C.G.A. § 50-18-70(b)",
+      "denial_requirements": "Must notify of denial with specific legal authority (Code section, subsection, paragraph) within 3 business days"
+    },
+
+    "oversight_body": {
+      "name": null,
+      "role": null,
+      "contact_info": null,
+      "oversight_url": null
+    },
+
+    "official_resources": {
+      "primary_statute_url": "https://law.justia.com/codes/georgia/2020/title-50/chapter-18/article-4/",
+      "agency_handbook_url": null,
+      "request_portal_url": null
+    },
+
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_url": "https://law.justia.com/codes/georgia/2020/title-50/chapter-18/article-4/",
+      "source_verified": true,
+      "primary_sources": [
+        "O.C.G.A. §§ 50-18-70 through 50-18-78",
+        "GEORGIA_transparency_law-v0.11.txt"
+      ],
+      "verification_notes": "All fields manually verified from official Georgia statute. 3 business day maximum response time. Maximum $0.10/page for standard copies. May charge hourly rate for research/retrieval after first 15 minutes. If cost exceeds $25 must notify within 3 days; may require 50% deposit if exceeds $500. Residency requirement - must be Georgia citizen. No administrative appeal - direct to Superior Court. Attorney fees if substantially prevails. Strong presumption favoring disclosure; exceptions narrowly construed."
+    }
+  },
+  "agencies": []
+}

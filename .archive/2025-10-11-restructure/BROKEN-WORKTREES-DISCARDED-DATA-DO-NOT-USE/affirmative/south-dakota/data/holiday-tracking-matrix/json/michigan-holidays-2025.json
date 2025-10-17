@@ -1,0 +1,115 @@
+{
+  "jurisdiction": "Michigan",
+  "jurisdiction_code": "MI",
+  "year": 2025,
+  "source_url": "https://www.michigan.gov/som/government/state-holidays",
+  "source_type": "statute",
+  "verified_date": "2025-10-02",
+  "weekend_observation_rule": "if_saturday_observe_friday_if_sunday_observe_monday",
+  "holidays": [
+    {
+      "name": "New Year's Day",
+      "statutory_date": "2025-01-01",
+      "observed_date": "2025-01-01",
+      "day_of_week": "Wednesday",
+      "is_state_holiday": true,
+      "notes": ""
+    },
+    {
+      "name": "Martin Luther King, Jr. Day",
+      "statutory_date": "2025-01-20",
+      "observed_date": "2025-01-20",
+      "day_of_week": "Monday",
+      "is_state_holiday": true,
+      "notes": "Third Monday in January"
+    },
+    {
+      "name": "President's Day",
+      "statutory_date": "2025-02-17",
+      "observed_date": "2025-02-17",
+      "day_of_week": "Monday",
+      "is_state_holiday": true,
+      "notes": "Third Monday in February"
+    },
+    {
+      "name": "Memorial Day",
+      "statutory_date": "2025-05-26",
+      "observed_date": "2025-05-26",
+      "day_of_week": "Monday",
+      "is_state_holiday": true,
+      "notes": "Last Monday in May"
+    },
+    {
+      "name": "Juneteenth",
+      "statutory_date": "2025-06-19",
+      "observed_date": "2025-06-19",
+      "day_of_week": "Thursday",
+      "is_state_holiday": true,
+      "notes": ""
+    },
+    {
+      "name": "Independence Day",
+      "statutory_date": "2025-07-04",
+      "observed_date": "2025-07-04",
+      "day_of_week": "Friday",
+      "is_state_holiday": true,
+      "notes": ""
+    },
+    {
+      "name": "Labor Day",
+      "statutory_date": "2025-09-01",
+      "observed_date": "2025-09-01",
+      "day_of_week": "Monday",
+      "is_state_holiday": true,
+      "notes": "First Monday in September"
+    },
+    {
+      "name": "Veterans Day",
+      "statutory_date": "2025-11-11",
+      "observed_date": "2025-11-11",
+      "day_of_week": "Tuesday",
+      "is_state_holiday": true,
+      "notes": ""
+    },
+    {
+      "name": "Thanksgiving Day",
+      "statutory_date": "2025-11-27",
+      "observed_date": "2025-11-27",
+      "day_of_week": "Thursday",
+      "is_state_holiday": true,
+      "notes": "Fourth Thursday in November"
+    },
+    {
+      "name": "Day after Thanksgiving",
+      "statutory_date": "2025-11-28",
+      "observed_date": "2025-11-28",
+      "day_of_week": "Friday",
+      "is_state_holiday": true,
+      "notes": ""
+    },
+    {
+      "name": "Christmas Eve",
+      "statutory_date": "2025-12-24",
+      "observed_date": "2025-12-24",
+      "day_of_week": "Wednesday",
+      "is_state_holiday": true,
+      "notes": "Michigan-specific holiday"
+    },
+    {
+      "name": "Christmas Day",
+      "statutory_date": "2025-12-25",
+      "observed_date": "2025-12-25",
+      "day_of_week": "Thursday",
+      "is_state_holiday": true,
+      "notes": ""
+    },
+    {
+      "name": "New Year's Eve",
+      "statutory_date": "2025-12-31",
+      "observed_date": "2025-12-31",
+      "day_of_week": "Wednesday",
+      "is_state_holiday": true,
+      "notes": "Michigan-specific holiday"
+    }
+  ]
+}

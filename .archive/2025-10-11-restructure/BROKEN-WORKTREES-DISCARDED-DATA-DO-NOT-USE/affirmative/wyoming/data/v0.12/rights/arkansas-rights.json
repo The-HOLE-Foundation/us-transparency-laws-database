@@ -1,0 +1,180 @@
+{
+  "jurisdiction": {
+    "slug": "arkansas",
+    "name": "Arkansas"
+  },
+  "rights_of_access": [
+    {
+      "category": "Proactive Disclosure",
+      "subcategory": "Broad Right of Access",
+      "statute_citation": "Ark. Code Ann. § 25-19-103",
+      "description": "The Arkansas Supreme Court has established that 'anyone who requests information is entitled to it.' Arkansas FOIA creates a presumption in favor of disclosure and public access to governmental records.",
+      "conditions": "Applies to all public records unless specifically exempted",
+      "applies_to": "All citizens and Arkansas residents",
+      "implementation_notes": "Arkansas courts interpret FOIA broadly in favor of disclosure. The burden is on agencies to justify withholding records.",
+      "request_tips": "Cite the Arkansas Supreme Court's ruling that 'anyone who requests information is entitled to it' to emphasize the broad right of access under Arkansas law."
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Three Business Day Response",
+      "statute_citation": "Ark. Code Ann. § 25-19-105",
+      "description": "If requested records are in active use or storage, custodians must respond within three business days. The custodian must provide a written response indicating whether records exist, are exempt, or are not in their custody.",
+      "conditions": "Three business days for records in active use or storage",
+      "applies_to": "All requesters",
+      "implementation_notes": "The response must be in writing and must specifically address the status of the requested records.",
+      "request_tips": "After three business days without a response, send a follow-up citing Ark. Code Ann. § 25-19-105 and the statutory deadline for records in active use."
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Multiple Format Access",
+      "statute_citation": "Ark. Code Ann. § 25-19-105(c)(1)",
+      "description": "Records that exist in multiple media or formats must be made available 'in any medium in which the record is readily available or in any format to which it is readily convertible with the custodian's existing software.'",
+      "conditions": "Applies when records exist in multiple formats or can be converted using existing software",
+      "applies_to": "All requesters",
+      "implementation_notes": "Agencies cannot refuse to provide records in a particular format if they maintain the records in that format or can easily convert them using existing software.",
+      "request_tips": "Request: 'Please provide records in [preferred format]. Under Ark. Code Ann. § 25-19-105(c)(1), records must be provided in any readily available medium or format readily convertible with your existing software.'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Electronic Submission Methods",
+      "statute_citation": "Ark. Code Ann. § 25-19-105",
+      "description": "Requests may be submitted by multiple methods including in person, telephone, mail, facsimile, email, or other electronic means provided by the custodian.",
+      "conditions": "Any method of submission is valid",
+      "applies_to": "All requesters",
+      "implementation_notes": "Agencies cannot require requests to be submitted only in specific formats. Email requests are valid and must be processed.",
+      "request_tips": "Submit requests via email for documentation purposes. Arkansas law explicitly authorizes electronic requests."
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "FOIA Compliance for New Technology",
+      "statute_citation": "Ark. Code Ann. § 25-19-105",
+      "description": "Computer hardware or software acquired after July 1, 2001 must be FOIA-compliant and not impede public access to records in electronic form. Systems must allow for production of electronic records.",
+      "conditions": "Applies to all technology systems acquired after July 1, 2001",
+      "applies_to": "All requesters",
+      "implementation_notes": "If an agency claims their system cannot produce records electronically, this may violate the FOIA compliance requirement for post-2001 systems.",
+      "request_tips": "If an agency refuses electronic production, ask: 'When was your records system acquired? Under Ark. Code Ann. § 25-19-105, systems acquired after July 1, 2001 must not impede electronic access to records.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Fee Cap - $25 Prepayment Threshold",
+      "statute_citation": "Ark. Code Ann. § 25-19-105(d)",
+      "description": "Agencies may only request prepayment of copying costs when the total exceeds $25. For requests under $25, records must be produced first and the requester invoiced afterward.",
+      "conditions": "Prepayment allowed only when costs exceed $25",
+      "applies_to": "All requesters",
+      "implementation_notes": "Many agencies improperly demand prepayment for smaller amounts. Arkansas law protects requesters from upfront payment unless costs are substantial.",
+      "request_tips": "If an agency demands prepayment for less than $25, cite Ark. Code Ann. § 25-19-105(d) and state: 'Prepayment is only authorized when copying costs exceed $25. Please produce the records and invoice me.'"
+    },
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "Citizen Requirement - Proxy Access",
+      "statute_citation": "Ark. Code Ann. § 25-19-105",
+      "description": "While Arkansas FOIA generally requires citizenship, non-citizens may use an Arkansas citizen as a proxy to request records. The proxy makes the request on behalf of the non-citizen, ensuring access for all who need government information.",
+      "conditions": "Proxy must be an Arkansas citizen",
+      "applies_to": "Non-citizens through citizen proxies",
+      "implementation_notes": "This provision ensures that anyone can ultimately access Arkansas government records, even if they must use a proxy.",
+      "request_tips": "Non-citizens seeking Arkansas records should work with an Arkansas citizen who can submit the request as a proxy. The proxy is entitled to the records."
+    },
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "Public Officials as Citizens",
+      "statute_citation": "Ark. Code Ann. § 25-19-105(a)(1)",
+      "description": "Public officials, acting in their official capacity, are considered 'citizens' for FOIA purposes. This ensures government officials can access records to perform their duties.",
+      "conditions": "Official must be acting in official capacity",
+      "applies_to": "Public officials",
+      "implementation_notes": "Officials do not need to prove citizenship separately; their official status qualifies them as requesters.",
+      "request_tips": "Public officials should identify their office and explain the request relates to official duties. Cite this provision to establish immediate requester status."
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Attorney General Advisory Opinions",
+      "statute_citation": "Ark. Code Ann. § 25-19-106",
+      "description": "The Arkansas Attorney General issues advisory opinions interpreting FOIA. While not binding on courts, these opinions are frequently cited by Arkansas courts in FOIA cases and provide authoritative guidance.",
+      "conditions": "Available for complex FOIA questions",
+      "applies_to": "All requesters, agencies, and courts",
+      "implementation_notes": "Hundreds of AG opinions exist. If an agency's denial seems questionable, search AG opinions for similar situations. Courts give these opinions significant weight.",
+      "request_tips": "If your request is denied, search Arkansas AG FOIA opinions at arkansasag.gov. If an AG opinion supports your position, cite it in your appeal: 'AG Opinion [number] addresses similar facts and concluded disclosure is required.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Judicial Review",
+      "statute_citation": "Ark. Code Ann. § 25-19-107",
+      "description": "Requesters may file lawsuits to enforce FOIA compliance. Courts can order production of records and award attorney fees to prevailing plaintiffs.",
+      "conditions": "Available when agency improperly denies access",
+      "applies_to": "All requesters",
+      "implementation_notes": "Arkansas courts construe FOIA broadly in favor of disclosure. Successful plaintiffs can recover attorney fees, making litigation more accessible.",
+      "request_tips": "If considering litigation, document all requests and denials. Arkansas courts favor disclosure, and fee recovery is available if you prevail. Consult an attorney about potential fee awards."
+    },
+    {
+      "category": "Proactive Disclosure",
+      "subcategory": "Presumption of Openness",
+      "statute_citation": "Ark. Code Ann. § 25-19-103",
+      "description": "Arkansas FOIA establishes a strong presumption that all government records are open to public inspection. Exemptions are strictly construed against withholding.",
+      "conditions": "Applies to all public records",
+      "applies_to": "General public",
+      "implementation_notes": "When agencies claim exemptions, they bear the burden of proving the exemption applies. Doubts must be resolved in favor of disclosure.",
+      "request_tips": "Challenge exemptions by stating: 'Under Ark. Code Ann. § 25-19-103, there is a presumption of openness. Exemptions must be strictly construed. Please explain specifically how this exemption applies and provide legal authority.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Written Response Required",
+      "statute_citation": "Ark. Code Ann. § 25-19-105",
+      "description": "Custodians must provide written responses to written FOIA requests. The response must indicate if no records exist, if records are exempt, or if the custodian lacks custody. Oral responses are insufficient.",
+      "conditions": "Applies to all written requests",
+      "applies_to": "All requesters making written requests",
+      "implementation_notes": "If an agency responds verbally, insist on a written response. Written documentation is essential for appeals and enforcement.",
+      "request_tips": "If you receive a verbal denial, respond: 'Under Ark. Code Ann. § 25-19-105, I am entitled to a written response. Please provide your response in writing, including the specific exemption claimed if records are being withheld.'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "No Burden Argument for Electronic Records",
+      "statute_citation": "Ark. Code Ann. § 25-19-105(c)",
+      "description": "Agencies cannot refuse to provide records in electronic format on grounds that producing them would be burdensome if the records are readily available or readily convertible with existing software.",
+      "conditions": "Records must be readily available or convertible",
+      "applies_to": "All requesters",
+      "implementation_notes": "The key is whether records are 'readily' available or convertible. If the agency already has the capability, they cannot claim burden.",
+      "request_tips": "If an agency claims burden, ask: 'Do you maintain these records electronically? If so, under Ark. Code Ann. § 25-19-105(c), they must be provided in electronic format if readily available or readily convertible with your existing software.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Access to Privately-Held Public Records",
+      "statute_citation": "Ark. Code Ann. § 25-19-105",
+      "description": "Arkansas courts have held that agencies must provide access to public records even when those records are held by private entities on behalf of the government. The agency's obligation continues regardless of where records are physically located.",
+      "conditions": "Records must be public records under agency control",
+      "applies_to": "All requesters",
+      "implementation_notes": "If an agency claims records are held by a contractor or private party, this does not excuse the agency from production. The agency must obtain the records from the private entity.",
+      "request_tips": "If an agency says records are held by a third party, respond: 'Arkansas courts have held agencies must provide access to public records regardless of where they are held. Please obtain these records from [entity] and produce them as required by FOIA.'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Right to Inspect Records",
+      "statute_citation": "Ark. Code Ann. § 25-19-105",
+      "description": "Requesters have the right to inspect public records before deciding whether to obtain copies. This allows review of voluminous records to determine which documents are actually needed.",
+      "conditions": "Inspection allowed during regular business hours",
+      "applies_to": "All requesters",
+      "implementation_notes": "Agencies may supervise inspection but must provide reasonable access. Bringing a camera or phone to photograph records during inspection may be permitted.",
+      "request_tips": "Include in request: 'I request the opportunity to inspect responsive records before obtaining copies. This will help me identify the specific records I need and minimize copying costs.'"
+    }
+  ],
+  "validation_metadata": {
+    "parsed_date": "2025-10-07",
+    "source_url": "https://arkansasag.gov/divisions/opinions-foia/arkansas-freedom-of-information-act/",
+    "source_verified": true,
+    "primary_sources": [
+      "Arkansas Code Annotated § 25-19-101 et seq.",
+      "Arkansas Attorney General FOIA Resources (arkansasag.gov)",
+      "Arkansas Freedom of Information Handbook (21st Edition, 2025)",
+      "Reporters Committee for Freedom of the Press - Arkansas Guide"
+    ],
+    "verification_notes": "All rights verified against Arkansas Code Ann. Title 25, Chapter 19 as of October 2025. Cross-referenced with Arkansas AG FOIA resources and RCFP Open Government Guide. Arkansas has strong technology provisions requiring FOIA compliance in electronic systems.",
+    "rights_count": 15,
+    "categories_covered": [
+      "Proactive Disclosure",
+      "Timeliness Rights",
+      "Technology Rights",
+      "Enhanced Access Rights",
+      "Requester-Specific Rights",
+      "Appeal Rights",
+      "Inspection Rights"
+    ]
+  }
+}

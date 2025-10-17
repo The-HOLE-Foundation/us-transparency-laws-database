@@ -1,0 +1,166 @@
+{
+  "jurisdiction": "California",
+  "transparency_law": {
+    "name": "California Public Records Act",
+    "statute_citation": "Cal. Gov't Code § 7920 et seq.",
+    "effective_date": "1968-01-01",
+    "last_amended": "2025-07-14",
+
+    "response_requirements": {
+      "initial_response_time": 10,
+      "initial_response_unit": "calendar_days",
+      "initial_response_description": "Agency must determine if records exist and will be disclosed within 10 days",
+      "final_response_time": null,
+      "final_response_unit": null,
+      "final_response_notes": "Records must be made 'promptly available' but no specific deadline specified",
+      "extension_allowed": true,
+      "extension_max_days": 14,
+      "extension_conditions": "Unusual circumstances: need to search separate facilities, voluminous records, consultation with other agencies, compiling electronic records, or cyberattack preventing access to electronic systems",
+      "extension_cite": "Cal. Gov't Code § 7922.535",
+      "no_further_extensions": true,
+      "cyberattack_provisions": "NEW 2025 (AB 370): Cyberattack added as unusual circumstance. Agency must provide written notice explaining cyberattack impact and provide alternative formats if available."
+    },
+
+    "fee_structure": {
+      "search_fee": "Generally not chargeable",
+      "search_fee_notes": "Search time not chargeable unless voluminous",
+      "search_fee_statutory_cite": "Cal. Gov't Code § 7922.570",
+      "copy_fee_per_page": null,
+      "copy_fee_notes": "Direct costs of duplication only - actual cost varies by agency and format",
+      "copy_fee_cite": "Cal. Gov't Code § 7922.570",
+      "electronic_fee": "Cost of medium (CD, USB, etc.)",
+      "computer_programming_fee": "Actual cost when database extracts or programming required",
+      "fee_waiver_available": false,
+      "fee_waiver_notes": "No statutory fee waiver provision; fees limited to direct costs only"
+    },
+
+    "exemptions": [
+      {
+        "category": "Personal Privacy",
+        "citation": "Cal. Gov't Code § 7927.700",
+        "description": "Personnel, medical files where disclosure would constitute unwarranted invasion of personal privacy",
+        "scope": "moderate"
+      },
+      {
+        "category": "Personal Privacy",
+        "citation": "Cal. Gov't Code § 7928.310 (AB 1785, 2025)",
+        "description": "Home addresses and assessor parcel numbers of elected officials upon written request for confidentiality",
+        "scope": "narrow",
+        "effective_date": "2025",
+        "notes": "NEW 2025: Enhanced privacy protection for current and former elected officials and family members"
+      },
+      {
+        "category": "Law Enforcement",
+        "citation": "Cal. Gov't Code § 7923.600 et seq.",
+        "description": "Law enforcement investigatory records in specified circumstances",
+        "scope": "moderate",
+        "coordination_note": "AB 134 (2025) clarifies coordination with Penal Code § 832.7 peace officer misconduct records"
+      },
+      {
+        "category": "Deliberative Process",
+        "citation": "Cal. Gov't Code § 7927.705",
+        "description": "Preliminary drafts, notes, or interagency or intra-agency memoranda not retained by the public agency in the ordinary course of business",
+        "scope": "narrow"
+      },
+      {
+        "category": "Attorney-Client Privilege",
+        "citation": "Cal. Gov't Code § 7927.710",
+        "description": "Records of communications privileged under attorney-client privilege",
+        "scope": "narrow"
+      },
+      {
+        "category": "Trade Secrets",
+        "citation": "Cal. Gov't Code § 7927.500",
+        "description": "Trade secrets as defined in Civil Code § 3426.1",
+        "scope": "narrow"
+      },
+      {
+        "category": "Litigation Records",
+        "citation": "Cal. Gov't Code § 7927.400",
+        "description": "Records pertaining to pending litigation to which the public agency is a party",
+        "scope": "moderate"
+      },
+      {
+        "category": "Ongoing Investigation",
+        "citation": "Cal. Gov't Code § 7923.600",
+        "description": "Investigation files compiled by law enforcement agencies where disclosure would endanger proceedings or safety",
+        "scope": "moderate"
+      }
+    ],
+
+    "appeal_process": {
+      "first_level": "No administrative appeal - direct to court",
+      "first_level_deadline_days": null,
+      "first_level_cite": null,
+      "first_level_notes": "California CPRA does not provide administrative appeal process",
+      "second_level": "Superior Court - Petition for Writ of Mandate",
+      "second_level_deadline_days": null,
+      "second_level_deadline_notes": "No specific statutory deadline for filing petition",
+      "second_level_cite": "Cal. Gov't Code § 7923.000",
+      "attorney_fees_recoverable": true,
+      "attorney_fees_cite": "Cal. Gov't Code § 7923.115",
+      "attorney_fees_notes": "Court shall award reasonable attorney's fees and other litigation costs to substantially prevailing plaintiff",
+      "proposed_ombudsperson": "AB 541 (pending 2025) proposes creation of California Public Records Act Ombudsperson for mediation - pending appropriation"
+    },
+
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "purpose_statement_prohibited": true,
+      "purpose_notes": "Agencies may not require explanation of why records are requested or intended use",
+      "residency_requirement": false,
+      "request_format_notes": "Written or oral requests accepted; no specific form required",
+      "specific_format": "Request must reasonably describe identifiable records"
+    },
+
+    "agency_obligations": {
+      "records_officer_required": false,
+      "business_hours_access": true,
+      "business_hours_cite": "Cal. Gov't Code § 7922.530",
+      "electronic_submission_accepted": true,
+      "response_format_options": "Electronic format when requested and available; commonly used and machine-readable formats preferred",
+      "accessibility_requirements": "Must consider accessibility requirements for disabled requesters",
+      "liberal_construction": "Statute must be construed liberally favoring disclosure",
+      "cyberattack_documentation": "Must document cyberattack impacts thoroughly and provide alternative access methods when possible (AB 370, 2025)",
+      "staff_training_recommended": true
+    },
+
+    "oversight_body": {
+      "name": "No designated oversight body (proposed California Public Records Act Ombudsperson pending)",
+      "role": "AB 541 proposes ombudsperson for mediation services - pending appropriation",
+      "contact_info": "None currently designated",
+      "oversight_url": null
+    },
+
+    "official_resources": {
+      "primary_statute_url": "https://leginfo.legislature.ca.gov",
+      "statute_reorganization_note": "Reorganized from sections 6250-6270 to section 7920 et seq. in 2023",
+      "agency_handbook_url": "https://oag.ca.gov",
+      "request_portal_url": null,
+      "advocacy_resources": "https://firstamendmentcoalition.org",
+      "constitutional_foundation": "Cal. Const., art. I, § 3(b)(1) - Proposition 59 (2004)"
+    },
+
+    "validation_metadata": {
+      "parsed_date": "2025-10-02",
+      "confidence_level": "high",
+      "source_url": "https://leginfo.legislature.ca.gov",
+      "source_verified": true,
+      "primary_sources": [
+        "California Government Code § 7920 et seq.",
+        "AB 370 (2025) - Cyberattack provisions",
+        "AB 1785 (2025) - Elected officials privacy",
+        "AB 134 (2025) - POST Commission records",
+        "California Constitution Article I, Section 3(b)(1)"
+      ],
+      "verification_notes": "All fields verified from official California statute text and 2025 legislative amendments. Response times specified as calendar days (10-day initial response to determine if records exist and will be disclosed). 14-day extension allowed for unusual circumstances including NEW cyberattack provisions (AB 370, effective July 14, 2025). No administrative appeal - direct to Superior Court via Petition for Writ of Mandate. Enhanced privacy protections for elected officials (AB 1785, 2025). Clarified POST Commission procedures (AB 134, expires 2027).",
+      "key_2025_changes": [
+        "Cyberattack added as unusual circumstance for extensions",
+        "Enhanced privacy for elected officials' home addresses",
+        "POST Commission records coordination clarified",
+        "Proposed CPRA Ombudsperson (AB 541 - pending appropriation)"
+      ]
+    }
+  },
+  "agencies": []
+}

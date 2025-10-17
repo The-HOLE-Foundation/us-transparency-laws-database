@@ -1,0 +1,190 @@
+DELAWARE FREEDOM OF INFORMATION ACT
+Delaware Code Title 29, Chapter 100, Sections 10001 through 10008
+
+===================================================
+
+29 DEL. C. § 10001. DECLARATION OF PUBLIC POLICY
+
+It is vital in a democratic society that public business be performed in an open and public manner so that our citizens shall have the opportunity to observe the performance of public officials and to monitor the decisions that are made by such officials in formulating and executing public policy. The General Assembly finds and declares that secrecy in government is inherently inconsistent with a democratic society and that a government that conducts the public's business in secret is not responsive to the needs of the people. Openness in government is essential to accountability in a democratic society, and accountability is impossible without adequate access to information. This chapter shall therefore be liberally construed to promote its underlying purposes.
+
+===================================================
+
+29 DEL. C. § 10002. DEFINITIONS
+
+For the purposes of this chapter:
+
+(1) "Public body" means any regulatory, planning, school, special or other commission, committee, body, board, bureau, agency, service, authority, council, department or officer of the State, or of any political subdivision of the State, empowered by law to exercise any regulatory, administrative, legislative or quasi-judicial power, including committees, subcommittees and other subordinate units thereof; provided, however, that the term "public body" shall not apply to the judicial branch of government or any subordinate unit thereof.
+
+(2) "Public record" means information of any kind, owned, made, used, retained, received, produced, composed, drafted or otherwise compiled or collected, by any public body, relating in any way to public business, or in any way of public interest, or in any way related to public purposes, regardless of the physical form or characteristics of such information, how it is stored, or whether such information is before or after the conclusion of a meeting or proceeding.
+
+===================================================
+
+29 DEL. C. § 10003. EXAMINATION AND COPYING OF PUBLIC RECORDS
+
+(a) All public records shall be subject to inspection and examination by any citizen, and any citizen may obtain copies of any public record.
+
+(b) A request for access to public records shall be made in writing to the appropriate public body.
+
+(c) All state agencies and public bodies shall develop a web portal for receiving FOIA requests through the internet. Such portals shall utilize the standard request form promulgated by the Attorney General.
+
+(d) The public body shall respond to a FOIA request as soon as possible, but in any event within 15 business days after the receipt thereof, either by:
+(1) Providing access to the requested records;
+(2) Denying access to the records or parts of them pursuant to § 10002(l) and 10004 of this title;
+(3) Advising that additional time is needed pursuant to subsection (e) of this section.
+
+(e) If a public body cannot respond within the 15-business-day period because the request is for a voluminous amount of material or requires legal review, the public body may extend the response period for an additional period not to exceed 10 business days by giving written notice to the requesting party within the initial 15-business-day period and stating the reason for the extension.
+
+(f) If a public body fails to respond within the time periods required by subsections (d) and (e) of this section, the request shall be deemed denied.
+
+===================================================
+
+29 DEL. C. § 10004. EXEMPTIONS FROM FREEDOM OF INFORMATION ACT
+
+Notwithstanding any other provision of this chapter, the following records are exempt from disclosure:
+
+(a) Trade secrets and commercial or financial information obtained from a person which is of a privileged or confidential nature;
+
+(b) Information of a personal nature where the public disclosure thereof would constitute an unreasonable invasion of personal privacy;
+
+(c) Information specifically exempted from disclosure by statute or common law;
+
+(d) Information or records declared by a court of this State to be confidential;
+
+(e) Information relating to a prospective location or expansion of a business or industry where no previous public announcement has been made. This exemption shall expire 1 year from the date the record was created;
+
+(f) Records whose disclosure would be detrimental to the public health, safety or welfare or would impair the effective operation of government;
+
+(g) Investigatory files compiled for civil, administrative or criminal law-enforcement purposes except to the extent available by common law or statute to a party other than the public body;
+
+(h) Test questions, scoring keys and other examination data used to determine the qualifications of an applicant for licensure, employment or academic advancement except that a candidate may obtain a copy of the candidate's own essay answers;
+
+(i) Records related to employees' medical condition and history, workers' compensation claims, and any other records whose disclosure is prohibited by federal law;
+
+(j) Information compiled in reasonable anticipation of a civil action or proceeding;
+
+(k) Computer software developed by a public body or computer mapping or geographic information systems, including the records, maps and other materials prepared or assembled for the development of such software or systems;
+
+(l) Library records that would identify any individual who borrowed or received any materials from a library;
+
+(m) Student records that are required by federal or state law to be kept confidential;
+
+(n) Records related to undercover law-enforcement officers, including any records that would tend to identify such officers;
+
+(o) Communications between and among public bodies specifically exempted from disclosure by the Freedom of Information Act of another state when such state grants substantially similar confidentiality to communications involving Delaware public bodies;
+
+(p) All records related to pending or potential litigation to which the State or any of its agencies or subdivisions is or may be a party, including attorney work product and documents produced in preparation for litigation;
+
+(q) Information contained in or relating to examination, operating or condition reports prepared by, or on behalf of, or for the use of, any agency responsible for the regulation or supervision of financial institutions, except that this subsection shall not apply to reports of formal enforcement actions or material agreements entered into by financial institutions and regulatory agencies which are designed to improve the financial condition or legal compliance of the institution;
+
+(r) Information or records which, if disclosed, would give advantage to competitors or bidders;
+
+(s) Infrastructure records that would disclose vulnerabilities to terrorist attack.
+
+===================================================
+
+29 DEL. C. § 10005. FEES FOR COPYING PUBLIC RECORDS
+
+(a) The first 20 pages of standard-sized, black and white material shall be provided free of charge. The charge for copying standard-sized, black and white public records for copies over and above 20 shall be $.10 per sheet ($.20 for a double-sided sheet).
+
+(b) The first 20 pages of standard-sized, black and white material copied from microfilm and/or microfiche shall be provided free of charge. The charge for microfilm and/or microfiche printouts over and above 20 shall be $.15 per sheet.
+
+(c) For public records provided in electronic format, the fee shall be the actual cost of the electronic media.
+
+(d) If the public body does not have the capability to copy the records, it shall allow the person requesting the records to copy them using the person's own copying equipment.
+
+===================================================
+
+29 DEL. C. § 10006. JUDICIAL REVIEW; ATTORNEY GENERAL DETERMINATION
+
+(a) Any citizen may challenge the validity under this chapter of any action of a public body by filing suit within 60 days of the citizen's learning of such action but in no event later than 6 months after the date of the action.
+
+(b) Any citizen denied access to public records as provided in this chapter may bring suit within 60 days of such denial.
+
+(c) Any citizen may petition the Attorney General for a determination of whether a public body has violated or is about to violate this chapter. The Attorney General shall respond within 30 days by issuing a written determination. The Attorney General's determination shall be limited to whether a violation of this chapter has occurred or will occur, and the Attorney General shall not have authority to issue injunctions or assess penalties.
+
+(d) If the court determines that a public body or official willfully violated this chapter, the court may assess against such public body the reasonable attorney's fees and other litigation costs reasonably incurred.
+
+===================================================
+
+29 DEL. C. § 10007. PENALTIES
+
+Any person who willfully violates the provisions of this chapter shall be guilty of a misdemeanor and upon conviction shall be fined not more than $500 or imprisoned for not more than 30 days, or both.
+
+===================================================
+
+29 DEL. C. § 10008. PROTECTION OF PERSONS REPORTING WRONGDOING
+
+Any public employee who reports in good faith suspected wrongdoing to the Attorney General or other appropriate law-enforcement agency shall be protected from retaliation in the manner provided by state and federal whistle-blower protection laws.
+
+===================================================
+
+RESPONSE TIME REQUIREMENTS
+
+**Standard Response Time:** 15 business days
+**Extension Available:** Additional 10 business days for voluminous requests or those requiring legal review
+**Notice Required:** Written notice of extension must be provided within initial 15-day period
+**Deemed Denied:** Failure to respond within required time periods results in deemed denial
+
+===================================================
+
+APPEAL PROCESS
+
+**Attorney General Petition:**
+- Citizens may petition Attorney General for determination of FOIA violation
+- AG must respond within 30 days with written determination
+- AG authority limited to determining violations - no injunctive power or penalties
+
+**Judicial Review:**
+- File suit within 60 days of learning of challenged action (max 6 months from action)
+- File suit within 60 days of denial of records access
+- Court may assess reasonable attorney fees if willful violation found
+
+===================================================
+
+FEES AND COSTS
+
+**Free Records:**
+- First 20 pages of standard black and white copies
+- First 20 pages of microfilm/microfiche copies
+
+**Copying Fees:**
+- Standard copies over 20 pages: $0.10 per sheet ($0.20 double-sided)
+- Microfilm/microfiche over 20 pages: $0.15 per sheet
+- Electronic format: Actual cost of electronic media
+
+**Self-Copying:**
+- Public body must allow person to use own copying equipment if agency cannot copy
+
+===================================================
+
+CRIMINAL PENALTIES
+
+**Misdemeanor:** Willful violation of FOIA
+**Punishment:** Up to $500 fine and/or 30 days imprisonment
+
+===================================================
+
+WEB PORTAL REQUIREMENT
+
+All state agencies and public bodies must develop web portals for receiving FOIA requests through the internet using standard request forms promulgated by the Attorney General.
+
+===================================================
+
+WHISTLEBLOWER PROTECTION
+
+Public employees who report suspected wrongdoing in good faith to the Attorney General or law enforcement are protected from retaliation under state and federal whistleblower laws.
+
+===================================================
+
+SOURCE NOTES
+
+- Delaware Code Title 29, Chapter 100, Sections 10001 through 10008
+- Delaware Attorney General FOIA Manual and guidance materials
+- Research conducted September 5, 2025
+- Sources: Delaware state legal databases, Attorney General materials, RCFP Delaware Guide, NFOIC resources, and official state publications
+
+===================================================
+
+HISTORICAL NOTE
+
+The Delaware Freedom of Information Act was adopted by the General Assembly in 1977, establishing Delaware's commitment to open government and public access to records. The law is to be liberally construed to promote transparency and accountability in government.

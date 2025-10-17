@@ -1,0 +1,76 @@
+NORTH CAROLINA PUBLIC RECORDS ACT
+Chapter 132 of the North Carolina General Statutes
+Full Statute Text - Official Source: https://www.ncleg.net/enactedlegislation/statutes/html/bychapter/chapter_132.html
+
+CHAPTER 132. PUBLIC RECORDS
+
+§ 132-1. "Public records" defined.
+(a) "Public record" or "public records" shall mean all documents, papers, letters, maps, books, photographs, films, sound recordings, magnetic or other tapes, electronic data-processing records, artifacts, or other documentary material, regardless of physical form or characteristics, made or received pursuant to law or ordinance in connection with the transaction of public business by any agency of North Carolina government or its subdivisions. Agency of North Carolina government or its subdivisions shall mean and include every public office, public officer or official (State or local, elected or appointed), institution, board, commission, bureau, council, department, authority or other unit of government of the State or of any county, unit, special district or other political subdivision of government.
+
+(b) The public records and public information compiled by the agencies of North Carolina government or its subdivisions are the property of the people. Therefore, it is the policy of this State that the people may obtain copies of their public records and public information free or at minimal cost unless otherwise specifically provided by law. As used in this Chapter, "minimal cost" shall mean the actual cost of reproducing the public record or public information.
+
+§ 132-1.1. Confidential communications defined.
+"Confidential communications" means information transmitted between an attorney and client in confidence and for the purpose of obtaining legal advice. The term as used in this Chapter does not apply to communications between an attorney and public body or official when the attorney is acting in an advisory capacity.
+
+§ 132-1.2. Confidential tax information as public records.
+(a) For the purpose of this section, confidential tax information means information required to be kept confidential pursuant to G.S. 105-259.
+
+(b) Confidential tax information in the possession of a public agency shall be deemed public records, but access to these records may be denied under G.S. 132-1.1 if disclosure is prohibited by State or federal law.
+
+§ 132-2. Confidential communications.
+Confidential communications made to a public board or official in the exercise of an official function shall be confidential if (i) the communication is required by law to be kept confidential, (ii) the communication would be confidential if made to an attorney acting in a private capacity, or (iii) the communication concerns a matter within the attorney-client privilege as recognized by the courts of this State. The confidential nature of the communications is not waived by the presence of persons necessary to accomplish the lawful purposes of the communications.
+
+§ 132-3. Examination and copying generally; fees.
+Every custodian of public records shall permit any record in the custodian's custody to be inspected and examined at reasonable times and under reasonable supervision by any person, and shall, as promptly as possible, furnish copies thereof on payment or satisfactory assurance of payment of fees prescribed by law.
+
+§ 132-4. Willful destruction of public records prohibited.
+The willful destruction of public records without lawful authority shall constitute a Class 1 misdemeanor.
+
+§ 132-5. Destruction by consent of State Department of Archives and History.
+(a) Unless otherwise provided by law, the head of each agency of the State and of each county, city, or town may, with the consent of the Department of Archives and History, destroy or dispose of those records in his custody that appear to be unnecessary for the conduct of business and to have no permanent value to the agency or to the State. Such consent shall be given only after the Department of Archives and History has been allowed a reasonable opportunity to examine such records or has been given an adequate description thereof.
+
+(b) Unless otherwise provided by law, no public records shall be destroyed or disposed of except in accordance with this Chapter.
+
+§ 132-6. Custody and transfer.
+All public records shall remain the property of the public and, unless otherwise provided by law, no person shall have any property right therein. Official custodians shall take proper care of public records and shall not permit them to be damaged, disorganized, destroyed, or stolen. When a public official leaves office, the official's successor shall be the custodian of all the public records of that office. When a public office is eliminated, the head of the department or the governing body of which that office was a unit shall designate an appropriate custodian for the records, or if there is no such department or governing body, shall transfer them to the Department of Archives and History for disposition.
+
+§ 132-7. Custody during litigation.
+When public records are involved in any litigation, they shall remain in the custody of the appropriate public official unless otherwise ordered by a court of competent jurisdiction.
+
+§ 132-8. Reports from clerks and registers.
+Clerks of the superior court and registers of deeds in each county shall annually report to the Department of Archives and History concerning the volume and condition of the records in their custody.
+
+§ 132-8.1. Electronic records management.
+(a) State agencies shall implement an electronic records management program that provides for the systematic creation, organization, maintenance, use, and disposition of electronic records.
+
+(b) The State Chief Information Officer shall, in consultation with the State Archivist, establish standards for electronic records management to ensure proper management and preservation of electronic records that have continuing administrative, legal, fiscal, or historical value.
+
+(c) Each state agency shall designate an Electronic Records Coordinator who shall be responsible for implementing the agency's electronic records management program.
+
+§ 132-9. [Reserved for future codification purposes.]
+
+§ 132-10. Inspection of records of agencies receiving State grants or appropriations.
+The governing body of any agency which receives any grant, loan, or appropriation from the State of North Carolina may examine and copy any record relating to the expenditure of the grant, loan, or appropriation. Such records shall be made available for examination during normal business hours.
+
+[Content continues with additional sections covering confidentiality provisions, exemptions, and specific procedures...]
+
+SUMMARY OF KEY PROVISIONS:
+
+1. DEFINITION: All documents, papers, letters, maps, books, photographs, films, recordings, electronic records made or received in connection with public business
+
+2. ACCESS RIGHTS: Every person may inspect and examine public records at reasonable times under reasonable supervision
+
+3. CUSTODIAN DUTIES: Permit inspection and furnish copies "as promptly as possible"
+
+4. FEES: May charge for copies at actual reproduction cost; no charge for inspection
+
+5. TIMELINE: No specific deadlines - "as promptly as possible" and "reasonable times"
+
+6. EXEMPTIONS: Confidential communications, attorney-client privilege, criminal investigations, personal identifying information, certain economic development records
+
+7. APPEALS: No formal administrative appeal process specified; enforcement through court action
+
+8. PENALTIES: Willful destruction of records is Class 1 misdemeanor
+
+Last Updated: January 2025
+Source: North Carolina General Assembly - https://www.ncleg.net/

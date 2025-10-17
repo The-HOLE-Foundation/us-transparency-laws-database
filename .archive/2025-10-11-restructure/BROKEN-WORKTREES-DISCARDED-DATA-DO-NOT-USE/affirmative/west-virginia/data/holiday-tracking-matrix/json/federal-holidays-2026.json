@@ -1,0 +1,99 @@
+{
+  "jurisdiction": "Federal",
+  "jurisdiction_code": "US",
+  "year": 2026,
+  "source_url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
+  "source_type": "official_government_authority",
+  "verified_date": "2025-10-02",
+  "weekend_observation_rule": "if_saturday_observe_friday_if_sunday_observe_monday",
+  "holidays": [
+    {
+      "name": "New Year's Day",
+      "statutory_date": "2026-01-01",
+      "observed_date": "2026-01-01",
+      "day_of_week": "Thursday",
+      "is_federal_holiday": true,
+      "notes": ""
+    },
+    {
+      "name": "Birthday of Martin Luther King, Jr.",
+      "statutory_date": "2026-01-19",
+      "observed_date": "2026-01-19",
+      "day_of_week": "Monday",
+      "is_federal_holiday": true,
+      "notes": "Third Monday in January"
+    },
+    {
+      "name": "Washington's Birthday",
+      "statutory_date": "2026-02-16",
+      "observed_date": "2026-02-16",
+      "day_of_week": "Monday",
+      "is_federal_holiday": true,
+      "notes": "Third Monday in February; commonly called Presidents' Day"
+    },
+    {
+      "name": "Memorial Day",
+      "statutory_date": "2026-05-25",
+      "observed_date": "2026-05-25",
+      "day_of_week": "Monday",
+      "is_federal_holiday": true,
+      "notes": "Last Monday in May"
+    },
+    {
+      "name": "Juneteenth National Independence Day",
+      "statutory_date": "2026-06-19",
+      "observed_date": "2026-06-19",
+      "day_of_week": "Friday",
+      "is_federal_holiday": true,
+      "notes": "Federal holiday since 2021"
+    },
+    {
+      "name": "Independence Day",
+      "statutory_date": "2026-07-04",
+      "observed_date": "2026-07-03",
+      "day_of_week": "Friday",
+      "is_federal_holiday": true,
+      "notes": "Observed on Friday July 3 because July 4 falls on Saturday"
+    },
+    {
+      "name": "Labor Day",
+      "statutory_date": "2026-09-07",
+      "observed_date": "2026-09-07",
+      "day_of_week": "Monday",
+      "is_federal_holiday": true,
+      "notes": "First Monday in September"
+    },
+    {
+      "name": "Columbus Day",
+      "statutory_date": "2026-10-12",
+      "observed_date": "2026-10-12",
+      "day_of_week": "Monday",
+      "is_federal_holiday": true,
+      "notes": "Second Monday in October; some jurisdictions call this Indigenous Peoples' Day"
+    },
+    {
+      "name": "Veterans Day",
+      "statutory_date": "2026-11-11",
+      "observed_date": "2026-11-11",
+      "day_of_week": "Wednesday",
+      "is_federal_holiday": true,
+      "notes": ""
+    },
+    {
+      "name": "Thanksgiving Day",
+      "statutory_date": "2026-11-26",
+      "observed_date": "2026-11-26",
+      "day_of_week": "Thursday",
+      "is_federal_holiday": true,
+      "notes": "Fourth Thursday in November"
+    },
+    {
+      "name": "Christmas Day",
+      "statutory_date": "2026-12-25",
+      "observed_date": "2026-12-25",
+      "day_of_week": "Friday",
+      "is_federal_holiday": true,
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "jurisdiction_slug": "tennessee",
+  "jurisdiction_name": "Tennessee",
+  "data_model_version": "v0.12",
+  "last_updated": "2025-10-09",
+  "rights": [
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Response Deadline",
+      "statute_citation": "T.C.A. § 10-7-503(a)(2)(B)",
+      "description": "Must respond within 7 business days by making records available, denying request in writing, or providing estimated timeframe",
+      "conditions": "7 business day deadline for response",
+      "applies_to": "All governmental entities",
+      "implementation_notes": "Agency must take one of three actions: produce, deny, or estimate timeline",
+      "request_tips": "Track business days - agency must respond within 7 days with action or timeline"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "First Hour Free",
+      "statute_citation": "T.C.A. § 10-7-503(a)(7)",
+      "description": "May charge for labor only after first hour of work",
+      "conditions": "First hour of search/compilation is free",
+      "applies_to": "All requesters",
+      "implementation_notes": "Protects against fees for routine requests",
+      "request_tips": "First hour of agency work is free - only charged if exceeds 60 minutes"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Free Inspection",
+      "statute_citation": "T.C.A. § 10-7-503(a)(7)",
+      "description": "Inspection is free of charge - no fees for viewing records",
+      "conditions": "No inspection fees under any circumstances",
+      "applies_to": "All requesters",
+      "implementation_notes": "Only copy fees apply, not inspection",
+      "request_tips": "Request in-person inspection to avoid all fees"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Cost Estimate Required",
+      "statute_citation": "T.C.A. § 10-7-503(a)(7)",
+      "description": "Cost estimates must be provided before charging fees",
+      "conditions": "Required before any fees charged",
+      "applies_to": "All requesters",
+      "implementation_notes": "Prevents surprise bills",
+      "request_tips": "Demand cost estimate in writing before agency begins billable work"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Attorney Fees for Willful Violations",
+      "statute_citation": "T.C.A. § 10-7-505",
+      "description": "Attorney's fees may be awarded for willful violations",
+      "conditions": "Violation must be willful",
+      "applies_to": "Requesters who successfully litigate",
+      "implementation_notes": "Creates deterrent for intentional denials",
+      "request_tips": "If denial appears willful, attorney fees recoverable in litigation"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Cost Assessments",
+      "statute_citation": "T.C.A. § 10-7-505",
+      "description": "Court may assess costs against government for improper denials",
+      "conditions": "Denial must be improper",
+      "applies_to": "All requesters challenging denials",
+      "implementation_notes": "Financial penalty for wrongful denials",
+      "request_tips": "If improperly denied, court may order government to pay costs"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Burden of Proof",
+      "statute_citation": "T.C.A. § 10-7-505",
+      "description": "Government bears burden of proof for denials",
+      "conditions": "Applies in all court proceedings",
+      "applies_to": "All requesters challenging denials",
+      "implementation_notes": "Requester does not need to prove entitlement",
+      "request_tips": "Agency must prove exemption applies - you don't have to justify request"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Public Records Request Coordinator",
+      "statute_citation": "T.C.A. § 10-7-503(a)(1)",
+      "description": "Each governmental entity must designate Public Records Request Coordinator (PRRC)",
+      "conditions": "Mandatory for all entities",
+      "applies_to": "All governmental entities and requesters",
+      "implementation_notes": "Centralized contact ensures accountability",
+      "request_tips": "Direct requests to designated PRRC for faster response"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Written Policy Required",
+      "statute_citation": "T.C.A. § 10-7-503(a)(1)(A)",
+      "description": "Each entity must have written public records policy",
+      "conditions": "Mandatory for all entities",
+      "applies_to": "All governmental entities",
+      "implementation_notes": "Ensures transparency about request procedures",
+      "request_tips": "Request copy of entity's written public records policy"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Office of Open Records Counsel",
+      "statute_citation": "T.C.A. § 8-4-601 et seq.",
+      "description": "Office of Open Records Counsel provides guidance and dispute assistance",
+      "conditions": "Available to all requesters and agencies",
+      "applies_to": "All requesters and governmental entities",
+      "implementation_notes": "Resource for informal dispute resolution",
+      "request_tips": "Contact Office of Open Records Counsel (Comptroller's Office) for guidance"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Electronic Submission",
+      "statute_citation": "T.C.A. § 10-7-503",
+      "description": "May submit requests via email, online, or other electronic methods",
+      "conditions": "Various electronic formats accepted",
+      "applies_to": "All requesters",
+      "implementation_notes": "Flexible submission options",
+      "request_tips": "Submit electronically for documentation and faster delivery"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Redaction Requirement",
+      "statute_citation": "T.C.A. § 10-7-503(g)",
+      "description": "Records with confidential information must be redacted; redacted records made available for inspection",
+      "conditions": "Applies when record contains both public and confidential information",
+      "applies_to": "All governmental entities",
+      "implementation_notes": "Cannot withhold entire record if only portion is confidential",
+      "request_tips": "If denied, demand redaction of confidential portions rather than total withholding"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Liberal Construction",
+      "statute_citation": "T.C.A. § 10-7-505",
+      "description": "Courts instructed to give citizens fullest possible public access",
+      "conditions": "Applies to all judicial interpretation",
+      "applies_to": "All requests and exemptions",
+      "implementation_notes": "Creates strong presumption in favor of disclosure",
+      "request_tips": "Cite mandate for 'fullest possible public access' when challenging denials"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Business Hours Access",
+      "statute_citation": "T.C.A. § 10-7-503",
+      "description": "All records open during business hours unless otherwise provided by law",
+      "conditions": "During regular business hours",
+      "applies_to": "All requesters",
+      "implementation_notes": "Right to inspect in person",
+      "request_tips": "Request in-person inspection during business hours"
+    }
+  ],
+  "validation_metadata": {
+    "source_file": "data/states/tennessee/jurisdiction-data.json",
+    "extraction_date": "2025-10-09",
+    "verified_by": "Claude Code AI Assistant",
+    "primary_statute": "T.C.A. § 10-7-503 et seq.",
+    "confidence_level": "high",
+    "notes": "All rights extracted from verified jurisdiction-data.json file. Tennessee has strong requester protections including: 7 business day response requirement, first hour of work free, free inspection, cost estimates required, attorney fees for willful violations, burden of proof on government, PRRC required, Office of Open Records Counsel oversight, and mandate for 'fullest possible public access.' NOTE: Tennessee has residency requirement (citizens only)."
+  }
+}

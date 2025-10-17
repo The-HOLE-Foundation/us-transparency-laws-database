@@ -1,0 +1,130 @@
+{
+  "jurisdiction": "Massachusetts",
+  "transparency_law": {
+    "name": "Massachusetts Public Records Law",
+    "statute_citation": "M.G.L. c. 66, § 10",
+    "effective_date": "2017-01-01",
+    "last_amended": "2024-01-01",
+
+    "response_requirements": {
+      "initial_response_time": 10,
+      "initial_response_unit": "business_days",
+      "initial_response_description": "Records Access Officer must respond within 10 business days (excludes Saturdays, Sundays, legal holidays, or unexpected closures)",
+      "final_response_time": 15,
+      "final_response_unit": "business_days",
+      "final_response_notes": "Additional 15 business days allowed after payment for record production (total 25 business days from payment)",
+      "extension_allowed": true,
+      "extension_max_days": 15,
+      "extension_notes": "15 business days after fee payment for production; day after 5 PM considered received next day"
+    },
+
+    "fee_structure": {
+      "search_fee": "May charge for search time",
+      "search_fee_notes": "Enhanced 2017 law established limits on fees; may charge for search and redaction",
+      "search_fee_statutory_cite": "M.G.L. c. 66, § 10",
+      "copy_fee_per_page": null,
+      "copy_fee_notes": "Actual cost of copying; 2017 law limited fee amounts",
+      "copy_fee_cite": "M.G.L. c. 66, § 10",
+      "electronic_fee": "Actual cost",
+      "fee_estimate_required": "Must provide fee estimate for complex requests",
+      "fee_waiver_available": false
+    },
+
+    "exemptions": [
+      {
+        "category": "Statutory Exemptions",
+        "citation": "M.G.L. c. 4, § 7, cl. 26",
+        "description": "Records specifically exempted by statute including 26 categories in definition section",
+        "scope": "broad"
+      },
+      {
+        "category": "Personnel Files",
+        "citation": "M.G.L. c. 66, § 10",
+        "description": "Personnel and medical files or information where disclosure may constitute unwarranted invasion of privacy",
+        "scope": "moderate"
+      },
+      {
+        "category": "Law Enforcement Investigations",
+        "citation": "M.G.L. c. 66, § 10",
+        "description": "Investigatory materials compiled for law enforcement purposes",
+        "scope": "moderate"
+      },
+      {
+        "category": "Attorney-Client Privilege",
+        "citation": "M.G.L. c. 66, § 10",
+        "description": "Attorney-client privileged communications and attorney work product",
+        "scope": "narrow"
+      },
+      {
+        "category": "Trade Secrets",
+        "citation": "M.G.L. c. 66, § 10",
+        "description": "Trade secrets and confidential commercial information",
+        "scope": "narrow"
+      },
+      {
+        "category": "Deliberative Process",
+        "citation": "M.G.L. c. 66, § 10",
+        "description": "Inter-agency or intra-agency memoranda relating to policy positions being developed",
+        "scope": "moderate"
+      }
+    ],
+
+    "appeal_process": {
+      "first_level": "Supervisor of Records",
+      "first_level_deadline_days": null,
+      "first_level_notes": "Appeal to Supervisor of Records at Secretary of the Commonwealth; Supervisor has authority to order compliance",
+      "first_level_cite": "M.G.L. c. 66, § 10A",
+      "second_level": "Superior Court",
+      "second_level_deadline_days": null,
+      "second_level_cite": "M.G.L. c. 66, § 10A(c)",
+      "attorney_fees_recoverable": true,
+      "attorney_fees_cite": "M.G.L. c. 66, § 10A",
+      "attorney_fees_notes": "Potential damages and attorney fees for violations"
+    },
+
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "residency_requirement": false,
+      "request_format_notes": "No specific format required; may be oral or written (written recommended)",
+      "specific_format": "Must adequately identify desired records"
+    },
+
+    "agency_obligations": {
+      "records_officer_required": true,
+      "records_officer_notes": "Must designate Records Access Officer (RAO) to coordinate responses",
+      "records_officer_cite": "M.G.L. c. 66, § 10",
+      "business_hours_access": true,
+      "electronic_submission_accepted": true,
+      "response_format_options": "Must provide fee estimate for complex requests",
+      "denial_requirements": "Must detail specific basis for withholding and cite exemptions relied upon"
+    },
+
+    "oversight_body": {
+      "name": "Supervisor of Records - Secretary of the Commonwealth",
+      "role": "Primary appeal authority; orders compliance with public records law",
+      "contact_info": "State House, Room 337, Boston, MA 02133; Phone: (617) 727-2832; Email: pre@sec.state.ma.us",
+      "oversight_url": "https://www.sec.state.ma.us/pre/preidx.htm"
+    },
+
+    "official_resources": {
+      "primary_statute_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleX/Chapter66/Section10",
+      "agency_handbook_url": "https://www.sec.state.ma.us/pre/preidx.htm",
+      "request_portal_url": null
+    },
+
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleX/Chapter66/Section10",
+      "source_verified": true,
+      "primary_sources": [
+        "M.G.L. c. 66, § 10",
+        "M.G.L. c. 4, § 7, cl. 26",
+        "MASSACHUSETTS_transparency_law-v0.11.txt"
+      ],
+      "verification_notes": "All fields manually verified from official Massachusetts statute. Enhanced 2017 law. 10 business day response by RAO; 15 additional days after payment for production. Records Access Officer required. Supervisor of Records appeal authority with compliance orders. Superior Court judicial review. Enhanced fee limitations since 2017. Denial must detail basis and cite specific exemptions."
+    }
+  },
+  "agencies": []
+}

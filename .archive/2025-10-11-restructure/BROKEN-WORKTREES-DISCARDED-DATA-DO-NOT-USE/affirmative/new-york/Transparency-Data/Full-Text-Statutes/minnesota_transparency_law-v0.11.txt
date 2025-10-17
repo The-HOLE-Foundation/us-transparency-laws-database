@@ -1,0 +1,125 @@
+MINNESOTA GOVERNMENT DATA PRACTICES ACT
+Minnesota Statutes Chapter 13
+
+CITATION: Minnesota Statutes Chapter 13
+EFFECTIVE: Current as of 2025 (amended during 2025 Regular Session)
+OFFICIAL NAME: Minnesota Government Data Practices Act (MGDPA)
+
+KEY PROVISIONS SUMMARY:
+
+PURPOSE:
+Controls how government data are collected, created, stored, maintained, used, and released. Establishes presumption that all government data are public unless specifically classified as nonpublic.
+
+SECTION 13.03 - ACCESS TO GOVERNMENT DATA:
+
+1. PUBLIC DATA PRESUMPTION:
+   - All government data are public by default
+   - Can only be classified as nonpublic by specific federal law, state statute, or temporary classification
+
+2. RESPONSE REQUIREMENTS:
+   - General Public Records: "As soon as reasonably possible" 
+   - Data Subject Requests (personal data): 10 business days maximum
+   - Immediate compliance preferred when possible
+
+3. ACCESS PROCEDURES:
+   - Responsible authorities must establish procedures for prompt data requests
+   - Must allow public inspection of records
+   - Must provide copies upon request
+
+SECTION 13.04 - DATA SUBJECT RIGHTS:
+
+1. PERSONAL DATA ACCESS:
+   - Individual has right to data about themselves
+   - 10 business day response deadline (excluding weekends/holidays)
+   - Immediate compliance if possible
+
+2. IDENTIFICATION REQUIREMENTS:
+   - May require reasonable identification verification
+   - Cannot impose unreasonable identification burdens
+
+SECTION 13.05 - DUTIES OF RESPONSIBLE AUTHORITY:
+
+1. COMPLIANCE REQUIREMENTS:
+   - Establish written data access procedures
+   - Designate responsible individuals
+   - Train staff on data practices requirements
+
+2. DENIAL PROCEDURES:
+   - Must provide written explanation for denials
+   - Must cite specific legal basis for classification
+   - Must explain why data cannot be released
+
+FEE STRUCTURE:
+
+1. INSPECTION: Free of charge
+
+2. COPYING FEES:
+   - Actual search and retrieval costs
+   - Limited to 25 cents per page for first 100 pages
+   - Electronic copies: actual cost of providing
+   - Additional fees allowed for commercially valuable data
+
+3. PREPAYMENT:
+   - May require prepayment if costs expected to exceed $100
+
+ENFORCEMENT:
+
+1. ADMINISTRATIVE REMEDIES:
+   - Complaints to state agencies
+   - Administrative Law Judge review
+
+2. JUDICIAL REVIEW:
+   - District court jurisdiction
+   - Burden on agency to justify nonpublic classification
+   - Attorney fees available in some circumstances
+
+APPEALS PROCESS:
+
+1. ADMINISTRATIVE COMPLAINT:
+   - File with appropriate state agency
+   - 15 business days for agency response
+   - 20 business days for ALJ preliminary determination
+
+2. COURT REVIEW:
+   - District court jurisdiction
+   - De novo review of classification decisions
+   - Expedited review available
+
+DATA CLASSIFICATIONS:
+
+1. PUBLIC: Default classification, accessible to anyone
+2. NONPUBLIC: Not accessible to public but subject may have access
+3. PROTECTED NONPUBLIC: Neither public nor subject has access
+4. CONFIDENTIAL: Specifically protected by law
+
+RESPONSIBLE AUTHORITY:
+Individual designated by agency to comply with data practices requirements, establish procedures, and respond to requests.
+
+RECENT UPDATES:
+2025 Regular Session amendments affected multiple subdivisions, including changes to Section 13.03, subdivision 3.
+
+NOTABLE FEATURES:
+- Presumption of public access
+- Dual deadline system (reasonable time vs. 10 days)
+- Strong data subject rights
+- Comprehensive classification system
+- Administrative and judicial review options
+
+EXEMPTIONS:
+Various data classified as nonpublic throughout Minnesota Statutes, including:
+- Personnel data
+- Medical data
+- Law enforcement investigative data
+- Trade secret information
+- Attorney-client privileged communications
+
+REQUEST BEST PRACTICES:
+- Be specific about records sought
+- Identify yourself if requesting personal data
+- Allow reasonable time for complex requests
+- Be prepared for potential copying costs
+
+NOTE: This is a summary of key provisions. Complete statutory text available at:
+https://www.revisor.mn.gov/statutes/cite/13
+
+Last Updated: January 9, 2025

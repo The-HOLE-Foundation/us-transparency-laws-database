@@ -1,0 +1,152 @@
+{
+  "jurisdiction": "Pennsylvania",
+  "transparency_law": {
+    "name": "Right-to-Know Law",
+    "statute_citation": "65 Pa. Stat. § 67.101 et seq.",
+    "effective_date": "2009-01-01",
+    "last_amended": null,
+
+    "response_requirements": {
+      "initial_response_time": 5,
+      "initial_response_unit": "business_days",
+      "initial_response_description": "Agency must respond within 5 business days informing requester whether request is granted or denied",
+      "final_response_time": 30,
+      "final_response_unit": "calendar_days",
+      "final_response_notes": "If request granted, agency must fulfill request within 30 days from date of response unless scope requires extension",
+      "extension_allowed": true,
+      "extension_max_days": null,
+      "extension_notes": "Extension available if total scope of request prevents fulfillment within 30 days; must notify requester of extension",
+      "deemed_denial": "If agency fails to respond within 5 business days, request is deemed denied"
+    },
+
+    "fee_structure": {
+      "search_fee": "Not allowed for labor",
+      "search_fee_notes": "Agencies may not charge for staff time to search for or retrieve records",
+      "search_fee_statutory_cite": "65 Pa. Stat. § 67.1307",
+      "copy_fee_per_page": null,
+      "copy_fee_notes": "Duplication fees as established by Office of Open Records regulations; varies by format",
+      "copy_fee_cite": "65 Pa. Stat. § 67.1307",
+      "electronic_fee": "Enhanced electronic access fees for special programming or conversion",
+      "fee_waiver_available": true,
+      "fee_waiver_criteria": "If requester demonstrates inability to pay or waiver is in public interest",
+      "fee_waiver_cite": "65 Pa. Stat. § 67.1307"
+    },
+
+    "exemptions": [
+      {
+        "category": "Trade Secrets",
+        "citation": "65 Pa. Stat. § 67.708(b)(1)",
+        "description": "Records that constitute or reveal trade secrets or confidential proprietary information",
+        "scope": "narrow"
+      },
+      {
+        "category": "Personal Privacy",
+        "citation": "65 Pa. Stat. § 67.708(b)(6)",
+        "description": "Employment history, salary, disciplinary records, social security numbers, personal contact information of agency employees",
+        "scope": "moderate"
+      },
+      {
+        "category": "Law Enforcement",
+        "citation": "65 Pa. Stat. § 67.708(b)(16)",
+        "description": "Records relating to or resulting in criminal investigation, including complaints of potential criminal conduct",
+        "scope": "moderate"
+      },
+      {
+        "category": "Deliberative Process",
+        "citation": "65 Pa. Stat. § 67.708(b)(10)",
+        "description": "Predecisional deliberations including recommendations, advice, counsel, and consultative materials",
+        "scope": "moderate"
+      },
+      {
+        "category": "Attorney-Client Privilege",
+        "citation": "65 Pa. Stat. § 67.708(b)(1)",
+        "description": "Records protected by attorney-client privilege, attorney work product, or judicial privilege",
+        "scope": "narrow"
+      },
+      {
+        "category": "Medical Records",
+        "citation": "65 Pa. Stat. § 67.708(b)(5)",
+        "description": "Medical records or psychological reports of individuals",
+        "scope": "narrow"
+      },
+      {
+        "category": "Children's Information",
+        "citation": "65 Pa. Stat. § 67.708(b)(30)",
+        "description": "Records identifying name, home address, or date of birth of child 17 years or younger",
+        "scope": "narrow"
+      },
+      {
+        "category": "Financial Information",
+        "citation": "65 Pa. Stat. § 67.708(b)(2)",
+        "description": "Financial records of agency employees, appointees, officials, or consultants",
+        "scope": "moderate"
+      }
+    ],
+
+    "appeal_process": {
+      "first_level": "Office of Open Records",
+      "first_level_deadline_days": 15,
+      "first_level_deadline_unit": "business_days",
+      "first_level_notes": "Appeal must be filed within 15 business days of mailing date of denial notice or deemed denial",
+      "first_level_cite": "65 Pa. Stat. § 67.1101",
+      "second_level": "Court of Common Pleas",
+      "second_level_deadline_days": 30,
+      "second_level_deadline_unit": "calendar_days",
+      "second_level_notes": "Appeals officer issues determination within 30 days unless extension necessary; requester or agency may file petition for review with court within 30 days of final determination",
+      "second_level_cite": "65 Pa. Stat. § 67.1302",
+      "attorney_fees_recoverable": true,
+      "attorney_fees_cite": "65 Pa. Stat. § 67.1304",
+      "attorney_fees_notes": "Court may award reasonable attorney fees and costs if requester substantially prevails"
+    },
+
+    "requester_requirements": {
+      "identification_required": true,
+      "identification_notes": "Written request must include name and address of requester",
+      "purpose_statement_required": false,
+      "purpose_statement_prohibited": false,
+      "purpose_notes": "Agency may not require explanation of why records are requested",
+      "residency_requirement": false,
+      "request_format_notes": "Written request required to agency's open-records officer; must identify or describe records and specify preferred medium",
+      "specific_format": "Request must include: (a) identification/description of records, (b) preferred medium, (c) name and address of requester"
+    },
+
+    "agency_obligations": {
+      "records_officer_required": true,
+      "records_officer_notes": "Each agency must designate an open-records officer responsible for ensuring compliance",
+      "records_officer_cite": "65 Pa. Stat. § 67.502",
+      "business_hours_access": true,
+      "business_hours_cite": "65 Pa. Stat. § 67.901",
+      "electronic_submission_accepted": true,
+      "response_format_options": "Requester may specify preferred medium for access",
+      "liberal_construction": "Act must be construed to maximize access and minimize denials, with presumption that records are accessible",
+      "liberal_construction_cite": "65 Pa. Stat. § 67.102"
+    },
+
+    "oversight_body": {
+      "name": "Office of Open Records",
+      "role": "Reviews denials, issues final determinations, provides training, issues advisory opinions, and promulgates regulations",
+      "contact_info": "Office of Open Records, Commonwealth Keystone Building, 400 North Street, 4th Floor, Harrisburg, PA 17120",
+      "oversight_url": "https://www.openrecords.pa.gov"
+    },
+
+    "official_resources": {
+      "primary_statute_url": "https://www.legis.state.pa.us/WU01/LI/LI/US/HTM/2008/0/0003..HTM",
+      "agency_handbook_url": "https://www.openrecords.pa.gov",
+      "request_portal_url": null
+    },
+
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_url": "https://www.legis.state.pa.us/WU01/LI/LI/US/HTM/2008/0/0003..HTM",
+      "source_verified": true,
+      "primary_sources": [
+        "65 Pa. Stat. § 67.101 et seq.",
+        "Pennsylvania Right-to-Know Law",
+        "PENNSYLVANIA_transparency_law-v0.11.txt"
+      ],
+      "verification_notes": "All fields verified from official Pennsylvania statute. Initial response required within 5 business days (grant or deny). If request granted, must fulfill within 30 calendar days unless scope requires extension. Appeal to Office of Open Records within 15 business days of denial; appeals officer issues determination within 30 days. Further review available in Court of Common Pleas within 30 days. Deemed denial if agency fails to respond within 5 business days. Fee waivers available if inability to pay or public interest. Act construed to maximize access with presumption records are accessible."
+    }
+  },
+  "agencies": []
+}

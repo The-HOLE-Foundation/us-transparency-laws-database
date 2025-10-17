@@ -1,0 +1,136 @@
+{
+  "jurisdiction_slug": "vermont",
+  "jurisdiction_name": "Vermont",
+  "data_model_version": "v0.12",
+  "last_updated": "2025-10-09",
+  "rights": [
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "Constitutional Right of Access",
+      "statute_citation": "Vermont Constitution Chapter I, Article 6",
+      "description": "Constitutional foundation provides fundamental right of access - 'people's right to know is key to all their liberties'",
+      "conditions": "No conditions - constitutional right",
+      "applies_to": "All citizens and persons",
+      "implementation_notes": "UNIQUE: Constitutional protection at highest level of state law",
+      "request_tips": "Cite constitutional right of access when challenging denials - this is fundamental right"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Fast Response Deadline",
+      "statute_citation": "1 V.S.A. § 316(a)",
+      "description": "Record must be produced for inspection within 3 business days of receipt, or certification made that record is exempt within 3 business days",
+      "conditions": "Hard 3 business day deadline",
+      "applies_to": "All public agencies",
+      "implementation_notes": "One of the fastest response times in the nation - no extension mechanism",
+      "request_tips": "Agency must respond within 3 business days - no exceptions or extensions allowed"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Fee Limitations",
+      "statute_citation": "1 V.S.A. § 316(b)",
+      "description": "Staff time charges allowed only if request exceeds 30 minutes; charges must be reasonable and actual costs only",
+      "conditions": "30 minute threshold before search fees apply",
+      "applies_to": "All requesters",
+      "implementation_notes": "Protects against excessive search fees for routine requests",
+      "request_tips": "If charged search fees, verify request took over 30 minutes; demand documentation of time spent"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Attorney Fees and Damages",
+      "statute_citation": "1 V.S.A. § 318(b)",
+      "description": "Court costs and attorney's fees may be awarded; damages available for willful and knowing violations",
+      "conditions": "Must prevail in court action; willful violations for damages",
+      "applies_to": "Requesters who successfully litigate",
+      "implementation_notes": "Damages for willful violations create strong deterrent",
+      "request_tips": "If wrongfully denied, attorney fees and damages recoverable if violation was willful and knowing"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Criminal Penalties",
+      "statute_citation": "1 V.S.A. § 318",
+      "description": "Criminal penalties apply for willful and knowing violations",
+      "conditions": "Violation must be willful and knowing",
+      "applies_to": "Public officials who willfully violate PRA",
+      "implementation_notes": "Strongest possible penalty - creates powerful deterrent",
+      "request_tips": "If denial appears intentional and willful, criminal penalties may apply"
+    },
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "No Identification or Purpose Required",
+      "statute_citation": "1 V.S.A. § 316",
+      "description": "No identification or purpose statement required; may be oral or written (written preferred)",
+      "conditions": "Must adequately identify desired records",
+      "applies_to": "All requesters",
+      "implementation_notes": "Oral requests accepted but written preferred for documentation",
+      "request_tips": "You do not need to identify yourself or state your purpose"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Liberal Construction",
+      "statute_citation": "1 V.S.A. § 315",
+      "description": "Provisions shall be liberally construed to implement policy of access; exemptions construed narrowly",
+      "conditions": "Applies to all statutory interpretation",
+      "applies_to": "All requests and exemptions",
+      "implementation_notes": "Creates strong presumption in favor of disclosure",
+      "request_tips": "Cite liberal construction mandate when challenging restrictive interpretations"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Burden of Proof",
+      "statute_citation": "1 V.S.A. § 318",
+      "description": "Burden of proof on public agency to sustain denial",
+      "conditions": "Applies in all court proceedings",
+      "applies_to": "All requesters challenging denials",
+      "implementation_notes": "Requester does not need to prove entitlement - agency must justify denial",
+      "request_tips": "If denied, agency bears burden to prove exemption applies"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Specific Exemption Citations Required",
+      "statute_citation": "1 V.S.A. § 316",
+      "description": "Must justify denials with specific exemption citations",
+      "conditions": "Required for all denials",
+      "applies_to": "All public agencies",
+      "implementation_notes": "Prevents vague or conclusory denials",
+      "request_tips": "If denied, demand specific statutory citation for exemption claimed"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Business Hours Access",
+      "statute_citation": "1 V.S.A. § 316",
+      "description": "State agencies: 9 AM-12 PM and 1 PM-4 PM except weekends/holidays; Political subdivisions: customary business hours",
+      "conditions": "Must be during specified hours",
+      "applies_to": "All requesters",
+      "implementation_notes": "Clear hours minimize scheduling disputes",
+      "request_tips": "For state agencies, inspection guaranteed during core business hours (9-12 and 1-4)"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Format Options",
+      "statute_citation": "1 V.S.A. § 316",
+      "description": "Standard formats available: photocopies or electronic format",
+      "conditions": "Agency discretion on format availability",
+      "applies_to": "All requesters",
+      "implementation_notes": "Electronic format option reduces costs",
+      "request_tips": "Request electronic format when available to reduce copying fees"
+    },
+    {
+      "category": "Proactive Disclosure",
+      "subcategory": "Presumption of Access",
+      "statute_citation": "Vermont Constitution Chapter I, Article 6; 1 V.S.A. § 315",
+      "description": "Strong presumption of access - people's right to know is fundamental to self-governance",
+      "conditions": "Applies to all requests",
+      "applies_to": "All persons",
+      "implementation_notes": "Constitutional and statutory presumption in favor of openness",
+      "request_tips": "Cite presumption of access and constitutional foundation when challenging denials"
+    }
+  ],
+  "validation_metadata": {
+    "source_file": "data/states/vermont/jurisdiction-data.json",
+    "extraction_date": "2025-10-09",
+    "verified_by": "Claude Code AI Assistant",
+    "primary_statute": "1 V.S.A. §§ 315-320; Vermont Constitution Chapter I, Article 6",
+    "confidence_level": "high",
+    "notes": "All rights extracted from verified jurisdiction-data.json file. Vermont has exceptionally strong requester protections including: (1) constitutional right of access (unique), (2) 3 business day response deadline (very fast), (3) 30-minute threshold before search fees apply, (4) damages and criminal penalties for willful violations, (5) liberal construction mandate, and (6) burden of proof on agency."
+  }
+}

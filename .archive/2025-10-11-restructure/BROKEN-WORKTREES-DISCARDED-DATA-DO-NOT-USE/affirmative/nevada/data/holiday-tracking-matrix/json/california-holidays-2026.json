@@ -1,0 +1,99 @@
+{
+  "jurisdiction": "California",
+  "jurisdiction_code": "CA",
+  "year": 2026,
+  "source_url": "https://www.calhr.ca.gov/employees/pages/state-holidays/",
+  "source_type": "statute",
+  "verified_date": "2025-10-02",
+  "weekend_observation_rule": "if_sunday_observe_monday",
+  "holidays": [
+    {
+      "name": "New Year's Day",
+      "statutory_date": "2026-01-01",
+      "observed_date": "2026-01-01",
+      "day_of_week": "Thursday",
+      "is_state_holiday": true,
+      "notes": ""
+    },
+    {
+      "name": "Martin Luther King Jr. Day",
+      "statutory_date": "2026-01-19",
+      "observed_date": "2026-01-19",
+      "day_of_week": "Monday",
+      "is_state_holiday": true,
+      "notes": "Third Monday in January"
+    },
+    {
+      "name": "President's Day",
+      "statutory_date": "2026-02-16",
+      "observed_date": "2026-02-16",
+      "day_of_week": "Monday",
+      "is_state_holiday": true,
+      "notes": "Third Monday in February"
+    },
+    {
+      "name": "Cesar Chavez Day",
+      "statutory_date": "2026-03-31",
+      "observed_date": "2026-03-31",
+      "day_of_week": "Tuesday",
+      "is_state_holiday": true,
+      "notes": "California-specific state holiday honoring labor leader Cesar Chavez"
+    },
+    {
+      "name": "Memorial Day",
+      "statutory_date": "2026-05-25",
+      "observed_date": "2026-05-25",
+      "day_of_week": "Monday",
+      "is_state_holiday": true,
+      "notes": "Last Monday in May"
+    },
+    {
+      "name": "Independence Day",
+      "statutory_date": "2026-07-04",
+      "observed_date": "2026-07-03",
+      "day_of_week": "Friday",
+      "is_state_holiday": true,
+      "notes": "Observed Friday July 3 - actual holiday falls on Saturday"
+    },
+    {
+      "name": "Labor Day",
+      "statutory_date": "2026-09-07",
+      "observed_date": "2026-09-07",
+      "day_of_week": "Monday",
+      "is_state_holiday": true,
+      "notes": "First Monday in September"
+    },
+    {
+      "name": "Veterans Day",
+      "statutory_date": "2026-11-11",
+      "observed_date": "2026-11-11",
+      "day_of_week": "Wednesday",
+      "is_state_holiday": true,
+      "notes": ""
+    },
+    {
+      "name": "Thanksgiving Day",
+      "statutory_date": "2026-11-26",
+      "observed_date": "2026-11-26",
+      "day_of_week": "Thursday",
+      "is_state_holiday": true,
+      "notes": "Fourth Thursday in November"
+    },
+    {
+      "name": "Day after Thanksgiving",
+      "statutory_date": "2026-11-27",
+      "observed_date": "2026-11-27",
+      "day_of_week": "Friday",
+      "is_state_holiday": true,
+      "notes": ""
+    },
+    {
+      "name": "Christmas Day",
+      "statutory_date": "2026-12-25",
+      "observed_date": "2026-12-25",
+      "day_of_week": "Friday",
+      "is_state_holiday": true,
+      "notes": ""
+    }
+  ]
+}

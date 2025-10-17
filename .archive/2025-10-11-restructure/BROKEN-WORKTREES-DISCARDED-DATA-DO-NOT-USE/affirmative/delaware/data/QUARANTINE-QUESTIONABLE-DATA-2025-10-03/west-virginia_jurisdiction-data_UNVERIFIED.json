@@ -1,0 +1,129 @@
+{
+  "jurisdiction": "West Virginia",
+  "transparency_law": {
+    "name": "West Virginia Freedom of Information Act",
+    "statute_citation": "W. Va. Code § 29B-1-1 et seq.",
+    "effective_date": null,
+    "last_amended": "2024-01-01",
+
+    "response_requirements": {
+      "initial_response_time": 5,
+      "initial_response_unit": "business_days",
+      "initial_response_description": "Custodian must respond within 5 business days by furnishing copies, advising time/place for inspection, or denying in writing with specific reasons",
+      "final_response_time": null,
+      "final_response_unit": "variable",
+      "final_response_notes": "Records must be furnished promptly after response",
+      "extension_allowed": false,
+      "extension_max_days": null
+    },
+
+    "fee_structure": {
+      "search_fee": "Prohibited",
+      "search_fee_notes": "Public body may NOT charge search or retrieval fee",
+      "search_fee_statutory_cite": "W. Va. Code § 29B-1-3",
+      "copy_fee_per_page": null,
+      "copy_fee_notes": "May charge reasonable fees for reproduction not to exceed actual cost",
+      "copy_fee_cite": "W. Va. Code § 29B-1-3",
+      "electronic_fee": "Actual cost only",
+      "fee_waiver_available": false
+    },
+
+    "exemptions": [
+      {
+        "category": "Personnel Records",
+        "citation": "W. Va. Code § 29B-1-4",
+        "description": "Public employee personnel files (salary, benefits, job classification remain public)",
+        "scope": "moderate"
+      },
+      {
+        "category": "Law Enforcement",
+        "citation": "W. Va. Code § 29B-1-4",
+        "description": "Investigation records may be exempt while investigation active; final disposition records generally public",
+        "scope": "moderate"
+      },
+      {
+        "category": "Attorney-Client Privilege",
+        "citation": "W. Va. Code § 29B-1-4",
+        "description": "Communications protected by attorney-client privilege; legal advice to public bodies",
+        "scope": "narrow"
+      },
+      {
+        "category": "Trade Secrets",
+        "citation": "W. Va. Code § 29B-1-4",
+        "description": "Proprietary business information if competitive harm demonstrated",
+        "scope": "narrow"
+      },
+      {
+        "category": "Statutory Exemptions",
+        "citation": "W. Va. Code § 29B-1-4",
+        "description": "Various exemptions found throughout West Virginia Code",
+        "scope": "broad"
+      }
+    ],
+
+    "appeal_process": {
+      "first_level": "Circuit Court",
+      "first_level_deadline_days": null,
+      "first_level_notes": "Person denied access may petition circuit court for writ of mandamus; proceeding given priority on court calendar",
+      "first_level_cite": "W. Va. Code § 29B-1-5",
+      "second_level": null,
+      "second_level_deadline_days": null,
+      "attorney_fees_recoverable": true,
+      "attorney_fees_cite": "W. Va. Code § 29B-1-5",
+      "attorney_fees_notes": "Court may award reasonable attorney fees and costs to substantially prevailing petitioner",
+      "civil_penalties_available": true,
+      "civil_penalties_notes": "Willful violation may result in removal from office",
+      "criminal_penalties_available": true,
+      "criminal_penalties_notes": "Criminal penalties for willful destruction of records"
+    },
+
+    "requester_requirements": {
+      "identification_required": false,
+      "purpose_statement_required": false,
+      "residency_requirement": false,
+      "request_format_notes": "May be oral or written (written recommended); must state with reasonable specificity the information sought",
+      "specific_format": "Request directly to custodian with reasonable specificity"
+    },
+
+    "agency_obligations": {
+      "records_officer_required": true,
+      "records_officer_title": "Custodian",
+      "records_officer_notes": "Elected or appointed official charged with responsibility of keeping and maintaining public records",
+      "business_hours_access": true,
+      "business_hours_cite": "W. Va. Code § 29B-1-3",
+      "electronic_submission_accepted": true,
+      "response_format_options": "Custodian must furnish proper and reasonable opportunities for inspection",
+      "liberal_construction": "Provisions shall be liberally construed with view of carrying out public policy declaration",
+      "liberal_construction_cite": "W. Va. Code § 29B-1-1",
+      "foia_registry_required": true,
+      "foia_registry_notes": "Must report all FOIA requests to Secretary of State for public database (since 2016)"
+    },
+
+    "oversight_body": {
+      "name": "Secretary of State - FOIA Database",
+      "role": "Maintains publicly accessible database of all FOIA requests and responses",
+      "contact_info": "West Virginia Secretary of State",
+      "oversight_url": "erls.wvsos.gov/FOIA_Database/Search"
+    },
+
+    "official_resources": {
+      "primary_statute_url": "https://www.wvlegislature.gov/wvcode/ChapterEntire.cfm?chap=29b&art=1",
+      "agency_handbook_url": null,
+      "request_portal_url": null,
+      "foia_database_url": "erls.wvsos.gov/FOIA_Database/Search"
+    },
+
+    "validation_metadata": {
+      "parsed_date": "2025-10-03",
+      "confidence_level": "high",
+      "source_url": "https://www.wvlegislature.gov/wvcode/ChapterEntire.cfm?chap=29b&art=1",
+      "source_verified": true,
+      "primary_sources": [
+        "West Virginia Code Chapter 29B-1",
+        "WEST_VIRGINIA_transparency_law-v0.11.txt"
+      ],
+      "verification_notes": "All fields verified from official West Virginia statute. 5 business day response required. Search fees PROHIBITED. Only actual reproduction costs allowed. Circuit court enforcement with priority calendar placement. Attorney fees to substantially prevailing petitioner. Willful violations may result in removal from office. UNIQUE: All FOIA requests reported to Secretary of State for public database since 2016. Liberal construction required."
+    }
+  },
+  "agencies": []
+}

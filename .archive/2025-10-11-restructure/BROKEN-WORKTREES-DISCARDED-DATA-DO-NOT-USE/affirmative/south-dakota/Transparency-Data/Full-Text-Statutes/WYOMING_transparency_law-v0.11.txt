@@ -1,0 +1,214 @@
+WYOMING PUBLIC RECORDS ACT
+Wyoming Statutes Title 16, Chapter 4, Article 2, §§ 16-4-201 through 16-4-205
+
+==============================================================================
+OFFICIAL STATUTORY CITATION: W.S. § 16-4-201 et seq.
+EFFECTIVE DATE: Originally enacted, last amended 2024
+SOURCE: Wyoming Statutes
+==============================================================================
+
+WYOMING PUBLIC RECORDS ACT - COMPREHENSIVE STATUTORY PROVISIONS
+
+§ 16-4-201. DEFINITIONS; SHORT TITLE; DESIGNATION OF OMBUDSMAN
+
+SHORT TITLE:
+This act shall be known and may be cited as the "Public Records Act."
+
+DEFINITIONS:
+
+"Custodian" means the official custodian or any authorized person having personal custody and control of the public records in question.
+
+"Official custodian" means any officer or employee of a governmental entity, who is responsible for the maintenance, care and keeping of public records, regardless of whether the records are in his actual personal custody and control.
+
+"Governmental entity" means the state of Wyoming, an agency, political subdivision or state institution of Wyoming.
+
+"Public records" means the original and copies of any paper, correspondence, form, book, photograph, photostat, film, microfilm, sound recording, map drawing or other document, regardless of physical form or characteristics that have been made by the state of Wyoming and any counties, municipalities and political subdivisions thereof and by any agencies of the state, counties, municipalities and political subdivisions thereof, or received by them in connection with the transaction of public business, except those privileged or confidential by law.
+
+PUBLIC RECORDS OMBUDSMAN:
+The governor shall designate a public records ombudsman to assist the public with access to public records under this act.
+
+§ 16-4-202. RIGHT OF INSPECTION; RULES AND REGULATIONS; UNAVAILABILITY; TRAINING
+
+FUNDAMENTAL RIGHT OF INSPECTION:
+The custodian of any public records shall allow any person the right of inspection of the records.
+
+DESIGNATED PUBLIC RECORDS PERSON:
+Each governmental entity shall designate a public records person who shall be responsible for responding to requests for public records pursuant to this act.
+
+RESPONSE REQUIREMENTS:
+
+Response Timeframe: 7 business days acknowledgment, 30 calendar days production
+- Designated public records person shall notify applicant within 7 business days from date of acknowledged receipt of request
+- All public records shall be released not later than 30 calendar days from date of acknowledged receipt
+- Records readily available shall be released immediately unless release would impair or impede agency operations
+
+Response Content:
+Notification must include:
+1. Acknowledgment of receipt of request
+2. Whether fee is required and amount
+3. Date by which entity will respond in accordance with law
+
+WRITTEN REQUEST REQUIREMENT:
+Requests should be made in writing to the designated records person. Wyoming law does not require statement of purpose to request records and does not restrict use of records.
+
+TRAINING REQUIREMENTS:
+Each governmental entity shall provide training to the designated public records person and other employees who may respond to public records requests regarding requirements of this act.
+
+§ 16-4-203. FEES AND COSTS
+
+FEE STRUCTURE:
+The custodian may charge fees for providing copies of public records as follows:
+
+Copying Fees:
+- Reasonable fees for reproduction of records
+- May charge actual cost of copying, including staff time for copying
+- May charge for materials and supplies used in copying
+
+Search and Retrieval:
+- May charge reasonable fees for search and retrieval time
+- Must be based on actual costs incurred
+
+Special Format Requests:
+- May charge additional fees for records requested in special formats
+- Fees must be reasonable and based on actual costs
+
+Advance Payment:
+- May require advance payment if estimated cost exceeds reasonable amount
+- Must provide written estimate of costs
+
+§ 16-4-204. EXEMPTIONS
+
+PRIVILEGED OR CONFIDENTIAL RECORDS:
+Public records do not include those privileged or confidential by law, including but not limited to:
+
+Personal Information:
+- Personnel records containing personal information
+- Medical records and health information
+- Student educational records
+- Social security numbers and personal identifiers
+
+Law Enforcement:
+- Active criminal investigation files
+- Intelligence and investigative information
+- Records that would interfere with ongoing proceedings
+
+Government Operations:
+- Attorney-client privileged communications
+- Internal deliberative materials during decision-making process
+- Trade secrets and proprietary information
+- Security plans and procedures
+
+Other Statutory Exemptions:
+Various exemptions found throughout Wyoming statutes
+
+§ 16-4-205. ENFORCEMENT AND REMEDIES
+
+JUDICIAL ENFORCEMENT:
+Any person denied access to public records may petition district court for writ of mandamus to compel production of records.
+
+BURDEN OF PROOF:
+Governmental entity bears burden of proving record is exempt from disclosure.
+
+REMEDIES AVAILABLE:
+- Mandamus to compel production
+- Court costs and reasonable attorney fees to substantially prevailing petitioner
+- Other relief as court deems appropriate
+
+PUBLIC RECORDS OMBUDSMAN ROLE:
+- Assists public with access to public records
+- Provides guidance on request procedures
+- Helps resolve disputes between requesters and agencies
+- Does not have binding authority but serves as mediator
+
+ADMINISTRATIVE PROCEDURES:
+
+Acknowledgment Requirements:
+- Must acknowledge receipt within 7 business days
+- Must provide fee information if applicable
+- Must specify response date
+
+Production Timeline:
+- 30 calendar days maximum for production
+- Immediate release if readily available and no operational impact
+- Extensions permitted with good cause
+
+Good Cause Extensions:
+- Volume of records requires additional processing time
+- Records need review for exempt information
+- Staff limitations prevent timely response
+- Other legitimate operational constraints
+
+SPECIAL PROVISIONS:
+
+Electronic Records:
+- Electronic records have same status as physical records
+- May request records in electronic format
+- Fees may apply for electronic formatting
+
+Privacy Protections:
+- Personal information redacted unless specifically authorized
+- Medical and health records generally exempt
+- Personnel files protected except for basic employment information
+
+Commercial Information:
+- Trade secrets protected from disclosure
+- Proprietary business information may be exempt
+- Public contracts generally accessible
+
+DESIGNATED PERSONS DIRECTORY:
+Wyoming Administration and Information Department maintains directory of designated public records persons for all governmental entities.
+
+ENFORCEMENT MECHANISMS:
+
+District Court Jurisdiction:
+- Primary venue for enforcement actions
+- Writ of mandamus available to compel disclosure
+- Court may examine records in camera
+
+Attorney Fees:
+- Available to substantially prevailing petitioners
+- Must be reasonable and necessary
+- Court discretion in awarding fees
+
+Ombudsman Assistance:
+- Governor-designated public records ombudsman
+- Provides guidance and assistance
+- Helps resolve disputes without litigation
+- Available through Governor's office
+
+KEY STATUTORY AUTHORITY:
+W.S. § 16-4-202: "The custodian of any public records shall allow any person the right of inspection of the records."
+
+INTERPRETATION STANDARDS:
+- Right of inspection is fundamental
+- Exemptions must be specifically provided by law
+- Burden on governmental entity to prove exemption
+- Public access is the general rule
+
+ADMINISTRATIVE OVERSIGHT:
+
+Wyoming Administration and Information:
+- Maintains directory of designated public records persons
+- Provides central information about governmental entities
+- Coordinates training and guidance
+
+Public Records Ombudsman:
+- Governor-designated position
+- Assists public with record access
+- Mediates disputes between requesters and agencies
+- Provides guidance on procedures
+
+Training Requirements:
+- Each entity must train designated persons
+- Training on act requirements mandatory
+- Other employees handling requests must be trained
+
+==============================================================================
+COMPILATION NOTES:
+- 7 business day acknowledgment requirement
+- 30 calendar day maximum response time
+- Designated public records person required for each entity
+- Public Records Ombudsman provides assistance
+- Training requirements for personnel
+- Court enforcement through district court mandamus
+==============================================================================

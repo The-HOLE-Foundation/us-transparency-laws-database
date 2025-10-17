@@ -1,0 +1,527 @@
+{
+  "_schema_version": "v0.11",
+  "_description": "Canonical statute names for all 51 jurisdictions - authoritative reference for validation",
+  "_last_updated": "2025-10-03",
+  "_validation_purpose": "Ensures consistent and accurate statute naming across all data files",
+  "_notes": "Names must match official statutory titles exactly. Variations, abbreviations, and informal names are documented for reference but not accepted in data files.",
+  
+  "federal": {
+    "official_name": "Freedom of Information Act",
+    "accepted_variations": ["FOIA", "Federal FOIA"],
+    "rejected_variations": ["Freedom of Information Law", "Federal Freedom of Information Act"],
+    "statute_citation": "5 U.S.C. § 552",
+    "verified_source": "https://www.govinfo.gov/content/pkg/USCODE-2022-title5/pdf/USCODE-2022-title5-partI-chap5-subchapII-sec552.pdf",
+    "verification_date": "2025-10-03",
+    "notes": "Federal statute uses 'Act' not 'Law'. Do not prepend 'Federal' to the name."
+  },
+  
+  "alabama": {
+    "official_name": "Alabama Public Records Law",
+    "accepted_variations": [],
+    "rejected_variations": ["Alabama Open Records Act", "Alabama Public Records Act", "Alabama FOIA"],
+    "statute_citation": "Ala. Code § 36-12-40",
+    "verified_source": "http://alisondb.legislature.state.al.us/alison/CodeOfAlabama/1975/36-12-40.htm",
+    "verification_date": "2025-10-03",
+    "notes": "Alabama uses 'Law' not 'Act' in official title"
+  },
+  
+  "alaska": {
+    "official_name": "Alaska Public Records Act",
+    "accepted_variations": [],
+    "rejected_variations": ["Alaska Open Records Act", "Alaska Public Records Law", "Alaska FOIA"],
+    "statute_citation": "Alaska Stat. § 40.25.110",
+    "verified_source": "http://www.akleg.gov/basis/statutes.asp#40.25.110",
+    "verification_date": "2025-10-03",
+    "notes": "Alaska uses 'Act' not 'Law' in official title"
+  },
+  
+  "arizona": {
+    "official_name": "Arizona Public Records Law",
+    "accepted_variations": [],
+    "rejected_variations": ["Arizona Open Records Act", "Arizona Public Records Act", "Arizona FOIA"],
+    "statute_citation": "Ariz. Rev. Stat. § 39-121",
+    "verified_source": "https://www.azleg.gov/arsDetail/?title=39",
+    "verification_date": "2025-10-03",
+    "notes": "Arizona uses 'Law' not 'Act' in official title"
+  },
+  
+  "arkansas": {
+    "official_name": "Arkansas Freedom of Information Act",
+    "accepted_variations": ["Arkansas FOIA"],
+    "rejected_variations": ["Arkansas Public Records Act", "Arkansas Open Records Act"],
+    "statute_citation": "Ark. Code Ann. § 25-19-101",
+    "verified_source": "https://www.arkleg.state.ar.us/Bills/FTPDocument?path=%2FBills%2F2017R%2FPublic%2FHB1552.pdf",
+    "verification_date": "2025-10-03",
+    "notes": "One of few states using 'Freedom of Information Act' terminology"
+  },
+  
+  "california": {
+    "official_name": "California Public Records Act",
+    "accepted_variations": ["CPRA"],
+    "rejected_variations": ["California Public Records Law", "California Open Records Act", "California FOIA"],
+    "statute_citation": "Cal. Gov't Code § 7920.000 et seq.",
+    "verified_source": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=7920.000",
+    "verification_date": "2025-10-03",
+    "notes": "California uses 'Act' not 'Law'. Previously known as California Public Records Act (older numbering § 6250 et seq.)"
+  },
+  
+  "colorado": {
+    "official_name": "Colorado Open Records Act",
+    "accepted_variations": ["CORA"],
+    "rejected_variations": ["Colorado Public Records Act", "Colorado Public Records Law", "Colorado FOIA"],
+    "statute_citation": "Colo. Rev. Stat. § 24-72-201",
+    "verified_source": "https://leg.colorado.gov/sites/default/files/images/olls/crs2022-title-24.pdf",
+    "verification_date": "2025-10-03",
+    "notes": "Colorado uses 'Open Records Act' terminology, distinct from 'Public Records'"
+  },
+  
+  "connecticut": {
+    "official_name": "Connecticut Freedom of Information Act",
+    "accepted_variations": ["Connecticut FOIA"],
+    "rejected_variations": ["Connecticut Public Records Act", "Connecticut Open Records Act"],
+    "statute_citation": "Conn. Gen. Stat. § 1-200",
+    "verified_source": "https://www.cga.ct.gov/current/pub/chap_014.htm",
+    "verification_date": "2025-10-03",
+    "notes": "One of few states using 'Freedom of Information Act' terminology"
+  },
+  
+  "delaware": {
+    "official_name": "Delaware Freedom of Information Act",
+    "accepted_variations": ["Delaware FOIA"],
+    "rejected_variations": ["Delaware Public Records Act", "Delaware Open Records Act"],
+    "statute_citation": "29 Del. Code § 10001",
+    "verified_source": "https://delcode.delaware.gov/title29/c100/index.html",
+    "verification_date": "2025-10-03",
+    "notes": "One of few states using 'Freedom of Information Act' terminology"
+  },
+  
+  "district-of-columbia": {
+    "official_name": "District of Columbia Freedom of Information Act",
+    "accepted_variations": ["DC FOIA", "D.C. FOIA"],
+    "rejected_variations": ["District of Columbia Public Records Act", "DC Open Records Act"],
+    "statute_citation": "D.C. Code § 2-531",
+    "verified_source": "https://code.dccouncil.gov/us/dc/council/code/sections/2-531",
+    "verification_date": "2025-10-03",
+    "notes": "DC uses 'Freedom of Information Act' terminology like federal law"
+  },
+  
+  "florida": {
+    "official_name": "Florida Public Records Law",
+    "accepted_variations": ["Florida Sunshine Law", "Sunshine Law"],
+    "rejected_variations": ["Florida Public Records Act", "Florida Open Records Act", "Florida FOIA"],
+    "statute_citation": "Fla. Stat. § 119.01",
+    "verified_source": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199/0119/0119.html",
+    "verification_date": "2025-10-03",
+    "notes": "Florida uses 'Law' not 'Act'. Commonly called 'Sunshine Law' but official title is 'Public Records Law'"
+  },
+  
+  "georgia": {
+    "official_name": "Georgia Open Records Act",
+    "accepted_variations": [],
+    "rejected_variations": ["Georgia Public Records Act", "Georgia Public Records Law", "Georgia FOIA"],
+    "statute_citation": "Ga. Code Ann. § 50-18-70",
+    "verified_source": "https://law.justia.com/codes/georgia/2010/title-50/chapter-18/article-4/50-18-70/",
+    "verification_date": "2025-10-03",
+    "notes": "Georgia uses 'Open Records Act' terminology"
+  },
+  
+  "hawaii": {
+    "official_name": "Hawaii Uniform Information Practices Act",
+    "accepted_variations": ["UIPA"],
+    "rejected_variations": ["Hawaii Public Records Act", "Hawaii Open Records Act", "Hawaii FOIA"],
+    "statute_citation": "Haw. Rev. Stat. § 92F-1",
+    "verified_source": "https://www.capitol.hawaii.gov/hrscurrent/Vol02_Ch0046-0115/HRS0092F/",
+    "verification_date": "2025-10-03",
+    "notes": "Hawaii has unique 'Uniform Information Practices Act' title, distinct from other states"
+  },
+  
+  "idaho": {
+    "official_name": "Idaho Public Records Act",
+    "accepted_variations": [],
+    "rejected_variations": ["Idaho Public Records Law", "Idaho Open Records Act", "Idaho FOIA"],
+    "statute_citation": "Idaho Code § 74-101",
+    "verified_source": "https://legislature.idaho.gov/statutesrules/idstat/Title74/T74CH1/",
+    "verification_date": "2025-10-03",
+    "notes": "Idaho uses 'Act' not 'Law'"
+  },
+  
+  "illinois": {
+    "official_name": "Illinois Freedom of Information Act",
+    "accepted_variations": ["Illinois FOIA"],
+    "rejected_variations": ["Illinois Public Records Act", "Illinois Open Records Act"],
+    "statute_citation": "5 ILCS 140/1",
+    "verified_source": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=85",
+    "verification_date": "2025-10-03",
+    "notes": "One of few states using 'Freedom of Information Act' terminology"
+  },
+  
+  "indiana": {
+    "official_name": "Indiana Access to Public Records Act",
+    "accepted_variations": ["APRA"],
+    "rejected_variations": ["Indiana Public Records Act", "Indiana Open Records Act", "Indiana FOIA"],
+    "statute_citation": "Ind. Code § 5-14-3",
+    "verified_source": "http://iga.in.gov/legislative/laws/2022/ic/titles/005#5-14-3",
+    "verification_date": "2025-10-03",
+    "notes": "Indiana uses unique 'Access to Public Records Act' title"
+  },
+  
+  "iowa": {
+    "official_name": "Iowa Open Records Law",
+    "accepted_variations": [],
+    "rejected_variations": ["Iowa Public Records Act", "Iowa Open Records Act", "Iowa FOIA"],
+    "statute_citation": "Iowa Code § 22.1",
+    "verified_source": "https://www.legis.iowa.gov/docs/code/22.pdf",
+    "verification_date": "2025-10-03",
+    "notes": "Iowa uses 'Law' not 'Act'"
+  },
+  
+  "kansas": {
+    "official_name": "Kansas Open Records Act",
+    "accepted_variations": ["KORA"],
+    "rejected_variations": ["Kansas Public Records Act", "Kansas Public Records Law", "Kansas FOIA"],
+    "statute_citation": "Kan. Stat. Ann. § 45-215",
+    "verified_source": "http://www.kslegislature.org/li/b2021_22/statute/045_000_0000_chapter/045_002_0000_article/045_002_0015_section/045_002_0015_k/",
+    "verification_date": "2025-10-03",
+    "notes": "Kansas uses 'Open Records Act' terminology"
+  },
+  
+  "kentucky": {
+    "official_name": "Kentucky Open Records Act",
+    "accepted_variations": [],
+    "rejected_variations": ["Kentucky Public Records Act", "Kentucky Public Records Law", "Kentucky FOIA"],
+    "statute_citation": "KRS § 61.870",
+    "verified_source": "https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=37178",
+    "verification_date": "2025-10-03",
+    "notes": "Kentucky uses 'Open Records Act' terminology"
+  },
+  
+  "louisiana": {
+    "official_name": "Louisiana Public Records Act",
+    "accepted_variations": [],
+    "rejected_variations": ["Louisiana Public Records Law", "Louisiana Open Records Act", "Louisiana FOIA"],
+    "statute_citation": "La. Rev. Stat. § 44:1",
+    "verified_source": "https://legis.la.gov/Legis/Law.aspx?d=98643",
+    "verification_date": "2025-10-03",
+    "notes": "Louisiana uses 'Act' not 'Law'"
+  },
+  
+  "maine": {
+    "official_name": "Maine Freedom of Access Act",
+    "accepted_variations": ["FOAA"],
+    "rejected_variations": ["Maine Public Records Act", "Maine Open Records Act", "Maine FOIA"],
+    "statute_citation": "1 M.R.S. § 401",
+    "verified_source": "https://legislature.maine.gov/statutes/1/title1sec401.html",
+    "verification_date": "2025-10-03",
+    "notes": "Maine uses unique 'Freedom of Access Act' title (FOAA, not FOIA)"
+  },
+  
+  "maryland": {
+    "official_name": "Maryland Public Information Act",
+    "accepted_variations": ["Maryland PIA"],
+    "rejected_variations": ["Maryland Public Records Act", "Maryland Open Records Act", "Maryland FOIA"],
+    "statute_citation": "Md. Code Ann., Gen. Prov. § 4-101",
+    "verified_source": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=ggp&section=4-101",
+    "verification_date": "2025-10-03",
+    "notes": "Maryland uses 'Public Information Act' not 'Public Records Act'"
+  },
+  
+  "massachusetts": {
+    "official_name": "Massachusetts Public Records Law",
+    "accepted_variations": [],
+    "rejected_variations": ["Massachusetts Public Records Act", "Massachusetts Open Records Act", "Massachusetts FOIA"],
+    "statute_citation": "M.G.L. c. 66, § 10",
+    "verified_source": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleX/Chapter66/Section10",
+    "verification_date": "2025-10-03",
+    "notes": "Massachusetts uses 'Law' not 'Act'"
+  },
+  
+  "michigan": {
+    "official_name": "Michigan Freedom of Information Act",
+    "accepted_variations": ["Michigan FOIA"],
+    "rejected_variations": ["Michigan Public Records Act", "Michigan Open Records Act"],
+    "statute_citation": "MCL § 15.231",
+    "verified_source": "http://www.legislature.mi.gov/(S(hzs3qmfdgw1jldhvt5nywbzf))/mileg.aspx?page=getobject&objectname=mcl-act-442-of-1976",
+    "verification_date": "2025-10-03",
+    "notes": "One of few states using 'Freedom of Information Act' terminology"
+  },
+  
+  "minnesota": {
+    "official_name": "Minnesota Government Data Practices Act",
+    "accepted_variations": ["MGDPA"],
+    "rejected_variations": ["Minnesota Public Records Act", "Minnesota Open Records Act", "Minnesota FOIA"],
+    "statute_citation": "Minn. Stat. § 13.01",
+    "verified_source": "https://www.revisor.mn.gov/statutes/cite/13",
+    "verification_date": "2025-10-03",
+    "notes": "Minnesota uses unique 'Government Data Practices Act' title, very distinct from other states"
+  },
+  
+  "mississippi": {
+    "official_name": "Mississippi Public Records Act",
+    "accepted_variations": [],
+    "rejected_variations": ["Mississippi Public Records Law", "Mississippi Open Records Act", "Mississippi FOIA"],
+    "statute_citation": "Miss. Code Ann. § 25-61-1",
+    "verified_source": "https://law.justia.com/codes/mississippi/2013/title-25/chapter-61/",
+    "verification_date": "2025-10-03",
+    "notes": "Mississippi uses 'Act' not 'Law'"
+  },
+  
+  "missouri": {
+    "official_name": "Missouri Sunshine Law",
+    "accepted_variations": [],
+    "rejected_variations": ["Missouri Public Records Act", "Missouri Open Records Act", "Missouri FOIA"],
+    "statute_citation": "Mo. Rev. Stat. § 610.010",
+    "verified_source": "https://revisor.mo.gov/main/OneChapter.aspx?chapter=610",
+    "verification_date": "2025-10-03",
+    "notes": "Missouri uses 'Sunshine Law' as official title, distinct from other states"
+  },
+  
+  "montana": {
+    "official_name": "Montana Public Records Act",
+    "accepted_variations": [],
+    "rejected_variations": ["Montana Public Records Law", "Montana Open Records Act", "Montana FOIA"],
+    "statute_citation": "Mont. Code Ann. § 2-6-101",
+    "verified_source": "https://leg.mt.gov/bills/mca/title_0020/chapter_0060/parts_index.html",
+    "verification_date": "2025-10-03",
+    "notes": "Montana uses 'Act' not 'Law'"
+  },
+  
+  "nebraska": {
+    "official_name": "Nebraska Public Records Statutes",
+    "accepted_variations": [],
+    "rejected_variations": ["Nebraska Public Records Act", "Nebraska Open Records Act", "Nebraska FOIA"],
+    "statute_citation": "Neb. Rev. Stat. § 84-712",
+    "verified_source": "https://nebraskalegislature.gov/laws/statutes.php?statute=84-712",
+    "verification_date": "2025-10-03",
+    "notes": "Nebraska uses 'Statutes' not 'Act' or 'Law' - unique among states"
+  },
+  
+  "nevada": {
+    "official_name": "Nevada Public Records Act",
+    "accepted_variations": [],
+    "rejected_variations": ["Nevada Public Records Law", "Nevada Open Records Act", "Nevada FOIA"],
+    "statute_citation": "Nev. Rev. Stat. § 239.010",
+    "verified_source": "https://www.leg.state.nv.us/nrs/NRS-239.html",
+    "verification_date": "2025-10-03",
+    "notes": "Nevada uses 'Act' not 'Law'"
+  },
+  
+  "new-hampshire": {
+    "official_name": "New Hampshire Right-to-Know Law",
+    "accepted_variations": ["Right-to-Know Law", "NH RTK"],
+    "rejected_variations": ["New Hampshire Public Records Act", "New Hampshire Open Records Act", "New Hampshire FOIA"],
+    "statute_citation": "N.H. Rev. Stat. § 91-A:1",
+    "verified_source": "http://www.gencourt.state.nh.us/rsa/html/VI/91-A/91-A-mrg.htm",
+    "verification_date": "2025-10-03",
+    "notes": "New Hampshire uses unique 'Right-to-Know Law' terminology"
+  },
+  
+  "new-jersey": {
+    "official_name": "New Jersey Open Public Records Act",
+    "accepted_variations": ["OPRA"],
+    "rejected_variations": ["New Jersey Public Records Act", "New Jersey Open Records Act", "New Jersey FOIA"],
+    "statute_citation": "N.J.S.A. § 47:1A-1",
+    "verified_source": "https://lis.njleg.state.nj.us/nxt/gateway.dll?f=templates&fn=default.htm&vid=Publish:10.1048/Enu",
+    "verification_date": "2025-10-03",
+    "notes": "New Jersey uses 'Open Public Records Act' - includes both 'Open' and 'Public'"
+  },
+  
+  "new-mexico": {
+    "official_name": "New Mexico Inspection of Public Records Act",
+    "accepted_variations": ["IPRA"],
+    "rejected_variations": ["New Mexico Public Records Act", "New Mexico Open Records Act", "New Mexico FOIA"],
+    "statute_citation": "NMSA 1978 § 14-2-1",
+    "verified_source": "https://nmonesource.com/nmos/nmsa/en/item/4365/index.do",
+    "verification_date": "2025-10-03",
+    "notes": "New Mexico uses unique 'Inspection of Public Records Act' title"
+  },
+  
+  "new-york": {
+    "official_name": "New York Freedom of Information Law",
+    "accepted_variations": ["NY FOIL", "FOIL"],
+    "rejected_variations": ["New York Public Records Act", "New York Open Records Act", "New York FOIA"],
+    "statute_citation": "N.Y. Pub. Off. Law § 84",
+    "verified_source": "https://www.dos.ny.gov/coog/foil2.html",
+    "verification_date": "2025-10-03",
+    "notes": "New York uses 'Freedom of Information Law' (FOIL, not FOIA) - unique among states"
+  },
+  
+  "north-carolina": {
+    "official_name": "North Carolina Public Records Law",
+    "accepted_variations": [],
+    "rejected_variations": ["North Carolina Public Records Act", "North Carolina Open Records Act", "North Carolina FOIA"],
+    "statute_citation": "N.C. Gen. Stat. § 132-1",
+    "verified_source": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByChapter/Chapter_132.html",
+    "verification_date": "2025-10-03",
+    "notes": "North Carolina uses 'Law' not 'Act'"
+  },
+  
+  "north-dakota": {
+    "official_name": "North Dakota Open Records Statute",
+    "accepted_variations": [],
+    "rejected_variations": ["North Dakota Public Records Act", "North Dakota Open Records Act", "North Dakota FOIA"],
+    "statute_citation": "N.D. Cent. Code § 44-04-18",
+    "verified_source": "https://www.legis.nd.gov/cencode/t44c04.pdf",
+    "verification_date": "2025-10-03",
+    "notes": "North Dakota uses 'Statute' not 'Act' or 'Law'"
+  },
+  
+  "ohio": {
+    "official_name": "Ohio Public Records Act",
+    "accepted_variations": [],
+    "rejected_variations": ["Ohio Public Records Law", "Ohio Open Records Act", "Ohio FOIA"],
+    "statute_citation": "Ohio Rev. Code § 149.43",
+    "verified_source": "https://codes.ohio.gov/ohio-revised-code/section-149.43",
+    "verification_date": "2025-10-03",
+    "notes": "Ohio uses 'Act' not 'Law'"
+  },
+  
+  "oklahoma": {
+    "official_name": "Oklahoma Open Records Act",
+    "accepted_variations": [],
+    "rejected_variations": ["Oklahoma Public Records Act", "Oklahoma Public Records Law", "Oklahoma FOIA"],
+    "statute_citation": "51 Okla. Stat. § 24A.1",
+    "verified_source": "http://www.oklegislature.gov/osStatuesTitle.aspx",
+    "verification_date": "2025-10-03",
+    "notes": "Oklahoma uses 'Open Records Act' terminology"
+  },
+  
+  "oregon": {
+    "official_name": "Oregon Public Records Law",
+    "accepted_variations": [],
+    "rejected_variations": ["Oregon Public Records Act", "Oregon Open Records Act", "Oregon FOIA"],
+    "statute_citation": "ORS § 192.311",
+    "verified_source": "https://www.oregonlegislature.gov/bills_laws/ors/ors192.html",
+    "verification_date": "2025-10-03",
+    "notes": "Oregon uses 'Law' not 'Act'"
+  },
+  
+  "pennsylvania": {
+    "official_name": "Right-to-Know Law",
+    "accepted_variations": ["Pennsylvania Right-to-Know Law", "RTKL"],
+    "rejected_variations": ["Pennsylvania Public Records Act", "Pennsylvania Open Records Act", "Pennsylvania FOIA"],
+    "statute_citation": "65 Pa.C.S. § 67.101",
+    "verified_source": "https://www.openrecords.pa.gov/RTKL/Index.cfm",
+    "verification_date": "2025-10-03",
+    "notes": "Pennsylvania uses 'Right-to-Know Law' as official short title (does not include state name)"
+  },
+  
+  "rhode-island": {
+    "official_name": "Rhode Island Access to Public Records Act",
+    "accepted_variations": ["APRA"],
+    "rejected_variations": ["Rhode Island Public Records Act", "Rhode Island Open Records Act", "Rhode Island FOIA"],
+    "statute_citation": "R.I. Gen. Laws § 38-2-1",
+    "verified_source": "http://webserver.rilin.state.ri.us/Statutes/TITLE38/38-2/INDEX.HTM",
+    "verification_date": "2025-10-03",
+    "notes": "Rhode Island uses 'Access to Public Records Act' like Indiana"
+  },
+  
+  "south-carolina": {
+    "official_name": "South Carolina Freedom of Information Act",
+    "accepted_variations": ["SC FOIA"],
+    "rejected_variations": ["South Carolina Public Records Act", "South Carolina Open Records Act"],
+    "statute_citation": "S.C. Code Ann. § 30-4-10",
+    "verified_source": "https://www.scstatehouse.gov/code/t30c004.php",
+    "verification_date": "2025-10-03",
+    "notes": "One of few states using 'Freedom of Information Act' terminology"
+  },
+  
+  "south-dakota": {
+    "official_name": "South Dakota Sunshine Law",
+    "accepted_variations": [],
+    "rejected_variations": ["South Dakota Public Records Act", "South Dakota Open Records Act", "South Dakota FOIA"],
+    "statute_citation": "S.D. Codified Laws § 1-27-1",
+    "verified_source": "https://sdlegislature.gov/Statutes/Codified_Laws/DisplayStatute.aspx?Type=Statute&Statute=1-27",
+    "verification_date": "2025-10-03",
+    "notes": "South Dakota uses 'Sunshine Law' like Missouri and Florida"
+  },
+  
+  "tennessee": {
+    "official_name": "Tennessee Public Records Act",
+    "accepted_variations": ["TPRA"],
+    "rejected_variations": ["Tennessee Public Records Law", "Tennessee Open Records Act", "Tennessee FOIA"],
+    "statute_citation": "Tenn. Code Ann. § 10-7-503",
+    "verified_source": "https://www.comptroller.tn.gov/office-functions/open-records-counsel/open-records-faqs.html",
+    "verification_date": "2025-10-03",
+    "notes": "Tennessee uses 'Act' not 'Law'"
+  },
+  
+  "texas": {
+    "official_name": "Texas Public Information Act",
+    "accepted_variations": ["PIA"],
+    "rejected_variations": ["Texas Public Records Act", "Texas Open Records Act", "Texas FOIA"],
+    "statute_citation": "Tex. Gov't Code § 552",
+    "verified_source": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.552.htm",
+    "verification_date": "2025-10-03",
+    "notes": "Texas uses 'Public Information Act' not 'Public Records Act' - one of few 'Information' states"
+  },
+  
+  "utah": {
+    "official_name": "Utah Government Records Access and Management Act",
+    "accepted_variations": ["GRAMA"],
+    "rejected_variations": ["Utah Public Records Act", "Utah Open Records Act", "Utah FOIA"],
+    "statute_citation": "Utah Code § 63G-2-101",
+    "verified_source": "https://le.utah.gov/xcode/Title63G/Chapter2/63G-2.html",
+    "verification_date": "2025-10-03",
+    "notes": "Utah uses unique and lengthy 'Government Records Access and Management Act' (GRAMA)"
+  },
+  
+  "vermont": {
+    "official_name": "Vermont Public Records Act",
+    "accepted_variations": [],
+    "rejected_variations": ["Vermont Public Records Law", "Vermont Open Records Act", "Vermont FOIA"],
+    "statute_citation": "1 V.S.A. § 315",
+    "verified_source": "https://legislature.vermont.gov/statutes/section/01/005/00315",
+    "verification_date": "2025-10-03",
+    "notes": "Vermont uses 'Act' not 'Law'"
+  },
+  
+  "virginia": {
+    "official_name": "Virginia Freedom of Information Act",
+    "accepted_variations": ["Virginia FOIA", "VFOIA"],
+    "rejected_variations": ["Virginia Public Records Act", "Virginia Open Records Act"],
+    "statute_citation": "Va. Code Ann. § 2.2-3700",
+    "verified_source": "https://law.lis.virginia.gov/vacode/title2.2/chapter37/",
+    "verification_date": "2025-10-03",
+    "notes": "One of few states using 'Freedom of Information Act' terminology"
+  },
+  
+  "washington": {
+    "official_name": "Washington Public Records Act",
+    "accepted_variations": ["PRA"],
+    "rejected_variations": ["Washington Public Records Law", "Washington Open Records Act", "Washington FOIA"],
+    "statute_citation": "RCW § 42.56.001",
+    "verified_source": "https://app.leg.wa.gov/rcw/default.aspx?cite=42.56",
+    "verification_date": "2025-10-03",
+    "notes": "Washington uses 'Act' not 'Law'"
+  },
+  
+  "west-virginia": {
+    "official_name": "West Virginia Freedom of Information Act",
+    "accepted_variations": ["WV FOIA"],
+    "rejected_variations": ["West Virginia Public Records Act", "West Virginia Open Records Act"],
+    "statute_citation": "W. Va. Code § 29B-1-1",
+    "verified_source": "https://code.wvlegislature.gov/29B-1-1/",
+    "verification_date": "2025-10-03",
+    "notes": "One of few states using 'Freedom of Information Act' terminology"
+  },
+  
+  "wisconsin": {
+    "official_name": "Wisconsin Public Records Law",
+    "accepted_variations": [],
+    "rejected_variations": ["Wisconsin Public Records Act", "Wisconsin Open Records Act", "Wisconsin FOIA"],
+    "statute_citation": "Wis. Stat. § 19.31",
+    "verified_source": "https://docs.legis.wisconsin.gov/statutes/statutes/19/II/31",
+    "verification_date": "2025-10-03",
+    "notes": "Wisconsin uses 'Law' not 'Act'"
+  },
+  
+  "wyoming": {
+    "official_name": "Wyoming Public Records Act",
+    "accepted_variations": [],
+    "rejected_variations": ["Wyoming Public Records Law", "Wyoming Open Records Act", "Wyoming FOIA"],
+    "statute_citation": "Wyo. Stat. § 16-4-201",
+    "verified_source": "https://www.wyoleg.gov/statutes/compress/title16.pdf",
+    "verification_date": "2025-10-03",
+    "notes": "Wyoming uses 'Act' not 'Law'"
+  }
+}

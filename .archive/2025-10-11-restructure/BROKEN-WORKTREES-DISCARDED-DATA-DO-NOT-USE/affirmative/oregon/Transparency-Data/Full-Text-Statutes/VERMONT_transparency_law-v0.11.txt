@@ -1,0 +1,183 @@
+VERMONT PUBLIC RECORDS ACT
+Vermont Statutes Title 1, Chapter 5, §§ 315-320
+
+==============================================================================
+OFFICIAL STATUTORY CITATION: 1 V.S.A. §§ 315-320
+EFFECTIVE DATE: Originally enacted, last amended 2024
+SOURCE: Vermont Statutes Annotated
+==============================================================================
+
+VERMONT PUBLIC RECORDS ACT - COMPREHENSIVE STATUTORY PROVISIONS
+
+§ 315. POLICY AND PURPOSE
+
+The General Assembly hereby finds that:
+
+(a) A government is the servant of the people and not the master of them. The people, in delegating authority, do not give their public servants the right to decide what is good for the people to know and what is not good for them to know. The people's right to know is the key to all their liberties.
+
+(b) A democracy cannot function unless the people are permitted to examine the conduct of the people's business. Officers of government are trustees and servants of the people and it is in the public interest to enable any person to review and criticize their decisions even though such examination may cause inconvenience or embarrassment.
+
+(c) All records of government are presumptively public records. The exemptions to this presumption shall be construed narrowly.
+
+(d) The burden of proof shall be on the public agency to sustain its action in denying access to public records.
+
+(e) The provisions of this subchapter shall be liberally construed to implement this policy.
+
+LEGISLATIVE INTENT AND CONSTITUTIONAL BASIS:
+
+Public Policy: "To provide for free and open examination of records consistent with Chapter I, Article 6 of the Vermont Constitution."
+
+Purpose of Public Records:
+- Essential to administration of state and local government
+- Contain information allowing government programs to function  
+- Provide officials basis for making decisions
+- Ensure continuity with past operations
+- Document legal responsibilities of government
+- Help protect rights of citizens
+- Provide means for citizens to monitor government programs
+
+§ 316. INSPECTION OF PUBLIC RECORDS
+
+ACCESS REQUIREMENTS:
+
+Response Timeframe: 3 business days maximum
+- Record must be produced for inspection within 3 business days of receipt
+- Or certification must be made that record is exempt within 3 business days
+
+Access Hours:
+State Agencies: 
+- Any day except weekends and legal holidays
+- Between 9:00 AM - 12:00 PM and 1:00 PM - 4:00 PM
+
+Political Subdivisions:
+- During customary business hours
+
+INSPECTION PROCEDURES:
+
+General Access Rights:
+- Any person may inspect public records
+- Must be allowed to examine records at reasonable times
+- Agency may make reasonable rules to prevent disruption
+- Agency must protect security and prevent damage to records
+
+Format Requirements:
+- Standard formats: photocopies or electronic format
+- Agencies not required to use non-agency copying equipment
+- Public may not operate agency copying machines
+- Records generally may not be removed from premises
+
+§ 317. DEFINITIONS AND EXEMPTIONS
+
+DEFINITIONS:
+
+"Public agency" means any agency, authority, board, department, commission, committee, branch, instrumentality, or official of the state or of any political subdivision of the state.
+
+"Public record" or "public document" means any written or recorded information, regardless of physical form or characteristics, which is produced or acquired in the course of public agency business.
+
+EXEMPTIONS:
+
+Records exempt from disclosure include:
+(a) Those records designated confidential by law
+(b) Those records which may only be disclosed to specifically designated persons
+(c) Those records the disclosure of which would cause a violation of professional ethics standards
+(d) Those records the disclosure of which would cause a violation of statutory or common law privileges
+
+COSTS AND FEES:
+
+Fee Structure:
+- Agencies may charge actual copying costs
+- Agencies may charge mailing/transmission costs  
+- Staff time charges allowed if request exceeds 30 minutes
+- Charges must be reasonable and actual costs only
+
+Hazardous Waste Provision:
+- Information about hazardous waste facilities must be made available in substantially the same manner as federal disclosure laws require
+
+§ 318. ENFORCEMENT AND APPEALS
+
+JUDICIAL ENFORCEMENT:
+
+Court Proceedings:
+- Any person denied access may apply to superior court
+- Court may issue appropriate orders
+- Burden of proof on public agency to sustain denial
+- Liberal construction in favor of access
+
+Relief Available:
+- Injunctive relief to compel disclosure
+- Court costs and attorney's fees may be awarded
+- Damages for willful and knowing violations
+
+§ 319. PENALTIES
+
+Criminal Penalties:
+- Willful and knowing violation of access requirements
+- Penalties as provided by law for violation of statutory duties
+
+§ 320. SEVERABILITY
+
+If any provision of this subchapter is declared invalid, remainder shall remain in full force and effect.
+
+PROCEDURAL REQUIREMENTS:
+
+Request Format:
+- No specific format required
+- Must adequately identify desired records
+- May be oral or written (written preferred)
+
+Agency Obligations:
+- Provide reasonable facilities for examination
+- Make records available during prescribed hours
+- Respond within 3 business days
+- Justify any denials with specific exemption citations
+
+BURDEN OF PROOF:
+
+Standard: Public agency bears burden of proof to sustain denial
+Presumption: All records presumptively public
+Construction: Exemptions construed narrowly, access provisions liberally
+
+CONSTITUTIONAL FOUNDATION:
+
+Vermont Constitution Chapter I, Article 6: Provides fundamental right of access to government information
+
+Liberal Construction Mandate: "The provisions of this subchapter shall be liberally construed to implement this policy."
+
+ADMINISTRATIVE REQUIREMENTS:
+
+No Central Oversight Agency: No state-level administrative appeals process
+Direct Court Review: Denied requests go directly to superior court
+Agency Discretion: Limited by statutory presumption of openness
+
+SPECIAL PROVISIONS:
+
+Historical Records: State archives subject to same access requirements
+Electronic Records: Same treatment as physical records regardless of format
+Privacy Protections: Balanced against public access through specific exemptions
+
+ENFORCEMENT MECHANISMS:
+
+Superior Court Jurisdiction: Exclusive venue for access disputes  
+Injunctive Relief: Primary remedy for wrongful denials
+Attorney's Fees: Available to successful requesters
+Damages: Available for willful violations
+
+KEY STATUTORY LANGUAGE:
+"A government is the servant of the people and not the master of them. The people, in delegating authority, do not give their public servants the right to decide what is good for the people to know and what is not good for them to know."
+
+INTERPRETATION PRINCIPLES:
+- Records presumptively public
+- Exemptions construed narrowly  
+- Access provisions liberally construed
+- Burden on agency to justify denial
+- People's right to know is "key to all their liberties"
+
+==============================================================================
+COMPILATION NOTES:
+- Strong presumption in favor of public access
+- No administrative appeals process - direct court review
+- Three business day response requirement
+- Broad definition of public records
+- Liberal construction mandate favoring disclosure
+- Constitutional foundation in Vermont Constitution
+==============================================================================
