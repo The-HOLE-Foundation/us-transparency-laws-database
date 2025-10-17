@@ -19,11 +19,10 @@
 ## Jurisdictions A→Z
 
 ### Alabama
-- **Current Tier:** Medium Quality (12 rights)
-- **File:** `quality-tiers/medium-quality-review-needed/alabama-rights.json`
-- **Archive Match:** Identical file in archive worktree
-- **Action:** 🔍 MANUAL REVIEW NEEDED - Check against full statute
-- **Next:** Read Alabama statute, verify all 12 rights, find missing rights
+- **Status:** ✅ COMPLETE (15 rights - High Quality) - PROMOTED 2025-10-16
+- **File:** `quality-tiers/high-quality/alabama-rights.json`
+- **Action Taken:** Added 3 missing appeal/enforcement rights (judicial review, statute of limitations, fee payment requirements)
+- **Original:** 12 rights → **Final:** 15 rights
 
 ### Alaska
 - **Status:** ✅ COMPLETE (16 rights - High Quality)

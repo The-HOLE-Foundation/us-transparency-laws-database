@@ -142,6 +142,36 @@
       "applies_to": "All Arizona public bodies",
       "implementation_notes": "This mandates both creation of records and organizational systems, ensuring records exist and can be found; supports requester rights by requiring searchable organization",
       "request_tips": "If records claimed not to exist: 'A.R.S. § 39-121.01(D) requires your agency to maintain records reasonably necessary to provide knowledge of activities. Please confirm compliance with this requirement or provide your records index/organizational system.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Criminal Penalty for Non-Compliance",
+      "statute_citation": "Ariz. Rev. Stat. § 39-123(B)",
+      "description": "Custodian of public records who fails to comply with the 20-day response requirement for personnel/criminal/commercial requests is guilty of a class 2 misdemeanor, except if unusual or unforeseen circumstance prevents compliance.",
+      "conditions": "Failure to respond within 20 business days; applies to written requests for personnel matters, criminal investigative information, or commercial purposes; good-faith compliance exception for unusual circumstances",
+      "applies_to": "Public records custodians handling sensitive requests",
+      "implementation_notes": "Creates criminal liability for non-response, ensuring agencies take statutory deadlines seriously",
+      "request_tips": "After 20 days without response to personnel/criminal/commercial request: 'A.R.S. § 39-123(B) makes failure to respond a class 2 misdemeanor. Please respond immediately or I will file a complaint.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Liberal Construction Standard",
+      "statute_citation": "Ariz. Rev. Stat. § 39-122(A)",
+      "description": "The legislature finds that it is necessary to allow inspection of public records with exceptions only as expressly provided by statute or as necessarily implied by the statutory purpose. This mandates narrow interpretation of exemptions.",
+      "conditions": "Exemptions must be express or necessarily implied; cannot be broadly interpreted; doubt resolved in favor of disclosure",
+      "applies_to": "All public records disputes",
+      "implementation_notes": "Arizona's strong presumption favoring disclosure - exemptions are strictly construed, access rights are liberally construed",
+      "request_tips": "Challenge vague exemptions: 'A.R.S. § 39-122(A) allows exceptions only when expressly provided or necessarily implied. Please cite specific exemption statute, not general confidentiality claim.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Advance Payment Limited to Mailing Costs",
+      "statute_citation": "Ariz. Rev. Stat. § 39-121.01(B)",
+      "description": "The custodian may require any person requesting that copies be mailed to pay in advance for any copying and postage charges. However, advance payment can only be required for mailed copies, not in-person pickup.",
+      "conditions": "Advance payment only for mailed copies; limited to copying and postage charges; cannot require advance payment for in-person inspection or pickup",
+      "applies_to": "Requests for mailed copies",
+      "implementation_notes": "If picking up in person, agency cannot demand advance payment; this prevents agencies from using fees as barrier to access",
+      "request_tips": "If demanding advance payment: 'A.R.S. § 39-121.01(B) permits advance payment only for mailed copies. I will pick up in person, so no advance payment is required.'"
     }
   ]
 }

@@ -132,6 +132,36 @@
       "applies_to": "All public offices and officials in Alabama",
       "implementation_notes": "This provision requires government officials to maintain detailed records, establishing duty to document public business. Records created under this duty are public writings subject to inspection.",
       "request_tips": "If agency claims records don't exist: 'Ala. Code § 36-12-41 requires your office to maintain detailed records of [specific activities]. Please verify compliance with this record-keeping requirement.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Judicial Review Right",
+      "statute_citation": "Ala. Code § 36-12-40 (interpreted)",
+      "description": "If an agency denies a request, the requester may file a lawsuit in circuit court seeking a court order requiring the agency to produce the records. This provides enforcement mechanism when agencies improperly withhold records.",
+      "conditions": "Must file within 2 years of denial; file in circuit court for county where agency is located; agency delay or failure to respond may be considered a denial",
+      "applies_to": "Alabama citizens whose records requests have been denied or ignored",
+      "implementation_notes": "No administrative appeal process in Alabama - judicial review is the only enforcement mechanism. This means requesters go directly to court rather than filing internal agency appeals.",
+      "request_tips": "If denied: 'I intend to file a circuit court action if this denial is not reconsidered. Alabama law provides no administrative appeal, so judicial review is my only remedy.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Two-Year Statute of Limitations",
+      "statute_citation": "Ala. Code § 36-12-40 (interpreted)",
+      "description": "Lawsuits to compel production of public records must be filed within two years of the date when the request was denied. This establishes the window for legal enforcement.",
+      "conditions": "2-year period runs from date of denial; delay or failure to respond may trigger the limitations period",
+      "applies_to": "Alabama citizens pursuing judicial enforcement of inspection rights",
+      "implementation_notes": "Requester has up to 2 years to file lawsuit after denial. Track denial date carefully to preserve legal rights.",
+      "request_tips": "Document denial date. You have 2 years from denial to file circuit court action to compel disclosure."
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Fee Payment Before Release",
+      "statute_citation": "Ala. Code § 36-12-44(e)",
+      "description": "For standard requests, agency may require payment of reasonable fee before providing response. For time-intensive requests, agency shall require payment before response. This clarifies when advance payment can be required.",
+      "conditions": "Standard requests: fee payment optional at agency discretion; Time-intensive requests: fee payment mandatory before release; fees must be reasonable",
+      "applies_to": "All requests to Alabama executive agencies",
+      "implementation_notes": "Agencies can withhold standard request responses until fee paid (discretionary). Must withhold time-intensive responses until fee paid (mandatory). Requester should be notified of fee amount before it accrues.",
+      "request_tips": "For standard requests: 'If charging a fee under Ala. Code § 36-12-44(e), please provide itemized estimate before processing.' For time-intensive: expect fee payment requirement upfront."
     }
   ]
 }
