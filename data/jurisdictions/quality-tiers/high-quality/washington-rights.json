@@ -1,0 +1,417 @@
+{
+  "jurisdiction": {
+    "name": "Washington",
+    "slug": "washington",
+    "type": "state",
+    "transparency_law": "Washington Public Records Act (PRA)"
+  },
+  "validation_metadata": {
+    "parsed_date": "2025-10-16",
+    "source_url": "https://app.leg.wa.gov/rcw/default.aspx?cite=42.56",
+    "verified_by": "Claude Code AI Assistant - Agent 2 (Z→A)",
+    "verification_method": "Complete manual review of RCW 42.56",
+    "statutory_text_file": "statute-full-text.txt"
+  },
+  "rights_of_access": [
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Popular Sovereignty Declaration",
+      "statute_citation": "RCW 42.56.030",
+      "description": "Washington declares that the people do not yield their sovereignty to agencies that serve them, and in delegating authority, do not give public servants the right to decide what is good for the people to know. The people insist on remaining informed to maintain control over government instruments.",
+      "conditions": "No conditions - fundamental policy statement",
+      "applies_to": "All persons - sovereignty belongs to the people",
+      "implementation_notes": "This is one of the most powerful policy statements in any state FOIA law, explicitly asserting popular sovereignty over government secrecy",
+      "request_tips": "Cite: 'RCW 42.56.030 declares the people do not give public servants the right to decide what is good for us to know. We insist on remaining informed.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Liberal Construction Mandate",
+      "statute_citation": "RCW 42.56.030",
+      "description": "The Public Records Act must be liberally construed and its exemptions narrowly construed to promote public policy favoring disclosure. When statutory language is ambiguous, interpretation must favor access.",
+      "conditions": "Applies to all statutory interpretation",
+      "applies_to": "All PRA determinations",
+      "implementation_notes": "Courts must resolve doubts in favor of disclosure - exemptions receive strictest narrow construction",
+      "request_tips": "In disputes: 'RCW 42.56.030 mandates liberal construction favoring disclosure. Exemptions must be narrowly construed and cannot defeat the general policy of access.'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Right to Inspection and Copying",
+      "statute_citation": "RCW 42.56.070",
+      "description": "Each agency must make available for public inspection and copying all public records unless specifically exempted. This establishes dual rights to both inspect and copy government records.",
+      "conditions": "Subject to specific statutory exemptions only",
+      "applies_to": "All public records held by state and local agencies",
+      "implementation_notes": "Agencies must provide access to both inspection (review) and copying (duplication) - requesters can choose which they need",
+      "request_tips": "Assert: 'RCW 42.56.070 requires you to make records available for inspection and copying. Please provide access.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Designated Public Records Officer",
+      "statute_citation": "RCW 42.56.580",
+      "description": "Each agency must designate a Public Records Officer (PRO) who serves as the primary contact for records requests and is responsible for PRA compliance. All requests must be submitted to the designated PRO.",
+      "conditions": "Every agency must have designated PRO",
+      "applies_to": "All state and local agencies",
+      "implementation_notes": "The PRO is the centralized point of contact, ensuring consistent request handling and accountability",
+      "request_tips": "Direct requests to: 'Please forward to your designated Public Records Officer as required by RCW 42.56.580.' Or request: 'Who is your designated PRO?'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Mandatory PRA Training",
+      "statute_citation": "RCW 42.56.152",
+      "description": "Public Records Officers and elected officials must complete mandatory PRA training within 90 days of designation or election, with refresher training every four years. This ensures personnel understand requester rights.",
+      "conditions": "Training within 90 days; refresher every 4 years; must be consistent with AG Model Rules",
+      "applies_to": "All PROs and elected officials of governing bodies",
+      "implementation_notes": "Well-trained PROs should understand the law and process requests properly, benefiting requesters",
+      "request_tips": "If PRO seems uninformed: 'Has your PRO completed the mandatory training required by RCW 42.56.152? I request to speak with someone trained on PRA requirements.'"
+    },
+    {
+      "category": "Proactive Disclosure",
+      "subcategory": "Written PRA Policy Required",
+      "statute_citation": "RCW 42.56.070",
+      "description": "Each agency must adopt and publish written policies and procedures for public records access, including list of applicable exemptions, fee schedule, and internal review procedures for denials.",
+      "conditions": "Must be published and available to requesters",
+      "applies_to": "All agencies",
+      "implementation_notes": "Requesters can demand to see the written policy to understand the agency's process",
+      "request_tips": "Request: 'RCW 42.56.070 requires written PRA policies. Please provide your agency's published policy, exemption list, and fee schedule.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "5 Business Day Response Deadline",
+      "statute_citation": "RCW 42.56.520",
+      "description": "Agencies must respond to records requests within 5 business days. Response must either provide records, acknowledge with reasonable time estimate, or deny with legal basis.",
+      "conditions": "5 business days from receipt; substantive response required (not just acknowledgment)",
+      "applies_to": "All records requests",
+      "implementation_notes": "Washington's 5-day deadline is one of the fastest in the nation, ensuring quick initial response",
+      "request_tips": "After 5 business days: 'RCW 42.56.520 requires response within 5 business days. Today is day [X]. Please provide records, time estimate, or written denial immediately.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Reasonable Time Estimate Required",
+      "statute_citation": "RCW 42.56.520",
+      "description": "If records cannot be provided within 5 days, agency must provide a reasonable time estimate based on nature and volume of records. Generic 'we're working on it' responses are insufficient.",
+      "conditions": "Estimate must be reasonable given circumstances; must provide periodic updates if estimate changes",
+      "applies_to": "Complex or voluminous requests requiring extended processing",
+      "implementation_notes": "Agencies must give specific dates or timeframes, not vague promises. Requesters can challenge unreasonable estimates.",
+      "request_tips": "If delayed: 'RCW 42.56.520 requires reasonable time estimate. Provide specific completion date based on actual processing requirements.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Periodic Status Updates",
+      "statute_citation": "RCW 42.56.520",
+      "description": "Agencies must communicate regularly about the status of pending requests, especially when estimates change or delays occur beyond initial estimate.",
+      "conditions": "Required when processing extends beyond initial estimate",
+      "applies_to": "Long-term or complex requests",
+      "implementation_notes": "Requesters should not have to chase agencies - agencies must proactively communicate status",
+      "request_tips": "If no updates provided: 'RCW 42.56.520 requires regular communication about request status. Please provide update on current processing status.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Written Denial Requirement",
+      "statute_citation": "RCW 42.56.520",
+      "description": "Denials must be in writing and cite the specific legal basis for withholding. The denial must identify the specific exemption claimed for each withheld record or portion.",
+      "conditions": "Must be in writing; must cite specific exemption statute; must explain application to specific records",
+      "applies_to": "All denials and partial denials",
+      "implementation_notes": "Generic exemption citations are insufficient - agency must explain how exemption applies to the specific requested records",
+      "request_tips": "Demand: 'RCW 42.56.520 requires written denial citing specific legal basis. Please explain how claimed exemption applies to each withheld record.'"
+    },
+    {
+      "category": "Fee Waiver/Limits",
+      "subcategory": "Actual Cost Copying Fees Only",
+      "statute_citation": "RCW 42.56.070, .120",
+      "description": "Agencies may charge only the actual cost of copying records. Fees must be reasonable and related to actual reproduction expenses, not administrative overhead or profit.",
+      "conditions": "Fees must be actual costs; no markup or administrative overhead",
+      "applies_to": "All copying requests",
+      "implementation_notes": "Standard photocopying typically $0.15 per page in Washington. Electronic copies should be minimal or free.",
+      "request_tips": "Challenge excessive fees: 'RCW 42.56 limits fees to actual copying costs. Provide itemized breakdown showing actual reproduction expenses only.'"
+    },
+    {
+      "category": "Fee Waiver/Limits",
+      "subcategory": "No Initial Review Fee",
+      "statute_citation": "RCW 42.56.120",
+      "description": "Agencies cannot charge for the initial agency review to determine whether records are exempt. The first-pass exemption analysis is part of the agency's duty.",
+      "conditions": "Initial review is free; subsequent review for extensive redaction may be charged if substantial",
+      "applies_to": "All requests requiring exemption review",
+      "implementation_notes": "Agencies cannot charge for basic legal analysis determining if exemptions apply - only extensive redaction work may be charged",
+      "request_tips": "If review fees charged: 'RCW 42.56.120 prohibits charging for initial review to determine exemptions. This is part of your statutory duty.'"
+    },
+    {
+      "category": "Fee Waiver/Limits",
+      "subcategory": "Fee Schedule Publication Required",
+      "statute_citation": "RCW 42.56.070",
+      "description": "Agencies must establish and publish written fee schedules showing costs for copying and any allowable fees. This prevents surprise fees and allows requesters to know costs in advance.",
+      "conditions": "Fee schedule must be published and available",
+      "applies_to": "All agencies that charge fees",
+      "implementation_notes": "Requesters can demand to see fee schedule before agreeing to pay",
+      "request_tips": "Request: 'Please provide your published fee schedule required by RCW 42.56.070 before I agree to pay any fees.'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Electronic Records Equal Status",
+      "statute_citation": "RCW 42.56.010",
+      "description": "The definition of 'writing' explicitly includes electronic data, electromagnetic information, and digital formats. Electronic records have identical status to physical records under the PRA.",
+      "conditions": "No conditions - electronic records are public records",
+      "applies_to": "All electronically maintained information",
+      "implementation_notes": "Emails, databases, electronic documents, metadata, system logs - all are 'writings' subject to disclosure",
+      "request_tips": "For electronic records: 'RCW 42.56.010 defines writings to include electronic data. These electronic records must be provided with same access as paper.'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Format Requested If Readily Available",
+      "statute_citation": "RCW 42.56.070",
+      "description": "Agencies must provide records in the format requested by the requester if the records are readily available in that format. Cannot force requesters to accept different format if requested format exists.",
+      "conditions": "Format must be readily available; agency not required to convert or create new formats",
+      "applies_to": "Records maintained in requested format",
+      "implementation_notes": "If agency has data in Excel, you can request Excel. If in native database format, request that. They don't have to convert.",
+      "request_tips": "Specify: 'These records are maintained in [format]. RCW 42.56.070 requires provision in requested format if readily available. Please provide in [native format].'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Electronic Cost No More Than Physical",
+      "statute_citation": "RCW 42.56.120",
+      "description": "Agencies cannot charge more for electronic copies than they would charge for physical copies. Electronic delivery should generally be lower cost than paper.",
+      "conditions": "Electronic fees must be actual costs and cannot exceed physical copy costs",
+      "applies_to": "Electronic format requests",
+      "implementation_notes": "Email delivery of PDFs should be free or minimal cost - certainly less than printed and mailed paper copies",
+      "request_tips": "Request: 'Please provide electronically via email. RCW 42.56.120 prohibits charging more for electronic than physical copies.'"
+    },
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "No Purpose Statement Required",
+      "statute_citation": "RCW 42.56.210",
+      "description": "Agencies cannot condition disclosure on the requester stating the purpose for requesting records or how they will use them. Identity and purpose are irrelevant to access rights.",
+      "conditions": "No conditions - purpose is never required",
+      "applies_to": "All requesters",
+      "implementation_notes": "Washington explicitly protects requester privacy - you don't have to explain why you want records",
+      "request_tips": "If asked for purpose: 'RCW 42.56.210 prohibits conditioning disclosure on purpose statement. I am not required to state why I want these records.'"
+    },
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "No Identity-Based Denial",
+      "statute_citation": "RCW 42.56.070",
+      "description": "Agencies cannot withhold records based on the requester's identity. All requesters must be treated equally regardless of who they are, their status, or perceived affiliations.",
+      "conditions": "No conditions - identity-neutral access required",
+      "applies_to": "All requesters",
+      "implementation_notes": "Cannot deny because requester is critic, opponent, journalist, activist, or any other identity",
+      "request_tips": "If identity-based concerns: 'RCW 42.56.070 prohibits withholding based on requester identity. My identity is irrelevant to my access rights.'"
+    },
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "Multiple Request Methods",
+      "statute_citation": "RCW 42.56.080",
+      "description": "Requests may be made in person, by mail, or by email. No specific format is required, though agencies may recommend using agency forms or webpages for convenience.",
+      "conditions": "Request must adequately identify records sought",
+      "applies_to": "All requesters",
+      "implementation_notes": "Agencies cannot refuse email requests or require use of specific forms - any method is acceptable if records are identifiable",
+      "request_tips": "If method challenged: 'RCW 42.56.080 permits requests by mail, email, or in person. This [method] is acceptable.'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Segregable Portions Required",
+      "statute_citation": "RCW 42.56.210",
+      "description": "When records contain both exempt and non-exempt information, agencies must provide the non-exempt portions after redacting exempt material. Partial exemptions do not justify complete withholding.",
+      "conditions": "Segregation must be feasible; exempt portions redacted",
+      "applies_to": "Records with mixed exempt/non-exempt content",
+      "implementation_notes": "Agencies must perform redaction analysis and provide maximum disclosure, not take all-or-nothing approach",
+      "request_tips": "Assert: 'RCW 42.56.210 requires disclosure of segregable non-exempt portions. Partial exemptions do not justify withholding entire documents.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Narrow Exemption Application",
+      "statute_citation": "RCW 42.56.030",
+      "description": "Exemptions must be narrowly applied and cannot be used to create blanket withholding. Even with 500+ exemptions in Washington law, each must be specifically applied to particular records.",
+      "conditions": "Agency must identify specific exemption and explain specific application",
+      "applies_to": "All exemption claims",
+      "implementation_notes": "Generic citation to broad exemption categories is insufficient - must explain how exemption applies to specific records withheld",
+      "request_tips": "Challenge broad claims: 'RCW 42.56.030 requires narrow application of exemptions. Explain specifically how this exemption applies to each withheld document.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Superior Court Enforcement",
+      "statute_citation": "RCW 42.56.550",
+      "description": "Any person may petition superior court for injunctive or declaratory relief to compel disclosure. Courts have exclusive jurisdiction over PRA enforcement.",
+      "conditions": "Must first request records from agency",
+      "applies_to": "Any person denied access or receiving inadequate response",
+      "implementation_notes": "Washington provides direct court access without requiring administrative appeals - faster path to judicial resolution",
+      "request_tips": "If denied: 'RCW 42.56.550 authorizes superior court petition for injunctive relief. I will file if access is not provided.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "In Camera Review",
+      "statute_citation": "RCW 42.56.550",
+      "description": "Courts may examine records in camera (privately) to determine whether exemptions apply. This allows independent judicial verification of agency exemption claims without public disclosure.",
+      "conditions": "Available in PRA enforcement proceedings",
+      "applies_to": "Disputed records in litigation",
+      "implementation_notes": "Judges can independently review records to verify exemption claims, preventing agencies from withholding based solely on their assertions",
+      "request_tips": "In litigation: 'Request in camera examination under RCW 42.56.550 to independently verify exemption claims.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Attorney Fee Recovery",
+      "statute_citation": "RCW 42.56.550",
+      "description": "Plaintiffs who substantially prevail in PRA enforcement actions may recover reasonable attorney fees and costs. This makes litigation financially feasible for wronged requesters.",
+      "conditions": "Must substantially prevail; fees must be reasonable and necessary",
+      "applies_to": "Successful PRA litigants",
+      "implementation_notes": "Attorney fee recovery is available to substantially prevailing requesters, incentivizing agencies to comply rather than defend improper denials",
+      "request_tips": "When considering litigation: 'RCW 42.56.550 provides attorney fee recovery if I substantially prevail. Improper denial will result in you paying my legal costs.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Daily Penalties",
+      "statute_citation": "RCW 42.56.565",
+      "description": "Courts may impose daily penalties of $5-$100 per day for each record wrongfully withheld, paid to the person seeking disclosure. Penalties calculate from date of violation and continue until compliance.",
+      "conditions": "Record must be wrongfully withheld; penalty amount at court discretion ($5-$100/day); may be reduced for good faith",
+      "applies_to": "Successful litigants where records were wrongfully withheld",
+      "implementation_notes": "Daily penalties create strong incentive for compliance - a 30-day wrongful denial could result in $3,000 penalty to requester",
+      "request_tips": "Warn: 'RCW 42.56.565 authorizes daily penalties up to $100/day for wrongful withholding. Each day of improper denial increases potential liability.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Burden of Proof on Agency",
+      "statute_citation": "RCW 42.56.550",
+      "description": "The agency bears the burden of proving that records are exempt from disclosure. Requesters do not have to prove entitlement - agencies must justify denials with specific evidence.",
+      "conditions": "Applies in all enforcement proceedings",
+      "applies_to": "All denied requests subject to litigation",
+      "implementation_notes": "This shifts litigation burden to agency - they must prove exemptions apply with evidence, not just assert them",
+      "request_tips": "In disputes: 'Under RCW 42.56.550, you bear burden of proving exemption. Provide specific evidence, not assertions, that exemption applies.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Attorney General Model Rules",
+      "statute_citation": "RCW 42.56.550",
+      "description": "The Attorney General maintains Model Rules (WAC 44-14) providing detailed practical guidance on PRA compliance. These rules inform training and provide persuasive authority on proper procedures.",
+      "conditions": "Model Rules are advisory, not binding, but inform required training",
+      "applies_to": "All agencies and PROs",
+      "implementation_notes": "Model Rules provide detailed guidance agencies should follow - requesters can cite Model Rules as best practices",
+      "request_tips": "Reference guidance: 'The AG Model Rules at WAC 44-14 recommend [cite specific guidance]. Please follow these best practices.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Internal Review Procedure Required",
+      "statute_citation": "RCW 42.56.070",
+      "description": "Agencies must establish internal review procedures for denials, allowing requesters to challenge denials within the agency before resorting to litigation.",
+      "conditions": "Must be included in published PRA policy",
+      "applies_to": "All agencies",
+      "implementation_notes": "Internal review provides opportunity to resolve disputes without court involvement",
+      "request_tips": "If denied: 'Your PRA policy required by RCW 42.56.070 must include internal review procedure. I request administrative review of this denial.'"
+    },
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "Request Clarification Opportunity",
+      "statute_citation": "RCW 42.56.520",
+      "description": "If a request is unclear or overly broad, agencies must contact the requester to seek clarification rather than simply denying. Requesters have the right to clarify and narrow requests.",
+      "conditions": "Agency must attempt clarification before denial for vagueness",
+      "applies_to": "Requests that may lack specificity",
+      "implementation_notes": "Agencies cannot deny as 'too broad' without first attempting to work with requester to clarify scope",
+      "request_tips": "If denied as vague: 'RCW 42.56.520 requires you to seek clarification before denying. Contact me to discuss clarification rather than denying outright.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Exemptions Must Be Specific",
+      "statute_citation": "RCW 42.56.070",
+      "description": "Records are public unless they fall within specific statutory exemptions. General claims of sensitivity or confidentiality without specific exemption authority are insufficient to withhold.",
+      "conditions": "Agency must cite specific RCW section creating exemption",
+      "applies_to": "All denials",
+      "implementation_notes": "With 500+ exemptions in Washington law, agencies must identify the exact applicable exemption by statute number",
+      "request_tips": "Demand specificity: 'RCW 42.56.070 requires specific statutory exemption. Please cite the exact RCW section authorizing withholding, not general claims of sensitivity.'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Metadata Considerations",
+      "statute_citation": "RCW 42.56.010, .070",
+      "description": "Electronic records include associated metadata. Agencies must consider metadata implications when producing electronic records, as metadata is part of the record.",
+      "conditions": "Metadata must be part of electronic record production",
+      "applies_to": "Electronic records with metadata",
+      "implementation_notes": "Metadata includes creation dates, author, edit history, etc. - valuable context for electronic records",
+      "request_tips": "For electronic records: 'Please preserve and include all associated metadata. RCW 42.56.010 includes metadata as part of electronic writings.'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Business Hours Access Facilities",
+      "statute_citation": "RCW 42.56.070",
+      "description": "Agencies must provide facilities for copying records during normal business hours. Cannot restrict access to limited appointment times or create unreasonable barriers.",
+      "conditions": "Must be during agency business hours; reasonable scheduling permitted",
+      "applies_to": "All in-person inspection and copying requests",
+      "implementation_notes": "Agencies must make records reasonably accessible, not impose inconvenient or restrictive access conditions",
+      "request_tips": "Request: 'RCW 42.56.070 requires facilities for copying during business hours. Please accommodate reasonable access times.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Records Index Maintenance",
+      "statute_citation": "RCW 42.56.070",
+      "description": "Agencies must maintain records indexes if feasible to help requesters identify and locate relevant records. This aids in formulating specific requests.",
+      "conditions": "Required if feasible; nature of index varies by agency",
+      "applies_to": "All agencies where indexing is feasible",
+      "implementation_notes": "Indexes help requesters make targeted requests by revealing what records exist and how they're organized",
+      "request_tips": "Ask: 'Do you maintain a records index as contemplated by RCW 42.56.070? An index would help me formulate more specific requests.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Request Tracking and Logging",
+      "statute_citation": "RCW 42.56.070",
+      "description": "Agencies must track and log all records requests, maintaining records of requests received, responses provided, and fees charged. This creates accountability.",
+      "conditions": "Required for all agencies",
+      "applies_to": "All records requests",
+      "implementation_notes": "Request logs are themselves public records - requesters can request logs to see how similar requests were handled",
+      "request_tips": "Request: 'Please provide your PRA request log showing how similar requests were handled and what fees were charged.'"
+    },
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "No Residency Requirement",
+      "statute_citation": "RCW 42.56.030, .070",
+      "description": "Washington grants access to 'any person' and 'all persons' without residency, citizenship, or any other qualification. Out-of-state residents, foreign nationals, and anyone may request records.",
+      "conditions": "No conditions on residency or citizenship",
+      "applies_to": "All persons regardless of connection to Washington",
+      "implementation_notes": "Washington uses universal language establishing access as a human right, not limited to residents",
+      "request_tips": "If residency questioned: 'RCW 42.56 grants access to any person without residency requirement.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "No Blanket Exemptions",
+      "statute_citation": "RCW 42.56.210",
+      "description": "Agencies cannot create blanket exemptions for entire categories of records. Each exemption must be applied to specific records based on their specific content.",
+      "conditions": "Exemptions must be record-specific, not categorical",
+      "applies_to": "All exemption claims",
+      "implementation_notes": "Cannot claim 'all emails are exempt' or 'all personnel files are exempt' - must review each record individually",
+      "request_tips": "Challenge blanket denials: 'RCW 42.56.210 prohibits blanket exemptions. Each record must be individually reviewed and specific exemptions applied.'"
+    },
+    {
+      "category": "Fee Waiver/Limits",
+      "subcategory": "Advance Payment for Large Requests",
+      "statute_citation": "RCW 42.56.120",
+      "description": "For large requests, agencies may require advance payment, but only after providing detailed cost estimate and allowing requester opportunity to modify request to reduce costs.",
+      "conditions": "Must provide itemized estimate; must allow request modification; prepayment only for substantial costs",
+      "applies_to": "Large or expensive requests",
+      "implementation_notes": "This prevents surprise bills while protecting agencies from non-payment - requesters can adjust scope if costs too high",
+      "request_tips": "If advance payment required: 'Provide itemized estimate per RCW 42.56.120. I may modify request to reduce costs before agreeing to prepayment.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Good Faith Reduction of Penalties",
+      "statute_citation": "RCW 42.56.565",
+      "description": "While daily penalties are available, courts may reduce penalties if agency acted in good faith attempting to comply. This encourages good faith efforts even if agency makes mistakes.",
+      "conditions": "Penalty reduction at court discretion based on agency good faith efforts",
+      "applies_to": "PRA litigation with penalty awards",
+      "implementation_notes": "Agencies that make genuine efforts to comply may receive reduced penalties even if they initially erred",
+      "request_tips": "For agencies trying to comply: 'While penalties may apply, RCW 42.56.565 allows reduction for good faith efforts. Demonstrate good faith by providing access now.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Attorney General Review for State Agencies",
+      "statute_citation": "RCW 42.56.570",
+      "description": "State agencies (but not local) may request Attorney General review of whether records are exempt before denying. AG provides written opinion on exemption claims.",
+      "conditions": "Available only to state agencies; AG reviews as promptly as possible; opinions are persuasive but not binding",
+      "applies_to": "State agency denial decisions",
+      "implementation_notes": "AG review can resolve close exemption questions and provide authoritative guidance, potentially avoiding litigation",
+      "request_tips": "For state agencies: 'If unsure about exemption application, RCW 42.56.570 allows AG review. Please request AG opinion rather than denying without certainty.'"
+    },
+    {
+      "category": "Proactive Disclosure",
+      "subcategory": "Agency Statistics Reporting",
+      "statute_citation": "RCW 42.56.070",
+      "description": "Some agencies must report statistics on records requests received, response times, and cost recovery. This data may be publicly available and helps requesters understand agency practices.",
+      "conditions": "Required for specified agencies",
+      "applies_to": "Agencies with reporting requirements",
+      "implementation_notes": "Request statistics can show how agency handles similar requests and typical fees charged",
+      "request_tips": "Ask: 'Do you maintain request statistics? This would help me understand typical processing times and fees for similar requests.'"
+    }
+  ]
+}

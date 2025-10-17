@@ -1,0 +1,188 @@
+{
+  "jurisdiction": {
+    "name": "Louisiana",
+    "slug": "louisiana",
+    "type": "state",
+    "transparency_law": "Louisiana Public Records Act"
+  },
+  "validation_metadata": {
+    "parsed_date": "2025-10-16",
+    "source_url": "https://legis.la.gov/Legis/Laws_Toc.aspx?folder=67&level=Parent",
+    "verified_by": "Claude Code AI Assistant - Manual Extraction",
+    "verification_method": "Complete manual review of La. R.S. 44:1 et seq.",
+    "statutory_text_file": "statute-full-text.txt"
+  },
+  "rights_of_access": [
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Constitutional Right to Examine",
+      "statute_citation": "La. Const. Art. XII, § 3",
+      "description": "No person shall be denied the right to examine public documents except in cases established by law. This constitutional provision provides foundational protection beyond statutory rights.",
+      "conditions": "Exceptions must be established by law; constitutional protection means exemptions must have clear legal basis",
+      "applies_to": "All persons seeking Louisiana public records",
+      "implementation_notes": "Constitutional foundation elevates public access to fundamental right; provides additional basis for challenging denials beyond statutory law",
+      "request_tips": "Assert constitutional right: 'Louisiana Constitution Article XII, Section 3 guarantees my right to examine public documents. This denial must be based on specific law, not agency discretion.'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Statutory Presumption of Openness",
+      "statute_citation": "La. R.S. 44:1",
+      "description": "Public records are presumed open unless specifically exempted by law. The Act must be construed liberally, and any doubt must be resolved in favor of the right of access.",
+      "conditions": "Presumption applies unless specific exemption cited; doubt resolved toward access",
+      "applies_to": "All Louisiana public records",
+      "implementation_notes": "Strong presumption backed by both constitutional and statutory mandates; courts strictly construe exemptions",
+      "request_tips": "Cite presumption: 'La. R.S. 44:1 presumes public records are open and requires liberal construction favoring access. Please provide [records] pursuant to this statutory presumption.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Liberal Construction Mandate",
+      "statute_citation": "La. R.S. 44:1",
+      "description": "The Public Records Act must be construed liberally in favor of access. Any doubt must be resolved toward disclosure, not withholding.",
+      "conditions": "Applies to all interpretations of the Act; mandatory liberal construction; ambiguity favors requester",
+      "applies_to": "All Louisiana Public Records Act disputes",
+      "implementation_notes": "Courts required to interpret broadly in favor of access; agencies cannot use narrow readings to restrict access",
+      "request_tips": "Challenge narrow interpretation: 'La. R.S. 44:1 mandates liberal construction favoring access. Your restrictive interpretation contradicts statutory directive.'"
+    },
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "Any Person of Majority Age",
+      "statute_citation": "La. R.S. 44:1",
+      "description": "Since 1978 amendments, any person of the age of majority may examine public records. Expanded from previous restriction to only electors and taxpayers.",
+      "conditions": "Must be age of majority (18+); no residency requirement except for Governor's Office; no taxpayer or voter requirement",
+      "applies_to": "All adults regardless of residency (with Governor's Office exception)",
+      "implementation_notes": "Broad access - non-residents, non-voters, non-taxpayers all have rights; age is only general restriction",
+      "request_tips": "Assert standing: 'As a person of majority age, La. R.S. 44:1 grants me the right to examine public records. No voter registration or residency is required [except Governor's Office].'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "5-Business-Day Response Deadline",
+      "statute_citation": "La. R.S. 44:32",
+      "description": "Public agencies must respond to public records requests within 5 business days. Response required whether processing is ongoing or complete.",
+      "conditions": "5 business days from receipt; response mandatory even if records not yet ready; excludes weekends and holidays",
+      "applies_to": "All Louisiana public records requests",
+      "implementation_notes": "Quick response requirement; failure triggers penalty provisions; response can state records being processed but must respond within 5 days",
+      "request_tips": "Track deadline: 'La. R.S. 44:32 requires your response within 5 business days. Please confirm receipt date and response deadline.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Immediate Legal Action After 5 Days",
+      "statute_citation": "La. R.S. 44:35",
+      "description": "Legal action to compel disclosure may be initiated within 5 days of submitting request. No waiting period beyond initial 5-day response deadline.",
+      "conditions": "Can file court action after 5 business days; no requirement to wait longer; no administrative exhaustion required",
+      "applies_to": "All requesters whose requests not fulfilled within 5 days",
+      "implementation_notes": "Fastest court access among states - no administrative appeals or prolonged waiting; can sue on day 6",
+      "request_tips": "After 5 days: 'La. R.S. 44:35 authorizes legal action within 5 days of request. If you do not respond by [date], I may immediately file court proceedings.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "No Administrative Appeal Required",
+      "statute_citation": "La. R.S. 44:35",
+      "description": "Louisiana has no administrative appeal process. Requesters may proceed directly to court for injunction or writ of mandamus without exhausting administrative remedies.",
+      "conditions": "Direct court access; no AG review or ombudsman process; can file immediately after denial",
+      "applies_to": "All denied requests",
+      "implementation_notes": "Unusual among states - no bureaucratic appeals process; straight to judicial enforcement; faster resolution",
+      "request_tips": "Note enforcement: 'Louisiana has no administrative appeal. Under La. R.S. 44:35, I may file directly in court for injunction or mandamus if this denial continues.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "$100-Per-Day Penalty for Arbitrary Refusal",
+      "statute_citation": "La. R.S. 44:35(A)",
+      "description": "Custodians who arbitrarily refuse to respond to requests are subject to $100 per day civil penalty. Penalty runs from end of 5-day response period, excluding weekends and legal holidays.",
+      "conditions": "Refusal must be arbitrary; penalty is per day; excludes weekends/holidays; attaches to custodian role not individual personally",
+      "applies_to": "Custodians who fail to respond or arbitrarily deny",
+      "implementation_notes": "Daily penalties accumulate quickly - $100/day for 20 business days = $2,000; strong compliance incentive",
+      "request_tips": "Reference penalty: 'La. R.S. 44:35(A) imposes $100 daily penalty for arbitrary refusal starting after the 5-day deadline. Please respond to avoid penalty accrual.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Attorney Fees for Prevailing Plaintiffs",
+      "statute_citation": "La. R.S. 44:35",
+      "description": "Prevailing plaintiffs are awarded reasonable attorney fees and costs when successfully compelling disclosure. Partial prevails may receive proportionate fees at court discretion.",
+      "conditions": "Must prevail in compelling disclosure; fees must be reasonable; court may award partial fees for partial success",
+      "applies_to": "Successful enforcement actions",
+      "implementation_notes": "Fee-shifting makes enforcement financially viable; agencies risk paying legal costs if improperly denying; partial success still rewards",
+      "request_tips": "Reference fee-shifting: 'La. R.S. 44:35 provides for attorney fees to prevailing plaintiffs. Please comply voluntarily to avoid liability for my legal expenses.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Preferential Court Treatment",
+      "statute_citation": "La. R.S. 44:35",
+      "description": "Public records cases are heard by preference and in summary manner. Appellate courts place these cases on preferential docket. Expedited judicial handling.",
+      "conditions": "Applies to all public records enforcement actions; trial and appellate levels both expedited",
+      "applies_to": "All Louisiana public records litigation",
+      "implementation_notes": "Cases prioritized over regular docket; faster resolution than typical civil cases; courts recognize public interest in prompt access",
+      "request_tips": "Note expedited process: 'La. R.S. 44:35 requires preferential treatment for public records cases. Court proceedings will be expedited if this matter is litigated.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Custodian Contact Information Required",
+      "statute_citation": "La. R.S. 44:32",
+      "description": "Agencies must make custodian contact information readily available to the public. Ensures requesters know where to direct requests.",
+      "conditions": "Contact information must be readily available; agencies must designate custodian",
+      "applies_to": "All Louisiana public agencies",
+      "implementation_notes": "Prevents runaround - requesters can identify proper custodian; agencies must publicize contact info",
+      "request_tips": "Request custodian info: 'La. R.S. 44:32 requires readily available custodian contact information. Please provide the designated records custodian's name and contact details.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Strict Construction of Exemptions",
+      "statute_citation": "La. R.S. 44:1",
+      "description": "Courts have consistently held that exemptions must be strictly construed. Agencies cannot broadly interpret exemptions to withhold more than statute explicitly permits.",
+      "conditions": "Applies to all exemption claims; strict construction mandatory; cannot expand exemptions beyond statutory text",
+      "applies_to": "All disputes over exemptions",
+      "implementation_notes": "Judicial precedent reinforces legislative mandate; exemptions are narrow exception to constitutional and statutory openness",
+      "request_tips": "Challenge broad exemptions: 'Louisiana courts require strict construction of exemptions per La. R.S. 44:1. Your broad interpretation exceeds statutory authority.'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Electronic Data Processing Records",
+      "statute_citation": "La. R.S. 44:1",
+      "description": "Public records explicitly include information contained in electronic data processing equipment. Electronic records have same status as paper records regardless of form or characteristics.",
+      "conditions": "Format-neutral; includes databases, electronic files, data processing systems; regardless of physical characteristics",
+      "applies_to": "All electronically stored government information",
+      "implementation_notes": "Broad electronic records definition; agencies cannot deny access based on electronic format; databases and systems covered",
+      "request_tips": "For electronic records: 'La. R.S. 44:1 defines public records to include information in electronic data processing equipment. Please provide access to [database/electronic files].'"
+    },
+    {
+      "category": "Proactive Disclosure",
+      "subcategory": "Initial Officer Reports Public",
+      "statute_citation": "La. R.S. 44:3",
+      "description": "Initial reports of officers investigating criminal matters are public records. While follow-up investigative reports may be exempt during pending litigation, initial incident reports must be disclosed.",
+      "conditions": "Applies to law enforcement initial incident reports; follow-up investigations may be exempt until adjudication; booking records also public",
+      "applies_to": "Law enforcement initial incident documentation",
+      "implementation_notes": "Distinguishes initial reports (public) from ongoing investigative files (may be exempt); supports transparency in police activity",
+      "request_tips": "Request police records: 'La. R.S. 44:3 makes initial officer reports public. I request the initial incident report for [case/incident], which is distinct from ongoing investigative files.'"
+    },
+    {
+      "category": "Proactive Disclosure",
+      "subcategory": "Booking Records Public",
+      "statute_citation": "La. Code Crim. Proc. Art. 228 (referenced in 44:3)",
+      "description": "Booking records, records of summons/citation issuance, and records of bill of information filing are public records under Louisiana law.",
+      "conditions": "Applies to law enforcement booking and citation records; public regardless of pending litigation status",
+      "applies_to": "Criminal justice booking and citation records",
+      "implementation_notes": "Ensures transparency in arrests and citations; accessible even during pending cases",
+      "request_tips": "Request booking records: 'Booking records are public under Code of Criminal Procedure Article 228 as incorporated in La. R.S. 44:3. Please provide booking records for [individual/date].'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Injunction and Mandamus Remedies",
+      "statute_citation": "La. R.S. 44:35",
+      "description": "Courts may issue injunctions or writs of mandamus to compel disclosure. Both equitable and legal remedies available to enforce public access rights.",
+      "conditions": "Available upon showing of improper denial; court may order immediate compliance; both injunctive and mandamus relief authorized",
+      "applies_to": "All enforcement actions for denied requests",
+      "implementation_notes": "Multiple remedy types ensure effective enforcement; courts have full authority to compel disclosure",
+      "request_tips": "Request relief: 'I will seek injunctive relief and/or writ of mandamus under La. R.S. 44:35 to compel disclosure if this denial is not reconsidered.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Personal Liability Protection for Employees",
+      "statute_citation": "La. R.S. 44:35",
+      "description": "Individual employees are not personally liable for penalties. Liability attaches to the custodian role, not the individual personally, protecting employees while maintaining accountability.",
+      "conditions": "Penalties attach to office of custodian not individual; protects employees from personal financial liability",
+      "applies_to": "Public employees serving as records custodians",
+      "implementation_notes": "Balances accountability with fairness; custodians can fulfill duties without personal financial risk; penalties paid by agency",
+      "request_tips": "Note to custodian: 'La. R.S. 44:35 protections mean penalties attach to your office, not you personally. You can comply without personal financial risk.'"
+    }
+  ]
+}
+

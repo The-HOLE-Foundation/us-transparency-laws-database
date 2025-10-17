@@ -1,0 +1,200 @@
+{
+  "jurisdiction": {
+    "name": "Indiana",
+    "slug": "indiana",
+    "type": "state",
+    "transparency_law": "Indiana Access to Public Records Act (APRA)"
+  },
+  "validation_metadata": {
+    "parsed_date": "2025-10-16",
+    "source_url": "https://iga.in.gov/legislative/laws/2024/ic/titles/005/",
+    "verified_by": "Claude Code AI Assistant - Manual Extraction",
+    "verification_method": "Complete manual review of IC 5-14-3-1 et seq.",
+    "statutory_text_file": "statute-full-text.txt"
+  },
+  "rights_of_access": [
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Right to Full and Complete Information",
+      "statute_citation": "IC 5-14-3-1",
+      "description": "All persons are entitled to full and complete information regarding the affairs of government and the official acts of those who represent them as public officials and employees. Government is the servant of the people and not their master.",
+      "conditions": "Fundamental right; applies to all government records unless specifically exempted",
+      "applies_to": "All persons - no residency requirement",
+      "implementation_notes": "Strong legislative declaration establishing transparency as core government obligation; guides interpretation of entire APRA",
+      "request_tips": "Assert fundamental right: 'Under IC 5-14-3-1, I am entitled to full and complete information about government affairs. Please provide access to [records].'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Presumption of Openness",
+      "statute_citation": "IC 5-14-3-2",
+      "description": "All records in the custody or possession of a public agency are presumed to be open to public inspection and copying unless exempted by statute.",
+      "conditions": "Presumption applies unless specific statutory exemption cited; burden on agency to justify withholding",
+      "applies_to": "All public records in Indiana",
+      "implementation_notes": "Openness is default; exemptions must be specifically authorized by statute and proven by agency",
+      "request_tips": "Cite presumption: 'IC 5-14-3-2 presumes all public records are open. Please provide access unless you can cite specific statutory exemption.'"
+    },
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "Oral or Written Requests Permitted",
+      "statute_citation": "IC 5-14-3-3",
+      "description": "Public records requests can be made either orally or in writing. No specific form required. This is unique among states - most require written requests.",
+      "conditions": "Request must reasonably describe records sought; either oral or written acceptable",
+      "applies_to": "All Indiana public records requests",
+      "implementation_notes": "Oral requests make access easier for simple matters; written requests create documentation trail; requester chooses method",
+      "request_tips": "For simple requests: 'IC 5-14-3-3 permits oral requests. I am making this request orally for [specific records].' For complex: use written request for documentation."
+    },
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "No Purpose Statement Required",
+      "statute_citation": "IC 5-14-3-3",
+      "description": "No requirement to state purpose for requesting public records. Requesters need not justify or explain their interest.",
+      "conditions": "Applies to all requests; agencies cannot demand purpose justification",
+      "applies_to": "All APRA requests",
+      "implementation_notes": "Protects requester privacy; prevents agencies from judging worthiness of requests",
+      "request_tips": "If asked for purpose: 'IC 5-14-3-3 does not require me to state my purpose for this request. Please process without purpose justification.'"
+    },
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "No Residency Requirement",
+      "statute_citation": "IC 5-14-3-3",
+      "description": "Indiana does not impose residency requirement for accessing public records. Out-of-state requesters have same rights as Indiana residents.",
+      "conditions": "No residency restriction; all persons have access rights regardless of location",
+      "applies_to": "All requesters including non-residents",
+      "implementation_notes": "Broader access than states with residency requirements; supports interstate journalism and research",
+      "request_tips": "Non-residents: 'IC 5-14-3-3 imposes no residency requirement. I have full access rights regardless of my state of residence.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "24-Hour Acknowledgment for In-Person/Phone Requests",
+      "statute_citation": "IC 5-14-3-9(b)",
+      "description": "For requests made in person or by telephone, agencies must acknowledge the request within 24 hours.",
+      "conditions": "Applies to in-person or phone requests only; 24-hour acknowledgment required",
+      "applies_to": "In-person and telephone requests",
+      "implementation_notes": "Quick acknowledgment for immediate requests; ensures prompt response initiation",
+      "request_tips": "For in-person/phone requests: 'IC 5-14-3-9(b) requires acknowledgment within 24 hours for requests made in person or by phone. Please confirm receipt within 24 hours.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "7-Day Acknowledgment for Mail/Fax/Email Requests",
+      "statute_citation": "IC 5-14-3-9(b)",
+      "description": "For requests made by mail, fax, or email, agencies must acknowledge the request within 7 days.",
+      "conditions": "Applies to mail, fax, and email requests; 7-day acknowledgment deadline",
+      "applies_to": "Remote submission methods",
+      "implementation_notes": "Ensures requesters receive confirmation of receipt; slightly longer timeline for remote methods",
+      "request_tips": "For mailed/faxed/emailed requests: 'IC 5-14-3-9(b) requires acknowledgment within 7 days for requests submitted by mail, fax, or email. Please confirm receipt.'"
+    }
+  ]
+}
+,
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Reasonable Time Standard",
+      "statute_citation": "IC 5-14-3-3(b)",
+      "description": "Agencies must provide records within a reasonable time after acknowledgment. Reasonable time depends on agency size, request size/complexity, number of pending requests, and operational considerations.",
+      "conditions": "Must be reasonable based on circumstances; flexible standard considering practical factors; excessive delay may be challenged",
+      "applies_to": "All Indiana public records production",
+      "implementation_notes": "Flexible timeline balances requester rights with agency operational needs; no fixed deadline but cannot be indefinite",
+      "request_tips": "If delayed: 'IC 5-14-3-3(b) requires production within reasonable time. Given [circumstances], please explain why production requires more than [X days] and provide specific completion date.'"
+    },
+    {
+      "category": "Fee Waiver",
+      "subcategory": "Reasonable Copying Fees",
+      "statute_citation": "IC 5-14-3-8",
+      "description": "Agencies may charge reasonable copying fees that must be reasonably related to actual costs. No search or retrieval fees for standard requests.",
+      "conditions": "Fees must be reasonable and cost-related; search fees prohibited for standard requests; can request advance payment for copying costs",
+      "applies_to": "All requests involving copies",
+      "implementation_notes": "Indiana limits fees to copying only (no search fees); actual cost standard prevents excessive charges",
+      "request_tips": "Challenge fees: 'IC 5-14-3-8 limits copying fees to amounts reasonably related to actual costs. Please provide itemized breakdown. Search fees are not permitted.'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Electronic Format Provision",
+      "statute_citation": "IC 5-14-3-3",
+      "description": "Records must be provided in requested electronic format if maintained electronically. Enhanced access fees may apply only for special programming or formatting.",
+      "conditions": "Records must exist in electronic format; agencies must provide in electronic form when requested; additional fees only for special programming",
+      "applies_to": "Electronically maintained public records",
+      "implementation_notes": "If agency has records in database or electronic files, must provide electronically; cannot force paper format",
+      "request_tips": "Request electronic: 'Under IC 5-14-3-3, please provide these records in electronic format as they are maintained electronically. I do not request special programming.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Public Access Counselor Advisory Opinions",
+      "statute_citation": "IC 5-14-3 (PAC provisions)",
+      "description": "Indiana Public Access Counselor provides advisory opinions on public access laws, offers education and guidance to agencies and requesters. Appointed by Governor for 4-year term.",
+      "conditions": "Advisory opinions are non-binding but influential; PAC provides free guidance; accessible at (317) 234-0906",
+      "applies_to": "All APRA disputes and questions",
+      "implementation_notes": "While not binding, PAC opinions carry weight; useful for resolving disputes without litigation; agencies often comply with PAC recommendations",
+      "request_tips": "Seek PAC guidance: 'I may consult the Public Access Counselor (IC 5-14-3) for an advisory opinion on your denial. PAC is available at (317) 234-0906.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Written Denial Explanation Required",
+      "statute_citation": "IC 5-14-3-9(f)",
+      "description": "If denying access, agencies must provide written explanation citing the specific exemption statute. Vague or unsupported denials are improper.",
+      "conditions": "Denial must be in writing; must cite specific statutory exemption; must explain how exemption applies to requested records",
+      "applies_to": "All APRA denials",
+      "implementation_notes": "Prevents agencies from simply saying 'confidential' without legal basis; requires specific statutory citation and explanation",
+      "request_tips": "Demand specificity: 'If denying access, IC 5-14-3-9(f) requires written explanation citing the specific exemption statute and explaining how it applies to my request.'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Segregable Portions Requirement",
+      "statute_citation": "IC 5-14-3-6",
+      "description": "Agencies must separate and withhold only confidential portions of records. Non-confidential portions must be disclosed after redaction of exempt material.",
+      "conditions": "Applies when records contain both public and exempt information; requires redaction and disclosure of public portions",
+      "applies_to": "Partially exempt records",
+      "implementation_notes": "Agencies cannot withhold entire document because one section is exempt; must redact and release remainder",
+      "request_tips": "Demand segregable portions: 'IC 5-14-3-6 requires disclosure of non-confidential portions after redaction. Please provide redacted records showing what is withheld and the specific exemption for each redaction.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Burden of Proof on Agency",
+      "statute_citation": "IC 5-14-3-9",
+      "description": "The burden is on the public agency to prove that an exemption applies. Requester does not have burden to prove entitlement to records.",
+      "conditions": "Applies in all disputes over access; agency must establish exemption; requester need not justify access right",
+      "applies_to": "All contested denials",
+      "implementation_notes": "Shifts burden away from requester - you don't prove you deserve records; agency must prove they can withhold",
+      "request_tips": "Challenge denial: 'Under IC 5-14-3-9, your agency bears the burden of proving this exemption applies. Please provide detailed legal justification and proof.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Judicial Enforcement Right",
+      "statute_citation": "IC 5-14-3-9(f)",
+      "description": "Aggrieved parties may file lawsuit in any court of competent jurisdiction to compel disclosure of improperly withheld records.",
+      "conditions": "No requirement to exhaust administrative remedies; can file in any competent court; court may order production",
+      "applies_to": "Requesters denied access to public records",
+      "implementation_notes": "Direct access to courts; no mandatory administrative appeal; PAC advisory opinion useful but not required before litigation",
+      "request_tips": "Note enforcement option: 'IC 5-14-3-9(f) authorizes me to file suit in court to compel disclosure if this denial is not reconsidered. PAC consultation is optional.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Attorney Fees Recovery",
+      "statute_citation": "IC 5-14-3-9(i)",
+      "description": "Courts may award attorney's fees and costs to requesters who successfully compel disclosure through litigation.",
+      "conditions": "Requester must succeed in compelling disclosure; fees must be reasonable; court discretion",
+      "applies_to": "Prevailing requesters in APRA litigation",
+      "implementation_notes": "Fee-shifting makes enforcement financially viable; agencies risk paying legal costs if improperly denying access",
+      "request_tips": "Reference fee-shifting: 'IC 5-14-3-9(i) provides for attorney fees if I must litigate to obtain these records. Please comply voluntarily to avoid potential liability for my legal expenses.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Criminal Penalties for Violations",
+      "statute_citation": "IC 5-14-3-7",
+      "description": "Public officials who knowingly or intentionally violate confidentiality requirements or disclosure obligations may be guilty of a Class A misdemeanor.",
+      "conditions": "Violation must be knowing or intentional; classified as Class A misdemeanor; personal liability for officials",
+      "applies_to": "Public officials who violate APRA",
+      "implementation_notes": "Criminal penalties create strong compliance incentive; both improper disclosure and improper withholding can be violations",
+      "request_tips": "For serious violations: 'IC 5-14-3-7 makes knowing APRA violations a Class A misdemeanor. Please ensure your decision is legally sound.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Identification of Withheld Portions Required",
+      "statute_citation": "IC 5-14-3-9(f)",
+      "description": "When denying access or withholding portions of records, agencies must identify what portions are being withheld and the specific exemption for each withheld portion.",
+      "conditions": "Required for all partial or complete denials; must specify what is withheld and statutory basis for each withholding",
+      "applies_to": "All denials or partial denials",
+      "implementation_notes": "Prevents blanket withholdings; ensures transparency about what is being withheld and why; allows targeted challenges",
+      "request_tips": "Demand specificity: 'IC 5-14-3-9(f) requires you to identify each portion withheld and cite the specific exemption for each. Please provide detailed withholding log.'"
+    }
+  ]
+}

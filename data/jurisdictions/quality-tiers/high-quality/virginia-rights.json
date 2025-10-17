@@ -1,0 +1,217 @@
+{
+  "jurisdiction": {
+    "name": "Virginia",
+    "slug": "virginia",
+    "type": "state",
+    "transparency_law": "Virginia Freedom of Information Act (VFOIA)"
+  },
+  "validation_metadata": {
+    "parsed_date": "2025-10-16",
+    "source_url": "https://law.lis.virginia.gov/vacode/title2.2/chapter37/",
+    "verified_by": "Claude Code AI Assistant - Agent 2 (Z→A)",
+    "verification_method": "Complete manual review of Va. Code § 2.2-3700 et seq.",
+    "statutory_text_file": "statute-full-text.txt"
+  },
+  "rights_of_access": [
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Presumption of Openness",
+      "statute_citation": "Va. Code § 2.2-3700",
+      "description": "All public records and meetings shall be presumed open unless an exemption is properly invoked. Government affairs are not intended to be conducted in secrecy. The public is to be the beneficiary of any government action.",
+      "conditions": "Exemption must be specifically invoked pursuant to VFOIA or other specific law",
+      "applies_to": "All persons seeking Virginia public records",
+      "implementation_notes": "This presumption is foundational - agencies must overcome it to withhold records, not requesters to obtain them",
+      "request_tips": "Assert: 'Va. Code § 2.2-3700 presumes all records are open. You bear the burden of properly invoking a specific exemption.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Liberal Construction Mandate",
+      "statute_citation": "Va. Code § 2.2-3700",
+      "description": "VFOIA must be liberally construed to promote increased awareness of governmental activities and afford every opportunity to witness government operations. Exemptions shall be narrowly construed. When ambiguous, resolve in favor of access.",
+      "conditions": "Applies to all VFOIA interpretation; exemptions narrowly construed",
+      "applies_to": "All FOIA determinations",
+      "implementation_notes": "Courts must interpret doubts in favor of disclosure - agencies cannot construe exemptions broadly",
+      "request_tips": "Argue: 'Va. Code § 2.2-3700 mandates liberal construction favoring access. This exemption claim must be narrowly construed and cannot defeat the general policy of disclosure.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Local Ordinance Preemption",
+      "statute_citation": "Va. Code § 2.2-3700",
+      "description": "Any local ordinance that conflicts with VFOIA provisions is void. State FOIA rights cannot be diminished by local rules or restrictions.",
+      "conditions": "Applies to all local government ordinances conflicting with VFOIA",
+      "applies_to": "Requesters dealing with local agencies",
+      "implementation_notes": "Local governments cannot create more restrictive rules than state law - state standards prevail",
+      "request_tips": "If local restriction cited: 'Va. Code § 2.2-3700 voids local ordinances conflicting with VFOIA. Please process under state law standards.'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Right to Inspect and Copy",
+      "statute_citation": "Va. Code § 2.2-3704",
+      "description": "Every person has the right to inspect and copy public records. These are separate rights - inspection can occur without copying, allowing record review without duplication fees.",
+      "conditions": "Subject to statutory exemptions; reasonable times and circumstances",
+      "applies_to": "All persons",
+      "implementation_notes": "Inspection is typically free; copying involves fees. Inspect first to determine what to copy.",
+      "request_tips": "Request: 'Under Va. Code § 2.2-3704, I request to inspect [records] without making copies at this time.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "5 Working Day Response",
+      "statute_citation": "Va. Code § 2.2-3704",
+      "description": "Public bodies must respond within 5 working days of receipt. Day one is the day after request received. Weekends and holidays excluded. Requests after 5:00 PM count as next working day.",
+      "conditions": "5 working days from receipt; substantive response required",
+      "applies_to": "All requests",
+      "implementation_notes": "One of the faster state deadlines. Response must state whether providing records, denying, or taking extension.",
+      "request_tips": "After 5 days: 'Va. Code § 2.2-3704 requires response within 5 working days. Today is day [X]. Please respond immediately.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "7-Day Extension Maximum",
+      "statute_citation": "Va. Code § 2.2-3704",
+      "description": "If impossible to respond in 5 days, agency may take 7 additional working days (12 total) but must notify in writing within initial 5 days, explain conditions making response impossible, and state when records will be provided.",
+      "conditions": "Must notify within 5 days; must explain impossibility; must specify production date; 12-day total maximum",
+      "applies_to": "Complex requests requiring extended time",
+      "implementation_notes": "Agency must prove impossibility, not mere inconvenience. Generic 'we're busy' is insufficient.",
+      "request_tips": "If extended: 'Va. Code § 2.2-3704 requires explanation of specific conditions making 5-day response impossible. Please provide detailed justification and exact production date within 12-day maximum.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Receipt Timing Rules",
+      "statute_citation": "Va. Code § 2.2-3704",
+      "description": "Requests received after 5:00 PM are considered received the next working day. Day one is the day after receipt. This provides clear calculation rules preventing timing disputes.",
+      "conditions": "After 5 PM = next working day; day one = day after receipt",
+      "applies_to": "All requests for deadline calculation",
+      "implementation_notes": "Submit time-sensitive requests before 5 PM and request receipt acknowledgment",
+      "request_tips": "State: 'Submitted at [time] on [date]. Under Va. Code § 2.2-3704, day one is [date]. Your response is due by [5 working days later].'"
+    },
+    {
+      "category": "Fee Waiver/Limits",
+      "subcategory": "Actual Costs Only",
+      "statute_citation": "Va. Code § 2.2-3704",
+      "description": "Fees limited to actual costs of responding: staff search time, copying costs, directly related expenses. Cannot charge general overhead or administrative costs.",
+      "conditions": "Must be actual costs; must be directly related; no overhead",
+      "applies_to": "All requests with fees",
+      "implementation_notes": "Challenge any overhead, facility costs, or padded search time estimates",
+      "request_tips": "Demand: 'Va. Code § 2.2-3704 prohibits general overhead charges. Provide itemized breakdown showing only actual direct costs: search time (actual hours), copying, directly related expenses.'"
+    },
+    {
+      "category": "Fee Waiver/Limits",
+      "subcategory": "$200 Deposit Threshold",
+      "statute_citation": "Va. Code § 2.2-3704",
+      "description": "Agencies may require deposit only if estimated costs exceed $200. Must provide written estimate before requiring deposit. This protects from surprise deposit demands.",
+      "conditions": "Only if costs exceed $200; written estimate required first",
+      "applies_to": "Large or expensive requests",
+      "implementation_notes": "Request written estimate, review carefully, negotiate scope if costs excessive",
+      "request_tips": "If deposit demanded: 'Va. Code § 2.2-3704 requires written estimate before deposit. Provide itemized estimate. I may modify request if costs excessive.'"
+    },
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "No Format Required",
+      "statute_citation": "Va. Code § 2.2-3704",
+      "description": "No specific form required for requests. May be oral or written. Must adequately identify records and submit to custodian.",
+      "conditions": "Must adequately identify records; must submit to proper custodian",
+      "applies_to": "All requesters",
+      "implementation_notes": "Written recommended for documentation but not required",
+      "request_tips": "If form demanded: 'Va. Code § 2.2-3704 requires no specific format. This [oral/written/email] request is acceptable.'"
+    },
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "Request Modification Right",
+      "statute_citation": "Va. Code § 2.2-3704",
+      "description": "Public bodies must make reasonable efforts to reach agreement with requester on production and format. This includes allowing request modifications to reduce costs or clarify scope.",
+      "conditions": "Agency must engage in good faith; modifications must be reasonable",
+      "applies_to": "All requesters",
+      "implementation_notes": "Use this to negotiate scope, format, or delivery method when costs are high",
+      "request_tips": "Propose: 'Va. Code § 2.2-3704 requires reasonable efforts to reach agreement. I propose [modification] to facilitate production.'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Format if Readily Available",
+      "statute_citation": "Va. Code § 2.2-3704",
+      "description": "Agencies must provide records in format requested if readily available in that format. Cannot force requesters to accept different format if requested format exists.",
+      "conditions": "Format must be readily available; not required to create new formats",
+      "applies_to": "Electronic records maintained in requested format",
+      "implementation_notes": "If agency has Excel files, can request Excel. If database format exists, can request that.",
+      "request_tips": "Specify: 'These records are maintained in [format]. Va. Code § 2.2-3704 requires provision in requested format if readily available. Provide in [native format].'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Electronic Records Parity",
+      "statute_citation": "Va. Code § 2.2-3704",
+      "description": "Electronic records have same status as physical records. Includes metadata, system logs, databases. Agencies cannot deny based on electronic format.",
+      "conditions": "Format considerations required; metadata included",
+      "applies_to": "All electronically maintained records",
+      "implementation_notes": "Request metadata explicitly - creation dates, authors, edit history all part of electronic record",
+      "request_tips": "Request: 'Va. Code § 2.2-3704 grants electronic records same status as physical. Provide [records] in electronic format with all associated metadata.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Mandamus/Injunction Enforcement",
+      "statute_citation": "Va. Code § 2.2-3713",
+      "description": "Any person denied VFOIA rights may petition court for mandamus or injunction. Must be supported by affidavit showing good cause. Direct judicial access without administrative appeals.",
+      "conditions": "Affidavit with good cause required; proper venue; filing in general district or circuit court",
+      "applies_to": "Any person denied access",
+      "implementation_notes": "No administrative exhaustion required - go straight to court",
+      "request_tips": "If denied: 'Va. Code § 2.2-3713 authorizes mandamus/injunction. I will petition [proper court] if access not provided.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Expedited 7-Day Hearing",
+      "statute_citation": "Va. Code § 2.2-3713",
+      "description": "VFOIA petitions must be heard within 7 days of filing. Opposing party gets copy at least 3 working days prior. Fastest FOIA judicial process in the nation.",
+      "conditions": "Hearing within 7 days; 3-day notice to opposing party; court must prioritize",
+      "applies_to": "All VFOIA judicial proceedings",
+      "implementation_notes": "This expedited process ensures fast resolution - faster than nearly any other state",
+      "request_tips": "Request: 'Va. Code § 2.2-3713 requires hearing within 7 days. Schedule no later than [7 days from filing].'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Attorney Fee Recovery",
+      "statute_citation": "Va. Code § 2.2-3713",
+      "description": "Substantially prevailing petitioners entitled to recover reasonable costs, expert fees, and attorney fees unless special circumstances make award unjust. Fee recovery is presumptive, not discretionary.",
+      "conditions": "Must substantially prevail; fees must be reasonable; agency bears burden to show special circumstances",
+      "applies_to": "Successful petitioners",
+      "implementation_notes": "Special circumstances are rare - agency must prove, not just assert, that fee award would be unjust",
+      "request_tips": "In petition: 'Va. Code § 2.2-3713 entitles me to attorney fees if I substantially prevail. Respondent bears burden to show special circumstances.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Civil Penalties",
+      "statute_citation": "Va. Code § 2.2-3714",
+      "description": "Knowing and willful VFOIA violations subject public body to civil penalty: $500-$2,000 first offense, up to $2,000 subsequent offenses. Separate from attorney fees.",
+      "conditions": "Violation must be knowing and willful; court determines amount",
+      "applies_to": "Intentional violations",
+      "implementation_notes": "Knowing and willful means deliberate, not negligent. Pattern of violations or ignoring clear law supports finding.",
+      "request_tips": "If willful violation: 'Va. Code § 2.2-3714 imposes civil penalties for knowing and willful violations. Request penalties in addition to other relief.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "FOIA Advisory Council",
+      "statute_citation": "Va. Code § 2.2-3704.1",
+      "description": "Virginia Freedom of Information Advisory Council provides guidance, training, advisory opinions, and maintains FOIA officer directory. Resource available to requesters for complex FOIA questions.",
+      "conditions": "Located in legislative branch; opinions advisory not binding but persuasive",
+      "applies_to": "All persons seeking FOIA guidance",
+      "implementation_notes": "Advisory Council opinions are highly persuasive and frequently cited by courts",
+      "request_tips": "Reference: 'Va. Code § 2.2-3704.1 establishes FOIA Advisory Council for guidance. I consulted [or will consult] Council regarding this matter.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "FOIA Officer Designation",
+      "statute_citation": "Va. Code § 2.2-3704.1",
+      "description": "Public bodies should designate FOIA officer as contact point. Names maintained on Advisory Council website. Creates accountability and clear contact.",
+      "conditions": "Designation recommended; officer serves as request contact",
+      "applies_to": "All public bodies",
+      "implementation_notes": "Most agencies comply. Direct requests to designated FOIA officer for proper routing.",
+      "request_tips": "Address to: 'FOIA Officer designated per Va. Code § 2.2-3704.1. If not appropriate officer, forward immediately and notify me.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Narrow Exemption Construction",
+      "statute_citation": "Va. Code § 2.2-3700",
+      "description": "No record shall be withheld unless specifically made exempt pursuant to VFOIA or other specific law. Exemptions cannot be construed broadly to defeat access policy.",
+      "conditions": "Exemption must be specific; cannot be generic or implied",
+      "applies_to": "All exemption determinations",
+      "implementation_notes": "Generic sensitivity or confidentiality claims insufficient - must cite specific statutory exemption",
+      "request_tips": "Challenge: 'Va. Code § 2.2-3700 requires specific exemption authority. Cite exact statute authorizing withholding, not general confidentiality claims.'"
+    }
+  ]
+}

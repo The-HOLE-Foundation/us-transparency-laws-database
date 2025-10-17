@@ -1,0 +1,357 @@
+{
+  "jurisdiction": {
+    "name": "Wisconsin",
+    "slug": "wisconsin",
+    "type": "state",
+    "transparency_law": "Wisconsin Public Records Law"
+  },
+  "validation_metadata": {
+    "parsed_date": "2025-10-16",
+    "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/19",
+    "verified_by": "Claude Code AI Assistant",
+    "verification_method": "Complete manual review of Wis. Stat. §§ 19.31-19.39",
+    "statutory_text_file": "statute-full-text.txt"
+  },
+  "rights_of_access": [
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Legislative Policy - Greatest Possible Information",
+      "statute_citation": "Wis. Stat. § 19.31",
+      "description": "Wisconsin declares it is public policy that all persons are entitled to the greatest possible information regarding the affairs of government and official acts of officers and employees. This establishes an exceptionally broad right of access as fundamental state policy.",
+      "conditions": "No conditions - applies universally",
+      "applies_to": "All persons - no residency or other restrictions",
+      "implementation_notes": "This policy declaration is one of the strongest in the nation, establishing access as an essential government function, not merely a procedural right",
+      "request_tips": "Cite in any request: 'Wis. Stat. § 19.31 declares all persons are entitled to the greatest possible information regarding government affairs. Please provide complete access consistent with this policy.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Presumption of Complete Public Access",
+      "statute_citation": "Wis. Stat. § 19.31",
+      "description": "The public records law must be construed in every instance with a presumption of complete public access. Denial of access is contrary to public interest and only in exceptional cases may access be denied.",
+      "conditions": "Presumption applies in all cases; denial only in exceptional circumstances",
+      "applies_to": "All requests for public records",
+      "implementation_notes": "This creates a legal presumption favoring disclosure - agencies must overcome strong presumption to justify withholding",
+      "request_tips": "Assert: 'Wis. Stat. § 19.31 creates a presumption of complete public access. Denial is permitted only in exceptional cases. Please explain what exceptional circumstances justify withholding.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Essential Government Function",
+      "statute_citation": "Wis. Stat. § 19.31",
+      "description": "Providing access to public information is declared to be an essential function of representative government and an integral part of routine duties of officers and employees. This establishes that responding to requests is mandatory, not discretionary.",
+      "conditions": "No conditions - applies to all officers and employees with record responsibilities",
+      "applies_to": "All governmental authorities and their personnel",
+      "implementation_notes": "Agencies cannot treat records requests as low-priority or optional - providing access is a core governmental duty",
+      "request_tips": "If deprioritized, cite: 'Wis. Stat. § 19.31 declares providing public information is an essential function of government and integral to your routine duties. This request must be prioritized accordingly.'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Right to Inspect",
+      "statute_citation": "Wis. Stat. § 19.33",
+      "description": "Any requester has the right to inspect any record, subject only to specific statutory exemptions. This is a fundamental right separate from the right to receive copies.",
+      "conditions": "Subject to statutory exemptions",
+      "applies_to": "Any requester (defined broadly, excluding only incarcerated persons unless requesting personal records)",
+      "implementation_notes": "Inspection is separate from copying - requesters can review records without paying duplication fees",
+      "request_tips": "Request: 'Under Wis. Stat. § 19.33, I request to inspect [records]. I am not requesting copies at this time and no fees should apply.'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Right to Receive Copies",
+      "statute_citation": "Wis. Stat. § 19.33",
+      "description": "Any requester has the right to receive a copy of any record, subject only to specific statutory exemptions. Agencies must provide copies upon request.",
+      "conditions": "Subject to statutory exemptions; requester pays actual reproduction costs",
+      "applies_to": "Any requester",
+      "implementation_notes": "Right to copies is distinct from inspection - requesters can choose to copy all or part of inspected records",
+      "request_tips": "Request: 'Under Wis. Stat. § 19.33, I request copies of [records]. Please provide cost estimate for reproduction.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Immediate Inspection if Feasible",
+      "statute_citation": "Wis. Stat. § 19.33",
+      "description": "If the requester appears in person, the authority may, where feasible, permit inspection to be made immediately. This creates a right to immediate access for in-person requests when records are readily available.",
+      "conditions": "Requester must appear in person; immediate access must be feasible",
+      "applies_to": "In-person requesters for readily available records",
+      "implementation_notes": "This prevents unnecessary delays for simple in-person requests - if records are on hand, inspection should be immediate",
+      "request_tips": "For in-person requests, state: 'I am appearing in person. Wis. Stat. § 19.33 provides for immediate inspection where feasible. These records appear readily available.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "As Soon As Practicable Response",
+      "statute_citation": "Wis. Stat. § 19.34",
+      "description": "Records must be made available 'as soon as practicable and without delay.' Wisconsin courts have generally interpreted this as requiring response within 10 business days for straightforward requests, with additional reasonable time for complex requests.",
+      "conditions": "Timeframe varies based on request complexity; agencies must act without delay",
+      "applies_to": "All records requests",
+      "implementation_notes": "While statute doesn't specify exact days, case law establishes 10 business days as benchmark for simple requests. Agencies must justify longer delays as reasonable based on complexity.",
+      "request_tips": "Cite: 'Wis. Stat. § 19.34 requires response as soon as practicable and without delay. Please respond within 10 business days for this straightforward request, or explain what complexities require additional time.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Written Denial Requirement",
+      "statute_citation": "Wis. Stat. § 19.33",
+      "description": "If records are not subject to disclosure, the authority must notify the requester in writing of the denial and cite the specific exemption or reason. Oral or generic denials are insufficient.",
+      "conditions": "Must be in writing; must cite specific statutory exemption",
+      "applies_to": "All denials or partial denials",
+      "implementation_notes": "This ensures transparency in denials and provides requester with information needed to challenge improper withholdings",
+      "request_tips": "If denied, demand: 'Wis. Stat. § 19.33 requires written notification citing the specific exemption. Please provide written denial with statutory authority.'"
+    },
+    {
+      "category": "Fee Waiver/Limits",
+      "subcategory": "Free Inspection",
+      "statute_citation": "Wis. Stat. § 19.35(1)(a)",
+      "description": "Authorities cannot charge any fee for providing access for inspection of a record. Inspection is always free, regardless of record volume or complexity.",
+      "conditions": "No conditions - inspection is always free",
+      "applies_to": "All inspection requests",
+      "implementation_notes": "This is an absolute prohibition on inspection fees - agencies cannot charge anything for allowing you to view records on-site",
+      "request_tips": "Assert: 'Wis. Stat. § 19.35(1)(a) prohibits fees for inspection. I request to inspect these records at no charge.'"
+    },
+    {
+      "category": "Fee Waiver/Limits",
+      "subcategory": "No Prepayment for Inspection",
+      "statute_citation": "Wis. Stat. § 19.35(1)(b)",
+      "description": "Authorities cannot require prepayment of any fee as a condition of providing access for inspection. Agencies cannot demand payment before allowing record review.",
+      "conditions": "Applies to inspection only; prepayment may be required for copies if costs substantial",
+      "applies_to": "All inspection requests",
+      "implementation_notes": "This prevents agencies from using prepayment requirements as barrier to initial record review",
+      "request_tips": "If prepayment demanded for inspection, cite: 'Wis. Stat. § 19.35(1)(b) prohibits requiring prepayment for inspection access.'"
+    },
+    {
+      "category": "Fee Waiver/Limits",
+      "subcategory": "No Location Fees Under $50",
+      "statute_citation": "Wis. Stat. § 19.35(1)(c)",
+      "description": "Authorities cannot charge fees for locating records unless the actual, necessary cost of location exceeds $50. This protects requesters from location fees for routine searches.",
+      "conditions": "Location cost must actually exceed $50; if charged, must be actual necessary cost only",
+      "applies_to": "All requests",
+      "implementation_notes": "Most requests will have no location fees as routine searches rarely cost $50. If fees do exceed $50, agency must provide written estimate before charging.",
+      "request_tips": "If location fees charged, demand: 'Wis. Stat. § 19.35(1)(c) prohibits location fees unless cost exceeds $50. Please provide written justification and cost breakdown showing actual costs exceed this threshold.'"
+    },
+    {
+      "category": "Fee Waiver/Limits",
+      "subcategory": "No Review Time Fees",
+      "statute_citation": "Wis. Stat. § 19.35(1)(d)",
+      "description": "Authorities cannot charge fees for time spent reviewing records to determine whether they are subject to access, unless the request is part of a series of requests from the same requester.",
+      "conditions": "Review time is free unless part of series of requests by same requester",
+      "applies_to": "All individual requests; exemption review time",
+      "implementation_notes": "Agencies cannot charge for their legal analysis time to determine exemptions - this is part of their duty",
+      "request_tips": "If review fees charged, object: 'Wis. Stat. § 19.35(1)(d) prohibits charging for exemption review time unless this is part of a series of requests. This is an individual request.'"
+    },
+    {
+      "category": "Fee Waiver/Limits",
+      "subcategory": "Actual Cost Maximum",
+      "statute_citation": "Wis. Stat. § 19.35(1)(e)",
+      "description": "Copying fees cannot exceed the actual, necessary, and direct cost of reproduction and transcription. Agencies cannot add markup or administrative fees beyond actual costs incurred.",
+      "conditions": "Fees must be actual, necessary, and direct costs only",
+      "applies_to": "All copying requests",
+      "implementation_notes": "Standard photocopying typically $0.25 per page in Wisconsin. Other formats charged at actual reproduction cost. No padding or administrative add-ons permitted.",
+      "request_tips": "Challenge excessive fees: 'Wis. Stat. § 19.35(1)(e) limits fees to actual, necessary, and direct costs. Please provide itemized breakdown showing actual reproduction costs only.'"
+    },
+    {
+      "category": "Fee Waiver/Limits",
+      "subcategory": "Written Estimate for Location Costs",
+      "statute_citation": "Wis. Stat. § 19.34",
+      "description": "If the cost of locating records will exceed $50, the authority must provide a written estimate before charging. Requester may then modify the request to reduce costs.",
+      "conditions": "Required only if location costs will exceed $50",
+      "applies_to": "Requests with substantial location/search costs",
+      "implementation_notes": "This prevents surprise bills and allows requesters to narrow requests if costs are prohibitive",
+      "request_tips": "Request: 'If location costs exceed $50, Wis. Stat. § 19.34 requires written estimate before you proceed. I may modify my request based on estimated costs.'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Electronic Record Creation",
+      "statute_citation": "Wis. Stat. § 19.36",
+      "description": "If the requested record does not exist but the information is stored in electronic form, the authority must create a record from the electronic data if: (1) creation doesn't unduly burden the authority, (2) data can be extracted using existing programs, and (3) the format is commonly used.",
+      "conditions": "Must not unduly burden agency; must use existing programs; must be common format",
+      "applies_to": "Requests for information maintained electronically but not in requested format",
+      "implementation_notes": "This allows requesters to get data extracts, database queries, or reformatted electronic data if technically feasible",
+      "request_tips": "Request: 'This information is maintained electronically. Wis. Stat. § 19.36 requires creation of a record if extraction is feasible with existing programs. Please provide data in [CSV/Excel/common format].'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Electronic Information Parity",
+      "statute_citation": "Wis. Stat. § 19.32",
+      "description": "The definition of 'record' explicitly includes electronically generated or stored data. Electronic records have the same status as physical records and are subject to the same access rights.",
+      "conditions": "No conditions - electronic records are public records",
+      "applies_to": "All electronic data maintained by authorities",
+      "implementation_notes": "Agencies cannot deny access to electronic records or claim electronic format makes records inaccessible",
+      "request_tips": "For electronic data, assert: 'Wis. Stat. § 19.32 defines records to include electronically stored data. Electronic records must be provided with same access as physical records.'"
+    },
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "Broad Requester Definition",
+      "statute_citation": "Wis. Stat. § 19.32",
+      "description": "Requester is defined as 'any person' who requests inspection or copies, with only narrow exception for incarcerated persons (who can still request their own records). No residency, citizenship, age, or identification requirements.",
+      "conditions": "Incarcerated persons may only request records about themselves or minor children; all others have unrestricted access",
+      "applies_to": "Any person except committed/incarcerated (with exception for personal records)",
+      "implementation_notes": "Wisconsin's definition is one of the broadest - essentially universal access with minimal restrictions",
+      "request_tips": "If questioned about standing, cite: 'Wis. Stat. § 19.32 defines requester as any person. I need not provide identification or demonstrate residency.'"
+    },
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "No Specific Form Required",
+      "statute_citation": "Wis. Stat. § 19.34",
+      "description": "No specific form is required for records requests. Requests may be oral or written. The statute recommends written requests but does not mandate them.",
+      "conditions": "Request must adequately describe the records sought",
+      "applies_to": "All requesters",
+      "implementation_notes": "While written requests are recommended for documentation purposes, agencies cannot refuse oral requests",
+      "request_tips": "If agency demands specific form, respond: 'Wis. Stat. § 19.34 states no specific form is required. Oral or written requests are both acceptable if records are adequately described.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Mandatory Access Procedure Notice",
+      "statute_citation": "Wis. Stat. § 19.34",
+      "description": "Each authority must adopt and post for public inspection a notice describing its organization, established times and places for access, methods for requesting records, and the officers or employees responsible for records. This ensures requesters know how to access records.",
+      "conditions": "Must be posted whenever feasible",
+      "applies_to": "All authorities",
+      "implementation_notes": "Requesters can demand this notice if not readily available - it should describe the records request process",
+      "request_tips": "If unclear how to request, ask: 'Wis. Stat. § 19.34 requires you to post notice describing your records access procedures. Please provide this information.'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Segregable Portions Required",
+      "statute_citation": "Wis. Stat. § 19.39",
+      "description": "If only part of a record is subject to disclosure, the authority must delete confidential information and provide access to the remainder. Partial exemptions do not justify withholding entire documents.",
+      "conditions": "Authority must redact exempt portions; remaining portions must be disclosed",
+      "applies_to": "Records containing both exempt and non-exempt information",
+      "implementation_notes": "This requires agencies to perform redaction analysis and release maximum possible information",
+      "request_tips": "Assert: 'Even if portions are exempt, Wis. Stat. § 19.39 requires you to delete confidential information and provide access to segregable non-exempt portions.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Record Destruction Prohibition",
+      "statute_citation": "Wis. Stat. § 19.36",
+      "description": "Authorities cannot destroy any record after receiving a request for it until: (1) the request is granted, or (2) at least 60 days after denial, or (3) any legal proceeding is completed. This protects records during the access process.",
+      "conditions": "Protection lasts minimum 60 days after denial or until litigation resolved",
+      "applies_to": "All records subject to pending requests",
+      "implementation_notes": "Once you submit a request, the record is protected from destruction - agencies cannot claim it was destroyed after request received",
+      "request_tips": "State in request: 'This request triggers the record preservation requirement in Wis. Stat. § 19.36. Do not destroy any responsive records until this request is resolved.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Mandamus Enforcement",
+      "statute_citation": "Wis. Stat. § 19.37",
+      "description": "Any person denied access may commence an action for mandamus in circuit court to compel release of records. This provides direct judicial enforcement of access rights.",
+      "conditions": "Must first be denied access by authority",
+      "applies_to": "Any person denied access to records",
+      "implementation_notes": "Wisconsin has no administrative appeal process - denials go directly to circuit court for judicial review",
+      "request_tips": "If denied, notify agency: 'Wis. Stat. § 19.37 authorizes mandamus to compel disclosure. I will file in circuit court if access is not provided.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Attorney Fee Recovery",
+      "statute_citation": "Wis. Stat. § 19.37",
+      "description": "The court shall award reasonable attorney fees, damages, and other actual costs to requesters who substantially prevail in mandamus actions. This makes litigation financially feasible for wronged requesters.",
+      "conditions": "Requester must substantially prevail in action",
+      "applies_to": "Successful mandamus petitioners",
+      "implementation_notes": "Attorney fee recovery is mandatory ('shall award') if requester substantially prevails, incentivizing agencies to comply rather than defend improper denials",
+      "request_tips": "When considering litigation, note: 'Wis. Stat. § 19.37 requires the court to award attorney fees if I substantially prevail. Improper denial will result in you paying my legal costs.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Minimum Damages for Arbitrary Denial",
+      "statute_citation": "Wis. Stat. § 19.37",
+      "description": "If the court finds an authority arbitrarily and capriciously denied access, it must award minimum damages of $100 to the requester, plus any additional actual damages proven.",
+      "conditions": "Court must find denial was arbitrary and capricious; $100 is minimum, additional damages possible",
+      "applies_to": "Requesters prevailing in mandamus actions with arbitrary denials",
+      "implementation_notes": "This penalty provision punishes bad faith denials - agencies face financial consequences for arbitrary withholding",
+      "request_tips": "If denial appears arbitrary, note: 'If a court finds this denial arbitrary and capricious, Wis. Stat. § 19.37 requires minimum $100 damages plus actual costs.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Injunctive Relief",
+      "statute_citation": "Wis. Stat. § 19.37",
+      "description": "Courts may grant injunctive relief to prevent destruction of records or to compel compliance with public records law. This provides additional remedies beyond mandamus.",
+      "conditions": "Available when mandamus or damages are insufficient remedy",
+      "applies_to": "Requesters seeking to prevent record destruction or compel ongoing compliance",
+      "implementation_notes": "Injunctions can prevent agencies from destroying records pending litigation or require specific compliance measures",
+      "request_tips": "If records at risk, seek: 'Wis. Stat. § 19.37 authorizes injunctive relief to prevent record destruction. I request emergency preservation order.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Burden of Proof on Authority",
+      "statute_citation": "Wis. Stat. § 19.37",
+      "description": "The authority bears the burden of proving that a record is exempt from disclosure. Requesters do not have to prove their entitlement - agencies must justify denials with specific evidence.",
+      "conditions": "Applies in all enforcement proceedings",
+      "applies_to": "All denied requests subject to litigation",
+      "implementation_notes": "This shifts litigation burden to the agency - they must prove exemptions apply, you don't have to prove records are public",
+      "request_tips": "In disputes, state: 'Under Wis. Stat. § 19.37, you bear the burden of proving exemption. Please provide specific evidence, not just assertions, that claimed exemptions apply.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Balancing Test for Confidential Records",
+      "statute_citation": "Wis. Stat. § 19.38",
+      "description": "Even for confidential records, an authority may permit access if the public interest in allowing inspection and copying outweighs the public interest in maintaining confidentiality. This creates discretionary disclosure authority.",
+      "conditions": "Authority must balance competing public interests; record subject notice may be required",
+      "applies_to": "Records that are confidential but not absolutely exempt",
+      "implementation_notes": "Requesters can argue public interest justifies disclosure even for confidential records - agencies have discretion to release",
+      "request_tips": "For sensitive records, argue: 'Under Wis. Stat. § 19.38, you may permit access if public interest in disclosure outweighs confidentiality interest. [Explain public interest.]'"
+    },
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "Notice Rights for Record Subjects",
+      "statute_citation": "Wis. Stat. § 19.38",
+      "description": "If a record subject has a statutory right to notice, the authority must provide notice and opportunity to be heard before permitting access to confidential records containing personally identifiable information about the subject.",
+      "conditions": "Applies only when record subject has statutory notice right; only for confidential records with personally identifiable information",
+      "applies_to": "Record subjects whose information may be disclosed",
+      "implementation_notes": "This protects individuals from surprise disclosure of their personal information in confidential records",
+      "request_tips": "If you are the record subject, ask: 'Does this record contain my personally identifiable information? Wis. Stat. § 19.38 requires notice before disclosure if I have a statutory notice right.'"
+    },
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "Request Modification Right",
+      "statute_citation": "Wis. Stat. § 19.34",
+      "description": "When an authority provides a written estimate showing location costs exceed $50, the requester may modify the request to reduce costs. This allows requesters to narrow scope based on cost information.",
+      "conditions": "Available when location cost estimate exceeds $50",
+      "applies_to": "Requesters receiving cost estimates",
+      "implementation_notes": "This gives requesters opportunity to avoid high fees by narrowing scope - agencies must allow modification",
+      "request_tips": "If costs high, state: 'Based on your estimate, I am modifying my request as permitted by Wis. Stat. § 19.34 to request only [narrowed scope] to reduce costs.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Broad Record Definition",
+      "statute_citation": "Wis. Stat. § 19.32",
+      "description": "Record is defined very broadly to include any material with information recorded or preserved, regardless of physical form, characteristics, or means of creation. This includes emails, texts, databases, audio, video, and any other format.",
+      "conditions": "Must be created or kept by an authority; excludes only purely personal materials, drafts, copyrighted materials, and published materials available elsewhere",
+      "applies_to": "All information created or maintained by governmental authorities",
+      "implementation_notes": "Wisconsin's definition is comprehensive - nearly everything an agency creates or maintains is potentially a public record",
+      "request_tips": "For non-traditional records, cite: 'Wis. Stat. § 19.32 defines records regardless of physical form. Please provide [emails/texts/database records/etc.].'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Cost Justification Requirement",
+      "statute_citation": "Wis. Stat. § 19.35(1)(c)",
+      "description": "If an authority claims location costs exceed $50, they must prove the actual, necessary costs exceed this threshold. Generic assertions are insufficient - specific cost breakdown required.",
+      "conditions": "Applies when authority seeks to charge location fees",
+      "applies_to": "Requests where location fees are claimed",
+      "implementation_notes": "Agencies cannot simply claim 'expensive search' - they must document actual staff time and costs",
+      "request_tips": "Demand specifics: 'Wis. Stat. § 19.35(1)(c) requires actual, necessary costs. Provide detailed breakdown: staff hours, hourly rates, specific tasks, total calculation.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "No Residency or Citizenship Requirement",
+      "statute_citation": "Wis. Stat. § 19.31, § 19.32",
+      "description": "The statute grants rights to 'all persons' and 'any person' without restriction based on residency or citizenship. Out-of-state residents, foreign nationals, and any other person may request Wisconsin public records.",
+      "conditions": "No conditions on residency or citizenship",
+      "applies_to": "All persons regardless of connection to Wisconsin",
+      "implementation_notes": "Wisconsin explicitly uses 'all persons' and 'any person' language, establishing universal access",
+      "request_tips": "If residency questioned, respond: 'Wis. Stat. §§ 19.31 and 19.32 grant access to any person without residency requirement.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Delay Notification Requirement",
+      "statute_citation": "Wis. Stat. § 19.34",
+      "description": "If records cannot be provided as soon as practicable, the authority must notify the requester of the delay and provide an estimate of when records will be available. Generic 'we're working on it' responses are insufficient.",
+      "conditions": "Required when response will exceed reasonable timeframe",
+      "applies_to": "Complex or voluminous requests requiring extended processing",
+      "implementation_notes": "Agencies must provide specific timeline information, not just acknowledge delays exist",
+      "request_tips": "If delayed, demand: 'Wis. Stat. § 19.34 requires notification of delays with estimated completion date. When specifically will these records be available?'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Costs Only for Unjustified Denials",
+      "statute_citation": "Wis. Stat. § 19.37",
+      "description": "If the court finds the authority's position was not substantially justified, it must award costs to the prevailing requester. This punishes baseless denials beyond just arbitrary ones.",
+      "conditions": "Court must find authority's position lacked substantial justification",
+      "applies_to": "Successful mandamus petitioners where denial was unjustified",
+      "implementation_notes": "This is separate from arbitrary denial damages - applies to denials that were legally weak even if not arbitrary",
+      "request_tips": "If denial appears legally weak, note: 'If a court finds your position not substantially justified, Wis. Stat. § 19.37 requires you to pay my costs.'"
+    }
+  ]
+}

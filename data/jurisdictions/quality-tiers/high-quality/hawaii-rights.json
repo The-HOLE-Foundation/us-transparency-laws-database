@@ -112,6 +112,66 @@
       "applies_to": "All UIPA requests",
       "implementation_notes": "Removes common barrier to access - requesters need not justify or explain their interest; supports accountability journalism and citizen oversight",
       "request_tips": "Assert right: 'Hawaii UIPA does not require me to state my purpose or identify myself. Please process this request without requiring purpose justification or identification.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Burden of Proof on Agency",
+      "statute_citation": "HRS § 92F-11(b)",
+      "description": "The burden is on the agency to establish that a record falls within an exemption. Requester does not have burden to prove entitlement to access.",
+      "conditions": "Applies to all disclosure disputes; agency must prove exemption applies; requester need not prove right to access",
+      "applies_to": "All UIPA requests where agency claims exemption",
+      "implementation_notes": "Shifts burden away from requester - you don't have to prove you deserve access; agency must prove records are exempt",
+      "request_tips": "Challenge denial: 'Under HRS § 92F-11(b), the burden is on your agency to prove this exemption applies. Please provide detailed justification showing how the exemption covers these specific records.'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Format Preference Accommodation",
+      "statute_citation": "HRS § 92F-11",
+      "description": "Request must state preferred method of receiving record (pickup, mail, email, etc.). Agencies must accommodate reasonable format preferences.",
+      "conditions": "Requester specifies preferred delivery/format method; agency must make reasonable efforts to accommodate",
+      "applies_to": "All UIPA requests",
+      "implementation_notes": "Modern electronic delivery explicitly contemplated; agencies should provide records in most convenient format for requester when feasible",
+      "request_tips": "Specify format: 'I request these records be provided [by email/for in-person pickup/mailed] as permitted under HRS § 92F-11 request requirements.'"
+    },
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "Right to Know How Personal Information is Used",
+      "statute_citation": "HRS § 92F (individual rights)",
+      "description": "Individuals have the right to know how their personal information is used by government agencies. Agencies must be accountable in collection, use, and dissemination of personal information.",
+      "conditions": "Applies to personal information maintained by agencies; supports data privacy and transparency",
+      "applies_to": "Individuals whose personal information is held by Hawaii agencies",
+      "implementation_notes": "Part of Hawaii's comprehensive privacy framework within UIPA; individuals can inquire about data use practices",
+      "request_tips": "Assert privacy rights: 'Under Hawaii UIPA individual rights provisions, I request information about how your agency collects, uses, and disseminates my personal information.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Independent Oversight Body",
+      "statute_citation": "HRS § 92F-42",
+      "description": "Office of Information Practices (OIP) serves as independent oversight body providing guidance, reviewing denials, and issuing advisory opinions on UIPA compliance. OIP was created specifically to administer UIPA.",
+      "conditions": "OIP available for administrative appeals; provides free expert review; issues binding and advisory opinions",
+      "applies_to": "All UIPA requests and disputes",
+      "implementation_notes": "Unique among states - dedicated professional oversight body with UIPA expertise; accessible at (808) 586-1400 or oip@hawaii.gov",
+      "request_tips": "Reference oversight: 'I may consult the Office of Information Practices under HRS § 92F-42 regarding your handling of this request. OIP provides independent oversight of UIPA compliance.'"
+    },
+    {
+      "category": "Proactive Disclosure",
+      "subcategory": "Meeting Minutes Public Access",
+      "statute_citation": "HRS § 92F-12 (mandatory disclosure categories)",
+      "description": "Meeting minutes are among the 16 categories of records that must be made readily accessible to the public as mandatory disclosures. Agencies must proactively make meeting minutes available.",
+      "conditions": "Applies to all public meeting minutes; mandatory disclosure requirement; must be readily accessible",
+      "applies_to": "All Hawaii public agencies that conduct meetings",
+      "implementation_notes": "Meeting minutes fall under Sunshine Law (HRS Chapter 92) and UIPA mandatory disclosure; requesters can access without formal UIPA request",
+      "request_tips": "Assert mandatory disclosure: 'Meeting minutes are mandatory disclosures under HRS § 92F-12. Please provide immediate access to [specific meeting] minutes as statutorily required.'"
+    },
+    {
+      "category": "Fee Waiver",
+      "subcategory": "Reasonable Fee Standard",
+      "statute_citation": "HRS § 92F (fee provisions)",
+      "description": "Agencies may charge reasonable fees for copying costs, staff time for extensive searches, and administrative costs. Fees must be reasonable and based on actual costs.",
+      "conditions": "Fees must be reasonable; based on actual costs; cannot be used as barrier to access",
+      "applies_to": "All UIPA requests where agency charges fees",
+      "implementation_notes": "Hawaii permits cost recovery but fees must be reasonable; agencies cannot profit from public records or use fees to discourage requests",
+      "request_tips": "Challenge excessive fees: 'Hawaii UIPA permits only reasonable fees based on actual costs. Please provide itemized breakdown justifying these charges as reasonable.'"
     }
   ]
 }

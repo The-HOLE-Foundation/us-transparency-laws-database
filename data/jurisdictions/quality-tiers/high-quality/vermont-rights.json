@@ -1,0 +1,327 @@
+{
+  "jurisdiction": {
+    "name": "Vermont",
+    "slug": "vermont",
+    "type": "state",
+    "transparency_law": "Vermont Public Records Act"
+  },
+  "validation_metadata": {
+    "parsed_date": "2025-10-16",
+    "source_url": "https://legislature.vermont.gov/statutes/chapter/01/005",
+    "verified_by": "Claude Code AI Assistant - Agent 2 (Z→A)",
+    "verification_method": "Complete manual review of 1 V.S.A. §§ 315-320",
+    "statutory_text_file": "statute-full-text.txt"
+  },
+  "rights_of_access": [
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Government as Servant Policy",
+      "statute_citation": "1 V.S.A. § 315(a)",
+      "description": "Vermont declares that government is the servant of the people and not the master. In delegating authority, people do not give public servants the right to decide what is good for them to know. The people's right to know is the key to all their liberties.",
+      "conditions": "No conditions - fundamental constitutional principle",
+      "applies_to": "All persons",
+      "implementation_notes": "This is one of the strongest policy statements in any state, establishing right to know as foundational liberty",
+      "request_tips": "Cite: '1 V.S.A. § 315(a) declares the people's right to know is key to all liberties. You do not have authority to decide what is good for me to know.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Right to Examine and Criticize",
+      "statute_citation": "1 V.S.A. § 315(b)",
+      "description": "Democracy cannot function unless people are permitted to examine the conduct of government business. Officers are trustees and servants. It is in public interest to enable any person to review and criticize government decisions even if examination causes inconvenience or embarrassment.",
+      "conditions": "No conditions - examination permitted even if causes inconvenience or embarrassment",
+      "applies_to": "All persons examining government conduct",
+      "implementation_notes": "Agencies cannot deny based on inconvenience or embarrassment - criticism is explicitly protected purpose",
+      "request_tips": "Assert: '1 V.S.A. § 315(b) enables me to review and criticize government decisions. Inconvenience or embarrassment cannot justify denial.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Presumption All Records Public",
+      "statute_citation": "1 V.S.A. § 315(c)",
+      "description": "All government records are presumptively public records. Exemptions to this presumption shall be construed narrowly. Agencies must overcome strong presumption to withhold.",
+      "conditions": "Presumption applies to all records; exemptions narrowly construed",
+      "applies_to": "All public records",
+      "implementation_notes": "Starting point is always public access - agencies bear burden to prove exemption applies",
+      "request_tips": "State: '1 V.S.A. § 315(c) presumes all records are public. You bear burden to prove specific exemption applies.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Burden of Proof on Agency",
+      "statute_citation": "1 V.S.A. § 315(d)",
+      "description": "The burden of proof shall be on the public agency to sustain its action in denying access to public records. Requesters do not have to prove entitlement - agencies must prove exemptions apply.",
+      "conditions": "Applies in all denial situations and enforcement proceedings",
+      "applies_to": "All denied requests",
+      "implementation_notes": "This shifts all burden to agency - they must provide evidence, not just assertions, that exemptions apply",
+      "request_tips": "Challenge denials: '1 V.S.A. § 315(d) places burden of proof on your agency. Provide evidence, not assertions, that exemption applies.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Liberal Construction Mandate",
+      "statute_citation": "1 V.S.A. § 315(e)",
+      "description": "The Public Records Act shall be liberally construed to implement the policy of maximum public access. When statutory language is ambiguous, interpretation must favor disclosure.",
+      "conditions": "Applies to all statutory interpretation questions",
+      "applies_to": "All public records determinations",
+      "implementation_notes": "Courts must resolve all doubts in favor of access - exemptions cannot be broadly interpreted",
+      "request_tips": "Argue: '1 V.S.A. § 315(e) mandates liberal construction. Resolve any ambiguity in favor of disclosure.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Constitutional Foundation",
+      "statute_citation": "1 V.S.A. § 315",
+      "description": "Vermont's public records law implements Vermont Constitution Chapter I, Article 6, providing constitutional foundation for access rights. This elevates access to constitutional status.",
+      "conditions": "No conditions - constitutional right",
+      "applies_to": "All persons under Vermont Constitution",
+      "implementation_notes": "Constitutional grounding means access rights have higher protection than ordinary statutory rights",
+      "request_tips": "Assert: '1 V.S.A. § 315 implements Vermont Constitution Article 6. This is a constitutional right, not merely statutory.'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Right to Inspect",
+      "statute_citation": "1 V.S.A. § 316",
+      "description": "Any person may inspect public records at reasonable times. Agencies must allow examination of records during prescribed access hours.",
+      "conditions": "Must be at reasonable times; during prescribed hours; agency may supervise",
+      "applies_to": "All persons",
+      "implementation_notes": "State agencies: weekdays 9 AM-12 PM and 1-4 PM. Local agencies: customary business hours.",
+      "request_tips": "Request: '1 V.S.A. § 316 grants right to inspect records during [specify hours for state/local]. Please schedule inspection.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "3 Business Day Response",
+      "statute_citation": "1 V.S.A. § 316",
+      "description": "Records must be produced for inspection within 3 business days of receipt of request, or certification that record is exempt must be made within 3 business days. This is the fastest mandatory response deadline in the nation.",
+      "conditions": "3 business days maximum; must either produce or certify exemption",
+      "applies_to": "All requests",
+      "implementation_notes": "Vermont's 3-day deadline is stricter than most states (typically 5-10 days). Agencies must act very quickly.",
+      "request_tips": "After 3 days: '1 V.S.A. § 316 requires production or exemption certification within 3 business days. Today is day [X]. Respond immediately.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Exemption Certification Requirement",
+      "statute_citation": "1 V.S.A. § 316",
+      "description": "If denying based on exemption, agency must provide certification within 3 business days. Cannot simply delay or ignore - must affirmatively certify exemption applies.",
+      "conditions": "Must be within 3 business days; certification required for denials",
+      "applies_to": "All denials based on exemptions",
+      "implementation_notes": "Certification must be formal document stating exemption basis - oral or informal denials insufficient",
+      "request_tips": "Demand: '1 V.S.A. § 316 requires exemption certification within 3 days. Provide written certification citing specific exemption.'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Prescribed Access Hours",
+      "statute_citation": "1 V.S.A. § 316",
+      "description": "State agencies must provide access between 9:00 AM - 12:00 PM and 1:00 PM - 4:00 PM on any day except weekends and legal holidays. Political subdivisions must provide access during customary business hours.",
+      "conditions": "State agencies: 9-12 and 1-4, weekdays; Local: customary hours",
+      "applies_to": "All in-person inspection requests",
+      "implementation_notes": "These are minimum hours - agencies cannot restrict to narrower windows without justification",
+      "request_tips": "Request: '1 V.S.A. § 316 requires access during [9-12 and 1-4 for state / customary hours for local]. I request inspection during these hours.'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Reasonable Rules to Prevent Disruption",
+      "statute_citation": "1 V.S.A. § 316",
+      "description": "Agencies may make reasonable rules concerning access to prevent disruption of operations, ensure security, and prevent damage to records. However, rules cannot be used as pretext to deny access.",
+      "conditions": "Rules must be reasonable; cannot prevent access; must protect records and operations",
+      "applies_to": "All inspection requests",
+      "implementation_notes": "Supervision during inspection, no removal of originals, scheduled appointments - all may be reasonable. But cannot make access impractical.",
+      "request_tips": "Acknowledge: '1 V.S.A. § 316 permits reasonable rules. I will comply with all reasonable measures protecting records and operations during inspection.'"
+    },
+    {
+      "category": "Fee Waiver/Limits",
+      "subcategory": "Actual Cost Copying Fees",
+      "statute_citation": "1 V.S.A. § 316",
+      "description": "Agencies may charge actual copying costs for photocopies or electronic format copies. Fees must be actual costs, not marked up or padded with overhead.",
+      "conditions": "Must be actual costs only; reasonable and customary rates",
+      "applies_to": "All copy requests",
+      "implementation_notes": "Standard photocopying typically $0.15-0.25 per page in Vermont. Electronic copies should be minimal or free.",
+      "request_tips": "Challenge excessive fees: '1 V.S.A. § 316 limits fees to actual costs. Provide breakdown showing actual reproduction expenses.'"
+    },
+    {
+      "category": "Fee Waiver/Limits",
+      "subcategory": "30-Minute Free Search Threshold",
+      "statute_citation": "1 V.S.A. § 316",
+      "description": "Agencies may charge for staff time only if the request exceeds 30 minutes of processing time. The first 30 minutes of search, review, and preparation is free, protecting requesters from fees for simple requests.",
+      "conditions": "First 30 minutes free; fees only if request exceeds this threshold; must be actual staff time",
+      "applies_to": "All requests",
+      "implementation_notes": "This is a valuable protection - most simple requests take under 30 minutes, making them essentially free except copying costs",
+      "request_tips": "Assert: '1 V.S.A. § 316 provides first 30 minutes free. This straightforward request should require less than 30 minutes. No staff time charges should apply.'"
+    },
+    {
+      "category": "Fee Waiver/Limits",
+      "subcategory": "Mailing Cost Pass-Through Only",
+      "statute_citation": "1 V.S.A. § 316",
+      "description": "Agencies may charge actual mailing or transmission costs to deliver records. These are pass-through costs without markup.",
+      "conditions": "Must be actual mailing/transmission costs; no markup",
+      "applies_to": "Requests requiring mailing or transmission",
+      "implementation_notes": "Postage, courier fees, or electronic transmission costs at actual rate. Request electronic delivery to minimize.",
+      "request_tips": "Request: 'Please deliver electronically to minimize costs. 1 V.S.A. § 316 permits only actual transmission costs.'"
+    },
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "Any Person May Inspect",
+      "statute_citation": "1 V.S.A. § 316",
+      "description": "Any person may inspect public records - no residency, citizenship, age, or identification requirements. Vermont uses the broadest possible language.",
+      "conditions": "No conditions or qualifications",
+      "applies_to": "Any person",
+      "implementation_notes": "Vermont makes no distinction between residents and non-residents, citizens and non-citizens",
+      "request_tips": "If standing questioned: '1 V.S.A. § 316 grants any person the right to inspect. No residency or identification required.'"
+    },
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "No Specific Request Format",
+      "statute_citation": "1 V.S.A. § 316",
+      "description": "No specific format required for making records requests. May be oral or written. Must adequately identify desired records.",
+      "conditions": "Must adequately identify records sought",
+      "applies_to": "All requesters",
+      "implementation_notes": "Written preferred for documentation but not required",
+      "request_tips": "If form demanded: '1 V.S.A. § 316 requires no specific format. This [oral/written/email] request adequately identifies records.'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Electronic Format Option",
+      "statute_citation": "1 V.S.A. § 316",
+      "description": "Agencies must provide copies in standard formats including photocopies or electronic format. Electronic format is explicitly recognized as standard production method.",
+      "conditions": "Electronic format is standard option alongside photocopies",
+      "applies_to": "All copy requests",
+      "implementation_notes": "Electronic delivery should be default for electronic records - no requirement to print and scan",
+      "request_tips": "Request: '1 V.S.A. § 316 includes electronic format as standard. Please provide [records] electronically via email.'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Electronic Records Parity",
+      "statute_citation": "1 V.S.A. § 317",
+      "description": "Public record means any written or recorded information regardless of physical form or characteristics. Electronic records have same status as physical records under Vermont law.",
+      "conditions": "Format-neutral - all recordings treated equally",
+      "applies_to": "All electronically maintained information",
+      "implementation_notes": "Databases, emails, electronic documents all qualify as public records with same access rights",
+      "request_tips": "For electronic data: '1 V.S.A. § 317 treats electronic information as public records regardless of form. Provide electronic records with same access as paper.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Superior Court Enforcement",
+      "statute_citation": "1 V.S.A. § 318",
+      "description": "Any person denied access may apply to superior court for appropriate orders to compel disclosure. No administrative appeals required - direct court access.",
+      "conditions": "Must first be denied by agency; file in superior court",
+      "applies_to": "Any person denied access",
+      "implementation_notes": "Vermont has no administrative appeals - requesters go straight to court for faster resolution",
+      "request_tips": "If denied: '1 V.S.A. § 318 authorizes superior court petition. I will file if access not provided.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Burden of Proof in Litigation",
+      "statute_citation": "1 V.S.A. § 318",
+      "description": "In court proceedings, the burden of proof is on the public agency to sustain its denial. Agencies must prove exemptions apply with specific evidence.",
+      "conditions": "Applies in all enforcement proceedings",
+      "applies_to": "All litigation over denied requests",
+      "implementation_notes": "Agency must present evidence supporting exemption - requester doesn't have to prove records are public",
+      "request_tips": "In litigation: '1 V.S.A. § 318 places burden of proof on your agency. You must prove exemption with evidence, not assertions.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Attorney Fee Recovery",
+      "statute_citation": "1 V.S.A. § 318",
+      "description": "Court may award court costs and attorney's fees to prevailing requesters. This makes litigation financially feasible and incentivizes agency compliance.",
+      "conditions": "Must prevail in enforcement action; fees must be reasonable",
+      "applies_to": "Successful petitioners",
+      "implementation_notes": "Fee recovery is discretionary but commonly awarded to successful requesters",
+      "request_tips": "When considering litigation: '1 V.S.A. § 318 provides for attorney fee recovery. Improper denial may result in you paying my legal costs.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Damages for Willful Violations",
+      "statute_citation": "1 V.S.A. § 318",
+      "description": "Damages may be awarded for willful and knowing violations of access requirements. This provides compensation for requesters harmed by deliberate denials.",
+      "conditions": "Violation must be willful and knowing; damages proved by requester",
+      "applies_to": "Cases involving intentional violations",
+      "implementation_notes": "Willful means deliberate, not merely negligent. Pattern of violations or ignoring clear law supports finding.",
+      "request_tips": "If violation appears intentional: '1 V.S.A. § 318 provides damages for willful violations. I am documenting harm caused by this denial.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Criminal Penalties",
+      "statute_citation": "1 V.S.A. § 319",
+      "description": "Willful and knowing violations of access requirements are subject to criminal penalties as provided by law for violation of statutory duties. This creates serious deterrent against intentional noncompliance.",
+      "conditions": "Violation must be willful and knowing",
+      "applies_to": "Public officials/employees violating access requirements",
+      "implementation_notes": "Criminal penalties apply to deliberate violations, creating strong incentive for compliance",
+      "request_tips": "If deliberate obstruction: '1 V.S.A. § 319 imposes criminal penalties for willful violations. Please ensure compliance.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Severability Protection",
+      "statute_citation": "1 V.S.A. § 320",
+      "description": "If any provision of the Public Records Act is declared invalid, the remainder stays in full force. This ensures maximum access even if specific provisions are challenged.",
+      "conditions": "Applies if any provision invalidated",
+      "applies_to": "All public records law provisions",
+      "implementation_notes": "Even if court strikes down a provision, rest of strong access law remains enforceable",
+      "request_tips": "Note: '1 V.S.A. § 320 ensures remaining access rights stay enforceable even if specific provisions challenged.'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Record Protection During Inspection",
+      "statute_citation": "1 V.S.A. § 316",
+      "description": "Agencies must protect records security and prevent damage during inspection. However, protection measures cannot be used as pretext to deny access entirely.",
+      "conditions": "Protection must be reasonable; cannot prevent access",
+      "applies_to": "All inspection requests",
+      "implementation_notes": "Supervision, no removal of originals, handling requirements - all may be reasonable if they facilitate rather than prevent access",
+      "request_tips": "Acknowledge: '1 V.S.A. § 316 permits reasonable protection measures. I will comply with measures that protect records while allowing inspection.'"
+    },
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "Adequate Identification Standard",
+      "statute_citation": "1 V.S.A. § 316",
+      "description": "Requests must adequately identify desired records. Agencies cannot weaponize specificity requirements - reasonable description is sufficient.",
+      "conditions": "Must adequately identify records; reasonable specificity required",
+      "applies_to": "All requests",
+      "implementation_notes": "Agencies cannot demand perfect precision. Records must be reasonably identifiable from description provided.",
+      "request_tips": "If told not specific enough: '1 V.S.A. § 316 requires adequate identification, not perfect precision. [Describe records] adequately identifies responsive documents.'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "No Agency Equipment Operation",
+      "statute_citation": "1 V.S.A. § 316",
+      "description": "Agencies are not required to allow public to operate agency copying machines. However, agencies must still provide copies - they handle the copying process.",
+      "conditions": "Public may not operate agency equipment; agency provides copying service",
+      "applies_to": "All copy requests",
+      "implementation_notes": "This protects agency equipment while preserving right to copies - agency staff makes copies for you",
+      "request_tips": "Understand: '1 V.S.A. § 316 requires agency to provide copies but I may not operate your equipment. Please make copies for me.'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "No Record Removal",
+      "statute_citation": "1 V.S.A. § 316",
+      "description": "Records generally may not be removed from agency premises during inspection. This protects record integrity while still allowing comprehensive on-site review.",
+      "conditions": "Records remain on premises; copies may be taken off-site",
+      "applies_to": "Inspection requests",
+      "implementation_notes": "Inspect on-site, then request copies of relevant records to take with you",
+      "request_tips": "Acknowledge: '1 V.S.A. § 316 requires records remain on premises. I will inspect on-site and request copies as needed.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Narrow Exemption Construction",
+      "statute_citation": "1 V.S.A. § 315(c), § 317",
+      "description": "Exemptions must be specifically designated by law and construed narrowly. Generic claims of confidentiality or sensitivity without specific statutory authority are insufficient.",
+      "conditions": "Exemption must be specific statute; cannot be implied or generic",
+      "applies_to": "All exemption determinations",
+      "implementation_notes": "Agencies must cite exact statute creating exemption - '§ 317(a)-(d)' or other specific law",
+      "request_tips": "Challenge: '1 V.S.A. §§ 315(c) and 317 require narrow construction of exemptions. Cite specific statutory authority, not general confidentiality.'"
+    },
+    {
+      "category": "Proactive Disclosure",
+      "subcategory": "Hazardous Waste Disclosure",
+      "statute_citation": "1 V.S.A. § 317",
+      "description": "Information about hazardous waste facilities must be made available in substantially the same manner as federal disclosure laws require. This creates affirmative disclosure obligation for environmental information.",
+      "conditions": "Applies to hazardous waste facility information",
+      "applies_to": "Persons seeking environmental/hazardous waste information",
+      "implementation_notes": "Vermont explicitly requires parity with federal environmental disclosure - cannot withhold what federal law would disclose",
+      "request_tips": "For environmental records: '1 V.S.A. § 317 requires hazardous waste information be available consistent with federal disclosure laws. Provide access matching federal standards.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Liberal Construction in Litigation",
+      "statute_citation": "1 V.S.A. § 318",
+      "description": "Courts must apply liberal construction in favor of access when resolving disputes. Judicial interpretation favors disclosure over withholding.",
+      "conditions": "Applies in all court proceedings involving public records",
+      "applies_to": "All enforcement litigation",
+      "implementation_notes": "Judges must resolve ambiguities in favor of requester - agencies cannot get benefit of doubt",
+      "request_tips": "In litigation: '1 V.S.A. § 318 requires liberal construction. Court must resolve doubts in favor of my access rights.'"
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "jurisdiction": {
+    "name": "Kentucky",
+    "slug": "kentucky",
+    "type": "state",
+    "transparency_law": "Kentucky Open Records Act"
+  },
+  "validation_metadata": {
+    "parsed_date": "2025-10-16",
+    "source_url": "https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=37259",
+    "verified_by": "Claude Code AI Assistant - Manual Extraction",
+    "verification_method": "Complete manual review of KRS 61.870-61.884",
+    "statutory_text_file": "statute-full-text.txt"
+  },
+  "rights_of_access": [
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Liberal Policy Declaration",
+      "statute_citation": "KRS 61.871",
+      "description": "The General Assembly declares that free and open examination of public records is in the public interest. Exceptions shall be strictly construed, even though examination may cause inconvenience or embarrassment to public officials.",
+      "conditions": "Policy applies to interpretation of entire act; exemptions strictly construed in favor of disclosure",
+      "applies_to": "All Kentucky Open Records Act interpretations",
+      "implementation_notes": "Strong pro-disclosure policy; inconvenience or embarrassment are NOT grounds for denial; guides courts to construe narrowly against withholding",
+      "request_tips": "Cite policy: 'KRS 61.871 requires strict construction of exemptions in favor of disclosure. Any doubt must be resolved toward openness, even if examination causes inconvenience.'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Right to Examine Public Records",
+      "statute_citation": "KRS 61.870",
+      "description": "All public records are open for inspection by any Kentucky resident unless specifically exempted. Public records include all documentation regardless of physical form or characteristics.",
+      "conditions": "Must be Kentucky resident (broadly defined to include workers, property owners, businesses, journalists); subject to statutory exemptions",
+      "applies_to": "Kentucky residents, workers in Kentucky, Kentucky property owners, registered businesses, news organizations",
+      "implementation_notes": "Broad resident definition - includes non-citizen workers and out-of-state businesses with Kentucky presence; non-residents can request but cannot enforce",
+      "request_tips": "Establish residency: 'As a Kentucky [resident/worker/property owner], I request to inspect [records] under KRS 61.870.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "5-Business-Day Response Deadline",
+      "statute_citation": "KRS 61.880(1)",
+      "description": "Public agencies must determine within 5 business days whether to comply with a request for records. Must provide written notification of decision within this timeframe.",
+      "conditions": "5 business days from receipt; excludes Saturdays, Sundays, and legal holidays; written notification required",
+      "applies_to": "All Kentucky Open Records requests",
+      "implementation_notes": "Quick response requirement; failure to respond within 5 days may constitute denial; written decision creates documentation trail",
+      "request_tips": "Track deadline: 'KRS 61.880(1) requires your written decision within 5 business days from receipt (excluding weekends/holidays). Please confirm receipt date and response deadline.'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Suitable Facilities for Inspection Required",
+      "statute_citation": "KRS 61.872",
+      "description": "Public agencies must make suitable facilities available for inspection of public records during regular office hours. Cannot deny due to lack of facilities.",
+      "conditions": "During regular office hours; facilities must be suitable for examination",
+      "applies_to": "All inspection requests",
+      "implementation_notes": "Agencies must accommodate inspection even if inconvenient; 'no facilities' is not valid denial reason",
+      "request_tips": "Assert facility right: 'KRS 61.872 requires you to provide suitable facilities for inspection during office hours. When can I schedule an inspection?'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Redacted Copies for Partial Exemptions",
+      "statute_citation": "KRS 61.878",
+      "description": "When records contain both exempt and non-exempt information, agencies are required to provide redacted copies with exempt portions removed. Cannot withhold entire document.",
+      "conditions": "Applies when records are partially exempt; must separate exempt from non-exempt; provide non-exempt portions",
+      "applies_to": "All requests where records contain mixed content",
+      "implementation_notes": "Agencies must redact rather than wholesale withhold; segregability is mandatory not optional",
+      "request_tips": "Demand segregable portions: 'KRS 61.878 requires you to provide redacted copies with only exempt portions removed. Please provide non-exempt portions with redactions clearly marked.'"
+    },
+    {
+      "category": "Fee Waiver",
+      "subcategory": "No Search Fees for Non-Commercial Use",
+      "statute_citation": "KRS 61.874",
+      "description": "For non-commercial requests, agencies can only charge actual reproduction costs. Cannot charge for staff time to search, retrieve, or review records.",
+      "conditions": "Applies to non-commercial use only; commercial requests may be charged search time; reproduction costs only for non-commercial",
+      "applies_to": "Non-commercial requesters",
+      "implementation_notes": "One of strongest fee protections - non-commercial users pay only copy costs, no hourly charges; significantly cheaper than commercial fees",
+      "request_tips": "Assert non-commercial status: 'My request is non-commercial. Under KRS 61.874, you may charge only reproduction costs, not search or staff time.'"
+    },
+    {
+      "category": "Fee Waiver",
+      "subcategory": "No Sales Tax on Copies",
+      "statute_citation": "KRS 61.874",
+      "description": "Public agencies cannot charge sales tax on copies of public records. Copy fees are limited to actual reproduction costs without tax.",
+      "conditions": "Applies to all copy charges; sales tax specifically prohibited",
+      "applies_to": "All requests involving copies",
+      "implementation_notes": "Prevents agencies from adding sales tax to copy fees; keeps costs minimal",
+      "request_tips": "Challenge tax charges: 'KRS 61.874 prohibits sales tax on public record copies. Please remove sales tax from this fee estimate.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Commercial vs Non-Commercial Distinction",
+      "statute_citation": "KRS 61.874",
+      "description": "Agencies must distinguish between commercial and non-commercial use, with different fee structures. Commercial users can be charged staff time; non-commercial users pay only reproduction costs.",
+      "conditions": "Agencies must determine use type; commercial defined as use for sale, resale, or solicitation; fee structure depends on classification",
+      "applies_to": "All requests - affects fee structure",
+      "implementation_notes": "If uncertain, agency should clarify; non-commercial includes journalism, research, citizen oversight; commercial is narrowly defined",
+      "request_tips": "Clarify use: 'My use is non-commercial [journalism/research/citizen oversight]. Under KRS 61.874, please apply non-commercial fee structure (reproduction costs only).'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Attorney General Administrative Review",
+      "statute_citation": "KRS 61.880(2)",
+      "description": "Requesters may seek review by Kentucky Attorney General within 30 days of denial. AG has 20 days to issue written decision (excluding weekends/holidays). AG decisions are binding unless appealed to court.",
+      "conditions": "Must request AG review within 30 days of denial; AG issues decision within 20 days; decisions available online and have precedential value",
+      "applies_to": "All Kentucky Open Records denials",
+      "implementation_notes": "Strong administrative review - AG decisions are binding unless appealed; creates body of precedent; accessible and free process",
+      "request_tips": "Appeal to AG: 'I will seek Attorney General review under KRS 61.880(2) within 30 days if this denial stands. AG decisions are binding and must be issued within 20 days.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "AG Decision Has Force of Law",
+      "statute_citation": "KRS 61.880(5)",
+      "description": "If Attorney General's decision is not appealed to Circuit Court within 30 days, the decision has the force and effect of law. Creates binding precedent.",
+      "conditions": "30-day appeal deadline is strict; if not appealed, AG decision becomes final and binding",
+      "applies_to": "All AG decisions under Open Records Act",
+      "implementation_notes": "AG decisions effectively have judicial force if not timely appealed; emphasizes importance of AG review process",
+      "request_tips": "Note binding nature: 'If you disagree with AG decision, KRS 61.880(5) requires Circuit Court appeal within 30 days or decision becomes binding law.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Circuit Court De Novo Review",
+      "statute_citation": "KRS 61.882",
+      "description": "Either requester or agency may appeal AG decision to Circuit Court within 30 days. Court determines matter de novo (fresh review) without deference to AG or agency.",
+      "conditions": "Must file within 30 days of AG decision; court conducts independent review; no deference to prior determinations",
+      "applies_to": "Parties aggrieved by AG decisions",
+      "implementation_notes": "De novo standard means court decides afresh; parties get full hearing on merits; can also file original action directly in court bypassing AG",
+      "request_tips": "Note appeal right: 'KRS 61.882 authorizes Circuit Court appeal within 30 days of AG decision with de novo review standard.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Burden of Proof on Agency",
+      "statute_citation": "KRS 61.882",
+      "description": "In Circuit Court proceedings, the burden of proof is on the public agency to establish that exception applies. Requester does not have burden to prove entitlement.",
+      "conditions": "Applies in all judicial proceedings; agency must prove exemption justified; requester need not justify access",
+      "applies_to": "All contested denials in court",
+      "implementation_notes": "Burden-shifting protects requesters - you don't prove you deserve records; agency must prove they can withhold",
+      "request_tips": "In court: 'Under KRS 61.882, your agency bears the burden of proving this exemption applies to these specific records.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Direct Circuit Court Filing Option",
+      "statute_citation": "KRS 61.882",
+      "description": "Requesters may file original action directly in Circuit Court seeking injunctive relief, bypassing Attorney General review entirely if preferred.",
+      "conditions": "Can skip AG review and go straight to court; may file for injunctive or other appropriate relief",
+      "applies_to": "All denied requests where requester prefers judicial review",
+      "implementation_notes": "Provides choice - administrative (AG) or judicial (court) review; some prefer direct court action for binding orders",
+      "request_tips": "Note court option: 'KRS 61.882 authorizes me to file Circuit Court action directly without first seeking AG review if I prefer judicial determination.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Attorney Fees for Prevailing Requesters",
+      "statute_citation": "KRS 61.882",
+      "description": "Courts may award reasonable attorney fees and litigation costs to prevailing requesters who successfully compel disclosure.",
+      "conditions": "Requester must prevail; fees must be reasonable; court discretion",
+      "applies_to": "Successful judicial enforcement actions",
+      "implementation_notes": "Fee-shifting makes enforcement financially viable; agencies risk paying requester's legal costs if denial improper",
+      "request_tips": "Reference fees: 'KRS 61.882 provides for attorney fees if I prevail in compelling disclosure. Please reconsider to avoid potential liability for my legal expenses.'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Strict Construction of Exemptions",
+      "statute_citation": "KRS 61.871",
+      "description": "Exemptions from disclosure shall be strictly construed in favor of access. Agencies cannot broadly interpret exemptions to withhold more than statute explicitly permits.",
+      "conditions": "Applies to all exemption interpretations; strict construction mandatory; ambiguity resolved toward disclosure",
+      "applies_to": "All disputes over exemptions",
+      "implementation_notes": "Strong statutory directive - exemptions are narrow exception to openness rule; courts must strictly limit exemptions",
+      "request_tips": "Challenge broad exemption claims: 'KRS 61.871 requires strict construction of exemptions. Your broad interpretation is contrary to statutory mandate favoring disclosure.'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Broad Definition of Public Records",
+      "statute_citation": "KRS 61.870(2)",
+      "description": "Public records include all documentation regardless of physical form or characteristics - books, papers, maps, photographs, cards, tapes, discs, diskettes, recordings, software, or other documentation.",
+      "conditions": "Format-neutral definition; covers all media types; prepared, owned, used, possessed or retained by agency",
+      "applies_to": "All forms of recorded information",
+      "implementation_notes": "Comprehensive definition ensures electronic records, databases, recordings all covered; agencies cannot deny based on format",
+      "request_tips": "For electronic records: 'KRS 61.870(2) defines public records to include electronic media regardless of characteristics. Please provide access to [database/electronic files].'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "AG Decisions Available Online",
+      "statute_citation": "KRS 61.880",
+      "description": "Attorney General maintains online database of Open Records decisions providing precedential guidance. Past decisions inform future interpretations.",
+      "conditions": "Decisions publicly accessible; searchable database; precedential value for similar situations",
+      "applies_to": "All Open Records disputes - can cite relevant precedent",
+      "implementation_notes": "Rich body of AG opinions available at https://ag.ky.gov/Resources/Open-Records-Decisions; can cite analogous decisions to support your request",
+      "request_tips": "Cite precedent: 'Kentucky AG has previously determined in [cite decision] that similar records must be disclosed. Please follow this precedential guidance.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "20-Day AG Decision Deadline",
+      "statute_citation": "KRS 61.880(2)(a)",
+      "description": "Attorney General must issue written decision within 20 days of receiving appeal request, excluding weekends and holidays. Ensures prompt administrative review.",
+      "conditions": "20 days from receipt of appeal; excludes Saturdays, Sundays, legal holidays; decision must be in writing",
+      "applies_to": "All AG administrative appeals",
+      "implementation_notes": "Quick turnaround for administrative review; prevents prolonged uncertainty; if AG doesn't respond, can proceed to court",
+      "request_tips": "Track AG deadline: 'KRS 61.880(2)(a) requires AG decision within 20 days (excluding weekends/holidays). Please process my appeal promptly.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "30-Day Appeal Deadline is Strict",
+      "statute_citation": "KRS 61.880(5)",
+      "description": "Appeals to Circuit Court must be filed within 30 days of AG decision. This deadline is strictly enforced - late appeals are dismissed. If not appealed, AG decision becomes law.",
+      "conditions": "30-day deadline from AG decision; strictly enforced; no extensions; late filing results in dismissal",
+      "applies_to": "Parties appealing AG Open Records decisions",
+      "implementation_notes": "Critical deadline - calendar it immediately upon receiving AG decision; late filing means AG decision stands permanently",
+      "request_tips": "Calendar deadline: 'KRS 61.880(5) imposes strict 30-day deadline to appeal AG decision to Circuit Court. Missing this deadline makes AG decision permanent.'"
+    }
+  ]
+}

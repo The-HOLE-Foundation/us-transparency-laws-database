@@ -1,0 +1,327 @@
+{
+  "jurisdiction": {
+    "name": "West Virginia",
+    "slug": "west-virginia",
+    "type": "state",
+    "transparency_law": "West Virginia Freedom of Information Act"
+  },
+  "validation_metadata": {
+    "parsed_date": "2025-10-16",
+    "source_url": "https://code.wvlegislature.gov/29B-1/",
+    "verified_by": "Claude Code AI Assistant",
+    "verification_method": "Complete manual review of W.Va. Code § 29B-1-1 et seq.",
+    "statutory_text_file": "statute-full-text.txt"
+  },
+  "rights_of_access": [
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Legislative Policy - Full and Complete Information",
+      "statute_citation": "W.Va. Code § 29B-1-1",
+      "description": "West Virginia declares that all persons are entitled to full and complete information regarding the affairs of government and official acts of public servants. The policy states that in delegating authority, people do not give public servants the right to decide what is good for them to know.",
+      "conditions": "No conditions - fundamental policy applicable to all government information",
+      "applies_to": "All persons",
+      "implementation_notes": "This is one of the strongest policy statements in any state FOIA law, explicitly rejecting government paternalism about information access",
+      "request_tips": "Cite in any request: 'W.Va. Code § 29B-1-1 declares all persons entitled to full and complete information about government affairs. You do not have authority to decide what is good for me to know.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Liberal Construction Mandate",
+      "statute_citation": "W.Va. Code § 29B-1-1",
+      "description": "The FOIA must be liberally construed to carry out the declaration of public policy favoring maximum access. Exemptions cannot be construed or applied to defeat the general policy of access.",
+      "conditions": "Applies to all statutory interpretation questions",
+      "applies_to": "All FOIA determinations",
+      "implementation_notes": "Courts must interpret ambiguous provisions in favor of disclosure; exemptions receive narrow construction",
+      "request_tips": "In disputes, argue: 'W.Va. Code § 29B-1-1 mandates liberal construction favoring access. Exemptions must be narrowly construed and cannot defeat the general policy of disclosure.'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Right to Inspect",
+      "statute_citation": "W.Va. Code § 29B-1-3",
+      "description": "Every person has a right to inspect any public record of a public body, subject only to specific statutory exemptions. This is a fundamental right establishing universal access to government records.",
+      "conditions": "Subject to exemptions in § 29B-1-4 and other express statutory provisions",
+      "applies_to": "Every person - no residency, citizenship, or other qualifications required",
+      "implementation_notes": "Inspection is free and cannot be conditioned on fees or prepayment",
+      "request_tips": "Assert: 'W.Va. Code § 29B-1-3 grants every person the right to inspect public records. I request to inspect [records] at no charge.'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Right to Copy",
+      "statute_citation": "W.Va. Code § 29B-1-3",
+      "description": "Every person has a right to copy any public record of a public body, subject only to specific statutory exemptions. Agencies must provide copies upon request.",
+      "conditions": "Subject to statutory exemptions; requester pays actual reproduction costs",
+      "applies_to": "Every person",
+      "implementation_notes": "Right to copies is separate from inspection - requesters can choose to copy all, part, or none of inspected records",
+      "request_tips": "Request: 'Under W.Va. Code § 29B-1-3, I request copies of [records]. Please provide actual cost estimate for reproduction.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "5 Business Day Response Deadline",
+      "statute_citation": "W.Va. Code § 29B-1-3",
+      "description": "The custodian must respond within 5 business days of receipt of the request. Response must either provide access, advise of time and place for inspection, or deny the request in writing with specific reasons.",
+      "conditions": "5 business days from receipt; response must be substantive (not just acknowledgment)",
+      "applies_to": "All requests",
+      "implementation_notes": "This is one of the fastest mandatory response deadlines in the nation - most states allow 10+ days",
+      "request_tips": "After 5 business days, assert: 'W.Va. Code § 29B-1-3 requires response within 5 business days. Today is day [X]. Please provide records, schedule inspection, or issue written denial immediately.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Written Denial Requirement",
+      "statute_citation": "W.Va. Code § 29B-1-3",
+      "description": "If denying a request, the custodian must provide written denial stating the specific reasons and citing the statutory exemptions. Oral or generic denials are insufficient.",
+      "conditions": "Must be in writing; must state specific reasons; must cite statutory authority",
+      "applies_to": "All denials and partial denials",
+      "implementation_notes": "This ensures denials are documented and legally justified, providing basis for requesters to challenge improper withholdings",
+      "request_tips": "If denied, demand: 'W.Va. Code § 29B-1-3 requires written denial with specific reasons and statutory citations. Please provide detailed written explanation with legal authority.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "Proper and Reasonable Opportunities",
+      "statute_citation": "W.Va. Code § 29B-1-3",
+      "description": "Custodians must furnish proper and reasonable opportunities for inspection and examination of records. Agencies cannot create unnecessary barriers or make access impractical.",
+      "conditions": "Opportunities must be proper and reasonable given circumstances",
+      "applies_to": "All inspection requests",
+      "implementation_notes": "This requires agencies to accommodate requesters with reasonable access times, adequate facilities, and helpful procedures",
+      "request_tips": "If access is difficult, cite: 'W.Va. Code § 29B-1-3 requires proper and reasonable opportunities for inspection. [Explain why proposed access is inadequate and request accommodation.]'"
+    },
+    {
+      "category": "Fee Waiver/Limits",
+      "subcategory": "No Search or Retrieval Fees",
+      "statute_citation": "W.Va. Code § 29B-1-3",
+      "description": "Public bodies are explicitly prohibited from charging search or retrieval fees. This is stated as an absolute prohibition in the statute.",
+      "conditions": "No conditions - search/retrieval fees are categorically prohibited",
+      "applies_to": "All requests",
+      "implementation_notes": "This is one of the strongest fee limitations in any state - agencies cannot charge for staff time to locate or gather records, regardless of complexity",
+      "request_tips": "If search fees charged, object: 'W.Va. Code § 29B-1-3 explicitly states public bodies may not charge search or retrieval fees. Please remove these charges.'"
+    },
+    {
+      "category": "Fee Waiver/Limits",
+      "subcategory": "Actual Cost Maximum",
+      "statute_citation": "W.Va. Code § 29B-1-3",
+      "description": "Fees for reproducing public records must be reasonable and cannot exceed the actual cost to the public body. No markup, administrative overhead, or profit is permitted.",
+      "conditions": "Fees must be actual reproduction costs only",
+      "applies_to": "All copying requests",
+      "implementation_notes": "Standard photocopying typically $0.15-0.25 per page. Other formats at actual cost. No labor costs except actual reproduction time.",
+      "request_tips": "Challenge excessive fees: 'W.Va. Code § 29B-1-3 limits fees to actual costs. Please provide itemized breakdown showing actual reproduction expenses, not administrative overhead.'"
+    },
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "Broad Requester Definition",
+      "statute_citation": "W.Va. Code § 29B-1-3",
+      "description": "Every person has the right to inspect or copy records. The statute uses the broadest possible language without limitations based on residency, citizenship, or any other qualification.",
+      "conditions": "No conditions or qualifications on who counts as a 'person'",
+      "applies_to": "Every person without restriction",
+      "implementation_notes": "West Virginia makes no distinction between residents and non-residents, citizens and non-citizens, or any other category",
+      "request_tips": "If standing questioned, assert: 'W.Va. Code § 29B-1-3 grants every person the right to access public records without qualification.'"
+    },
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "Oral or Written Requests Permitted",
+      "statute_citation": "W.Va. Code § 29B-1-3",
+      "description": "Requests may be made orally or in writing. While written requests are recommended, agencies cannot refuse oral requests that adequately describe the records sought.",
+      "conditions": "Request must state with reasonable specificity the information sought",
+      "applies_to": "All requesters",
+      "implementation_notes": "Written requests are recommended for documentation but not required - phone or in-person oral requests must be honored",
+      "request_tips": "If agency demands written request, state: 'W.Va. Code § 29B-1-3 permits oral requests. I am making this request [orally/by phone] as the statute allows.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Record Destruction Prohibition During Pending Request",
+      "statute_citation": "W.Va. Code § 29B-1-5",
+      "description": "Records cannot be destroyed while subject to a FOIA request. This protects records from destruction after request is made, ensuring they remain available during the access process.",
+      "conditions": "Protection applies while request is pending",
+      "applies_to": "All records subject to FOIA requests",
+      "implementation_notes": "Once you submit a request, those records cannot be destroyed under normal retention schedules until request is resolved",
+      "request_tips": "State in request: 'This request triggers record preservation under W.Va. Code § 29B-1-5. Do not destroy any responsive records while this request is pending.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Circuit Court Enforcement",
+      "statute_citation": "W.Va. Code § 29B-1-5",
+      "description": "Any person denied access may petition the circuit court for an order compelling production. FOIA proceedings are given priority on the court calendar for expedited resolution.",
+      "conditions": "Must first be denied access by custodian",
+      "applies_to": "Any person denied access",
+      "implementation_notes": "West Virginia provides direct court access without requiring administrative appeals first - faster path to judicial resolution",
+      "request_tips": "If denied, notify: 'W.Va. Code § 29B-1-5 authorizes circuit court petition with priority calendar placement. I will file if access is not provided.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Attorney Fee Recovery",
+      "statute_citation": "W.Va. Code § 29B-1-5",
+      "description": "The court may award reasonable attorney fees, costs, and expenses to substantially prevailing petitioners. Public bodies found to have unreasonably denied access are liable for requester's legal fees.",
+      "conditions": "Requester must substantially prevail; fees must be reasonable and necessary",
+      "applies_to": "Successful petitioners in FOIA enforcement actions",
+      "implementation_notes": "Attorney fee recovery makes litigation financially feasible for requesters and incentivizes agencies to comply rather than defend improper denials",
+      "request_tips": "When considering litigation, note: 'W.Va. Code § 29B-1-5 provides for attorney fee recovery if I substantially prevail. Unreasonable denial will result in you paying my legal costs.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "In Camera Review",
+      "statute_citation": "W.Va. Code § 29B-1-5",
+      "description": "Courts may examine records in camera (privately in chambers) to determine whether exemptions apply. This allows independent judicial verification of agency exemption claims.",
+      "conditions": "Available in FOIA enforcement proceedings",
+      "applies_to": "Disputed records in litigation",
+      "implementation_notes": "In camera review prevents agencies from withholding records based solely on their assertions without judicial verification",
+      "request_tips": "In litigation, request: 'Please conduct in camera examination of disputed records as authorized by W.Va. Code § 29B-1-5 to independently verify exemption claims.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Burden of Proof on Public Body",
+      "statute_citation": "W.Va. Code § 29B-1-5",
+      "description": "In enforcement proceedings, the public body bears the burden of justifying denial of access. Requesters do not have to prove entitlement - agencies must prove exemptions apply.",
+      "conditions": "Applies in all judicial proceedings",
+      "applies_to": "All enforcement actions",
+      "implementation_notes": "This shifts litigation burden to the agency - they must provide evidence that exemptions apply, not just assert them",
+      "request_tips": "In disputes, state: 'Under W.Va. Code § 29B-1-5, you bear the burden of proving exemption applies. Provide specific evidence, not assertions.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Penalties for Willful Violations",
+      "statute_citation": "W.Va. Code § 29B-1-5",
+      "description": "Willful violations of FOIA may result in removal from office, criminal penalties for record destruction, and civil liability for damages. These penalties deter noncompliance.",
+      "conditions": "Violation must be willful for criminal penalties; civil liability for improper denials",
+      "applies_to": "Public officials and employees violating FOIA",
+      "implementation_notes": "This creates serious consequences for intentional FOIA violations, encouraging compliance",
+      "request_tips": "If deliberate obstruction suspected, note: 'W.Va. Code § 29B-1-5 provides penalties including removal from office for willful FOIA violations. Please ensure compliance.'"
+    },
+    {
+      "category": "Proactive Disclosure",
+      "subcategory": "FOIA Request Database",
+      "statute_citation": "W.Va. Code § 29B-1-3A",
+      "description": "Since January 2016, the Secretary of State maintains a publicly accessible online database of FOIA requests, including the nature of requests, responses, timeframes, and fees charged. This database is searchable by the public.",
+      "conditions": "Database maintained by Secretary of State; updated by public bodies",
+      "applies_to": "All FOIA requests to reporting agencies",
+      "implementation_notes": "Requesters can search erls.wvsos.gov/FOIA_Database/Search to see how similar requests were handled and what fees were charged",
+      "request_tips": "Research similar requests: 'W.Va. Code § 29B-1-3A requires reporting to Secretary of State database. I reviewed similar requests at erls.wvsos.gov and request comparable treatment.'"
+    },
+    {
+      "category": "Proactive Disclosure",
+      "subcategory": "Access Procedure Notice Requirement",
+      "statute_citation": "W.Va. Code § 29B-1-3",
+      "description": "Each public body must adopt and post for public inspection a notice describing its organization, established times and places for access, methods for requesting records, and the officers or employees responsible for records.",
+      "conditions": "Must post whenever feasible",
+      "applies_to": "All public bodies",
+      "implementation_notes": "This notice should explain how to submit requests, where to find records, and who to contact",
+      "request_tips": "If unclear how to request, ask: 'W.Va. Code § 29B-1-3 requires posting of access procedures. Please provide this notice showing how to request records from your agency.'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Electronic Records Have Same Status",
+      "statute_citation": "W.Va. Code § 29B-1-2",
+      "description": "The definition of public record explicitly includes electronic information and data. Electronic records have identical status to physical records and are subject to the same access requirements.",
+      "conditions": "No conditions - electronic records are public records",
+      "applies_to": "All electronically maintained information",
+      "implementation_notes": "Agencies cannot claim electronic format makes records inaccessible or exempt",
+      "request_tips": "For electronic data, assert: 'W.Va. Code § 29B-1-2 defines public records to include electronic data. Electronic records must be provided with same access as paper records.'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Requester May Specify Format",
+      "statute_citation": "W.Va. Code § 29B-1-5",
+      "description": "If electronic records are readily available in a specific format, the requester may specify the format of production. Agencies must accommodate if the format is already maintained.",
+      "conditions": "Format must be readily available; agency not required to create new formats",
+      "applies_to": "Electronic records maintained in requested format",
+      "implementation_notes": "If agency maintains data in Excel, you can request Excel. If in PDF, request PDF. They don't have to convert between formats.",
+      "request_tips": "Request: 'Please provide these electronic records in [native format]. W.Va. Code permits me to specify format if readily available.'"
+    },
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "Reasonable Specificity Standard",
+      "statute_citation": "W.Va. Code § 29B-1-3",
+      "description": "Requests must state with reasonable specificity the information sought, but specificity requirements cannot be weaponized to deny access. Reasonable description of records is sufficient.",
+      "conditions": "Request must reasonably describe records sought",
+      "applies_to": "All requests",
+      "implementation_notes": "Agencies cannot demand overly narrow descriptions or reject requests as 'not specific enough' when records are reasonably identifiable",
+      "request_tips": "If told request not specific enough, respond: 'W.Va. Code § 29B-1-3 requires reasonable specificity, not perfect precision. [Describe records] is reasonably specific to identify responsive documents.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Attorney General Advisory Opinions",
+      "statute_citation": "W.Va. Code § 29B-1-5",
+      "description": "State and local agencies may request Attorney General opinions on FOIA issues. While not binding, these opinions provide persuasive authority on statutory interpretation.",
+      "conditions": "Available to public bodies; opinions are advisory, not binding",
+      "applies_to": "Public bodies seeking guidance on complex FOIA questions",
+      "implementation_notes": "Requesters can cite AG opinions in support of their positions, and agencies often follow AG guidance even though not legally bound",
+      "request_tips": "If precedent exists, cite: 'The Attorney General has opined that [cite opinion]. W.Va. Code § 29B-1-5 provides for AG guidance on FOIA matters.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "No People's Right to Decide Defense",
+      "statute_citation": "W.Va. Code § 29B-1-1",
+      "description": "The statute explicitly states that people, in delegating authority to government, do not give public servants the right to decide what is good for the people to know. This rejects paternalistic withholding of information.",
+      "conditions": "No conditions - applies to all government information decisions",
+      "applies_to": "All public bodies and their discretionary determinations",
+      "implementation_notes": "Agencies cannot withhold information on grounds that disclosure would be harmful, confusing, or against public interest unless specific exemption applies",
+      "request_tips": "If agency claims discretion to withhold, cite: 'W.Va. Code § 29B-1-1 explicitly rejects government's right to decide what is good for people to know. Specific statutory exemption required for denial.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Segregation of Exempt Material",
+      "statute_citation": "W.Va. Code § 29B-1-5 (judicial interpretation)",
+      "description": "When records contain both exempt and non-exempt information, agencies must segregate and produce non-exempt portions. Partial exemptions do not justify withholding entire documents.",
+      "conditions": "Segregation must be feasible; exempt portions redacted",
+      "applies_to": "Records with mixed exempt/non-exempt content",
+      "implementation_notes": "Agencies must perform redaction analysis and provide maximum possible disclosure, not take all-or-nothing approach",
+      "request_tips": "Assert: 'Even if portions are exempt, you must segregate and provide non-exempt portions. Partial exemptions do not justify complete withholding.'"
+    },
+    {
+      "category": "Proactive Disclosure",
+      "subcategory": "Open Meetings - Public Presumption",
+      "statute_citation": "W.Va. Code § 29B-1-6",
+      "description": "All meetings of public bodies are presumed open to the public. Agencies must provide public notice and keep minutes that are made available as public records.",
+      "conditions": "Meeting must be of a public body; closed sessions require specific exemption and procedures",
+      "applies_to": "All meetings of governmental bodies",
+      "implementation_notes": "Meeting minutes, agendas, and notices are public records accessible under FOIA",
+      "request_tips": "Request: 'W.Va. Code § 29B-1-6 presumes meetings are open and requires minutes. Please provide all meeting minutes and agendas for [time period].'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Void Actions for Improper Closed Meetings",
+      "statute_citation": "W.Va. Code § 29B-1-6",
+      "description": "Courts may void actions taken in improperly closed meetings. This provides powerful remedy for violations of open meetings requirements.",
+      "conditions": "Meeting must have been improperly closed in violation of statute",
+      "applies_to": "Actions taken in meetings closed without proper exemption authority",
+      "implementation_notes": "This gives requesters leverage to challenge secret government decision-making - improper closure can invalidate resulting actions",
+      "request_tips": "If improper closure suspected, assert: 'W.Va. Code § 29B-1-6 authorizes courts to void actions from improperly closed meetings. Please confirm this meeting complied with open meetings requirements.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Exemptions Narrowly Construed",
+      "statute_citation": "W.Va. Code § 29B-1-1",
+      "description": "Exemptions from disclosure may not be construed or applied so as to defeat the general policy of maximum access. When exemption applicability is unclear, interpretation must favor disclosure.",
+      "conditions": "Applies to all exemption determinations",
+      "applies_to": "All partial or complete denials based on exemptions",
+      "implementation_notes": "Courts must read exemptions narrowly - when statute is ambiguous, access must be granted",
+      "request_tips": "Challenge broad exemption claims: 'W.Va. Code § 29B-1-1 requires narrow construction of exemptions. Your interpretation is overly broad and defeats the statute's policy of maximum access.'"
+    },
+    {
+      "category": "Fee Waiver/Limits",
+      "subcategory": "Free Inspection - No Prepayment",
+      "statute_citation": "W.Va. Code § 29B-1-3",
+      "description": "Combined with prohibition on inspection fees and prohibition on prepayment for inspection, requesters can inspect any volume of records without any financial barrier whatsoever.",
+      "conditions": "Inspection only - copying fees may apply if copies requested",
+      "applies_to": "All inspection requests",
+      "implementation_notes": "West Virginia creates zero-cost access for inspection - requesters can review unlimited records on-site without payment",
+      "request_tips": "Assert: 'W.Va. Code § 29B-1-3 prohibits both inspection fees and prepayment requirements for inspection. I request to inspect [any volume of records] at no cost.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Civil Damages for Improper Denial",
+      "statute_citation": "W.Va. Code § 29B-1-5",
+      "description": "Public bodies face civil liability for damages caused by improper denial of access. This provides compensation for requesters harmed by wrongful withholding.",
+      "conditions": "Denial must be improper; requester must prove damages",
+      "applies_to": "Requesters harmed by improper denials",
+      "implementation_notes": "Damages can include lost opportunities, litigation costs, and other harms resulting from wrongful denial",
+      "request_tips": "If harm from denial, note: 'W.Va. Code § 29B-1-5 provides civil liability for improper denials. I am documenting damages caused by this denial.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Criminal Penalties for Record Destruction",
+      "statute_citation": "W.Va. Code § 29B-1-5",
+      "description": "Willful destruction of public records to avoid disclosure is a criminal offense. This creates serious consequences for destruction of records to thwart FOIA requests.",
+      "conditions": "Destruction must be willful and for purpose of avoiding disclosure",
+      "applies_to": "Public officials and employees who destroy records",
+      "implementation_notes": "This prevents agencies from destroying evidence of wrongdoing or embarrassing information after receiving requests",
+      "request_tips": "If destruction suspected, warn: 'W.Va. Code § 29B-1-5 makes willful destruction to avoid disclosure a criminal offense. Please preserve all responsive records.'"
+    }
+  ]
+}

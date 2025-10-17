@@ -152,6 +152,26 @@
       "applies_to": "All Arkansas FOIA interpretations and applications",
       "implementation_notes": "This policy declaration guides courts to interpret FOIA liberally in favor of disclosure; any ambiguities resolved toward access",
       "request_tips": "Cite legislative purpose: 'Ark. Code Ann. § 25-19-103 establishes that Arkansas FOIA must be liberally construed to advance transparency. Any doubt should be resolved in favor of disclosure.'"
+    },
+    {
+      "category": "Proactive Disclosure",
+      "subcategory": "Open Meetings Requirement",
+      "statute_citation": "Ark. Code Ann. § 25-19-106(a)",
+      "description": "All meetings of a quorum of any governing body of any public agency, board, commission, or political subdivision supported wholly or in part by public funds, at which public business is discussed or action is taken, are declared to be public meetings open to the public at all times. No binding action unless taken at open meeting.",
+      "conditions": "Requires quorum of governing body; must involve public business discussion or action; some exceptions for personnel matters",
+      "applies_to": "All governing bodies of public agencies supported by public funds",
+      "implementation_notes": "Actions taken in closed sessions are not binding; this provides transparency into government decision-making process in real-time",
+      "request_tips": "Assert meeting access: 'Under Ark. Code Ann. § 25-19-106(a), this meeting is required to be open to the public. No binding action can be taken in closed session.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Third-Party Review Option",
+      "statute_citation": "Ark. Code Ann. § 25-19-105(g)",
+      "description": "The custodian or the requestor may request that a third party in interest review the public records to determine if inspection is consistent with this chapter. Provides neutral review mechanism.",
+      "conditions": "Either custodian or requestor may invoke; third party must be 'in interest'; reviews for FOIA consistency",
+      "applies_to": "Disputed public records requests",
+      "implementation_notes": "Allows independent third-party review before litigation, potentially resolving disputes without court involvement",
+      "request_tips": "Request neutral review: 'Under Ark. Code Ann. § 25-19-105(g), I request third-party review to determine if your denial is consistent with Arkansas FOIA.'"
     }
   ]
 }

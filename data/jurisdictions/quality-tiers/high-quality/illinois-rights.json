@@ -1,0 +1,188 @@
+{
+  "jurisdiction": {
+    "name": "Illinois",
+    "slug": "illinois",
+    "type": "state",
+    "transparency_law": "Illinois Freedom of Information Act"
+  },
+  "validation_metadata": {
+    "parsed_date": "2025-10-16",
+    "source_url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=85",
+    "verified_by": "Claude Code AI Assistant - Manual Extraction",
+    "verification_method": "Complete manual review of 5 ILCS 140/1 et seq.",
+    "statutory_text_file": "statute-full-text.txt"
+  },
+  "rights_of_access": [
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Presumption of Openness",
+      "statute_citation": "5 ILCS 140/1, 140/3",
+      "description": "It is the public policy of Illinois that all persons are entitled to full and complete information regarding affairs of government. All records in custody of a public body are presumed open to inspection or copying.",
+      "conditions": "Applies unless specifically exempted by statute; burden on agency to justify withholding",
+      "applies_to": "All public records in Illinois",
+      "implementation_notes": "Strong statutory presumption - access is the rule, withholding is the exception requiring justification",
+      "request_tips": "Assert: 'Under 5 ILCS 140/1 and 140/3, Illinois presumes all public records are open. Please provide access pursuant to this statutory presumption.'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Electronic Submission of Requests",
+      "statute_citation": "5 ILCS 140/3",
+      "description": "Requests may be submitted via personal delivery, mail, fax, or email. Public bodies must accept requests through multiple electronic and traditional channels.",
+      "conditions": "No specific form required; multiple submission methods accepted; request must be in writing",
+      "applies_to": "All FOIA requests to Illinois public bodies",
+      "implementation_notes": "Modern accessibility - requesters can use email or fax rather than only mail or in-person delivery",
+      "request_tips": "Submit via preferred method: 'I am submitting this FOIA request by [email/fax/mail] as authorized by 5 ILCS 140/3.'"
+    },
+    {
+      "category": "Requester-Specific Rights",
+      "subcategory": "No Purpose Statement Required",
+      "statute_citation": "5 ILCS 140/3",
+      "description": "Public bodies cannot require requesters to state their purpose for requesting records, except for commercial requests which must include a statement of purpose.",
+      "conditions": "Purpose statement prohibited except for commercial use; no justification needed for non-commercial requests",
+      "applies_to": "Non-commercial FOIA requests",
+      "implementation_notes": "Protects requester privacy and prevents agencies from judging worthiness of request; commercial requests are exception",
+      "request_tips": "If asked for purpose: '5 ILCS 140/3 prohibits requiring a purpose statement except for commercial requests. My request is not commercial, so no purpose statement is required.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "5-Business-Day Response",
+      "statute_citation": "5 ILCS 140/3(c)",
+      "description": "Public bodies must respond to FOIA requests within 5 business days after receipt. Response must either comply with or deny the request, or notify requester of extension.",
+      "conditions": "5 business days from receipt; response required (cannot ignore); must grant, deny, or extend",
+      "applies_to": "All non-commercial Illinois FOIA requests",
+      "implementation_notes": "Business days only; quick turnaround required; failure to respond within 5 days allows deemed denial",
+      "request_tips": "Track deadline: '5 ILCS 140/3(c) requires response within 5 business days from receipt. Please confirm receipt date and expected response date.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "5-Day Extension (Maximum 10 Days Total)",
+      "statute_citation": "5 ILCS 140/3(e)",
+      "description": "Public bodies may extend response time by up to 5 additional business days with written notice to requester explaining reasons for extension. Maximum total response time is 10 business days.",
+      "conditions": "Extension requires written notice; must state reasons for delay; limited to one 5-day extension (total 10 days)",
+      "applies_to": "Requests requiring additional processing time",
+      "implementation_notes": "Extension must be justified - agencies cannot automatically extend; requester must receive written explanation",
+      "request_tips": "If extended: '5 ILCS 140/3(e) permits one 5-day extension with written notice and explanation. Please provide written justification for this delay and confirm 10-day total deadline.'"
+    },
+    {
+      "category": "Fee Waiver",
+      "subcategory": "First 50 Pages Free",
+      "statute_citation": "5 ILCS 140/6(a)",
+      "description": "The first 50 pages of black and white, letter or legal size copies are provided free of charge. This is one of the strongest fee protections in the nation.",
+      "conditions": "Applies to first 50 pages only; must be black and white; letter or legal size; subsequent pages charged at $0.15 each",
+      "applies_to": "All Illinois FOIA requests",
+      "implementation_notes": "Virtually all small/medium requests are completely free; eliminates cost barrier for typical citizen requests",
+      "request_tips": "Assert free copies: '5 ILCS 140/6(a) provides the first 50 pages free of charge. There should be no fee for this request [if 50 pages or less].'"
+    },
+    {
+      "category": "Fee Waiver",
+      "subcategory": "15¢ Per Page Maximum (After Free 50)",
+      "statute_citation": "5 ILCS 140/6(a)",
+      "description": "After the free first 50 pages, additional black and white copies are charged at $0.15 per page maximum. This caps fees for larger requests.",
+      "conditions": "Applies to pages 51+; black and white only; letter or legal size; actual cost for color or non-standard sizes",
+      "applies_to": "Requests exceeding 50 pages",
+      "implementation_notes": "For 100-page request: pages 1-50 free + pages 51-100 at $0.15 = $7.50 total. Very affordable even for large requests.",
+      "request_tips": "For large requests: 'Under 5 ILCS 140/6(a), pages 51+ are capped at 15¢ each. My estimated cost is [calculate based on 50 free + $0.15 per additional page].'"
+    }
+,
+    {
+      "category": "Technology Rights",
+      "subcategory": "Electronic Format Right",
+      "statute_citation": "5 ILCS 140/6(b)",
+      "description": "Public bodies must provide records in electronic format when requested. Electronic records provided at actual cost of medium (typically minimal).",
+      "conditions": "Requester must request electronic format; fee limited to actual cost of medium (CD, USB, email, etc.)",
+      "applies_to": "Public records maintained or producible electronically",
+      "implementation_notes": "Electronic delivery should be cheapest option; agencies must accommodate electronic format requests",
+      "request_tips": "Request electronic: 'Under 5 ILCS 140/6(b), please provide these records in electronic format [PDF/Excel/native format] at actual cost of medium.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Public Access Counselor Administrative Appeal",
+      "statute_citation": "5 ILCS 140/9.5, 140/11",
+      "description": "Requesters may seek review by the Public Access Counselor (PAC) within 60 days of denial. PAC is independent position in Attorney General's office providing binding determinations on FOIA disputes.",
+      "conditions": "Must file within 60 days of denial; PAC provides binding review (with limited exceptions); free administrative process",
+      "applies_to": "All Illinois FOIA denials",
+      "implementation_notes": "Unique oversight - Illinois PAC issues binding decisions, not just advisory opinions; accessible at 1-877-299-FOIA",
+      "request_tips": "Appeal to PAC: 'I will seek review by the Public Access Counselor under 5 ILCS 140/9.5 if this denial is not reconsidered. PAC provides binding determinations.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Attorney Fees",
+      "statute_citation": "5 ILCS 140/11(i)",
+      "description": "Court may award reasonable attorney's fees and costs to prevailing requesters in FOIA litigation. Makes judicial enforcement financially viable.",
+      "conditions": "Requester must prevail in court action; fees and costs must be reasonable; court discretion",
+      "applies_to": "Prevailing parties in Illinois FOIA litigation",
+      "implementation_notes": "Fee-shifting provision encourages compliance and makes enforcement accessible; agencies risk paying requester's legal costs if they lose",
+      "request_tips": "Warn of fees: '5 ILCS 140/11(i) provides for attorney fees and costs if I prevail in court. Please reconsider to avoid potential liability for my legal expenses.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Civil Penalties",
+      "statute_citation": "5 ILCS 140/11(j)",
+      "description": "Public bodies that willfully and intentionally violate FOIA may be subject to civil penalties ranging from $2,500 to $5,000 per violation.",
+      "conditions": "Violation must be willful and intentional; penalties per violation; imposed by court; PAC may recommend penalties",
+      "applies_to": "Public bodies that deliberately violate FOIA",
+      "implementation_notes": "Significant penalties discourage intentional violations; multiple violations can result in substantial cumulative penalties",
+      "request_tips": "Reference penalties: '5 ILCS 140/11(j) imposes civil penalties up to $5,000 for willful FOIA violations. Please ensure compliance.'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Segregable Portions Requirement",
+      "statute_citation": "5 ILCS 140/7(2)",
+      "description": "When records contain both exempt and non-exempt information, agencies must redact exempt portions and provide access to remaining non-exempt information.",
+      "conditions": "Applies when records are partially exempt; requires redaction of only exempt portions; non-exempt parts must be disclosed",
+      "applies_to": "All requests where records contain mixed content",
+      "implementation_notes": "Agencies cannot withhold entire document because one paragraph is exempt; must separate and disclose public portions",
+      "request_tips": "Demand segregable portions: '5 ILCS 140/7(2) requires redaction and disclosure of non-exempt portions. Please provide redacted records showing what specific information is being withheld.'"
+    },
+    {
+      "category": "Proactive Disclosure",
+      "subcategory": "Meeting Recordings Access",
+      "statute_citation": "5 ILCS 140/ (meeting records provisions)",
+      "description": "Audio recordings of open meetings must be made available to the public. Meeting minutes and recordings are subject to FOIA.",
+      "conditions": "Applies to recordings of open public meetings; subject to standard FOIA procedures",
+      "applies_to": "Public meetings of Illinois public bodies",
+      "implementation_notes": "Meeting transparency - recordings provide verbatim record of government decision-making; complements Open Meetings Act",
+      "request_tips": "Request meeting records: 'Please provide audio recordings and minutes of [specific meeting] as public records under Illinois FOIA.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Burden of Proof on Agency",
+      "statute_citation": "5 ILCS 140/11",
+      "description": "In administrative and judicial review, the burden is on the public body to demonstrate that requested records are exempt from disclosure.",
+      "conditions": "Applies in PAC review and court proceedings; agency must prove exemption applies; requester need not prove entitlement",
+      "applies_to": "All contested FOIA denials",
+      "implementation_notes": "Burden-shifting removes obstacle for requesters - you don't have to prove you deserve records; agency must prove they can withhold",
+      "request_tips": "Challenge denial: 'Under 5 ILCS 140/11, your agency bears the burden of proving these records are exempt. Please provide detailed legal justification.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "21-Day Response for Commercial Requests",
+      "statute_citation": "5 ILCS 140/3.1",
+      "description": "For commercial requests, public bodies must respond within 21 working days. May extend up to additional 10 business days with notice.",
+      "conditions": "Applies only to commercial requests; 21 working days (longer than standard 5 days); 10-day extension available; commercial requester must state purpose",
+      "applies_to": "FOIA requests for commercial purposes",
+      "implementation_notes": "Separate timeline for commercial use; allows agencies more time for commercial requests that may be more burdensome",
+      "request_tips": "For commercial requests: '5 ILCS 140/3.1 provides 21 working days for commercial request response. Please respond within this statutory timeline.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Contact Information Right",
+      "statute_citation": "5 ILCS 140/3.5",
+      "description": "Each public body must designate one or more officials or employees to receive FOIA requests and must publicly display contact information for Freedom of Information officers.",
+      "conditions": "Contact information must be publicly available; designated FOIA officers required; ensures requesters know where to submit requests",
+      "applies_to": "All Illinois public bodies",
+      "implementation_notes": "Creates accountability and accessibility - requesters can easily identify proper contact for FOIA requests",
+      "request_tips": "If unclear who to contact: 'Please provide contact information for your FOIA officer as required by 5 ILCS 140/3.5.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Immediate Disclosure Orders",
+      "statute_citation": "5 ILCS 140/11",
+      "description": "Courts may order immediate disclosure of wrongfully withheld records and may enjoin public bodies from withholding public records.",
+      "conditions": "Available when court finds improper withholding; court can compel prompt production; injunctive relief available",
+      "applies_to": "Improperly denied records in litigation",
+      "implementation_notes": "Courts have authority to order immediate compliance rather than allowing prolonged withholding during appeals",
+      "request_tips": "In court: 'Request immediate disclosure order under 5 ILCS 140/11 if court finds records were improperly withheld.'"
+    }
+  ]
+}

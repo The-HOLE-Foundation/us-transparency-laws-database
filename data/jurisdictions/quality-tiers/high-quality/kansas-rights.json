@@ -1,0 +1,177 @@
+{
+  "jurisdiction": {
+    "name": "Kansas",
+    "slug": "kansas",
+    "type": "state",
+    "transparency_law": "Kansas Open Records Act (KORA)"
+  },
+  "validation_metadata": {
+    "parsed_date": "2025-10-16",
+    "source_url": "http://www.kslegislature.org/li/b2025_26/statute/045_000_0000_chapter/045_002_0000_article/045_002_0015_section/045_002_0015_k/",
+    "verified_by": "Claude Code AI Assistant - Manual Extraction",
+    "verification_method": "Complete manual review of K.S.A. 45-215 through 45-223",
+    "statutory_text_file": "statute-full-text.txt"
+  },
+  "rights_of_access": [
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Liberal Construction Mandate",
+      "statute_citation": "K.S.A. 45-216(a)",
+      "description": "It is the public policy of Kansas that public records shall be open for inspection by any person. This act shall be liberally construed and applied to promote such policy.",
+      "conditions": "Applies to interpretation of entire act; mandates broad construction favoring access",
+      "applies_to": "All KORA interpretations",
+      "implementation_notes": "Strong directive to courts and agencies - doubt resolved in favor of disclosure; one of strongest liberal construction provisions nationally",
+      "request_tips": "Cite policy: 'K.S.A. 45-216(a) requires liberal construction of KORA to promote openness. Any ambiguity must be resolved in favor of disclosure.'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Presumption of Openness",
+      "statute_citation": "K.S.A. 45-218(a)",
+      "description": "Public records are presumed to be open for inspection unless specifically exempted by statute. Any person may inspect public records.",
+      "conditions": "Presumption applies unless specific exemption cited; burden on agency to prove exemption",
+      "applies_to": "All Kansas public records",
+      "implementation_notes": "Openness is default position; exemptions must be specifically established and proven",
+      "request_tips": "Assert presumption: 'K.S.A. 45-218(a) presumes these records are open for inspection. Please provide access unless you can cite and prove a specific exemption applies.'"
+    },
+    {
+      "category": "Timeliness Rights",
+      "subcategory": "3-Business-Day Written Response",
+      "statute_citation": "K.S.A. 45-218(d)",
+      "description": "Agencies must provide written response within 3 business days stating whether access will be granted. If records cannot be produced immediately, agency must notify requester of record custodian.",
+      "conditions": "3 business days from receipt; must be written response; must grant, deny, or redirect",
+      "applies_to": "All KORA requests",
+      "implementation_notes": "Quick response requirement ensures requesters aren't left in limbo; written requirement creates documentation",
+      "request_tips": "Demand response: 'K.S.A. 45-218(d) requires written response within 3 business days stating whether access will be granted. Please respond within this statutory deadline.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Written Denial Explanation Required",
+      "statute_citation": "K.S.A. 45-218(f)",
+      "description": "Written explanation required for any denial of access. Agencies must cite specific statutory basis for withholding.",
+      "conditions": "Denial must be in writing; must cite specific exemption statute; vague denials improper",
+      "applies_to": "All denials",
+      "implementation_notes": "Prevents agencies from simply refusing without justification; requester receives specific legal basis for challenge",
+      "request_tips": "Demand specificity: 'K.S.A. 45-218(f) requires written explanation citing the specific statutory exemption for any denial. Please provide detailed written justification.'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Access During Regular Office Hours",
+      "statute_citation": "K.S.A. 45-218(b)",
+      "description": "Records must be provided during regular office hours. Agencies must make records available for inspection during normal business operations.",
+      "conditions": "During regular office hours; agencies set reasonable hours for access",
+      "applies_to": "All inspection requests",
+      "implementation_notes": "Ensures consistent availability; requesters can plan visits during known business hours",
+      "request_tips": "Request inspection: 'Under K.S.A. 45-218(b), please provide access to [records] during your regular office hours. What are your hours for public records inspection?'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "No Unreasonable Burden Standard",
+      "statute_citation": "K.S.A. 45-218(e)",
+      "description": "Agencies cannot place unreasonable burden on production of records. Requests must be accommodated unless truly burdensome.",
+      "conditions": "Burden must be unreasonable to justify limitation; agencies must demonstrate unreasonableness",
+      "applies_to": "All requests",
+      "implementation_notes": "Protects against agencies claiming any effort is too burdensome; burden must be genuinely unreasonable",
+      "request_tips": "Challenge burden claim: 'K.S.A. 45-218(e) prohibits unreasonable burdens. Please explain specifically why my request imposes an unreasonable burden and cannot be accommodated.'"
+    },
+    {
+      "category": "Inspection Rights",
+      "subcategory": "Segregable Portions Requirement",
+      "statute_citation": "K.S.A. 45-221(a)",
+      "description": "Agencies must separate exempt from non-exempt information. Statistical information not describing identifiable persons may be disclosed even if other portions are exempt.",
+      "conditions": "Must redact only exempt portions; public portions disclosed; applies when records contain mixed content",
+      "applies_to": "Partially exempt records",
+      "implementation_notes": "Agencies cannot withhold entire document; must identify and separate exempt portions; statistical/aggregate data often releasable",
+      "request_tips": "Demand segregation: 'K.S.A. 45-221(a) requires you to separate and disclose non-exempt portions. Please provide redacted records showing what specific information is withheld.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Burden of Proof on Agency",
+      "statute_citation": "K.S.A. 45-222(c)",
+      "description": "Public agency bears the burden of proving that a record is exempt from disclosure. Requester does not have burden to prove entitlement.",
+      "conditions": "Applies in all judicial proceedings; agency must establish exemption applies; requester need not justify access",
+      "applies_to": "All contested denials in court",
+      "implementation_notes": "Burden-shifting protects requesters - you don't prove you deserve records; agency must prove exemption",
+      "request_tips": "In court: 'Under K.S.A. 45-222(c), your agency bears the burden of proving this exemption applies. I need not prove my entitlement to these public records.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "De Novo Court Review",
+      "statute_citation": "K.S.A. 45-222(c)",
+      "description": "Court determines public records matters de novo - fresh review without deference to agency decision. Court conducts independent evaluation.",
+      "conditions": "Applies in all judicial proceedings under KORA; court reviews matter anew; no deference to agency",
+      "applies_to": "All KORA litigation",
+      "implementation_notes": "Independent judicial review; agency gets no deference or presumption of correctness; court decides afresh",
+      "request_tips": "Note review standard: 'K.S.A. 45-222(c) provides for de novo court review - the judge will independently evaluate whether records should be disclosed, not simply defer to your agency's decision.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Attorney Fees for Bad Faith Denials",
+      "statute_citation": "K.S.A. 45-222(d)",
+      "description": "If court finds agency's denial was not in good faith, plaintiff can recover reasonable attorney fees, court costs, and other litigation expenses.",
+      "conditions": "Denial must be in bad faith; fees must be reasonable; court discretion based on good faith finding",
+      "applies_to": "Prevailing plaintiffs where agency acted in bad faith",
+      "implementation_notes": "Fee-shifting punishes bad faith denials; encourages agencies to act reasonably; makes enforcement financially viable",
+      "request_tips": "Warn of fees: 'K.S.A. 45-222(d) provides for attorney fees if your denial is found to be in bad faith. Please ensure your exemption claims are made in good faith.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Mandatory Training for Violators",
+      "statute_citation": "K.S.A. 45-222(c)",
+      "description": "Courts can require defendant public agencies to complete open records training as remedy for violations. Ensures future compliance.",
+      "conditions": "Court may order as remedy; applies to agencies found in violation; ensures education to prevent future violations",
+      "applies_to": "Public agencies that violate KORA",
+      "implementation_notes": "Unique remedial provision - court can order training to improve agency practices; prevents repeat violations",
+      "request_tips": "Request in litigation: 'Under K.S.A. 45-222(c), I request the court order your agency to complete open records training if violations are found.'"
+    },
+    {
+      "category": "Enhanced Access Rights",
+      "subcategory": "Cost Mitigation Contact Requirement",
+      "statute_citation": "K.S.A. 45-218",
+      "description": "Agencies must make reasonable efforts to contact requesters when staff time will exceed 5 hours or estimated cost will exceed $200. Allows requester to narrow or modify request.",
+      "conditions": "Required when time >5 hours or cost >$200; agency must contact before proceeding; gives requester opportunity to modify",
+      "applies_to": "Large or complex requests",
+      "implementation_notes": "Prevents surprise large bills; allows requesters to prioritize or narrow scope before costs accrue",
+      "request_tips": "Assert right: 'If costs will exceed $200 or require over 5 hours under K.S.A. 45-218, you must contact me before proceeding so I can narrow the request if needed.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "Attorney General Complaint Option",
+      "statute_citation": "K.S.A. 45-222",
+      "description": "Requesters may file complaints with Kansas Attorney General's Office regarding KORA violations. AG provides guidance and reviews complaints.",
+      "conditions": "Informal complaint process; AG provides guidance not binding determinations; accessible at (785) 296-2215",
+      "applies_to": "All KORA disputes",
+      "implementation_notes": "Administrative option before litigation; AG office provides expertise; no fee for complaint",
+      "request_tips": "Reference AG: 'I may file a complaint with the Kansas Attorney General's Office at (785) 296-2215 regarding your handling of this request.'"
+    },
+    {
+      "category": "Appeal Rights",
+      "subcategory": "District Court Enforcement",
+      "statute_citation": "K.S.A. 45-222(a)",
+      "description": "Any person denied access may bring civil action in district court for injunction, mandamus, or declaratory judgment to compel disclosure.",
+      "conditions": "File in district court; multiple remedy types available (injunction, mandamus, declaratory judgment); cases assigned at earliest practicable date",
+      "applies_to": "All denied KORA requests",
+      "implementation_notes": "Direct judicial access; no administrative exhaustion required; court prioritizes these cases for quick resolution",
+      "request_tips": "Note enforcement: 'K.S.A. 45-222(a) authorizes me to seek injunction, mandamus, or declaratory judgment in district court if this denial continues. Cases are expedited.'"
+    },
+    {
+      "category": "Technology Rights",
+      "subcategory": "Records in Any Medium",
+      "statute_citation": "K.S.A. 45-217",
+      "description": "Public records include any recorded information, regardless of form or characteristics. Electronic, paper, photographic, and all other media are covered.",
+      "conditions": "Medium-neutral definition; applies to all formats including electronic databases, recordings, photographs, etc.",
+      "applies_to": "All public records regardless of storage format",
+      "implementation_notes": "Ensures electronic records have same accessibility as paper; agencies cannot deny based on electronic format",
+      "request_tips": "For electronic records: 'K.S.A. 45-217 defines public records as information regardless of form. Please provide access to [database/electronic files] which are public records under this definition.'"
+    },
+    {
+      "category": "Proactive Disclosure",
+      "subcategory": "70-Year-Old Records Presumption",
+      "statute_citation": "K.S.A. 45-221",
+      "description": "Records over 70 years old are generally open for inspection. Historical records have enhanced accessibility.",
+      "conditions": "Applies to records more than 70 years old; presumption of access; some exceptions may still apply",
+      "applies_to": "Historical public records",
+      "implementation_notes": "Recognizes historical value and reduced privacy concerns for older records; supports historical research",
+      "request_tips": "For historical records: 'These records are over 70 years old and K.S.A. 45-221 presumes they are open for inspection.'"
+    }
+  ]
+}

@@ -1,232 +1,196 @@
-WEST VIRGINIA FREEDOM OF INFORMATION ACT
-West Virginia Code Chapter 29B-1
+VIRGINIA FREEDOM OF INFORMATION ACT (VFOIA)
+Code of Virginia Title 2.2, Chapter 37, §§ 2.2-3700 through 2.2-3714
 
 ==============================================================================
-OFFICIAL STATUTORY CITATION: W.Va. Code § 29B-1-1 et seq.
+OFFICIAL STATUTORY CITATION: Va. Code § 2.2-3700 et seq.
 EFFECTIVE DATE: Originally enacted, last amended 2024
-SOURCE: West Virginia Code
+SOURCE: Code of Virginia
 ==============================================================================
 
-WEST VIRGINIA FREEDOM OF INFORMATION ACT - COMPREHENSIVE STATUTORY PROVISIONS
+VIRGINIA FREEDOM OF INFORMATION ACT (VFOIA) - COMPREHENSIVE STATUTORY PROVISIONS
 
-§ 29B-1-1. SHORT TITLE AND LEGISLATIVE INTENT
+§ 2.2-3700. POLICY AND LEGISLATIVE INTENT
 
-This article may be cited as the "West Virginia Freedom of Information Act."
+This chapter may be cited as "The Virginia Freedom of Information Act."
 
-LEGISLATIVE POLICY:
-It is the policy of this state that all persons are, unless otherwise expressly provided by law, entitled to full and complete information regarding the affairs of government and the official acts of those who represent them as public officials and employees. The people, in delegating authority, do not give their public servants the right to decide what is good for the people to know and what is not good for them to know.
+POLICY STATEMENT:
+"The affairs of government are not intended to be conducted in an atmosphere of secrecy since at all times the public is to be the beneficiary of any action taken at any level of government."
 
-CONSTRUCTION MANDATE:
-To that end, the provisions of this article shall be liberally construed with the view of carrying out the above declaration of public policy, and no exemption from the provisions of this article shall be construed or applied so as to defeat the general policy expressed herein.
+PRESUMPTION OF OPENNESS:
+Unless a public body or its officers or employees specifically elect to exercise an exemption provided by this chapter or any other statute, every meeting shall be open to the public and all public records shall be available for inspection and copying upon request. All public records and meetings shall be presumed open, unless an exemption is properly invoked.
 
-§ 29B-1-2. DEFINITIONS
+LIBERAL CONSTRUCTION MANDATE:
+The provisions of this chapter shall be liberally construed to promote an increased awareness by all persons of governmental activities and afford every opportunity to citizens to witness the operations of government. Any exemption from public access to records or meetings shall be narrowly construed and no record shall be withheld or meeting closed to the public unless specifically made exempt pursuant to this chapter or other specific provision of law.
 
-"Public record" means any writing containing information prepared or received by a public body, the content or nature of which, judged either by itself or in the context with other writings, deals with the conduct of the public's business.
+PREEMPTION CLAUSE:
+Any ordinance adopted by a local governing body that conflicts with the provisions of this chapter shall be void.
 
-"Custodian" means the elected or appointed official charged with the responsibility of keeping and maintaining public records, whether personally or through subordinate employees.
+RESPONSE REQUIREMENTS AND PROCEDURES:
 
-"Person" includes any individual, partnership, committee, association, corporation or any other organization or group of persons.
+Response Timeframe: 5 working days maximum
+- Public bodies must respond to FOIA requests within 5 working days of receipt
+- "Day One" is the day after request is received
+- Weekends and holidays not counted
+- Requests received after 5:00 PM considered received next working day
 
-"Public body" means every state officer, agency, department, division, bureau, board and commission; every county and city governing body, school district, special district, municipal corporation, and any board, department, commission, council, or agency thereof.
+Extended Response Period:
+- If impossible to respond within 5 days, public body must state this in writing
+- Must explain conditions making response impossible
+- Grants 7 additional working days (total of 12 working days maximum)
 
-§ 29B-1-3. INSPECTION AND COPYING PROCEDURES
+REQUEST PROCEDURES:
 
-FUNDAMENTAL RIGHT:
-Every person has a right to inspect or copy any public record of a public body in this state, except as otherwise expressly provided by section four of this article, or other provisions of this code.
-
-RESPONSE REQUIREMENTS:
-
-Response Timeframe: 5 business days maximum
-- Custodian shall furnish proper and reasonable opportunities for inspection and examination
-- Must respond within five business days of receipt
-
-Response Options:
-The custodian may either:
-1. Furnish copies of the requested public record
-2. Advise the requester of the time and place for inspection and copying
-3. Deny the request in writing, providing the specific reasons and statutory citations
-
-REQUEST SPECIFICATIONS:
-- Must be made directly to custodian of records
-- Must state with reasonable specificity the information sought
+Format Requirements:
+- No specific format required for requests
 - May be oral or written (written recommended)
+- Must adequately identify desired records
+- Must be submitted to custodian of records
+
+Public Body Obligations:
+- Make reasonable efforts to reach agreement with requester
+- Provide records in requested format if readily available
+- Allow inspection at reasonable times and under reasonable circumstances
+- Protect records from damage or disorganization
 
 FEES AND COSTS:
 
 Allowable Charges:
-- A public body may charge reasonable fees for reproducing public records
-- Fees shall not exceed the actual cost to the public body
+- Actual costs of responding to FOIA requests
+- Staff time spent searching for records
+- Copying costs
+- Other costs directly related to supplying records
+- Cannot include general overhead costs
 
-PROHIBITED CHARGES:
-"A public body may not charge a search or retrieval fee."
+Deposit Requirements:
+- May require deposit if estimated cost exceeds $200
+- Must provide written estimate before requiring deposit
 
-Fee Guidelines:
-- Only actual reproduction costs permitted
-- No administrative overhead charges
-- No search time charges allowed
+APPEALS AND ENFORCEMENT:
 
-§ 29B-1-3A. REPORTING REQUIREMENTS
+NO ADMINISTRATIVE APPEALS:
+Virginia has no administrative appeal process - no appeal to Attorney General or other state agency
 
-FOIA REQUEST REGISTRY:
-Beginning January 1, 2016, each public body receiving a FOIA request must report to Secretary of State:
-- Nature of the request
-- Nature of the response
-- Timeframe necessary to comply
-- Reimbursement amounts charged
+JUDICIAL ENFORCEMENT ONLY:
 
-DATABASE MAINTENANCE:
-- Secretary of State maintains publicly accessible online database
-- Records are available for public inspection
-- Database searchable at erls.wvsos.gov/FOIA_Database/Search
+Mandamus/Injunction Proceedings:
+- Any person denied FOIA rights may file petition for mandamus or injunction
+- Must be supported by affidavit showing good cause
+- Filed in general district court or circuit court
 
-§ 29B-1-4. EXEMPTIONS
+Venue Requirements:
+- Court of county/city from which public body elected/appointed to serve
+- For regional bodies: court where principal business office located
 
-PERSONNEL RECORDS:
-- Public employee personnel files generally exempt
-- Salary, benefits, and job classification information public
+Hearing Requirements:
+- Petition heard within 7 days of filing
+- Opposing party must receive copy at least 3 working days prior
+- Expedited judicial review
 
-LAW ENFORCEMENT RECORDS:
-- Investigation records may be exempt while investigation active
-- Final disposition records generally public
+ATTORNEY FEES AND COSTS:
 
-ATTORNEY-CLIENT PRIVILEGE:
-- Communications protected by attorney-client privilege exempt
-- Legal advice to public bodies protected
+Recovery Standards:
+- Petitioner entitled to reasonable costs if substantially prevails
+- Includes costs and reasonable fees for expert witnesses
+- Includes attorney fees from public body
+- Unless special circumstances would make award unjust
 
-TRADE SECRETS:
-- Proprietary business information may be exempt
-- Must demonstrate competitive harm
+Factors Considered:
+- Court may consider public body's reliance on Attorney General opinion
+- Court may consider reliance on court decision supporting position
+- Good faith efforts by public body considered
 
-OTHER STATUTORY EXEMPTIONS:
-Various exemptions found throughout West Virginia Code
+EXEMPTIONS STRUCTURE:
 
-§ 29B-1-5. ENFORCEMENT AND REMEDIES
+Mandatory Exemptions:
+- Records specifically made confidential by law
+- Personnel records (with limited exceptions)
+- Medical and mental health records
+- Attorney-client privileged communications
+- Law enforcement investigative records (during active investigation)
 
-JUDICIAL ENFORCEMENT:
-- Any person denied access may petition circuit court
-- Court may order production of records
-- Proceeding given priority on court calendar
-
-MANDAMUS ACTION:
-- Writ of mandamus available to compel disclosure
-- Court may examine records in camera
-- Burden on public body to justify withholding
-
-ATTORNEY FEES:
-- Court may award reasonable attorney fees to substantially prevailing petitioner
-- Court may award costs and expenses
-- Public body liable for fees if denial found unreasonable
-
-PENALTIES:
-- Willful violation may result in removal from office
-- Criminal penalties for willful destruction of records
-- Civil liability for damages caused by improper denial
-
-§ 29B-1-6. MEETINGS AND PROCEEDINGS
-
-OPEN MEETINGS REQUIREMENT:
-- All meetings of public bodies presumed open
-- Public notice required for meetings
-- Minutes must be kept and made available
-
-CLOSED SESSION PROCEDURES:
-- Must cite specific exemption before closing
-- Vote to close must be recorded
-- Certification of discussion scope required
-
-ENFORCEMENT OF OPEN MEETINGS:
-- Same enforcement mechanisms as records requests
-- Court may void actions taken in improperly closed meetings
-- Attorney fees available for successful challenges
-
-APPEALS AND ADMINISTRATIVE REVIEW:
-
-ATTORNEY GENERAL OPINIONS:
-- State agencies may request Attorney General opinions on FOIA issues
-- Local agencies may also request AG guidance
-- Opinions not binding but persuasive authority
-
-COURT REVIEW:
-- Circuit court has jurisdiction over FOIA disputes
-- Expedited hearing procedures
-- Burden of proof on public body to justify denial
-
-REMEDIES AVAILABLE:
-- Injunctive relief to compel disclosure
-- Mandamus to require compliance
-- Attorney fees and costs
-- Damages for willful violations
+Discretionary Exemptions:
+- Public body may elect to exercise various exemptions
+- Must specifically invoke exemption with legal basis
+- Exemptions narrowly construed
 
 SPECIAL PROVISIONS:
 
-ELECTRONIC RECORDS:
-- Electronic records have same status as paper records
-- Format of production may be specified by requester if readily available
-- Agencies not required to create new formats
+Virginia Freedom of Information Advisory Council:
+- Provides guidance and training on FOIA compliance
+- Issues advisory opinions on FOIA matters
+- Maintains directory of FOIA officers
+- Located in legislative branch
 
-DESTRUCTION OF RECORDS:
-- Records cannot be destroyed while subject to FOIA request
-- Must follow approved retention schedules
-- Willful destruction to avoid disclosure is criminal offense
+FOIA Officer Requirements:
+- Each public body should designate FOIA officer
+- Officer serves as contact point for requests
+- Names maintained on Advisory Council website
 
-PRIVACY PROTECTIONS:
-- Personal privacy balanced against public interest
-- Social Security numbers generally exempt
-- Medical records protected
-- Home addresses of certain employees protected
+MEETINGS PROVISIONS:
 
-COMMERCIAL EXEMPTIONS:
-- Trade secrets protected from disclosure
-- Proprietary information may be exempt
-- Public contracts generally accessible after execution
+Open Meeting Requirements:
+- All meetings presumed open unless exempted
+- Electronic participation allowed under certain circumstances
+- Notice requirements for meetings
+- Recording and minutes requirements
+
+Closed Meeting Procedures:
+- Must cite specific exemption before closing
+- Must record vote to close meeting
+- Must certify discussion remained within exemption
 
 ENFORCEMENT MECHANISMS:
 
-Circuit Court Jurisdiction:
-- Primary venue for FOIA enforcement
-- Judge may examine records privately
-- Expedited calendar placement
+Court Remedies:
+- Mandamus to compel production
+- Injunctive relief to prevent violations
+- Award of attorney fees and costs
+- Sanctions for willful violations
 
-Administrative Support:
-- Secretary of State maintains FOIA database
-- Attorney General provides guidance through opinions
-- Training resources available to agencies
+Civil Penalties:
+- Knowing and willful violations subject to civil penalty
+- $500-$2000 fine for first offense
+- Up to $2000 for subsequent offenses
 
-Penalties and Sanctions:
-- Removal from office for willful violations
-- Criminal penalties for record destruction
-- Civil damages for improper denials
-- Attorney fees for successful challenges
+RECORDS RETENTION:
+
+Destruction Prohibitions:
+- Records cannot be destroyed while subject to FOIA request
+- Cannot be destroyed during litigation
+- Must follow approved retention schedules
+
+Electronic Records:
+- Same access rights as paper records
+- Format considerations for production
+- Metadata and system log requirements
+
+SPECIAL CONSIDERATIONS:
+
+Privacy Protections:
+- Personal information balanced against public interest
+- Social Security numbers generally exempt
+- Medical and mental health records protected
+
+Commercial Information:
+- Trade secrets and proprietary information may be exempt
+- Contract terms generally public
+- Competitive bidding information protected during process
 
 KEY STATUTORY AUTHORITY:
-W.Va. Code § 29B-1-3: "Every person has a right to inspect or copy any public record of a public body in this state, except as otherwise expressly provided..."
+Va. Code § 2.2-3700: "All public records and meetings shall be presumed open, unless an exemption is properly invoked."
 
 INTERPRETATION STANDARDS:
-- Liberal construction in favor of disclosure
+- Liberal construction in favor of access
 - Narrow construction of exemptions
-- Strong presumption of public access
 - Burden on public body to justify denial
-
-ADMINISTRATIVE OVERSIGHT:
-
-Secretary of State Role:
-- Maintains FOIA request database
-- Collects reporting data from agencies
-- Provides online search capability
-- Monitors compliance statistics
-
-Attorney General Role:
-- Issues advisory opinions on FOIA matters
-- Provides guidance to state and local agencies
-- Not binding authority but persuasive
-- Available for consultation on complex issues
+- Strong presumption of openness
 
 ==============================================================================
 COMPILATION NOTES:
-- Liberal construction mandate favoring disclosure
-- 5 business day response requirement
-- No search or retrieval fees permitted
-- Mandatory reporting to Secretary of State since 2016
-- Attorney General opinions available for guidance
-- Circuit court enforcement with attorney fees provision
+- No administrative appeals process - direct court review only
+- 5 working day response requirement with 7-day extension option
+- Comprehensive exemption structure with both mandatory and discretionary
+- Strong liberal construction mandate favoring disclosure
+- Virginia Freedom of Information Advisory Council provides guidance
+- Attorney fees available to successful petitioners
 ==============================================================================
