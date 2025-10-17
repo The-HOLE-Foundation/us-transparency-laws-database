@@ -1,0 +1,18 @@
+⚠️  WARNING: DO NOT IMPORT THESE FILES ⚠️
+
+These 21 jurisdictions have POOR QUALITY data:
+- Only 3-9 rights each (should be 15-25)
+- Clearly incomplete extraction
+- Missing obvious affirmative rights
+
+CURRENT DATABASE STATUS: 31/52 jurisdictions with GOOD data (686 rights)
+
+DO NOT import these files - they will pollute the database with incomplete data.
+
+NEXT STEP: Manual re-extraction from official statutes
+- Start with major states (PA, OH, MI, etc.)
+- Use California format as template
+- Extract 15-25 rights per state
+- Verify against current official .gov statute
+
+Once re-extracted with high quality, REPLACE these files and then import.
